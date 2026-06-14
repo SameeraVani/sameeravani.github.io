@@ -7,7 +7,9 @@
     "genre": "Science Fiction",
     "description": "A pioneering science fiction novella about a Victorian scientist who travels to the far future and discovers humanity split into two races: the peaceful Eloi and the underground Morlocks.",
     "coverUrl": "books/time-machine/cover.png",
-    "languages": ["english"],
+    "languages": [
+      "english"
+    ],
     "chapters": {
       "english": [
         {
@@ -36,7 +38,9 @@
     "genre": "Fantasy / Literary Nonsense",
     "description": "The classic story of a young girl named Alice who falls through a rabbit hole into a whimsical, fantastical world populated by peculiar, anthropomorphic creatures.",
     "coverUrl": "books/alice-in-wonderland/cover.png",
-    "languages": ["english"],
+    "languages": [
+      "english"
+    ],
     "chapters": {
       "english": [
         {
@@ -65,7 +69,14 @@
     "genre": "Scripture / Philosophy",
     "description": "The Bhagavad Gita is a 700-verse Hindu scripture that is part of the epic Mahabharata, containing a sacred conversation between Arjuna and Krishna on duty, self-realization, and devotion.",
     "coverUrl": "books/bhagavad-gita/cover.png",
-    "languages": ["english", "sanskrit", "hindi", "kannada", "tamil", "telugu"],
+    "languages": [
+      "english",
+      "sanskrit",
+      "hindi",
+      "kannada",
+      "tamil",
+      "telugu"
+    ],
     "localized": {
       "sanskrit": {
         "title": "भगवद्गीता",
@@ -189,6 +200,539 @@
           "id": "bhakti-yoga",
           "title": "అధ్యాయము 3: భక్తి యోగము",
           "path": "books/bhagavad-gita/te/ch3.md"
+        }
+      ]
+    }
+  },
+  {
+    "id": "nyaya-sudha",
+    "title": "Nyaya Sudha",
+    "author": "Sri Jayatirtha",
+    "year": "14th Century CE",
+    "genre": "Philosophy / Vedanta",
+    "description": "Nyaya Sudha is Jayatirtha's monumental Sanskrit commentary on Madhvacharya's Anuvyakhyana, providing a detailed critique of rival schools of Indian philosophy and establishing the core principles of Dvaita Vedanta.",
+    "coverUrl": "books/nyaya-sudha/cover.png",
+    "languages": [
+      "english",
+      "sanskrit",
+      "hindi",
+      "kannada",
+      "tamil",
+      "telugu"
+    ],
+    "localized": {
+      "sanskrit": {
+        "title": "न्यायसुधा",
+        "description": "न्यायसुधा श्रीजयतीर्थविरचिता श्रीमन्मध्वाचार्यकृत-अनुव्याख्यानस्य महाग्रन्थस्वरूपा टीका अस्ति। इयं द्वैतसिद्धान्तस्य प्रमुखस्तम्भः तथा परमतखण्डने स्वमतस्थापने च अग्रगण्यः ग्रन्थः वर्तते।"
+      },
+      "hindi": {
+        "title": "न्यायसुधा",
+        "description": "न्यायसुधा श्री जयतीर्थ द्वारा रचित श्रीमन्मध्वाचार्य के अनुव्याख्यान पर एक महान टीका ग्रन्थ है। यह ग्रन्थ द्वैत वेदान्त दर्शन के सिद्धान्तों को सुदृढ़ता से स्थापित करता है।"
+      },
+      "kannada": {
+        "title": "ನ್ಯಾಯಸುಧಾ",
+        "description": "ನ್ಯಾಯಸುಧಾ ಶ್ರೀ ಜಯತೀರ್ಥರು ಶ್ರೀಮನ್ಮಧ್ವಾಚಾರ್ಯರ ಅನುವ್ಯಾಖ್ಯಾನಕ್ಕೆ ಬರೆದ ಮಹೋನ್ನತ ಟೀಕಾ ಗ್ರಂಥವಾಗಿದೆ. ಇದು ದ್ವೈತ ಸಿದ್ಧಾಂತದ ಪ್ರಮುಖ ಆಧಾರಸ್ತಂಭವಾಗಿದ್ದು, ತತ್ವಶಾಸ್ತ್ರ ಲೋಕದಲ್ಲಿ ಅತ್ಯಂತ ಪ್ರಸಿದ್ಧವಾಗಿದೆ."
+      },
+      "tamil": {
+        "title": "நியாயசுதா",
+        "description": "நியாயசுதா என்பது ஸ்ரீ ஜெயதீர்த்தர் ஸ்ரீ மத்வாச்சாரியாரின் அனுவியாக்யானத்திற்கு எழுதிய ஒரு புகழ்பெற்ற உரையாகும். இது துவைத வேதாந்த தத்துவத்தின் தூணாகக் கருதப்படுகிறது."
+      },
+      "telugu": {
+        "title": "న్యాయసుధా",
+        "description": "న్యాయసుధా శ్రీ జయతీర్థులు శ్రీమన్మధ్వాచార్యుల అనువ్యాఖ్యానమునకు రచించిన మహాభాష్యము. ఇది ద్వైత సిద్ధాంతము యొక్క అత్యున్నత ప్రామాణిక గ్రంథము."
+      }
+    },
+    "chapters": {
+      "english": [
+        {
+          "id": "ad1-pada1",
+          "title": "Adhyaya 1, Pada 1 (First Adhyaya, First Pada)",
+          "path": "books/nyaya-sudha/en/ad1_pada1.md"
+        },
+        {
+          "id": "ad1-pada2",
+          "title": "Adhyaya 1, Pada 2 (First Adhyaya, Second Pada)",
+          "path": "books/nyaya-sudha/en/ad1_pada2.md"
+        },
+        {
+          "id": "ad1-pada3",
+          "title": "Adhyaya 1, Pada 3 (First Adhyaya, Third Pada)",
+          "path": "books/nyaya-sudha/en/ad1_pada3.md"
+        },
+        {
+          "id": "ad1-pada4",
+          "title": "Adhyaya 1, Pada 4 (First Adhyaya, Fourth Pada)",
+          "path": "books/nyaya-sudha/en/ad1_pada4.md"
+        },
+        {
+          "id": "ad2-pada1",
+          "title": "Adhyaya 2, Pada 1 (Second Adhyaya, First Pada)",
+          "path": "books/nyaya-sudha/en/ad2_pada1.md"
+        },
+        {
+          "id": "ad2-pada2",
+          "title": "Adhyaya 2, Pada 2 (Second Adhyaya, Second Pada)",
+          "path": "books/nyaya-sudha/en/ad2_pada2.md"
+        },
+        {
+          "id": "ad2-pada3",
+          "title": "Adhyaya 2, Pada 3 (Second Adhyaya, Third Pada)",
+          "path": "books/nyaya-sudha/en/ad2_pada3.md"
+        },
+        {
+          "id": "ad2-pada4",
+          "title": "Adhyaya 2, Pada 4 (Second Adhyaya, Fourth Pada)",
+          "path": "books/nyaya-sudha/en/ad2_pada4.md"
+        },
+        {
+          "id": "ad3-pada1",
+          "title": "Adhyaya 3, Pada 1 (Third Adhyaya, First Pada)",
+          "path": "books/nyaya-sudha/en/ad3_pada1.md"
+        },
+        {
+          "id": "ad3-pada2",
+          "title": "Adhyaya 3, Pada 2 (Third Adhyaya, Second Pada)",
+          "path": "books/nyaya-sudha/en/ad3_pada2.md"
+        },
+        {
+          "id": "ad3-pada3",
+          "title": "Adhyaya 3, Pada 3 (Third Adhyaya, Third Pada)",
+          "path": "books/nyaya-sudha/en/ad3_pada3.md"
+        },
+        {
+          "id": "ad3-pada4",
+          "title": "Adhyaya 3, Pada 4 (Third Adhyaya, Fourth Pada)",
+          "path": "books/nyaya-sudha/en/ad3_pada4.md"
+        },
+        {
+          "id": "ad4-pada1",
+          "title": "Adhyaya 4, Pada 1 (Fourth Adhyaya, First Pada)",
+          "path": "books/nyaya-sudha/en/ad4_pada1.md"
+        },
+        {
+          "id": "ad4-pada2",
+          "title": "Adhyaya 4, Pada 2 (Fourth Adhyaya, Second Pada)",
+          "path": "books/nyaya-sudha/en/ad4_pada2.md"
+        },
+        {
+          "id": "ad4-pada3",
+          "title": "Adhyaya 4, Pada 3 (Fourth Adhyaya, Third Pada)",
+          "path": "books/nyaya-sudha/en/ad4_pada3.md"
+        },
+        {
+          "id": "ad4-pada4",
+          "title": "Adhyaya 4, Pada 4 (Fourth Adhyaya, Fourth Pada)",
+          "path": "books/nyaya-sudha/en/ad4_pada4.md"
+        }
+      ],
+      "sanskrit": [
+        {
+          "id": "ad1-pada1",
+          "title": "अध्यायः १, पादः १ (प्रथमः अध्यायः, प्रथमः पादः)",
+          "path": "books/nyaya-sudha/sa/ad1_pada1.md"
+        },
+        {
+          "id": "ad1-pada2",
+          "title": "अध्यायः १, पादः २ (प्रथमः अध्यायः, द्वितीयः पादः)",
+          "path": "books/nyaya-sudha/sa/ad1_pada2.md"
+        },
+        {
+          "id": "ad1-pada3",
+          "title": "अध्यायः १, पादः ३ (प्रथमः अध्यायः, तृतीयः पादः)",
+          "path": "books/nyaya-sudha/sa/ad1_pada3.md"
+        },
+        {
+          "id": "ad1-pada4",
+          "title": "अध्यायः १, पादः ४ (प्रथमः अध्यायः, चतुर्थः पादः)",
+          "path": "books/nyaya-sudha/sa/ad1_pada4.md"
+        },
+        {
+          "id": "ad2-pada1",
+          "title": "अध्यायः २, पादः १ (द्वितीयः अध्यायः, प्रथमः पादः)",
+          "path": "books/nyaya-sudha/sa/ad2_pada1.md"
+        },
+        {
+          "id": "ad2-pada2",
+          "title": "अध्यायः २, पादः २ (द्वितीयः अध्यायः, द्वितीयः पादः)",
+          "path": "books/nyaya-sudha/sa/ad2_pada2.md"
+        },
+        {
+          "id": "ad2-pada3",
+          "title": "अध्यायः २, पादः ३ (द्वितीयः अध्यायः, तृतीयः पादः)",
+          "path": "books/nyaya-sudha/sa/ad2_pada3.md"
+        },
+        {
+          "id": "ad2-pada4",
+          "title": "अध्यायः २, पादः ४ (द्वितीयः अध्यायः, चतुर्थः पादः)",
+          "path": "books/nyaya-sudha/sa/ad2_pada4.md"
+        },
+        {
+          "id": "ad3-pada1",
+          "title": "अध्यायः ३, पादः १ (तृतीयः अध्यायः, प्रथमः पादः)",
+          "path": "books/nyaya-sudha/sa/ad3_pada1.md"
+        },
+        {
+          "id": "ad3-pada2",
+          "title": "अध्यायः ३, पादः २ (तृतीयः अध्यायः, द्वितीयः पादः)",
+          "path": "books/nyaya-sudha/sa/ad3_pada2.md"
+        },
+        {
+          "id": "ad3-pada3",
+          "title": "अध्यायः ३, पादः ३ (तृतीयः अध्यायः, तृतीयः पादः)",
+          "path": "books/nyaya-sudha/sa/ad3_pada3.md"
+        },
+        {
+          "id": "ad3-pada4",
+          "title": "अध्यायः ३, पादः ४ (तृतीयः अध्यायः, चतुर्थः पादः)",
+          "path": "books/nyaya-sudha/sa/ad3_pada4.md"
+        },
+        {
+          "id": "ad4-pada1",
+          "title": "अध्यायः ४, पादः १ (चतुर्थः अध्यायः, प्रथमः पादः)",
+          "path": "books/nyaya-sudha/sa/ad4_pada1.md"
+        },
+        {
+          "id": "ad4-pada2",
+          "title": "अध्यायः ४, पादः २ (चतुर्थः अध्यायः, द्वितीयः पादः)",
+          "path": "books/nyaya-sudha/sa/ad4_pada2.md"
+        },
+        {
+          "id": "ad4-pada3",
+          "title": "अध्यायः ४, पादः ३ (चतुर्थः अध्यायः, तृतीयः पादः)",
+          "path": "books/nyaya-sudha/sa/ad4_pada3.md"
+        },
+        {
+          "id": "ad4-pada4",
+          "title": "अध्यायः ४, पादः ४ (चतुर्थः अध्यायः, चतुर्थः पादः)",
+          "path": "books/nyaya-sudha/sa/ad4_pada4.md"
+        }
+      ],
+      "hindi": [
+        {
+          "id": "ad1-pada1",
+          "title": "अध्याय १, पाद १ (प्रथम अध्याय, प्रथम पाद)",
+          "path": "books/nyaya-sudha/hi/ad1_pada1.md"
+        },
+        {
+          "id": "ad1-pada2",
+          "title": "अध्याय १, पाद २ (प्रथम अध्याय, द्वितीय पाद)",
+          "path": "books/nyaya-sudha/hi/ad1_pada2.md"
+        },
+        {
+          "id": "ad1-pada3",
+          "title": "अध्याय १, पाद ३ (प्रथम अध्याय, तृतीय पाद)",
+          "path": "books/nyaya-sudha/hi/ad1_pada3.md"
+        },
+        {
+          "id": "ad1-pada4",
+          "title": "अध्याय १, पाद ४ (प्रथम अध्याय, चतुर्थ पाद)",
+          "path": "books/nyaya-sudha/hi/ad1_pada4.md"
+        },
+        {
+          "id": "ad2-pada1",
+          "title": "अध्याय २, पाद १ (द्वितीय अध्याय, प्रथम पाद)",
+          "path": "books/nyaya-sudha/hi/ad2_pada1.md"
+        },
+        {
+          "id": "ad2-pada2",
+          "title": "अध्याय २, पाद २ (द्वितीय अध्याय, द्वितीय पाद)",
+          "path": "books/nyaya-sudha/hi/ad2_pada2.md"
+        },
+        {
+          "id": "ad2-pada3",
+          "title": "अध्याय २, पाद ३ (द्वितीय अध्याय, तृतीय पाद)",
+          "path": "books/nyaya-sudha/hi/ad2_pada3.md"
+        },
+        {
+          "id": "ad2-pada4",
+          "title": "अध्याय २, पाद ४ (द्वितीय अध्याय, चतुर्थ पाद)",
+          "path": "books/nyaya-sudha/hi/ad2_pada4.md"
+        },
+        {
+          "id": "ad3-pada1",
+          "title": "अध्याय ३, पाद १ (तृतीय अध्याय, प्रथम पाद)",
+          "path": "books/nyaya-sudha/hi/ad3_pada1.md"
+        },
+        {
+          "id": "ad3-pada2",
+          "title": "अध्याय ३, पाद २ (तृतीय अध्याय, द्वितीय पाद)",
+          "path": "books/nyaya-sudha/hi/ad3_pada2.md"
+        },
+        {
+          "id": "ad3-pada3",
+          "title": "अध्याय ३, पाद ३ (तृतीय अध्याय, तृतीय पाद)",
+          "path": "books/nyaya-sudha/hi/ad3_pada3.md"
+        },
+        {
+          "id": "ad3-pada4",
+          "title": "अध्याय ३, पाद ४ (तृतीय अध्याय, चतुर्थ पाद)",
+          "path": "books/nyaya-sudha/hi/ad3_pada4.md"
+        },
+        {
+          "id": "ad4-pada1",
+          "title": "अध्याय ४, पाद १ (चतुर्थ अध्याय, प्रथम पाद)",
+          "path": "books/nyaya-sudha/hi/ad4_pada1.md"
+        },
+        {
+          "id": "ad4-pada2",
+          "title": "अध्याय ४, पाद २ (चतुर्थ अध्याय, द्वितीय पाद)",
+          "path": "books/nyaya-sudha/hi/ad4_pada2.md"
+        },
+        {
+          "id": "ad4-pada3",
+          "title": "अध्याय ४, पाद ३ (चतुर्थ अध्याय, तृतीय पाद)",
+          "path": "books/nyaya-sudha/hi/ad4_pada3.md"
+        },
+        {
+          "id": "ad4-pada4",
+          "title": "अध्याय ४, पाद ४ (चतुर्थ अध्याय, चतुर्थ पाद)",
+          "path": "books/nyaya-sudha/hi/ad4_pada4.md"
+        }
+      ],
+      "kannada": [
+        {
+          "id": "ad1-pada1",
+          "title": "ಅಧ್ಯಾಯ ೧, ಪಾದ ೧ (ಮೊದಲನೇ ಅಧ್ಯಾಯ, ಮೊದಲನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad1_pada1.md"
+        },
+        {
+          "id": "ad1-pada2",
+          "title": "ಅಧ್ಯಾಯ ೧, ಪಾದ ೨ (ಮೊದಲನೇ ಅಧ್ಯಾಯ, ಎರಡನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad1_pada2.md"
+        },
+        {
+          "id": "ad1-pada3",
+          "title": "ಅಧ್ಯಾಯ ೧, ಪಾದ ೩ (ಮೊದಲನೇ ಅಧ್ಯಾಯ, ಮೂರನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad1_pada3.md"
+        },
+        {
+          "id": "ad1-pada4",
+          "title": "ಅಧ್ಯಾಯ ೧, ಪಾದ ೪ (ಮೊದಲನೇ ಅಧ್ಯಾಯ, ನಾಲ್ಕನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad1_pada4.md"
+        },
+        {
+          "id": "ad2-pada1",
+          "title": "ಅಧ್ಯಾಯ ೨, ಪಾದ ೧ (ಎರಡನೇ ಅಧ್ಯಾಯ, ಮೊದಲನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad2_pada1.md"
+        },
+        {
+          "id": "ad2-pada2",
+          "title": "ಅಧ್ಯಾಯ ೨, ಪಾದ ೨ (ಎರಡನೇ ಅಧ್ಯಾಯ, ಎರಡನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad2_pada2.md"
+        },
+        {
+          "id": "ad2-pada3",
+          "title": "ಅಧ್ಯಾಯ ೨, ಪಾದ ೩ (ಎರಡನೇ ಅಧ್ಯಾಯ, ಮೂರನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad2_pada3.md"
+        },
+        {
+          "id": "ad2-pada4",
+          "title": "ಅಧ್ಯಾಯ ೨, ಪಾದ ೪ (ಎರಡನೇ ಅಧ್ಯಾಯ, ನಾಲ್ಕನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad2_pada4.md"
+        },
+        {
+          "id": "ad3-pada1",
+          "title": "ಅಧ್ಯಾಯ ೩, ಪಾದ ೧ (ಮೂರನೇ ಅಧ್ಯಾಯ, ಮೊದಲನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad3_pada1.md"
+        },
+        {
+          "id": "ad3-pada2",
+          "title": "ಅಧ್ಯಾಯ ೩, ಪಾದ ೨ (ಮೂರನೇ ಅಧ್ಯಾಯ, ಎರಡನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad3_pada2.md"
+        },
+        {
+          "id": "ad3-pada3",
+          "title": "ಅಧ್ಯಾಯ ೩, ಪಾದ ೩ (ಮೂರನೇ ಅಧ್ಯಾಯ, ಮೂರನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad3_pada3.md"
+        },
+        {
+          "id": "ad3-pada4",
+          "title": "ಅಧ್ಯಾಯ ೩, ಪಾದ ೪ (ಮೂರನೇ ಅಧ್ಯಾಯ, ನಾಲ್ಕನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad3_pada4.md"
+        },
+        {
+          "id": "ad4-pada1",
+          "title": "ಅಧ್ಯಾಯ ೪, ಪಾದ ೧ (ನಾಲ್ಕನೇ ಅಧ್ಯಾಯ, ಮೊದಲನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad4_pada1.md"
+        },
+        {
+          "id": "ad4-pada2",
+          "title": "ಅಧ್ಯಾಯ ೪, ಪಾದ ೨ (ನಾಲ್ಕನೇ ಅಧ್ಯಾಯ, ಎರಡನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad4_pada2.md"
+        },
+        {
+          "id": "ad4-pada3",
+          "title": "ಅಧ್ಯಾಯ ೪, ಪಾದ ೩ (ನಾಲ್ಕನೇ ಅಧ್ಯಾಯ, ಮೂರನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad4_pada3.md"
+        },
+        {
+          "id": "ad4-pada4",
+          "title": "ಅಧ್ಯಾಯ ೪, ಪಾದ ೪ (ನಾಲ್ಕನೇ ಅಧ್ಯಾಯ, ನಾಲ್ಕನೇ ಪಾದ)",
+          "path": "books/nyaya-sudha/kn/ad4_pada4.md"
+        }
+      ],
+      "tamil": [
+        {
+          "id": "ad1-pada1",
+          "title": "அத்தியாயம் 1, பாதம் 1 (முதல் அத்தியாயம், முதல் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad1_pada1.md"
+        },
+        {
+          "id": "ad1-pada2",
+          "title": "அத்தியாயம் 1, பாதம் 2 (முதல் அத்தியாயம், இரண்டாம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad1_pada2.md"
+        },
+        {
+          "id": "ad1-pada3",
+          "title": "அத்தியாயம் 1, பாதம் 3 (முதல் அத்தியாயம், மூன்றாம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad1_pada3.md"
+        },
+        {
+          "id": "ad1-pada4",
+          "title": "அத்தியாயம் 1, பாதம் 4 (முதல் அத்தியாயம், நான்காம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad1_pada4.md"
+        },
+        {
+          "id": "ad2-pada1",
+          "title": "அத்தியாயம் 2, பாதம் 1 (இரண்டாம் அத்தியாயம், முதல் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad2_pada1.md"
+        },
+        {
+          "id": "ad2-pada2",
+          "title": "அத்தியாயம் 2, பாதம் 2 (இரண்டாம் அத்தியாயம், இரண்டாம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad2_pada2.md"
+        },
+        {
+          "id": "ad2-pada3",
+          "title": "அத்தியாயம் 2, பாதம் 3 (இரண்டாம் அத்தியாயம், மூன்றாம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad2_pada3.md"
+        },
+        {
+          "id": "ad2-pada4",
+          "title": "அத்தியாயம் 2, பாதம் 4 (இரண்டாம் அத்தியாயம், நான்காம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad2_pada4.md"
+        },
+        {
+          "id": "ad3-pada1",
+          "title": "அத்தியாயம் 3, பாதம் 1 (மூன்றாம் அத்தியாயம், முதல் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad3_pada1.md"
+        },
+        {
+          "id": "ad3-pada2",
+          "title": "அத்தியாயம் 3, பாதம் 2 (மூன்றாம் அத்தியாயம், இரண்டாம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad3_pada2.md"
+        },
+        {
+          "id": "ad3-pada3",
+          "title": "அத்தியாயம் 3, பாதம் 3 (மூன்றாம் அத்தியாயம், மூன்றாம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad3_pada3.md"
+        },
+        {
+          "id": "ad3-pada4",
+          "title": "அத்தியாயம் 3, பாதம் 4 (மூன்றாம் அத்தியாயம், நான்காம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad3_pada4.md"
+        },
+        {
+          "id": "ad4-pada1",
+          "title": "அத்தியாயம் 4, பாதம் 1 (நான்காம் அத்தியாயம், முதல் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad4_pada1.md"
+        },
+        {
+          "id": "ad4-pada2",
+          "title": "அத்தியாயம் 4, பாதம் 2 (நான்காம் அத்தியாயம், இரண்டாம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad4_pada2.md"
+        },
+        {
+          "id": "ad4-pada3",
+          "title": "அத்தியாயம் 4, பாதம் 3 (நான்காம் அத்தியாயம், மூன்றாம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad4_pada3.md"
+        },
+        {
+          "id": "ad4-pada4",
+          "title": "அத்தியாயம் 4, பாதம் 4 (நான்காம் அத்தியாயம், நான்காம் பாதம்)",
+          "path": "books/nyaya-sudha/ta/ad4_pada4.md"
+        }
+      ],
+      "telugu": [
+        {
+          "id": "ad1-pada1",
+          "title": "అధ్యాయము 1, పాదము 1 (మొదటి అధ్యాయము, మొదటి పాదము)",
+          "path": "books/nyaya-sudha/te/ad1_pada1.md"
+        },
+        {
+          "id": "ad1-pada2",
+          "title": "అధ్యాయము 1, పాదము 2 (మొదటి అధ్యాయము, రెండవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad1_pada2.md"
+        },
+        {
+          "id": "ad1-pada3",
+          "title": "అధ్యాయము 1, పాదము 3 (మొదటి అధ్యాయము, మూడవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad1_pada3.md"
+        },
+        {
+          "id": "ad1-pada4",
+          "title": "అధ్యాయము 1, పాదము 4 (మొదటి అధ్యాయము, నాల్గవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad1_pada4.md"
+        },
+        {
+          "id": "ad2-pada1",
+          "title": "అధ్యాయము 2, పాదము 1 (రెండవ అధ్యాయము, మొదటి పాదము)",
+          "path": "books/nyaya-sudha/te/ad2_pada1.md"
+        },
+        {
+          "id": "ad2-pada2",
+          "title": "అధ్యాయము 2, పాదము 2 (రెండవ అధ్యాయము, రెండవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad2_pada2.md"
+        },
+        {
+          "id": "ad2-pada3",
+          "title": "అధ్యాయము 2, పాదము 3 (రెండవ అధ్యాయము, మూడవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad2_pada3.md"
+        },
+        {
+          "id": "ad2-pada4",
+          "title": "అధ్యాయము 2, పాదము 4 (రెండవ అధ్యాయము, నాల్గవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad2_pada4.md"
+        },
+        {
+          "id": "ad3-pada1",
+          "title": "అధ్యాయము 3, పాదము 1 (మూడవ అధ్యాయము, మొదటి పాదము)",
+          "path": "books/nyaya-sudha/te/ad3_pada1.md"
+        },
+        {
+          "id": "ad3-pada2",
+          "title": "అధ్యాయము 3, పాదము 2 (మూడవ అధ్యాయము, రెండవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad3_pada2.md"
+        },
+        {
+          "id": "ad3-pada3",
+          "title": "అధ్యాయము 3, పాదము 3 (మూడవ అధ్యాయము, మూడవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad3_pada3.md"
+        },
+        {
+          "id": "ad3-pada4",
+          "title": "అధ్యాయము 3, పాదము 4 (మూడవ అధ్యాయము, నాల్గవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad3_pada4.md"
+        },
+        {
+          "id": "ad4-pada1",
+          "title": "అధ్యాయము 4, పాదము 1 (నాల్గవ అధ్యాయము, మొదటి పాదము)",
+          "path": "books/nyaya-sudha/te/ad4_pada1.md"
+        },
+        {
+          "id": "ad4-pada2",
+          "title": "అధ్యాయము 4, పాదము 2 (నాల్గవ అధ్యాయము, రెండవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad4_pada2.md"
+        },
+        {
+          "id": "ad4-pada3",
+          "title": "అధ్యాయము 4, పాదము 3 (నాల్గవ అధ్యాయము, మూడవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad4_pada3.md"
+        },
+        {
+          "id": "ad4-pada4",
+          "title": "అధ్యాయము 4, పాదము 4 (నాల్గవ అధ్యాయము, నాల్గవ పాదము)",
+          "path": "books/nyaya-sudha/te/ad4_pada4.md"
         }
       ]
     }
