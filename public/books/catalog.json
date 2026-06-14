@@ -1,0 +1,196 @@
+[
+  {
+    "id": "time-machine",
+    "title": "The Time Machine",
+    "author": "H. G. Wells",
+    "year": "1895",
+    "genre": "Science Fiction",
+    "description": "A pioneering science fiction novella about a Victorian scientist who travels to the far future and discovers humanity split into two races: the peaceful Eloi and the underground Morlocks.",
+    "coverUrl": "books/time-machine/cover.png",
+    "languages": ["english"],
+    "chapters": {
+      "english": [
+        {
+          "id": "introduction",
+          "title": "Introduction & The Time Traveller",
+          "path": "books/time-machine/ch1.md"
+        },
+        {
+          "id": "golden-age",
+          "title": "The Golden Age & The Eloi",
+          "path": "books/time-machine/ch2.md"
+        },
+        {
+          "id": "morlocks",
+          "title": "The Morlocks & Dark Discoveries",
+          "path": "books/time-machine/ch3.md"
+        }
+      ]
+    }
+  },
+  {
+    "id": "alice-in-wonderland",
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": "1865",
+    "genre": "Fantasy / Literary Nonsense",
+    "description": "The classic story of a young girl named Alice who falls through a rabbit hole into a whimsical, fantastical world populated by peculiar, anthropomorphic creatures.",
+    "coverUrl": "books/alice-in-wonderland/cover.png",
+    "languages": ["english"],
+    "chapters": {
+      "english": [
+        {
+          "id": "rabbit-hole",
+          "title": "Chapter I: Down the Rabbit-Hole",
+          "path": "books/alice-in-wonderland/ch1.md"
+        },
+        {
+          "id": "pool-of-tears",
+          "title": "Chapter II: The Pool of Tears",
+          "path": "books/alice-in-wonderland/ch2.md"
+        },
+        {
+          "id": "caucus-race",
+          "title": "Chapter III: A Caucus-Race and a Long Tale",
+          "path": "books/alice-in-wonderland/ch3.md"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bhagavad-gita",
+    "title": "Bhagavad Gita",
+    "author": "Vyasa",
+    "year": "500 BCE",
+    "genre": "Scripture / Philosophy",
+    "description": "The Bhagavad Gita is a 700-verse Hindu scripture that is part of the epic Mahabharata, containing a sacred conversation between Arjuna and Krishna on duty, self-realization, and devotion.",
+    "coverUrl": "books/bhagavad-gita/cover.png",
+    "languages": ["english", "sanskrit", "hindi", "kannada", "tamil", "telugu"],
+    "localized": {
+      "sanskrit": {
+        "title": "भगवद्गीता",
+        "description": "भगवद्गीता महाभारत महाकाव्य का एक ७००-श्लोक वाला हिंदू ग्रंथ है, जिसमें अर्जुन और उनके सारथी श्री कृष्ण के बीच कर्तव्य, आत्म-साक्षात्कार और भक्ति पर चर्चा है।"
+      },
+      "hindi": {
+        "title": "श्रीमद्भगवद्गीता",
+        "description": "भगवद्गीता महाभारत के भीष्म पर्व का एक हिस्सा है, जिसमें भगवान कृष्ण अर्जुन को निष्काम कर्मयोग, ज्ञानयोग और भक्तियोग का दिव्य उपदेश देते हैं।"
+      },
+      "kannada": {
+        "title": "ಭಗವದ್ಗೀತೆ",
+        "description": "ಭಗವದ್ಗೀತೆಯು ಮಹಾಭಾರತದ ಭೀಷ್ಮಪರ್ವದ ಭಾಗವಾಗಿದ್ದು, ಶ್ರೀ ಕೃಷ್ಣನು ಅರ್ಜುನನಿಗೆ ಕರ್ತವ್ಯ, ಜ್ಞಾನ ಮತ್ತು ಭಕ್ತಿ ಮಾರ್ಗಗಳ ಕುರಿತು ನೀಡಿದ ದಿವ್ಯ ಸಂದೇಶವಾಗಿದೆ."
+      },
+      "tamil": {
+        "title": "பகவத் கீதை",
+        "description": "மகாபாரதத்தின் பீஷ்ம பர்வத்தில் இடம்பெற்றுள்ள பகவத் கீதை, அர்ஜுனனுக்கும் கிருஷ்ணருக்கும் இடையேயான கடமை, ஆத்ம ஞானம் மற்றும் பக்தி பற்றிய உரையாடலாகும்."
+      },
+      "telugu": {
+        "title": "భగవద్గీత",
+        "description": "భగవద్గీత మహాభారతంలోని భీష్మపర్వమున కలదు. యుద్ధరంగంలో శ్రీ కృష్ణుడు అర్జునునికి కర్తవ్యము, మోక్షము మరియు భక్తి గురించి చేసిన దివ్యబోధ."
+      }
+    },
+    "chapters": {
+      "english": [
+        {
+          "id": "karma-yoga",
+          "title": "Chapter I: The Yoga of Action (Karma Yoga)",
+          "path": "books/bhagavad-gita/en/ch1.md"
+        },
+        {
+          "id": "jnana-yoga",
+          "title": "Chapter II: The Yoga of Knowledge (Jnana Yoga)",
+          "path": "books/bhagavad-gita/en/ch2.md"
+        },
+        {
+          "id": "bhakti-yoga",
+          "title": "Chapter III: The Yoga of Devotion (Bhakti Yoga)",
+          "path": "books/bhagavad-gita/en/ch3.md"
+        }
+      ],
+      "sanskrit": [
+        {
+          "id": "karma-yoga",
+          "title": "प्रथमोऽध्यायः: कर्मयोगः",
+          "path": "books/bhagavad-gita/sa/ch1.md"
+        },
+        {
+          "id": "jnana-yoga",
+          "title": "द्वितीयोऽध्यायः: सांख्ययोगः",
+          "path": "books/bhagavad-gita/sa/ch2.md"
+        },
+        {
+          "id": "bhakti-yoga",
+          "title": "तृतीयोऽध्यायः: भक्तियोगः",
+          "path": "books/bhagavad-gita/sa/ch3.md"
+        }
+      ],
+      "hindi": [
+        {
+          "id": "karma-yoga",
+          "title": "अध्याय १: कर्म योग",
+          "path": "books/bhagavad-gita/hi/ch1.md"
+        },
+        {
+          "id": "jnana-yoga",
+          "title": "अध्याय २: ज्ञान योग",
+          "path": "books/bhagavad-gita/hi/ch2.md"
+        },
+        {
+          "id": "bhakti-yoga",
+          "title": "अध्याय ३: भक्ति योग",
+          "path": "books/bhagavad-gita/hi/ch3.md"
+        }
+      ],
+      "kannada": [
+        {
+          "id": "karma-yoga",
+          "title": "ಅಧ್ಯಾಯ ೧: ಕರ್ಮ ಯೋಗ",
+          "path": "books/bhagavad-gita/kn/ch1.md"
+        },
+        {
+          "id": "jnana-yoga",
+          "title": "ಅಧ್ಯಾಯ ೨: ಜ್ಞಾನ ಯೋಗ (ಸಾಂಖ್ಯಯೋಗ)",
+          "path": "books/bhagavad-gita/kn/ch2.md"
+        },
+        {
+          "id": "bhakti-yoga",
+          "title": "ಅಧ್ಯಾಯ ೩: ಭಕ್ತಿ ಯೋಗ",
+          "path": "books/bhagavad-gita/kn/ch3.md"
+        }
+      ],
+      "tamil": [
+        {
+          "id": "karma-yoga",
+          "title": "அத்தியாயம் 1: கர்ம யோகம்",
+          "path": "books/bhagavad-gita/ta/ch1.md"
+        },
+        {
+          "id": "jnana-yoga",
+          "title": "அத்தியாயம் 2: ஞான யோகம் (சாங்கிய யோகம்)",
+          "path": "books/bhagavad-gita/ta/ch2.md"
+        },
+        {
+          "id": "bhakti-yoga",
+          "title": "அத்தியாயம் 3: பக்தி யோகம்",
+          "path": "books/bhagavad-gita/ta/ch3.md"
+        }
+      ],
+      "telugu": [
+        {
+          "id": "karma-yoga",
+          "title": "అధ్యాయము 1: కర్మ యోగము",
+          "path": "books/bhagavad-gita/te/ch1.md"
+        },
+        {
+          "id": "jnana-yoga",
+          "title": "అధ్యాయము 2: జ్ఞాన యోగము (సాంఖ్యయోగము)",
+          "path": "books/bhagavad-gita/te/ch2.md"
+        },
+        {
+          "id": "bhakti-yoga",
+          "title": "అధ్యాయము 3: భక్తి యోగము",
+          "path": "books/bhagavad-gita/te/ch3.md"
+        }
+      ]
+    }
+  }
+]
