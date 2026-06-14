@@ -22,7 +22,7 @@ export const Catalog: React.FC<CatalogProps> = ({
   const [selectedGenre, setSelectedGenre] = useState<string>('all');
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}books/catalog.json`)
+    fetch(`${import.meta.env.BASE_URL}books/catalog.json?t=${Date.now()}`)
       .then((res) => {
         if (!res.ok) {
           throw new Error('Failed to load book catalog. Please ensure books/catalog.json exists.');

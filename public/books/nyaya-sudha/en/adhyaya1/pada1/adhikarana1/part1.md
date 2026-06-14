@@ -17,8 +17,8 @@ Feel free to edit this file with your article/topic notes.
 **The commentary written by Śrīmad Jayatīrtha Muni on Śrīmad Brahmasūtrānuvyākhyāna, composed by Śrīmad Ānandatīrtha Bhagavatpādācārya**  
 **Śrīmannyāyasudhā**
 
-ॐ ।। श्रियः पत्ये नित्यागणितगुणमाणिक्यविशदप्रभाजालोल्लासोपहतसकलावद्यतमसे ।  
-जगज्जन्मस्थेमप्रलयरचनाशीलवपुषे नमोऽशेषाम्नायस्मृतिहृदयदीप्ताय हरये ।। १ ।।
+oṃ || śriyaḥ patye nityāgaṇitaguṇamāṇikyaviśadaprabhājālollāsopahatasakalāvadyatamase |  
+jagajjanmasthemapralayaracanāśīlavapuṣe namo'śeṣāmnāyasmṛtihṛdaydīptāya haraye || 1 ||
 
 **Sameeravani**  
 This work is a commentary on the work named 'Anuvyakhyana' composed by Srimad Madhvacharya, and its authorship is by Srimad Jayatirtha Muni. The name of this work is 'Srimannyayasudha'.
@@ -33,8 +33,8 @@ This work is a commentary on the work named 'Anuvyakhyana' composed by Srimad Ma
 **Bhava-Artha (Overall Meaning):** May my salutations be to Sri Hari, the consort of Sri Mahalakshmi, who destroys the darkness of all flaws with the divine luster of His eternal and countless auspicious attributes, whose divine form naturally creates, sustains, and dissolves the universe, who is the ultimate import of all the Vedas, Smritis, and Puranas, and who is the remover of all sins of His devotees.
 
 **Nyayasudha**  
-येन प्रादुरभावि भूमिवलये व्यस्तारि गोसन्ततिः प्राबोधि श्रुतिपङ्कजं करुणया प्राकाशि तत्त्वं परम् ।  
-ध्वान्तं ध्वंसमनायि साधुनिकरश्चाकारि सन्मार्गगस्तेन व्यासदिवाकरेण सततं मा त्याजि मे मानसम् ।। २ ।।
+yena prādurabhāvi bhūmivalaye vyastāri gosantatiḥ prābodhi śrutipaṅkajaṃ karuṇayā prākāśi tattvaṃ param |  
+dhvāntaṃ dhvaṃsamānāyi sādhunikaraś cākāri sanmārgagas tena vyāsadivākareṇa satataṃ mā tyāji me mānasam || 2 ||
 
 **Sameeravani**
 
@@ -62,8 +62,8 @@ This work is a commentary on the work named 'Anuvyakhyana' composed by Srimad Ma
 **Bhava-Artha:** May my mind never be abandoned by the all-powerful sun in the form of Sri Vedavyasa, who incarnated on this earth and, out of deep compassion, expanded the Vedic literature, caused the lotus of the Vedas to blossom, revealed the supreme truth (Sri Hari), destroyed the darkness of ignorance, and guided the virtuous onto the path of liberation. May He always shine within my heart.
 
 **Nyayasudha**  
-व्याप्तिर्यस्य निजे निजेन महसा पक्षे सपक्षे स्थितिर्व्यावृत्तिश्च विपक्षतोऽथ विषये सक्तिर्नवै बाधिते ।   
-नैवास्ति प्रतिपक्षयुक्तिरतुलं शुद्धं प्रमाणं स मे भूयात् तत्वविनिर्णयाय भगवानानन्दतीर्थो मुनिः ।। ३ ।।
+vyāptir yasya nije nijena mahasā pakṣe sapakṣe sthitir vyāvṛttiś ca vipakṣato'tha viṣaye saktir na vai bādhite |  
+naivāsti pratipakṣayuktir atulaṃ śuddhaṃ pramāṇaṃ sa me bhūyāt tattvavinirṇayāya bhagavān ānandatīrtho muniḥ || 3 ||
 
 **Sameeravani**
 
@@ -107,8 +107,8 @@ The end of *Parimala* also notes that some thinkers identify the Vedas, the Maha
 
 ---
 
-भवति यदनुभावादेडमूकोऽपि वाग्मी जडमतिरपि जन्तुर्जायते प्राज्ञमौलिः ।   
-सकलवचनचेतोदेवता भारती सा मम वचसि निधत्तां सन्निधिं मानसे च ।। ४ ।।
+bhavati yadanubhāvād eḍamūko'pi vāgmī jaḍamatir api jantur jāyate prājñamauliḥ |  
+sakalavacanacetodevatā bhāratī sā mama vacasi nidhattāṃ sannidhiṃ mānase ca || 4 ||
 
 **Sameeravani**  
 
@@ -141,8 +141,8 @@ According to this commentary, praying for Goddess Bharati's presence in speech a
 
 ---
 
-रमानिवासोचितवासभूमिः सन्न्यायरत्नावलिजन्मभूमिः ।   
-वैराग्यभाग्यो मम पद्मनाभतीर्थामृताब्धिर्भवताद् विभूत्यै ।। ५ ।।
+ramānivāsocitavāsabhūmiḥ sannyāyaratnāvalijanmabhūmiḥ |  
+vairāgyabhāgyo mama padmanābhatīrthāmṛtābdhir bhavatād vibhūtyai || 5 ||
 
 **Sameeravani**  
 
@@ -185,7 +185,7 @@ The commentary implies that Srimad Padmanabha Tirtha's *Sannyayaratnavali* is th
 
 ---
 
-पदवाक्यप्रमाणज्ञान् प्रतिवादिमदच्छिदः । श्रीमदक्षोभ्यतीर्थाख्यानुपतिष्ठे गुरून् मम ।। ६ ।। 
+padavākyapramāṇajñān prativādimadacchidaḥ | śrīmadakṣobhyatīrthākhyān upatiṣṭhe gurūn mama || 6 || 
 
 **Sameeravani**  
 
@@ -219,7 +219,7 @@ Srimad Akshobhya Tirtha was not just a lineage head, but a scholar of the highes
 
 ---
 
-श्रीमदानन्दतीर्थार्यसन्मनःसरसीभुवि । अनुव्याख्याननलिने चश्चरीकति मे मनः ।। ७ ।। 
+śrīmadānandatīrthāryasanmanaḥsarasībhuvi | anuvyākhyānanaline cañcarīkati me manaḥ || 7 || 
 
 **Sameeravani**  
 
@@ -256,7 +256,7 @@ Just as a bee hovers around a lotus to drink its nectar, Srimad Jayatirtha's min
 
 ---
 
-न शब्दाब्धौ गाढा नच निगमचर्चासु चतुरा नच न्याये प्रौढा नच विदितवेद्या अपि वयम् । परं श्रीमत्पूर्णप्रमतिगुरुकारुण्यसरणिं प्रपन्ना मान्याः स्मः किमपि वदन्तोऽपि महताम् ।। ८ ।।
+na śabdābdhau gāḍhā na ca nigamacarcāsu caturā na ca nyāye prauḍhā na ca viditavedyā api vayam | paraṃ śrīmatpūrṇapramatigurukāruṇyasaraṇiṃ prapannā mānyāḥ smaḥ kimapi vadanto'pi mahatām || 8 ||
 
 **Sameeravani**  
 
@@ -331,8 +331,8 @@ The term **'Avigeeta'** indicates that the tradition is Vedic and undisputed:
 ---
 
 **Anuvyakhyanam**   
-नारायणं निखिलपूर्णगुणैकदेहं निर्दोषमाप्यतममप्यखिलैः सुवाक्यैः ।  
-अस्योद्भवादिदमशेषविशेषतोऽपि वन्द्यं सदा प्रियतमं मम सन्नमामि ॥
+nārāyaṇaṃ nikhila pūrṇaguṇaikadehaṃ nirdoṣam āpyatamam apy akhilaiḥ suvākyaiḥ |
+asyodbhavād idam aśeṣviśeṣato'pi vandyaṃ sadā priyatamaṃ mama sannamāmi || 9 ||
 
 **Sameeravani -**   
 This is the opening auspicious verse of the **'Anuvyakhyana'** composed by Srimad Anandatirtha Bhagavatpada.

@@ -77,7 +77,7 @@ export const Reader: React.FC<ReaderProps> = ({
 
   // Fetch the selected book structure
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}books/catalog.json`)
+    fetch(`${import.meta.env.BASE_URL}books/catalog.json?t=${Date.now()}`)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load books catalog.');
         return res.json();
@@ -250,6 +250,9 @@ export const Reader: React.FC<ReaderProps> = ({
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollTop = 0;
     }
+    if (window.innerWidth <= 768) {
+      setSidebarOpen(false);
+    }
   };
 
   const handleNavigateToBookmark = (bookmark: Bookmark) => {
@@ -258,6 +261,9 @@ export const Reader: React.FC<ReaderProps> = ({
     }
     setActiveChapterId(bookmark.chapterId);
     setRestoreScrollPercent(bookmark.scrollPercent);
+    if (window.innerWidth <= 768) {
+      setSidebarOpen(false);
+    }
   };
 
   // Dynamic Language Swapping
@@ -443,6 +449,14 @@ export const Reader: React.FC<ReaderProps> = ({
 
   return (
     <div className="reader-layout" data-theme={settings.theme}>
+      
+      {/* Sidebar Backdrop Overlay on Mobile */}
+      {sidebarOpen && (
+        <div 
+          className="sidebar-backdrop" 
+          onClick={() => setSidebarOpen(false)}
+        ></div>
+      )}
       
       {/* Top Navbar */}
       <nav className="reader-topbar" id="reader-navigation">
