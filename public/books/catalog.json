@@ -337,5 +337,298 @@
         }
       ]
     }
+  },
+  {
+    "id": "sanskrit-learner",
+    "title": "Sanskrit Learner",
+    "author": "Vyasa Madhwa Technology Labs Trust",
+    "year": "2026",
+    "genre": "Language Learning / Education",
+    "description": "A comprehensive multi-lingual guide to learning Sanskrit basic phonetics, daily prayers, case grammar, and verb conjugations, adapted from traditional Sanskrit lesson materials.",
+    "coverUrl": "books/sanskrit-learner/cover.png",
+    "languages": [
+      "english",
+      "sanskrit",
+      "hindi",
+      "kannada",
+      "tamil",
+      "telugu"
+    ],
+    "localized": {
+      "sanskrit": {
+        "title": "संस्कृत-प्रवेशः",
+        "description": "सरलसंस्कृतेन संस्कृतपठनाय प्रवेशिका पुस्तिका। (अक्षराभ्यासः, नित्यप्रार्थना, सुबन्त-तिङन्तरूपपरिचयः)"
+      },
+      "hindi": {
+        "title": "संस्कृत प्रवेशिका",
+        "description": "वर्णमाला, संयुक्ताक्षर, नित्य प्रार्थनाएँ, विभक्ति रूप (राम-फल शब्द) तथा धातु रूप सीखने के लिए एक परिचयात्मक पुस्तक।"
+      },
+      "kannada": {
+        "title": "ಸಂಸ್ಕೃತ ಪ್ರವೇಶ",
+        "description": "ದೇವನಾಗರಿ ಅಕ್ಷರಾಭ್ಯಾಸ, ನಿತ್ಯ ಪ್ರಾರ್ಥನಾ ಶ್ಲೋಕಗಳು, ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯಗಳು (ರಾಮ ಶಬ್ದ ರೂಪಗಳು) ಮತ್ತು ಕ್ರಿಯಾಪದ ಕಾಲಗಳನ್ನು ಕಲಿಯಲು ಒಂದು ಸರಳ ಕೈಪಿಡಿ."
+      },
+      "tamil": {
+        "title": "சமஸ்கிருதப் பிரவேசம்",
+        "description": "எழுத்துக்கள், எளிய சொற்கள், அன்றாட ஸ்லோகங்கள், வேற்றுமை உருபுகள் மற்றும் வினைச்சொல் காலங்களைக் கற்க ஒரு எளிய அறிமுகப் புத்தகம்."
+      },
+      "telugu": {
+        "title": "సంస్కృత ప్రవేశము",
+        "description": "అక్షరాల పరిచయము, నిత్య ప్రార్థనలు, నామపద విభక్తులు మరియు క్రియా రూపములు నేర్చుకోవడానికి ఒక సరళ పరిచయ పుస్తకం."
+      }
+    },
+    "chapters": {
+      "english": [
+        {
+          "id": "ch1",
+          "title": "Chapter 1: The Alphabet (Varnamala)",
+          "path": "books/sanskrit-learner/en/ch1.md"
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Vowel Markers (गुणिताक्षराणि)",
+          "path": "books/sanskrit-learner/en/ch2.md"
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3: Conjunct Letters (संयुक्ताक्षराणि)",
+          "path": "books/sanskrit-learner/en/ch3.md"
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4: Sanskrit Vocabulary (शब्दपरिचयः)",
+          "path": "books/sanskrit-learner/en/ch4.md"
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Daily Devotional Stotras (नित्यप्रार्थना)",
+          "path": "books/sanskrit-learner/en/ch5.md"
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: Noun Declensions (शब्दरूपाणि)",
+          "path": "books/sanskrit-learner/en/ch6.md"
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Sentence Creation Practice (वाक्यरचना अभ्यासः)",
+          "path": "books/sanskrit-learner/en/ch7.md"
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Verb Conjugations (धातु-रूपाणि)",
+          "path": "books/sanskrit-learner/en/ch8.md"
+        }
+      ],
+      "sanskrit": [
+        {
+          "id": "ch1",
+          "title": "प्रथमः पाठः: अक्षराभ्यासः (वर्णमाला संख्याः च)",
+          "path": "books/sanskrit-learner/sa/ch1.md"
+        },
+        {
+          "id": "ch2",
+          "title": "द्वितीयः पाठः: अक्षराभ्यासः २ (गुणिताक्षराणि)",
+          "path": "books/sanskrit-learner/sa/ch2.md"
+        },
+        {
+          "id": "ch3",
+          "title": "तृतीयः पाठः: अक्षराभ्यासः ३ (संयुक्ताक्षराणि)",
+          "path": "books/sanskrit-learner/sa/ch3.md"
+        },
+        {
+          "id": "ch4",
+          "title": "चतुर्थः पाठः: शब्दपरिचयः वर्णविच्छेदः च (शब्दावली)",
+          "path": "books/sanskrit-learner/sa/ch4.md"
+        },
+        {
+          "id": "ch5",
+          "title": "पञ्चमः पाठः: नित्यप्रार्थना (श्लोकाः)",
+          "path": "books/sanskrit-learner/sa/ch5.md"
+        },
+        {
+          "id": "ch6",
+          "title": "षष्ठः पाठः: मूलव्याकरणं वाक्याभ्यासः च (विभक्तिपरिचयः)",
+          "path": "books/sanskrit-learner/sa/ch6.md"
+        },
+        {
+          "id": "ch7",
+          "title": "सप्तमः पाठः: वाक्यरचना अभ्यासः (रामशब्द-प्रयोगः)",
+          "path": "books/sanskrit-learner/sa/ch7.md"
+        },
+        {
+          "id": "ch8",
+          "title": "अष्टमः पाठः: धातुरूपाणि (Verb Conjugations)",
+          "path": "books/sanskrit-learner/sa/ch8.md"
+        }
+      ],
+      "hindi": [
+        {
+          "id": "ch1",
+          "title": "अध्याय १: वर्णमाला और अक्षराभ्यास",
+          "path": "books/sanskrit-learner/hi/ch1.md"
+        },
+        {
+          "id": "ch2",
+          "title": "अध्याय २: मात्रा विचार (गुणिताक्षर)",
+          "path": "books/sanskrit-learner/hi/ch2.md"
+        },
+        {
+          "id": "ch3",
+          "title": "अध्याय ३: संयुक्ताक्षर (संयोग वर्ण)",
+          "path": "books/sanskrit-learner/hi/ch3.md"
+        },
+        {
+          "id": "ch4",
+          "title": "अध्याय ४: संस्कृत शब्दावली (शब्द परिचय)",
+          "path": "books/sanskrit-learner/hi/ch4.md"
+        },
+        {
+          "id": "ch5",
+          "title": "अध्याय ५: नित्य प्रार्थना एवं श्लोक",
+          "path": "books/sanskrit-learner/hi/ch5.md"
+        },
+        {
+          "id": "ch6",
+          "title": "अध्याय ६: शब्द रूप (विभक्ति परिचय)",
+          "path": "books/sanskrit-learner/hi/ch6.md"
+        },
+        {
+          "id": "ch7",
+          "title": "अध्याय ७: वाक्य रचना अभ्यास (राम शब्द प्रयोग)",
+          "path": "books/sanskrit-learner/hi/ch7.md"
+        },
+        {
+          "id": "ch8",
+          "title": "अध्याय ८: धातु रूप (क्रिया काल)",
+          "path": "books/sanskrit-learner/hi/ch8.md"
+        }
+      ],
+      "kannada": [
+        {
+          "id": "ch1",
+          "title": "ಅಧ್ಯಾಯ ೧: ಸಂಸ್ಕೃತ ವರ್ಣಮಾಲೆ ಮತ್ತು ಅಕ್ಷರಾಭ್ಯಾಸ",
+          "path": "books/sanskrit-learner/kn/ch1.md"
+        },
+        {
+          "id": "ch2",
+          "title": "ಅಧ್ಯಾಯ ೨: ಗುಣಿತಾಕ್ಷರಗಳು (ಮಾತ್ರಾ ಚಿಹ್ನೆಗಳು)",
+          "path": "books/sanskrit-learner/kn/ch2.md"
+        },
+        {
+          "id": "ch3",
+          "title": "ಅಧ್ಯಾಯ ೩: ಸಂಯುಕ್ತಾಕ್ಷರಗಳು (ಒತ್ತಕ್ಷರಗಳು)",
+          "path": "books/sanskrit-learner/kn/ch3.md"
+        },
+        {
+          "id": "ch4",
+          "title": "ಅಧ್ಯಾಯ ೪: ಸಂಸ್ಕೃತ ಶಬ್ದಕೋಶ (ಪದ ಪರಿಚಯ)",
+          "path": "books/sanskrit-learner/kn/ch4.md"
+        },
+        {
+          "id": "ch5",
+          "title": "ಅಧ್ಯಾಯ ೫: ನಿತ್ಯ ಪ್ರಾರ್ಥನಾ ಶ್ಲೋಕಗಳು",
+          "path": "books/sanskrit-learner/kn/ch5.md"
+        },
+        {
+          "id": "ch6",
+          "title": "ಅಧ್ಯಾಯ ೬: ಶಬ್ದ ರೂಪಗಳು (ವಿಭಕ್ತಿ ಪರಿಚಯ)",
+          "path": "books/sanskrit-learner/kn/ch6.md"
+        },
+        {
+          "id": "ch7",
+          "title": "ಅಧ್ಯಾಯ ೭: ವಾಕ್ಯ ರಚನಾ ಅಭ್ಯಾಸ (ರಾಮಶಬ್ದ ಪ್ರಯೋಗ)",
+          "path": "books/sanskrit-learner/kn/ch7.md"
+        },
+        {
+          "id": "ch8",
+          "title": "ಅಧ್ಯಾಯ ೮: ಧಾತು ರೂಪಗಳು (ಕ್ರಿಯಾಪದ ಕಾಲಗಳು)",
+          "path": "books/sanskrit-learner/kn/ch8.md"
+        }
+      ],
+      "tamil": [
+        {
+          "id": "ch1",
+          "title": "அத்தியாயம் 1: சமஸ்கிருத எழுத்துக்கள் (வர்ணமாலை)",
+          "path": "books/sanskrit-learner/ta/ch1.md"
+        },
+        {
+          "id": "ch2",
+          "title": "அத்தியாயம் 2: உயிர்மெய் எழுத்துக் குறிகள் (குணிதாக்ஷரங்கள்)",
+          "path": "books/sanskrit-learner/ta/ch2.md"
+        },
+        {
+          "id": "ch3",
+          "title": "அத்தியாயம் 3: கூட்டெழுத்துக்கள் (ஸம்யுக்தாக்ஷரங்கள்)",
+          "path": "books/sanskrit-learner/ta/ch3.md"
+        },
+        {
+          "id": "ch4",
+          "title": "அத்தியாயம் 4: சமஸ்கிருத சொற்களஞ்சியம் (சப்தபரிசயம்)",
+          "path": "books/sanskrit-learner/ta/ch4.md"
+        },
+        {
+          "id": "ch5",
+          "title": "அத்தியாயம் 5: அன்றாட பிரார்த்தனை ஸ்லோகங்கள்",
+          "path": "books/sanskrit-learner/ta/ch5.md"
+        },
+        {
+          "id": "ch6",
+          "title": "அத்தியாயம் 6: பெயர்ச்சொல் வேற்றுமை உருபுகள் (சப்தரூபங்கள்)",
+          "path": "books/sanskrit-learner/ta/ch6.md"
+        },
+        {
+          "id": "ch7",
+          "title": "அத்தியாயம் 7: வாக்கிய அமைப்பு பயிற்சி (ராமசப்த பிரயோகம்)",
+          "path": "books/sanskrit-learner/ta/ch7.md"
+        },
+        {
+          "id": "ch8",
+          "title": "அத்தியாயம் 8: வினைமுற்றுகள் (தாதுரூபங்கள்)",
+          "path": "books/sanskrit-learner/ta/ch8.md"
+        }
+      ],
+      "telugu": [
+        {
+          "id": "ch1",
+          "title": "అధ్యాయము 1: సంస్కృత వర్ణమాల",
+          "path": "books/sanskrit-learner/te/ch1.md"
+        },
+        {
+          "id": "ch2",
+          "title": "అధ్యాయము 2: గుణింతపు గుర్తులు (గుణితాక్షరములు)",
+          "path": "books/sanskrit-learner/te/ch2.md"
+        },
+        {
+          "id": "ch3",
+          "title": "అధ్యాయము 3: సంయుక్తాక్షరములు (వత్తులు)",
+          "path": "books/sanskrit-learner/te/ch3.md"
+        },
+        {
+          "id": "ch4",
+          "title": "అధ్యాయము 4: సంస్కృత పదకోశము (పద పరిచయము)",
+          "path": "books/sanskrit-learner/te/ch4.md"
+        },
+        {
+          "id": "ch5",
+          "title": "అధ్యాయము 5: నిత్య ప్రార్థనా శ్లోకములు",
+          "path": "books/sanskrit-learner/te/ch5.md"
+        },
+        {
+          "id": "ch6",
+          "title": "అధ్యాయము 6: శబ్ద రూపములు (విభక్తి పరిచయము)",
+          "path": "books/sanskrit-learner/te/ch6.md"
+        },
+        {
+          "id": "ch7",
+          "title": "అధ్యాయము 7: వాక్యం రచనా అభ్యాసము (రామశబ్ద ప్రయోగము)",
+          "path": "books/sanskrit-learner/te/ch7.md"
+        },
+        {
+          "id": "ch8",
+          "title": "అధ్యాయము 8: ధాతు రూపములు (క్రియాపద కాలములు)",
+          "path": "books/sanskrit-learner/te/ch8.md"
+        }
+      ]
+    }
   }
 ]

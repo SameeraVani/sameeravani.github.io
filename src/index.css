@@ -206,6 +206,7 @@ a:hover {
   margin-bottom: 12px;
   background: linear-gradient(to right, var(--text-primary), var(--accent));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -0.05em;
 }
@@ -374,6 +375,7 @@ a:hover {
   line-height: 1.5;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   margin-bottom: 24px;
@@ -737,6 +739,7 @@ a:hover {
   font-style: italic;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   margin-bottom: 12px;
@@ -1221,5 +1224,103 @@ a:hover {
 
   .nav-btn-title {
     font-size: 0.85rem;
+  }
+}
+
+/* --- Share Button Tooltip --- */
+.share-tooltip {
+  position: absolute;
+  bottom: -42px;
+  right: 50%;
+  transform: translate(50%, 0);
+  background-color: var(--accent);
+  color: var(--accent-text);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: var(--shadow-md);
+  z-index: 150;
+  pointer-events: none;
+  animation: shareTooltipFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.share-tooltip::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  right: 50%;
+  transform: translateX(50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent var(--accent) transparent;
+}
+
+@keyframes shareTooltipFadeIn {
+  from {
+    opacity: 0;
+    transform: translate(50%, -6px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(50%, 0);
+  }
+}
+
+.go-to-top-btn {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04);
+  z-index: 100;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: fadeIn 0.3s ease;
+}
+
+.go-to-top-btn:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12), 0 4px 6px rgba(0, 0, 0, 0.06);
+  color: #2563eb;
+}
+
+.go-to-top-btn:active {
+  transform: translateY(0);
+}
+
+/* Dark theme overrides if app supports dark mode */
+[data-theme='dark'] .go-to-top-btn {
+  background: rgba(31, 41, 55, 0.85);
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #f3f4f6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+[data-theme='dark'] .go-to-top-btn:hover {
+  background: #1f2937;
+  color: #3b82f6;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
   }
 }

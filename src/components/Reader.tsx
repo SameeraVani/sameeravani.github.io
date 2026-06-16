@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
+import { parseRoute, getUrlForRoute } from '../utils/route';
 import type { Book, ReaderSettings, Bookmark, BookReadingProgress } from '../types';
 import { 
   Settings, 
@@ -11,7 +13,9 @@ import {
   Home, 
   List, 
   Trash2,
-  ExternalLink
+  ExternalLink,
+  Share2,
+  ArrowUp
 } from 'lucide-react';
 
 interface ReaderProps {
@@ -49,6 +53,8 @@ export const Reader: React.FC<ReaderProps> = ({
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(true);
   const [sidebarTab, setSidebarTab] = useState<'toc' | 'search' | 'bookmarks'>('toc');
   const [settingsOpen, setSettingsOpen] = useState<boolean>(false);
+  const [showShareTooltip, setShowShareTooltip] = useState<boolean>(false);
+  const [showGoToTop, setShowGoToTop] = useState<boolean>(false);
 
   // In-Book Search State
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -89,28 +95,55 @@ export const Reader: React.FC<ReaderProps> = ({
         setLoadingBook(false);
         
         // Initialize language and chapter selection
-        const savedLang = savedProgress?.currentLanguage;
-        if (savedLang && found.languages.includes(savedLang)) {
-          setActiveLanguage(savedLang);
-          const langChapters = found.chapters[savedLang] || [];
-          if (langChapters.some((c) => c.id === savedProgress.currentChapterId)) {
-            setActiveChapterId(savedProgress.currentChapterId);
-            setRestoreScrollPercent(savedProgress.scrollPercent);
-          } else if (langChapters.length > 0) {
-            setActiveChapterId(langChapters[0].id);
-            setRestoreScrollPercent(0);
-          }
-        } else {
-          const defaultLang = (appLanguage && found.languages.includes(appLanguage))
-            ? appLanguage
-            : (found.languages.length > 0 ? found.languages[0] : '');
-          if (defaultLang) {
-            setActiveLanguage(defaultLang);
-            const langChapters = found.chapters[defaultLang] || [];
-            if (langChapters.length > 0) {
-              setActiveChapterId(langChapters[0].id);
+        const route = parseRoute();
+        const urlLang = route.lang;
+        const urlChapter = route.chapterId;
+
+        let initialLang = '';
+        let initialChapter = '';
+        let initialScroll = 0;
+
+        if (urlLang && found.languages.includes(urlLang)) {
+          initialLang = urlLang;
+          const chapters = found.chapters[urlLang] || [];
+          if (urlChapter && chapters.some((c) => c.id === urlChapter)) {
+            initialChapter = urlChapter;
+            if (savedProgress && savedProgress.currentLanguage === urlLang && savedProgress.currentChapterId === urlChapter) {
+              initialScroll = savedProgress.scrollPercent;
             }
-            setRestoreScrollPercent(0);
+          } else if (chapters.length > 0) {
+            initialChapter = chapters[0].id;
+          }
+        }
+
+        if (initialLang && initialChapter) {
+          setActiveLanguage(initialLang);
+          setActiveChapterId(initialChapter);
+          setRestoreScrollPercent(initialScroll);
+        } else {
+          const savedLang = savedProgress?.currentLanguage;
+          if (savedLang && found.languages.includes(savedLang)) {
+            setActiveLanguage(savedLang);
+            const langChapters = found.chapters[savedLang] || [];
+            if (langChapters.some((c) => c.id === savedProgress.currentChapterId)) {
+              setActiveChapterId(savedProgress.currentChapterId);
+              setRestoreScrollPercent(savedProgress.scrollPercent);
+            } else if (langChapters.length > 0) {
+              setActiveChapterId(langChapters[0].id);
+              setRestoreScrollPercent(0);
+            }
+          } else {
+            const defaultLang = (appLanguage && found.languages.includes(appLanguage))
+              ? appLanguage
+              : (found.languages.length > 0 ? found.languages[0] : '');
+            if (defaultLang) {
+              setActiveLanguage(defaultLang);
+              const langChapters = found.chapters[defaultLang] || [];
+              if (langChapters.length > 0) {
+                setActiveChapterId(langChapters[0].id);
+              }
+              setRestoreScrollPercent(0);
+            }
           }
         }
       })
@@ -119,6 +152,16 @@ export const Reader: React.FC<ReaderProps> = ({
         setLoadingBook(false);
       });
   }, [bookId]);
+
+  // Auto-sync active language/chapter state to URL path parameters
+  useEffect(() => {
+    if (bookId && activeLanguage && activeChapterId) {
+      const cleanPath = getUrlForRoute(bookId, activeLanguage, activeChapterId);
+      if (window.location.pathname !== cleanPath) {
+        window.history.replaceState(null, '', cleanPath);
+      }
+    }
+  }, [bookId, activeLanguage, activeChapterId]);
 
   // Pre-load active language chapters content in the background for full-text search indexing
   useEffect(() => {
@@ -164,6 +207,9 @@ export const Reader: React.FC<ReaderProps> = ({
       .then((text) => {
         setChapterContent(text);
         setLoadingChapter(false);
+        // Dynamically update document title to reflect active chapter & book
+        document.title = `${activeChapter.title} — ${book.title} | SameeraVani`;
+        window.dispatchEvent(new Event('locationchange'));
       })
       .catch((err) => {
         setChapterContent(`# Error\nCould not load the chapter content: ${err.message}`);
@@ -181,6 +227,7 @@ export const Reader: React.FC<ReaderProps> = ({
           const clientHeight = container.clientHeight;
           const targetScrollTop = (restoreScrollPercent / 100) * (scrollHeight - clientHeight);
           container.scrollTop = targetScrollTop;
+          setShowGoToTop(targetScrollTop > 0);
         }
         setRestoreScrollPercent(null);
       }, 120); // Small timeout to ensure markdown rendering is fully layout-calculated
@@ -196,6 +243,10 @@ export const Reader: React.FC<ReaderProps> = ({
     if (!container) return;
 
     const { scrollTop, scrollHeight, clientHeight } = container;
+    
+    // Toggle Go to Top button visibility
+    setShowGoToTop(scrollTop > 0);
+
     const maxScroll = scrollHeight - clientHeight;
     const scrollPercent = maxScroll > 0 ? (scrollTop / maxScroll) * 100 : 0;
     
@@ -386,6 +437,17 @@ export const Reader: React.FC<ReaderProps> = ({
     });
   };
 
+  const handleShare = () => {
+    navigator.clipboard.writeText(window.location.href)
+      .then(() => {
+        setShowShareTooltip(true);
+        setTimeout(() => setShowShareTooltip(false), 2000);
+      })
+      .catch((err) => {
+        console.error('Failed to copy link: ', err);
+      });
+  };
+
   const getChapterProgressPercent = (chapterId: string) => {
     if (activeChapterId === chapterId && scrollContainerRef.current) {
       const container = scrollContainerRef.current;
@@ -524,6 +586,20 @@ export const Reader: React.FC<ReaderProps> = ({
             title="Bookmark this page"
           >
             <BookmarkIcon size={18} />
+          </button>
+
+          <button 
+            className="icon-btn" 
+            onClick={handleShare}
+            title="Share this page link"
+            style={{ position: 'relative' }}
+          >
+            <Share2 size={18} />
+            {showShareTooltip && (
+              <span className="share-tooltip">
+                Link copied!
+              </span>
+            )}
           </button>
 
           <button 
@@ -800,7 +876,19 @@ export const Reader: React.FC<ReaderProps> = ({
                 className={`reader-markdown read-font-${settings.fontFamily} lh-${settings.lineHeight}`}
                 style={{ fontSize: `${settings.fontSize}px` }}
               >
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                <ReactMarkdown 
+                  remarkPlugins={[remarkGfm]} 
+                  rehypePlugins={[rehypeRaw]}
+                  components={{
+                    img: ({ node, src, ...props }) => {
+                      let resolvedSrc = src;
+                      if (src && !src.startsWith('http://') && !src.startsWith('https://') && !src.startsWith('/')) {
+                        resolvedSrc = `${import.meta.env.BASE_URL}${src}`;
+                      }
+                      return <img src={resolvedSrc} {...props} style={{ maxWidth: '100%', height: 'auto' }} />;
+                    }
+                  }}
+                >
                   {chapterContent}
                 </ReactMarkdown>
 
@@ -837,6 +925,21 @@ export const Reader: React.FC<ReaderProps> = ({
             )}
           </div>
         </div>
+
+        {/* Go to Top floating button */}
+        {showGoToTop && (
+          <button 
+            className="go-to-top-btn"
+            onClick={() => {
+              if (scrollContainerRef.current) {
+                scrollContainerRef.current.scrollTo({ top: 0, behavior: 'smooth' });
+              }
+            }}
+            title="Go to Top"
+          >
+            <ArrowUp size={20} />
+          </button>
+        )}
       </div>
 
     </div>

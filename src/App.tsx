@@ -1,22 +1,44 @@
 import { useState, useEffect } from 'react';
 import { Catalog } from './components/Catalog';
 import { Reader } from './components/Reader';
+import { parseRoute, getUrlForRoute } from './utils/route';
 import type { ReadingProgressMap, Bookmark } from './types';
 
 function App() {
   const [selectedBookId, setSelectedBookId] = useState<string | null>(() => {
-    // Restore last active book if any
+    const route = parseRoute();
+    if (route.bookId) return route.bookId;
     return localStorage.getItem('active-book-id');
   });
 
   const [appLanguage, setAppLanguage] = useState<string>(() => {
+    const route = parseRoute();
+    if (route.lang) return route.lang;
     return localStorage.getItem('app-language') || 'english';
   });
 
   const handleLanguageChange = (lang: string) => {
     setAppLanguage(lang);
     localStorage.setItem('app-language', lang);
+    const route = parseRoute();
+    if (route.bookId) {
+      const newUrl = getUrlForRoute(route.bookId, lang, route.chapterId);
+      window.history.replaceState(null, '', newUrl);
+    }
   };
+
+  useEffect(() => {
+    const handlePopState = () => {
+      const route = parseRoute();
+      setSelectedBookId(route.bookId);
+      if (route.lang) {
+        setAppLanguage(route.lang);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
 
   const [progress, setProgress] = useState<ReadingProgressMap>(() => {
     const saved = localStorage.getItem('reader-progress');
@@ -130,6 +152,8 @@ function App() {
   const handleSelectBook = (bookId: string) => {
     setSelectedBookId(bookId);
     localStorage.setItem('active-book-id', bookId);
+    const newUrl = getUrlForRoute(bookId, appLanguage, null);
+    window.history.pushState(null, '', newUrl);
   };
 
   const handleBackToCatalog = () => {
@@ -137,6 +161,9 @@ function App() {
     localStorage.removeItem('active-book-id');
     // Revert global theme back to light or default when exiting reader
     document.documentElement.setAttribute('data-theme', 'light');
+    document.title = 'SameeraVani — Premium Reading & Publishing Portal';
+    const newUrl = getUrlForRoute(null, null, null);
+    window.history.pushState(null, '', newUrl);
   };
 
   return (

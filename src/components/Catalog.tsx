@@ -100,7 +100,7 @@ export const Catalog: React.FC<CatalogProps> = ({
   return (
     <div className="catalog-container">
       <header className="hero-section">
-        <h1 className="hero-title">SV Bookshelf</h1>
+        <h1 className="hero-title">SameeraVani</h1>
         <p className="hero-subtitle">
           Explore our collection of classics and modern literature. Customize your typography, track your progress, and take bookmarks on any device.
         </p>
