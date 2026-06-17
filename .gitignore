@@ -25,3 +25,7 @@ dist-ssr
 
 # Firebase
 .firebase/
+
+# Agent Workspace artifacts
+public/chunks.json
+

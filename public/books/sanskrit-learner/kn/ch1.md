@@ -1,15 +1,15 @@
 # ಅಧ್ಯಾಯ ೧: ಸಂಸ್ಕೃತ ವರ್ಣಮಾಲೆ ಮತ್ತು ಅಕ್ಷರಾಭ್ಯಾಸ
 
-ಸಂಸ್ಕೃತ ವರ್ಣಮಾಲೆ ಮತ್ತು ಮೂಲಭೂತ ಸಂಖ್ಯೆಗಳನ್ನು ಕೆಳಗೆ ನೀಡಲಾಗಿದೆ.
+संस्कृत वर्णमाला ಮತ್ತು ಮೂಲಭೂತ ಸಂಖ್ಯೆಗಳನ್ನು ಕೆಳಗೆ ನೀಡಲಾಗಿದೆ.
 
 ## ೧. ಸ್ವರಾಃ (೧೫ ಸ್ವರಗಳು)
 
 <div style="white-space: nowrap; overflow-x: auto; padding: 4px 0;"><b>अ आ इ ई उ ऊ ऋ ॠ लृ ए ऐ ओ औ अं अः</b></div>
 
 ### ಸ್ವರಗಳ ವರ್ಗೀಕರಣ:
-- **ಹ್ರಸ್ವಸ್ವರಗಳು (೫):** ಅ, ಇ, ಉ, ಋ, ಱ
-- **ದೀರ್ಘಸ್ವರಗಳು (೮):** ಆ, ಈ, ಊ, ೠ, ಏ, ಐ, ಓ, ಔ
-- **ಅಯೋಗವಾಹಗಳು (೨):** ಅಂ (ಅನುಸ್ವಾರ), ಅಃ (ವಿಸರ್ಗ)
+- **ಹ್ರಸ್ವಸ್ವರಗಳು (೫):** अ, इ, उ, ऋ, लृ
+- **ದೀರ್ಘಸ್ವರಗಳು (೮):** आ, ई, ऊ, ॠ, ए, ऐ, ओ, औ
+- **ಅಯೋಗವಾಹಗಳು (೨):** अं (ಅನುಸ್ವಾರ), अः (ವಿಸರ್ಗ)
 
 ---
 
@@ -24,7 +24,7 @@
 </ol>
 
 ### ಅವರ್ಗೀಯ ವ್ಯಂಜನಗಳು:
-<div style="white-space: nowrap; overflow-x: auto; padding: 4px 0;">ಯ್, ರ್, ಲ್, ವ್, ಶ್, ಷ್, ಸ್, ಹ್, ಳ್</div>
+<div style="white-space: nowrap; overflow-x: auto; padding: 4px 0;">य्, र्, ल्, व्, श्, ष्, स्, ह्, ळ्</div>
 
 ### ಅರ್ಧವ್ಯಂಜನಗಳ ಪಟ್ಟಿ
 
@@ -32,5 +32,5 @@
 
 ## ೩. ಸಂಖ್ಯಾಃ (೧ - ೧೦ ರವರೆಗೆ)
 
-<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">೧ - ಏಕಮ್, &nbsp;&nbsp; ೨ - ದ್ವೇ, &nbsp;&nbsp; ೩ - ತ್ರೀಣಿ, &nbsp;&nbsp; ೪ - ಚತ್ವಾರಿ, &nbsp;&nbsp; ೫ - ಪಂಚ</div>
-<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">೬ - ಷಟ್, &nbsp;&nbsp; ೭ - ಸಪ್ತ, &nbsp;&nbsp; ೮ - ಅಷ್ಟ, &nbsp;&nbsp; ೯ - ನವ, &nbsp;&nbsp; ೧೦ - ದಶ.</div>
+<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">1 - एकम् (ಏಕಮ್), &nbsp;&nbsp; 2 - द्वे (ದ್ವೇ), &nbsp;&nbsp; 3 - त्रीणि (ತ್ರೀಣಿ), &nbsp;&nbsp; 4 - चत्वारि (ಚತ್ವಾರಿ), &nbsp;&nbsp; 5 - पञ्च (ಪಂಚ)</div>
+<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">6 - षट् (ಷಟ್), &nbsp;&nbsp; 7 - सप्त (ಸಪ್ತ), &nbsp;&nbsp; 8 - अष्ट (ಅಷ್ಟ), &nbsp;&nbsp; 9 - नव (ನವ), &nbsp;&nbsp; 10 - दश (ದಶ).</div>

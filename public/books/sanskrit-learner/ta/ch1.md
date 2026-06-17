@@ -7,9 +7,9 @@
 <div style="white-space: nowrap; overflow-x: auto; padding: 4px 0;"><b>अ आ इ ई उ ऊ ऋ ॠ लृ ए ऐ ओ औ अं अः</b></div>
 
 ### உயிரெழுத்து வகைப்பாடு:
-- **குறில் எழுத்துக்கள் (5):** அ, இ, உ, ரு, லு
-- **நெடில் எழுத்துக்கள் (8):** ஆ, ஈ, ஊ, ரூ, ஏ, ஐ, ஓ, ஔ
-- **துணை ஒலிகள் (2):** அம் (அனுஸ்வரம்), அஹ் (விஸர்க்கம்)
+- **குறில் எழுத்துக்கள் (5):** अ, इ, उ, ऋ, लृ
+- **நெடில் எழுத்துக்கள் (8):** आ, ई, ऊ, ॠ, ए, ऐ, ओ, औ
+- **துணை ஒலிகள் (2):** अं (அனுஸ்வரம்), अः (விஸர்க்கம்)
 
 ---
 
@@ -24,7 +24,7 @@
 </ol>
 
 ### வகையற்ற மெய்யெழுத்துக்கள்:
-<div style="white-space: nowrap; overflow-x: auto; padding: 4px 0;">ய், ர், ல், வ், ஶ், ஷ், ஸ், ஹ், ள்</div>
+<div style="white-space: nowrap; overflow-x: auto; padding: 4px 0;">य्, र्, ल्, व्, श्, ष्, स्, ह्, ळ्</div>
 
 ### அரை எழுத்துக்களின் அட்டவணை
 
@@ -32,5 +32,5 @@
 
 ## 3. எண்கள் (ஸங்க்யாஹா - 1 முதல் 10 வரை)
 
-<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">1 - ஏகம், &nbsp;&nbsp; 2 - த்வே, &nbsp;&nbsp; 3 - த்ரீணி, &nbsp;&nbsp; 4 - சத்வாரி, &nbsp;&nbsp; 5 - பஞ்ச</div>
-<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">6 - ஷட், &nbsp;&nbsp; 7 - சப்த, &nbsp;&nbsp; 8 - அஷ்ட, &nbsp;&nbsp; 9 - நவ, &nbsp;&nbsp; 10 - தச.</div>
+<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">1 - एकम् (ஏகம்), &nbsp;&nbsp; 2 - द्वे (த்வே), &nbsp;&nbsp; 3 - त्रीणि (த்ரீணி), &nbsp;&nbsp; 4 - चत्वारि (சத்வாரி), &nbsp;&nbsp; 5 - पञ्च (பஞ்ச)</div>
+<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">6 - षट् (ஷட்), &nbsp;&nbsp; 7 - सप्त (சப்த), &nbsp;&nbsp; 8 - अष्ट (அஷ்ட), &nbsp;&nbsp; 9 - नव (நவ), &nbsp;&nbsp; 10 - दश (தச).</div>

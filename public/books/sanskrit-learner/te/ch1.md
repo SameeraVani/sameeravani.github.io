@@ -7,9 +7,9 @@
 <div style="white-space: nowrap; overflow-x: auto; padding: 4px 0;"><b>अ आ इ ई उ ऊ ऋ ॠ लृ ए ऐ ओ औ अं अः</b></div>
 
 ### అచ్చుల వర్గీకరణ:
-- **హ్రస్వ అచ్చులు (5):** అ, ఇ, ఉ, ఋ, ಱ
-- **దీర్ఘ అచ్చులు (8):** ఆ, ఈ,  ఊ, ೠ, ఏ, ఐ, ఓ, ఔ
-- **ఉభయాక్షరములు (2):** అం (అనుస్వారము), అః (విసర్గ)
+- **హ్రస్వ అచ్చులు (5):** अ, इ, उ, ऋ, लृ
+- **దీర్ఘ అచ్చులు (8):** आ, ई, ऊ, ॠ, ए, ऐ, ओ, औ
+- **ఉభయాక్షరములు (2):** अं (అనుస్వారము), अः (విసర్గ)
 
 ---
 
@@ -24,7 +24,7 @@
 </ol>
 
 ### అవర్గీయ హల్లులు:
-<div style="white-space: nowrap; overflow-x: auto; padding: 4px 0;">య్, ర్, లీ, వ్, శ్, ష్, స్, హ్, ళ్</div>
+<div style="white-space: nowrap; overflow-x: auto; padding: 4px 0;">य्, र्, ल्, व्, श्, ष्, स्, ह्, ळ्</div>
 
 ### అర్ధ హల్లుల పట్టిక
 
@@ -32,5 +32,5 @@
 
 ## 3. సంఖ్యలు (సంఖ్యాః - 1 నుండి 10)
 
-<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">1 - ఏకమ్, &nbsp;&nbsp; 2 - ద్వే, &nbsp;&nbsp; 3 - త్రీణి, &nbsp;&nbsp; 4 - చత్వారి, &nbsp;&nbsp; 5 - పంచ</div>
-<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">6 - షట్, &nbsp;&nbsp; 7 - సప్త, &nbsp;&nbsp; 8 - అష్ట, &nbsp;&nbsp; 9 - నవ, &nbsp;&nbsp; 10 - దశ.</div>
+<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">1 - एकम् (ఏకమ్), &nbsp;&nbsp; 2 - द्वे (ద్వే), &nbsp;&nbsp; 3 - त्रीणि (త్రీణి), &nbsp;&nbsp; 4 - चत्वारि (చత్వారి), &nbsp;&nbsp; 5 - पञ्च (పంచ)</div>
+<div style="padding: 4px 0; font-size: 1.05rem; font-weight: 500;">6 - षट् (షట్), &nbsp;&nbsp; 7 - सप्त (సప్త), &nbsp;&nbsp; 8 - अष्ट (అష్ట), &nbsp;&nbsp; 9 - नव (నవ), &nbsp;&nbsp; 10 - दश (దశ).</div>

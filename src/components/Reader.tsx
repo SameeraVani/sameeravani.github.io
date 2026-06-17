@@ -15,7 +15,8 @@ import {
   Trash2,
   ExternalLink,
   Share2,
-  ArrowUp
+  ArrowUp,
+  BookOpen
 } from 'lucide-react';
 
 interface ReaderProps {
@@ -103,48 +104,38 @@ export const Reader: React.FC<ReaderProps> = ({
         let initialChapter = '';
         let initialScroll = 0;
 
+        // 1. Resolve Language
         if (urlLang && found.languages.includes(urlLang)) {
           initialLang = urlLang;
-          const chapters = found.chapters[urlLang] || [];
-          if (urlChapter && chapters.some((c) => c.id === urlChapter)) {
-            initialChapter = urlChapter;
-            if (savedProgress && savedProgress.currentLanguage === urlLang && savedProgress.currentChapterId === urlChapter) {
-              initialScroll = savedProgress.scrollPercent;
-            }
-          } else if (chapters.length > 0) {
-            initialChapter = chapters[0].id;
-          }
-        }
-
-        if (initialLang && initialChapter) {
-          setActiveLanguage(initialLang);
-          setActiveChapterId(initialChapter);
-          setRestoreScrollPercent(initialScroll);
         } else {
           const savedLang = savedProgress?.currentLanguage;
           if (savedLang && found.languages.includes(savedLang)) {
-            setActiveLanguage(savedLang);
-            const langChapters = found.chapters[savedLang] || [];
-            if (langChapters.some((c) => c.id === savedProgress.currentChapterId)) {
-              setActiveChapterId(savedProgress.currentChapterId);
-              setRestoreScrollPercent(savedProgress.scrollPercent);
-            } else if (langChapters.length > 0) {
-              setActiveChapterId(langChapters[0].id);
-              setRestoreScrollPercent(0);
-            }
+            initialLang = savedLang;
           } else {
-            const defaultLang = (appLanguage && found.languages.includes(appLanguage))
+            initialLang = (appLanguage && found.languages.includes(appLanguage))
               ? appLanguage
               : (found.languages.length > 0 ? found.languages[0] : '');
-            if (defaultLang) {
-              setActiveLanguage(defaultLang);
-              const langChapters = found.chapters[defaultLang] || [];
-              if (langChapters.length > 0) {
-                setActiveChapterId(langChapters[0].id);
-              }
-              setRestoreScrollPercent(0);
-            }
           }
+        }
+
+        // 2. Resolve Chapter ID (only set if in URL and valid)
+        if (initialLang) {
+          const chapters = found.chapters[initialLang] || [];
+          if (urlChapter && chapters.some((c) => c.id === urlChapter)) {
+            initialChapter = urlChapter;
+            if (savedProgress && savedProgress.currentLanguage === initialLang && savedProgress.currentChapterId === urlChapter) {
+              initialScroll = savedProgress.scrollPercent;
+            }
+          } else {
+            // No valid chapter in URL means we land on the Book Overview page ("")
+            initialChapter = '';
+          }
+        }
+
+        if (initialLang) {
+          setActiveLanguage(initialLang);
+          setActiveChapterId(initialChapter);
+          setRestoreScrollPercent(initialScroll);
         }
       })
       .catch((err) => {
@@ -153,10 +144,32 @@ export const Reader: React.FC<ReaderProps> = ({
       });
   }, [bookId]);
 
+  // Synchronize component state on browser back/forward popstate events
+  useEffect(() => {
+    const handlePopState = () => {
+      if (!book) return;
+      const route = parseRoute();
+      if (route.bookId === bookId) {
+        if (route.lang && book.languages.includes(route.lang)) {
+          setActiveLanguage(route.lang);
+        }
+        const chapters = book.chapters[route.lang || ''] || [];
+        if (route.chapterId && chapters.some((c) => c.id === route.chapterId)) {
+          setActiveChapterId(route.chapterId);
+        } else {
+          setActiveChapterId('');
+        }
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [bookId, book]);
+
   // Auto-sync active language/chapter state to URL path parameters
   useEffect(() => {
-    if (bookId && activeLanguage && activeChapterId) {
-      const cleanPath = getUrlForRoute(bookId, activeLanguage, activeChapterId);
+    if (bookId && activeLanguage) {
+      const cleanPath = getUrlForRoute(bookId, activeLanguage, activeChapterId || null);
       if (window.location.pathname !== cleanPath) {
         window.history.replaceState(null, '', cleanPath);
       }
@@ -192,7 +205,16 @@ export const Reader: React.FC<ReaderProps> = ({
 
   // Load active chapter markdown
   useEffect(() => {
-    if (!book || !activeLanguage || !activeChapterId) return;
+    if (!book || !activeLanguage) return;
+    
+    if (activeChapterId === '') {
+      setChapterContent('');
+      setLoadingChapter(false);
+      const displayTitle = book.localized?.[activeLanguage]?.title || book.title;
+      document.title = `${displayTitle} — About | SameeraVani`;
+      window.dispatchEvent(new Event('locationchange'));
+      return;
+    }
     
     const langChapters = book.chapters[activeLanguage] || [];
     const activeChapter = langChapters.find((c) => c.id === activeChapterId);
@@ -256,7 +278,7 @@ export const Reader: React.FC<ReaderProps> = ({
   // Keyboard navigation listener (Left/Right arrow keys)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (!book || !activeLanguage || settingsOpen) return;
+      if (!book || !activeLanguage || settingsOpen || activeChapterId === '') return;
       
       const langChapters = book.chapters[activeLanguage] || [];
       const currentIdx = langChapters.findIndex((c) => c.id === activeChapterId);
@@ -304,6 +326,30 @@ export const Reader: React.FC<ReaderProps> = ({
     if (window.innerWidth <= 768) {
       setSidebarOpen(false);
     }
+
+    // Push new history frame
+    const cleanPath = getUrlForRoute(bookId, activeLanguage, chapterId || null);
+    if (window.location.pathname !== cleanPath) {
+      window.history.pushState(null, '', cleanPath);
+    }
+  };
+
+  const handleNavigateToIntro = () => {
+    setActiveChapterId('');
+    setChapterContent('');
+    setRestoreScrollPercent(null);
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTop = 0;
+    }
+    if (window.innerWidth <= 768) {
+      setSidebarOpen(false);
+    }
+
+    // Push new history frame
+    const cleanPath = getUrlForRoute(bookId, activeLanguage, null);
+    if (window.location.pathname !== cleanPath) {
+      window.history.pushState(null, '', cleanPath);
+    }
   };
 
   const handleNavigateToBookmark = (bookmark: Bookmark) => {
@@ -314,6 +360,11 @@ export const Reader: React.FC<ReaderProps> = ({
     setRestoreScrollPercent(bookmark.scrollPercent);
     if (window.innerWidth <= 768) {
       setSidebarOpen(false);
+    }
+
+    const cleanPath = getUrlForRoute(bookId, bookmark.language, bookmark.chapterId);
+    if (window.location.pathname !== cleanPath) {
+      window.history.pushState(null, '', cleanPath);
     }
   };
 
@@ -330,6 +381,8 @@ export const Reader: React.FC<ReaderProps> = ({
     // Jump to the same chapter index in the new language
     if (currentChapterIdx !== -1 && currentChapterIdx < targetLangChapters.length) {
       targetChapterId = targetLangChapters[currentChapterIdx].id;
+    } else if (activeChapterId === '') {
+      targetChapterId = '';
     } else if (targetLangChapters.length > 0) {
       targetChapterId = targetLangChapters[0].id;
     }
@@ -345,14 +398,18 @@ export const Reader: React.FC<ReaderProps> = ({
 
     setActiveLanguage(newLang);
     onChangeLanguage?.(newLang);
-    if (targetChapterId) {
-      setActiveChapterId(targetChapterId);
-      setRestoreScrollPercent(scrollPercent);
-    }
+    setActiveChapterId(targetChapterId);
+    setRestoreScrollPercent(scrollPercent);
     
     // Sync immediate storage update
     if (targetChapterId) {
       onUpdateProgress(book.id, newLang, targetChapterId, scrollPercent);
+    }
+
+    // Push new history frame
+    const cleanPath = getUrlForRoute(book.id, newLang, targetChapterId || null);
+    if (window.location.pathname !== cleanPath) {
+      window.history.pushState(null, '', cleanPath);
     }
   };
 
@@ -509,6 +566,447 @@ export const Reader: React.FC<ReaderProps> = ({
   // Localized title & description if available
   const displayTitle = book.localized?.[activeLanguage]?.title || book.title;
 
+  const getAboutLabel = (lang: string) => {
+    const labels: Record<string, string> = {
+      english: 'About this Book',
+      sanskrit: 'पुस्तकमधिकृत्य (परिचयः)',
+      hindi: 'इस पुस्तक के बारे में',
+      kannada: 'ಈ ಪುಸ್ತಕದ ಬಗ್ಗೆ',
+      tamil: 'நூல் அறிமுகம்',
+      telugu: 'ఈ పుస్తకం గురించి'
+    };
+    return labels[lang] || 'About this Book';
+  };
+
+  const getGrammarHeaderTitle = (chapterId: string, lang: string) => {
+    if (chapterId === 'ch6') {
+      const titles: Record<string, string> = {
+        english: 'Noun Declensions Quick Index (Shabda)',
+        sanskrit: 'शब्दरूपाणि त्वरित-सूची',
+        hindi: 'शब्द रूप त्वरित सूची',
+        kannada: 'ಶಬ್ದ ರೂಪಗಳು ಶೀಘ್ರ ಸೂಚಿ',
+        tamil: 'பெயர்ச்சொல் உருபுகள் விரைவுப் பட்டி',
+        telugu: 'శబ్ద రూపములు శీఘ్ర సూచిక'
+      };
+      return titles[lang] || 'Noun Declensions Quick Index';
+    }
+    if (chapterId === 'ch8') {
+      const titles: Record<string, string> = {
+        english: 'Verb Conjugations Quick Index (Dhatu)',
+        sanskrit: 'धातुरूपाणि त्वरित-सूची',
+        hindi: 'धातु रूप त्वरित सूची',
+        kannada: 'ಧಾತು ರೂಪಗಳು ಶೀಘ್ರ ಸೂಚಿ',
+        tamil: 'வினைச்சொல் வடிவங்கள் விரைவுப் பட்டி',
+        telugu: 'ధాతు రూపములు శీఘ్ర సూచిక'
+      };
+      return titles[lang] || 'Verb Conjugations Quick Index';
+    }
+    if (chapterId === 'ch9') {
+      const titles: Record<string, string> = {
+        english: 'Sandhi Rules Quick Index (Sandhi)',
+        sanskrit: 'सन्धिप्रकरणम् त्वरित-सूची',
+        hindi: 'सन्धि प्रकरण त्वरित सूची',
+        kannada: 'ಸಂಧಿ ಪ್ರಕರಣ ಶೀಘ್ರ ಸೂಚಿ',
+        tamil: 'புணர்ச்சி விதிகள் விரைவுப் பட்டி',
+        telugu: 'సంధి ప్రకరణము శీఘ్ర సూచిక'
+      };
+      return titles[lang] || 'Sandhi Rules Quick Index';
+    }
+    if (chapterId === 'ch10') {
+      const titles: Record<string, string> = {
+        english: 'Compounds & Derivations Quick Index (Samasa)',
+        sanskrit: 'समासाः वृत्तयश्च त्वरित-सूची',
+        hindi: 'समास एवं वृत्तियाँ त्वरित सूची',
+        kannada: 'ಸಮಾಸಗಳು ಮತ್ತು ವೃತ್ತಿಗಳು ಶೀಘ್ರ ಸೂಚಿ',
+        tamil: 'கூட்டுச் சொற்கள் (ஸமாஸங்கள்) விரைவுப் பட்டி',
+        telugu: 'సమాసములు మరియు వృత్తులు శీఘ్ర సూచిక'
+      };
+      return titles[lang] || 'Compounds & Derivations Quick Index';
+    }
+    return '';
+  };
+
+  const scrollToHeading = (prefix: string) => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
+
+    const article = container.querySelector('.reader-markdown');
+    if (!article) return;
+
+    const candidates = Array.from(article.querySelectorAll('h1, h2, h3, h4, h5, h6, p, strong, th, td, span'));
+    const normalizedPrefix = prefix.trim().toLowerCase();
+
+    let foundElement: HTMLElement | null = null;
+
+    for (const el of candidates) {
+      const text = el.textContent || '';
+      const normalizedText = text.trim().toLowerCase();
+      
+      const cleanText = normalizedText.replace(/[\*\_\`\#]/g, '').trim();
+      const cleanPrefix = normalizedPrefix.replace(/[\*\_\`\#]/g, '').trim();
+
+      if (cleanText.startsWith(cleanPrefix) || cleanText.includes(cleanPrefix)) {
+        foundElement = el as HTMLElement;
+        break;
+      }
+    }
+
+    if (foundElement) {
+      foundElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+      foundElement.classList.remove('heading-highlight-flash');
+      void foundElement.offsetWidth; // force reflow
+      foundElement.classList.add('heading-highlight-flash');
+    } else {
+      console.warn(`Could not find heading for prefix: ${prefix}`);
+    }
+  };
+
+  const renderShabdaIndex = () => {
+    const shabdaItems = [
+      { id: 1, label: 'रामः (Rāma)', prefix: '1.' },
+      { id: 2, label: 'हरिः (Hari)', prefix: '2.' },
+      { id: 3, label: 'गुरुः (Guru)', prefix: '3.' },
+      { id: 4, label: 'रमा (Ramā)', prefix: '4.' },
+      { id: 5, label: 'रुचिः (Ruchi)', prefix: '5.' },
+      { id: 6, label: 'नदी (Nadī)', prefix: '6.' },
+      { id: 7, label: 'ज्ञानम् (Jñāna)', prefix: '7.' },
+      { id: 8, label: 'तद् - पुल्लिङ्गः (He/That)', prefix: '8.' },
+      { id: 9, label: 'तद् - स्त्रीलिङ्गः (She)', prefix: '9.' },
+      { id: 10, label: 'तद् - नपुंसकलिङ्गः (It)', prefix: '10.' },
+      { id: 11, label: 'किम् - पुल्लिङ्गः (Who?)', prefix: '11.' },
+      { id: 12, label: 'किम् - स्त्रीलिङ्गः (Who?)', prefix: '12.' },
+      { id: 13, label: 'किम् - नपुंसकलिङ्गः (What?)', prefix: '13.' },
+      { id: 14, label: 'इदम् - पुल्लिङ्गः (This)', prefix: '14.' },
+      { id: 15, label: 'इदम् - स्त्रीलिङ्गः (This)', prefix: '15.' },
+      { id: 16, label: 'इदम् - नपुंसकलिङ्गः (This)', prefix: '16.' },
+      { id: 17, label: 'एतद् - पुल्लिङ्गः (This near)', prefix: '17.' },
+      { id: 18, label: 'एतद् - स्त्रीलिङ्गः (This near)', prefix: '18.' },
+      { id: 19, label: 'एतद् - नपुंसकलिङ्गः (This near)', prefix: '19.' },
+      { id: 20, label: 'अस्मद् (I/We)', prefix: '20.' },
+      { id: 21, label: 'युष्मद् (You)', prefix: '21.' }
+    ];
+
+    return (
+      <div className="quick-ref-pills" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+        {shabdaItems.map((item) => (
+          <button
+            key={item.id}
+            className="quick-pill-btn"
+            onClick={() => scrollToHeading(item.prefix)}
+          >
+            {item.label}
+          </button>
+        ))}
+      </div>
+    );
+  };
+
+  const renderDhatuIndex = () => {
+    const parasmaipadaVerbs = [
+      { id: 1, label: '१. पठ् (to read)', prefix: '1.' },
+      { id: 2, label: '२. लिख् (to write)', prefix: '2.' },
+      { id: 3, label: '३. गम् (to go)', prefix: '3.' },
+      { id: 4, label: '४. भू (to be)', prefix: '4.' },
+      { id: 5, label: '५. क्रीड् (to play)', prefix: '5.' },
+      { id: 6, label: '६. खाद् (to eat)', prefix: '6.' },
+      { id: 7, label: '७. पा (to drink)', prefix: '7.' },
+      { id: 8, label: '८. दृश् (to see)', prefix: '8.' },
+      { id: 9, label: '९. धाव् (to run)', prefix: '9.' },
+      { id: 10, label: '१०. हस् (to laugh)', prefix: '10.' }
+    ];
+
+    const atmanepadaVerbs = [
+      { id: 11, label: '११. वन्द् (to salute)', prefix: '11.' },
+      { id: 12, label: '१२. सेव् (to serve)', prefix: '12.' },
+      { id: 13, label: '१३. लभ् (to obtain)', prefix: '13.' },
+      { id: 14, label: '१४. रम् (to rejoice)', prefix: '14.' },
+      { id: 15, label: '१५. मुद् (to be happy)', prefix: '15.' }
+    ];
+
+    const labelsParasmai: Record<string, string> = {
+      english: 'Parasmaipada Verbs',
+      sanskrit: 'परस्मैपदिनः धातवः',
+      hindi: 'परस्मैपद धातु',
+      kannada: 'ಪರಸ್ಮೈಪದ ಧಾತುಗಳು',
+      tamil: 'பரஸ்மைபத வினைகள்',
+      telugu: 'పరస్మైపద ధాతువులు'
+    };
+
+    const labelsAtmane: Record<string, string> = {
+      english: 'Atmanepada Verbs',
+      sanskrit: 'आत्मनेपदिनः धातवः',
+      hindi: 'आत्मनेपद धातु',
+      kannada: 'ಆತ್ಮನೇಪದ ಧಾತುಗಳು',
+      tamil: 'ஆத்மநேபத வினைகள்',
+      telugu: 'ఆత్మనేపద ధాతువులు'
+    };
+
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', width: '100%' }}>
+        <div>
+          <h4 style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            {labelsParasmai[activeLanguage] || 'Parasmaipada Verbs'}
+          </h4>
+          <div className="quick-ref-pills" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            {parasmaipadaVerbs.map((item) => (
+              <button
+                key={item.id}
+                className="quick-pill-btn"
+                onClick={() => scrollToHeading(item.prefix)}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h4 style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            {labelsAtmane[activeLanguage] || 'Atmanepada Verbs'}
+          </h4>
+          <div className="quick-ref-pills" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            {atmanepadaVerbs.map((item) => (
+              <button
+                key={item.id}
+                className="quick-pill-btn"
+                onClick={() => scrollToHeading(item.prefix)}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  const renderSandhiIndex = () => {
+    const svaraSandhis = [
+      { id: 1, label: '१.१ सवर्णदीर्घ', prefix: '१.१' },
+      { id: 2, label: '१.२ गुण', prefix: '१.२' },
+      { id: 3, label: '१.३ वृद्धि', prefix: '१.३' },
+      { id: 4, label: '१.४ पूर्वरूप', prefix: '१.४' },
+      { id: 5, label: '१.५ यण्', prefix: '१.५' },
+      { id: 6, label: '१.६ यान्त-वान्तादेश', prefix: '१.६' },
+      { id: 7, label: '१.७ प्रकृतिभाव', prefix: '१.७' }
+    ];
+
+    const vyanjanaSandhis = [
+      { id: 8, label: '२.१ श्चुत्व', prefix: '२.१' },
+      { id: 9, label: '२.२ ष्टुत्व', prefix: '२.२' },
+      { id: 10, label: '२.३ जश्त्व', prefix: '२.३' },
+      { id: 11, label: '२.४ अनुनासिक', prefix: '२.४' },
+      { id: 12, label: '२.५ अनुस्वार', prefix: '२.५' },
+      { id: 13, label: '२.६ परसवर्ण', prefix: '२.६' },
+      { id: 14, label: '२.७ ङमुडागम', prefix: '२.७' },
+      { id: 15, label: '२.८ छत्व', prefix: '२.८ छत्व' },
+      { id: 16, label: '२.८ लत्व', prefix: '२.८ लत्व' },
+      { id: 17, label: '२.९ रेफलोप', prefix: '२.९' },
+      { id: 18, label: '२.१० शर्', prefix: '२.१०' }
+    ];
+
+    const visargaSandhis = [
+      { id: 19, label: '३.१ सकारादेश', prefix: '३.१' },
+      { id: 20, label: '३.२ उकारदेश', prefix: '३.२' },
+      { id: 21, label: '३.३ रेफादेश', prefix: '३.३' },
+      { id: 22, label: '३.४ विसर्गलोप', prefix: '३.४' }
+    ];
+
+    const labelsSvara: Record<string, string> = {
+      english: 'Svara Sandhi (Vowels)',
+      sanskrit: 'स्वरसन्धिः (अच् सन्धिः)',
+      hindi: 'स्वर सन्धि',
+      kannada: 'ಸ್ವರ ಸಂಧಿ',
+      tamil: 'உயிர் புணர்ச்சி (ஸ்வர சந்தி)',
+      telugu: 'స్వర సంధి'
+    };
+
+    const labelsVyanjana: Record<string, string> = {
+      english: 'Vyanjana Sandhi (Consonants)',
+      sanskrit: 'व्यञ्जनसन्धिः (हल् सन्धिः)',
+      hindi: 'व्यञ्जन सन्धि',
+      kannada: 'ವ್ಯಂಜನ ಸಂಧಿ',
+      tamil: 'மெய் புணர்ச்சி (வ்யஞ்ஜன சந்தி)',
+      telugu: 'వ్యంజన సంధి'
+    };
+
+    const labelsVisarga: Record<string, string> = {
+      english: 'Visarga Sandhi',
+      sanskrit: 'विसर्गसन्धिः',
+      hindi: 'विसर्ग सन्धि',
+      kannada: 'ವಿಸರ್ಗ ಸಂಧಿ',
+      tamil: 'விசர்க்க புணர்ச்சி',
+      telugu: 'విసర్గ సంధి'
+    };
+
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', width: '100%' }}>
+        <div>
+          <h4 style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            {labelsSvara[activeLanguage] || 'Svara Sandhi'}
+          </h4>
+          <div className="quick-ref-pills" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            {svaraSandhis.map((item) => (
+              <button
+                key={item.id}
+                className="quick-pill-btn"
+                onClick={() => scrollToHeading(item.prefix)}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h4 style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            {labelsVyanjana[activeLanguage] || 'Vyanjana Sandhi'}
+          </h4>
+          <div className="quick-ref-pills" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            {vyanjanaSandhis.map((item) => (
+              <button
+                key={item.id}
+                className="quick-pill-btn"
+                onClick={() => scrollToHeading(item.prefix)}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h4 style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            {labelsVisarga[activeLanguage] || 'Visarga Sandhi'}
+          </h4>
+          <div className="quick-ref-pills" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            {visargaSandhis.map((item) => (
+              <button
+                key={item.id}
+                className="quick-pill-btn"
+                onClick={() => scrollToHeading(item.prefix)}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  const renderSamasaIndex = () => {
+    const compoundPills = [
+      { id: 1, label: '१.१ सामान्य-तत्पुरुष (General Tatpurusha)', prefix: '१.१ सामान्य' },
+      { id: 2, label: '१.२ नञ्-तत्पुरुष (Negative)', prefix: '१.२ नञ्' },
+      { id: 3, label: '१.३ उपपद-तत्पुरुष (Upapada)', prefix: '१.३' },
+      { id: 4, label: '१.४ प्रादि-तत्पुरुष (Pradi)', prefix: '१.४' },
+      { id: 5, label: '१.५ कर्मधारय (Karmadharaya)', prefix: '१.५' },
+      { id: 6, label: '१.६ द्विगु (Dvigu)', prefix: '१.६' },
+      { id: 7, label: '२.१ इतरेतर-द्वन्द्व (Itaretara Dvandva)', prefix: '२.१' },
+      { id: 8, label: '२.२ समाहार-द्वन्द्व (Samahara Dvandva)', prefix: '२.२' },
+      { id: 9, label: '३) अव्ययीभाव (Avyayibhava)', prefix: '३) अव्ययीभाव' },
+      { id: 10, label: '४.१ समानाधिकरण-बहुव्रीहि (Bahuvrihi)', prefix: '४.१' }
+    ];
+
+    const derivationPills = [
+      { id: 11, label: '२. एकशेषवृत्तिः (Ekashesha)', prefix: '२. एकशेषवृत्तिः' },
+      { id: 12, label: '३. कृत् वृत्तिः (Kridanta / Verbal Adjectives)', prefix: '३. कृत्' },
+      { id: 13, label: '४. तद्धित-प्रत्ययाः (Taddhita / Nominal Derivations)', prefix: '४. तद्धित' },
+      { id: 14, label: '५) सनाद्यन्तधातुवृत्तिः (Sanadyanta)', prefix: 'सनाद्यन्त' },
+      { id: 15, label: 'प्रयोगाः कारकाणि च (Voices & Cases)', prefix: 'प्रयोगाः' }
+    ];
+
+    const labelsCompound: Record<string, string> = {
+      english: 'Compound Words (समासाः)',
+      sanskrit: 'समासाः',
+      hindi: 'समास',
+      kannada: 'ಸಮಾಸಗಳು',
+      tamil: 'கூட்டுச் சொற்கள் (ஸமாஸங்கள்)',
+      telugu: 'సమాసములు'
+    };
+
+    const labelsDerivation: Record<string, string> = {
+      english: 'Derivations & Voices (वृत्तयः प्रयोगाश्च)',
+      sanskrit: 'वृत्तयः प्रयोगाश्च',
+      hindi: 'वृत्तियाँ एवं प्रयोग',
+      kannada: 'ವೃತ್ತಿಗಳು ಮತ್ತು ಪ್ರಯೋಗಗಳು',
+      tamil: 'விருத்திகள் மற்றும் பிரयोகங்கள்',
+      telugu: 'వృత్తులు మరియు ప్రయోగములు'
+    };
+
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', width: '100%' }}>
+        <div>
+          <h4 style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            {labelsCompound[activeLanguage] || 'Compound Words'}
+          </h4>
+          <div className="quick-ref-pills" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            {compoundPills.map((item) => (
+              <button
+                key={item.id}
+                className="quick-pill-btn"
+                onClick={() => scrollToHeading(item.prefix)}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h4 style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            {labelsDerivation[activeLanguage] || 'Derivations & Voices'}
+          </h4>
+          <div className="quick-ref-pills" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            {derivationPills.map((item) => (
+              <button
+                key={item.id}
+                className="quick-pill-btn"
+                onClick={() => scrollToHeading(item.prefix)}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  const renderGrammarDashboard = () => {
+    if (!['ch6', 'ch8', 'ch9', 'ch10'].includes(activeChapterId)) return null;
+
+    const headerTitle = getGrammarHeaderTitle(activeChapterId, activeLanguage);
+
+    return (
+      <div className="grammar-quick-reference open" style={{ marginTop: '16px', width: '100%' }}>
+        <div className="quick-ref-static-header" style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '10px',
+          padding: '14px 20px',
+          backgroundColor: 'var(--bg-tertiary)',
+          borderBottom: '1px solid var(--border)',
+          fontWeight: 700,
+          fontSize: '0.95rem',
+          color: 'var(--text-primary)'
+        }}>
+          <BookOpen size={16} style={{ color: 'var(--accent)' }} />
+          <span>{headerTitle}</span>
+        </div>
+
+        <div className="quick-ref-content-single">
+          {activeChapterId === 'ch6' && renderShabdaIndex()}
+          {activeChapterId === 'ch8' && renderDhatuIndex()}
+          {activeChapterId === 'ch9' && renderSandhiIndex()}
+          {activeChapterId === 'ch10' && renderSamasaIndex()}
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="reader-layout" data-theme={settings.theme}>
       
@@ -568,7 +1066,7 @@ export const Reader: React.FC<ReaderProps> = ({
         </div>
 
         <div className="topbar-center" id="reader-chapter-title">
-          {activeChapter ? activeChapter.title : 'Loading Chapter...'}
+          {activeChapter ? activeChapter.title : (activeChapterId === '' ? getAboutLabel(activeLanguage) : 'Loading Chapter...')}
         </div>
 
         <div className="topbar-right">
@@ -647,6 +1145,16 @@ export const Reader: React.FC<ReaderProps> = ({
         <div className="sidebar-content">
           {sidebarTab === 'toc' && (
             <div className="toc-list" id="table-of-contents">
+              <button
+                className={`toc-item ${activeChapterId === '' ? 'active' : ''}`}
+                onClick={handleNavigateToIntro}
+                style={{ borderBottom: '1px solid var(--border)', borderRadius: 0, marginBottom: '8px', paddingBottom: '12px' }}
+              >
+                <span className="toc-status-indicator"></span>
+                <div style={{ flex: 1 }}>
+                  <div style={{ fontWeight: 600 }}>{getAboutLabel(activeLanguage)}</div>
+                </div>
+              </button>
               {langChapters.map((chapter) => {
                 const isActive = chapter.id === activeChapterId;
                 const chapterReadPercent = getChapterProgressPercent(chapter.id);
@@ -871,57 +1379,146 @@ export const Reader: React.FC<ReaderProps> = ({
                 <div className="spinner"></div>
                 <p>Opening chapter pages...</p>
               </div>
-            ) : (
-              <article 
-                className={`reader-markdown read-font-${settings.fontFamily} lh-${settings.lineHeight}`}
-                style={{ fontSize: `${settings.fontSize}px` }}
-              >
-                <ReactMarkdown 
-                  remarkPlugins={[remarkGfm]} 
-                  rehypePlugins={[rehypeRaw]}
-                  components={{
-                    img: ({ node, src, ...props }) => {
-                      let resolvedSrc = src;
-                      if (src && !src.startsWith('http://') && !src.startsWith('https://') && !src.startsWith('/')) {
-                        resolvedSrc = `${import.meta.env.BASE_URL}${src}`;
-                      }
-                      return <img src={resolvedSrc} {...props} style={{ maxWidth: '100%', height: 'auto' }} />;
-                    }
-                  }}
-                >
-                  {chapterContent}
-                </ReactMarkdown>
-
-                {/* Next / Prev Chapter buttons */}
-                <div className="chapter-nav-buttons">
-                  {hasPrevChapter ? (
-                    <button 
-                      className="nav-btn prev"
-                      onClick={() => handleNavigateToChapter(langChapters[activeChapterIdx - 1].id)}
-                    >
-                      <span className="nav-btn-label">Previous Chapter</span>
-                      <span className="nav-btn-title">{langChapters[activeChapterIdx - 1].title}</span>
-                    </button>
-                  ) : (
-                    <div style={{ flex: 1 }}></div>
-                  )}
-
-                  {hasNextChapter ? (
-                    <button 
-                      className="nav-btn next"
-                      onClick={() => handleNavigateToChapter(langChapters[activeChapterIdx + 1].id)}
-                    >
-                      <span className="nav-btn-label">Next Chapter</span>
-                      <span className="nav-btn-title">{langChapters[activeChapterIdx + 1].title}</span>
-                    </button>
-                  ) : (
-                    <button className="nav-btn next" onClick={onBack}>
-                      <span className="nav-btn-label">Finish Reading</span>
-                      <span className="nav-btn-title">Return to Bookshelf</span>
-                    </button>
-                  )}
+            ) : activeChapterId === '' ? (
+              <div className="book-intro-container">
+                <div className="book-intro-card">
+                  <div className="book-intro-cover-wrapper">
+                    <img 
+                      src={`${import.meta.env.BASE_URL}${book.coverUrl}`} 
+                      alt={displayTitle} 
+                      className="book-intro-cover" 
+                    />
+                  </div>
+                  <div className="book-intro-info">
+                    <h1 className="book-intro-title">{displayTitle}</h1>
+                    <div className="book-intro-author">By {book.author}</div>
+                    
+                    <div className="book-intro-meta">
+                      <span className="intro-meta-item">{book.genre}</span>
+                      <span className="intro-meta-divider">•</span>
+                      <span className="intro-meta-item">{book.year}</span>
+                    </div>
+                    
+                    <p className="book-intro-desc">
+                      {book.localized?.[activeLanguage]?.description || book.description}
+                    </p>
+                    
+                    <div className="book-intro-actions">
+                      <button 
+                        className="intro-btn-primary" 
+                        onClick={() => {
+                          if (langChapters.length > 0) {
+                            handleNavigateToChapter(langChapters[0].id);
+                          }
+                        }}
+                      >
+                        Start Reading
+                      </button>
+                      
+                      {savedProgress && savedProgress.currentLanguage === activeLanguage && (
+                        <button 
+                          className="intro-btn-secondary"
+                          onClick={() => {
+                            handleNavigateToChapter(savedProgress.currentChapterId, savedProgress.scrollPercent);
+                          }}
+                        >
+                          Resume: {Math.round(savedProgress.scrollPercent)}% (Chapter {
+                            (() => {
+                              const chIdx = langChapters.findIndex(c => c.id === savedProgress.currentChapterId);
+                              return chIdx !== -1 ? chIdx + 1 : 1;
+                            })()
+                          })
+                        </button>
+                      )}
+                    </div>
+                  </div>
                 </div>
-              </article>
+
+                <div className="book-intro-chapters-section">
+                  <h2 className="chapters-section-title">Table of Contents</h2>
+                  <div className="intro-chapters-list">
+                    {langChapters.map((chapter, index) => {
+                      const progressPercent = getChapterProgressPercent(chapter.id);
+                      return (
+                        <button
+                          key={chapter.id}
+                          className="intro-chapter-card"
+                          onClick={() => handleNavigateToChapter(chapter.id)}
+                        >
+                          <span className="intro-chapter-num">{index + 1}</span>
+                          <div className="intro-chapter-details">
+                            <span className="intro-chapter-title">{chapter.title}</span>
+                            <span className="intro-chapter-progress">
+                              {progressPercent === 100 ? 'Completed' : progressPercent > 0 ? `${progressPercent}% read` : 'Unread'}
+                            </span>
+                          </div>
+                          <span className="intro-chapter-arrow">→</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <>
+                {renderGrammarDashboard()}
+                <article 
+                  className={`reader-markdown read-font-${settings.fontFamily} lh-${settings.lineHeight}`}
+                  style={{ fontSize: `${settings.fontSize}px` }}
+                >
+                  <ReactMarkdown 
+                    remarkPlugins={[remarkGfm]} 
+                    rehypePlugins={[rehypeRaw]}
+                    components={{
+                      img: ({ node, src, ...props }) => {
+                        let resolvedSrc = src;
+                        if (src && !src.startsWith('http://') && !src.startsWith('https://') && !src.startsWith('/')) {
+                          resolvedSrc = `${import.meta.env.BASE_URL}${src}`;
+                        }
+                        return <img src={resolvedSrc} {...props} style={{ maxWidth: '100%', height: 'auto' }} />;
+                      }
+                    }}
+                  >
+                    {chapterContent}
+                  </ReactMarkdown>
+
+                  {/* Next / Prev Chapter buttons */}
+                  <div className="chapter-nav-buttons">
+                    {hasPrevChapter ? (
+                      <button 
+                        className="nav-btn prev"
+                        onClick={() => handleNavigateToChapter(langChapters[activeChapterIdx - 1].id)}
+                      >
+                        <span className="nav-btn-label">Previous Chapter</span>
+                        <span className="nav-btn-title">{langChapters[activeChapterIdx - 1].title}</span>
+                      </button>
+                    ) : (
+                      <button 
+                        className="nav-btn prev"
+                        onClick={handleNavigateToIntro}
+                      >
+                        <span className="nav-btn-label">Book Info</span>
+                        <span className="nav-btn-title">About this Book</span>
+                      </button>
+                    )}
+
+                    {hasNextChapter ? (
+                      <button 
+                        className="nav-btn next"
+                        onClick={() => handleNavigateToChapter(langChapters[activeChapterIdx + 1].id)}
+                      >
+                        <span className="nav-btn-label">Next Chapter</span>
+                        <span className="nav-btn-title">{langChapters[activeChapterIdx + 1].title}</span>
+                      </button>
+                    ) : (
+                      <button className="nav-btn next" onClick={onBack}>
+                        <span className="nav-btn-label">Finish Reading</span>
+                        <span className="nav-btn-title">Return to Bookshelf</span>
+                      </button>
+                    )}
+                  </div>
+                </article>
+              </>
             )}
           </div>
         </div>

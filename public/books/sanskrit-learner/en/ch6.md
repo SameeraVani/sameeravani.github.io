@@ -15,7 +15,7 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | **Saptamī** | रामे | रामयोः | रामेषु | in/on Rama | in/on two Ramas | in/on Ramas |
 | **Sambodhana** | हे राम | हे रामौ | हे रामाः | O Rama | O two Ramas | O Ramas |
 
-**Similar Nouns** \- कृष्ण , बाल , वृक्ष , सूर्य , चन्द्र , देव , नृप , छात्र , जनक , पुत्र , गज , अश्व , हस्त , पाद , विद्यालय , देवालय , ग्राम ।
+**Similar Nouns** \- कृष्ण (Krishna), बाल (Child), वृक्ष (Tree), सूर्य (Sun), चन्द्र (Moon), देव (God), नृप (King), छात्र (Student), जनक (Father), पुत्र (Son), गज (Elephant), अश्व (Horse), हस्त (Hand), पाद (Foot), विद्यालय (School), देवालय (Temple), ग्राम (Village) ।
 
 ### 2. इकारान्तः पुल्लिङ्गः हरि शब्दः
 
@@ -30,7 +30,7 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | **Saptamī** | हरौ | हर्योः | हरिषु | in/on Hari | in/on two Haris | in/on Haris |
 | **Sambodhana** | हे हरे | हे हरी | हे हरयः | O Hari | O two Haris | O Haris |
 
-**Similar Nouns** \- ऋषि , कवि , रवि , मुनि , गिरि , यति , निधि , विधि , कपि , अग्नि  ।
+**Similar Nouns** \- ऋषि (Sage), कवि (Poet), रवि (Sun), मुनि (Ascetic), गिरि (Mountain), यति (Saint), निधि (Treasure), विधि (Creator), कपि (Monkey), अग्नि (Fire) ।
 
 ### 3. उकारान्तः पुल्लिङ्गः गुरु शब्दः
 
@@ -45,7 +45,7 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | **Saptamī** | गुरौ | गुर्वोः | गुरुषु | in/on Guru | in/on two Gurus | in/on Gurus |
 | **Sambodhana** | हे गुरो | हे गुरू | हे गुरवः | O Guru | O two Gurus | O Gurus |
 
-**एवम् \-** भानु (सूर्यनु), शिशु (मगु), विष्णु (विष्णुवु), शम्भु (शिवनु), वायु (गाळि), रिपु (शत्रु), प्रभु (ओडेयनु), बन्धु (नेण्टनु), साधु (सज्जननु), वेणु (कोललु) ।
+**एवम् \-** भानु (Sun), शिशु (Child), विष्णु (Vishnu), शम्भु (Shiva), वायु (Wind), रिपु (Enemy), प्रभु (Lord/Master), बन्धु (Relative), साधु (Saint), वेणु (Flute) ।
 
 ### 4. आकारान्तः स्त्रीलिङ्गः रमा शब्दः
 
@@ -60,7 +60,7 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | **Saptamī** | रमायाम् | रमयोः | रमासु | in/on Ramaa | in/on two Ramaas | in/on Ramaas |
 | **Sambodhana** | हे रमे | हे रमे | हे रमाः | O Ramaa | O two Ramaas | O Ramaas |
 
-**एवम् \-** सीता (सीतेयु), लता (लतेयु), माला (मालेयु), बाला (बालेयु), शाला (शालेयु), कला (कलेयु), कथा (कथेयु), क्रीडा (आटवु), छाया (नेरळु), शिक्षा (कले/तिळुवळिके) ।
+**एवम् \-** सीता (Sita), लता (Creeper), माला (Garland), बाला (Girl), शाला (School/Hall), कला (Art), कथा (Story), क्रीडा (Play/Game), छाया (Shadow), शिक्षा (Education) ।
 
 ### 5. इकारान्तः स्त्रीलिङ्गः रुचि शब्दः
 
@@ -75,7 +75,7 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | **Saptamī** | रुचौ / रुच्याम् | रुच्योः | रुचिषु | in/on Taste | in/on two tastes | in/on tastes |
 | **Sambodhana** | हे रुचे | हे रुची | हे रुचयः | O Taste | O two tastes | O tastes |
 
-**Similar Nouns** \- मति , कीर्ति , भूमि , शुद्धि , शक्ति , भक्ति , शान्ति , बुद्धि , नीति , प्रीति  ।
+**Similar Nouns** \- मति (Intellect), कीर्ति (Fame), भूमि (Earth), शुद्धि (Purity), शक्ति (Power), भक्ति (Devotion), शान्ति (Peace), बुद्धि (Wisdom), नीति (Ethics), प्रीति (Love) ।
 
 ### 6. ईकारान्तः स्त्रीलिङ्गः नदी शब्दः
 
@@ -90,7 +90,7 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | **Saptamī** | नद्याम् | नद्योः | नदीषु | in/on River | in/on two rivers | in/on rivers |
 | **Sambodhana** | हे नदि | हे नद्यौ | हे नद्यः | O River | O two rivers | O rivers |
 
-**एवम् \-** गौरी (गौरियु), पार्वती (पार्वतियु), जननी (तयियु), भगिनी (सहोदरियु), लक्ष्मी (लक्ष्मियु), सरस्वती (सरस्वतियु), नगरी (पट्टणवु), वाणी (मातु), दासी (सेवकियु), द्रोणी (दोणियु) ।
+**एवम् \-** गौरी (Gauri), पार्वती (Parvati), जननी (Mother), भगिनी (Sister), लक्ष्मी (Lakshmi), सरस्वती (Saraswati), नगरी (City), वाणी (Speech/Voice), दासी (Maidservant), द्रोणी (Trough/Bucket) ।
 
 ### 7. अकारान्तः नपुंसकलिङ्गः ज्ञान शब्दः
 
@@ -105,7 +105,7 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | **Saptamī** | ज्ञाने | ज्ञानयोः | ज्ञानेषु | in/on Knowledge | in/on two knowledges | in/on knowledges |
 | **Sambodhana** | हे ज्ञान | हे ज्ञाने | हे ज्ञानानि | O Knowledge | O two knowledges | O knowledges |
 
-**Similar Nouns** फल , वन , जल , पुष्प , पुस्तक , पत्र , नेत्र , गृह , मुख , कमल  ।
+**Similar Nouns** फल (Fruit), वन (Forest), जल (Water), पुष्प (Flower), पुस्तक (Book), पत्र (Leaf/Letter), नेत्र (Eye), गृह (House), मुख (Mouth/Face), कमल (Lotus) ।
 
 ### 8. दकारान्तः पुल्लिङ्गः तद् शब्दः
 
