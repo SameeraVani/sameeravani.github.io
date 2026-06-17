@@ -30,7 +30,7 @@ In Sanskrit, words are formed by combining consonants and vowels. Dividing them 
 
 ---
 
-## undefined
+## 3. Vegetables (शाकानि)
 
 | Word | English Translation |
 | :---: | :---: |
@@ -64,7 +64,7 @@ In Sanskrit, words are formed by combining consonants and vowels. Dividing them 
 
 ---
 
-## undefined
+## 5. Body Parts (शरीरावयवाः)
 
 | Word | English Translation |
 | :---: | :---: |
@@ -81,7 +81,7 @@ In Sanskrit, words are formed by combining consonants and vowels. Dividing them 
 
 ---
 
-## undefined
+## 6. Commonly Used Words (सामान्यशब्दाः)
 
 | Word | English Translation |
 | :---: | :---: |

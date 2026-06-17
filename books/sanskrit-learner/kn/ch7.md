@@ -2,32 +2,38 @@
 
 ರಾಮ ಶಬ್ದದ ವಿವಿಧ ವಿಭಕ್ತಿ ರೂಪಗಳನ್ನು ಬಳಸಿ ವಾಕ್ಯ ರಚನೆ ಮಾಡುವ ಅಭ್ಯಾಸ ಇಲ್ಲಿದೆ.
 
-ಅಸ್ಮಿನ್ ಪಾಠೇ ವಯಂ ಷಷ್ಠೇ ಪಾಠೇ ಪಠಿತಾನಾಂ ಶಬ್ದರೂಪಾಣಾಂ ವಾಕ್ಯೇಷು ಪ್ರಯೋಗಂ ಪಠಿಷ್ಯಾಮಃ। ಅತ್ರ ಉದಾಹರಣರೂಪೇಣ **ಅಕಾರಾನ್ತ-ಪುಲ್ಲಿಙ್ಗ-ರಾಮಶಬ್ದಸ್ಯ** ತ್ರಿಷು ವಚನೇಷು ಅಷ್ಟಾಸು ವಿಭಕ್ತಿಷು ಚ ವಾಕ್ಯರಚನಾ-ಕೋಷ್ಠಕಮ್ (Sentence Grid) ದತ್ತಂ ವರ್ತತೇ।
----
-## १. ರಾಮಶಬ್ದ-ವಾಕ್ಯರಚನಾ ಕೋಷ್ಠಕಮ್ (Sentence Grid using Rāma Śabda)
-| ವಿಭಕ್ತಿ | వచనము | संस्कृत वाक्यम् | ಕನ್ನಡ ಅರ್ಥ | English Meaning |
-| :--- | :--- | :--- | :--- | :--- |
-| **प्रथमा<br/>(Nominative)** | ಬಹುವಚನ | ****रामौ गच्छतः।**<br/><span style="color:var(--text-muted);font-size:0.85em;">रामरिब्बरु होगुत्तारे।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Two Ramas go)</span>** | **ರಾಮಾಃ ಗಚ್ಛನ್ತಿ।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮರು ಹೋಗುತ್ತಾರೇ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Ramas go)</span> |  |
-| **द्वितीया<br/>(Accusative)** | ಬಹುವಚನ | ****शिवः रामौ पश्यति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">शिवनु रामरिब्बरन्नु नोडुत्ताने।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Shiva sees two Ramas)</span>** | **ಶಿವಃ ರಾಮಾನ್ ಪಶ್ಯತಿ।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಶಿವನು ರಾಮರನ್ನು ನೋಡುತ್ತಾನೇ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Shiva sees Ramas)</span> |  |
-| **तृतीया<br/>(Instrumental)** | ಬಹುವಚನ | ****शिवः रामाभ्यां सह गच्छति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">शिवनु रामरिब्बरिन्द (जोते) होगुत्ताने।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Shiva goes with two Ramas)</span>** | **ಶಿವಃ ರಾಮೈಃ ಸಹ ಗಚ್ಛತಿ।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಶಿವನು ರಾಮರಿನ್ದ (ಜೋತೇ) ಹೋಗುತ್ತಾನೇ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Shiva goes with Ramas)</span> |  |
-| **चतुर्थी<br/>(Dative)** | ಬಹುವಚನ | ****सूर्यः रामाभ्यां नमति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">सूर्यनु रामरिब्बरिगे नमिसुत्ताने।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The Sun bows to two Ramas)</span>** | **ಸೂರ್ಯಃ ರಾಮೇಭ್ಯಃ ನಮತಿ।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಸೂರ್ಯನು ರಾಮರಿಗೇ ನಮಿಸುತ್ತಾನೇ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The Sun bows to Ramas)</span> |  |
-| **पञ्चमी<br/>(Ablative)** | ಬಹುವಚನ | ****लवः रामाभ्यां भवति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">लवनु रामरिब्बर देसेयिन्द हुट्टुत्ताने।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Lava comes from two Ramas)</span>** | **ಲವಃ ರಾಮೇಭ್ಯಃ ಭವತಿ।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಲವನು ರಾಮರ ದೇಸೇಯಿನ್ದ ಹುಟ್ಟುತ್ತಾನೇ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Lava comes from Ramas)</span> |  |
-| **षष्ठी<br/>(Genitive)** | ಬಹುವಚನ | ****रामयोः पिता दशरथः।**<br/><span style="color:var(--text-muted);font-size:0.85em;">रामरिब्बर तन्दे दशरथनु।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The father of two Ramas is Dasharatha)</span>** | **ರಾಮಾಣಾಮ್ ಪಿತಾ ದಶರಥಃ।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮರ ತನ್ದೇ ದಶರಥನು।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The father of Ramas is Dasharatha)</span> |  |
-| **सप्तमी<br/>(Locative)** | ಬಹುವಚನ | ****रामयोः पुस्तकं अस्ति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">रामरिब्बरल्लि पुस्तकविदे।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The book is with two Ramas)</span>** | **ರಾಮೇಷು ಪುಸ್ತಕಂ ಅಸ್ತಿ।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮರಲ್ಲಿ ಪುಸ್ತಕವಿದೇ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The book is with Ramas)</span> |  |
-| **सम्बोधनम्<br/>(Vocative)** | ಬಹುವಚನ | ****हे रामौ! आगच्छतम्।**<br/><span style="color:var(--text-muted);font-size:0.85em;">हे रामरिब्बरे, बन्नि।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(O two Ramas! Come)</span>** | **ಹೇ ರಾಮಾಃ! ಆಗಚ್ಛನ್ತು।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಹೇ ರಾಮರೇ, ಬನ್ನಿ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(O Ramas! Come)</span> |  |
+ಈ ಪಾಠದಲ್ಲಿ ನಾವು ಅಧ್ಯಾಯ ೬ ರಲ್ಲಿ ಕಲಿತ ನಾಮಪದ ರೂಪಗಳ ವಾಕ್ಯ ಪ್ರಯೋಗವನ್ನು ಅಭ್ಯಾಸ ಮಾಡುತ್ತೇವೆ. ಉದಾಹರಣೆಯಾಗಿ, ಅಕಾರಾಂತ ಪುಲ್ಲಿಂಗ **'ರಾಮ'** ಶಬ್ದದ ಮೂರು ವಚನಗಳಲ್ಲಿ (ಏಕವಚನ, ದ್ವಿವಚನ, ಬಹುವಚನ) ಮತ್ತು ಎಂಟು ವಿಭಕ್ತಿಗಳಲ್ಲಿ ವಾಕ್ಯರಚನಾ ಕೋಷ್ಟಕವನ್ನು (Sentence Grid) ಕೆಳಗೆ ನೀಡಲಾಗಿದೆ.
 
 ---
-## २. ವಾಕ್ಯರಚನಾ ನಿಯಮಃ (Sentence Creation Rules)
-१. **ಕತ್ರ್ರನುಸಾರಂ ಕ್ರಿಯಾ (Subject-Verb Agreement):**
-   * ಯದಿ ಕರ್ತಾ ಪ್ರಥಮಪುರುಷೇ ಏಕವಚನೇ ಅಸ್ತಿ (ಯಥಾ `ರಾಮಃ`), ತರ್ಹಿ ಕ್ರಿಯಾ ಅಪಿ ಪ್ರಥಮಪುರುಷೇ ಏಕವಚನೇ ಭವಿಷ್ಯತಿ (ಯಥಾ `ಗಚ್ಛತಿ`).
-   * ಯದಿ ಕರ್ತಾ ದ್ವಿವಚನೇ ಅಸ್ತಿ (`ರಾಮೌ`), ತರ್ಹಿ ಕ್ರಿಯಾ ದ್ವಿವಚನೇ ಭವಿಷ್ಯತಿ (`ಗಚ್ಛತಃ`).
-   * ಯದಿ ಕರ್ತಾ ಬಹುವಚನೇ ಅಸ್ತಿ (`ರಾಮಾಃ`), ತರ್ಹಿ ಕ್ರಿಯಾ ಬಹುವಚನೇ ಭವಿಷ್ಯತಿ (`ಗಚ್ಛನ್ತಿ`).
-२. **ಕಾರಕ-ವಿಭಕ್ತಿ-ಸಮ್ಬನ್ಧಃ (Case and Case Endings):**
-   * **ಪ್ರಥಮಾ:** ಕರ್ತಾ ಕಾರಕಃ (Subject)
-   * **ದ್ವಿತೀಯಾ:** ಕರ್ಮ ಕಾರಕಃ (Direct Object)
-   * **ತೃತೀಯಾ:** ಕರಣ ಕಾರಕಃ (Instrumental - by/with/along with)
-   * **ಚತುರ್ಥೀ:** ಸಮ್ಪ್ರದಾನ ಕಾರಕಃ (Dative - for/salutations)
-   * **ಪಞ್ಚಮೀ:** ಅಪಾದಾನ ಕಾರಕಃ (Ablative - from/separation)
-   * **ಷಷ್ಠೀ:** ಸಮ್ಬನ್ಧಃ (Genitive - of/belonging to)
-   * **ಸಪ್ತಮೀ:** ಅಧಿಕರಣ ಕಾರಕಃ (Locative - in/on/at/with)
-   * **ಸಮ್ಬೋಧನಮ್:** ಆಹ್ವಾನಮ್ (Calling/Vocative)
+
+## ೧. ರಾಮಶಬ್ದ-ವಾಕ್ಯರಚನಾ ಕೋಷ್ಟಕ (Sentence Grid using Rāma Śabda)
+
+| ವಿಭಕ್ತಿ | ಏಕವಚನ (Singular) | ದ್ವಿವಚನ (Dual) | ಬಹುವಚನ (Plural) |
+| :--- | :--- | :--- | :--- |
+| **ಪ್ರಥಮಾ**<br/>(Nominative) | **रामः गच्छति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮನು ಹೋಗುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Rama goes)</span> | **रामौ गच्छतः।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮರಿಬ್ಬರು ಹೋಗುತ್ತಾರೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Two Ramas go)</span> | **रामाः गच्छन्ति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮರು ಹೋಗುತ್ತಾರೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Ramas go)</span> |
+| **ದ್ವಿತೀಯಾ**<br/>(Accusative) | **शिवः रामं पश्यति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಶಿವನು ರಾಮನನ್ನು ನೋಡುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Shiva sees Rama)</span> | **शिवः रामौ पश्यति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಶಿವನು ರಾಮರಿಬ್ಬರನ್ನು ನೋಡುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Shiva sees two Ramas)</span> | **शिवः रामान् पश्यति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಶಿವನು ರಾಮರನ್ನು ನೋಡುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Shiva sees Ramas)</span> |
+| **ತೃತೀಯಾ**<br/>(Instrumental) | **शिवः रामेण सह गच्छति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಶಿವನು ರಾಮನಿಂದ (ಜೊತೆ) ಹೋಗುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Shiva goes with Rama)</span> | **शिवः रामाभ्यां सह गच्छति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಶಿವನು ರಾಮರಿಬ್ಬರಿಂದ (ಜೊತೆ) ಹೋಗುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Shiva goes with two Ramas)</span> | **शिवः रामैः सह गच्छति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಶಿವನು ರಾಮರಿಂದ (ಜೊತೆ) ಹೋಗುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Shiva goes with Ramas)</span> |
+| **ಚತುರ್ಥೀ**<br/>(Dative) | **सूर्यः रामाय नमति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಸೂರ್ಯನು ರಾಮನಿಗೆ ನಮಿಸುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The Sun bows to Rama)</span> | **सूर्यः रामाभ्यां नमति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಸೂರ್ಯನು ರಾಮರಿಬ್ಬರಿಗೆ ನಮಿಸುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The Sun bows to two Ramas)</span> | **सूर्यः रामेभ्यः नमति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಸೂರ್ಯನು ರಾಮರಿಗೆ ನಮಿಸುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The Sun bows to Ramas)</span> |
+| **ಪಞ್ಚಮೀ**<br/>(Ablative) | **लवः रामात् भवति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಲವನು ರಾಮನ ದೆಸೆಯಿಂದ ಹುಟ್ಟುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Lava comes from Rama)</span> | **लवः रामाभ्यां भवति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಲವನು ರಾಮರಿಬ್ಬರ ದೆಸೆಯಿಂದ ಹುಟ್ಟುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Lava comes from two Ramas)</span> | **लवः रामेभ्यः भवति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಲವನು ರಾಮರ ದೆಸೆಯಿಂದ ಹುಟ್ಟುತ್ತಾನೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Lava comes from Ramas)</span> |
+| **ಷಷ್ಠೀ**<br/>(Genitive) | **रामस्य पिता दशरथः।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮನ ತಂದೆ ದಶರಥನು।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(Rama's father is Dasharatha)</span> | **रामयोः पिता दशरथः।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮರಿಬ್ಬರ ತಂದೆ ದಶರಥನು।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The father of two Ramas is Dasharatha)</span> | **रामाणाम् पिता दशरथः।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮರ ತಂದೆ ದಶರಥನು।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The father of Ramas is Dasharatha)</span> |
+| **ಸಪ್ತಮೀ**<br/>(Locative) | **रामे पुस्तकं अस्ति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮನಲ್ಲಿ ಪುಸ್ತಕವಿದೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The book is in/with Rama)</span> | **रामयोः पुस्तकं अस्ति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮರಿಬ್ಬರಲ್ಲಿ ಪುಸ್ತಕವಿದೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The book is with two Ramas)</span> | **रामेषु पुस्तकं अस्ति।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ರಾಮರಲ್ಲಿ ಪುಸ್ತಕವಿದೆ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(The book is with Ramas)</span> |
+| **ಸಂಬೋಧನೆ**<br/>(Vocative) | **हे राम! आगच्छतु।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಹೇ ರಾಮನೇ, ಬಾ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(O Rama! Come)</span> | **हे रामौ! आगच्छतम्।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಹೇ ರಾಮರಿಬ್ಬರೇ, ಬನ್ನಿ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(O two Ramas! Come)</span> | **हे रामाः! आगच्छन्तु।**<br/><span style="color:var(--text-muted);font-size:0.85em;">ಹೇ ರಾಮರೇ, ಬನ್ನಿ।</span><br/><span style="color:var(--text-muted);font-size:0.8em;">(O Ramas! Come)</span> |
+
+---
+
+## ೨. ವಾಕ್ಯರಚನಾ ನಿಯಮಗಳು (Sentence Creation Rules)
+
+೧. **ಕರ್ತೃವಿನನುಸಾರ ಕ್ರಿಯೆ (Subject-Verb Agreement):**
+   * ಕರ್ತೃವು ಪ್ರಥಮಪುರುಷ ಏಕವಚನದಲ್ಲಿದ್ದರೆ (ಉದಾ: `ರಾಮಃ`), ಕ್ರಿಯಾಪದವೂ ಪ್ರಥಮಪುರುಷ ಏಕವಚನದಲ್ಲಿರುತ್ತದೆ (ಉದಾ: `ಗಚ್ಛತಿ`).
+   * ಕರ್ತೃವು ದ್ವಿವಚನದಲ್ಲಿದ್ದರೆ (`ರಾಮೌ`), ಕ್ರಿಯೆಯೂ ದ್ವಿವಚನದಲ್ಲಿರುತ್ತದೆ (`ಗಚ್ಛತಃ`).
+   * ಕರ್ತೃವು ಬಹುವಚನದಲ್ಲಿದ್ದರೆ (`ರಾಮಾಃ`), ಕ್ರಿಯೆಯೂ ಬಹುವಚನದಲ್ಲಿರುತ್ತದೆ (`ಗಚ್ಛನ್ತಿ`).
+
+೨. **ಕಾರಕ ಮತ್ತು ವಿಭಕ್ತಿ ಸಂಬಂಧಗಳು (Case Relationships):**
+   * **ಪ್ರಥಮಾ (Nominative):** ಕರ್ತೃ ಕಾರಕ - ಕ್ರಿಯೆ ಮಾಡುವವನು (ಉದಾ: ರಾಮನು ಹೋಗುತ್ತಾನೆ)
+   * **ದ್ವಿತೀಯಾ (Accusative):** ಕರ್ಮ ಕಾರಕ - ಕ್ರಿಯೆಯ ಫಲವನ್ನು ಹೊಂದುವವನು (ಉದಾ: ಶಿವನು ರಾಮನನ್ನು ನೋಡುತ್ತಾನೆ)
+   * **ತೃತೀಯಾ (Instrumental):** ಕರಣ ಕಾರಕ - ಸಾಧನ ಅಥವಾ ಜೊತೆ (ಉದಾ: ಶಿವನು ರಾಮನಿಂದ (ಜೊತೆ) ಹೋಗುತ್ತಾನೆ)
+   * **ಚತುರ್ಥೀ (Dative):** ಸಂಪ್ರದಾನ ಕಾರಕ - ಯಾರಿಗಾಗಿ ಕ್ರಿಯೆ ನಡೆಯುತ್ತದೆಯೋ ಅವರು (ಉದಾ: ಸೂರ್ಯನು ರಾಮನಿಗೆ ನಮಿಸುತ್ತಾನೆ)
+   * **ಪಞ್ಚಮೀ (Ablative):** ಆಪಾದಾನ ಕಾರಕ - ಅಗಲಿಕೆ ಅಥವಾ ಮೂಲ (ಉದಾ: ಲವನು ರಾಮನ ದೆಸೆಯಿಂದ ಹುಟ್ಟುತ್ತಾನೆ)
+   * **ಷಷ್ಠೀ (Genitive):** ಸಂಬಂಧ - ಮಾಲೀಕತ್ವ ಅಥವಾ ಸಂಬಂಧ (ಉದಾ: ರಾಮನ ತಂದೆ ದಶರಥನು)
+   * **ಸಪ್ತಮೀ (Locative):** ಅಧಿಕರಣ ಕಾರಕ - ಕ್ರಿಯೆಯ ಆಧಾರ ಅಥವಾ ಸ್ಥಳ (ಉದಾ: ರಾಮನಲ್ಲಿ ಪುಸ್ತಕವಿದೆ)
+   * **ಸಂಬೋಧನೆ (Vocative):** ಸಂಬೋಧನೆ - ಕರೆಯುವುದು (ಉದಾ: ಹೇ ರಾಮನೇ, ಬಾ)

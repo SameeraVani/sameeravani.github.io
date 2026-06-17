@@ -417,6 +417,16 @@
           "id": "ch8",
           "title": "Chapter 8: Verb Conjugations (धातु-रूपाणि)",
           "path": "books/sanskrit-learner/en/ch8.md"
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Sandhi Rules (सन्धिप्रकरणम्)",
+          "path": "books/sanskrit-learner/en/ch9.md"
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10: Compound Words & Derivations",
+          "path": "books/sanskrit-learner/en/ch10.md"
         }
       ],
       "sanskrit": [
@@ -459,6 +469,16 @@
           "id": "ch8",
           "title": "अष्टमः पाठः: धातुरूपाणि (Verb Conjugations)",
           "path": "books/sanskrit-learner/sa/ch8.md"
+        },
+        {
+          "id": "ch9",
+          "title": "नवमः पाठः: सन्धिप्रकरणम्",
+          "path": "books/sanskrit-learner/sa/ch9.md"
+        },
+        {
+          "id": "ch10",
+          "title": "दशमः पाठः: समासाः वृत्तयश्च",
+          "path": "books/sanskrit-learner/sa/ch10.md"
         }
       ],
       "hindi": [
@@ -501,6 +521,16 @@
           "id": "ch8",
           "title": "अध्याय ८: धातु रूप (क्रिया काल)",
           "path": "books/sanskrit-learner/hi/ch8.md"
+        },
+        {
+          "id": "ch9",
+          "title": "अध्याय ९: सन्धि प्रकरण",
+          "path": "books/sanskrit-learner/hi/ch9.md"
+        },
+        {
+          "id": "ch10",
+          "title": "अध्याय १०: समास एवं वृत्तियाँ",
+          "path": "books/sanskrit-learner/hi/ch10.md"
         }
       ],
       "kannada": [
@@ -543,6 +573,16 @@
           "id": "ch8",
           "title": "ಅಧ್ಯಾಯ ೮: ಧಾತು ರೂಪಗಳು (ಕ್ರಿಯಾಪದ ಕಾಲಗಳು)",
           "path": "books/sanskrit-learner/kn/ch8.md"
+        },
+        {
+          "id": "ch9",
+          "title": "ಅಧ್ಯಾಯ ೯: ಸಂಧಿ ಪ್ರಕರಣ",
+          "path": "books/sanskrit-learner/kn/ch9.md"
+        },
+        {
+          "id": "ch10",
+          "title": "ಅಧ್ಯಾಯ ೧೦: ಸಮಾಸಗಳು ಮತ್ತು ವೃತ್ತಿಗಳು",
+          "path": "books/sanskrit-learner/kn/ch10.md"
         }
       ],
       "tamil": [
@@ -585,6 +625,16 @@
           "id": "ch8",
           "title": "அத்தியாயம் 8: வினைமுற்றுகள் (தாதுரூபங்கள்)",
           "path": "books/sanskrit-learner/ta/ch8.md"
+        },
+        {
+          "id": "ch9",
+          "title": "அத்தியாயம் 9: சந்தி பிரகரணம்",
+          "path": "books/sanskrit-learner/ta/ch9.md"
+        },
+        {
+          "id": "ch10",
+          "title": "அத்தியாயம் 10: கூட்டுச் சொற்கள் (ஸமாஸங்கள்)",
+          "path": "books/sanskrit-learner/ta/ch10.md"
         }
       ],
       "telugu": [
@@ -627,6 +677,16 @@
           "id": "ch8",
           "title": "అధ్యాయము 8: ధాతు రూపములు (క్రియాపద కాలములు)",
           "path": "books/sanskrit-learner/te/ch8.md"
+        },
+        {
+          "id": "ch9",
+          "title": "అధ్యాయము 9: సంధి ప్రకరణము",
+          "path": "books/sanskrit-learner/te/ch9.md"
+        },
+        {
+          "id": "ch10",
+          "title": "అధ్యాయము 10: సమాసములు మరియు వృత్తులు",
+          "path": "books/sanskrit-learner/te/ch10.md"
         }
       ]
     }
