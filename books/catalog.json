@@ -690,5 +690,118 @@
         }
       ]
     }
+  },
+  {
+    "id": "mani-manjari",
+    "title": "Mani Manjari",
+    "author": "Sri Narayana Panditacharya",
+    "year": "14th Century CE",
+    "genre": "Scripture / History / Biography",
+    "description": "Mani Manjari is a classical Sanskrit epic by Narayana Panditacharya. It provides an outline of the history of Dvaita philosophy, starting from creation, tracing the incarnations of Vayu (Hanuman, Bhima, Madhvacharya), and describing the lineage of gurus.",
+    "coverUrl": "books/mani-manjari/cover.png",
+    "languages": [
+      "english",
+      "sanskrit",
+      "hindi",
+      "kannada",
+      "tamil",
+      "telugu"
+    ],
+    "localized": {
+      "sanskrit": {
+        "title": "मणिमञ्जरी",
+        "description": "मणिमञ्जरी श्रीमन्नारायणपण्डिताचार्यविरचिता अस्ति। अस्मिन् सर्गद्वये सृष्ट्यारम्भात् आरभ्य श्रीराम-कृष्णावतारे वायुदेवस्य हनुमद्भीमयोः चरित्रं तथा च द्वैतसिद्धान्तस्य प्रादुर्भावः सविस्तरं वर्णितः अस्ति।"
+      },
+      "hindi": {
+        "title": "मणिमञ्जरी",
+        "description": "मणिमञ्जरी श्रीमन्नारायणपण्डिताचार्य द्वारा रचित एक शास्त्रीय महाकाव्य है। यह सृष्टि से लेकर वायुदेव के अवतारों (हनुमान, भीम, मध्वाचार्य) और गुरुओं की परंपरा का वर्णन करता हुआ द्वैत दर्शन के इतिहास की रूपरेखा प्रदान करता है।"
+      },
+      "kannada": {
+        "title": "ಮಣಿಮಂಜರಿ",
+        "description": "ಮಣಿಮಂಜರಿಯು ಶ್ರೀ ನಾರಾಯಣ ಪಂಡಿತಾಚಾರ್ಯರಿಂದ ರಚಿತವಾದ ಒಂದು ಪ್ರಸಿದ್ಧ ಸಂಸ್ಕೃತ ಮಹಾಕಾವ್ಯವಾಗಿದೆ. ಇದು ಸೃಷ್ಟಿಯಿಂದ ಪ್ರಾರಂಭಿಸಿ, ವಾಯುದೇವರ ಅವತಾರಗಳಾದ ಹನುಮಂತ, ಭೀಮಸೇನ ಮತ್ತು ಮಧ್ವಾಚಾರ್ಯರ ಚರಿತ್ರೆಯನ್ನು ಹಾಗೂ ಗುರು ಪರಂಪರೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ."
+      },
+      "tamil": {
+        "title": "மணிமஞ்சரி",
+        "description": "மணிமஞ்சரி என்பது நாராயண பண்டிதாசாரியரால் இயற்றப்பட்ட ஒரு உன்னதமான சமஸ்கிருத காவியமாகும். இது படைப்பு முதல் வாயுதேவனின் அவதாரங்களையும் (அனுமன், பீமன், மத்வாசாரியர்), குருமார்களின் பரம்பரையையும் விவரிக்கும் துவைத தத்துவத்தின் வரலாற்றுச் சுருக்கத்தை வழங்குகிறது."
+      },
+      "telugu": {
+        "title": "మణిమంజరి",
+        "description": "మణిమంజరి శ్రీ నారాయణ పండితాచార్యుల చేత రచింపబడిన ఒక సుప్రసిద్ధ సంస్కృత మహాకావ్యము. ఇది సృష్టి నుండి ప్రారంభించి, వాయుదేవుని అవతారాలైన హనుమంతుడు, భీముడు మరియు మధ్వాచార్యుల చరిత్రను అలాగే గురు పరంపరను వివరిస్తుంది."
+      }
+    },
+    "chapters": {
+      "english": [
+        {
+          "id": "sarga-1",
+          "title": "Sarga I",
+          "path": "books/mani-manjari/en/sarga1.md"
+        },
+        {
+          "id": "sarga-2",
+          "title": "Sarga II",
+          "path": "books/mani-manjari/en/sarga2.md"
+        }
+      ],
+      "sanskrit": [
+        {
+          "id": "sarga-1",
+          "title": "प्रथमः सर्गः (Sarga I)",
+          "path": "books/mani-manjari/sa/sarga1.md"
+        },
+        {
+          "id": "sarga-2",
+          "title": "द्वितीयः सर्गः (Sarga II)",
+          "path": "books/mani-manjari/sa/sarga2.md"
+        }
+      ],
+      "hindi": [
+        {
+          "id": "sarga-1",
+          "title": "प्रथम सर्ग (Sarga I)",
+          "path": "books/mani-manjari/hi/sarga1.md"
+        },
+        {
+          "id": "sarga-2",
+          "title": "द्वितीय सर्ग (Sarga II)",
+          "path": "books/mani-manjari/hi/sarga2.md"
+        }
+      ],
+      "kannada": [
+        {
+          "id": "sarga-1",
+          "title": "ಪ್ರಥಮ ಸರ್ಗ (Sarga I)",
+          "path": "books/mani-manjari/kn/sarga1.md"
+        },
+        {
+          "id": "sarga-2",
+          "title": "ದ್ವಿತೀಯ ಸರ್ಗ (Sarga II)",
+          "path": "books/mani-manjari/kn/sarga2.md"
+        }
+      ],
+      "tamil": [
+        {
+          "id": "sarga-1",
+          "title": "முதலாம் சர்க்கம் (Sarga I)",
+          "path": "books/mani-manjari/ta/sarga1.md"
+        },
+        {
+          "id": "sarga-2",
+          "title": "இரண்டாம் சர்க்கம் (Sarga II)",
+          "path": "books/mani-manjari/ta/sarga2.md"
+        }
+      ],
+      "telugu": [
+        {
+          "id": "sarga-1",
+          "title": "ప్రథమ సర్గము (Sarga I)",
+          "path": "books/mani-manjari/te/sarga1.md"
+        },
+        {
+          "id": "sarga-2",
+          "title": "ద్వితీయ సర్గము (Sarga II)",
+          "path": "books/mani-manjari/te/sarga2.md"
+        }
+      ]
+    }
   }
 ]

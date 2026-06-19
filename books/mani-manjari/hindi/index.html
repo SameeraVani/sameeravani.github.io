@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="books/time-machine/cover.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="मणिमञ्जरी श्रीमन्नारायणपण्डिताचार्य द्वारा रचित एक शास्त्रीय महाकाव्य है। यह सृष्टि से लेकर वायुदेव के अवतारों (हनुमान, भीम, मध्वाचार्य) और गुरुओं की परंपरा का वर्णन करता हुआ द्वैत दर्शन के इतिहास की रूपरेखा प्रदान करता है।" />
+    <meta name="keywords" content="books, e-reader, reading, markdown, epub, publishing, github pages, react reader" />
+    <title>मणिमञ्जरी (hindi) | SameeraVani</title>
+
+    <!-- OpenGraph / Facebook Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="मणिमञ्जरी (hindi) | SameeraVani" />
+    <meta property="og:description" content="मणिमञ्जरी श्रीमन्नारायणपण्डिताचार्य द्वारा रचित एक शास्त्रीय महाकाव्य है। यह सृष्टि से लेकर वायुदेव के अवतारों (हनुमान, भीम, मध्वाचार्य) और गुरुओं की परंपरा का वर्णन करता हुआ द्वैत दर्शन के इतिहास की रूपरेखा प्रदान करता है।" />
+    <meta property="og:image" content="https://sameeravani.github.io/books/mani-manjari/cover.png" />
+    <meta property="og:url" content="https://sameeravani.github.io/books/mani-manjari/hindi/" />
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="मणिमञ्जरी (hindi) | SameeraVani" />
+    <meta name="twitter:description" content="मणिमञ्जरी श्रीमन्नारायणपण्डिताचार्य द्वारा रचित एक शास्त्रीय महाकाव्य है। यह सृष्टि से लेकर वायुदेव के अवतारों (हनुमान, भीम, मध्वाचार्य) और गुरुओं की परंपरा का वर्णन करता हुआ द्वैत दर्शन के इतिहास की रूपरेखा प्रदान करता है।" />
+    <meta name="twitter:image" content="https://sameeravani.github.io/books/mani-manjari/cover.png" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W2D1XFT7PV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-W2D1XFT7PV');
+
+      // Intercept SPA location changes to track hits URL-wise in GA
+      (function() {
+        const pushState = history.pushState;
+        const replaceState = history.replaceState;
+        
+        history.pushState = function() {
+          const result = pushState.apply(this, arguments);
+          window.dispatchEvent(new Event('locationchange'));
+          return result;
+        };
+        
+        history.replaceState = function() {
+          const result = replaceState.apply(this, arguments);
+          window.dispatchEvent(new Event('locationchange'));
+          return result;
+        };
+        
+        window.addEventListener('popstate', function() {
+          window.dispatchEvent(new Event('locationchange'));
+        });
+
+        let lastTrackedUrl = '';
+        let lastTrackedTitle = '';
+
+        window.addEventListener('locationchange', function() {
+          const currentUrl = window.location.pathname + window.location.search;
+          const currentTitle = document.title;
+          
+          if (currentUrl === lastTrackedUrl && currentTitle === lastTrackedTitle) {
+            return;
+          }
+          lastTrackedUrl = currentUrl;
+          lastTrackedTitle = currentTitle;
+          
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'page_view', {
+              page_path: currentUrl,
+              page_title: currentTitle
+            });
+          }
+        });
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-BxGQdeeD.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bi4RjQrX.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
