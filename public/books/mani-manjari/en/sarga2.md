@@ -162,6 +162,16 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** Then, when Rama and Lakshmana went away, Ravana took the figure, thinking that this Sita was being taken away.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| सहलक्ष्मणे | सहार्थे बहुव्रीहिसमासः | लक्ष्मणेन सहितः |
+| तदाकृतिम् | षष्ठीतत्पुरुषसमासः | तस्याः आकृतिः |
+| गते | Kṛt (क्त (सप्तमी)) | √गम् + क्त (सप्तमी) |
+| मत्वा | Kṛt (क्त्वा) | √मन् + क्त्वा |
+
+
 ---
 
 <a id="meaning-2"></a>
@@ -189,6 +199,17 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** rāmāntikē sthitā nityāviyōginī dēvī mandaiḥ na samadṛśyata rūpāntarēṇa kailāsam gatā ।
 
 **Bhavartha:** The goddess, who was always separated from Rama, slowly did not appear, but in a different form she went to Kailas.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| रामान्तिके | षष्ठीतत्पुरुषसमासः | रामस्य अन्तिकम् |
+| रूपान्तरेण | कर्मधारयसमासः | अन्यत् रूपम् |
+| नित्यावियोगिनी | नञ्-तत्पुरुषसमासः | नित्यम् अवियोगिनी |
+| गता | Kṛt (क्त) | √गम् + क्त |
+| स्थिता | Kṛt (क्त) | √स्था + क्त |
+
 
 ---
 
@@ -221,6 +242,16 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** Rama, who was always satisfied to see his goddess, seemed to be afraid that she would not be seen.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| पूर्णसन्तोषसम्भृतः | तृतीयातत्पुरुषसमासः | पूर्णसन्तोषेण सम्भृतः |
+| पश्यन् | Kṛt (शतृ) | √दृश् + शतृ |
+| सम्भृतः | Kṛt (क्त) | √भृ (सम्) + क्त |
+| सङ्कटवान् | Taddhita (मतुप्) | सङ्कट + मतुप् → दुःखितः |
+
+
 ---
 
 <a id="meaning-4"></a>
@@ -246,6 +277,16 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** śrīmān nirañjanaḥ prabhañjanasutaḥ āñjanēyaḥ bhaktisampūrṇaḥ rājīvalōcanam rāmam nanāma ।
 
 **Bhavartha:** The blessed Niranjana, the son of Prabhanjana, Anjaneya, full of devotion, bowed down to the lotus-eyed Rama.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| प्रभञ्जनसुतः | षष्ठीतत्पुरुषसमासः | प्रभञ्जनस्य सुतः |
+| भक्तिसम्पूर्णः | तृतीयातत्पुरुषसमासः | भक्त्या सम्पूर्णः |
+| राजीवलोचनम् | बहुव्रीहिसमासः | राजीवे इव लोचने यस्य सः |
+| आञ्जनेयः | Taddhita (ढक्) | अञ्जना + ढक् → अञ्जनायाः अपत्यम् |
+
 
 ---
 
@@ -278,6 +319,14 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** He praised his Guru, saying, “O Rama, Lord of the pastimes of painless bliss, I offer my obeisances to You.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| रामस्वामिन् | कर्मधारयसमासः | रामः एव स्वामी |
+| निर्दुःखानन्दलीलात्मन् | बहुव्रीहिसमासः | निर्दुःखः च आनन्दः च लीला च आत्मा यस्य सः |
+
+
 ---
 
 <a id="meaning-6"></a>
@@ -307,6 +356,16 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** That Rama reached the other side of the forest and looked at Sugriva. He became friends with him and slew / killed his elder brother.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| वनान्तरम् | कर्मधारयसमासः | अन्यत् वनम् |
+| तदग्रजम् | षष्ठीतत्पुरुषसमासः | तस्य अग्रजः |
+| आसाद्य | Kṛt (ल्यप्) | √सद् (आ) + ल्यप् |
+| समासाद्य | Kṛt (ल्यप्) | √सद् (सम्-आ) + ल्यप् |
+
+
 ---
 
 <a id="meaning-7"></a>
@@ -333,6 +392,14 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** tataḥ sugrīvasandiṣṭāḥ nipuṇāḥ vīrāḥ sītāmārgaṇatatparāḥ vānarāḥ sarvaśaḥ dikṣu prasasruḥ ।
 
 **Bhavartha:** Then the heroic monkeys commanded by Sugriva rushed in all directions devoted to the search for Sita
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| सुग्रीवसन्दिष्टाः | तृतीयातत्पुरुषसमासः | सुग्रीवेण सन्दिष्टाः |
+| सीतामार्गणतत्पराः | सप्तमीतत्पुरुषसमासः | सीतामार्गणे तत्पराः |
+
 
 ---
 
@@ -362,6 +429,15 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** hanumān dakṣiṇām kakubham gatvā ambhasām nidhim atilaṅghya laṅkām gataḥ sītākṛtim avaikṣata ।
 
 **Bhavartha:** Hanuman went to the southern Kakubha, crossed the reservoir of waters and reached Lanka where he saw the form of Sita.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| सीताकृतिम् | षष्ठीतत्पुरुषसमासः | सीतायाः आकृतिः |
+| गत्वा | Kṛt (क्त्वा) | √गम् + क्त्वा |
+| अतिलङ्घ्य | Kṛt (ल्यप्) | √लङ्घ् (अति) + ल्यप् |
+
 
 ---
 
@@ -393,6 +469,17 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** He gave the ring of Rama to the goddess and then collected the chudamani and bowed to Janaki with devotion and climbed the tree.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| रामाङ्गुलीयकम् | षष्ठीतत्पुरुषसमासः | रामस्य अङ्गुलीयकम् |
+| चूडामणिम् | सप्तमीतत्पुरुषसमासः | चूडायां मणिः |
+| दत्वा | Kṛt (क्त्वा) | √दा + क्त्वा |
+| सङ्गृह्य | Kṛt (ल्यप्) | √ग्रह् (सम्) + ल्यप् |
+| नत्वा | Kṛt (क्त्वा) | √नम् + क्त्वा |
+
+
 ---
 
 <a id="meaning-10"></a>
@@ -420,6 +507,17 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** mārutiḥ vanam viśakalayya akṣapūrvakān rākṣasān uccaiḥ nihatya pucchavahninā laṅkām adahat।
 
 **Bhavartha:** Maruti tore the forest apart and slew / killed the demons before the ax and burnt Lanka with his tail fire
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| अक्षपूर्वकान् | बहुव्रीहिसमासः | अक्षः पूर्वः येषां ते |
+| पुच्छवह्निना | षष्ठीतत्पुरुषसमासः | पुच्छस्य वह्निः |
+| विशकलय्य | Kṛt (ल्यप्) | √विशकल् + ल्यप् |
+| निहत्य | Kṛt (ल्यप्) | √हन् (नि) + ल्यप् |
+| मारुतिः | Taddhita (इञ्) | मरुत् + इञ् → मरुतः अपत्यम् |
+
 
 ---
 
@@ -451,6 +549,18 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** Then the blessed Rama crossed the Ratnakara and was honored by the chiefs of the monkeys and presented the chudamani to Rama
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| रत्नाकरम् | षष्ठीतत्पुरुषसमासः | रत्नानाम् आकरः |
+| वानरेन्द्रैः | षष्ठीतत्पुरुषसमासः | वानराणाम् इन्द्राः |
+| तीर्त्वा | Kṛt (क्त्वा) | √तॄ + क्त्वा |
+| सभाजितः | Kṛt (क्त) | √सभाज् + क्त |
+| दत्वा | Kṛt (क्त्वा) | √दा + क्त्वा |
+| प्राप्य | Kṛt (ल्यप्) | √आप् (प्र) + ल्यप् |
+
+
 ---
 
 <a id="meaning-12"></a>
@@ -478,6 +588,15 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** rāmaḥ dhīmatā hanumatā lakṣmaṇēna ca sasainyēna sugrīvēṇa sārdham kīnāśaharitam yayau।
 
 **Bhavartha:** Rama accompanied by wise Hanuman Lakshmana and Sugriva with his army went to Keenashaharita
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| ससैन्येन | सहार्थे बहुव्रीहिसमासः | सैन्येन सहितः |
+| कीनाशहरितम् | षष्ठीतत्पुरुषसमासः | कीनाशस्य हरित् |
+| धीमता | Taddhita (मतुप्) | धी + मतुप् → बुद्धिमता |
+
 
 ---
 
@@ -507,6 +626,15 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** He built a bridge over the southern ocean with monkeys and went with his army to Naktancharapura by that path
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| दक्षिणाम्भोधौ | कर्मधारयसमासः | दक्षिणः च असौ अम्भोधिश्च |
+| ससैन्यः | सहार्थे बहुव्रीहिसमासः | सैन्येन सहितः |
+| नक्तञ्चरपुरम् | षष्ठीतत्पुरुषसमासः | नक्तञ्चरस्य पुरम् |
+
+
 ---
 
 <a id="meaning-14"></a>
@@ -532,6 +660,16 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** The monkeys with Lakshmana slew / killed the army of demons Hanuman slew / killed the very strong enemies for the pleasure of the Lord
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| राक्षसानीकम् | षष्ठीतत्पुरुषसमासः | राक्षसानाम् अनीकम् |
+| सहलक्ष्मणाः | सहार्थे बहुव्रीहिसमासः | लक्ष्मणेन सहिताः |
+| भगवत्प्रीत्यै | षष्ठीतत्पुरुषसमासः | भगवतः प्रीतिः |
+| अतिबलान् | बहुव्रीहिसमासः | अतिशयेन बलं येषां ते |
+
+
 ---
 
 <a id="meaning-15"></a>
@@ -556,6 +694,17 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** saḥ gandhamādanam ānīya tadgatauṣadhavāyunā mahārakṣōmōhitān sarvavānarān ajīvayat ।
 
 **Bhavartha:** He brought Gandhamadana to Gandhamadana and with the medicinal air in it revived all the monkeys who were bewildered by the great demons.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| महारक्षोमोहितान् | तृतीयातत्पुरुषसमासः | महारक्षसा मोहिताः |
+| सर्ववानरान् | कर्मधारयसमासः | सर्वे च ते वानराश्च |
+| गन्धमादनम् | कर्मधारयसमासः | गन्धं मादयति इति गन्धमादनः |
+| तद्गतौषधवायुना | षष्ठीतत्पुरुषसमासः | तद्गतौषधस्य वायुः |
+| आनीय | Kṛt (ल्यप्) | √नी (आ) + ल्यप् |
+
 
 ---
 
@@ -584,6 +733,15 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** After having slew / killed / having slew / killed / slaying countless rakshasas Kumbhakarna and Ravana Rama installed Vibhishana as the king of the rakshasas
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| असङ्ख्यान् | नञ्-तत्पुरुषसमासः | न विद्यते सङ्ख्या येषाम् |
+| रक्षस्साम्राज्ये | षष्ठीतत्पुरुषसमासः | रक्षसां साम्राज्यम् |
+| हत्वा | Kṛt (क्त्वा) | √हन् + क्त्वा |
+
+
 ---
 
 <a id="meaning-17"></a>
@@ -611,6 +769,15 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** Rama reached the root of the Ashoka tree and showed him even the dimly sighted goddess Janaki who was always separated from him
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| अशोकमूलम् | षष्ठीतत्पुरुषसमासः | अशोकस्य मूलम् |
+| मन्ददृशाम् | कर्मधारयसमासः | मन्दाः च ताः दृशश्च |
+| आसाद्य | Kṛt (ल्यप्) | √सद् (आ) + ल्यप् |
+
+
 ---
 
 <a id="meaning-18"></a>
@@ -637,6 +804,15 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** puruṣōttamaḥ rāmaḥ hanumatpramukhaiḥ dēvyā ca sārdham puṣpakam āruhya nijām nagarīm jagāma ।
 
 **Bhavartha:** Rama the Supreme Personality of Godhead accompanied by Hanuman and the goddess boarded the Pushpaka and returned to his city
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| हनुमत्प्रमुखैः | बहुव्रीहिसमासः | हनुमान् प्रमुखः येषां ते |
+| पुरुषोत्तमः | सप्तमीतत्पुरुषसमासः | पुरुषेषु उत्तमः |
+| आरुह्य | Kṛt (ल्यप्) | √रुह् (आ) + ल्यप् |
+
 
 ---
 
@@ -667,6 +843,16 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** Filled with devotion, Bharata approached Rama and, satisfied, fell at the feet of Lord Krishna like a dog’s tail.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| भक्तिभरितः | तृतीयातत्पुरुषसमासः | भक्त्या भरितः |
+| श्वफल्कजः | पञ्चमीतत्पुरुषसमासः | श्वफल्कात् जातः |
+| अभ्येत्य | Kṛt (ल्यप्) | √इ (अभि-आ) + ल्यप् |
+| निर्वृतः | Kṛt (क्त) | √वृ (निर्) + क्त |
+
+
 ---
 
 <a id="meaning-20"></a>
@@ -695,6 +881,16 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** rāghavaḥ tam utthāpya pariṣvajya sarvaiḥ janaiḥ sampūjitaḥ antaḥpuram gataḥ jananīm abhyavandata ।
 
 **Bhavartha:** Rama lifted him up and embraced him and was worshiped by all the people and went to the inner palace and bowed to his mother
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| अन्तःपुरम् | कर्मधारयसमासः | अन्तः च तत् पुरम् |
+| उत्थाप्य | Kṛt (ल्यप्) | √स्था (उत्) + ल्यप् |
+| परिष्वज्य | Kṛt (ल्यप्) | √ष्वञ्ज् (परि) + ल्यप् |
+| सम्पूजितः | Kṛt (क्त) | √पूज् (सम्) + क्त |
+
 
 ---
 
@@ -726,6 +922,15 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** Lord Rama, who was perfect, was crowned king and ruled the world, taught religion and enjoyed happiness and wealth.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| राज्याभिषिक्तः | सप्तमीतत्पुरुषसमासः | राज्ये अभिषिक्तः |
+| सन् | Kṛt (शतृ) | √अस् + शतृ |
+| सुखी | Taddhita (इनि) | सुख + इनि → सुखयुक्तः |
+
+
 ---
 
 <a id="meaning-22"></a>
@@ -753,6 +958,16 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** mārutiḥ rāmāntikē sanakādīn ca tadvaṃśyān anyān munīn ca śrutivyākhyāviśēṣān samaśikṣayat ।
 
 **Bhavartha:** Maruti taught Sanaka and other sages of his descendants in the presence of Rama about the special interpretation of the Vedas
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| सनकादीन् | बहुव्रीहिसमासः | सनकः आदिः येषां ते |
+| तद्वंश्यान् | षष्ठीतत्पुरुषसमासः | तस्य वंश्यः |
+| रामान्तिके | षष्ठीतत्पुरुषसमासः | रामस्य अन्तिकम् |
+| श्रुतिव्याख्याविशेषान् | षष्ठीतत्पुरुषसमासः | श्रुतिव्याख्यायाः विशेषाः |
+
 
 ---
 
@@ -785,6 +1000,15 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** He seemed to have abandoned Janaki to take the demigods into darkness How can she be abandoned because she is pervasive and flawless?
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| नेतुम् | Kṛt (तुमुन्) | √नी + तुमुन् |
+| व्याप्तत्वात् | Taddhita (त्व) | व्याप्त + त्व → सर्वगतत्वात् |
+| निरवद्यत्वात् | Taddhita (त्व) | निरवद्य + त्व → दोषराहित्यात् |
+
+
 ---
 
 <a id="meaning-24"></a>
@@ -816,6 +1040,14 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** atha saḥ yajñēna yajñapuruṣam svātmānam ayajata । tatra āgatā satī sītā vēdyām antaḥ dadhē kila ।
 
 **Bhavartha:** Then he offered himself to the sacrificial person by performing a sacrifice. There, the chaste Sita arrived and placed herself inside the altar.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| यज्ञपुरुषम् | कर्मधारयसमासः | यज्ञः च असौ पुरुषश्च |
+| आगता | Kṛt (क्त) | √गम् (आ) + क्त |
+
 
 ---
 
@@ -877,6 +1109,14 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** prakṛtyā paramāḥ brahmaṇaḥ mānasāḥ sutāḥ haṃsāḥ sanakādyāḥ tataḥ tattvam śrutvā añjasā vyācakhyuḥ ।
 
 **Bhavartha:** The mental sons of the Brahman, who were supreme in nature, such as the swans and Sanaka, then heard the truth and easily explained it.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| सनकाद्याः | बहुव्रीहिसमासः | सनकः आदिः येषां ते |
+| श्रुत्वा | Kṛt (क्त्वा) | √श्रु + क्त्वा |
+
 
 ---
 
@@ -940,6 +1180,16 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** The demigods requested the god to return to his abode Encouraged by Rama the rest of Lakshmana (became) and went to the ocean of milk
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| रामचोदितः | तृतीयातत्पुरुषसमासः | रामेण चोदितः |
+| दुग्धाब्धिम् | कर्मधारयसमासः | दुग्धस्य अब्धिः |
+| जिगमिषुः | Kṛt (उ) | √गम् (सन्) + उ |
+| अभ्यर्थितः | Kṛt (क्त) | √अर्थ् (अभि) + क्त |
+
+
 ---
 
 <a id="meaning-29"></a>
@@ -968,6 +1218,13 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** yē yē mōkṣapadēcchavaḥ samāyāta samāyāta ēvam rāmaḥ samastaśaḥ dikṣu dūtaiḥ āghōṣayat ।
 
 **Bhavartha:** Rama sent messengers in all directions to announce that those who had come to the stage of liberation had arrived
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| मोक्षपदेच्छवः | षष्ठीतत्पुरुषसमासः | मोक्षपदस्य इच्छवः |
+
 
 ---
 
@@ -1000,6 +1257,15 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 
 **Bhavartha:** Then the god, accompanied by Sita and countless other animals, including monkeys and humans, set out for the north.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| वानराद्यैः | बहुव्रीहिसमासः | वानरः आदिः येषां ते |
+| नराद्यैः | बहुव्रीहिसमासः | नरः आदिः येषां ते |
+| वृतः | Kṛt (क्त) | √वृ + क्त |
+
+
 ---
 
 <a id="meaning-31"></a>
@@ -1029,6 +1295,16 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** rāghavaḥ tēṣām mōkṣapadam dattvā marutsutam abhyanujñāpya sītayā sārdham svam param padam vivēśa ।
 
 **Bhavartha:** Granting liberation (the state of Vaikuntha) to those devotees who accompanied Him, and taking leave of Hanuman (the son of Wind), Rama along with Sita entered His own supreme abode (Vaikuntha).
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| मोक्षपदम् | कर्मधारयसमासः | मोक्षः एव पदम् |
+| मरुत्सुतम् | षष्ठीतत्पुरुषसमासः | मरुतः सुतः |
+| दत्त्वा | Kṛt (क्त्वा) | √दा + क्त्वा |
+| अभ्यनुज्ञाप्य | Kṛt (ल्यप्) | √ज्ञा (अभि-अनु) + ल्यप् |
+
 
 ---
 
@@ -1066,6 +1342,15 @@ hā rāma rāmēti sadōpagāyan prābhañjaniḥ kimpuruṣēṣu rēmē || 32 
 **Anvaya:** prābhañjaniḥ satyēna viraktimatyā bhaktyā ca matyā ca dhṛtyā ca tapasyayā ca hā rāma rāma iti sadā upagāyan kimpuruṣēṣu rēmē ।
 
 **Bhavartha:** Prabhanjani enjoyed himself among the Kimpuruṣas by his truthfulness, devotion, consciousness, patience and austerity, always singing, “Alas, Rāma, Rāma!”
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| विरक्तिमत्या | तृतीयातत्पुरुषसमासः | विरक्त्या मत्या |
+| उपगायन् | Kṛt (शतृ) | √गै (उप) + शतृ |
+| तपस्यया | Taddhita (क्यच्) | तपस् + क्यच् → तपश्चरणेन |
+
 
 ---
 
