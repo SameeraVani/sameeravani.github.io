@@ -153,6 +153,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** I bow to Govinda, whose body is of bliss and knowledge, the Lord of Lakshmi, who is dear to Sri Anandateertha (Madhvacharya), supreme and imperishable.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| आनन्दज्ञानदेहम् | कर्मधारयसमासः | आनन्दश्च ज्ञानं च देहः यस्य सः |
+| श्रीमदानन्दतीर्थार्यवल्लभम् | षष्ठीतत्पुरुषसमासः | श्रीमदानन्दतीर्थार्यस्य वल्लभम् |
+
+
 ---
 
 <a id="meaning-2"></a>
@@ -184,6 +192,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** Lord Vasudeva, who is supreme and distinct from Prakriti (material nature), created the three attributes (sattva, rajas, tamas) at the beginning of creation (prior to the manifestation of Mahat-tattva). Thereafter, Lord Vishnu created the body of Chaturmukha Brahma, which is the Mahat-tattva.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| महत्तत्त्वम् | कर्मधारयसमासः | महत् च तत् तत्त्वम् |
+| सृष्टवान् | Kṛt (क्तवतु) | √सृज् + क्तवतु |
+
+
 ---
 
 <a id="meaning-3"></a>
@@ -214,6 +230,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** saḥ mahattattvāt śivavigraham ahaṅkāram sasarja । tataḥ trividhāt daivān dēhān manaḥ khāni kham ca sasarja ।
 
 **Bhavartha:** He created the ego-principle (ahankara-tattva), which is the body of Shiva, from the Mahat-tattva. Then, from that threefold ego (vaikarika/sattvika, taijasa/rajasa, and tamasa), He created the deities, their bodies, the mind, the ten senses, and the space (along with sound-element).
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| शिवविग्रहम् | षष्ठीतत्पुरुषसमासः | शिवस्य विग्रहः |
+| महत्तत्त्वात् | कर्मधारयसमासः | महत् च तत् तत्त्वम् |
+
 
 ---
 
@@ -274,6 +298,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** Thereafter, He created Brahma (Vidhi) who is changeless and possesses the cosmic body (Brahmanda). In that cosmos, the Lord again created the fourteen worlds.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| कूटस्थम् | सप्तमीतत्पुरुषसमासः | कूटे तिष्ठति इति कूटस्थः |
+| ब्रह्माण्डविग्रहम् | बहुव्रीहिसमासः | ब्रह्माण्डं विग्रहः यस्य सः |
+
+
 ---
 
 <a id="meaning-6"></a>
@@ -307,6 +339,16 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** Then, the Lord in the form of Vairaja Purusha created the presiding deities of elements, and similarly the great ascetics like Sanaka and other yogis.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| वैराजपुरुषः | कर्मधारयसमासः | वैराजः च असौ पुरुषः |
+| सनकादीन् | बहुव्रीहिसमासः | सनकः आदिः येषां ते |
+| वैराजः | Taddhita (अण् (सम्बन्धार्थे)) | विराट् + अण् (सम्बन्धार्थे) → विराजः सम्बन्धी |
+| तात्विकान् | Taddhita (ठञ् (ठक्)) | तत्त्व + ठञ् (ठक्) → तत्त्वसम्बन्धिनः |
+
+
 ---
 
 <a id="meaning-7"></a>
@@ -336,6 +378,16 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** He also created the demons of evil nature, the five-fold ignorance (tamisra, andhatamisra, etc.), the distinctions of varnas and ashramas, and the system/bounds of righteousness (dharma-maryada).
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| दोषरूपान् | कर्मधारयसमासः | दोष एव रूपं येषां ते |
+| पाञ्चपर्वणीम् | द्विगुसमासः | पञ्च पर्वाणि यस्याः सा |
+| वर्णाश्रमविशेषान् | समाहारद्वन्द्वसमासः | वर्णानाम् आश्रमाणाञ्च विशेषाः |
+| धर्मक्लृप्तिम् | षष्ठीतत्पुरुषसमासः | धर्मस्य क्लृप्तिः |
+
+
 ---
 
 <a id="meaning-8"></a>
@@ -364,6 +416,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** paramēṣṭhinaḥ marīcyatrādayaḥ putrāḥ abhūvan । marīcēḥ vaṭōḥ vāmanasya pitā kaśyapaḥ jajñē ।
 
 **Bhavartha:** The mind-born sons of Brahma, Marichi, Atri, and others came into being. From Marichi, Kashyapa was born, who became the father of Vamana, the young celibate.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| मरीच्यत्रादयः | बहुव्रीहिसमासः | मरीचिः अत्रिश्च आदिर्येषां ते |
+| परमेष्ठिनः | सप्तमीतत्पुरुषसमासः | परमे तिष्ठति इति परमेष्ठी |
+
 
 ---
 
@@ -396,6 +456,13 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** vividhāḥ prajāḥ sisṛkṣuḥ kaśyapaḥ ditim aditim ca danum kadrūm kīkasām vinatām api avahat ।
 
 **Bhavartha:** Desiring to create diverse progeny, Sage Kashyapa married Diti, Aditi, Danu, Kadru, Keekasa, and Vinata.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| सिसृक्षुः | Kṛt (सन्नन्त + उ (देसिदेरेटिव)) | √सृज् + सन्नन्त + उ (देसिदेरेटिव) |
+
 
 ---
 
@@ -430,6 +497,15 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** From Diti, the demons (Daityas) were born, and from Aditi, the gods (Suras). From Danu were born the Danavas, and from Kadru, the snakes of various terrible poisons.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| नानाविषोल्बणाः | बहुव्रीहिसमासः | नानाविधं विषम् उल्बणं येषां ते |
+| दैत्याः | Taddhita (अण् (अपत्यार्थे)) | दिति + अण् (अपत्यार्थे) → दितेः अपत्यानि |
+| दानवाः | Taddhita (अण् (अपत्यार्थे)) | दनु + अण् (अपत्यार्थे) → दनोः अपत्यानि |
+
+
 ---
 
 <a id="meaning-11"></a>
@@ -458,6 +534,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** From Keekasa, the Rakshasas were born, and from Vinata, the birds of great strength. These were the children of the high-souled Kashyapa.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| महावीर्याः | बहुव्रीहिसमासः | महद्वीर्यं येषां ते |
+| महात्मनः | कर्मधारयसमासः | महान् आत्मा यस्य सः |
+
+
 ---
 
 <a id="meaning-12"></a>
@@ -485,6 +569,17 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** : mahāprājñaḥ ētat manvantarēśvaraḥ manuḥ nāma mānavānāṃ pitā kaśyapātmajāt ādityāt jajñē ।
 
 **Bhavartha:** From the Sun-god (Aditya), who was the son of Kashyapa, was born the highly wise Manu, who became the ruler of this Manvantara.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| महाप्राज्ञः | कर्मधारयसमासः | महती प्रज्ञा यस्य सः |
+| मन्वन्तरेश्वरः | षष्ठीतत्पुरुषसमासः | मन्वन्तरस्य ईश्वरः |
+| कश्यपात्मजात् | षष्ठीतत्पुरुषसमासः | कश्यपस्य आत्मजः |
+| मानवानाम् | Taddhita (अण् (अपत्यार्थे)) | मनु + अण् (अपत्यार्थे) → मनोः अपत्यानि |
+| आदित्यात् | Taddhita (ण्य (अपत्यार्थे)) | अदिति + ण्य (अपत्यार्थे) → अदितेः अपत्यम् |
+
 
 ---
 
@@ -518,6 +613,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** From the nose of Manu, as he sneezed, was born the glorious King Ikshvaku. Worshipping the Lord, Ikshvaku ruled the vast earth.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| रङ्गेश्वरम् | षष्ठीतत्पुरुषसमासः | रङ्गस्य ईश्वरः |
+| तप्त्वा | Kṛt (क्त्वा (पूर्वकालिक)) | √तप् + क्त्वा (पूर्वकालिक) |
+
+
 ---
 
 <a id="meaning-14"></a>
@@ -544,6 +647,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** : tasya vikukṣiḥ purañjayapurōgamāḥ ca samabhūt । tadanvayē śūrāḥ parē rājarṣayaḥ vyajāyanta ।
 
 **Bhavartha:** By performing intense penances, Ikshvaku obtained Lord Ranganatha (Hari) from Brahma. In his lineage, many heroic royal sages like Vikukshi and Puranjaya were born.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| पुरञ्जयपुरोगमाः | बहुव्रीहिसमासः | पुरञ्जयः पुरः गमो येषां ते |
+| तदन्वये | षष्ठीतत्पुरुषसमासः | तस्य अन्वयः |
+
 
 ---
 
@@ -575,6 +686,15 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** In that same dynasty, King Dasharatha was born, who was highly fortunate. Worshipping the Lord in the celestial chariot (Ranganatha), he protected the earth.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| अत्यन्तभाग्यवान् | बहुव्रीहिसमासः | अत्यन्तं भाग्यं यस्य सः |
+| अर्चन् | Kṛt (शतृ (वर्तमाने)) | √अर्च् + शतृ (वर्तमाने) |
+| वैमानिकम् | Taddhita (अण् (तत्र भवः)) | विमान + अण् (तत्र भवः) → विमाने भवः |
+
+
 ---
 
 <a id="meaning-16"></a>
@@ -602,6 +722,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** tasmin kālē sarvē surāḥ mahārākṣasapīḍitāḥ śaraṇyam dugdhābdhiśāyinam viṣṇum śaraṇam yayuḥ ।
 
 **Bhavartha:** At one time, all the gods, being tormented by the great demon (Ravana), went to surrender to Lord Hari, who sleeps on the milk-ocean, who is the protector of all.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| महाराक्षसपीडिताः | तृतीयातत्पुरुषसमासः | महाराक्षसेन पीडिताः |
+| दुग्धाब्धिशायिनम् | सप्तमीतत्पुरुषसमासः | दुग्धाब्धौ शायी सः |
+
 
 ---
 
@@ -631,6 +759,15 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** Commanded by the Lord of Sri (Vishnu), those deities were born on the earth in the form of monkeys (branch-animals) and other forest creatures. Mukhyaprana manifested as Hanuman.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| शाखामृगादिभावेन | षष्ठीतत्पुरुषसमासः | शाखामृगादीनां भावः |
+| क्षितिमण्डले | षष्ठीतत्पुरुषसमासः | क्षितेः मण्डलम् |
+| मारुतः | Taddhita (अण् (अपत्यार्थे)) | मरुत् + अण् (अपत्यार्थे) → मरुतः अपत्यम् |
+
+
 ---
 
 <a id="meaning-18"></a>
@@ -659,6 +796,13 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** Then, Lord Hari manifested as Rama, born to Kausalya and Dasharatha, to grant fearlessness (liberation and supreme bliss) to the devotees, and to destroy the demons (sending them to blind darkness).
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| रामनामा | बहुव्रीहिसमासः | रामः नाम यस्य सः |
+
+
 ---
 
 <a id="meaning-19"></a>
@@ -686,6 +830,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** tataḥ nṛpāt sumitrāyām lakṣmaṇaśatrughnau babhūvatuḥ । kaikēyyām sadā śubharataḥ bharataḥ jajñē ।
 
 **Bhavartha:** Thereafter, Lakshmana and Shatrughna were born to Sumitra, and Bharata, who was always devoted to the auspicious Lord Vishnu, was born to Kaikeyi from King Dasharatha.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| लक्ष्मणशत्रुघ्नौ | द्वन्द्वसमासः | लक्ष्मणश्च शत्रुघ्नश्च |
+| शुभरतः | सप्तमीतत्पुरुषसमासः | शुभे रतः |
+
 
 ---
 
@@ -743,6 +895,17 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** Then Vishvamitra brought his lord Rama along with Lakshmana to kill the lords of the demons who were having slew / killed / having slew / killed / slaying the sacrifice
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| यज्ञनिघ्नतः | षष्ठीतत्पुरुषसमासः | यज्ञस्य निघ्नाः |
+| राक्षसेश्वरान् | षष्ठीतत्पुरुषसमासः | राक्षसानाम् ईश्वराः |
+| रामदेवम् | कर्मधारयसमासः | रामः एव देवः |
+| सलक्ष्मणम् | सहार्थे बहुव्रीहिसमासः | लक्ष्मणेन सहितः |
+| निहन्तुम् | Kṛt (तुमुन् (हेत्वर्थे)) | √हन् + तुमुन् (हेत्वर्थे) |
+
+
 ---
 
 <a id="meaning-22"></a>
@@ -771,6 +934,17 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** saḥ aṭavyām tāṭakām hatvā siddhāśramam ēyivān । yajñavighnān ca vidhūya vidēhaviṣayam yayau ।
 
 **Bhavartha:** He slew / killed Tataka in the forest and went to the Siddha Ashram. He also removed all obstacles to the sacrifice and went to the country of Videha.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| सिद्धाश्रमम् | षष्ठीतत्पुरुषसमासः | सिद्धानाम् आश्रमः |
+| यज्ञविघ्नान् | षष्ठीतत्पुरुषसमासः | यज्ञस्य विघ्नाः |
+| विदेहविषयम् | षष्ठीतत्पुरुषसमासः | विदेहस्य विषयः |
+| हत्वा | Kṛt (क्त्वा (पूर्वकालिक)) | √हन् + क्त्वा (पूर्वकालिक) |
+| विधूय | Kṛt (ल्यप् (पूर्वकालिक)) | √धू (वि) + ल्यप् (पूर्वकालिक) |
+
 
 ---
 
@@ -802,6 +976,16 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** Then, worshiped by kings and others and praised loudly by the gods, he divided the bow of the Lord and found Janaki.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| राजाद्यैः | बहुव्रीहिसमासः | राजा आदिर्येषां ते |
+| सुरेश्वरैः | षष्ठीतत्पुरुषसमासः | सुराणाम् ईश्वराः |
+| स्तूयमानः | Kṛt (शानच् (कर्मणि वर्तमाने)) | √स्तु + शानच् (कर्मणि वर्तमाने) |
+| ऐश्वरम् | Taddhita (अण् (तस्येदम्)) | ईश्वर + अण् (तस्येदम्) → ईश्वरस्य सम्बन्धि |
+
+
 ---
 
 <a id="meaning-24"></a>
@@ -828,6 +1012,16 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** dēvyā saha savasiṣṭhaḥ sahānujaḥ ayōdhyām gacchan saḥ kavikāvyayutajyōtsnākāntavat vyarōcata ।
 
 **Bhavartha:** On his way to Ayodhya with his brother Savasishta accompanied by the goddess he shone like a poet with poetry
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| सवसिष्ठः | सहार्थे बहुव्रीहिसमासः | वसिष्ठेन सहितः |
+| सहानुजः | सहार्थे बहुव्रीहिसमासः | अनुजेन सहितः |
+| कविकाव्ययुतज्योत्स्नाकान्तवत् | बहुव्रीहिसमासः | कविकाव्ययुता या ज्योत्स्नाकान्तः तेन तुल्यः |
+| गच्छन् | Kṛt (शतृ (वर्तमाने)) | √गम् + शतृ (वर्तमाने) |
+
 
 ---
 
@@ -860,6 +1054,15 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** He entered the city, bowed to his father and mother, and was worshiped by the citizens, and enjoyed himself in a happy mood.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| सुखचित्तनुः | बहुव्रीहिसमासः | सुखं चित्तं तनुश्च यस्य सः |
+| प्रविश्य | Kṛt (ल्यप् (पूर्वकालिक)) | √विश् (प्र) + ल्यप् (पूर्वकालिक) |
+| प्रवन्द्य | Kṛt (ल्यप् (पूर्वकालिक)) | √वन्द् (प्र) + ल्यप् (पूर्वकालिक) |
+
+
 ---
 
 <a id="meaning-26"></a>
@@ -890,6 +1093,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** Dasaratha set his mind on crowning Rama as king, but he slew / killed Kaikeyi, saying, ‘My son should take the cow’.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| रामराज्याभिषेकाय | षष्ठीतत्पुरुषसमासः | रामस्य राज्याभिषेकः |
+| मत्सुतः | षष्ठीतत्पुरुषसमासः | मम सुतः |
+
+
 ---
 
 <a id="meaning-27"></a>
@@ -919,6 +1130,15 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** Then Rama accompanied by Sita and Lakshmana went to the forest to kill the rest of the rakshasas
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| रामदेवः | कर्मधारयसमासः | रामः एव देवः |
+| सीतालक्ष्मणाभ्याम् | द्वन्द्वसमासः | सीता च लक्ष्मणश्च |
+| हन्तुम् | Kṛt (तुमुन् (हेत्वर्थे)) | √हन् + तुमुन् (हेत्वर्थे) |
+
+
 ---
 
 <a id="meaning-28"></a>
@@ -946,6 +1166,15 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 
 **Bhavartha:** Lord Rama caused the demoness Surpanakha, the sister of Ravana, to have her ears and nose cut off by his younger brother Lakshmana.
 
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| ध्वस्तकर्णाम् | बहुव्रीहिसमासः | ध्वस्तौ कर्णौ यस्याः सा |
+| लङ्केशभगिनीम् | षष्ठीतत्पुरुषसमासः | लङ्केशस्य भगिनी |
+| अनुजन्मना | Kṛt (मन् (कर्तृवाचक)) | √जन् + मन् (कर्तृवाचक) |
+
+
 ---
 
 <a id="meaning-29"></a>
@@ -970,6 +1199,16 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** rāmaviprakṛtaḥ sahānīkaḥ dūṣaṇasaṃyutaḥ kravyāt kharaḥ pratikarmacikīrṣayā ājagāma ।
 
 **Bhavartha:** Tormented by Rama and desiring retaliation, Khara (the senseless demon) along with Dushana and an army came to attack.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| रामविप्रकृतः | तृतीयातत्पुरुषसमासः | रामेण विप्रकृतः |
+| सहानीकः | सहार्थे बहुव्रीहिसमासः | अनीकेन सहितः |
+| दूषणसंयुतः | तृतीयातत्पुरुषसमासः | दूषणेन संयुतः |
+| प्रतिकर्मचिकीर्षया | षष्ठीतत्पुरुषसमासः | प्रतिकर्मणः चिकीर्षा |
+
 
 ---
 
@@ -997,6 +1236,16 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** parānandaḥ rājīvalōcanaḥ ramānāthaḥ rāmaḥ surakāryārthasiddhayē līlayā ēva tān jaghāna ।
 
 **Bhavartha:** Parananda, the lotus-eyed Rama, the lord of Rama, slew / killed them in a playful manner to accomplish the purpose of the gods.
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| रमानाथः | षष्ठीतत्पुरुषसमासः | रमायाः नाथः |
+| राजीवलोचनः | बहुव्रीहिसमासः | राजीवे इव लोचने यस्य सः |
+| परानन्दः | कर्मधारयसमासः | परः च असौ आनन्दः |
+| सुरकार्यार्थसिद्धये | षष्ठीतत्पुरुषसमासः | सुराणां कार्यस्य अर्थस्य सिद्धिः |
+
 
 ---
 
@@ -1033,6 +1282,14 @@ rāmairanantairitiviśvarūpō nighnannarātīnvirarāja rāmaḥ || 31 ||](#mea
 **Anvaya:** purastāt rāmaḥ, parataḥ api rāmaḥ, dikṣu rāmaḥ, vidikṣu param rāmaḥ, iti anantaiḥ rāmaiḥ arātīn nighnan, viśvarūpaḥ rāmaḥ virarāja ।
 
 **Bhavartha:** Rama in the form of the universe shone, having slew / killed / having slew / killed / slaying the Arati with infinite Ramas, saying, “Rama in front, Rama behind, Rama in all directions, Rama in all directions.”
+
+**Grammatical Analysis (Vyākaraṇa):**
+
+| Word | Type | Analysis |
+| :---- | :---- | :---- |
+| विश्वरूपः | बहुव्रीहिसमासः | विश्वं रूपं यस्य सः |
+| निघ्नन् | Kṛt (शतृ (वर्तमाने)) | √हन् + शतृ (वर्तमाने) |
+
 
 ---
 
