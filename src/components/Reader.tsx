@@ -187,7 +187,7 @@ export const Reader: React.FC<ReaderProps> = ({
       
       for (const chapter of langChapters) {
         try {
-          const res = await fetch(`${import.meta.env.BASE_URL}${chapter.path}`);
+          const res = await fetch(`${import.meta.env.BASE_URL}${chapter.path}?t=${Date.now()}`);
           if (res.ok) {
             const text = await res.text();
             contentsMap[chapter.id] = text;
@@ -221,7 +221,7 @@ export const Reader: React.FC<ReaderProps> = ({
     if (!activeChapter) return;
 
     setLoadingChapter(true);
-    fetch(`${import.meta.env.BASE_URL}${activeChapter.path}`)
+    fetch(`${import.meta.env.BASE_URL}${activeChapter.path}?t=${Date.now()}`)
       .then((res) => {
         if (!res.ok) throw new Error(`Failed to load chapter file: ${activeChapter.title}`);
         return res.text();
