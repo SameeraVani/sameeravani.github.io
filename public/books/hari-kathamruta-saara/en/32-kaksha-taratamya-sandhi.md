@@ -4,454 +4,114 @@ type: "Hari Kathamruta Saara"
 language: "English"
 ---
 
-harikathāmṛtasāra gurugal̤a karuṇadiṃdāpanitu kel̤uvè
+harikathāmṛtasāra gurugal̤a karuṇadiṃdāpanitu kel̤uvè<br/>parama bhagavadbhaktaru idanādaradi kel̤uvudu||
 
-parama bhagavadbhaktaru idanādaradi kel̤uvudu||
+śrīramaṇa sarveśa sarvaga sārabhokta svataṃtra<br/>doṣa vidūra jñānānaṃda balaiśvarya sukha pūrṇa<br/>mūruguṇa varjita saguṇa sākāra viśva sthiti layodaya kāraṇa<br/>kṛpāsāṃdra naraharè salahò sajjanara||1||
 
-śrīramaṇa sarveśa sarvaga sārabhokta svataṃtra
+nitya muktal̤è nirvikāral̤è nitya sukha saṃpūrṇè<br/>nityānitya jagadādhārè muktāmukta gaṇa vinutè<br/>cittaisu binnapava śrī puruṣottamana vakṣo nivāsini<br/>bhṛtya vargava kāyè trijaganmātè vikhyātè||2||
 
-doṣa vidūra jñānānaṃda balaiśvarya sukha pūrṇa
+roma kūpagal̤alli pṛth pṛthaku ā mahā puruṣana<br/>svamūrti tāmarasajāṃḍagal̤a tadgata viśva rūpagal̤a<br/>śrī mahil̤è rūpagal̤a guṇagal̤a sīmègāṇadè yocisuta<br/>mama svāmi mahimèyadu èṃto èṃdu aḍigaḍigè bèragādè||3||
 
-mūruguṇa varjita saguṇa sākāra viśva sthiti layodaya kāraṇa
+òṃdu ajāṃḍadòl̤u òṃdu rūpadòl̤u òṃdu avayavadòl̤u òṃdu nakhadòl̤agè<br/>òṃdu guṇagal̤a pārugāṇadè kṛta puṭāṃjaliyiṃ<br/>maṃdajāsana pul̤aka pul̤akānaṃda bāṣpa tòdalu nuḍigal̤iṃda<br/>iṃdirāvallabhana mahimè gaṃbhīra tèravèṃda||4||
 
-kṛpāsāṃdra naraharè salahò sajjanara||1||
+enu dhanyaro brahma guru pavamāna rāyaru<br/>ī pariyali ramā nivāsana vimala lāvaṇya atiśayagal̤anu<br/>sānurāgadi noḍi sukhipa mahānubhāvara bhāgyavèṃto<br/>bhavānidhavanigè asādhyavènisalu narara pāḍenu||5||
 
-nitya muktal̤è nirvikāral̤è nitya sukha saṃpūrṇè
+ā pitāmaha nūru kalpa ramāpatiya guṇa japisi òlisi<br/>mahā parākrama hanuma bhīma ānaṃda muniyènisi<br/>ā parabrahmana sunābhī kūpasaṃbhava nāmadali mèrèva<br/>ā payojāsana samīrarigè abhinamipè satata||6||
 
-nityānitya jagadādhārè muktāmukta gaṇa vinutè
+vāsudevana mūrti hṛdaya ākāśa maṃḍala madhyadali<br/>tāreśanaṃdadi kāṇuta ati saṃtoṣadali tutipa<br/>ā sarasvati bhāratīyarigè nā satata vaṃdisuvè<br/>paramollāsadali sujñāna bhakutiya salisali èmagèṃdu||7||
 
-cittaisu binnapava śrī puruṣottamana vakṣo nivāsini
+jagadudarana surottamana nijapègal̤òṃtātu karābjadòl̤u padayuga dharisi<br/>nakha paṃktiyòl̤u ramaṇīya taravāda nagadharana pratibiṃba kāṇuta<br/>migè haruṣadiṃ pògal̤i higguva khaga kulādhipa<br/>kòḍali maṃgal̤a sarva sujanarigè||8||
 
-bhṛtya vargava kāyè trijaganmātè vikhyātè||2||
+yogigal̤a hṛdayakè niluka nigamāgamaika vinutana<br/>paramānurāgadali dvisahasra jihvègal̤iṃda varṇisuva<br/>bhūgagana pātāl̤a vyāptana yoga nidrāspadanu ènipa<br/>guru nāgarājana padakè namisuvè manadòl̤u anavarata||9||
 
-roma kūpagal̤alli pṛth pṛthaku ā mahā puruṣana
+dakṣa yajña vibhaṃjananè virupākṣa vairāgyādhipati<br/>saṃrakṣisèmmanu sarvakāladi sanmudavanittu<br/>yakṣapati sakha yajaparigè suravṛkṣa vṛkṣadānujāri<br/>lokādhyakṣa śuka dūrvāsa jaigīṣavya saṃtaisu||10||
 
-svamūrti tāmarasajāṃḍagal̤a tadgata viśva rūpagal̤a
+naṃdivāhana nal̤inidhara maul̤i iṃdu śekhara śiva triyaṃbaka<br/>aṃdhakāsura mathana gaja śārdūla carmadhara<br/>maṃdajāsana tanaya trijagadvaṃdya śuddha sphaṭika sannibha<br/>vaṃdisuvènu anavarata karuṇisi kāyo mahadeva||11||
 
-śrī mahil̤è rūpagal̤a guṇagal̤a sīmègāṇadè yocisuta
+hattu kalpadi lava jaladhiyòl̤u uttama ślokana òlisi<br/>kṛtakrutyanāgi jagatpatiya nemadi kuśāstragal̤a bittarisi mohisi<br/>durātmara nitya niraya nivāsarènisida<br/>kṛtti vāsanè namipè pālisò pārvatī ramaṇa||12||
 
-mama svāmi mahimèyadu èṃto èṃdu aḍigaḍigè bèragādè||3||
+phaṇi phaṇāocita makuṭa raṃjita kvaṇita ḍamaru triśūla<br/>śikhi dina maṇi niśākara netra parama pavitra sucaritra<br/>praṇata kāmada pramatha suramuni gaṇa supūjita caraṇayuga<br/>rāvaṇa mada vibhaṃjana śeṣa pada arhanu ahudèṃdu||13||
 
-òṃdu ajāṃḍadòl̤u òṃdu rūpadòl̤u òṃdu avayavadòl̤u òṃdu nakhadòl̤agè
+kaṃbupāṇiya parama prema nitaṃbiniyaru èṃdènipa<br/>lakṣaṇè jāṃbavati kāl̤iṃdi nīlā bhadra sakha viṃdārèṃba<br/>ṣaṇmahiṣiyara divya padāṃbujagal̤igè namipè<br/>mama hṛdayāṃbaradi nèlèsali biḍadè tammarasana òḍagūḍi||14||
 
-òṃdu guṇagal̤a pārugāṇadè kṛta puṭāṃjaliyiṃ
+ā paraṃtapana òlumèyiṃda sadā aparokṣigal̤ènisi<br/>bhagavadrūpa guṇagal̤a mahimè svapatigal̤a ānanadi til̤iva<br/>sauparṇi vāruṇi nagātmajara āpanitu baṇṇisuvè<br/>ènna mahāparādhagal̤a èṇisadè īyali parama maṃgal̤ava||15||
 
-maṃdajāsana pul̤aka pul̤akānaṃda bāṣpa tòdalu nuḍigal̤iṃda
+tridivataru maṇi dhenugal̤igè āspadanènipa tridaśālayābdhigè<br/>badaranaṃdadali òpputippa upeṃdra caṃdramana<br/>mṛdhu madhura sustavanadiṃdali madhu samaya pikanaṃtè pāḍuva<br/>mudira vāhananaṃghri yugmaṃgal̤igè namisuvènu||16||
 
-iṃdirāvallabhana mahimè gaṃbhīra tèravèṃda||4||
+kṛti ramaṇa pradyumna devana atul̤a bala lāvaṇya guṇa saṃtata upāsana<br/>ketu mālā khaṃḍadòl̤u racipa<br/>rati manoharanaṃghri kamalakè natisuvènu bhakutiyali<br/>mama durmati kal̤èdu sanmatiyanu īyali niruta èmagòlidu||17||
 
-enu dhanyaro brahma guru pavamāna rāyaru
+cārutara navavidha bhakuti gaṃbhīra vārāśiyòl̤u<br/>paramodāra mahimana hṛdaya phaṇipati pīṭhadali bhajipa<br/>bhūri karmākaranu ènisuva śarīramāni prāṇapati pada vāriruhakè anamipè<br/>madgururāyanu ahudèṃdu||18||
 
-ī pariyali ramā nivāsana vimala lāvaṇya atiśayagal̤anu
+vitata mahimana viśvato mukhana atul̤a bhuja bala kalpataruvu<br/>āśritarènisi sakala iṣṭa paḍèdu anudinadi modisuva<br/>rati svayaṃbhuva dakṣa vācaspati biḍaujana maḍadi śaci<br/>manmatha kumāra aniruddharu èmagīyali sumaṃgalava||19||
 
-sānurāgadi noḍi sukhipa mahānubhāvara bhāgyavèṃto
+bhava vanadi nava pota puṇya śravaṇa kīrtana pādavanaruha<br/>bhavana nāvikanāgi bhakutara tārisuva biḍadè<br/>pravaha mārutadeva paramotsava viśeṣa niraṃtara<br/>mahā pravahadaṃdadi kòḍali bhagavadbhakta saṃtatigè||20||
 
-bhavānidhavanigè asādhyavènisalu narara pāḍenu||5||
+janaranu uddharisuvènènuta nija janakana anumatadali<br/>svayaṃbhuva manuviniṃdali paḍèdè sukumārakaranu òlumèyali<br/>janani śata rūpā nitaṃbini manavacanakāyadali til̤idu<br/>anudinadi namisuvè kòḍu èmagè sanmaṃgal̤avanòlidu||21||
 
-ā pitāmaha nūru kalpa ramāpatiya guṇa japisi òlisi
+narana nārāyaṇana harikṛṣṇara paḍèdè puruṣārtha tèradali<br/>taraṇi śaśi śatarūparigè samanènisi<br/>pāpigal̤a nirayadòl̤u nèlègòl̤isi sajjana nèraviyanu pālisuva<br/>auduṃbara salahu salahèmma biḍadalè parama karuṇadali||22||
 
-mahā parākrama hanuma bhīma ānaṃda muniyènisi
+madhu virodhi manuja kṣīrodadhi mathana samayadali udayisi<br/>nèrè kudharajā vallabhana mastaka maṃdiradi mèrèva vidhu<br/>tavāṃghri sarojā yugal̤akè madhupanaṃdadali èragalu ènmanada adhipa<br/>vaṃdipènu anudina aṃtastāpa pariharisu||23||
 
-ā parabrahmana sunābhī kūpasaṃbhava nāmadali mèrèva
+śrī vanaruhāṃbakana netragal̤e manèyènisi<br/>sajjanarigè karāvalaṃbanavīva tèradi mayūkha vistaripa<br/>ā vivasvān nènisi kòṃba vibhāvasu<br/>aharniśigal̤ali kòḍalī vasuṃdharèyòl̤u vipaścitaròḍanè sujñāna||24||
 
-ā payojāsana samīrarigè abhinamipè satata||6||
+loka mātèya paḍèdu nī jagadekapātranigitta kāraṇa<br/>śrī kumāri sameta nèlasida ninna maṃdiradi<br/>ā kamalabhava mukharu biḍadè parākènuta niṃdiharo<br/>guṇa ratnākaranè baṇṇisalal̤avè kòḍu èmagè sanmanava||25||
 
-vāsudevana mūrti hṛdaya ākāśa maṃḍala madhyadali
+paṇèyòl̤òppuva tilaka tul̤asī maṇigaṇānvita kaṃṭha<br/>karadali kvaṇita vīṇā susvaradi bahu tāl̤a gatigal̤ali<br/>praṇava pratipādyana guṇaṃgal̤a kuṇidu pāḍuta<br/>parama sukha saṃdaṇiyòl̤u āḍuva devarṣi nāradarigè abhinamipè||26||
 
-tāreśanaṃdadi kāṇuta ati saṃtoṣadali tutipa
+ā sarasvati tīradali binnaisalu ā munigal̤a nuḍigè<br/>jaḍajāsana maheśa acyutara lokaṃgal̤igè pogi<br/>tā sakala guṇagal̤a vicārisi keśavanè paradaivavu èṃdu upadeśisuva<br/>bhṛgu munipa kòḍali èmagè akhil̤a puruṣārtha||27||
 
-ā sarasvati bhāratīyarigè nā satata vaṃdisuvè
+bisaruhāṃbakana ājñèyali sumanasa mukhanu tānènisi<br/>nānā rasagal̤ul̤l̤a harissugal̤anu avaravarigòydu īva<br/>vasukulādhipa yajñapuruṣana asama bala rūpaṃgal̤igè vaṃdisuvè<br/>jñāna yaśassu vidya subuddhi kòḍalèmagè||28||
 
-paramollāsadali sujñāna bhakutiya salisali èmagèṃdu||7||
+tātana appaṇèyiṃda nī prakhyātiyul̤l̤a aravattu makkal̤a<br/>prītiyiṃdali paḍèdu avaravarigittu mannisidè<br/>vīti hotrana samal̤ènisuva prasūti janani<br/>tvadaṃghri kamalakè nā tutisi talèbāguvè èmma kuṭuṃba salahuvudu||29||<br/>śata dhṛtiya sutarīrvara ul̤ida apratima sutapo nidhigal̤a<br/>parājitana susamādhiyòl̤u irisi mūrlokadòl̤u mèrèva<br/>vrativara marīci atri pulahā kratu vasiṣṭha pulastya<br/>vaivasvatanu viśvāmitra aṃgirara aṃghrigèraguvènu||30||
 
-jagadudarana surottamana nijapègal̤òṃtātu karābjadòl̤u padayuga dharisi
+dvādaśa ādityaròl̤u mòdaliganāda mitra<br/>pravaha māniniyāda prāvahi nirṛti nirjara guru mahil̤è tārā<br/>ī divaukasaru anudina ādhivyādhi upaṭal̤ava al̤idu<br/>vibudharigè ādaradi kòḍali akhil̤a maṃgal̤ava āva kāladali||31||
 
-nakha paṃktiyòl̤u ramaṇīya taravāda nagadharana pratibiṃba kāṇuta
+mānanidhigal̤u ènisuva viṣvaksena dhanapa gajānanarigè<br/>samānaru èṃbhattaidu śeṣa śatastha devagaṇakè ā namisuvènu<br/>biḍadè mithyā jñāna kal̤èdu subuddhinittu<br/>sadānurāgadali èmma paripālisalèṃdènuta||32||
 
-migè haruṣadiṃ pògal̤i higguva khaga kulādhipa
+bhūta marutanu avāṃtara abhimāni tapasvi marīci muni<br/>puruhūta naṃdana pādamāni jayaṃtaru èmagòlidu<br/>kātarava puṭṭisadè viṣayadi vītabhayana padābjadali<br/>viparīta buddhiyanu īyadè sadā pālisalèmma||33||
 
-kòḍali maṃgal̤a sarva sujanarigè||8||
+odisuva gurugal̤anu jaridu saha odugarigè upadeśisida<br/>mahadādi kāraṇa sarvaguṇa saṃpūrṇa hariyèṃdu vādisuva<br/>tatpatiya torèṃdu ā danuja bèsagòl̤alu<br/>staṃbhadi śrīdana ākṣaṇa torisida prahlāda salahèmma||34||
 
-yogigal̤a hṛdayakè niluka nigamāgamaika vinutana
+bali mòdalu sapta iṃdraru ivarigè kalita karmaja divijaru èṃbaru<br/>ul̤ida ekādaśa manugal̤u uciththya cavana mukha<br/>kularṣigal̤u èṃbhattu haihaya il̤iya kaṃpanagaida pṛthu<br/>maṃgal̤a parīkṣita nahuṣa nābhi yayāti śaśibiṃdu||35||
 
-paramānurāgadali dvisahasra jihvègal̤iṃda varṇisuva
+śataka saṃketa ul̤l̤a priyavrata bharata māṃdhāta puṇyāśritaru<br/>jayavijayādigal̤u gaṃdharvarèṃṭu jana<br/>hutavahaja pāvaka sanātana pitṛgal̤u èl̤varu citraguptaru<br/>pratidinadi pālisali tammavanèṃdu èmagòlidu||36||
 
-bhūgagana pātāl̤a vyāptana yoga nidrāspadanu ènipa
+vāsavālaya śilpa vimala jalāśayagal̤òl̤u ramipa ūrvaśi<br/>bheśa ravigal̤a ripugal̤ènisuva rāhuketugal̤u<br/>śrīśa pada paṃthāna dhūmārcīra divijaru<br/>karmajarigè sadā samāna divaukasaru kòḍali èmagè maṃgal̤ava||37||
 
-guru nāgarājana padakè namisuvè manadòl̤u anavarata||9||
+dyunadi śyāmala saṃjña rohiṇi ghanapa parjanya aniruddhana vanitè<br/>brahmāṃḍābhimāni virāṭa deviyara nènèvènu<br/>ā nalaviṃdè devānana mahil̤è svāhākhyaru<br/>ālocanè kòḍali nirvighnadiṃ bhagavadguṇaogal̤ali||38||
 
-dakṣa yajña vibhaṃjananè virupākṣa vairāgyādhipati
+vidhipitana pādāṃbujagal̤igè madhupanāṃtè virājipāmala<br/>udakagal̤igè sadābhimāniyu èṃdènisikòṃba budhagè nā vaṃdisuvè sammodadi<br/>niraṃtaravu òlidèmagè<br/>abhyudaya pālisalèṃdu paramotsavadòl̤u anudinadi||39||
 
-saṃrakṣisèmmanu sarvakāladi sanmudavanittu
+śrī viriṃcādyara manakè nilukāva kālakè<br/>janana rahitana tāvòlisi maganèṃdu muddisi līlègal̤a nol̤pa<br/>devakigè vaṃdipè yaśodā devigè ānamisuvènu<br/>parama kṛpāvalokanadiṃda salahuvudu èmma saṃtatiya||40||
 
-yakṣapati sakha yajaparigè suravṛkṣa vṛkṣadānujāri
+pāmararana pavitragaisuva śrī mukuṃdana vimala maṃgal̤a<br/>nāmagal̤igè abhimāniyāda uṣākhya deviyaru<br/>bhūmiyòl̤agul̤l̤a akhil̤a sajjanara āmayādigal̤a al̤idu salahali<br/>ā marutvān manèya vaidyara ramaṇi pratidinadi||41||
 
-lokādhyakṣa śuka dūrvāsa jaigīṣavya saṃtaisu||10||
+puruṭa locana ninna kaddòydiralu prārthisè<br/>devatègal̤a uttarava lālisi taṃda varāha rūpa tānāgi<br/>dharaṇi janani ninna pādakkèragi binnaisuvanu<br/>pādasparśa mòdalāda akhil̤a doṣagal̤u èṇisadirèṃdu||42||
 
-naṃdivāhana nal̤inidhara maul̤i iṃdu śekhara śiva triyaṃbaka
+vanadhivasanè varādri nicaya stanavirājitè<br/>cetanācetana vidhārakè gaṃdha rasa rūpādi guṇa vapuṣè<br/>munikulottama kaśyapana nijatanujè ninagè anamipè<br/>ènnavaguṇagal̤u èṇisadè pālipudu paramātmanardhāṃgi||43||
 
-aṃdhakāsura mathana gaja śārdūla carmadhara
+hari gurugal̤a arcisada pāpātmarana śikṣisalosuga<br/>śanaiścaranènisi duṣphalagal̤īvè niraṃtaradi biḍadè<br/>taraṇi naṃdana ninna pādāṃburuhagal̤igè ā namipè<br/>bahu dustara bhavārṇadi magnanādènna uddharisabeku||44||
 
-maṃdajāsana tanaya trijagadvaṃdya śuddha sphaṭika sannibha
+niratiśaya sujñāna pūrvaka viracisuva niṣkāma karmagal̤aritu<br/>tattatkāladali tajjanya phalarasava hariya nemadali uṇisi<br/>bahujīvarigè karmapanènipa<br/>gurupuṣkaranu satkriyaṃgal̤ali nirvighnatèya kòḍali||45||
 
-vaṃdisuvènu anavarata karuṇisi kāyo mahadeva||11||
+śrīnivāsana parama kāruṇyāni vāsasthānaru ènipa kṛśānujaru<br/>sahasra ṣoḍaśa śataru śrī kṛṣṇa māniniyaru èppattu<br/>yakṣaru dānavaru mūvattu<br/>cāraṇa ajānaja amararu apsararu gaṃdharvarigè namipè||46||
 
-hattu kalpadi lava jaladhiyòl̤u uttama ślokana òlisi
+kinnararu guhyakaru rākṣasa pannagaru pitṛgal̤u siddharu<br/>sannuta ajānajaru samaru ivaru amara yonijaru<br/>innivara gaṇavèṃtu baṇṇisalu ènnòl̤avè<br/>karuṇadali paramāpanna janarigè kòḍali sanmuda parama snehadali||47||
 
-kṛtakrutyanāgi jagatpatiya nemadi kuśāstragal̤a bittarisi mohisi
+ā yamunèyòl̤u sādaradi kātyāyanī vratadharisi<br/>kèlaru dayāyudhanè patiyèṃdu kèlavaru jāratanadalli<br/>vāyupitanòlisidaru īrvagè toya sarasara<br/>pādakamalakè nā èraguvè manorathaṃgal̤a salisali anudinadi||48||
 
-durātmara nitya niraya nivāsarènisida
+nūrumunigal̤a ul̤idu melaṇa nūru koṭi tapodharana<br/>pādāraviṃdakè mugivè karagal̤anu uddharisalèṃdu<br/>mūru sapta śatāhvayara tòrèdu ī ṛṣigal̤a anaṃtaraliha<br/>bhūri pitṛgal̤u kòḍali èmagè saṃtata sumaṃgal̤ava||49||
 
-kṛtti vāsanè namipè pālisò pārvatī ramaṇa||12||
+pāvanakè pāvananu ènisuva ramā vinodiya guṇagaṇaogal̤a<br/>sāvadhānadali eka mānasarāgi susvaradi<br/>ā vibudhapati sabhèyòl̤agè nānā vilāsadi pāḍi sukhisuva<br/>deva gaṃdharvaru kòḍali èmagè akhil̤a puruṣārtha||50||
 
-phaṇi phaṇāocita makuṭa raṃjita kvaṇita ḍamaru triśūla
+bhuvana pāvana māl̤pa lakṣmī dhavana<br/>maṃgal̤a divya nāma stavanagaiva manuṣya gaṃdharvarigè vaṃdisuvè<br/>pravara bhūbhujara ul̤idu madhyama kuvalayaparu èṃdu ènisikòṃbara<br/>divasa divasaṃgal̤ali nènèvanu karaṇa śuddhiyali||51||
 
-śikhi dina maṇi niśākara netra parama pavitra sucaritra
+śrī mukuṃdana mūrtisalè saudāminiyol̤ hṛdaya vārija<br/>vyoma maṃḍala madhyadali kāṇutali modisuva<br/>ā manuṣyottamara padayuga tāmarasagal̤igè èraguvè<br/>sadā kāmitārthagal̤ittu salahali praṇata janatatiya||52||
 
-praṇata kāmada pramatha suramuni gaṇa supūjita caraṇayuga
+ī mahī maṃḍaladòl̤iha guru śrīmadācāryara matānugaru<br/>ā mahāvaiṣṇavara viṣṇu padābja madhukarara stomakè anamisuvènu<br/>avaravara nāmagal̤anu eṃ pel̤vè bahuvidha<br/>yāma yāmaṃgal̤ali bodhisali èmagè sanmatiya||53||
 
-rāvaṇa mada vibhaṃjana śeṣa pada arhanu ahudèṃdu||13||
+māranayyana karuṇa pārāvāra mukhya supātraru ènipa<br/>saroruhāsana vāṇi rudra iṃdrādi suranikara<br/>tāratamyātmaka supadyagal̤a āru paṭhisuvaru ā janarigè<br/>ramāramaṇa pūraisali īpsita sarvakāladali||54||
 
-kaṃbupāṇiya parama prema nitaṃbiniyaru èṃdènipa
+mūru kālagal̤alli tutisè śarīra vāngmanaḥ śuddhi māl̤pudu<br/>dūragaisuvadu akhil̤a pāpa samūha pratidinadi<br/>corabhaya rājabhaya nakra camūra śastra jalāgni bhūta<br/>mahoraga jvara naraka bhaya saṃbhavisadu èṃdèṃdu||55||
 
-lakṣaṇè jāṃbavati kāl̤iṃdi nīlā bhadra sakha viṃdārèṃba
-
-ṣaṇmahiṣiyara divya padāṃbujagal̤igè namipè
-
-mama hṛdayāṃbaradi nèlèsali biḍadè tammarasana òḍagūḍi||14||
-
-ā paraṃtapana òlumèyiṃda sadā aparokṣigal̤ènisi
-
-bhagavadrūpa guṇagal̤a mahimè svapatigal̤a ānanadi til̤iva
-
-sauparṇi vāruṇi nagātmajara āpanitu baṇṇisuvè
-
-ènna mahāparādhagal̤a èṇisadè īyali parama maṃgal̤ava||15||
-
-tridivataru maṇi dhenugal̤igè āspadanènipa tridaśālayābdhigè
-
-badaranaṃdadali òpputippa upeṃdra caṃdramana
-
-mṛdhu madhura sustavanadiṃdali madhu samaya pikanaṃtè pāḍuva
-
-mudira vāhananaṃghri yugmaṃgal̤igè namisuvènu||16||
-
-kṛti ramaṇa pradyumna devana atul̤a bala lāvaṇya guṇa saṃtata upāsana
-
-ketu mālā khaṃḍadòl̤u racipa
-
-rati manoharanaṃghri kamalakè natisuvènu bhakutiyali
-
-mama durmati kal̤èdu sanmatiyanu īyali niruta èmagòlidu||17||
-
-cārutara navavidha bhakuti gaṃbhīra vārāśiyòl̤u
-
-paramodāra mahimana hṛdaya phaṇipati pīṭhadali bhajipa
-
-bhūri karmākaranu ènisuva śarīramāni prāṇapati pada vāriruhakè anamipè
-
-madgururāyanu ahudèṃdu||18||
-
-vitata mahimana viśvato mukhana atul̤a bhuja bala kalpataruvu
-
-āśritarènisi sakala iṣṭa paḍèdu anudinadi modisuva
-
-rati svayaṃbhuva dakṣa vācaspati biḍaujana maḍadi śaci
-
-manmatha kumāra aniruddharu èmagīyali sumaṃgalava||19||
-
-bhava vanadi nava pota puṇya śravaṇa kīrtana pādavanaruha
-
-bhavana nāvikanāgi bhakutara tārisuva biḍadè
-
-pravaha mārutadeva paramotsava viśeṣa niraṃtara
-
-mahā pravahadaṃdadi kòḍali bhagavadbhakta saṃtatigè||20||
-
-janaranu uddharisuvènènuta nija janakana anumatadali
-
-svayaṃbhuva manuviniṃdali paḍèdè sukumārakaranu òlumèyali
-
-janani śata rūpā nitaṃbini manavacanakāyadali til̤idu
-
-anudinadi namisuvè kòḍu èmagè sanmaṃgal̤avanòlidu||21||
-
-narana nārāyaṇana harikṛṣṇara paḍèdè puruṣārtha tèradali
-
-taraṇi śaśi śatarūparigè samanènisi
-
-pāpigal̤a nirayadòl̤u nèlègòl̤isi sajjana nèraviyanu pālisuva
-
-auduṃbara salahu salahèmma biḍadalè parama karuṇadali||22||
-
-madhu virodhi manuja kṣīrodadhi mathana samayadali udayisi
-
-nèrè kudharajā vallabhana mastaka maṃdiradi mèrèva vidhu
-
-tavāṃghri sarojā yugal̤akè madhupanaṃdadali èragalu ènmanada adhipa
-
-vaṃdipènu anudina aṃtastāpa pariharisu||23||
-
-śrī vanaruhāṃbakana netragal̤e manèyènisi
-
-sajjanarigè karāvalaṃbanavīva tèradi mayūkha vistaripa
-
-ā vivasvān nènisi kòṃba vibhāvasu
-
-aharniśigal̤ali kòḍalī vasuṃdharèyòl̤u vipaścitaròḍanè sujñāna||24||
-
-loka mātèya paḍèdu nī jagadekapātranigitta kāraṇa
-
-śrī kumāri sameta nèlasida ninna maṃdiradi
-
-ā kamalabhava mukharu biḍadè parākènuta niṃdiharo
-
-guṇa ratnākaranè baṇṇisalal̤avè kòḍu èmagè sanmanava||25||
-
-paṇèyòl̤òppuva tilaka tul̤asī maṇigaṇānvita kaṃṭha
-
-karadali kvaṇita vīṇā susvaradi bahu tāl̤a gatigal̤ali
-
-praṇava pratipādyana guṇaṃgal̤a kuṇidu pāḍuta
-
-parama sukha saṃdaṇiyòl̤u āḍuva devarṣi nāradarigè abhinamipè||26||
-
-ā sarasvati tīradali binnaisalu ā munigal̤a nuḍigè
-
-jaḍajāsana maheśa acyutara lokaṃgal̤igè pogi
-
-tā sakala guṇagal̤a vicārisi keśavanè paradaivavu èṃdu upadeśisuva
-
-bhṛgu munipa kòḍali èmagè akhil̤a puruṣārtha||27||
-
-bisaruhāṃbakana ājñèyali sumanasa mukhanu tānènisi
-
-nānā rasagal̤ul̤l̤a harissugal̤anu avaravarigòydu īva
-
-vasukulādhipa yajñapuruṣana asama bala rūpaṃgal̤igè vaṃdisuvè
-
-jñāna yaśassu vidya subuddhi kòḍalèmagè||28||
-
-tātana appaṇèyiṃda nī prakhyātiyul̤l̤a aravattu makkal̤a
-
-prītiyiṃdali paḍèdu avaravarigittu mannisidè
-
-vīti hotrana samal̤ènisuva prasūti janani
-
-tvadaṃghri kamalakè nā tutisi talèbāguvè èmma kuṭuṃba salahuvudu||29||
-
-śata dhṛtiya sutarīrvara ul̤ida apratima sutapo nidhigal̤a
-
-parājitana susamādhiyòl̤u irisi mūrlokadòl̤u mèrèva
-
-vrativara marīci atri pulahā kratu vasiṣṭha pulastya
-
-vaivasvatanu viśvāmitra aṃgirara aṃghrigèraguvènu||30||
-
-dvādaśa ādityaròl̤u mòdaliganāda mitra
-
-pravaha māniniyāda prāvahi nirṛti nirjara guru mahil̤è tārā
-
-ī divaukasaru anudina ādhivyādhi upaṭal̤ava al̤idu
-
-vibudharigè ādaradi kòḍali akhil̤a maṃgal̤ava āva kāladali||31||
-
-mānanidhigal̤u ènisuva viṣvaksena dhanapa gajānanarigè
-
-samānaru èṃbhattaidu śeṣa śatastha devagaṇakè ā namisuvènu
-
-biḍadè mithyā jñāna kal̤èdu subuddhinittu
-
-sadānurāgadali èmma paripālisalèṃdènuta||32||
-
-bhūta marutanu avāṃtara abhimāni tapasvi marīci muni
-
-puruhūta naṃdana pādamāni jayaṃtaru èmagòlidu
-
-kātarava puṭṭisadè viṣayadi vītabhayana padābjadali
-
-viparīta buddhiyanu īyadè sadā pālisalèmma||33||
-
-odisuva gurugal̤anu jaridu saha odugarigè upadeśisida
-
-mahadādi kāraṇa sarvaguṇa saṃpūrṇa hariyèṃdu vādisuva
-
-tatpatiya torèṃdu ā danuja bèsagòl̤alu
-
-staṃbhadi śrīdana ākṣaṇa torisida prahlāda salahèmma||34||
-
-bali mòdalu sapta iṃdraru ivarigè kalita karmaja divijaru èṃbaru
-
-ul̤ida ekādaśa manugal̤u uciththya cavana mukha
-
-kularṣigal̤u èṃbhattu haihaya il̤iya kaṃpanagaida pṛthu
-
-maṃgal̤a parīkṣita nahuṣa nābhi yayāti śaśibiṃdu||35||
-
-śataka saṃketa ul̤l̤a priyavrata bharata māṃdhāta puṇyāśritaru
-
-jayavijayādigal̤u gaṃdharvarèṃṭu jana
-
-hutavahaja pāvaka sanātana pitṛgal̤u èl̤varu citraguptaru
-
-pratidinadi pālisali tammavanèṃdu èmagòlidu||36||
-
-vāsavālaya śilpa vimala jalāśayagal̤òl̤u ramipa ūrvaśi
-
-bheśa ravigal̤a ripugal̤ènisuva rāhuketugal̤u
-
-śrīśa pada paṃthāna dhūmārcīra divijaru
-
-karmajarigè sadā samāna divaukasaru kòḍali èmagè maṃgal̤ava||37||
-
-dyunadi śyāmala saṃjña rohiṇi ghanapa parjanya aniruddhana vanitè
-
-brahmāṃḍābhimāni virāṭa deviyara nènèvènu
-
-ā nalaviṃdè devānana mahil̤è svāhākhyaru
-
-ālocanè kòḍali nirvighnadiṃ bhagavadguṇaogal̤ali||38||
-
-vidhipitana pādāṃbujagal̤igè madhupanāṃtè virājipāmala
-
-udakagal̤igè sadābhimāniyu èṃdènisikòṃba budhagè nā vaṃdisuvè sammodadi
-
-niraṃtaravu òlidèmagè
-
-abhyudaya pālisalèṃdu paramotsavadòl̤u anudinadi||39||
-
-śrī viriṃcādyara manakè nilukāva kālakè
-
-janana rahitana tāvòlisi maganèṃdu muddisi līlègal̤a nol̤pa
-
-devakigè vaṃdipè yaśodā devigè ānamisuvènu
-
-parama kṛpāvalokanadiṃda salahuvudu èmma saṃtatiya||40||
-
-pāmararana pavitragaisuva śrī mukuṃdana vimala maṃgal̤a
-
-nāmagal̤igè abhimāniyāda uṣākhya deviyaru
-
-bhūmiyòl̤agul̤l̤a akhil̤a sajjanara āmayādigal̤a al̤idu salahali
-
-ā marutvān manèya vaidyara ramaṇi pratidinadi||41||
-
-puruṭa locana ninna kaddòydiralu prārthisè
-
-devatègal̤a uttarava lālisi taṃda varāha rūpa tānāgi
-
-dharaṇi janani ninna pādakkèragi binnaisuvanu
-
-pādasparśa mòdalāda akhil̤a doṣagal̤u èṇisadirèṃdu||42||
-
-vanadhivasanè varādri nicaya stanavirājitè
-
-cetanācetana vidhārakè gaṃdha rasa rūpādi guṇa vapuṣè
-
-munikulottama kaśyapana nijatanujè ninagè anamipè
-
-ènnavaguṇagal̤u èṇisadè pālipudu paramātmanardhāṃgi||43||
-
-hari gurugal̤a arcisada pāpātmarana śikṣisalosuga
-
-śanaiścaranènisi duṣphalagal̤īvè niraṃtaradi biḍadè
-
-taraṇi naṃdana ninna pādāṃburuhagal̤igè ā namipè
-
-bahu dustara bhavārṇadi magnanādènna uddharisabeku||44||
-
-niratiśaya sujñāna pūrvaka viracisuva niṣkāma karmagal̤aritu
-
-tattatkāladali tajjanya phalarasava hariya nemadali uṇisi
-
-bahujīvarigè karmapanènipa
-
-gurupuṣkaranu satkriyaṃgal̤ali nirvighnatèya kòḍali||45||
-
-śrīnivāsana parama kāruṇyāni vāsasthānaru ènipa kṛśānujaru
-
-sahasra ṣoḍaśa śataru śrī kṛṣṇa māniniyaru èppattu
-
-yakṣaru dānavaru mūvattu
-
-cāraṇa ajānaja amararu apsararu gaṃdharvarigè namipè||46||
-
-kinnararu guhyakaru rākṣasa pannagaru pitṛgal̤u siddharu
-
-sannuta ajānajaru samaru ivaru amara yonijaru
-
-innivara gaṇavèṃtu baṇṇisalu ènnòl̤avè
-
-karuṇadali paramāpanna janarigè kòḍali sanmuda parama snehadali||47||
-
-ā yamunèyòl̤u sādaradi kātyāyanī vratadharisi
-
-kèlaru dayāyudhanè patiyèṃdu kèlavaru jāratanadalli
-
-vāyupitanòlisidaru īrvagè toya sarasara
-
-pādakamalakè nā èraguvè manorathaṃgal̤a salisali anudinadi||48||
-
-nūrumunigal̤a ul̤idu melaṇa nūru koṭi tapodharana
-
-pādāraviṃdakè mugivè karagal̤anu uddharisalèṃdu
-
-mūru sapta śatāhvayara tòrèdu ī ṛṣigal̤a anaṃtaraliha
-
-bhūri pitṛgal̤u kòḍali èmagè saṃtata sumaṃgal̤ava||49||
-
-pāvanakè pāvananu ènisuva ramā vinodiya guṇagaṇaogal̤a
-
-sāvadhānadali eka mānasarāgi susvaradi
-
-ā vibudhapati sabhèyòl̤agè nānā vilāsadi pāḍi sukhisuva
-
-deva gaṃdharvaru kòḍali èmagè akhil̤a puruṣārtha||50||
-
-bhuvana pāvana māl̤pa lakṣmī dhavana
-
-maṃgal̤a divya nāma stavanagaiva manuṣya gaṃdharvarigè vaṃdisuvè
-
-pravara bhūbhujara ul̤idu madhyama kuvalayaparu èṃdu ènisikòṃbara
-
-divasa divasaṃgal̤ali nènèvanu karaṇa śuddhiyali||51||
-
-śrī mukuṃdana mūrtisalè saudāminiyol̤ hṛdaya vārija
-
-vyoma maṃḍala madhyadali kāṇutali modisuva
-
-ā manuṣyottamara padayuga tāmarasagal̤igè èraguvè
-
-sadā kāmitārthagal̤ittu salahali praṇata janatatiya||52||
-
-ī mahī maṃḍaladòl̤iha guru śrīmadācāryara matānugaru
-
-ā mahāvaiṣṇavara viṣṇu padābja madhukarara stomakè anamisuvènu
-
-avaravara nāmagal̤anu eṃ pel̤vè bahuvidha
-
-yāma yāmaṃgal̤ali bodhisali èmagè sanmatiya||53||
-
-māranayyana karuṇa pārāvāra mukhya supātraru ènipa
-
-saroruhāsana vāṇi rudra iṃdrādi suranikara
-
-tāratamyātmaka supadyagal̤a āru paṭhisuvaru ā janarigè
-
-ramāramaṇa pūraisali īpsita sarvakāladali||54||
-
-mūru kālagal̤alli tutisè śarīra vāngmanaḥ śuddhi māl̤pudu
-
-dūragaisuvadu akhil̤a pāpa samūha pratidinadi
-
-corabhaya rājabhaya nakra camūra śastra jalāgni bhūta
-
-mahoraga jvara naraka bhaya saṃbhavisadu èṃdèṃdu||55||
-
-jayajayatu trijagadvilakṣaṇa jayajayatu jagadeka kāraṇa
-
-jayajayatu jānakī ramaṇa nirgata jarāmaraṇa
-
-jayajayatu jāhnavī janaka jayajayatu daitya kulāṃtaka
-
-bhavāmaya hara jagannāth viṭhala pāhimāṃ satata||56||
+jayajayatu trijagadvilakṣaṇa jayajayatu jagadeka kāraṇa<br/>jayajayatu jānakī ramaṇa nirgata jarāmaraṇa<br/>jayajayatu jāhnavī janaka jayajayatu daitya kulāṃtaka<br/>bhavāmaya hara jagannāth viṭhala pāhimāṃ satata||56||
