@@ -1,3 +1,8 @@
+---
+title: "ch5"
+type: "book"
+language: "en"
+---
 # Chapter 5: Daily Devotional Stotras (नित्यप्रार्थना)
 
 In this chapter, we present a collection of daily devotional prayers and stotras for children to learn.

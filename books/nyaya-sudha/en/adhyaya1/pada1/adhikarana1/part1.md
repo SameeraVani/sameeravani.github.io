@@ -1,3 +1,8 @@
+---
+title: "part1"
+type: "book"
+language: "en"
+---
 # Adhyaya 1 - Pada 1
 ## Adhikarana 1 - Part 1
 

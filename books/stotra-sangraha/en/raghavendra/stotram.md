@@ -1,3 +1,8 @@
+---
+title: "stotram"
+type: "book"
+language: "en"
+---
 # Guru Sri Raghavendra
 ## Sri Raghavendra Stotram
 

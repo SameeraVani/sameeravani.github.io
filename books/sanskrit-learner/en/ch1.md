@@ -1,3 +1,8 @@
+---
+title: "ch1"
+type: "book"
+language: "en"
+---
 # Chapter 1: The Alphabet (Varnamala)
 
 The Sanskrit alphabet (Varnamala) and basic numbers are presented below.

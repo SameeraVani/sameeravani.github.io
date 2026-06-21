@@ -1,3 +1,8 @@
+---
+title: "sarga1"
+type: "book"
+language: "te"
+---
 # శ్రీమణిమంజరి (Śrīmaṇimañjarī)
 ## ప్రథమ సర్గము (Sarga I)
 

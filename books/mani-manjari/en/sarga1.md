@@ -1,3 +1,8 @@
+---
+title: "sarga1"
+type: "book"
+language: "en"
+---
 # Śrīmaṇimañjarī
 ## First Sarga (Sarga I)
 

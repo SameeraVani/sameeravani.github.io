@@ -1,3 +1,8 @@
+---
+title: "pancharatna"
+type: "book"
+language: "en"
+---
 # Guru Sri Sripadaraja
 ## Sripadaraja Pancharatna Maalika
 

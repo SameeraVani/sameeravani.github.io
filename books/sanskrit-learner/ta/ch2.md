@@ -1,3 +1,8 @@
+---
+title: "ch2"
+type: "book"
+language: "ta"
+---
 # அத்தியாயம் 2: உயிர்மெய் எழுத்துக் குறிகள் (குணிதாக்ஷரங்கள்)
 
 <div style="font-size: 1.2rem; font-weight: bold; background-color: var(--bg-secondary); border: 1px solid var(--border); padding: 12px; border-radius: var(--radius-sm); margin: 16px 0; text-align: center;">

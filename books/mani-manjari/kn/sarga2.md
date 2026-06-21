@@ -1,3 +1,8 @@
+---
+title: "sarga2"
+type: "book"
+language: "kn"
+---
 # ಶ್ರೀಮಣಿಮಂಜರಿ (Śrīmaṇimañjarī)
 ## ದ್ವಿತೀಯ ಸರ್ಗ (Sarga II)
 

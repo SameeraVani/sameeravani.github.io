@@ -1,3 +1,8 @@
+---
+title: "pancharatna"
+type: "book"
+language: "ta"
+---
 # ஸ்ரீ ஸ்ரீபாதராஜ
 ## ஸ்ரீ ஸ்ரீபாதராஜ பஞ்சரத்னமாலிகா
 

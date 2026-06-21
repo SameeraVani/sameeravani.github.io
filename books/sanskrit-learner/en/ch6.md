@@ -1,3 +1,8 @@
+---
+title: "ch6"
+type: "book"
+language: "en"
+---
 # Chapter 6: Noun Declensions (शब्दरूपाणि)
 
 Here we present the declensions of important nouns and pronouns in Sanskrit along with case meanings.

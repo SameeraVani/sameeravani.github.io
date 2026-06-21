@@ -1,3 +1,8 @@
+---
+title: "sarga1"
+type: "book"
+language: "ta"
+---
 # ஸ்ரீமணிமஞ்சரி (Śrīmaṇimañjarī)
 ## முதலாம் சர்க்கம் (Sarga I)
 

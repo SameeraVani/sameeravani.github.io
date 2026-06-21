@@ -1,3 +1,8 @@
+---
+title: "stotram"
+type: "book"
+language: "sa"
+---
 # श्रीराघवेन्द्रतीर्थाः (गुरुराजः)
 ## श्रीराघवेन्द्रस्तोत्रम् (Śrīrāghavendrastotram)
 

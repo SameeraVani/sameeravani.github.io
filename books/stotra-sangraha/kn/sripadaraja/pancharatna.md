@@ -1,3 +1,8 @@
+---
+title: "pancharatna"
+type: "book"
+language: "kn"
+---
 # ಶ್ರೀ ಶ್ರೀಪಾದರಾಜ
 ## ಶ್ರೀ ಶ್ರೀಪಾದರಾಜ ಪಂಚರತ್ನಮಾಲಿಕಾ
 

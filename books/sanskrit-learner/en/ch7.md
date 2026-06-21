@@ -1,3 +1,8 @@
+---
+title: "ch7"
+type: "book"
+language: "en"
+---
 # Chapter 7: Sentence Creation Practice (वाक्यरचना अभ्यासः)
 
 Here we practice sentence creation using the different cases of the "Rama" shabda.

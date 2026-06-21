@@ -1,3 +1,8 @@
+---
+title: "ch2"
+type: "book"
+language: "en"
+---
 # Chapter II: The Yoga of Knowledge (Jnana Yoga)
 
 Jnana Yoga is the path of wisdom and self-realization. It focuses on realizing the eternal soul (Atman) as separate from the temporary physical body.

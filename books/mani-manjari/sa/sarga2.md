@@ -1,3 +1,8 @@
+---
+title: "sarga2"
+type: "book"
+language: "sa"
+---
 # श्रीमणिमञ्जरी (Śrīmaṇimañjarī)
 ## द्वितीयः सर्गः (Sarga II)
 

@@ -1,3 +1,8 @@
+---
+title: "part1"
+type: "book"
+language: "kn"
+---
 # ಅಧ್ಯಾಯ ೧ - ಪಾದ ೧
 ## ಅಧಿಕರಣ ೧ - ಭಾಗ ೧
 

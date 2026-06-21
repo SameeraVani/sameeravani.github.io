@@ -1,3 +1,8 @@
+---
+title: "ch1"
+type: "book"
+language: "en"
+---
 # Chapter I: The Yoga of Action (Karma Yoga)
 
 Karma Yoga is the path of selfless action. It teaches that we should perform our duties diligently without being attached to the results.

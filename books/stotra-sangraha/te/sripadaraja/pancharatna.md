@@ -1,3 +1,8 @@
+---
+title: "pancharatna"
+type: "book"
+language: "te"
+---
 # శ్రీ శ్రీపాదరాజ
 ## శ్రీ శ్రీపాదరాజ పంచరత్నమాలికా
 
