@@ -4,50 +4,16 @@ type: "Hari Kathamruta Saara"
 language: "English"
 ---
 
-harikathāmṛtasāra gurugal̤a karuṇadiṃdāpanitu kel̤uvè
+harikathāmṛtasāra gurugal̤a karuṇadiṃdāpanitu kel̤uvè<br/>parama bhagavadbhaktaru idanādaradi kel̤uvudu||
 
-parama bhagavadbhaktaru idanādaradi kel̤uvudu||
+manujottamaviḍidu saṃkaruṣaṇana paryaṃtaradi pel̤ida<br/>anukramaṇikèya padyavanu kel̤uvudu sajjanaru||
 
-manujottamaviḍidu saṃkaruṣaṇana paryaṃtaradi pel̤ida
+śrīmadācāryara matānuga dhīmatāṃ vararaṃghri kamalakè<br/>somapānārharigè tātvika devatā gaṇakè<br/>haimavati ṣaṇmahiṣiyara pada vyomakeśagè vāṇi vāyū<br/>tāmarasa bhava lakṣmi nārāyaṇarigè namipè||1||
 
-anukramaṇikèya padyavanu kel̤uvudu sajjanaru||
+śrīmatāṃvara śrīpatè satkāmita prada saumya<br/>trikakuddhāma tri catupāda pāvana carita cārvāṃga<br/>gomatipriya gauṇa gurutama sāmagāyanalola<br/>sarva svāmi mamakuladaiva saṃtaisuvudu sajjanara||2||
 
-śrīmadācāryara matānuga dhīmatāṃ vararaṃghri kamalakè
+rāma rākṣasa kula bhayaṃkara sāmaja iṃdrapriya<br/>mano vācāma gocara citsukhaprada cārutara svarata<br/>bhūma bhūsvargāpa vargada kāmadhenu sukalpataru<br/>ciṃtāmaṇiyèṃdènipa nija bhaktarigè sarvatra||3||
 
-somapānārharigè tātvika devatā gaṇakè
+svarṇavarṇa svataṃtra sarvaga karṇa hīna suśayya śāśvata<br/>varṇa catura āśrama vivarjita cārutara svarata<br/>arṇa saṃpratipādya vāyu suparṇa vara vahana pratima<br/>vaṭa parṇa śayana āśrayatama satcarita guṇabharita||4||
 
-haimavati ṣaṇmahiṣiyara pada vyomakeśagè vāṇi vāyū
-
-tāmarasa bhava lakṣmi nārāyaṇarigè namipè||1||
-
-śrīmatāṃvara śrīpatè satkāmita prada saumya
-
-trikakuddhāma tri catupāda pāvana carita cārvāṃga
-
-gomatipriya gauṇa gurutama sāmagāyanalola
-
-sarva svāmi mamakuladaiva saṃtaisuvudu sajjanara||2||
-
-rāma rākṣasa kula bhayaṃkara sāmaja iṃdrapriya
-
-mano vācāma gocara citsukhaprada cārutara svarata
-
-bhūma bhūsvargāpa vargada kāmadhenu sukalpataru
-
-ciṃtāmaṇiyèṃdènipa nija bhaktarigè sarvatra||3||
-
-svarṇavarṇa svataṃtra sarvaga karṇa hīna suśayya śāśvata
-
-varṇa catura āśrama vivarjita cārutara svarata
-
-arṇa saṃpratipādya vāyu suparṇa vara vahana pratima
-
-vaṭa parṇa śayana āśrayatama satcarita guṇabharita||4||
-
-agaṇita suguṇa dhāma niścala svagata bheda viśūnya śāśvata
-
-jagada jīva atyaṃta bhinna āpanna paripāla
-
-triguṇa varjita tribhuvana īśvara hagalirul̤u smarisutali ihara biṭṭagala
-
-śrī jagannātha viṭhala viśva vyāpakanu||5||
+agaṇita suguṇa dhāma niścala svagata bheda viśūnya śāśvata<br/>jagada jīva atyaṃta bhinna āpanna paripāla<br/>triguṇa varjita tribhuvana īśvara hagalirul̤u smarisutali ihara biṭṭagala<br/>śrī jagannātha viṭhala viśva vyāpakanu||5||

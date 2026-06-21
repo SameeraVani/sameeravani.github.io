@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="books/time-machine/cover.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="title: "ಶ್ರೀ ನಾಡೀಪ್ರಕರಣ ಸಂದಿ / Nadeeprakarana Sandhi" type: "Hari Kathamruta Saara" language: "Sanskrit" हरिकथामृतसार गुरुगळ करुणदिंदापनितु केळुवॆ परम भगवद..." />
+    <meta name="keywords" content="books, e-reader, reading, markdown, epub, publishing, github pages, react reader" />
+    <title>सन्धिः 12 — हरिकथामृतसारः | SameeraVani</title>
+
+    <!-- OpenGraph / Facebook Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="सन्धिः 12 — हरिकथामृतसारः | SameeraVani" />
+    <meta property="og:description" content="title: "ಶ್ರೀ ನಾಡೀಪ್ರಕರಣ ಸಂದಿ / Nadeeprakarana Sandhi" type: "Hari Kathamruta Saara" language: "Sanskrit" हरिकथामृतसार गुरुगळ करुणदिंदापनितु केळुवॆ परम भगवद..." />
+    <meta property="og:image" content="https://sameeravani.github.io/books/hari-kathamruta-saara/cover.png" />
+    <meta property="og:url" content="https://sameeravani.github.io/books/hari-kathamruta-saara/sanskrit/sandhi-12/" />
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="सन्धिः 12 — हरिकथामृतसारः | SameeraVani" />
+    <meta name="twitter:description" content="title: "ಶ್ರೀ ನಾಡೀಪ್ರಕರಣ ಸಂದಿ / Nadeeprakarana Sandhi" type: "Hari Kathamruta Saara" language: "Sanskrit" हरिकथामृतसार गुरुगळ करुणदिंदापनितु केळुवॆ परम भगवद..." />
+    <meta name="twitter:image" content="https://sameeravani.github.io/books/hari-kathamruta-saara/cover.png" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W2D1XFT7PV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-W2D1XFT7PV');
+
+      // Intercept SPA location changes to track hits URL-wise in GA
+      (function() {
+        const pushState = history.pushState;
+        const replaceState = history.replaceState;
+        
+        history.pushState = function() {
+          const result = pushState.apply(this, arguments);
+          window.dispatchEvent(new Event('locationchange'));
+          return result;
+        };
+        
+        history.replaceState = function() {
+          const result = replaceState.apply(this, arguments);
+          window.dispatchEvent(new Event('locationchange'));
+          return result;
+        };
+        
+        window.addEventListener('popstate', function() {
+          window.dispatchEvent(new Event('locationchange'));
+        });
+
+        let lastTrackedUrl = '';
+        let lastTrackedTitle = '';
+
+        window.addEventListener('locationchange', function() {
+          const currentUrl = window.location.pathname + window.location.search;
+          const currentTitle = document.title;
+          
+          if (currentUrl === lastTrackedUrl && currentTitle === lastTrackedTitle) {
+            return;
+          }
+          lastTrackedUrl = currentUrl;
+          lastTrackedTitle = currentTitle;
+          
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'page_view', {
+              page_path: currentUrl,
+              page_title: currentTitle
+            });
+          }
+        });
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-BGIsSYMo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bi4RjQrX.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

@@ -803,5 +803,1048 @@
         }
       ]
     }
+  },
+  {
+    "id": "hari-kathamruta-saara",
+    "title": "Hari Kathamruta Saara",
+    "author": "Sri Jagannatha Dasa",
+    "year": "18th Century CE",
+    "genre": "Devotional / Haridasa Sahitya",
+    "description": "Hari Kathamruta Saara is a magnum opus of Haridasa literature written by Sri Jagannatha Dasa in Kannada. It distills the complex philosophy of Dvaita Vedanta into accessible poetic verses.",
+    "coverUrl": "books/hari-kathamruta-saara/cover.png",
+    "languages": [
+      "english",
+      "sanskrit",
+      "hindi",
+      "kannada",
+      "tamil",
+      "telugu"
+    ],
+    "localized": {
+      "sanskrit": {
+        "title": "हरिकथामृतसारः",
+        "description": "हरिकथामृतसारः श्रीजगन्नाथदासेन रचितः हरिदाससाहित्यस्य महाग्रन्थः अस्ति। अस्मिन् द्वैतवेदान्तस्य गहनतत्त्वानि सुलभरूपेण वर्णितानि सन्ति।"
+      },
+      "hindi": {
+        "title": "हरिकथामृतसार",
+        "description": "हरिकथामृतसार श्री जगन्नाथ दास द्वारा रचित हरिदास साहित्य का एक महान ग्रंथ है। इसमें द्वैत वेदांत के जटिल दर्शन को सरल काव्य रूप में प्रस्तुत किया गया है।"
+      },
+      "kannada": {
+        "title": "ಹರಿಕಥಾಮೃತಸಾರ",
+        "description": "ಹರಿಕಥಾಮೃತಸಾರವು ಶ್ರೀ ಜಗನ್ನಾಥ ದಾಸರಿಂದ ರಚಿತವಾದ ಹರಿದಾಸ ಸಾಹಿತ್ಯದ ಒಂದು ಶ್ರೇಷ್ಠ ಕೃತಿಯಾಗಿದೆ. ದ್ವೈತ ವೇದಾಂತದ ಗಹನವಾದ ತತ್ವಗಳನ್ನು ಇದು ಸುಲಭವಾಗಿ ತಿಳಿಸುತ್ತದೆ."
+      },
+      "tamil": {
+        "title": "ஹரிகதாம்ருத சாரம்",
+        "description": "ஹரிகதாம்ருத சாரம் ஸ்ரீ ஜெகந்நாத தாசரால் இயற்றப்பட்ட ஹரிதாச இலக்கியத்தின் ஒரு தலைசிறந்த படைப்பாகும். இது துவைத வேதாந்தத்தின் சிக்கலான தத்துவங்களை எளிமையான கவிதை வடிவில் வழங்குகிறது."
+      },
+      "telugu": {
+        "title": "హరికథామృతసారము",
+        "description": "హరికథామృతసారము శ్రీ జగన్నాథ దాసులచే రచింపబడిన హరిదాస సాహిత్యములోని మహా గ్రంథము. ఇది ద్వైత వేదాంతము యొక్క క్లిష్టమైన తత్వమును సరళమైన కావ్య రూపములో బోధిస్తుంది."
+      }
+    },
+    "chapters": {
+      "english": [
+        {
+          "id": "sandhi-1",
+          "title": "Sandhi 1: Mangala Charana Sandhi",
+          "path": "books/hari-kathamruta-saara/en/1-mangala-charana-sandhi.md"
+        },
+        {
+          "id": "sandhi-2",
+          "title": "Sandhi 2: Karuna Sandhi",
+          "path": "books/hari-kathamruta-saara/en/2-karuna-sandhi.md"
+        },
+        {
+          "id": "sandhi-3",
+          "title": "Sandhi 3: Vyapthi Sandhi",
+          "path": "books/hari-kathamruta-saara/en/3-vyapthi-sandhi.md"
+        },
+        {
+          "id": "sandhi-4",
+          "title": "Sandhi 4: Bhojana Sandhi",
+          "path": "books/hari-kathamruta-saara/en/4-bhojana-sandhi.md"
+        },
+        {
+          "id": "sandhi-5",
+          "title": "Sandhi 5: Vibhooti Sandhi",
+          "path": "books/hari-kathamruta-saara/en/5-vibhooti-sandhi.md"
+        },
+        {
+          "id": "sandhi-6",
+          "title": "Sandhi 6: Panchamahayagna Sandhi",
+          "path": "books/hari-kathamruta-saara/en/6-panchamahayagna-sandhi.md"
+        },
+        {
+          "id": "sandhi-7",
+          "title": "Sandhi 7: Durita Nivaraana Sandhi",
+          "path": "books/hari-kathamruta-saara/en/7-durita-nivaraana-sandhi.md"
+        },
+        {
+          "id": "sandhi-8",
+          "title": "Sandhi 8: Mathruka Sandhi",
+          "path": "books/hari-kathamruta-saara/en/8-mathruka-sandhi.md"
+        },
+        {
+          "id": "sandhi-9",
+          "title": "Sandhi 9: Udaattaanudaatta Sandhi",
+          "path": "books/hari-kathamruta-saara/en/9-udaattaanudaatta-sandhi.md"
+        },
+        {
+          "id": "sandhi-10",
+          "title": "Sandhi 10: Sarva Pratheeka Sandhi",
+          "path": "books/hari-kathamruta-saara/en/10-sarva-pratheeka-sandhi.md"
+        },
+        {
+          "id": "sandhi-11",
+          "title": "Sandhi 11: Dhyaana Prakriyasandhi",
+          "path": "books/hari-kathamruta-saara/en/11-dhyaana-prakriyasandhi.md"
+        },
+        {
+          "id": "sandhi-12",
+          "title": "Sandhi 12: Nadeeprakarana Sandhi",
+          "path": "books/hari-kathamruta-saara/en/12-nadeeprakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-13",
+          "title": "Sandhi 13: Namasmarana Sandhi",
+          "path": "books/hari-kathamruta-saara/en/13-namasmarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-14",
+          "title": "Sandhi 14: Jeevanaprakriya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/14-jeevanaprakriya-sandhi.md"
+        },
+        {
+          "id": "sandhi-15",
+          "title": "Sandhi 15: Shwaasa Sandhi",
+          "path": "books/hari-kathamruta-saara/en/15-shwaasa-sandhi.md"
+        },
+        {
+          "id": "sandhi-16",
+          "title": "Sandhi 16: Swatantrnya Vibhajane Sandhi",
+          "path": "books/hari-kathamruta-saara/en/16-swatantrnya-vibhajane-sandhi.md"
+        },
+        {
+          "id": "sandhi-17",
+          "title": "Sandhi 17: Swagathaswantrya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/17-swagathaswantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-18",
+          "title": "Sandhi 18: Sarvaswatantrya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/18-sarvaswatantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-19",
+          "title": "Sandhi 19: Bimba Pratibimba Sandhi",
+          "path": "books/hari-kathamruta-saara/en/19-bimba-pratibimba-sandhi.md"
+        },
+        {
+          "id": "sandhi-20",
+          "title": "Sandhi 20: Guna Taratamya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/20-guna-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-21",
+          "title": "Sandhi 21: Karma Vimochana Sandhi",
+          "path": "books/hari-kathamruta-saara/en/21-karma-vimochana-sandhi.md"
+        },
+        {
+          "id": "sandhi-22",
+          "title": "Sandhi 22: Sakaladuritanivaarana Sandhi",
+          "path": "books/hari-kathamruta-saara/en/22-sakaladuritanivaarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-23",
+          "title": "Sandhi 23: Bruhat Taratamya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/23-bruhat-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-24",
+          "title": "Sandhi 24: Aparoksha Taratamya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/24-aparoksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-25",
+          "title": "Sandhi 25: Aarohana Taratamya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/25-aarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-26",
+          "title": "Sandhi 26: Avarohana Taratamya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/26-avarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-27",
+          "title": "Sandhi 27: Anukramanika Tharatamya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/27-anukramanika-tharatamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-28",
+          "title": "Sandhi 28: Sandhi",
+          "path": "books/hari-kathamruta-saara/en/28-sandhi.md"
+        },
+        {
+          "id": "sandhi-29",
+          "title": "Sandhi 29: Anu Taratamya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/29-anu-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-30",
+          "title": "Sandhi 30: Dhaithya Taratamya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/30-dhaithya-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-31",
+          "title": "Sandhi 31: Neivedhya Prakarana Sandhi",
+          "path": "books/hari-kathamruta-saara/en/31-neivedhya-prakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-32",
+          "title": "Sandhi 32: Kaksha Taratamya Sandhi",
+          "path": "books/hari-kathamruta-saara/en/32-kaksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-33",
+          "title": "Sandhi 33: Palashruthi Sandhi",
+          "path": "books/hari-kathamruta-saara/en/33-palashruthi-sandhi.md"
+        }
+      ],
+      "hindi": [
+        {
+          "id": "sandhi-1",
+          "title": "सन्धि 1",
+          "path": "books/hari-kathamruta-saara/hi/1-mangala-charana-sandhi.md"
+        },
+        {
+          "id": "sandhi-2",
+          "title": "सन्धि 2",
+          "path": "books/hari-kathamruta-saara/hi/2-karuna-sandhi.md"
+        },
+        {
+          "id": "sandhi-3",
+          "title": "सन्धि 3",
+          "path": "books/hari-kathamruta-saara/hi/3-vyapthi-sandhi.md"
+        },
+        {
+          "id": "sandhi-4",
+          "title": "सन्धि 4",
+          "path": "books/hari-kathamruta-saara/hi/4-bhojana-sandhi.md"
+        },
+        {
+          "id": "sandhi-5",
+          "title": "सन्धि 5",
+          "path": "books/hari-kathamruta-saara/hi/5-vibhooti-sandhi.md"
+        },
+        {
+          "id": "sandhi-6",
+          "title": "सन्धि 6",
+          "path": "books/hari-kathamruta-saara/hi/6-panchamahayagna-sandhi.md"
+        },
+        {
+          "id": "sandhi-7",
+          "title": "सन्धि 7",
+          "path": "books/hari-kathamruta-saara/hi/7-durita-nivaraana-sandhi.md"
+        },
+        {
+          "id": "sandhi-8",
+          "title": "सन्धि 8",
+          "path": "books/hari-kathamruta-saara/hi/8-mathruka-sandhi.md"
+        },
+        {
+          "id": "sandhi-9",
+          "title": "सन्धि 9",
+          "path": "books/hari-kathamruta-saara/hi/9-udaattaanudaatta-sandhi.md"
+        },
+        {
+          "id": "sandhi-10",
+          "title": "सन्धि 10",
+          "path": "books/hari-kathamruta-saara/hi/10-sarva-pratheeka-sandhi.md"
+        },
+        {
+          "id": "sandhi-11",
+          "title": "सन्धि 11",
+          "path": "books/hari-kathamruta-saara/hi/11-dhyaana-prakriyasandhi.md"
+        },
+        {
+          "id": "sandhi-12",
+          "title": "सन्धि 12",
+          "path": "books/hari-kathamruta-saara/hi/12-nadeeprakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-13",
+          "title": "सन्धि 13",
+          "path": "books/hari-kathamruta-saara/hi/13-namasmarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-14",
+          "title": "सन्धि 14",
+          "path": "books/hari-kathamruta-saara/hi/14-jeevanaprakriya-sandhi.md"
+        },
+        {
+          "id": "sandhi-15",
+          "title": "सन्धि 15",
+          "path": "books/hari-kathamruta-saara/hi/15-shwaasa-sandhi.md"
+        },
+        {
+          "id": "sandhi-16",
+          "title": "सन्धि 16",
+          "path": "books/hari-kathamruta-saara/hi/16-swatantrnya-vibhajane-sandhi.md"
+        },
+        {
+          "id": "sandhi-17",
+          "title": "सन्धि 17",
+          "path": "books/hari-kathamruta-saara/hi/17-swagathaswantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-18",
+          "title": "सन्धि 18",
+          "path": "books/hari-kathamruta-saara/hi/18-sarvaswatantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-19",
+          "title": "सन्धि 19",
+          "path": "books/hari-kathamruta-saara/hi/19-bimba-pratibimba-sandhi.md"
+        },
+        {
+          "id": "sandhi-20",
+          "title": "सन्धि 20",
+          "path": "books/hari-kathamruta-saara/hi/20-guna-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-21",
+          "title": "सन्धि 21",
+          "path": "books/hari-kathamruta-saara/hi/21-karma-vimochana-sandhi.md"
+        },
+        {
+          "id": "sandhi-22",
+          "title": "सन्धि 22",
+          "path": "books/hari-kathamruta-saara/hi/22-sakaladuritanivaarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-23",
+          "title": "सन्धि 23",
+          "path": "books/hari-kathamruta-saara/hi/23-bruhat-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-24",
+          "title": "सन्धि 24",
+          "path": "books/hari-kathamruta-saara/hi/24-aparoksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-25",
+          "title": "सन्धि 25",
+          "path": "books/hari-kathamruta-saara/hi/25-aarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-26",
+          "title": "सन्धि 26",
+          "path": "books/hari-kathamruta-saara/hi/26-avarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-27",
+          "title": "सन्धि 27",
+          "path": "books/hari-kathamruta-saara/hi/27-anukramanika-tharatamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-28",
+          "title": "सन्धि 28",
+          "path": "books/hari-kathamruta-saara/hi/28-sandhi.md"
+        },
+        {
+          "id": "sandhi-29",
+          "title": "सन्धि 29",
+          "path": "books/hari-kathamruta-saara/hi/29-anu-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-30",
+          "title": "सन्धि 30",
+          "path": "books/hari-kathamruta-saara/hi/30-dhaithya-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-31",
+          "title": "सन्धि 31",
+          "path": "books/hari-kathamruta-saara/hi/31-neivedhya-prakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-32",
+          "title": "सन्धि 32",
+          "path": "books/hari-kathamruta-saara/hi/32-kaksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-33",
+          "title": "सन्धि 33",
+          "path": "books/hari-kathamruta-saara/hi/33-palashruthi-sandhi.md"
+        }
+      ],
+      "kannada": [
+        {
+          "id": "sandhi-1",
+          "title": "ಸಂಧಿ 1",
+          "path": "books/hari-kathamruta-saara/kn/1-mangala-charana-sandhi.md"
+        },
+        {
+          "id": "sandhi-2",
+          "title": "ಸಂಧಿ 2",
+          "path": "books/hari-kathamruta-saara/kn/2-karuna-sandhi.md"
+        },
+        {
+          "id": "sandhi-3",
+          "title": "ಸಂಧಿ 3",
+          "path": "books/hari-kathamruta-saara/kn/3-vyapthi-sandhi.md"
+        },
+        {
+          "id": "sandhi-4",
+          "title": "ಸಂಧಿ 4",
+          "path": "books/hari-kathamruta-saara/kn/4-bhojana-sandhi.md"
+        },
+        {
+          "id": "sandhi-5",
+          "title": "ಸಂಧಿ 5",
+          "path": "books/hari-kathamruta-saara/kn/5-vibhooti-sandhi.md"
+        },
+        {
+          "id": "sandhi-6",
+          "title": "ಸಂಧಿ 6",
+          "path": "books/hari-kathamruta-saara/kn/6-panchamahayagna-sandhi.md"
+        },
+        {
+          "id": "sandhi-7",
+          "title": "ಸಂಧಿ 7",
+          "path": "books/hari-kathamruta-saara/kn/7-durita-nivaraana-sandhi.md"
+        },
+        {
+          "id": "sandhi-8",
+          "title": "ಸಂಧಿ 8",
+          "path": "books/hari-kathamruta-saara/kn/8-mathruka-sandhi.md"
+        },
+        {
+          "id": "sandhi-9",
+          "title": "ಸಂಧಿ 9",
+          "path": "books/hari-kathamruta-saara/kn/9-udaattaanudaatta-sandhi.md"
+        },
+        {
+          "id": "sandhi-10",
+          "title": "ಸಂಧಿ 10",
+          "path": "books/hari-kathamruta-saara/kn/10-sarva-pratheeka-sandhi.md"
+        },
+        {
+          "id": "sandhi-11",
+          "title": "ಸಂಧಿ 11",
+          "path": "books/hari-kathamruta-saara/kn/11-dhyaana-prakriyasandhi.md"
+        },
+        {
+          "id": "sandhi-12",
+          "title": "ಸಂಧಿ 12",
+          "path": "books/hari-kathamruta-saara/kn/12-nadeeprakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-13",
+          "title": "ಸಂಧಿ 13",
+          "path": "books/hari-kathamruta-saara/kn/13-namasmarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-14",
+          "title": "ಸಂಧಿ 14",
+          "path": "books/hari-kathamruta-saara/kn/14-jeevanaprakriya-sandhi.md"
+        },
+        {
+          "id": "sandhi-15",
+          "title": "ಸಂಧಿ 15",
+          "path": "books/hari-kathamruta-saara/kn/15-shwaasa-sandhi.md"
+        },
+        {
+          "id": "sandhi-16",
+          "title": "ಸಂಧಿ 16",
+          "path": "books/hari-kathamruta-saara/kn/16-swatantrnya-vibhajane-sandhi.md"
+        },
+        {
+          "id": "sandhi-17",
+          "title": "ಸಂಧಿ 17",
+          "path": "books/hari-kathamruta-saara/kn/17-swagathaswantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-18",
+          "title": "ಸಂಧಿ 18",
+          "path": "books/hari-kathamruta-saara/kn/18-sarvaswatantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-19",
+          "title": "ಸಂಧಿ 19",
+          "path": "books/hari-kathamruta-saara/kn/19-bimba-pratibimba-sandhi.md"
+        },
+        {
+          "id": "sandhi-20",
+          "title": "ಸಂಧಿ 20",
+          "path": "books/hari-kathamruta-saara/kn/20-guna-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-21",
+          "title": "ಸಂಧಿ 21",
+          "path": "books/hari-kathamruta-saara/kn/21-karma-vimochana-sandhi.md"
+        },
+        {
+          "id": "sandhi-22",
+          "title": "ಸಂಧಿ 22",
+          "path": "books/hari-kathamruta-saara/kn/22-sakaladuritanivaarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-23",
+          "title": "ಸಂಧಿ 23",
+          "path": "books/hari-kathamruta-saara/kn/23-bruhat-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-24",
+          "title": "ಸಂಧಿ 24",
+          "path": "books/hari-kathamruta-saara/kn/24-aparoksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-25",
+          "title": "ಸಂಧಿ 25",
+          "path": "books/hari-kathamruta-saara/kn/25-aarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-26",
+          "title": "ಸಂಧಿ 26",
+          "path": "books/hari-kathamruta-saara/kn/26-avarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-27",
+          "title": "ಸಂಧಿ 27",
+          "path": "books/hari-kathamruta-saara/kn/27-anukramanika-tharatamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-28",
+          "title": "ಸಂಧಿ 28",
+          "path": "books/hari-kathamruta-saara/kn/28-sandhi.md"
+        },
+        {
+          "id": "sandhi-29",
+          "title": "ಸಂಧಿ 29",
+          "path": "books/hari-kathamruta-saara/kn/29-anu-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-30",
+          "title": "ಸಂಧಿ 30",
+          "path": "books/hari-kathamruta-saara/kn/30-dhaithya-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-31",
+          "title": "ಸಂಧಿ 31",
+          "path": "books/hari-kathamruta-saara/kn/31-neivedhya-prakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-32",
+          "title": "ಸಂಧಿ 32",
+          "path": "books/hari-kathamruta-saara/kn/32-kaksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-33",
+          "title": "ಸಂಧಿ 33",
+          "path": "books/hari-kathamruta-saara/kn/33-palashruthi-sandhi.md"
+        }
+      ],
+      "sanskrit": [
+        {
+          "id": "sandhi-1",
+          "title": "सन्धिः 1",
+          "path": "books/hari-kathamruta-saara/sa/1-mangala-charana-sandhi.md"
+        },
+        {
+          "id": "sandhi-2",
+          "title": "सन्धिः 2",
+          "path": "books/hari-kathamruta-saara/sa/2-karuna-sandhi.md"
+        },
+        {
+          "id": "sandhi-3",
+          "title": "सन्धिः 3",
+          "path": "books/hari-kathamruta-saara/sa/3-vyapthi-sandhi.md"
+        },
+        {
+          "id": "sandhi-4",
+          "title": "सन्धिः 4",
+          "path": "books/hari-kathamruta-saara/sa/4-bhojana-sandhi.md"
+        },
+        {
+          "id": "sandhi-5",
+          "title": "सन्धिः 5",
+          "path": "books/hari-kathamruta-saara/sa/5-vibhooti-sandhi.md"
+        },
+        {
+          "id": "sandhi-6",
+          "title": "सन्धिः 6",
+          "path": "books/hari-kathamruta-saara/sa/6-panchamahayagna-sandhi.md"
+        },
+        {
+          "id": "sandhi-7",
+          "title": "सन्धिः 7",
+          "path": "books/hari-kathamruta-saara/sa/7-durita-nivaraana-sandhi.md"
+        },
+        {
+          "id": "sandhi-8",
+          "title": "सन्धिः 8",
+          "path": "books/hari-kathamruta-saara/sa/8-mathruka-sandhi.md"
+        },
+        {
+          "id": "sandhi-9",
+          "title": "सन्धिः 9",
+          "path": "books/hari-kathamruta-saara/sa/9-udaattaanudaatta-sandhi.md"
+        },
+        {
+          "id": "sandhi-10",
+          "title": "सन्धिः 10",
+          "path": "books/hari-kathamruta-saara/sa/10-sarva-pratheeka-sandhi.md"
+        },
+        {
+          "id": "sandhi-11",
+          "title": "सन्धिः 11",
+          "path": "books/hari-kathamruta-saara/sa/11-dhyaana-prakriyasandhi.md"
+        },
+        {
+          "id": "sandhi-12",
+          "title": "सन्धिः 12",
+          "path": "books/hari-kathamruta-saara/sa/12-nadeeprakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-13",
+          "title": "सन्धिः 13",
+          "path": "books/hari-kathamruta-saara/sa/13-namasmarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-14",
+          "title": "सन्धिः 14",
+          "path": "books/hari-kathamruta-saara/sa/14-jeevanaprakriya-sandhi.md"
+        },
+        {
+          "id": "sandhi-15",
+          "title": "सन्धिः 15",
+          "path": "books/hari-kathamruta-saara/sa/15-shwaasa-sandhi.md"
+        },
+        {
+          "id": "sandhi-16",
+          "title": "सन्धिः 16",
+          "path": "books/hari-kathamruta-saara/sa/16-swatantrnya-vibhajane-sandhi.md"
+        },
+        {
+          "id": "sandhi-17",
+          "title": "सन्धिः 17",
+          "path": "books/hari-kathamruta-saara/sa/17-swagathaswantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-18",
+          "title": "सन्धिः 18",
+          "path": "books/hari-kathamruta-saara/sa/18-sarvaswatantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-19",
+          "title": "सन्धिः 19",
+          "path": "books/hari-kathamruta-saara/sa/19-bimba-pratibimba-sandhi.md"
+        },
+        {
+          "id": "sandhi-20",
+          "title": "सन्धिः 20",
+          "path": "books/hari-kathamruta-saara/sa/20-guna-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-21",
+          "title": "सन्धिः 21",
+          "path": "books/hari-kathamruta-saara/sa/21-karma-vimochana-sandhi.md"
+        },
+        {
+          "id": "sandhi-22",
+          "title": "सन्धिः 22",
+          "path": "books/hari-kathamruta-saara/sa/22-sakaladuritanivaarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-23",
+          "title": "सन्धिः 23",
+          "path": "books/hari-kathamruta-saara/sa/23-bruhat-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-24",
+          "title": "सन्धिः 24",
+          "path": "books/hari-kathamruta-saara/sa/24-aparoksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-25",
+          "title": "सन्धिः 25",
+          "path": "books/hari-kathamruta-saara/sa/25-aarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-26",
+          "title": "सन्धिः 26",
+          "path": "books/hari-kathamruta-saara/sa/26-avarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-27",
+          "title": "सन्धिः 27",
+          "path": "books/hari-kathamruta-saara/sa/27-anukramanika-tharatamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-28",
+          "title": "सन्धिः 28",
+          "path": "books/hari-kathamruta-saara/sa/28-sandhi.md"
+        },
+        {
+          "id": "sandhi-29",
+          "title": "सन्धिः 29",
+          "path": "books/hari-kathamruta-saara/sa/29-anu-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-30",
+          "title": "सन्धिः 30",
+          "path": "books/hari-kathamruta-saara/sa/30-dhaithya-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-31",
+          "title": "सन्धिः 31",
+          "path": "books/hari-kathamruta-saara/sa/31-neivedhya-prakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-32",
+          "title": "सन्धिः 32",
+          "path": "books/hari-kathamruta-saara/sa/32-kaksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-33",
+          "title": "सन्धिः 33",
+          "path": "books/hari-kathamruta-saara/sa/33-palashruthi-sandhi.md"
+        }
+      ],
+      "tamil": [
+        {
+          "id": "sandhi-1",
+          "title": "சந்தி 1",
+          "path": "books/hari-kathamruta-saara/ta/1-mangala-charana-sandhi.md"
+        },
+        {
+          "id": "sandhi-2",
+          "title": "சந்தி 2",
+          "path": "books/hari-kathamruta-saara/ta/2-karuna-sandhi.md"
+        },
+        {
+          "id": "sandhi-3",
+          "title": "சந்தி 3",
+          "path": "books/hari-kathamruta-saara/ta/3-vyapthi-sandhi.md"
+        },
+        {
+          "id": "sandhi-4",
+          "title": "சந்தி 4",
+          "path": "books/hari-kathamruta-saara/ta/4-bhojana-sandhi.md"
+        },
+        {
+          "id": "sandhi-5",
+          "title": "சந்தி 5",
+          "path": "books/hari-kathamruta-saara/ta/5-vibhooti-sandhi.md"
+        },
+        {
+          "id": "sandhi-6",
+          "title": "சந்தி 6",
+          "path": "books/hari-kathamruta-saara/ta/6-panchamahayagna-sandhi.md"
+        },
+        {
+          "id": "sandhi-7",
+          "title": "சந்தி 7",
+          "path": "books/hari-kathamruta-saara/ta/7-durita-nivaraana-sandhi.md"
+        },
+        {
+          "id": "sandhi-8",
+          "title": "சந்தி 8",
+          "path": "books/hari-kathamruta-saara/ta/8-mathruka-sandhi.md"
+        },
+        {
+          "id": "sandhi-9",
+          "title": "சந்தி 9",
+          "path": "books/hari-kathamruta-saara/ta/9-udaattaanudaatta-sandhi.md"
+        },
+        {
+          "id": "sandhi-10",
+          "title": "சந்தி 10",
+          "path": "books/hari-kathamruta-saara/ta/10-sarva-pratheeka-sandhi.md"
+        },
+        {
+          "id": "sandhi-11",
+          "title": "சந்தி 11",
+          "path": "books/hari-kathamruta-saara/ta/11-dhyaana-prakriyasandhi.md"
+        },
+        {
+          "id": "sandhi-12",
+          "title": "சந்தி 12",
+          "path": "books/hari-kathamruta-saara/ta/12-nadeeprakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-13",
+          "title": "சந்தி 13",
+          "path": "books/hari-kathamruta-saara/ta/13-namasmarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-14",
+          "title": "சந்தி 14",
+          "path": "books/hari-kathamruta-saara/ta/14-jeevanaprakriya-sandhi.md"
+        },
+        {
+          "id": "sandhi-15",
+          "title": "சந்தி 15",
+          "path": "books/hari-kathamruta-saara/ta/15-shwaasa-sandhi.md"
+        },
+        {
+          "id": "sandhi-16",
+          "title": "சந்தி 16",
+          "path": "books/hari-kathamruta-saara/ta/16-swatantrnya-vibhajane-sandhi.md"
+        },
+        {
+          "id": "sandhi-17",
+          "title": "சந்தி 17",
+          "path": "books/hari-kathamruta-saara/ta/17-swagathaswantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-18",
+          "title": "சந்தி 18",
+          "path": "books/hari-kathamruta-saara/ta/18-sarvaswatantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-19",
+          "title": "சந்தி 19",
+          "path": "books/hari-kathamruta-saara/ta/19-bimba-pratibimba-sandhi.md"
+        },
+        {
+          "id": "sandhi-20",
+          "title": "சந்தி 20",
+          "path": "books/hari-kathamruta-saara/ta/20-guna-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-21",
+          "title": "சந்தி 21",
+          "path": "books/hari-kathamruta-saara/ta/21-karma-vimochana-sandhi.md"
+        },
+        {
+          "id": "sandhi-22",
+          "title": "சந்தி 22",
+          "path": "books/hari-kathamruta-saara/ta/22-sakaladuritanivaarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-23",
+          "title": "சந்தி 23",
+          "path": "books/hari-kathamruta-saara/ta/23-bruhat-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-24",
+          "title": "சந்தி 24",
+          "path": "books/hari-kathamruta-saara/ta/24-aparoksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-25",
+          "title": "சந்தி 25",
+          "path": "books/hari-kathamruta-saara/ta/25-aarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-26",
+          "title": "சந்தி 26",
+          "path": "books/hari-kathamruta-saara/ta/26-avarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-27",
+          "title": "சந்தி 27",
+          "path": "books/hari-kathamruta-saara/ta/27-anukramanika-tharatamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-28",
+          "title": "சந்தி 28",
+          "path": "books/hari-kathamruta-saara/ta/28-sandhi.md"
+        },
+        {
+          "id": "sandhi-29",
+          "title": "சந்தி 29",
+          "path": "books/hari-kathamruta-saara/ta/29-anu-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-30",
+          "title": "சந்தி 30",
+          "path": "books/hari-kathamruta-saara/ta/30-dhaithya-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-31",
+          "title": "சந்தி 31",
+          "path": "books/hari-kathamruta-saara/ta/31-neivedhya-prakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-32",
+          "title": "சந்தி 32",
+          "path": "books/hari-kathamruta-saara/ta/32-kaksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-33",
+          "title": "சந்தி 33",
+          "path": "books/hari-kathamruta-saara/ta/33-palashruthi-sandhi.md"
+        }
+      ],
+      "telugu": [
+        {
+          "id": "sandhi-1",
+          "title": "సంధి 1",
+          "path": "books/hari-kathamruta-saara/te/1-mangala-charana-sandhi.md"
+        },
+        {
+          "id": "sandhi-2",
+          "title": "సంధి 2",
+          "path": "books/hari-kathamruta-saara/te/2-karuna-sandhi.md"
+        },
+        {
+          "id": "sandhi-3",
+          "title": "సంధి 3",
+          "path": "books/hari-kathamruta-saara/te/3-vyapthi-sandhi.md"
+        },
+        {
+          "id": "sandhi-4",
+          "title": "సంధి 4",
+          "path": "books/hari-kathamruta-saara/te/4-bhojana-sandhi.md"
+        },
+        {
+          "id": "sandhi-5",
+          "title": "సంధి 5",
+          "path": "books/hari-kathamruta-saara/te/5-vibhooti-sandhi.md"
+        },
+        {
+          "id": "sandhi-6",
+          "title": "సంధి 6",
+          "path": "books/hari-kathamruta-saara/te/6-panchamahayagna-sandhi.md"
+        },
+        {
+          "id": "sandhi-7",
+          "title": "సంధి 7",
+          "path": "books/hari-kathamruta-saara/te/7-durita-nivaraana-sandhi.md"
+        },
+        {
+          "id": "sandhi-8",
+          "title": "సంధి 8",
+          "path": "books/hari-kathamruta-saara/te/8-mathruka-sandhi.md"
+        },
+        {
+          "id": "sandhi-9",
+          "title": "సంధి 9",
+          "path": "books/hari-kathamruta-saara/te/9-udaattaanudaatta-sandhi.md"
+        },
+        {
+          "id": "sandhi-10",
+          "title": "సంధి 10",
+          "path": "books/hari-kathamruta-saara/te/10-sarva-pratheeka-sandhi.md"
+        },
+        {
+          "id": "sandhi-11",
+          "title": "సంధి 11",
+          "path": "books/hari-kathamruta-saara/te/11-dhyaana-prakriyasandhi.md"
+        },
+        {
+          "id": "sandhi-12",
+          "title": "సంధి 12",
+          "path": "books/hari-kathamruta-saara/te/12-nadeeprakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-13",
+          "title": "సంధి 13",
+          "path": "books/hari-kathamruta-saara/te/13-namasmarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-14",
+          "title": "సంధి 14",
+          "path": "books/hari-kathamruta-saara/te/14-jeevanaprakriya-sandhi.md"
+        },
+        {
+          "id": "sandhi-15",
+          "title": "సంధి 15",
+          "path": "books/hari-kathamruta-saara/te/15-shwaasa-sandhi.md"
+        },
+        {
+          "id": "sandhi-16",
+          "title": "సంధి 16",
+          "path": "books/hari-kathamruta-saara/te/16-swatantrnya-vibhajane-sandhi.md"
+        },
+        {
+          "id": "sandhi-17",
+          "title": "సంధి 17",
+          "path": "books/hari-kathamruta-saara/te/17-swagathaswantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-18",
+          "title": "సంధి 18",
+          "path": "books/hari-kathamruta-saara/te/18-sarvaswatantrya-sandhi.md"
+        },
+        {
+          "id": "sandhi-19",
+          "title": "సంధి 19",
+          "path": "books/hari-kathamruta-saara/te/19-bimba-pratibimba-sandhi.md"
+        },
+        {
+          "id": "sandhi-20",
+          "title": "సంధి 20",
+          "path": "books/hari-kathamruta-saara/te/20-guna-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-21",
+          "title": "సంధి 21",
+          "path": "books/hari-kathamruta-saara/te/21-karma-vimochana-sandhi.md"
+        },
+        {
+          "id": "sandhi-22",
+          "title": "సంధి 22",
+          "path": "books/hari-kathamruta-saara/te/22-sakaladuritanivaarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-23",
+          "title": "సంధి 23",
+          "path": "books/hari-kathamruta-saara/te/23-bruhat-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-24",
+          "title": "సంధి 24",
+          "path": "books/hari-kathamruta-saara/te/24-aparoksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-25",
+          "title": "సంధి 25",
+          "path": "books/hari-kathamruta-saara/te/25-aarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-26",
+          "title": "సంధి 26",
+          "path": "books/hari-kathamruta-saara/te/26-avarohana-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-27",
+          "title": "సంధి 27",
+          "path": "books/hari-kathamruta-saara/te/27-anukramanika-tharatamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-28",
+          "title": "సంధి 28",
+          "path": "books/hari-kathamruta-saara/te/28-sandhi.md"
+        },
+        {
+          "id": "sandhi-29",
+          "title": "సంధి 29",
+          "path": "books/hari-kathamruta-saara/te/29-anu-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-30",
+          "title": "సంధి 30",
+          "path": "books/hari-kathamruta-saara/te/30-dhaithya-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-31",
+          "title": "సంధి 31",
+          "path": "books/hari-kathamruta-saara/te/31-neivedhya-prakarana-sandhi.md"
+        },
+        {
+          "id": "sandhi-32",
+          "title": "సంధి 32",
+          "path": "books/hari-kathamruta-saara/te/32-kaksha-taratamya-sandhi.md"
+        },
+        {
+          "id": "sandhi-33",
+          "title": "సంధి 33",
+          "path": "books/hari-kathamruta-saara/te/33-palashruthi-sandhi.md"
+        }
+      ]
+    }
   }
 ]
