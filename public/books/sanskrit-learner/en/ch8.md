@@ -1,3 +1,8 @@
+---
+title: "ch8"
+type: "book"
+language: "en"
+---
 # Chapter 8: Verb Conjugations (धातु-रूपाणि)
 
 Sanskrit verb roots are called **Dhatus**. Verbs conjugate based on tenses/moods (Lakaras), person (Purusha), and numbers.

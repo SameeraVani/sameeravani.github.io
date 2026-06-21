@@ -1,3 +1,8 @@
+---
+title: "sarga1"
+type: "book"
+language: "hi"
+---
 # श्रीमणिमञ्जरी (Śrīmaṇimañjarī)
 ## प्रथम सर्ग (Sarga I)
 

@@ -1,3 +1,8 @@
+---
+title: "sarga2"
+type: "book"
+language: "te"
+---
 # శ్రీమణిమంజరి (Śrīmaṇimañjarī)
 ## ద్వితీయ సర్గము (Sarga II)
 

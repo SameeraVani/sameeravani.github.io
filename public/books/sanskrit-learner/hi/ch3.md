@@ -1,3 +1,8 @@
+---
+title: "ch3"
+type: "book"
+language: "hi"
+---
 # अध्याय ३: संयुक्ताक्षर (संयोग वर्ण)
 
 <div style="font-size: 1.2rem; font-weight: bold; background-color: var(--bg-secondary); border: 1px solid var(--border); padding: 12px; border-radius: var(--radius-sm); margin: 16px 0; text-align: center;">

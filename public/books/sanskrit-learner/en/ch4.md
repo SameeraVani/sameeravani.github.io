@@ -1,3 +1,8 @@
+---
+title: "ch4"
+type: "book"
+language: "en"
+---
 # Chapter 4: Sanskrit Vocabulary (शब्दपरिचयः)
 
 In this chapter, we explore common vocabulary words in Sanskrit along with letter splitting (Varnaviccheda) examples.

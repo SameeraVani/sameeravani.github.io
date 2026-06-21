@@ -1,3 +1,8 @@
+---
+title: "Shabda - Kannada"
+type: "book"
+language: "sa"
+---
 **शब्दमञ्जरी**  
 **अकारान्तः पुल्लिङ्गः राम शब्दः**
 

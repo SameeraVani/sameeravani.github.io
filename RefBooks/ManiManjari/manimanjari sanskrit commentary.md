@@ -1,3 +1,8 @@
+---
+title: "manimanjari sanskrit commentary"
+type: "book"
+language: "sa"
+---
 अथ मणिमञ्जरी
 (श्री नारायणपंडिताचार्यविरचिता)
 

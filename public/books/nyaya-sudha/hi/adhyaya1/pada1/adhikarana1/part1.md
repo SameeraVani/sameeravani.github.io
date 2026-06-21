@@ -1,3 +1,8 @@
+---
+title: "part1"
+type: "book"
+language: "hi"
+---
 # अध्याय 1 - पाद 1
 ## अधिकरण 1 - भाग 1
 

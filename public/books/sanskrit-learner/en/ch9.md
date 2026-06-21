@@ -1,3 +1,8 @@
+---
+title: "ch9"
+type: "book"
+language: "en"
+---
 # Chapter 9: Sandhi Rules (सन्धिप्रकरणम्)
 
 **नूतन-पद-परिचयः** 

@@ -1,3 +1,8 @@
+---
+title: "sarga2"
+type: "book"
+language: "en"
+---
 # Śrīmaṇimañjarī
 ## Second Sarga (Sarga II)
 

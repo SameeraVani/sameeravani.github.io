@@ -1,3 +1,8 @@
+---
+title: "pancharatna"
+type: "book"
+language: "sa"
+---
 # श्री श्रीपादराजः (गुरुराजः)
 ## श्रीश्रीपादराजपञ्चरत्नमालिका (Śrīśrīpādarājapañcaratnamālikā)
 

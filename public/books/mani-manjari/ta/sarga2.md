@@ -1,3 +1,8 @@
+---
+title: "sarga2"
+type: "book"
+language: "ta"
+---
 # ஸ்ரீமணிமஞ்சரி (Śrīmaṇimañjarī)
 ## இரண்டாம் சர்க்கம் (Sarga II)
 

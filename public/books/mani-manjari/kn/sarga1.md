@@ -1,3 +1,8 @@
+---
+title: "sarga1"
+type: "book"
+language: "kn"
+---
 # ಶ್ರೀಮಣಿಮಂಜರಿ (Śrīmaṇimañjarī)
 ## ಪ್ರಥಮ ಸರ್ಗ (Sarga I)
 
