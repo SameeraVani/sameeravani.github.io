@@ -16,8 +16,12 @@ import {
   ExternalLink,
   Share2,
   ArrowUp,
-  BookOpen
+  BookOpen,
+  Download
 } from 'lucide-react';
+
+import { downloadChapterAsPdf, downloadFullBookAsPdf } from '../utils/download';
+
 
 interface ReaderProps {
   bookId: string;
@@ -1100,6 +1104,20 @@ export const Reader: React.FC<ReaderProps> = ({
             )}
           </button>
 
+          {activeChapterId !== '' && (
+            <button
+              className="icon-btn"
+              onClick={() => {
+                if (activeChapter) {
+                  downloadChapterAsPdf(chapterContent, `${activeChapter.id}-${activeLanguage}.pdf`, activeChapter.title);
+                }
+              }}
+              title="Download chapter as PDF"
+            >
+              <Download size={18} />
+            </button>
+          )}
+
           <button 
             className={`icon-btn ${settingsOpen ? 'active' : ''}`} 
             onClick={() => setSettingsOpen(!settingsOpen)}
@@ -1430,6 +1448,15 @@ export const Reader: React.FC<ReaderProps> = ({
                           })
                         </button>
                       )}
+                      
+                      <button
+                        className="intro-btn-secondary"
+                        onClick={() => downloadFullBookAsPdf(book, activeLanguage)}
+                        title={`Download entire book as PDF in ${activeLanguage}`}
+                      >
+                        <Download size={16} style={{ marginRight: '6px' }} />
+                        Download PDF
+                      </button>
                     </div>
                   </div>
                 </div>
