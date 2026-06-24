@@ -195,12 +195,12 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | Case | Singular | Dual | Plural | Meaning (Singular) | Meaning (Dual) | Meaning (Plural) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Prathamā** | अयम् | इमौ | इमे | This man | these two men | these men |
-| **Dvitīyā** | इमम् | इमौ | इमान् | this man (obj) | these two | these all |
-| **Tṛtīyā** | अनेन | आभ्याम् | एभिः | by this man | by these two | by these all |
+| **Dvitīyā** | इमम् / एनम् | इमौ / एनौ | इमान् / एनान् | this man (obj) | these two | these all |
+| **Tṛtīyā** | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः | by this man | by these two | by these all |
 | **Caturthī** | अस्मै | आभ्याम् | एभ्यः | for this man | for these two | for these all |
 | **Pañcamī** | अस्मात् | आभ्याम् | एभ्यः | from this man | from these two | from these all |
-| **Ṣaṣṭhī** | अस्य | अनयोः | एषाम् | of this man | of these two | their |
-| **Saptamī** | अस्मिन् | अनयोः | एषु | in this man | in these two | in these all |
+| **Ṣaṣṭhī** | अस्य | अनयोः / एनयोः | एषाम् | of this man | of these two | their |
+| **Saptamī** | अस्मिन् | अनयोः / एनयोः | एषु | in this man | in these two | in these all |
 
 
 ### 15. मकारान्तः स्त्रीलिङ्गः इदम् शब्दः
@@ -208,12 +208,12 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | Case | Singular | Dual | Plural | Meaning (Singular) | Meaning (Dual) | Meaning (Plural) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Prathamā** | इयम् | इमे | इमाः | This woman | these two women | these women |
-| **Dvitīyā** | इमाम् | इमे | इमाः | this woman (obj) | these two | these all |
-| **Tṛtīyā** | अनया | आभ्याम् | आभिः | by this woman | by these two | by these all |
+| **Dvitīyā** | इमाम् / एनाम् | इमे / एने | इमाः / एनाः | this woman (obj) | these two | these all |
+| **Tṛtīyā** | अनया / एनया | आभ्याम् / एनाभ्याम् | आभिः | by this woman | by these two | by these all |
 | **Caturthī** | अस्यै | आभ्याम् | आभ्यः | for this woman | for these two | for these all |
 | **Pañcamī** | अस्याः | आभ्याम् | आभ्यः | from this woman | from these two | from these all |
-| **Ṣaṣṭhī** | अस्याः | अनयोः | आसाम् | of this woman | of these two | their |
-| **Saptamī** | अस्याम् | अनयोः | आसु | in this woman | in these two | in these all |
+| **Ṣaṣṭhī** | अस्याः | अनयोः / एनयोः | आसाम् | of this woman | of these two | their |
+| **Saptamī** | अस्याम् | अनयोः / एनयोः | आसु | in this woman | in these two | in these all |
 
 
 ### 16. मकारान्तः नपुंसकलिङ्गः इदम् शब्दः
@@ -221,12 +221,12 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | Case | Singular | Dual | Plural | Meaning (Singular) | Meaning (Dual) | Meaning (Plural) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Prathamā** | इदम् | इमे | इमानि | This thing | these two things | these things |
-| **Dvitīyā** | इदम् | इमे | इमानि | this thing (obj) | these two | these all |
-| **Tṛtīyā** | अनेन | आभ्याम् | एभिः | by this thing | by these two | by these all |
+| **Dvitīyā** | इदम् / एनत् | इमे / एने | इमानि / एनानि | this thing (obj) | these two | these all |
+| **Tṛtīyā** | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः | by this thing | by these two | by these all |
 | **Caturthī** | अस्मै | आभ्याम् | एभ्यः | for this thing | for these two | for these all |
 | **Pañcamī** | अस्मात् | आभ्याम् | एभ्यः | from this thing | from these two | from these all |
-| **Ṣaṣṭhī** | अस्य | अनयोः | एषाम् | of this thing | of these two | their |
-| **Saptamī** | अस्मिन् | अनयोः | एषु | in this thing | in these two | in these all |
+| **Ṣaṣṭhī** | अस्य | अनयोः / एनयोः | एषाम् | of this thing | of these two | their |
+| **Saptamī** | अस्मिन् | अनयोः / एनयोः | एषु | in this thing | in these two | in these all |
 
 
 ### 17. दकारान्तः पुल्लिङ्गः एतद् शब्दः
