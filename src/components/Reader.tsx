@@ -20,7 +20,7 @@ import {
   Download
 } from 'lucide-react';
 
-import { downloadChapterAsPdf, downloadFullBookAsPdf } from '../utils/download';
+import { downloadChapterAsPdf, downloadFullBookAsPdf, acquireSaveFileHandle } from '../utils/download';
 
 
 interface ReaderProps {
@@ -53,6 +53,7 @@ export const Reader: React.FC<ReaderProps> = ({
   const [loadingChapter, setLoadingChapter] = useState<boolean>(true);
   const [loadingBook, setLoadingBook] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
+  const [isDownloadingPdf, setIsDownloadingPdf] = useState<boolean>(false);
 
   // Reader UI States
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(true);
@@ -1107,14 +1108,24 @@ export const Reader: React.FC<ReaderProps> = ({
           {activeChapterId !== '' && (
             <button
               className="icon-btn"
-              onClick={() => {
+              onClick={async () => {
                 if (activeChapter) {
-                  downloadChapterAsPdf(chapterContent, `${activeChapter.id}-${activeLanguage}.pdf`, activeChapter.title);
+                  const filename = `${book.id}-${activeChapter.id}-${activeLanguage}.pdf`;
+                  // Acquire the file handle immediately while user gesture is fresh
+                  const fileHandle = await acquireSaveFileHandle(filename);
+                  // fileHandle is null on Firefox/mobile — that's fine, saveAs fallback handles it
+                  setIsDownloadingPdf(true);
+                  try {
+                    await downloadChapterAsPdf(chapterContent, filename, activeChapter.title, fileHandle);
+                  } finally {
+                    setIsDownloadingPdf(false);
+                  }
                 }
               }}
               title="Download chapter as PDF"
+              disabled={isDownloadingPdf}
             >
-              <Download size={18} />
+              {isDownloadingPdf ? <div className="spinner" style={{width: 14, height: 14, borderWidth: 2, margin: 2}}></div> : <Download size={18} />}
             </button>
           )}
 
@@ -1451,11 +1462,25 @@ export const Reader: React.FC<ReaderProps> = ({
                       
                       <button
                         className="intro-btn-secondary"
-                        onClick={() => downloadFullBookAsPdf(book, activeLanguage)}
+                        onClick={async () => {
+                          const filename = `${book.id}-${activeLanguage}.pdf`;
+                          // Acquire the file handle immediately while user gesture is fresh
+                          const fileHandle = await acquireSaveFileHandle(filename);
+                          setIsDownloadingPdf(true);
+                          try {
+                            await downloadFullBookAsPdf(book, activeLanguage, fileHandle);
+                          } finally {
+                            setIsDownloadingPdf(false);
+                          }
+                        }}
                         title={`Download entire book as PDF in ${activeLanguage}`}
+                        disabled={isDownloadingPdf}
                       >
-                        <Download size={16} style={{ marginRight: '6px' }} />
-                        Download PDF
+                        {isDownloadingPdf ? (
+                          <><div className="spinner" style={{width: 14, height: 14, borderWidth: 2, marginRight: '6px', display: 'inline-block', verticalAlign: 'middle'}}></div> Generating PDF...</>
+                        ) : (
+                          <><Download size={16} style={{ marginRight: '6px' }} /> Download PDF</>
+                        )}
                       </button>
                     </div>
                   </div>
