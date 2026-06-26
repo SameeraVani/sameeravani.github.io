@@ -234,12 +234,12 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | Case | Singular | Dual | Plural | Meaning (Singular) | Meaning (Dual) | Meaning (Plural) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Prathamā** | एषः | एतौ | एते | This man (near) | these two men | these men |
-| **Dvitīyā** | एतम् | एतौ | एतान् | this man (obj) | these two | these all |
-| **Tṛtīyā** | एतेन | एताभ्याम् | एतैः | by this man | by these two | by these all |
+| **Dvitīyā** | एतम् / एनम् | एतौ / एनौ | एतान् / एनान् | this man (obj) | these two | these all |
+| **Tṛtīyā** | एतेन / एनेन | एताभ्याम् | एतैः | by this man | by these two | by these all |
 | **Caturthī** | एतस्मै | एताभ्याम् | एतेभ्यः | for this man | for these two | for these all |
 | **Pañcamī** | एतस्मात् | एताभ्याम् | एतेभ्यः | from this man | from these two | from these all |
-| **Ṣaṣṭhī** | एतस्य | एतयोः | एतेषाम् | of this man | of these two | their |
-| **Saptamī** | एतस्मिन् | एतयोः | एतेषु | in this man | in these two | in these all |
+| **Ṣaṣṭhī** | एतस्य | एतयोः / एनयोः | एतेषाम् | of this man | of these two | their |
+| **Saptamī** | एतस्मिन् | एतयोः / एनयोः | एतेषु | in this man | in these two | in these all |
 
 
 ### 18. दकारान्तः स्त्रीलिङ्गः एतद् शब्दः
@@ -247,25 +247,25 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | Case | Singular | Dual | Plural | Meaning (Singular) | Meaning (Dual) | Meaning (Plural) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Prathamā** | एषा | एते | एताः | This woman (near) | these two women | these women |
-| **Dvitīyā** | एताम् | एते | एताः | this woman (obj) | these two | these all |
-| **Tṛtīyā** | एतया | एताभ्याम् | एताभिः | by this woman | by these two | by these all |
+| **Dvitīyā** | एताम् / एनाम् | एते / एने | एताः / एनाः | this woman (obj) | these two | these all |
+| **Tṛtīyā** | एतया / एनया | एताभ्याम् | एताभिः | by this woman | by these two | by these all |
 | **Caturthī** | एतस्यै | एताभ्याम् | एताभ्यः | for this woman | for these two | for these all |
 | **Pañcamī** | एतस्याः | एताभ्याम् | एताभ्यः | from this woman | from these two | from these all |
-| **Ṣaṣṭhī** | एतस्याः | एतयोः | एतासाम् | of this woman | of these two | their |
-| **Saptamī** | एतस्याम् | एतयोः | एतासु | in this woman | in these two | in these all |
+| **Ṣaṣṭhī** | एतस्याः | एतयोः / एनयोः | एतासाम् | of this woman | of these two | their |
+| **Saptamī** | एतस्याम् | एतयोः / एनयोः | एतासु | in this woman | in these two | in these all |
 
 
 ### 19. दकारान्तः नपुंसकलिङ्गः एतद् शब्दः
 
 | Case | Singular | Dual | Plural | Meaning (Singular) | Meaning (Dual) | Meaning (Plural) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Prathamā** | एतद् | एते | एतानि | This thing (near) | these two things | these things |
-| **Dvitīyā** | एतद् | एते | एतानि | this thing (obj) | these two | these all |
-| **Tṛtīyā** | एतेन | एताभ्याम् | एतैः | by this thing | by these two | by these all |
+| **Prathamā** | एतत् | एते | एतानि | This thing (near) | these two things | these things |
+| **Dvitīyā** | एतत् / एनत् | एते / एने | एतानि / एनानि | this thing (obj) | these two | these all |
+| **Tṛtīyā** | एतेन / एनेन | एताभ्याम् | एतैः | by this thing | by these two | by these all |
 | **Caturthī** | एतस्मै | एताभ्याम् | एतेभ्यः | for this thing | for these two | for these all |
 | **Pañcamī** | एतस्मात् | एताभ्याम् | एतेभ्यः | from this thing | from these two | from these all |
-| **Ṣaṣṭhī** | एतस्य | एतयोः | एतेषाम् | of this thing | of these two | their |
-| **Saptamī** | एतस्मिन् | एतयोः | एतेषु | in this thing | in these two | in these all |
+| **Ṣaṣṭhī** | एतस्य | एतयोः / एनयोः | एतेषाम् | of this thing | of these two | their |
+| **Saptamī** | एतस्मिन् | एतयोः / एनयोः | एतेषु | in this thing | in these two | in these all |
 
 
 ### 20. दकारान्तः त्रिषु लिङ्गेषु समानः अस्मद् शब्दः
