@@ -9,291 +9,291 @@ language: "ta"
 
 ### 1. अकारान्तः पुल्लिङ्गः राम शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | रामः | रामौ | रामाः | ராமன் | இரு ராமன் | ராமன் |
-| **இரண்டாம் வேற்றுமை** | रामम् | रामौ | रामान् | ராமனஐ | இரு ராமர்களை | ராமர்களை |
-| **மூன்றாம் வேற்றுமை** | रामेण | रामाभ्याम् | रामैः | ராமனஆல் | இரு ராமர்களால் | ராமர்களால் |
-| **நான்காம் வேற்றுமை** | रामाय | रामाभ्याम् | रामेभ्यः | ராமனக்கு | இரு ராமர்களுக்கு | ராமர்களுக்கு |
-| **ஐந்தாம் வேற்றுமை** | रामात् | रामाभ्याम् | रामेभ्यः | ராமனஇடமிருந்து | இரு ராமர்களிடமிருந்து | ராமர்களிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | रामस्य | रामयोः | रामाणाम् | ராமனஉடைய | இரு ராமர்களுடைய | ராமர்களுடைய |
-| **ஏழாம் வேற்றுமை** | रामे | रामयोः | रामेषु | ராமனஇடம் / இல் | இரு ராமர்களிடம் | ராமர்களிடம் |
-| **விளி வேற்றுமை** | हे राम | हे रामौ | हे रामाः | ஓ ராமன் | ஓ இரு இரு ராமர்கள்களே! | ஓ ராமர்கள்களே! |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | रामः | रामौ | रामाः |ராமன் <br/> <span style="font-size:0.9em;color:gray">रामऩ्</span> |இரு ராமன் <br/> <span style="font-size:0.9em;color:gray">इरु रामऩ्</span> |ராமன் <br/> <span style="font-size:0.9em;color:gray">रामऩ्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | रामम् | रामौ | रामान् |ராமனஐ <br/> <span style="font-size:0.9em;color:gray">रामऩऐ</span> |இரு ராமர்களை <br/> <span style="font-size:0.9em;color:gray">इरु रामर्घळै</span> |ராமர்களை <br/> <span style="font-size:0.9em;color:gray">रामर्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | रामेण | रामाभ्याम् | रामैः |ராமனஆல் <br/> <span style="font-size:0.9em;color:gray">रामऩआल्</span> |இரு ராமர்களால் <br/> <span style="font-size:0.9em;color:gray">इरु रामर्घळाल्</span> |ராமர்களால் <br/> <span style="font-size:0.9em;color:gray">रामर्घळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | रामाय | रामाभ्याम् | रामेभ्यः |ராமனக்கு <br/> <span style="font-size:0.9em;color:gray">रामऩघ्घु</span> |இரு ராமர்களுக்கு <br/> <span style="font-size:0.9em;color:gray">इरु रामर्घळुघ्घु</span> |ராமர்களுக்கு <br/> <span style="font-size:0.9em;color:gray">रामर्घळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | रामात् | रामाभ्याम् | रामेभ्यः |ராமனஇடமிருந்து <br/> <span style="font-size:0.9em;color:gray">रामऩइढमिरुन्धु</span> |இரு ராமர்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इरु रामर्घळिढमिरुन्धु</span> |ராமர்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">रामर्घळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | रामस्य | रामयोः | रामाणाम् |ராமனஉடைய <br/> <span style="font-size:0.9em;color:gray">रामऩउढैय</span> |இரு ராமர்களுடைய <br/> <span style="font-size:0.9em;color:gray">इरु रामर्घळुढैय</span> |ராமர்களுடைய <br/> <span style="font-size:0.9em;color:gray">रामर्घळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | रामे | रामयोः | रामेषु |ராமனஇடம் / இல் <br/> <span style="font-size:0.9em;color:gray">रामऩइढम् / इल्</span> |இரு ராமர்களிடம் <br/> <span style="font-size:0.9em;color:gray">इरु रामर्घळिढम्</span> |ராமர்களிடம் <br/> <span style="font-size:0.9em;color:gray">रामर्घळिढम्</span> |
+|**விளி வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**विळि वेऱ्ऱुमै**</span> | हे राम | हे रामौ | हे रामाः |ஓ ராமன் <br/> <span style="font-size:0.9em;color:gray">ओ रामऩ्</span> |ஓ இரு இரு ராமர்கள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ इरु इरु रामर्घळ्घळे!</span> |ஓ ராமர்கள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ रामर्घळ्घळे!</span> |
 
 **இதேபோல்** \- कृष्ण (கிருஷ்ணன்), बाल (சிறுவன்), वृक्ष (மரம்), सूर्य (சூரியன்), चन्द्र (சந்திரன்), देव (தேவன்), नृप (அரசன்), छात्र (மாணவன்), जनक (தந்தை), पुत्र (மகன்), गज (யானை), अश्व (குதிரை), हस्त (கை), पाद (கால்), विद्यालय (பள்ளி), देवालय (கோவில்), ग्राम (கிராமம்) ।
 
 ### 2. इकारान्तः पुल्लिङ्गः हरि शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | हरिः | हरी | हरयः | ஹரி | இரு ஹரி | ஹரி |
-| **இரண்டாம் வேற்றுமை** | हरिम | हरी | हरीन् | ஹரிஐ | இரு ஹரிகளை | ஹரிகளை |
-| **மூன்றாம் வேற்றுமை** | हरिणा | हरिभ्याम् | हरिभिः | ஹரிஆல் | இரு ஹரிகளால் | ஹரிகளால் |
-| **நான்காம் வேற்றுமை** | हरये | हरिभ्याम् | हरिभ्यः | ஹரிக்கு | இரு ஹரிகளுக்கு | ஹரிகளுக்கு |
-| **ஐந்தாம் வேற்றுமை** | हरेः | हरिभ्याम् | हरिभ्यः | ஹரிஇடமிருந்து | இரு ஹரிகளிடமிருந்து | ஹரிகளிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | हरेः | हर्योः | हरीणाम् | ஹரிஉடைய | இரு ஹரிகளுடைய | ஹரிகளுடைய |
-| **ஏழாம் வேற்றுமை** | हरौ | हर्योः | हरिषु | ஹரிஇடம் / இல் | இரு ஹரிகளிடம் | ஹரிகளிடம் |
-| **விளி வேற்றுமை** | हे हरे | हे हरी | हे हरयः | ஓ ஹரி | ஓ இரு இரு ஹரிகள்களே! | ஓ ஹரிகள்களே! |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | हरिः | हरी | हरयः |ஹரி <br/> <span style="font-size:0.9em;color:gray">हरि</span> |இரு ஹரி <br/> <span style="font-size:0.9em;color:gray">इरु हरि</span> |ஹரி <br/> <span style="font-size:0.9em;color:gray">हरि</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | हरिम | हरी | हरीन् |ஹரிஐ <br/> <span style="font-size:0.9em;color:gray">हरिऐ</span> |இரு ஹரிகளை <br/> <span style="font-size:0.9em;color:gray">इरु हरिघळै</span> |ஹரிகளை <br/> <span style="font-size:0.9em;color:gray">हरिघळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | हरिणा | हरिभ्याम् | हरिभिः |ஹரிஆல் <br/> <span style="font-size:0.9em;color:gray">हरिआल्</span> |இரு ஹரிகளால் <br/> <span style="font-size:0.9em;color:gray">इरु हरिघळाल्</span> |ஹரிகளால் <br/> <span style="font-size:0.9em;color:gray">हरिघळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | हरये | हरिभ्याम् | हरिभ्यः |ஹரிக்கு <br/> <span style="font-size:0.9em;color:gray">हरिघ्घु</span> |இரு ஹரிகளுக்கு <br/> <span style="font-size:0.9em;color:gray">इरु हरिघळुघ्घु</span> |ஹரிகளுக்கு <br/> <span style="font-size:0.9em;color:gray">हरिघळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | हरेः | हरिभ्याम् | हरिभ्यः |ஹரிஇடமிருந்து <br/> <span style="font-size:0.9em;color:gray">हरिइढमिरुन्धु</span> |இரு ஹரிகளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इरु हरिघळिढमिरुन्धु</span> |ஹரிகளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">हरिघळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | हरेः | हर्योः | हरीणाम् |ஹரிஉடைய <br/> <span style="font-size:0.9em;color:gray">हरिउढैय</span> |இரு ஹரிகளுடைய <br/> <span style="font-size:0.9em;color:gray">इरु हरिघळुढैय</span> |ஹரிகளுடைய <br/> <span style="font-size:0.9em;color:gray">हरिघळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | हरौ | हर्योः | हरिषु |ஹரிஇடம் / இல் <br/> <span style="font-size:0.9em;color:gray">हरिइढम् / इल्</span> |இரு ஹரிகளிடம் <br/> <span style="font-size:0.9em;color:gray">इरु हरिघळिढम्</span> |ஹரிகளிடம் <br/> <span style="font-size:0.9em;color:gray">हरिघळिढम्</span> |
+|**விளி வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**विळि वेऱ्ऱुमै**</span> | हे हरे | हे हरी | हे हरयः |ஓ ஹரி <br/> <span style="font-size:0.9em;color:gray">ओ हरि</span> |ஓ இரு இரு ஹரிகள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ इरु इरु हरिघळ्घळे!</span> |ஓ ஹரிகள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ हरिघळ्घळे!</span> |
 
 **இதேபோல்** \- ऋषि (ரிஷி), कवि (கவிஞர்), रवि (சூரியன்), मुनि (முனிவர்), गिरि (மலை), यति (துறவி), निधि (நிதி/செல்வம்), विधि (பிரம்மன்/விதி), कपि (குரங்கு), अग्नि (நெருப்பு) ।
 
 ### 3. उकारान्तः पुल्लिङ्गः गुरु शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | गुरुः | गुरू | गुरवः | குரு | இரு குரு | குரு |
-| **இரண்டாம் வேற்றுமை** | गुरुम् | गुरू | गुरून् | குருஐ | இரு குருக்களை | குருக்களை |
-| **மூன்றாம் வேற்றுமை** | गुरुणा | गुरुभ्याम् | गुरुभिः | குருஆல் | இரு குருக்களால் | குருக்களால் |
-| **நான்காம் வேற்றுமை** | गुरवे | गुरुभ्याम् | गुरुभ्यः | குருக்கு | இரு குருக்களுக்கு | குருக்களுக்கு |
-| **ஐந்தாம் வேற்றுமை** | गुरोः | गुरुभ्याम् | गुरुभ्यः | குருஇடமிருந்து | இரு குருக்களிடமிருந்து | குருக்களிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | गुरोः | गुर्वोः | गुरूणाम् | குருஉடைய | இரு குருக்களுடைய | குருக்களுடைய |
-| **ஏழாம் வேற்றுமை** | गुरौ | गुर्वोः | गुरुषु | குருஇடம் / இல் | இரு குருக்களிடம் | குருக்களிடம் |
-| **விளி வேற்றுமை** | हे गुरो | हे गुरू | हे गुरवः | ஓ குரு | ஓ இரு இரு குருக்கள்களே! | ஓ குருக்கள்களே! |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | गुरुः | गुरू | गुरवः |குரு <br/> <span style="font-size:0.9em;color:gray">घुरु</span> |இரு குரு <br/> <span style="font-size:0.9em;color:gray">इरु घुरु</span> |குரு <br/> <span style="font-size:0.9em;color:gray">घुरु</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | गुरुम् | गुरू | गुरून् |குருஐ <br/> <span style="font-size:0.9em;color:gray">घुरुऐ</span> |இரு குருக்களை <br/> <span style="font-size:0.9em;color:gray">इरु घुरुघ्घळै</span> |குருக்களை <br/> <span style="font-size:0.9em;color:gray">घुरुघ्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | गुरुणा | गुरुभ्याम् | गुरुभिः |குருஆல் <br/> <span style="font-size:0.9em;color:gray">घुरुआल्</span> |இரு குருக்களால் <br/> <span style="font-size:0.9em;color:gray">इरु घुरुघ्घळाल्</span> |குருக்களால் <br/> <span style="font-size:0.9em;color:gray">घुरुघ्घळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | गुरवे | गुरुभ्याम् | गुरुभ्यः |குருக்கு <br/> <span style="font-size:0.9em;color:gray">घुरुघ्घु</span> |இரு குருக்களுக்கு <br/> <span style="font-size:0.9em;color:gray">इरु घुरुघ्घळुघ्घु</span> |குருக்களுக்கு <br/> <span style="font-size:0.9em;color:gray">घुरुघ्घळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | गुरोः | गुरुभ्याम् | गुरुभ्यः |குருஇடமிருந்து <br/> <span style="font-size:0.9em;color:gray">घुरुइढमिरुन्धु</span> |இரு குருக்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इरु घुरुघ्घळिढमिरुन्धु</span> |குருக்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">घुरुघ्घळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | गुरोः | गुर्वोः | गुरूणाम् |குருஉடைய <br/> <span style="font-size:0.9em;color:gray">घुरुउढैय</span> |இரு குருக்களுடைய <br/> <span style="font-size:0.9em;color:gray">इरु घुरुघ्घळुढैय</span> |குருக்களுடைய <br/> <span style="font-size:0.9em;color:gray">घुरुघ्घळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | गुरौ | गुर्वोः | गुरुषु |குருஇடம் / இல் <br/> <span style="font-size:0.9em;color:gray">घुरुइढम् / इल्</span> |இரு குருக்களிடம் <br/> <span style="font-size:0.9em;color:gray">इरु घुरुघ्घळिढम्</span> |குருக்களிடம் <br/> <span style="font-size:0.9em;color:gray">घुरुघ्घळिढम्</span> |
+|**விளி வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**विळि वेऱ्ऱुमै**</span> | हे गुरो | हे गुरू | हे गुरवः |ஓ குரு <br/> <span style="font-size:0.9em;color:gray">ओ घुरु</span> |ஓ இரு இரு குருக்கள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ इरु इरु घुरुघ्घळ्घळे!</span> |ஓ குருக்கள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ घुरुघ्घळ्घळे!</span> |
 
 **एवम् \-** भानु (சூரியன்), शिशु (குழந்தை), विष्णु (விஷ்ணு), शम्भु (சிவன்), वायु (காற்று), रिपु (எதிரி), प्रभु (அதிபதி), बन्धु (உறவினர்), साधु (சாது/நல்லவர்), वेणु (புல்லாங்குழல்) ।
 
 ### 4. आकारान्तः स्त्रीलिङ्गः रमा शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | रमा | रमे | रमाः | ரமா | இரு ரமா | ரமா |
-| **இரண்டாம் வேற்றுமை** | रमाम | रमे | रमाः | ரமாஐ | இரு ரமாக்களை | ரமாக்களை |
-| **மூன்றாம் வேற்றுமை** | रमया | रमाभ्याम् | रमाभिः | ரமாஆல் | இரு ரமாக்களால் | ரமாக்களால் |
-| **முதல் வேற்றுமை** | रमा | रमे | रमाः | ரமா | இரு ரமாக்கள் | ரமாக்கள் |
-| **இரண்டாம் வேற்றுமை** | रमाम | रमे | रमाः | ரமாவை | இரு ரமாக்களை | ரமாக்களை |
-| **மூன்றாம் வேற்றுமை** | रमया | रमाभ्याम् | रमाभिः | ரமாவால் | இரு ரமாக்களால் | ரமாக்களால் |
-| **நான்காம் வேற்றுமை** | रमायै | रमाभ्याम् | रमाभ्यः | ரமாவுக்கு | இரு ரமாக்களுக்கு | ரமாக்களுக்கு |
-| **ஐந்தாம் வேற்றுமை** | रमायाः | रमाभ्याम् | रमाभ्यः | ரமாவினிடமிருந்து | இரு ரமாக்களிடமிருந்து | ரமாக்களிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | रमायाः | रमयोः | रमाणाम् | ரமாவினுடைய | இரு ரமாக்களுடைய | ரமாக்களுடைய |
-| **ஏழாம் வேற்றுமை** | रमायाम् | रमयोः | रमासु | ரமாவிடத்தில் / இல் | இரு ரமாக்களிடம் | ரமாக்களிடம் |
-| **விளி வேற்றுமை** | हे रमे | हे रमे | हे रमाः | ஓ ரமாவே | ஓ இரு ரமாக்களே! | ஓ ரமாக்களே! |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | रमा | रमे | रमाः |ரமா <br/> <span style="font-size:0.9em;color:gray">रमा</span> |இரு ரமா <br/> <span style="font-size:0.9em;color:gray">इरु रमा</span> |ரமா <br/> <span style="font-size:0.9em;color:gray">रमा</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | रमाम | रमे | रमाः |ரமாஐ <br/> <span style="font-size:0.9em;color:gray">रमाऐ</span> |இரு ரமாக்களை <br/> <span style="font-size:0.9em;color:gray">इरु रमाघ्घळै</span> |ரமாக்களை <br/> <span style="font-size:0.9em;color:gray">रमाघ्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | रमया | रमाभ्याम् | रमाभिः |ரமாஆல் <br/> <span style="font-size:0.9em;color:gray">रमाआल्</span> |இரு ரமாக்களால் <br/> <span style="font-size:0.9em;color:gray">इरु रमाघ्घळाल्</span> |ரமாக்களால் <br/> <span style="font-size:0.9em;color:gray">रमाघ्घळाल्</span> |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | रमा | रमे | रमाः |ரமா <br/> <span style="font-size:0.9em;color:gray">रमा</span> |இரு ரமாக்கள் <br/> <span style="font-size:0.9em;color:gray">इरु रमाघ्घळ्</span> |ரமாக்கள் <br/> <span style="font-size:0.9em;color:gray">रमाघ्घळ्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | रमाम | रमे | रमाः |ரமாவை <br/> <span style="font-size:0.9em;color:gray">रमावै</span> |இரு ரமாக்களை <br/> <span style="font-size:0.9em;color:gray">इरु रमाघ्घळै</span> |ரமாக்களை <br/> <span style="font-size:0.9em;color:gray">रमाघ्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | रमया | रमाभ्याम् | रमाभिः |ரமாவால் <br/> <span style="font-size:0.9em;color:gray">रमावाल्</span> |இரு ரமாக்களால் <br/> <span style="font-size:0.9em;color:gray">इरु रमाघ्घळाल्</span> |ரமாக்களால் <br/> <span style="font-size:0.9em;color:gray">रमाघ्घळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | रमायै | रमाभ्याम् | रमाभ्यः |ரமாவுக்கு <br/> <span style="font-size:0.9em;color:gray">रमावुघ्घु</span> |இரு ரமாக்களுக்கு <br/> <span style="font-size:0.9em;color:gray">इरु रमाघ्घळुघ्घु</span> |ரமாக்களுக்கு <br/> <span style="font-size:0.9em;color:gray">रमाघ्घळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | रमायाः | रमाभ्याम् | रमाभ्यः |ரமாவினிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">रमाविऩिढमिरुन्धु</span> |இரு ரமாக்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इरु रमाघ्घळिढमिरुन्धु</span> |ரமாக்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">रमाघ्घळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | रमायाः | रमयोः | रमाणाम् |ரமாவினுடைய <br/> <span style="font-size:0.9em;color:gray">रमाविऩुढैय</span> |இரு ரமாக்களுடைய <br/> <span style="font-size:0.9em;color:gray">इरु रमाघ्घळुढैय</span> |ரமாக்களுடைய <br/> <span style="font-size:0.9em;color:gray">रमाघ्घळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | रमायाम् | रमयोः | रमासु |ரமாவிடத்தில் / இல் <br/> <span style="font-size:0.9em;color:gray">रमाविढध्धिल् / इल्</span> |இரு ரமாக்களிடம் <br/> <span style="font-size:0.9em;color:gray">इरु रमाघ्घळिढम्</span> |ரமாக்களிடம் <br/> <span style="font-size:0.9em;color:gray">रमाघ्घळिढम्</span> |
+|**விளி வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**विळि वेऱ्ऱुमै**</span> | हे रमे | हे रमे | हे रमाः |ஓ ரமாவே <br/> <span style="font-size:0.9em;color:gray">ओ रमावे</span> |ஓ இரு ரமாக்களே! <br/> <span style="font-size:0.9em;color:gray">ओ इरु रमाघ्घळे!</span> |ஓ ரமாக்களே! <br/> <span style="font-size:0.9em;color:gray">ओ रमाघ्घळे!</span> |
 
 **एवम् \-** सीता (சீதை), लता (கொடி), माला (மாலை), बाला (சிறுமி), शाला (பள்ளி/கூடம்), कला (கலை), कथा (கதை), क्रीडा (விளையாட்டு), छाया (நிழல்), शिक्षा (கல்வி) ।
 
 ### 5. इकारान्तः स्त्रीलिङ्गः रुचि शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | रुचिः | रुची | रुचयः | சுவை | இரு சுவை | சுவை |
-| **இரண்டாம் வேற்றுமை** | रुचिम् | रुची | रुचीः | சுவைஐ | இரு சுவைகளை | சுவைகளை |
-| **மூன்றாம் வேற்றுமை** | रुच्या | रुचिभ्याम् | रुचिभिः | சுவைஆல் | இரு சுவைகளால் | சுவைகளால் |
-| **நான்காம் வேற்றுமை** | रुचये / रुच्यै | रुचिभ्याम् | रुचिभ्यः | சுவைக்கு | இரு சுவைகளுக்கு | சுவைகளுக்கு |
-| **ஐந்தாம் வேற்றுமை** | रुचेः / रुच्याः | रुचिभ्याम् | रुचिभ्यः | சுவைஇடமிருந்து | இரு சுவைகளிடமிருந்து | சுவைகளிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | रुचेः / रुच्याः | रुच्योः | रुचीनाम् | சுவைஉடைய | இரு சுவைகளுடைய | சுவைகளுடைய |
-| **ஏழாம் வேற்றுமை** | रुचौ / रुच्याम् | रुच्योः | रुचिषु | சுவைஇடம் / இல் | இரு சுவைகளிடம் | சுவைகளிடம் |
-| **விளி வேற்றுமை** | हे रुचे | हे रुची | हे रुचयः | ஓ சுவை | ஓ இரு இரு சுவைகள்களே! | ஓ சுவைகள்களே! |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | रुचिः | रुची | रुचयः |சுவை <br/> <span style="font-size:0.9em;color:gray">झुवै</span> |இரு சுவை <br/> <span style="font-size:0.9em;color:gray">इरु झुवै</span> |சுவை <br/> <span style="font-size:0.9em;color:gray">झुवै</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | रुचिम् | रुची | रुचीः |சுவைஐ <br/> <span style="font-size:0.9em;color:gray">झुवैऐ</span> |இரு சுவைகளை <br/> <span style="font-size:0.9em;color:gray">इरु झुवैघळै</span> |சுவைகளை <br/> <span style="font-size:0.9em;color:gray">झुवैघळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | रुच्या | रुचिभ्याम् | रुचिभिः |சுவைஆல் <br/> <span style="font-size:0.9em;color:gray">झुवैआल्</span> |இரு சுவைகளால் <br/> <span style="font-size:0.9em;color:gray">इरु झुवैघळाल्</span> |சுவைகளால் <br/> <span style="font-size:0.9em;color:gray">झुवैघळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | रुचये / रुच्यै | रुचिभ्याम् | रुचिभ्यः |சுவைக்கு <br/> <span style="font-size:0.9em;color:gray">झुवैघ्घु</span> |இரு சுவைகளுக்கு <br/> <span style="font-size:0.9em;color:gray">इरु झुवैघळुघ्घु</span> |சுவைகளுக்கு <br/> <span style="font-size:0.9em;color:gray">झुवैघळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | रुचेः / रुच्याः | रुचिभ्याम् | रुचिभ्यः |சுவைஇடமிருந்து <br/> <span style="font-size:0.9em;color:gray">झुवैइढमिरुन्धु</span> |இரு சுவைகளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इरु झुवैघळिढमिरुन्धु</span> |சுவைகளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">झुवैघळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | रुचेः / रुच्याः | रुच्योः | रुचीनाम् |சுவைஉடைய <br/> <span style="font-size:0.9em;color:gray">झुवैउढैय</span> |இரு சுவைகளுடைய <br/> <span style="font-size:0.9em;color:gray">इरु झुवैघळुढैय</span> |சுவைகளுடைய <br/> <span style="font-size:0.9em;color:gray">झुवैघळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | रुचौ / रुच्याम् | रुच्योः | रुचिषु |சுவைஇடம் / இல் <br/> <span style="font-size:0.9em;color:gray">झुवैइढम् / इल्</span> |இரு சுவைகளிடம் <br/> <span style="font-size:0.9em;color:gray">इरु झुवैघळिढम्</span> |சுவைகளிடம் <br/> <span style="font-size:0.9em;color:gray">झुवैघळिढम्</span> |
+|**விளி வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**विळि वेऱ्ऱुमै**</span> | हे रुचे | हे रुची | हे रुचयः |ஓ சுவை <br/> <span style="font-size:0.9em;color:gray">ओ झुवै</span> |ஓ இரு இரு சுவைகள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ इरु इरु झुवैघळ्घळे!</span> |ஓ சுவைகள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ झुवैघळ्घळे!</span> |
 
 **இதேபோல்** \- मति (புத்தி), कीर्ति (புகழ்), भूमि (பூமி), शुद्धि (சுத்தம்), शक्ति (சக்தி), भक्ति (பக்தி), शान्ति (அமைதி), बुद्धि (அறிவு), नीति (நீதி), प्रीति (அன்பு) ।
 
 ### 6. ईकारान्तः स्त्रीलिङ्गः नदी शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | नदी | नद्यौ | नद्यः | ஆறு | இரு ஆறு | ஆறு |
-| **இரண்டாம் வேற்றுமை** | नदीम् | नद्यौ | नदीः | ஆறுஐ | இரு ஆறுகளை | ஆறுகளை |
-| **மூன்றாம் வேற்றுமை** | नद्या | नदीभ्याम् | नदीभिः | ஆறுஆல் | இரு ஆறுகளால் | ஆறுகளால் |
-| **நான்காம் வேற்றுமை** | नद्यै | नदीभ्याम् | नदीभ्यः | ஆறுக்கு | இரு ஆறுகளுக்கு | ஆறுகளுக்கு |
-| **ஐந்தாம் வேற்றுமை** | नद्याः | नदीभ्याम् | नदीभ्यः | ஆறுஇடமிருந்து | இரு ஆறுகளிடமிருந்து | ஆறுகளிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | नद्याः | नद्योः | नदीणाम् | ஆறுஉடைய | இரு ஆறுகளுடைய | ஆறுகளுடைய |
-| **ஏழாம் வேற்றுமை** | नद्याम् | नद्योः | नदीषु | ஆறுஇடம் / இல் | இரு ஆறுகளிடம் | ஆறுகளிடம் |
-| **விளி வேற்றுமை** | हे नदि | हे नद्यौ | हे नद्यः | ஓ ஆறு | ஓ இரு இரு ஆறுகள்களே! | ஓ ஆறுகள்களே! |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | नदी | नद्यौ | नद्यः |ஆறு <br/> <span style="font-size:0.9em;color:gray">आऱु</span> |இரு ஆறு <br/> <span style="font-size:0.9em;color:gray">इरु आऱु</span> |ஆறு <br/> <span style="font-size:0.9em;color:gray">आऱु</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | नदीम् | नद्यौ | नदीः |ஆறுஐ <br/> <span style="font-size:0.9em;color:gray">आऱुऐ</span> |இரு ஆறுகளை <br/> <span style="font-size:0.9em;color:gray">इरु आऱुघळै</span> |ஆறுகளை <br/> <span style="font-size:0.9em;color:gray">आऱुघळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | नद्या | नदीभ्याम् | नदीभिः |ஆறுஆல் <br/> <span style="font-size:0.9em;color:gray">आऱुआल्</span> |இரு ஆறுகளால் <br/> <span style="font-size:0.9em;color:gray">इरु आऱुघळाल्</span> |ஆறுகளால் <br/> <span style="font-size:0.9em;color:gray">आऱुघळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | नद्यै | नदीभ्याम् | नदीभ्यः |ஆறுக்கு <br/> <span style="font-size:0.9em;color:gray">आऱुघ्घु</span> |இரு ஆறுகளுக்கு <br/> <span style="font-size:0.9em;color:gray">इरु आऱुघळुघ्घु</span> |ஆறுகளுக்கு <br/> <span style="font-size:0.9em;color:gray">आऱुघळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | नद्याः | नदीभ्याम् | नदीभ्यः |ஆறுஇடமிருந்து <br/> <span style="font-size:0.9em;color:gray">आऱुइढमिरुन्धु</span> |இரு ஆறுகளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इरु आऱुघळिढमिरुन्धु</span> |ஆறுகளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">आऱुघळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | नद्याः | नद्योः | नदीणाम् |ஆறுஉடைய <br/> <span style="font-size:0.9em;color:gray">आऱुउढैय</span> |இரு ஆறுகளுடைய <br/> <span style="font-size:0.9em;color:gray">इरु आऱुघळुढैय</span> |ஆறுகளுடைய <br/> <span style="font-size:0.9em;color:gray">आऱुघळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | नद्याम् | नद्योः | नदीषु |ஆறுஇடம் / இல் <br/> <span style="font-size:0.9em;color:gray">आऱुइढम् / इल्</span> |இரு ஆறுகளிடம் <br/> <span style="font-size:0.9em;color:gray">इरु आऱुघळिढम्</span> |ஆறுகளிடம் <br/> <span style="font-size:0.9em;color:gray">आऱुघळिढम्</span> |
+|**விளி வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**विळि वेऱ्ऱुमै**</span> | हे नदि | हे नद्यौ | हे नद्यः |ஓ ஆறு <br/> <span style="font-size:0.9em;color:gray">ओ आऱु</span> |ஓ இரு இரு ஆறுகள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ इरु इरु आऱुघळ्घळे!</span> |ஓ ஆறுகள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ आऱुघळ्घळे!</span> |
 
 **एवम् \-** गौरी (கௌரி), पार्वती (பார்வதி), जननी (தாய்), भगिनी (சகோதரி), लक्ष्मी (லக்ஷ்மி), सरस्वती (சரஸ்வதி), नगरी (நகரம்), वाणी (பேச்சு), दासी (வேலைக்காரி), द्रोणी (படகின் வடிவிலான பாத்திரம்/ஓடம்) ।
 
 ### 7. अकारान्तः नपुंसकलिङ्गः ज्ञान शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | ज्ञानम् | ज्ञाने | ज्ञानानि | அறிவு | இரு அறிவு | அறிவு |
-| **இரண்டாம் வேற்றுமை** | ज्ञानम् | ज्ञाने | ज्ञानानि | அறிவுஐ | இரு அறிவுகளை | அறிவுகளை |
-| **மூன்றாம் வேற்றுமை** | ज्ञानेन | ज्ञानाभ्याम् | ज्ञानैः | அறிவுஆல் | இரு அறிவுகளால் | அறிவுகளால் |
-| **நான்காம் வேற்றுமை** | ज्ञानाय | ज्ञानाभ्याम् | ज्ञानैभ्यः | அறிவுக்கு | இரு அறிவுகளுக்கு | அறிவுகளுக்கு |
-| **ஐந்தாம் வேற்றுமை** | ज्ञानात् | ज्ञानाभ्याम् | ज्ञानैभ्यः | அறிவுஇடமிருந்து | இரு அறிவுகளிடமிருந்து | அறிவுகளிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | ज्ञानस्य | ज्ञानयोः | ज्ञानानाम् | அறிவுஉடைய | இரு அறிவுகளுடைய | அறிவுகளுடைய |
-| **ஏழாம் வேற்றுமை** | ज्ञाने | ज्ञानयोः | ज्ञानेषु | அறிவுஇடம் / இல் | இரு அறிவுகளிடம் | அறிவுகளிடம் |
-| **விளி வேற்றுமை** | हे ज्ञान | हे ज्ञाने | हे ज्ञानानि | ஓ அறிவு | ஓ இரு இரு அறிவுகள்களே! | ஓ அறிவுகள்களே! |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | ज्ञानम् | ज्ञाने | ज्ञानानि |அறிவு <br/> <span style="font-size:0.9em;color:gray">अऱिवु</span> |இரு அறிவு <br/> <span style="font-size:0.9em;color:gray">इरु अऱिवु</span> |அறிவு <br/> <span style="font-size:0.9em;color:gray">अऱिवु</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | ज्ञानम् | ज्ञाने | ज्ञानानि |அறிவுஐ <br/> <span style="font-size:0.9em;color:gray">अऱिवुऐ</span> |இரு அறிவுகளை <br/> <span style="font-size:0.9em;color:gray">इरु अऱिवुघळै</span> |அறிவுகளை <br/> <span style="font-size:0.9em;color:gray">अऱिवुघळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | ज्ञानेन | ज्ञानाभ्याम् | ज्ञानैः |அறிவுஆல் <br/> <span style="font-size:0.9em;color:gray">अऱिवुआल्</span> |இரு அறிவுகளால் <br/> <span style="font-size:0.9em;color:gray">इरु अऱिवुघळाल्</span> |அறிவுகளால் <br/> <span style="font-size:0.9em;color:gray">अऱिवुघळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | ज्ञानाय | ज्ञानाभ्याम् | ज्ञानैभ्यः |அறிவுக்கு <br/> <span style="font-size:0.9em;color:gray">अऱिवुघ्घु</span> |இரு அறிவுகளுக்கு <br/> <span style="font-size:0.9em;color:gray">इरु अऱिवुघळुघ्घु</span> |அறிவுகளுக்கு <br/> <span style="font-size:0.9em;color:gray">अऱिवुघळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | ज्ञानात् | ज्ञानाभ्याम् | ज्ञानैभ्यः |அறிவுஇடமிருந்து <br/> <span style="font-size:0.9em;color:gray">अऱिवुइढमिरुन्धु</span> |இரு அறிவுகளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इरु अऱिवुघळिढमिरुन्धु</span> |அறிவுகளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">अऱिवुघळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | ज्ञानस्य | ज्ञानयोः | ज्ञानानाम् |அறிவுஉடைய <br/> <span style="font-size:0.9em;color:gray">अऱिवुउढैय</span> |இரு அறிவுகளுடைய <br/> <span style="font-size:0.9em;color:gray">इरु अऱिवुघळुढैय</span> |அறிவுகளுடைய <br/> <span style="font-size:0.9em;color:gray">अऱिवुघळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | ज्ञाने | ज्ञानयोः | ज्ञानेषु |அறிவுஇடம் / இல் <br/> <span style="font-size:0.9em;color:gray">अऱिवुइढम् / इल्</span> |இரு அறிவுகளிடம் <br/> <span style="font-size:0.9em;color:gray">इरु अऱिवुघळिढम्</span> |அறிவுகளிடம் <br/> <span style="font-size:0.9em;color:gray">अऱिवुघळिढम्</span> |
+|**விளி வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**विळि वेऱ्ऱुमै**</span> | हे ज्ञान | हे ज्ञाने | हे ज्ञानानि |ஓ அறிவு <br/> <span style="font-size:0.9em;color:gray">ओ अऱिवु</span> |ஓ இரு இரு அறிவுகள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ इरु इरु अऱिवुघळ्घळे!</span> |ஓ அறிவுகள்களே! <br/> <span style="font-size:0.9em;color:gray">ओ अऱिवुघळ्घळे!</span> |
 
 **இதேபோல்** फल (பழம்), वन (காடு), जल (நீர்), पुष्प (மலர்), पुस्तक (புத்தகம்), पत्र (இலை/கடிதம்), नेत्र (கண்), गृह (வீடு), मुख (முகம்/வாய்), कमल (தாமரை) ।
 
 ### 8. दकारान्तः पुल्लिङ्गः तद् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | सः | तौ | ते | அவன் | அவர்கள் இருவரும் | அவர்கள் |
-| **இரண்டாம் வேற்றுமை** | तम् | तौ | तान् | அவனை | அவர்கள் இருவரை | அவர்களை |
-| **மூன்றாம் வேற்றுமை** | तेन | ताभ्याम् | तैः | அவனால் / அவனுடன் | அவர்கள் இருவரால் | அவர்களால் |
-| **நான்காம் வேற்றுமை** | तस्मै | ताभ्याम् | तेभ्यः | அவனுக்கு / அவனுக்காக | அவர்கள் இருவருக்கு | அவர்களுக்கு |
-| **ஐந்தாம் வேற்றுமை** | तस्मात् | ताभ्याम् | तेभ्यः | அவனிடமிருந்து | அவர்கள் இருவரிடமிருந்து | அவர்களிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | तस्य | तयोः | तेषाम् | அவனுடைய | அவர்கள் இருவருடைய | அவர்களுடைய |
-| **ஏழாம் வேற்றுமை** | तस्मिन् | तयोः | तेषु | அவனிடம் | அவர்கள் இருவரிடம் | அவர்களிடம் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | सः | तौ | ते |அவன் <br/> <span style="font-size:0.9em;color:gray">अवऩ्</span> |அவர்கள் இருவரும் <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरुम्</span> |அவர்கள் <br/> <span style="font-size:0.9em;color:gray">अवर्घळ्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | तम् | तौ | तान् |அவனை <br/> <span style="font-size:0.9em;color:gray">अवऩै</span> |அவர்கள் இருவரை <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरै</span> |அவர்களை <br/> <span style="font-size:0.9em;color:gray">अवर्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | तेन | ताभ्याम् | तैः |அவனால் / அவனுடன் <br/> <span style="font-size:0.9em;color:gray">अवऩाल् / अवऩुढऩ्</span> |அவர்கள் இருவரால் <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवराल्</span> |அவர்களால் <br/> <span style="font-size:0.9em;color:gray">अवर्घळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | तस्मै | ताभ्याम् | तेभ्यः |அவனுக்கு / அவனுக்காக <br/> <span style="font-size:0.9em;color:gray">अवऩुघ्घु / अवऩुघ्घाघ</span> |அவர்கள் இருவருக்கு <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरुघ्घु</span> |அவர்களுக்கு <br/> <span style="font-size:0.9em;color:gray">अवर्घळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | तस्मात् | ताभ्याम् | तेभ्यः |அவனிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">अवऩिढमिरुन्धु</span> |அவர்கள் இருவரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरिढमिरुन्धु</span> |அவர்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">अवर्घळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | तस्य | तयोः | तेषाम् |அவனுடைய <br/> <span style="font-size:0.9em;color:gray">अवऩुढैय</span> |அவர்கள் இருவருடைய <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरुढैय</span> |அவர்களுடைய <br/> <span style="font-size:0.9em;color:gray">अवर्घळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | तस्मिन् | तयोः | तेषु |அவனிடம் <br/> <span style="font-size:0.9em;color:gray">अवऩिढम्</span> |அவர்கள் இருவரிடம் <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरिढम्</span> |அவர்களிடம் <br/> <span style="font-size:0.9em;color:gray">अवर्घळिढम्</span> |
 
 
 ### 9. दकारान्तः स्त्रीलिङ्गः तद् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | सा | ते | ताः | அவள் | அவர்கள் இருவரும் | அவர்கள் |
-| **இரண்டாம் வேற்றுமை** | ताम् | ते | ताः | அவளை | அவர்கள் இருவரை | அவர்களை |
-| **மூன்றாம் வேற்றுமை** | तया | ताभ्याम् | ताभिः | அவளால் / அவளுடன் | அவர்கள் இருவரால் | அவர்களால் |
-| **நான்காம் வேற்றுமை** | तस्यै | ताभ्याम् | ताभ्यः | அவளுக்கு / அவளுக்காக | அவர்கள் இருவருக்கு | அவர்களுக்கு |
-| **ஐந்தாம் வேற்றுமை** | तस्याः | ताभ्याम् | ताभ्यः | அவளிடமிருந்து | அவர்கள் இருவரிடமிருந்து | அவர்களிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | तस्याः | तयोः | तासाम् | அவளுடைய | அவர்கள் இருவருடைய | அவர்களுடைய |
-| **ஏழாம் வேற்றுமை** | तस्याम् | तयोः | तासु | அவளிடம் | அவர்கள் இருவரிடம் | அவர்களிடம் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | सा | ते | ताः |அவள் <br/> <span style="font-size:0.9em;color:gray">अवळ्</span> |அவர்கள் இருவரும் <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरुम्</span> |அவர்கள் <br/> <span style="font-size:0.9em;color:gray">अवर्घळ्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | ताम् | ते | ताः |அவளை <br/> <span style="font-size:0.9em;color:gray">अवळै</span> |அவர்கள் இருவரை <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरै</span> |அவர்களை <br/> <span style="font-size:0.9em;color:gray">अवर्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | तया | ताभ्याम् | ताभिः |அவளால் / அவளுடன் <br/> <span style="font-size:0.9em;color:gray">अवळाल् / अवळुढऩ्</span> |அவர்கள் இருவரால் <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवराल्</span> |அவர்களால் <br/> <span style="font-size:0.9em;color:gray">अवर्घळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | तस्यै | ताभ्याम् | ताभ्यः |அவளுக்கு / அவளுக்காக <br/> <span style="font-size:0.9em;color:gray">अवळुघ्घु / अवळुघ्घाघ</span> |அவர்கள் இருவருக்கு <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरुघ्घु</span> |அவர்களுக்கு <br/> <span style="font-size:0.9em;color:gray">अवर्घळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | तस्याः | ताभ्याम् | ताभ्यः |அவளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">अवळिढमिरुन्धु</span> |அவர்கள் இருவரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरिढमिरुन्धु</span> |அவர்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">अवर्घळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | तस्याः | तयोः | तासाम् |அவளுடைய <br/> <span style="font-size:0.9em;color:gray">अवळुढैय</span> |அவர்கள் இருவருடைய <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरुढैय</span> |அவர்களுடைய <br/> <span style="font-size:0.9em;color:gray">अवर्घळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | तस्याम् | तयोः | तासु |அவளிடம் <br/> <span style="font-size:0.9em;color:gray">अवळिढम्</span> |அவர்கள் இருவரிடம் <br/> <span style="font-size:0.9em;color:gray">अवर्घळ् इरुवरिढम्</span> |அவர்களிடம் <br/> <span style="font-size:0.9em;color:gray">अवर्घळिढम्</span> |
 
 
 ### 10. दकारान्तः नपुंसकलिङ्गः तद् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | तत् | ते | तानि | அது | அவை இரண்டும் | அவை |
-| **இரண்டாம் வேற்றுமை** | तत् | ते | तानि | அதை | அவை இரண்டை | அவற்றை |
-| **மூன்றாம் வேற்றுமை** | तेन | ताभ्याम् | तैः | அதனால் / அதனுடன் | அவை இரண்டால் | அவற்றால் |
-| **நான்காம் வேற்றுமை** | तस्मै | ताभ्याम् | तेभ्यः | அதற்கு / அதற்காக | அவை இரண்டிற்கு | அவற்றிற்கு |
-| **ஐந்தாம் வேற்றுமை** | तस्मात् | ताभ्याम् | तेभ्यः | அதிலிருந்து | அவை இரண்டிலிருந்து | அவற்றிலிருந்து |
-| **ஆறாம் வேற்றுமை** | तस्य | तयोः | तेषाम् | அதனுடைய | அவை இரண்டினுடைய | அவற்றினுடைய |
-| **ஏழாம் வேற்றுமை** | तस्मिन् | तयोः | तेषु | அதில் / அதனிடம் | அவை இரண்டில் | அவற்றில் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | तत् | ते | तानि |அது <br/> <span style="font-size:0.9em;color:gray">अधु</span> |அவை இரண்டும் <br/> <span style="font-size:0.9em;color:gray">अवै इरण्ढुम्</span> |அவை <br/> <span style="font-size:0.9em;color:gray">अवै</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | तत् | ते | तानि |அதை <br/> <span style="font-size:0.9em;color:gray">अधै</span> |அவை இரண்டை <br/> <span style="font-size:0.9em;color:gray">अवै इरण्ढै</span> |அவற்றை <br/> <span style="font-size:0.9em;color:gray">अवऱ्ऱै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | तेन | ताभ्याम् | तैः |அதனால் / அதனுடன் <br/> <span style="font-size:0.9em;color:gray">अधऩाल् / अधऩुढऩ्</span> |அவை இரண்டால் <br/> <span style="font-size:0.9em;color:gray">अवै इरण्ढाल्</span> |அவற்றால் <br/> <span style="font-size:0.9em;color:gray">अवऱ्ऱाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | तस्मै | ताभ्याम् | तेभ्यः |அதற்கு / அதற்காக <br/> <span style="font-size:0.9em;color:gray">अधऱ्घु / अधऱ्घाघ</span> |அவை இரண்டிற்கு <br/> <span style="font-size:0.9em;color:gray">अवै इरण्ढिऱ्घु</span> |அவற்றிற்கு <br/> <span style="font-size:0.9em;color:gray">अवऱ्ऱिऱ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | तस्मात् | ताभ्याम् | तेभ्यः |அதிலிருந்து <br/> <span style="font-size:0.9em;color:gray">अधिलिरुन्धु</span> |அவை இரண்டிலிருந்து <br/> <span style="font-size:0.9em;color:gray">अवै इरण्ढिलिरुन्धु</span> |அவற்றிலிருந்து <br/> <span style="font-size:0.9em;color:gray">अवऱ्ऱिलिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | तस्य | तयोः | तेषाम् |அதனுடைய <br/> <span style="font-size:0.9em;color:gray">अधऩुढैय</span> |அவை இரண்டினுடைய <br/> <span style="font-size:0.9em;color:gray">अवै इरण्ढिऩुढैय</span> |அவற்றினுடைய <br/> <span style="font-size:0.9em;color:gray">अवऱ्ऱिऩुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | तस्मिन् | तयोः | तेषु |அதில் / அதனிடம் <br/> <span style="font-size:0.9em;color:gray">अधिल् / अधऩिढम्</span> |அவை இரண்டில் <br/> <span style="font-size:0.9em;color:gray">अवै इरण्ढिल्</span> |அவற்றில் <br/> <span style="font-size:0.9em;color:gray">अवऱ्ऱिल्</span> |
 
 
 ### 11. मकारान्तः पुल्लिङ्गः किम् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | कः | कौ | के | யார் / எவன் | யார் இருவர் | யார் யாவர் |
-| **இரண்டாம் வேற்றுமை** | कम् | कौ | कान् | எவனை / யாரை | யார் இருவரை | யாரை |
-| **மூன்றாம் வேற்றுமை** | केन | काभ्याम् | कैः | எவனால் | யார் இருவரால் | யாரால் |
-| **நான்காம் வேற்றுமை** | कस्मै | काभ्याम् | केभ्यः | எவனுக்கு | யார் இருவருக்கு | யாரோ |
-| **ஐந்தாம் வேற்றுமை** | कस्मात् | काभ्याम् | केभ्यः | எவனிடமிருந்து | யார் இருவரிடமிருந்து | யாரிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | कस्य | कयोः | केषाम् | எவனுடைய | யார் இருவருடைய | யாருடைய |
-| **ஏழாம் வேற்றுமை** | कस्मिन् | कयोः | केषु | எவனிடம் | யார் இருவரிடம் | யாரிடம் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | कः | कौ | के |யார் / எவன் <br/> <span style="font-size:0.9em;color:gray">यार् / ऎवऩ्</span> |யார் இருவர் <br/> <span style="font-size:0.9em;color:gray">यार् इरुवर्</span> |யார் யாவர் <br/> <span style="font-size:0.9em;color:gray">यार् यावर्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | कम् | कौ | कान् |எவனை / யாரை <br/> <span style="font-size:0.9em;color:gray">ऎवऩै / यारै</span> |யார் இருவரை <br/> <span style="font-size:0.9em;color:gray">यार् इरुवरै</span> |யாரை <br/> <span style="font-size:0.9em;color:gray">यारै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | केन | काभ्याम् | कैः |எவனால் <br/> <span style="font-size:0.9em;color:gray">ऎवऩाल्</span> |யார் இருவரால் <br/> <span style="font-size:0.9em;color:gray">यार् इरुवराल्</span> |யாரால் <br/> <span style="font-size:0.9em;color:gray">याराल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | कस्मै | काभ्याम् | केभ्यः |எவனுக்கு <br/> <span style="font-size:0.9em;color:gray">ऎवऩुघ्घु</span> |யார் இருவருக்கு <br/> <span style="font-size:0.9em;color:gray">यार् इरुवरुघ्घु</span> |யாரோ <br/> <span style="font-size:0.9em;color:gray">यारो</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | कस्मात् | काभ्याम् | केभ्यः |எவனிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">ऎवऩिढमिरुन्धु</span> |யார் இருவரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">यार् इरुवरिढमिरुन्धु</span> |யாரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">यारिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | कस्य | कयोः | केषाम् |எவனுடைய <br/> <span style="font-size:0.9em;color:gray">ऎवऩुढैय</span> |யார் இருவருடைய <br/> <span style="font-size:0.9em;color:gray">यार् इरुवरुढैय</span> |யாருடைய <br/> <span style="font-size:0.9em;color:gray">यारुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | कस्मिन् | कयोः | केषु |எவனிடம் <br/> <span style="font-size:0.9em;color:gray">ऎवऩिढम्</span> |யார் இருவரிடம் <br/> <span style="font-size:0.9em;color:gray">यार् इरुवरिढम्</span> |யாரிடம் <br/> <span style="font-size:0.9em;color:gray">यारिढम्</span> |
 
 
 ### 12. मकारान्तः स्त्रीलिङ्गः किम् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | का | के | काः | யார் / எவள் | யார் இருவர் | யார் யாவர் |
-| **இரண்டாம் வேற்றுமை** | काम् | के | काः | எவளை / யாரை | யார் இருவரை | யாரை |
-| **மூன்றாம் வேற்றுமை** | कया | काभ्याम् | काभिः | எவளால் | யார் இருவரால் | யாரால் |
-| **நான்காம் வேற்றுமை** | कस्यै | काभ्याम् | काभ्यः | எவளுக்கு | யார் இருவருக்கு | யாரோ |
-| **ஐந்தாம் வேற்றுமை** | कस्याः | काभ्याम् | काभ्यः | எவளிடமிருந்து | யார் இருவரிடமிருந்து | யாரிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | कस्याः | कयोः | कासाम् | எவளுடைய | யார் இருவருடைய | யாருடைய |
-| **ஏழாம் வேற்றுமை** | कस्याम् | कयोः | कासु | எவளிடம் | யார் இருவரிடம் | யாரிடம் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | का | के | काः |யார் / எவள் <br/> <span style="font-size:0.9em;color:gray">यार् / ऎवळ्</span> |யார் இருவர் <br/> <span style="font-size:0.9em;color:gray">यार् इरुवर्</span> |யார் யாவர் <br/> <span style="font-size:0.9em;color:gray">यार् यावर्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | काम् | के | काः |எவளை / யாரை <br/> <span style="font-size:0.9em;color:gray">ऎवळै / यारै</span> |யார் இருவரை <br/> <span style="font-size:0.9em;color:gray">यार् इरुवरै</span> |யாரை <br/> <span style="font-size:0.9em;color:gray">यारै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | कया | काभ्याम् | काभिः |எவளால் <br/> <span style="font-size:0.9em;color:gray">ऎवळाल्</span> |யார் இருவரால் <br/> <span style="font-size:0.9em;color:gray">यार् इरुवराल्</span> |யாரால் <br/> <span style="font-size:0.9em;color:gray">याराल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | कस्यै | काभ्याम् | काभ्यः |எவளுக்கு <br/> <span style="font-size:0.9em;color:gray">ऎवळुघ्घु</span> |யார் இருவருக்கு <br/> <span style="font-size:0.9em;color:gray">यार् इरुवरुघ्घु</span> |யாரோ <br/> <span style="font-size:0.9em;color:gray">यारो</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | कस्याः | काभ्याम् | काभ्यः |எவளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">ऎवळिढमिरुन्धु</span> |யார் இருவரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">यार् इरुवरिढमिरुन्धु</span> |யாரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">यारिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | कस्याः | कयोः | कासाम् |எவளுடைய <br/> <span style="font-size:0.9em;color:gray">ऎवळुढैय</span> |யார் இருவருடைய <br/> <span style="font-size:0.9em;color:gray">यार् इरुवरुढैय</span> |யாருடைய <br/> <span style="font-size:0.9em;color:gray">यारुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | कस्याम् | कयोः | कासु |எவளிடம் <br/> <span style="font-size:0.9em;color:gray">ऎवळिढम्</span> |யார் இருவரிடம் <br/> <span style="font-size:0.9em;color:gray">यार् इरुवरिढम्</span> |யாரிடம் <br/> <span style="font-size:0.9em;color:gray">यारिढम्</span> |
 
 
 ### 13. मकारान्तः नपुंसकलिङ्गः किम् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | किम् | के | कानि | எது / என்ன | எவை இரண்டும் | எவை |
-| **இரண்டாம் வேற்றுமை** | किम् | के | कानि | எதை | எவை இரண்டை | அவற்றை |
-| **மூன்றாம் வேற்றுமை** | केन | काभ्याम् | कैः | எதனால் | எவை இரண்டால் | எவற்றால் |
-| **நான்காம் வேற்றுமை** | कस्मै | काभ्याम् | केभ्यः | எதற்கு | எவை இரண்டிற்கு | எவற்றிற்கு |
-| **ஐந்தாம் வேற்றுமை** | कस्मात् | काभ्याम् | केभ्यः | எதிலிருந்து | எவை இரண்டிலிருந்து | எவற்றிலிருந்து |
-| **ஆறாம் வேற்றுமை** | कस्य | कयोः | केषाम् | எதனுடைய | எவை இரண்டினுடைய | எவற்றினுடைய |
-| **ஏழாம் வேற்றுமை** | कस्मिन् | कयोः | केषु | எதில் | எவை இரண்டில் | எவற்றில் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | किम् | के | कानि |எது / என்ன <br/> <span style="font-size:0.9em;color:gray">ऎधु / ऎऩ्ऩ</span> |எவை இரண்டும் <br/> <span style="font-size:0.9em;color:gray">ऎवै इरण्ढुम्</span> |எவை <br/> <span style="font-size:0.9em;color:gray">ऎवै</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | किम् | के | कानि |எதை <br/> <span style="font-size:0.9em;color:gray">ऎधै</span> |எவை இரண்டை <br/> <span style="font-size:0.9em;color:gray">ऎवै इरण्ढै</span> |அவற்றை <br/> <span style="font-size:0.9em;color:gray">अवऱ्ऱै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | केन | काभ्याम् | कैः |எதனால் <br/> <span style="font-size:0.9em;color:gray">ऎधऩाल्</span> |எவை இரண்டால் <br/> <span style="font-size:0.9em;color:gray">ऎवै इरण्ढाल्</span> |எவற்றால் <br/> <span style="font-size:0.9em;color:gray">ऎवऱ्ऱाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | कस्मै | काभ्याम् | केभ्यः |எதற்கு <br/> <span style="font-size:0.9em;color:gray">ऎधऱ्घु</span> |எவை இரண்டிற்கு <br/> <span style="font-size:0.9em;color:gray">ऎवै इरण्ढिऱ्घु</span> |எவற்றிற்கு <br/> <span style="font-size:0.9em;color:gray">ऎवऱ्ऱिऱ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | कस्मात् | काभ्याम् | केभ्यः |எதிலிருந்து <br/> <span style="font-size:0.9em;color:gray">ऎधिलिरुन्धु</span> |எவை இரண்டிலிருந்து <br/> <span style="font-size:0.9em;color:gray">ऎवै इरण्ढिलिरुन्धु</span> |எவற்றிலிருந்து <br/> <span style="font-size:0.9em;color:gray">ऎवऱ्ऱिलिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | कस्य | कयोः | केषाम् |எதனுடைய <br/> <span style="font-size:0.9em;color:gray">ऎधऩुढैय</span> |எவை இரண்டினுடைய <br/> <span style="font-size:0.9em;color:gray">ऎवै इरण्ढिऩुढैय</span> |எவற்றினுடைய <br/> <span style="font-size:0.9em;color:gray">ऎवऱ्ऱिऩुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | कस्मिन् | कयोः | केषु |எதில் <br/> <span style="font-size:0.9em;color:gray">ऎधिल्</span> |எவை இரண்டில் <br/> <span style="font-size:0.9em;color:gray">ऎवै इरण्ढिल्</span> |எவற்றில் <br/> <span style="font-size:0.9em;color:gray">ऎवऱ्ऱिल्</span> |
 
 
 ### 14. मकारान्तः पुल्लिङ्गः इदम् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | अयम् | इमौ | इमे | இவன் | இவர்கள் இருவரும் | இவர்கள் |
-| **இரண்டாம் வேற்றுமை** | इमम् / एनम् | इमौ / एनौ | इमान् / एनान् | இவனை | இவர்கள் இருவரை | இவர்களை |
-| **மூன்றாம் வேற்றுமை** | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः | இவனால் / இவனுடன் | இவர்கள் இருவரால் | இவர்களால் |
-| **நான்காம் வேற்றுமை** | अस्मै | आभ्याम् | एभ्यः | இவனுக்கு / இவனுக்காக | இவர்கள் இருவருக்கு | இவர்களுக்கு |
-| **ஐந்தாம் வேற்றுமை** | अस्मात् | आभ्याम् | एभ्यः | இவனிடமிருந்து | இவர்கள் இருவரிடமிருந்து | இவர்களிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | अस्य | अनयोः / एनयोः | एषाम् | இவனுடைய | இவர்கள் இருவருடைய | இவர்களுடைய |
-| **ஏழாம் வேற்றுமை** | अस्मिन् | अनयोः / एनयोः | एषु | இவனிடம் | இவர்கள் இருவரிடம் | இவர்களிடம் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | अयम् | इमौ | इमे |இவன் <br/> <span style="font-size:0.9em;color:gray">इवऩ्</span> |இவர்கள் இருவரும் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुम्</span> |இவர்கள் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | इमम् / एनम् | इमौ / एनौ | इमान् / एनान् |இவனை <br/> <span style="font-size:0.9em;color:gray">इवऩै</span> |இவர்கள் இருவரை <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरै</span> |இவர்களை <br/> <span style="font-size:0.9em;color:gray">इवर्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः |இவனால் / இவனுடன் <br/> <span style="font-size:0.9em;color:gray">इवऩाल् / इवऩुढऩ्</span> |இவர்கள் இருவரால் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवराल्</span> |இவர்களால் <br/> <span style="font-size:0.9em;color:gray">इवर्घळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | अस्मै | आभ्याम् | एभ्यः |இவனுக்கு / இவனுக்காக <br/> <span style="font-size:0.9em;color:gray">इवऩुघ्घु / इवऩुघ्घाघ</span> |இவர்கள் இருவருக்கு <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुघ्घु</span> |இவர்களுக்கு <br/> <span style="font-size:0.9em;color:gray">इवर्घळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | अस्मात् | आभ्याम् | एभ्यः |இவனிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवऩिढमिरुन्धु</span> |இவர்கள் இருவரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरिढमिरुन्धु</span> |இவர்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवर्घळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | अस्य | अनयोः / एनयोः | एषाम् |இவனுடைய <br/> <span style="font-size:0.9em;color:gray">इवऩुढैय</span> |இவர்கள் இருவருடைய <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुढैय</span> |இவர்களுடைய <br/> <span style="font-size:0.9em;color:gray">इवर्घळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | अस्मिन् | अनयोः / एनयोः | एषु |இவனிடம் <br/> <span style="font-size:0.9em;color:gray">इवऩिढम्</span> |இவர்கள் இருவரிடம் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरिढम्</span> |இவர்களிடம் <br/> <span style="font-size:0.9em;color:gray">इवर्घळिढम्</span> |
 
 
 ### 15. मकारान्तः स्त्रीलिङ्गः इदम् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | इयम् | इमे | इमाः | இவள் | இவர்கள் இருவரும் | இவர்கள் |
-| **இரண்டாம் வேற்றுமை** | इमाम् / एनाम् | इमे / एने | इमाः / एनाः | இவளை | இவர்கள் இருவரை | இவர்களை |
-| **மூன்றாம் வேற்றுமை** | अनया / एनया | आभ्याम् / एनाभ्याम् | आभिः | இவளால் / இவளுடன் | இவர்கள் இருவரால் | இவர்களால் |
-| **நான்காம் வேற்றுமை** | अस्यै | आभ्याम् | आभ्यः | இவளுக்கு / இவளுக்காக | இவர்கள் இருவருக்கு | இவர்களுக்கு |
-| **ஐந்தாம் வேற்றுமை** | अस्याः | आभ्याम् | आभ्यः | இவளிடமிருந்து | இவர்கள் இருவரிடமிருந்து | இவர்களிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | अस्याः | अनयोः / एनयोः | आसाम् | இவளுடைய | இவர்கள் இருவருடைய | இவர்களுடைய |
-| **ஏழாம் வேற்றுமை** | अस्याम् | अनयोः / एनयोः | आसु | இவளிடம் | இவர்கள் இருவரிடம் | இவர்களிடம் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | इयम् | इमे | इमाः |இவள் <br/> <span style="font-size:0.9em;color:gray">इवळ्</span> |இவர்கள் இருவரும் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुम्</span> |இவர்கள் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | इमाम् / एनाम् | इमे / एने | इमाः / एनाः |இவளை <br/> <span style="font-size:0.9em;color:gray">इवळै</span> |இவர்கள் இருவரை <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरै</span> |இவர்களை <br/> <span style="font-size:0.9em;color:gray">इवर्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | अनया / एनया | आभ्याम् / एनाभ्याम् | आभिः |இவளால் / இவளுடன் <br/> <span style="font-size:0.9em;color:gray">इवळाल् / इवळुढऩ्</span> |இவர்கள் இருவரால் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवराल्</span> |இவர்களால் <br/> <span style="font-size:0.9em;color:gray">इवर्घळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | अस्यै | आभ्याम् | आभ्यः |இவளுக்கு / இவளுக்காக <br/> <span style="font-size:0.9em;color:gray">इवळुघ्घु / इवळुघ्घाघ</span> |இவர்கள் இருவருக்கு <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुघ्घु</span> |இவர்களுக்கு <br/> <span style="font-size:0.9em;color:gray">इवर्घळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | अस्याः | आभ्याम् | आभ्यः |இவளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवळिढमिरुन्धु</span> |இவர்கள் இருவரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरिढमिरुन्धु</span> |இவர்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवर्घळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | अस्याः | अनयोः / एनयोः | आसाम् |இவளுடைய <br/> <span style="font-size:0.9em;color:gray">इवळुढैय</span> |இவர்கள் இருவருடைய <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुढैय</span> |இவர்களுடைய <br/> <span style="font-size:0.9em;color:gray">इवर्घळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | अस्याम् | अनयोः / एनयोः | आसु |இவளிடம் <br/> <span style="font-size:0.9em;color:gray">इवळिढम्</span> |இவர்கள் இருவரிடம் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरिढम्</span> |இவர்களிடம் <br/> <span style="font-size:0.9em;color:gray">इवर्घळिढम्</span> |
 
 
 ### 16. मकारान्तः नपुंसकलिङ्गः इदम् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | इदम् | इमे | इमानि | இது | இவை இரண்டும் | இவை |
-| **இரண்டாம் வேற்றுமை** | इदम् / एनत् | इमे / एने | इमानि / एनानि | இதை | இவை இரண்டை | இவற்றை |
-| **மூன்றாம் வேற்றுமை** | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः | இதனால் | இவை இரண்டால் | இவற்றால் |
-| **நான்காம் வேற்றுமை** | अस्मै | आभ्याम् | एभ्यः | இதற்கு | இவை இரண்டிற்கு | இவற்றிற்கு |
-| **ஐந்தாம் வேற்றுமை** | अस्मात् | आभ्याम् | एभ्यः | இதிலிருந்து | இவை இரண்டிலிருந்து | இவற்றிலிருந்து |
-| **ஆறாம் வேற்றுமை** | अस्य | अनयोः / एनयोः | एषाम् | இதனுடைய | இவை இரண்டினுடைய | இவற்றினுடைய |
-| **ஏழாம் வேற்றுமை** | अस्मिन् | अनयोः / एनयोः | एषु | இதில் | இவை இரண்டில் | இவற்றில் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | इदम् | इमे | इमानि |இது <br/> <span style="font-size:0.9em;color:gray">इधु</span> |இவை இரண்டும் <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढुम्</span> |இவை <br/> <span style="font-size:0.9em;color:gray">इवै</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | इदम् / एनत् | इमे / एने | इमानि / एनानि |இதை <br/> <span style="font-size:0.9em;color:gray">इधै</span> |இவை இரண்டை <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढै</span> |இவற்றை <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः |இதனால் <br/> <span style="font-size:0.9em;color:gray">इधऩाल्</span> |இவை இரண்டால் <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढाल्</span> |இவற்றால் <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | अस्मै | आभ्याम् | एभ्यः |இதற்கு <br/> <span style="font-size:0.9em;color:gray">इधऱ्घु</span> |இவை இரண்டிற்கு <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढिऱ्घु</span> |இவற்றிற்கு <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱिऱ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | अस्मात् | आभ्याम् | एभ्यः |இதிலிருந்து <br/> <span style="font-size:0.9em;color:gray">इधिलिरुन्धु</span> |இவை இரண்டிலிருந்து <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढिलिरुन्धु</span> |இவற்றிலிருந்து <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱिलिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | अस्य | अनयोः / एनयोः | एषाम् |இதனுடைய <br/> <span style="font-size:0.9em;color:gray">इधऩुढैय</span> |இவை இரண்டினுடைய <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढिऩुढैय</span> |இவற்றினுடைய <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱिऩुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | अस्मिन् | अनयोः / एनयोः | एषु |இதில் <br/> <span style="font-size:0.9em;color:gray">इधिल्</span> |இவை இரண்டில் <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढिल्</span> |இவற்றில் <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱिल्</span> |
 
 
 ### 17. दकारान्तः पुल्लिङ्गः एतद् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | एषः | एतौ | एते | இவன் (அருகில்) | இவர்கள் இருவரும் | இவர்கள் |
-| **இரண்டாம் வேற்றுமை** | एतम् / एनम् | एतौ / एनौ | एतान् / एनान् | இவனை | இவர்கள் இருவரை | இவர்களை |
-| **மூன்றாம் வேற்றுமை** | एतेन / एनेन | एताभ्याम् | एतैः | இவனால் | இவர்கள் இருவரால் | இவர்களால் |
-| **நான்காம் வேற்றுமை** | एतस्मै | एताभ्याम् | एतेभ्यः | இவனுக்கு | இவர்கள் இருவருக்கு | இவர்களுக்கு |
-| **ஐந்தாம் வேற்றுமை** | एतस्मात् | एताभ्याम् | एतेभ्यः | இவனிடமிருந்து | இவர்கள் இருவரிடமிருந்து | இவர்களிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | एतस्य | एतयोः / एनयोः | एतेषाम् | இவனுடைய | இவர்கள் இருவருடைய | இவர்களுடைய |
-| **ஏழாம் வேற்றுமை** | एतस्मिन् | एतयोः / एनयोः | एतेषु | இவனிடம் | இவர்கள் இருவரிடம் | இவர்களிடம் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | एषः | एतौ | एते |இவன் (அருகில்) <br/> <span style="font-size:0.9em;color:gray">इवऩ् (अरुघिल्)</span> |இவர்கள் இருவரும் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुम्</span> |இவர்கள் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | एतम् / एनम् | एतौ / एनौ | एतान् / एनान् |இவனை <br/> <span style="font-size:0.9em;color:gray">इवऩै</span> |இவர்கள் இருவரை <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरै</span> |இவர்களை <br/> <span style="font-size:0.9em;color:gray">इवर्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | एतेन / एनेन | एताभ्याम् | एतैः |இவனால் <br/> <span style="font-size:0.9em;color:gray">इवऩाल्</span> |இவர்கள் இருவரால் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवराल्</span> |இவர்களால் <br/> <span style="font-size:0.9em;color:gray">इवर्घळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | एतस्मै | एताभ्याम् | एतेभ्यः |இவனுக்கு <br/> <span style="font-size:0.9em;color:gray">इवऩुघ्घु</span> |இவர்கள் இருவருக்கு <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुघ्घु</span> |இவர்களுக்கு <br/> <span style="font-size:0.9em;color:gray">इवर्घळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | एतस्मात् | एताभ्याम् | एतेभ्यः |இவனிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवऩिढमिरुन्धु</span> |இவர்கள் இருவரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरिढमिरुन्धु</span> |இவர்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवर्घळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | एतस्य | एतयोः / एनयोः | एतेषाम् |இவனுடைய <br/> <span style="font-size:0.9em;color:gray">इवऩुढैय</span> |இவர்கள் இருவருடைய <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुढैय</span> |இவர்களுடைய <br/> <span style="font-size:0.9em;color:gray">इवर्घळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | एतस्मिन् | एतयोः / एनयोः | एतेषु |இவனிடம் <br/> <span style="font-size:0.9em;color:gray">इवऩिढम्</span> |இவர்கள் இருவரிடம் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरिढम्</span> |இவர்களிடம் <br/> <span style="font-size:0.9em;color:gray">इवर्घळिढम्</span> |
 
 
 ### 18. दकारान्तः स्त्रीलिङ्गः एतद् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | एषा | एते | एताः | இவள் (அருகில்) | இவர்கள் இருவரும் | இவர்கள் |
-| **இரண்டாம் வேற்றுமை** | एताम् / एनाम् | एते / एने | एताः / एनाः | இவளை | இவர்கள் இருவரை | இவர்களை |
-| **மூன்றாம் வேற்றுமை** | एतया / एनया | एताभ्याम् | एताभिः | இவளால் | இவர்கள் இருவரால் | இவர்களால் |
-| **நான்காம் வேற்றுமை** | एतस्यै | एताभ्याम् | एताभ्यः | இவளுக்கு | இவர்கள் இருவருக்கு | இவர்களுக்கு |
-| **ஐந்தாம் வேற்றுமை** | एतस्याः | एताभ्याम् | एताभ्यः | இவளிடமிருந்து | இவர்கள் இருவரிடமிருந்து | இவர்களிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | एतस्याः | एतयोः / एनयोः | एतासाम् | இவளுடைய | இவர்கள் இருவருடைய | இவர்களுடைய |
-| **ஏழாம் வேற்றுமை** | एतस्याम् | एतयोः / एनयोः | एतासु | இவளிடம் | இவர்கள் இருவரிடம் | இவர்களிடம் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | एषा | एते | एताः |இவள் (அருகில்) <br/> <span style="font-size:0.9em;color:gray">इवळ् (अरुघिल्)</span> |இவர்கள் இருவரும் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुम्</span> |இவர்கள் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | एताम् / एनाम् | एते / एने | एताः / एनाः |இவளை <br/> <span style="font-size:0.9em;color:gray">इवळै</span> |இவர்கள் இருவரை <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरै</span> |இவர்களை <br/> <span style="font-size:0.9em;color:gray">इवर्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | एतया / एनया | एताभ्याम् | एताभिः |இவளால் <br/> <span style="font-size:0.9em;color:gray">इवळाल्</span> |இவர்கள் இருவரால் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवराल्</span> |இவர்களால் <br/> <span style="font-size:0.9em;color:gray">इवर्घळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | एतस्यै | एताभ्याम् | एताभ्यः |இவளுக்கு <br/> <span style="font-size:0.9em;color:gray">इवळुघ्घु</span> |இவர்கள் இருவருக்கு <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुघ्घु</span> |இவர்களுக்கு <br/> <span style="font-size:0.9em;color:gray">इवर्घळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | एतस्याः | एताभ्याम् | एताभ्यः |இவளிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवळिढमिरुन्धु</span> |இவர்கள் இருவரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरिढमिरुन्धु</span> |இவர்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">इवर्घळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | एतस्याः | एतयोः / एनयोः | एतासाम् |இவளுடைய <br/> <span style="font-size:0.9em;color:gray">इवळुढैय</span> |இவர்கள் இருவருடைய <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरुढैय</span> |இவர்களுடைய <br/> <span style="font-size:0.9em;color:gray">इवर्घळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | एतस्याम् | एतयोः / एनयोः | एतासु |இவளிடம் <br/> <span style="font-size:0.9em;color:gray">इवळिढम्</span> |இவர்கள் இருவரிடம் <br/> <span style="font-size:0.9em;color:gray">इवर्घळ् इरुवरिढम्</span> |இவர்களிடம் <br/> <span style="font-size:0.9em;color:gray">इवर्घळिढम्</span> |
 
 
 ### 19. दकारान्तः नपुंसकलिङ्गः एतद् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | एतत् | एते | एतानि | இது (அருகில்) | இவை இரண்டும் | இவை |
-| **இரண்டாம் வேற்றுமை** | एतत् / एनत् | एते / एने | एतानि / एनानि | இதை | இவை இரண்டை | இவற்றை |
-| **மூன்றாம் வேற்றுமை** | एतेन / एनेन | एताभ्याम् | एतैः | இதனால் | இவை இரண்டால் | இவற்றால் |
-| **நான்காம் வேற்றுமை** | एतस्मै | एताभ्याम् | एतेभ्यः | இதற்கு | இவை இரண்டிற்கு | இவற்றிற்கு |
-| **ஐந்தாம் வேற்றுமை** | एतस्मात् | एताभ्याम् | एतेभ्यः | இதிலிருந்து | இவை இரண்டிலிருந்து | இவற்றிலிருந்து |
-| **ஆறாம் வேற்றுமை** | एतस्य | एतयोः / एनयोः | एतेषाम् | இதனுடைய | இவை இரண்டினுடைய | இவற்றினுடைய |
-| **ஏழாம் வேற்றுமை** | एतस्मिन् | एतयोः / एनयोः | एतेषु | இதில் | இவை இரண்டில் | இவற்றில் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | एतत् | एते | एतानि |இது (அருகில்) <br/> <span style="font-size:0.9em;color:gray">इधु (अरुघिल्)</span> |இவை இரண்டும் <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढुम्</span> |இவை <br/> <span style="font-size:0.9em;color:gray">इवै</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | एतत् / एनत् | एते / एने | एतानि / एनानि |இதை <br/> <span style="font-size:0.9em;color:gray">इधै</span> |இவை இரண்டை <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढै</span> |இவற்றை <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | एतेन / एनेन | एताभ्याम् | एतैः |இதனால் <br/> <span style="font-size:0.9em;color:gray">इधऩाल्</span> |இவை இரண்டால் <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढाल्</span> |இவற்றால் <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | एतस्मै | एताभ्याम् | एतेभ्यः |இதற்கு <br/> <span style="font-size:0.9em;color:gray">इधऱ्घु</span> |இவை இரண்டிற்கு <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढिऱ्घु</span> |இவற்றிற்கு <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱिऱ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | एतस्मात् | एताभ्याम् | एतेभ्यः |இதிலிருந்து <br/> <span style="font-size:0.9em;color:gray">इधिलिरुन्धु</span> |இவை இரண்டிலிருந்து <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढिलिरुन्धु</span> |இவற்றிலிருந்து <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱिलिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | एतस्य | एतयोः / एनयोः | एतेषाम् |இதனுடைய <br/> <span style="font-size:0.9em;color:gray">इधऩुढैय</span> |இவை இரண்டினுடைய <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढिऩुढैय</span> |இவற்றினுடைய <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱिऩुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | एतस्मिन् | एतयोः / एनयोः | एतेषु |இதில் <br/> <span style="font-size:0.9em;color:gray">इधिल्</span> |இவை இரண்டில் <br/> <span style="font-size:0.9em;color:gray">इवै इरण्ढिल्</span> |இவற்றில் <br/> <span style="font-size:0.9em;color:gray">इवऱ्ऱिल्</span> |
 
 
 ### 20. दकारान्तः त्रिषु लिङ्गेषु समानः अस्मद् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | अहम् | आवाम् | वयम् | நான் | நாங்கள் இருவரும் | நாங்கள் |
-| **இரண்டாம் வேற்றுமை** | माम्, मा | आवाम्, नौ | अस्मान्, नः | என்னை | எங்கள் இருவரை | எங்களை |
-| **மூன்றாம் வேற்றுமை** | मया | आवाभ्याम् | अस्माभिः | என்னால் | எங்கள் இருவரால் | எங்களால் |
-| **நான்காம் வேற்றுமை** | मह्यम्, मे | आवाभ्याम्, नौ | अस्मभ्यम्, नः | எனக்கு | எங்கள் இருவருக்கு | எங்களுக்கு |
-| **ஐந்தாம் வேற்றுமை** | मत् | आवाभ्याम् | अस्मत् | என்னிடமிருந்து | எங்கள் இருவரிடமிருந்து | எங்களிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | मम, मे | आवयोः, नौ | अस्माकम्, नः | என்னுடைய | எங்கள் இருவருடைய | எங்களுடைய |
-| **ஏழாம் வேற்றுமை** | मयि | आवयोः | अस्मासु | என்னிடம் | எங்கள் இருவரிடம் | எங்களிடம் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | अहम् | आवाम् | वयम् |நான் <br/> <span style="font-size:0.9em;color:gray">नाऩ्</span> |நாங்கள் இருவரும் <br/> <span style="font-size:0.9em;color:gray">नाङ्घळ् इरुवरुम्</span> |நாங்கள் <br/> <span style="font-size:0.9em;color:gray">नाङ्घळ्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | माम्, मा | आवाम्, नौ | अस्मान्, नः |என்னை <br/> <span style="font-size:0.9em;color:gray">ऎऩ्ऩै</span> |எங்கள் இருவரை <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळ् इरुवरै</span> |எங்களை <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | मया | आवाभ्याम् | अस्माभिः |என்னால் <br/> <span style="font-size:0.9em;color:gray">ऎऩ्ऩाल्</span> |எங்கள் இருவரால் <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळ् इरुवराल्</span> |எங்களால் <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | मह्यम्, मे | आवाभ्याम्, नौ | अस्मभ्यम्, नः |எனக்கு <br/> <span style="font-size:0.9em;color:gray">ऎऩघ्घु</span> |எங்கள் இருவருக்கு <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळ् इरुवरुघ्घु</span> |எங்களுக்கு <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | मत् | आवाभ्याम् | अस्मत् |என்னிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">ऎऩ्ऩिढमिरुन्धु</span> |எங்கள் இருவரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळ् इरुवरिढमिरुन्धु</span> |எங்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | मम, मे | आवयोः, नौ | अस्माकम्, नः |என்னுடைய <br/> <span style="font-size:0.9em;color:gray">ऎऩ्ऩुढैय</span> |எங்கள் இருவருடைய <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळ् इरुवरुढैय</span> |எங்களுடைய <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | मयि | आवयोः | अस्मासु |என்னிடம் <br/> <span style="font-size:0.9em;color:gray">ऎऩ्ऩिढम्</span> |எங்கள் இருவரிடம் <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळ् इरुवरिढम्</span> |எங்களிடம் <br/> <span style="font-size:0.9em;color:gray">ऎङ्घळिढम्</span> |
 
 
 ### 21. दकारान्तः त्रिषु लिङ्गेषु समानः युष्मद् शब्दः
 
-| வேற்றுமை | ஒருமை | இருமை | பன்மை | தமிழ் பொருள் (ஒருமை) | தமிழ் பொருள் (இருமை) | தமிழ் பொருள் (பன்மை) |
+|வேற்றுமை <br/> <span style="font-size:0.9em;color:gray">वेऱ्ऱुमै</span> |ஒருமை <br/> <span style="font-size:0.9em;color:gray">ऒरुमै</span> |இருமை <br/> <span style="font-size:0.9em;color:gray">इरुमै</span> |பன்மை <br/> <span style="font-size:0.9em;color:gray">भऩ्मै</span> |தமிழ் பொருள் (ஒருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (ऒरुमै)</span> |தமிழ் பொருள் (இருமை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (इरुमै)</span> |தமிழ் பொருள் (பன்மை) <br/> <span style="font-size:0.9em;color:gray">धमिऴ् भॊरुळ् (भऩ्मै)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **முதல் வேற்றுமை** | त्वम् | युवाम् | यूयम् | நீ | நீங்கள் இருவரும் | நீங்கள் |
-| **இரண்டாம் வேற்றுமை** | त्वाम्, त्वा | युवाम्, वाम् | युष्मान्, वः | உன்னை | உங்கள் இருவரை | உங்களை |
-| **மூன்றாம் வேற்றுமை** | त्वया | युवाभ्याम् | युष्माभिः | உன்னால் | உங்கள் இருவரால் | உங்களால் |
-| **நான்காம் வேற்றுமை** | तुभ्यम्, ते | युवाभ्याम्, वाम् | युष्मभ्यम्, वः | உனக்கு | உங்கள் இருவருக்கு | உங்களுக்கு |
-| **ஐந்தாம் வேற்றுமை** | त्वत् | युवाभ्याम् | युष्मत् | உன்னிடமிருந்து | உங்கள் இருவரிடமிருந்து | உங்களிடமிருந்து |
-| **ஆறாம் வேற்றுமை** | तव, ते | युवयोः, वाम् | युष्माकम्, वः | உன்னுடைய | உங்கள் இருவருடைய | உங்களுடைய |
-| **ஏழாம் வேற்றுமை** | त्वयि | युवयोः | युष्मासु | உன்னிடம் | உங்கள் இருவரிடம் | உங்களிடம் |
+|**முதல் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मुधल् वेऱ्ऱुमै**</span> | त्वम् | युवाम् | यूयम् |நீ <br/> <span style="font-size:0.9em;color:gray">नी</span> |நீங்கள் இருவரும் <br/> <span style="font-size:0.9em;color:gray">नीङ्घळ् इरुवरुम्</span> |நீங்கள் <br/> <span style="font-size:0.9em;color:gray">नीङ्घळ्</span> |
+|**இரண்டாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**इरण्ढाम् वेऱ्ऱुमै**</span> | त्वाम्, त्वा | युवाम्, वाम् | युष्मान्, वः |உன்னை <br/> <span style="font-size:0.9em;color:gray">उऩ्ऩै</span> |உங்கள் இருவரை <br/> <span style="font-size:0.9em;color:gray">उङ्घळ् इरुवरै</span> |உங்களை <br/> <span style="font-size:0.9em;color:gray">उङ्घळै</span> |
+|**மூன்றாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**मूऩ्ऱाम् वेऱ्ऱुमै**</span> | त्वया | युवाभ्याम् | युष्माभिः |உன்னால் <br/> <span style="font-size:0.9em;color:gray">उऩ्ऩाल्</span> |உங்கள் இருவரால் <br/> <span style="font-size:0.9em;color:gray">उङ्घळ् इरुवराल्</span> |உங்களால் <br/> <span style="font-size:0.9em;color:gray">उङ्घळाल्</span> |
+|**நான்காம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**नाऩ्घाम् वेऱ्ऱुमै**</span> | तुभ्यम्, ते | युवाभ्याम्, वाम् | युष्मभ्यम्, वः |உனக்கு <br/> <span style="font-size:0.9em;color:gray">उऩघ्घु</span> |உங்கள் இருவருக்கு <br/> <span style="font-size:0.9em;color:gray">उङ्घळ् इरुवरुघ्घु</span> |உங்களுக்கு <br/> <span style="font-size:0.9em;color:gray">उङ्घळुघ्घु</span> |
+|**ஐந்தாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**ऐन्धाम् वेऱ्ऱुमै**</span> | त्वत् | युवाभ्याम् | युष्मत् |உன்னிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">उऩ्ऩिढमिरुन्धु</span> |உங்கள் இருவரிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">उङ्घळ् इरुवरिढमिरुन्धु</span> |உங்களிடமிருந்து <br/> <span style="font-size:0.9em;color:gray">उङ्घळिढमिरुन्धु</span> |
+|**ஆறாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**आऱाम् वेऱ्ऱुमै**</span> | तव, ते | युवयोः, वाम् | युष्माकम्, वः |உன்னுடைய <br/> <span style="font-size:0.9em;color:gray">उऩ्ऩुढैय</span> |உங்கள் இருவருடைய <br/> <span style="font-size:0.9em;color:gray">उङ्घळ् इरुवरुढैय</span> |உங்களுடைய <br/> <span style="font-size:0.9em;color:gray">उङ्घळुढैय</span> |
+|**ஏழாம் வேற்றுமை** <br/> <span style="font-size:0.9em;color:gray">**एऴाम् वेऱ्ऱुमै**</span> | त्वयि | युवयोः | युष्मासु |உன்னிடம் <br/> <span style="font-size:0.9em;color:gray">उऩ्ऩिढम्</span> |உங்கள் இருவரிடம் <br/> <span style="font-size:0.9em;color:gray">उङ्घळ् इरुवरिढम्</span> |உங்களிடம் <br/> <span style="font-size:0.9em;color:gray">उङ्घळिढम्</span> |
 
 

@@ -66,7 +66,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | पठति<br/>_सः पठति। (He reads)_ | पठतः<br/>_तौ पठतः। (They two read)_ | पठन्ति<br/>_ते पठन्ति। (They all read)_ |
 | **मध्यमपुरुषः** | पठसि<br/>_त्वम् पठसि। (You read)_ | पठथः<br/>_युवाम् पठथः। (You two read)_ | पठथ<br/>_यूयम् पठथ। (You all read)_ |
@@ -74,7 +74,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अपठत्<br/>_सः अपठत्। (He read)_ | अपठताम्<br/>_तौ अपठताम्। (They two read)_ | अपठन्<br/>_ते अपठन्। (They all read)_ |
 | **मध्यमपुरुषः** | अपठः<br/>_त्वम् अपठः। (You read)_ | अपठतम्<br/>_युवाम् अपठतम्। (You two read)_ | अपठत<br/>_यूयम् अपठत। (You all read)_ |
@@ -82,15 +82,15 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
-| **प्रथमपुरुषः** | पपाठ<br/>_सः पपाठ। (ಅವನು ಯಾವಾಗಲೋ ಓದಿದನು)_ | पेठतुः<br/>_तौ पेठतुः। (ಅವರಿಬ್ಬರು ಯಾವಾಗಲೋ ಓದಿದರು)_ | पेठुः<br/>_ते पेठुः। (ಅವರೆಲ್ಲರೂ ಯಾವಾಗಲೋ ಓದಿದರು)_ |
-| **मध्यमपुरुषः** | पपाठ / पपठिथ<br/>_त्वम् पपाठ/पपठिथ। (ನೀನು ಯಾವಾಗಲೋ ಓದಿದೆ)_ | पेठथुः<br/>_युवाम् पेठथुः। (ನೀವಿಬ್ಬರು ಯಾವಾಗಲೋ ಓದಿದಿರಿ)_ | पेठ<br/>_यूयम् पेठ। (ನೀವೆಲ್ಲರೂ ಯಾವಾಗಲೋ ಓದಿದಿರಿ)_ |
-| **उत्तमपुरुषः** | पपाठ / पपठ<br/>_अहम् पपाठ/पपठ। (ನಾನು ಯಾವಾಗಲೋ ಓದಿದೆನು)_ | पेठिव<br/>_आवाम् पेठिव। (ನಾವಿಬ್ಬರು ಯಾವಾಗಲೋ ಓದಿದೆವು)_ | पेठिम<br/>_वयम् पेठिम। (ನಾವೆಲ್ಲರೂ ಯಾವಾಗಲೋ ಓದಿದೆವು)_ |
+| **प्रथमपुरुषः** |पपाठ<br/>_सः पपाठ। (ಅವನು ಯಾವಾಗಲೋ ಓದಿದನು)_ <br/> <span style="font-size:0.9em;color:gray">पपाठ_सः पपाठ। (अवनु यावागलो ओदिदनु)_</span> |पेठतुः<br/>_तौ पेठतुः। (ಅವರಿಬ್ಬರು ಯಾವಾಗಲೋ ಓದಿದರು)_ <br/> <span style="font-size:0.9em;color:gray">पेठतुः_तौ पेठतुः। (अवरिब्बरु यावागलो ओदिदरु)_</span> |पेठुः<br/>_ते पेठुः। (ಅವರೆಲ್ಲರೂ ಯಾವಾಗಲೋ ಓದಿದರು)_ <br/> <span style="font-size:0.9em;color:gray">पेठुः_ते पेठुः। (अवरॆल्लरू यावागलो ओदिदरु)_</span> |
+| **मध्यमपुरुषः** |पपाठ / पपठिथ<br/>_त्वम् पपाठ/पपठिथ। (ನೀನು ಯಾವಾಗಲೋ ಓದಿದೆ)_ <br/> <span style="font-size:0.9em;color:gray">पपाठ / पपठिथ_त्वम् पपाठ/पपठिथ। (नीनु यावागलो ओदिदॆ)_</span> |पेठथुः<br/>_युवाम् पेठथुः। (ನೀವಿಬ್ಬರು ಯಾವಾಗಲೋ ಓದಿದಿರಿ)_ <br/> <span style="font-size:0.9em;color:gray">पेठथुः_युवाम् पेठथुः। (नीविब्बरु यावागलो ओदिदिरि)_</span> |पेठ<br/>_यूयम् पेठ। (ನೀವೆಲ್ಲರೂ ಯಾವಾಗಲೋ ಓದಿದಿರಿ)_ <br/> <span style="font-size:0.9em;color:gray">पेठ_यूयम् पेठ। (नीवॆल्लरू यावागलो ओदिदिरि)_</span> |
+| **उत्तमपुरुषः** |पपाठ / पपठ<br/>_अहम् पपाठ/पपठ। (ನಾನು ಯಾವಾಗಲೋ ಓದಿದೆನು)_ <br/> <span style="font-size:0.9em;color:gray">पपाठ / पपठ_अहम् पपाठ/पपठ। (नानु यावागलो ओदिदॆनु)_</span> |पेठिव<br/>_आवाम् पेठिव। (ನಾವಿಬ್ಬರು ಯಾವಾಗಲೋ ಓದಿದೆವು)_ <br/> <span style="font-size:0.9em;color:gray">पेठिव_आवाम् पेठिव। (नाविब्बरु यावागलो ओदिदॆवु)_</span> |पेठिम<br/>_वयम् पेठिम। (ನಾವೆಲ್ಲರೂ ಯಾವಾಗಲೋ ಓದಿದೆವು)_ <br/> <span style="font-size:0.9em;color:gray">पेठिम_वयम् पेठिम। (नावॆल्लरू यावागलो ओदिदॆवु)_</span> |
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | पठिष्यति<br/>_सः पठिष्यति। (He will read)_ | पठिष्यतः<br/>_तौ पठिष्यतः। (They two will read)_ | पठिष्यन्ति<br/>_ते पठिष्यन्ति। (They all will read)_ |
 | **मध्यमपुरुषः** | पठिष्यसि<br/>_त्वम् पठिष्यसि। (You will read)_ | पठिष्यथः<br/>_युवाम् पठिष्यथः। (You two will read)_ | पठिष्यथ<br/>_यूयम् पठिष्यथ। (You all will read)_ |
@@ -98,25 +98,25 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
-| **प्रथमपुरुषः** | पठतु<br/>_सः पठतु। (ಅವನು ಓದಲಿ)_ | पठताम्<br/>_तौ पठताम्। (ಅವರಿಬ್ಬರು ಓದಲಿ)_ | पठन्तु<br/>_ते पठन्तु। (ಅವರೆಲ್ಲರೂ ಓದಲಿ)_ |
-| **मध्यमपुरुषः** | पठ<br/>_त्वम् पठ। (ನೀನು ಓದು!)_ | पठतम्<br/>_युवाम् पठतम्। (ನೀವಿಬ್ಬರು ಓದಿರಿ!)_ | पठत<br/>_यूयम् पठत। (ನೀವೆಲ್ಲರೂ ಓದಿರಿ!)_ |
-| **उत्तमपुरुषः** | पठानि<br/>_अहम् पठानि। (ನಾನು ಓದಲೇ?)_ | पठाव<br/>_आवाम् पठाव। (ನಾವಿಬ್ಬರು ಓದಲೇ?)_ | पठाम<br/>_वयम् पठाम। (ನಾವೆಲ್ಲರೂ ಓದಲೇ?)_ |
+| **प्रथमपुरुषः** |पठतु<br/>_सः पठतु। (ಅವನು ಓದಲಿ)_ <br/> <span style="font-size:0.9em;color:gray">पठतु_सः पठतु। (अवनु ओदलि)_</span> |पठताम्<br/>_तौ पठताम्। (ಅವರಿಬ್ಬರು ಓದಲಿ)_ <br/> <span style="font-size:0.9em;color:gray">पठताम्_तौ पठताम्। (अवरिब्बरु ओदलि)_</span> |पठन्तु<br/>_ते पठन्तु। (ಅವರೆಲ್ಲರೂ ಓದಲಿ)_ <br/> <span style="font-size:0.9em;color:gray">पठन्तु_ते पठन्तु। (अवरॆल्लरू ओदलि)_</span> |
+| **मध्यमपुरुषः** |पठ<br/>_त्वम् पठ। (ನೀನು ಓದು!)_ <br/> <span style="font-size:0.9em;color:gray">पठ_त्वम् पठ। (नीनु ओदु!)_</span> |पठतम्<br/>_युवाम् पठतम्। (ನೀವಿಬ್ಬರು ಓದಿರಿ!)_ <br/> <span style="font-size:0.9em;color:gray">पठतम्_युवाम् पठतम्। (नीविब्बरु ओदिरि!)_</span> |पठत<br/>_यूयम् पठत। (ನೀವೆಲ್ಲರೂ ಓದಿರಿ!)_ <br/> <span style="font-size:0.9em;color:gray">पठत_यूयम् पठत। (नीवॆल्लरू ओदिरि!)_</span> |
+| **उत्तमपुरुषः** |पठानि<br/>_अहम् पठानि। (ನಾನು ಓದಲೇ?)_ <br/> <span style="font-size:0.9em;color:gray">पठानि_अहम् पठानि। (नानु ओदले?)_</span> |पठाव<br/>_आवाम् पठाव। (ನಾವಿಬ್ಬರು ಓದಲೇ?)_ <br/> <span style="font-size:0.9em;color:gray">पठाव_आवाम् पठाव। (नाविब्बरु ओदले?)_</span> |पठाम<br/>_वयम् पठाम। (ನಾವೆಲ್ಲರೂ ಓದಲೇ?)_ <br/> <span style="font-size:0.9em;color:gray">पठाम_वयम् पठाम। (नावॆल्लरू ओदले?)_</span> |
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
-| **प्रथमपुरुषः** | पठेत्<br/>_सः पठेत्। (ಅವನು ಓದಬೇಕು)_ | पठेताम्<br/>_तौ पठेताम्। (ಅವರಿಬ್ಬರು ಓದಬೇಕು)_ | पठेयुः<br/>_ते पठेयुः। (ಅವರೆಲ್ಲರೂ ಓದಬೇಕು)_ |
-| **मध्यमपुरुषः** | पठेः<br/>_त्वम् पठेः। (ನೀನು ಓದಬೇಕು)_ | पठेतम्<br/>_युवाम् पठेतम्। (ನೀವಿಬ್ಬರು ಓದಬೇಕು)_ | पठेत<br/>_यूयम् पठेत। (ನೀವೆಲ್ಲರೂ ಓದಬೇಕು)_ |
-| **उत्तमपुरुषः** | पठेयम्<br/>_अहम् पठेयम्। (ನಾನು ಓದಬೇಕು)_ | पठेव<br/>_आवाम् पठेव। (ನಾವಿಬ್ಬರು ಓದಬೇಕು)_ | पठेम<br/>_वयम् पठेम। (ನಾವೆಲ್ಲರೂ ಓದಬೇಕು)_ |
+| **प्रथमपुरुषः** |पठेत्<br/>_सः पठेत्। (ಅವನು ಓದಬೇಕು)_ <br/> <span style="font-size:0.9em;color:gray">पठेत्_सः पठेत्। (अवनु ओदबेकु)_</span> |पठेताम्<br/>_तौ पठेताम्। (ಅವರಿಬ್ಬರು ಓದಬೇಕು)_ <br/> <span style="font-size:0.9em;color:gray">पठेताम्_तौ पठेताम्। (अवरिब्बरु ओदबेकु)_</span> |पठेयुः<br/>_ते पठेयुः। (ಅವರೆಲ್ಲರೂ ಓದಬೇಕು)_ <br/> <span style="font-size:0.9em;color:gray">पठेयुः_ते पठेयुः। (अवरॆल्लरू ओदबेकु)_</span> |
+| **मध्यमपुरुषः** |पठेः<br/>_त्वम् पठेः। (ನೀನು ಓದಬೇಕು)_ <br/> <span style="font-size:0.9em;color:gray">पठेः_त्वम् पठेः। (नीनु ओदबेकु)_</span> |पठेतम्<br/>_युवाम् पठेतम्। (ನೀವಿಬ್ಬರು ಓದಬೇಕು)_ <br/> <span style="font-size:0.9em;color:gray">पठेतम्_युवाम् पठेतम्। (नीविब्बरु ओदबेकु)_</span> |पठेत<br/>_यूयम् पठेत। (ನೀವೆಲ್ಲರೂ ಓದಬೇಕು)_ <br/> <span style="font-size:0.9em;color:gray">पठेत_यूयम् पठेत। (नीवॆल्लरू ओदबेकु)_</span> |
+| **उत्तमपुरुषः** |पठेयम्<br/>_अहम् पठेयम्। (ನಾನು ಓದಬೇಕು)_ <br/> <span style="font-size:0.9em;color:gray">पठेयम्_अहम् पठेयम्। (नानु ओदबेकु)_</span> |पठेव<br/>_आवाम् पठेव। (ನಾವಿಬ್ಬರು ಓದಬೇಕು)_ <br/> <span style="font-size:0.9em;color:gray">पठेव_आवाम् पठेव। (नाविब्बरु ओदबेकु)_</span> |पठेम<br/>_वयम् पठेम। (ನಾವೆಲ್ಲರೂ ಓದಬೇಕು)_ <br/> <span style="font-size:0.9em;color:gray">पठेम_वयम् पठेम। (नावॆल्लरू ओदबेकु)_</span> |
 
 ### 2. ಲಿಖ್ (ಲಿಖತಿ - ಬರೆಯುವುದು)
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | लिखति | लिखतः | लिखन्ति |
 | **मध्यमपुरुषः** | लिखसि | लिखथः | लिखथ |
@@ -124,7 +124,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अलिखत् | अलिखताम् | अलिखन् |
 | **मध्यमपुरुषः** | अलिखः | अलिखतम् | अलिखत |
@@ -132,7 +132,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | लिलिख | लिलिखतुः | लिलिखुः |
 | **मध्यमपुरुषः** | लिलिखिथ | लिलिखथुः | लिलिख |
@@ -140,7 +140,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | लेखिष्यति | लेखिष्यतः | लेखिष्यन्ति |
 | **मध्यमपुरुषः** | लेखिष्यसि | लेखिष्यथः | लेखिष्यथ |
@@ -148,7 +148,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | लिखतु | लिखताम् | लिखन्तु |
 | **मध्यमपुरुषः** | लिख | लिखतम् | लिखत |
@@ -156,7 +156,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | लिखेत् | लिखेताम् | लिखेयुः |
 | **मध्यमपुरुषः** | लिखेः | लिखेतम् | लिखेत |
@@ -166,7 +166,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | गच्छति | गच्छतः | गच्छन्ति |
 | **मध्यमपुरुषः** | गच्छसि | गच्छथः | गच्छथ |
@@ -174,7 +174,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अगच्छत् | अगच्छताम् | अगच्छन् |
 | **मध्यमपुरुषः** | अगच्छः | अगच्छतम् | अगच्छत |
@@ -182,7 +182,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | जगाम | जग्मतुः | जग्मुः |
 | **मध्यमपुरुषः** | जगाम / जगमिथ | जग्मथुः | जग्म |
@@ -190,7 +190,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | गमिष्यति | गमिष्यतः | गमिष्यन्ति |
 | **मध्यमपुरुषः** | गमिष्यसि | गमिष्यथः | गमिष्यथ |
@@ -198,7 +198,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | गच्छतु | गच्छताम् | गच्छन्तु |
 | **मध्यमपुरुषः** | गच्छ | गच्छतम् | गच्छत |
@@ -206,7 +206,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | गच्छेत् | गच्छेताम् | गच्छेयुः |
 | **मध्यमपुरुषः** | गच्छेः | गच्छेतम् | गच्छेत |
@@ -216,7 +216,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | भवति | भवतः | भवन्ति |
 | **मध्यमपुरुषः** | भवसि | भवथः | भवथ |
@@ -224,7 +224,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अभवत् | अभवताम् | अभवन् |
 | **मध्यमपुरुषः** | अभवः | अभवतम् | अभवत |
@@ -232,7 +232,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | बभूव | बभूवतुः | बभूवुः |
 | **मध्यमपुरुषः** | बभूविथ | बभूवथुः | बभूव |
@@ -240,7 +240,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | भविष्यति | भविष्यतः | भविष्यन्ति |
 | **मध्यमपुरुषः** | भविष्यसि | भविष्यथः | भविष्यथ |
@@ -248,7 +248,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | भवतु | भवताम् | भवन्तु |
 | **मध्यमपुरुषः** | भव | भवतम् | भवत |
@@ -256,7 +256,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | भवेत् | भवेताम् | भवेयुः |
 | **मध्यमपुरुषः** | भवेः | भवेतम् | भवेत |
@@ -266,7 +266,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | क्रीडति | क्रीडतः | क्रीडन्ति |
 | **मध्यमपुरुषः** | क्रीडसि | क्रीडथः | क्रीडथ |
@@ -274,7 +274,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अक्रीडत् | अक्रीडताम् | अक्रीडन् |
 | **मध्यमपुरुषः** | अक्रीडः | अक्रीडतम् | अक्रीडत |
@@ -282,7 +282,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | चिक्रीड | चिक्रीडतुः | चिक्रीडुः |
 | **मध्यमपुरुषः** | चिक्रीडिथ | चिक्रीडथुः | चिक्रीड |
@@ -290,7 +290,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | क्रीडिष्यति | क्रीडिष्यतः | क्रीडिष्यन्ति |
 | **मध्यमपुरुषः** | क्रीडिष्यसि | क्रीडिष्यथः | क्रीडिष्यथ |
@@ -298,7 +298,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | क्रीडतु | क्रीडताम् | क्रीडन्तु |
 | **मध्यमपुरुषः** | क्रीड | क्रीडतम् | क्रीडत |
@@ -306,7 +306,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | क्रीडेत् | क्रीडेताम् | क्रीडेयुः |
 | **मध्यमपुरुषः** | क्रीडेः | क्रीडेतम् | क्रीडेत |
@@ -316,7 +316,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | खादति | खादतः | खादन्ति |
 | **मध्यमपुरुषः** | खादसि | खादथः | खादथ |
@@ -324,7 +324,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अखादत् | अखादताम् | अखादन् |
 | **मध्यमपुरुषः** | अखादः | अखादतम् | अखादत |
@@ -332,7 +332,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | चखाद | चखादतुः | चखादुः |
 | **मध्यमपुरुषः** | चखादिथ | चखादथुः | चखाद |
@@ -340,7 +340,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | खादिष्यति | खादिष्यतः | खादिष्यन्ति |
 | **मध्यमपुरुषः** | खादिष्यसि | खादिष्यथः | खादिष्यथ |
@@ -348,7 +348,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | खादतु | खादताम् | खादन्तु |
 | **मध्यमपुरुषः** | खाद | खादतम् | खादत |
@@ -356,7 +356,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | खादेत् | खादेताम् | खादेयुः |
 | **मध्यमपुरुषः** | खादेः | खादेतम् | खादेत |
@@ -366,7 +366,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | पिबति | पिबतः | पिबन्ति |
 | **मध्यमपुरुषः** | पिबसि | पिबथः | पिबथ |
@@ -374,7 +374,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अपिबत् | अपिबताम् | अपिबन् |
 | **मध्यमपुरुषः** | अपिबः | अपिबतम् | अपिबत |
@@ -382,7 +382,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | पपौ | पपतुः | पपुः |
 | **मध्यमपुरुषः** | पपिथ / पपाथ | पपथुः | पप |
@@ -390,7 +390,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | पास्यति | पास्यतः | पास्यन्ति |
 | **मध्यमपुरुषः** | पास्यसि | पास्यथः | पास्यथ |
@@ -398,7 +398,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | पिबतु | पिबताम् | पिबन्तु |
 | **मध्यमपुरुषः** | पिब | पिबतम् | पिबथ (पिबत् / पिबत) |
@@ -406,7 +406,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | पिबेत् | पिबेताम् | पिबेयुः |
 | **मध्यमपुरुषः** | पिबेः | पिबेतम् | पिबेत |
@@ -416,7 +416,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | पश्यति | पश्यतः | पश्यन्ति |
 | **मध्यमपुरुषः** | पश्यसि | पश्यथः | पश्यथ |
@@ -424,7 +424,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अपश्यत् | अपश्यताम् | अपश्यन् |
 | **मध्यमपुरुषः** | अपश्यः | अपश्यतम् | अपश्यत |
@@ -432,7 +432,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | ददर्श | ददृशतुः | ददृशुः |
 | **मध्यमपुरुषः** | ददर्शिथ / दद्रष्ट | ददृशथुः | ददृश |
@@ -440,7 +440,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | द्रक्ष्यति | द्रक्ष्यतः | द्रक्ष्यन्ति |
 | **मध्यमपुरुषः** | द्रक्ष्यसि | द्रक्ष्यथः | द्रक्ष्यथ |
@@ -448,7 +448,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | पश्यतु | पश्यताम् | पश्यन्तु |
 | **मध्यमपुरुषः** | पश्य | पश्यतम् | पश्यत |
@@ -456,7 +456,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | पश्येत् | पश्येताम् | पश्येयुः |
 | **मध्यमपुरुषः** | पश्येः | पश्येतम् | पश्येत |
@@ -466,7 +466,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | धावति | धावतः | धावन्ति |
 | **मध्यमपुरुषः** | धावसि | धावथः | धावथ |
@@ -474,7 +474,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अधावत् | अधावताम् | अधावन् |
 | **मध्यमपुरुषः** | अधावः | अधावतम् | अधावत |
@@ -482,7 +482,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | दधाव | दधावतुः | दधावुः |
 | **मध्यमपुरुषः** | दधाविथ | दधावथुः | दधाव |
@@ -490,7 +490,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | धाविष्यति | धाविष्यतः | धाविष्यन्ति |
 | **मध्यमपुरुषः** | धाविष्यसि | धाविष्यथः | धाविष्यथ |
@@ -498,7 +498,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | धावतु | धावताम् | धावन्तु |
 | **मध्यमपुरुषः** | धाव | धावतम् | धावत |
@@ -506,7 +506,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | धावेत् | धावेताम् | धावेयुः |
 | **मध्यमपुरुषः** | धावेः | धावेतम् | धावेत |
@@ -516,7 +516,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | हसति | हसतः | हसन्ति |
 | **मध्यमपुरुषः** | हससि | हसथः | हसथ |
@@ -524,7 +524,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अहसत् | अहसताम् | अहसन् |
 | **मध्यमपुरुषः** | अहसः | अहसतम् | अहसत |
@@ -532,7 +532,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | जहास | जहसतुः | जहसुः |
 | **मध्यमपुरुषः** | जहसिथ | जहसथुः | जहस |
@@ -540,7 +540,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | हसिष्यति | हसिष्यतः | हसिष्यन्ति |
 | **मध्यमपुरुषः** | हसिष्यसि | हसिष्यथः | हसिष्यथ |
@@ -548,7 +548,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | हसतु | हसताम् | हसन्तु |
 | **मध्यमपुरुषः** | हस | हसतम् | हसत |
@@ -556,7 +556,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | हसेत् | हसेताम् | हसेयुः |
 | **मध्यमपुरुषः** | हसेः | हसेतम् | हसेेत |
@@ -573,7 +573,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | वन्दते | वन्देते | वन्दन्ते |
 | **मध्यमपुरुषः** | वन्दसे | वन्देथे | वन्दध्वे |
@@ -581,7 +581,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अवन्दत | अवन्देताम् | अवन्दन्त |
 | **मध्यमपुरुषः** | अवन्दथाः | अवन्देथाम् | अवन्दध्वम् |
@@ -589,7 +589,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | ववन्दे | ववन्दाते | ववन्दिरे |
 | **मध्यमपुरुषः** | ववन्दिषे | ववन्दाथे | ववन्दिध्वे |
@@ -597,7 +597,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | वन्दिष्यते | वन्दिष्येते | वन्दिष्यन्ते |
 | **मध्यमपुरुषः** | वन्दिष्यसे | वन्दिष्येथे | वन्दिष्यध्वे |
@@ -605,7 +605,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | वन्दताम् | वन्देताम् | वन्दन्ताम् |
 | **मध्यमपुरुषः** | वन्दस्व | वन्देथाम् | वन्दध्वम् |
@@ -613,7 +613,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | वन्देत | वन्देयाताम् | वन्देरन् |
 | **मध्यमपुरुषः** | वन्देथाः | वन्देयाथाम् | वन्देध्वम् |
@@ -623,7 +623,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | सेवते | सेवेते | सेवन्ते |
 | **मध्यमपुरुषः** | सेवसे | सेवेथे | सेवध्वे |
@@ -631,7 +631,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | असेवत | असेवेताम् | असेवन्त |
 | **मध्यमपुरुषः** | असेवथाः | असेवेथाम् | असेवध्वम् |
@@ -639,7 +639,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | सिषेवे | सिषेवाते | सिषेविरे |
 | **मध्यमपुरुषः** | सिषेविषे | सिषेवाथे | सिषेविध्वे |
@@ -647,7 +647,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | सेविष्यते | सेविष्येते | सेविष्यन्ते |
 | **मध्यमपुरुषः** | सेविष्यसे | सेविष्येथे | सेविष्यध्वे |
@@ -655,7 +655,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | सेवताम् | सेवेताम् | सेवन्ताम् |
 | **मध्यमपुरुषः** | सेवस्व | सेवेथाम् | सेवध्वम् |
@@ -663,7 +663,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | सेवेत | सेवेयाताम् | सेवेरन् |
 | **मध्यमपुरुषः** | सेवेथाः | सेवेयाथाम् | सेवेध्वम् |
@@ -673,7 +673,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | लभते | लभेते | लभन्ते |
 | **मध्यमपुरुषः** | लभसे | लभेथे | लभध्वे |
@@ -681,7 +681,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अलभत | अलभेताम् | अलभन्त |
 | **मध्यमपुरुषः** | अलभथाः | अलभेथाम् | अलभध्वम् |
@@ -689,7 +689,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | लेभे | लेभाते | लेभिरे |
 | **मध्यमपुरुषः** | लेभिषे | लेभाथे | लेभिध्वे |
@@ -697,7 +697,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | लप्स्यते | लप्स्येते | लप्स्यन्ते |
 | **मध्यमपुरुषः** | लप्स्यसे | लप्स्येथे | लप्स्यध्वे |
@@ -705,7 +705,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | लभताम् | लभेताम् | लभन्ताम् |
 | **मध्यमपुरुषः** | लभस्व | लभेथाम् | लभध्वम् |
@@ -713,7 +713,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | लभेत | लभैयाताम् (लभेयाताम्) | लभेेरन् |
 | **मध्यमपुरुषः** | लभेत (लभेथाः) | लभेयाथाम् | लभेेध्वम् (लभेध्वम्) |
@@ -723,7 +723,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | रमते | रमेते | रमन्ते |
 | **मध्यमपुरुषः** | रमसे | रमेथे | रमध्वे |
@@ -731,7 +731,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अरमत | अरमेताम् | अरमन्त |
 | **मध्यमपुरुषः** | अरमथाः | अरमेथाम् | अरमध्वम् |
@@ -739,7 +739,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | रेमे | रेमाते | रेमिरे |
 | **मध्यमपुरुषः** | रेमिषे | रेमाथे | रेमिध्वे |
@@ -747,7 +747,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | रंस्यते | रंस्येते | रंस्यन्ते |
 | **मध्यमपुरुषः** | रंस्यसे | रंस्येथे | रंस्यध्वे |
@@ -755,7 +755,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | रमताम् | रमेताम् | रमन्ताम् |
 | **मध्यमपुरुषः** | रमस्व | रमेथाम् | रमध्वम् |
@@ -763,7 +763,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | रमेत | रमेयाताम् | रमेरन् |
 | **मध्यमपुरुषः** | रमेथाः | रमेयाथाम् | रमेध्वम् |
@@ -773,7 +773,7 @@ language: "kn"
 
 #### ಲಟ್ ಲಕಾರ (ವರ್ತಮಾನ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | मोदते | मोदेते | मोदन्ते |
 | **मध्यमपुरुषः** | मोदसे | मोदेथे | मोदध्वे |
@@ -781,7 +781,7 @@ language: "kn"
 
 #### ಲಙ್ ಲಕಾರ (ಅನದ್ಯತನ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | अमोदत | अमोदेताम् | अमोदन्त |
 | **मध्यमपुरुषः** | अमोदथाः | अमोदेथाम् | अमोदध्वम् |
@@ -789,7 +789,7 @@ language: "kn"
 
 #### ಲಿಟ್ ಲಕಾರ (ಪರೋಕ್ಷ ಭೂತಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | मुमुदे | मुमुदाते | मुमुदिरे |
 | **मध्यमपुरुषः** | मुमुदिषे | मुमुदाथे | मुमुदिध्वे |
@@ -797,7 +797,7 @@ language: "kn"
 
 #### ಲೃಟ್ ಲಕಾರ (ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | मोदिष्यते | मोदिष्येते | मोदिष्यन्ते |
 | **मध्यमपुरुषः** | मोदिष्यसे | मोदिष्येथे | मोदिष्यध्वे |
@@ -805,7 +805,7 @@ language: "kn"
 
 #### ಲೋಟ್ ಲಕಾರ (ಆಜ್ಞಾರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | मोदताम् | मोदेताम् | मोदन्ताम् |
 | **मध्यमपुरुषः** | मोदस्व | मोदेथाम् | मोदध्वम् |
@@ -813,7 +813,7 @@ language: "kn"
 
 #### ವಿಧಿರ್ಲಿಙ್ ಲಕಾರ (ವಿಧ್ಯರ್ಥಕ)
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |
 | :--- | :---: | :---: | :---: |
 | **प्रथमपुरुषः** | मोदेत | मोदेयाताम् | मोदेरन् |
 | **मध्यमपुरुषः** | मोदेथाः | मोदेयाथाम् | मोदेध्वम् |

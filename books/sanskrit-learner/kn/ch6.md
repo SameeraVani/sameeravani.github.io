@@ -9,288 +9,288 @@ language: "kn"
 
 ### 1. ಅಕಾರಾನ್ತಃ ಪುಲ್ಲಿಙ್ಗಃ ರಾಮ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | रामः | रामौ | रामाः | ರಾಮನು | ರಾಮರಿಬ್ಬರು | ರಾಮರು |
-| **ದ್ವಿತೀಯಾ** | रामम् | रामौ | रामान् | ರಾಮನನ್ನು | ರಾಮರಿಬ್ಬರನ್ನು | ರಾಮರನ್ನು |
-| **ತೃತೀಯಾ** | रामेण | रामाभ्याम् | रामैः | ರಾಮನಿನ್ದ | ರಾಮರಿಬ್ಬರಿನ್ದ | ರಾಮರಿನ್ದ |
-| **ಚತುರ್ಥೀ** | रामाय | रामाभ्याम् | रामेभ्यः | ರಾಮನಿಗೇ | ರಾಮರಿಬ್ಬರಿಗೇ | ರಾಮರಿಗೇ |
-| **ಪಂಚಮೀ** | रामात् | रामाभ्याम् | रामेभ्यः | ರಾಮನ ದೇಸೇಯಿನ್ದ | ರಾಮರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ರಾಮರ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | रामस्य | रामयोः | रामाणाम् | ರಾಮನ | ರಾಮರಿಬ್ಬರ | ರಾಮರ |
-| **ಸಪ್ತಮೀ** | रामे | रामयोः | रामेषु | ರಾಮನಲ್ಲಿ | ರಾಮರಿಬ್ಬರಲ್ಲಿ | ರಾಮರಲ್ಲಿ |
-| **ಸಂಬೋಧನ** | हे राम | हे रामौ | हे रामाः | ಹೇ ರಾಮನೇ | ಹೇ ರಾಮರಿಬ್ಬರೇ | ಹೇ ರಾಮರೇ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | रामः | रामौ | रामाः |ರಾಮನು <br/> <span style="font-size:0.9em;color:gray">रामनु</span> |ರಾಮರಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">रामरिब्बरु</span> |ರಾಮರು <br/> <span style="font-size:0.9em;color:gray">रामरु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | रामम् | रामौ | रामान् |ರಾಮನನ್ನು <br/> <span style="font-size:0.9em;color:gray">रामनन्नु</span> |ರಾಮರಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">रामरिब्बरन्नु</span> |ರಾಮರನ್ನು <br/> <span style="font-size:0.9em;color:gray">रामरन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | रामेण | रामाभ्याम् | रामैः |ರಾಮನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रामनिन्द</span> |ರಾಮರಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रामरिब्बरिन्द</span> |ರಾಮರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रामरिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | रामाय | रामाभ्याम् | रामेभ्यः |ರಾಮನಿಗೇ <br/> <span style="font-size:0.9em;color:gray">रामनिगे</span> |ರಾಮರಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">रामरिब्बरिगे</span> |ರಾಮರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">रामरिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | रामात् | रामाभ्याम् | रामेभ्यः |ರಾಮನ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रामन देसेयिन्द</span> |ರಾಮರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रामरिब्बर देसेयिन्द</span> |ರಾಮರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रामर देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | रामस्य | रामयोः | रामाणाम् |ರಾಮನ <br/> <span style="font-size:0.9em;color:gray">रामन</span> |ರಾಮರಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">रामरिब्बर</span> |ರಾಮರ <br/> <span style="font-size:0.9em;color:gray">रामर</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | रामे | रामयोः | रामेषु |ರಾಮನಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">रामनल्लि</span> |ರಾಮರಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">रामरिब्बरल्लि</span> |ರಾಮರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">रामरल्लि</span> |
+|**ಸಂಬೋಧನ** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे राम | हे रामौ | हे रामाः |ಹೇ ರಾಮನೇ <br/> <span style="font-size:0.9em;color:gray">हे रामने</span> |ಹೇ ರಾಮರಿಬ್ಬರೇ <br/> <span style="font-size:0.9em;color:gray">हे रामरिब्बरे</span> |ಹೇ ರಾಮರೇ <br/> <span style="font-size:0.9em;color:gray">हे रामरे</span> |
 
 **ಏವಮ್** \- ಕೃಷ್ಣ (ಕೃಷ್ಣನು), ಬಾಲ (ಬಾಲಕನು), ವೃಕ್ಷ (ಮರವು), ಸೂರ್ಯ (ಸೂರ್ಯನು), ಚನ್ದ್ರ (ಚನ್ದ್ರನು), ದೇವ (ದೇವರು), ನೃಪ (ಅರಸನು), ಛಾತ್ರ (ವಿದ್ಯಾರ್ಥಿ), ಜನಕ (ತನ್ದೇ), ಪುತ್ರ (ಪುತ್ರನು), ಗಜ (ಆನೇ), ಅಶ್ವ (ಕುದುರೇ), ಹಸ್ತ (ಕೈ), ಪಾದ (ಕಾಲು), ವಿದ್ಯಾಲಯ (ಶಾಲೇ), ದೇವಾಲಯ (ದೇವಸ್ಥಾನ), ಗ್ರಾಮ (ಹಳ್ಳಿ)।
 
 ### 2. ಇಕಾರಾನ್ತಃ ಪುಲ್ಲಿಙ್ಗಃ ಹರಿ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | हरिः | हरी | हरयः | ಹರಿಯು | ಹರಿಯಿಬ್ಬರು | ಹರಿಯರು |
-| **ದ್ವಿತೀಯಾ** | हरिम | हरी | हरीन् | ಹರಿಯನ್ನು | ಹರಿಯಿಬ್ಬರನ್ನು | ಹರಿಯರನ್ನು |
-| **ತೃತೀಯಾ** | हरिणा | हरिभ्याम् | हरिभिः | ಹರಿಯಿನ್ದ | ಹರಿಯಿಬ್ಬರಿನ್ದ | ಹರಿಯರಿನ್ದ |
-| **ಚತುರ್ಥೀ** | हरये | हरिभ्याम् | हरिभ्यः | ಹರಿಗೇ | ಹರಿಯಿಬ್ಬರಿಗೇ | ಹರಿಯರಿಗೇ |
-| **ಪಂಚಮೀ** | हरेः | हरिभ्याम् | हरिभ्यः | ಹರಿಯ ದೇಸೇಯಿನ್ದ | ಹರಿಯಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ಹರಿಯರ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | हरेः | हर्योः | हरीणाम् | ಹರಿಯ | ಹರಿಯಿಬ್ಬರ | ಹರಿಯರ |
-| **ಸಪ್ತಮೀ** | हरौ | हर्योः | हरिषु | ಹರಿಯಲ್ಲಿ | ಹರಿಯಿಬ್ಬರಲ್ಲಿ | ಹರಿಯರಲ್ಲಿ |
-| **ಸಂಬೋಧನ** | हे हरे | हे हरी | हे हरयः | ಹೇ ಹರಿಯೇ | ಹೇ ಹರಿಯಿಬ್ಬರೇ | ಹೇ ಹರಿಯರೇ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | हरिः | हरी | हरयः |ಹರಿಯು <br/> <span style="font-size:0.9em;color:gray">हरियु</span> |ಹರಿಯಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">हरियिब्बरु</span> |ಹರಿಯರು <br/> <span style="font-size:0.9em;color:gray">हरियरु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | हरिम | हरी | हरीन् |ಹರಿಯನ್ನು <br/> <span style="font-size:0.9em;color:gray">हरियन्नु</span> |ಹರಿಯಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">हरियिब्बरन्नु</span> |ಹರಿಯರನ್ನು <br/> <span style="font-size:0.9em;color:gray">हरियरन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | हरिणा | हरिभ्याम् | हरिभिः |ಹರಿಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">हरियिन्द</span> |ಹರಿಯಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">हरियिब्बरिन्द</span> |ಹರಿಯರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">हरियरिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | हरये | हरिभ्याम् | हरिभ्यः |ಹರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">हरिगे</span> |ಹರಿಯಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">हरियिब्बरिगे</span> |ಹರಿಯರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">हरियरिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | हरेः | हरिभ्याम् | हरिभ्यः |ಹರಿಯ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">हरिय देसेयिन्द</span> |ಹರಿಯಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">हरियिब्बर देसेयिन्द</span> |ಹರಿಯರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">हरियर देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | हरेः | हर्योः | हरीणाम् |ಹರಿಯ <br/> <span style="font-size:0.9em;color:gray">हरिय</span> |ಹರಿಯಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">हरियिब्बर</span> |ಹರಿಯರ <br/> <span style="font-size:0.9em;color:gray">हरियर</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | हरौ | हर्योः | हरिषु |ಹರಿಯಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">हरियल्लि</span> |ಹರಿಯಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">हरियिब्बरल्लि</span> |ಹರಿಯರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">हरियरल्लि</span> |
+|**ಸಂಬೋಧನ** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे हरे | हे हरी | हे हरयः |ಹೇ ಹರಿಯೇ <br/> <span style="font-size:0.9em;color:gray">हे हरिये</span> |ಹೇ ಹರಿಯಿಬ್ಬರೇ <br/> <span style="font-size:0.9em;color:gray">हे हरियिब्बरे</span> |ಹೇ ಹರಿಯರೇ <br/> <span style="font-size:0.9em;color:gray">हे हरियरे</span> |
 
 **ಏವಮ್** \- ಋಷಿ (ಋಷಿಯು), ಕವಿ (ಕವಿಯು), ರವಿ (ಸೂರ್ಯನು), ಮುನಿ (ಮುನಿಯು), ಗಿರಿ (ಬೇಟ್ಟವು), ಯತಿ (ಸನ್ನ್ಯಾಸಿಯು), ನಿಧಿ (ಖಜಾನೇ), ವಿಧಿ (ಬ್ರಹ್ಮನು), ಕಪಿ (ಕೋತಿಯು), ಅಗ್ನಿ (ಬೇಙ್ಕಿಯು) ।
 
 ### 3. ಉಕಾರಾನ್ತಃ ಪುಲ್ಲಿಙ್ಗಃ ಗುರು ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | गुरुः | गुरू | गुरवः | ಗುರುವು | ಗುರುವಿಬ್ಬರು | ಗುರುಗಳು |
-| **ದ್ವಿತೀಯಾ** | गुरुम् | गुरू | गुरून् | ಗುರುವನ್ನು | ಗುರುವಿಬ್ಬರನ್ನು | ಗುರುಗಳನ್ನು |
-| **ತೃತೀಯಾ** | गुरुणा | गुरुभ्याम् | गुरुभिः | ಗುರುವಿನ್ದ | ಗುರುವಿಬ್ಬರಿನ್ದ | ಗುರುಗಳಿನ್ದ |
-| **ಚತುರ್ಥೀ** | गुरवे | गुरुभ्याम् | गुरुभ्यः | ಗುರುವಿಗೇ | ಗುರುವಿಬ್ಬರಿಗೇ | ಗುರುಗಳಿಗೇ |
-| **ಪಂಚಮೀ** | गुरोः | गुरुभ्याम् | गुरुभ्यः | ಗುರುವಿನ ದೇಸೇಯಿನ್ದ | ಗುರುವಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ಗುರುಗಳ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | गुरोः | गुर्वोः | गुरूणाम् | ಗುರುವಿನ | ಗುರುವಿಬ್ಬರ | ಗುರುಗಳ |
-| **ಸಪ್ತಮೀ** | गुरौ | गुर्वोः | गुरुषु | ಗುರುವಿನಲ್ಲಿ | ಗುರುವಿಬ್ಬರಲ್ಲಿ | ಗುರುಗಳಲ್ಲಿ |
-| **ಸಂಬೋಧನ** | हे गुरो | हे गुरू | हे गुरवः | ಹೇ ಗುರುವೇ | ಹೇ ಗುರುವಿಬ್ಬರೇ | ಹೇ ಗುರುಗಳರೇ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | गुरुः | गुरू | गुरवः |ಗುರುವು <br/> <span style="font-size:0.9em;color:gray">गुरुवु</span> |ಗುರುವಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">गुरुविब्बरु</span> |ಗುರುಗಳು <br/> <span style="font-size:0.9em;color:gray">गुरुगळु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | गुरुम् | गुरू | गुरून् |ಗುರುವನ್ನು <br/> <span style="font-size:0.9em;color:gray">गुरुवन्नु</span> |ಗುರುವಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">गुरुविब्बरन्नु</span> |ಗುರುಗಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">गुरुगळन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | गुरुणा | गुरुभ्याम् | गुरुभिः |ಗುರುವಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">गुरुविन्द</span> |ಗುರುವಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">गुरुविब्बरिन्द</span> |ಗುರುಗಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">गुरुगळिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | गुरवे | गुरुभ्याम् | गुरुभ्यः |ಗುರುವಿಗೇ <br/> <span style="font-size:0.9em;color:gray">गुरुविगे</span> |ಗುರುವಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">गुरुविब्बरिगे</span> |ಗುರುಗಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">गुरुगळिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | गुरोः | गुरुभ्याम् | गुरुभ्यः |ಗುರುವಿನ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">गुरुविन देसेयिन्द</span> |ಗುರುವಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">गुरुविब्बर देसेयिन्द</span> |ಗುರುಗಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">गुरुगळ देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | गुरोः | गुर्वोः | गुरूणाम् |ಗುರುವಿನ <br/> <span style="font-size:0.9em;color:gray">गुरुविन</span> |ಗುರುವಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">गुरुविब्बर</span> |ಗುರುಗಳ <br/> <span style="font-size:0.9em;color:gray">गुरुगळ</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | गुरौ | गुर्वोः | गुरुषु |ಗುರುವಿನಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">गुरुविनल्लि</span> |ಗುರುವಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">गुरुविब्बरल्लि</span> |ಗುರುಗಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">गुरुगळल्लि</span> |
+|**ಸಂಬೋಧನ** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे गुरो | हे गुरू | हे गुरवः |ಹೇ ಗುರುವೇ <br/> <span style="font-size:0.9em;color:gray">हे गुरुवे</span> |ಹೇ ಗುರುವಿಬ್ಬರೇ <br/> <span style="font-size:0.9em;color:gray">हे गुरुविब्बरे</span> |ಹೇ ಗುರುಗಳರೇ <br/> <span style="font-size:0.9em;color:gray">हे गुरुगळरे</span> |
 
 **ಏವಮ್ \-** ಭಾನು (ಸೂರ್ಯನು), ಶಿಶು (ಮಗು), ವಿಷ್ಣು (ವಿಷ್ಣುವು), ಶಮ್ಭು (ಶಿವನು), ವಾಯು (ಗಾಳಿ), ರಿಪು (ಶತ್ರು), ಪ್ರಭು (ಓಡೇಯನು), ಬನ್ಧು (ನೇಣ್ಟನು), ಸಾಧು (ಸಜ್ಜನನು), ವೇಣು (ಕೋಲಲು) ।
 
 ### 4. ಆಕಾರಾನ್ತಃ ಸ್ತ್ರೀಲಿಙ್ಗಃ ರಮಾ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | रमा | रमे | रमाः | ರಮೇಯು | ರಮೇಯಿಬ್ಬರು | ರಮೇಯರು |
-| **ದ್ವಿತೀಯಾ** | रमाम | रमे | रमाः | ರಮೇಯನ್ನು | ರಮೇಯಿಬ್ಬರನ್ನು | ರಮೇಯರನ್ನು |
-| **ತೃತೀಯಾ** | रमया | रमाभ्याम् | रमाभिः | ರಮೇಯಿನ್ದ | ರಮೇಯಿಬ್ಬರಿನ್ದ | ರಮೇಯರಿನ್ದ |
-| **ಚತುರ್ಥೀ** | रमायै | रमाभ्याम् | रमाभ्यः | ರಮೇಗೇ | ರಮೇಯಿಬ್ಬರಿಗೇ | ರಮೇಯರಿಗೇ |
-| **ಪಂಚಮೀ** | रमायाः | रमाभ्याम् | रमाभ्यः | ರಮೇಯ ದೇಸೇಯಿನ್ದ | ರಮೇಯಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ರಮೇಯರ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | रमायाः | रमयोः | रमाणाम् | ರಮೇಯ | ರಮೇಯಿಬ್ಬರ | ರಮೇಯರ |
-| **ಸಪ್ತಮೀ** | रमायाम् | रमयोः | रमासु | ರಮೇಯಲ್ಲಿ | ರಮೇಯಿಬ್ಬರಲ್ಲಿ | ರಮೇಯರಲ್ಲಿ |
-| **ಸಂಬೋಧನ** | हे रमे | हे रमे | हे रमाः | ಹೇ ರಮೇಯೇ | ಹೇ ರಮೇಯಿಬ್ಬರೇ | ಹೇ ರಮೇಯರು |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | रमा | रमे | रमाः |ರಮೇಯು <br/> <span style="font-size:0.9em;color:gray">रमेयु</span> |ರಮೇಯಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">रमेयिब्बरु</span> |ರಮೇಯರು <br/> <span style="font-size:0.9em;color:gray">रमेयरु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | रमाम | रमे | रमाः |ರಮೇಯನ್ನು <br/> <span style="font-size:0.9em;color:gray">रमेयन्नु</span> |ರಮೇಯಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">रमेयिब्बरन्नु</span> |ರಮೇಯರನ್ನು <br/> <span style="font-size:0.9em;color:gray">रमेयरन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | रमया | रमाभ्याम् | रमाभिः |ರಮೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रमेयिन्द</span> |ರಮೇಯಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रमेयिब्बरिन्द</span> |ರಮೇಯರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रमेयरिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | रमायै | रमाभ्याम् | रमाभ्यः |ರಮೇಗೇ <br/> <span style="font-size:0.9em;color:gray">रमेगे</span> |ರಮೇಯಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">रमेयिब्बरिगे</span> |ರಮೇಯರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">रमेयरिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | रमायाः | रमाभ्याम् | रमाभ्यः |ರಮೇಯ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रमेय देसेयिन्द</span> |ರಮೇಯಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रमेयिब्बर देसेयिन्द</span> |ರಮೇಯರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रमेयर देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | रमायाः | रमयोः | रमाणाम् |ರಮೇಯ <br/> <span style="font-size:0.9em;color:gray">रमेय</span> |ರಮೇಯಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">रमेयिब्बर</span> |ರಮೇಯರ <br/> <span style="font-size:0.9em;color:gray">रमेयर</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | रमायाम् | रमयोः | रमासु |ರಮೇಯಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">रमेयल्लि</span> |ರಮೇಯಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">रमेयिब्बरल्लि</span> |ರಮೇಯರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">रमेयरल्लि</span> |
+|**ಸಂಬೋಧನ** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे रमे | हे रमे | हे रमाः |ಹೇ ರಮೇಯೇ <br/> <span style="font-size:0.9em;color:gray">हे रमेये</span> |ಹೇ ರಮೇಯಿಬ್ಬರೇ <br/> <span style="font-size:0.9em;color:gray">हे रमेयिब्बरे</span> |ಹೇ ರಮೇಯರು <br/> <span style="font-size:0.9em;color:gray">हे रमेयरु</span> |
 
 **ಏವಮ್ \-** ಸೀತಾ (ಸೀತೇಯು), ಲತಾ (ಲತೇಯು), ಮಾಲಾ (ಮಾಲೇಯು), ಬಾಲಾ (ಬಾಲೇಯು), ಶಾಲಾ (ಶಾಲೇಯು), ಕಲಾ (ಕಲೇಯು), ಕಥಾ (ಕಥೇಯು), ಕ್ರೀಡಾ (ಆಟವು), ಛಾಯಾ (ನೇರಳು), ಶಿಕ್ಷಾ (ಕಲೇ/ತಿಳುವಳಿಕೇ) ।
 
 ### 5. ಇಕಾರಾನ್ತಃ ಸ್ತ್ರೀಲಿಙ್ಗಃ ರುಚಿ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | रुचिः | रुची | रुचयः | ರುಚಿಯು | ರುಚಿಯಿಬ್ಬರು | ರುಚಿಗಳು |
-| **ದ್ವಿತೀಯಾ** | रुचिम् | रुची | रुचीः | ರುಚಿಯನ್ನು | ರುಚಿಯಿಬ್ಬರನ್ನು | ರುಚಿಗಳನ್ನು |
-| **ತೃತೀಯಾ** | रुच्या | रुचिभ्याम् | रुचिभिः | ರುಚಿಯಿನ್ದ | ರುಚಿಯಿಬ್ಬರಿನ್ದ | ರುಚಿಗಳಿನ್ದ |
-| **ಚತುರ್ಥೀ** | रुचये / रुच्यै | रुचिभ्याम् | रुचिभ्यः | ರುಚಿಯಿಗೇ | ರುಚಿಯಿಬ್ಬರಿಗೇ | ರುಚಿಗಳಿಗೇ |
-| **ಪಂಚಮೀ** | रुचेः / रुच्याः | रुचिभ्याम् | रुचिभ्यः | ರುಚಿಯ ದೇಸೇಯಿನ್ದ | ರುಚಿಯಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ರುಚಿಗಳ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | रुचेः / रुच्याः | रुच्योः | रुचीनाम् | ರುಚಿಯ | ರುಚಿಯಿಬ್ಬರ | ರುಚಿಗಳ |
-| **ಸಪ್ತಮೀ** | रुचौ / रुच्याम् | रुच्योः | रुचिषु | ರುಚಿಯಲ್ಲಿ | ರುಚಿಯಿಬ್ಬರಲ್ಲಿ | ರುಚಿಗಳಲ್ಲಿ |
-| **ಸಂಬೋಧನ** | हे रुचे | हे रुची | हे रुचयः | ಹೇ ರುಚಿಯೇ | ಹೇ ರುಚಿಯಿಬ್ಬರೇ | ಹೇ ರುಚಿಗಳರೇ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | रुचिः | रुची | रुचयः |ರುಚಿಯು <br/> <span style="font-size:0.9em;color:gray">रुचियु</span> |ರುಚಿಯಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">रुचियिब्बरु</span> |ರುಚಿಗಳು <br/> <span style="font-size:0.9em;color:gray">रुचिगळु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | रुचिम् | रुची | रुचीः |ರುಚಿಯನ್ನು <br/> <span style="font-size:0.9em;color:gray">रुचियन्नु</span> |ರುಚಿಯಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">रुचियिब्बरन्नु</span> |ರುಚಿಗಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">रुचिगळन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | रुच्या | रुचिभ्याम् | रुचिभिः |ರುಚಿಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रुचियिन्द</span> |ರುಚಿಯಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रुचियिब्बरिन्द</span> |ರುಚಿಗಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रुचिगळिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | रुचये / रुच्यै | रुचिभ्याम् | रुचिभ्यः |ರುಚಿಯಿಗೇ <br/> <span style="font-size:0.9em;color:gray">रुचियिगे</span> |ರುಚಿಯಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">रुचियिब्बरिगे</span> |ರುಚಿಗಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">रुचिगळिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | रुचेः / रुच्याः | रुचिभ्याम् | रुचिभ्यः |ರುಚಿಯ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रुचिय देसेयिन्द</span> |ರುಚಿಯಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रुचियिब्बर देसेयिन्द</span> |ರುಚಿಗಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">रुचिगळ देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | रुचेः / रुच्याः | रुच्योः | रुचीनाम् |ರುಚಿಯ <br/> <span style="font-size:0.9em;color:gray">रुचिय</span> |ರುಚಿಯಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">रुचियिब्बर</span> |ರುಚಿಗಳ <br/> <span style="font-size:0.9em;color:gray">रुचिगळ</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | रुचौ / रुच्याम् | रुच्योः | रुचिषु |ರುಚಿಯಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">रुचियल्लि</span> |ರುಚಿಯಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">रुचियिब्बरल्लि</span> |ರುಚಿಗಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">रुचिगळल्लि</span> |
+|**ಸಂಬೋಧನ** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे रुचे | हे रुची | हे रुचयः |ಹೇ ರುಚಿಯೇ <br/> <span style="font-size:0.9em;color:gray">हे रुचिये</span> |ಹೇ ರುಚಿಯಿಬ್ಬರೇ <br/> <span style="font-size:0.9em;color:gray">हे रुचियिब्बरे</span> |ಹೇ ರುಚಿಗಳರೇ <br/> <span style="font-size:0.9em;color:gray">हे रुचिगळरे</span> |
 
 **ಏವಮ್** \- ಮತಿ (ಬುದ್ಧಿಯು), ಕೀರ್ತಿ (ಯಶಸ್ಸು), ಭೂಮಿ (ನೇಲವು), ಶುದ್ಧಿ (ಶೌಚವು), ಶಕ್ತಿ (ಸಾಮರ್ಥ್ಯವು), ಭಕ್ತಿ (ಭಕ್ತಿಯು), ಶಾನ್ತಿ (ಶಾನ್ತಿಯು), ಬುದ್ಧಿ (ತಿಳುವಳಿಕೇಯು), ನೀತಿ (ಧರ್ಮವು), ಪ್ರೀತಿ (ಪ್ರೀತಿಯು) ।
 
 ### 6. ಈಕಾರಾನ್ತಃ ಸ್ತ್ರೀಲಿಙ್ಗಃ ನದೀ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | नदी | नद्यौ | नद्यः | ನದಿಯು | ನದಿಯಿಬ್ಬರು | ನದಿಗಳು |
-| **ದ್ವಿತೀಯಾ** | नदीम् | नद्यौ | नदीः | ನದಿಯನ್ನು | ನದಿಯಿಬ್ಬರನ್ನು | ನದಿಗಳನ್ನು |
-| **ತೃತೀಯಾ** | नद्या | नदीभ्याम् | नदीभिः | ನದಿಯಿನ್ದ | ನದಿಯಿಬ್ಬರಿನ್ದ | ನದಿಗಳಿನ್ದ |
-| **ಚತುರ್ಥೀ** | नद्यै | नदीभ्याम् | नदीभ्यः | ನದಿಯಿಗೇ | ನದಿಯಿಬ್ಬರಿಗೇ | ನದಿಗಳಿಗೇ |
-| **ಪಂಚಮೀ** | नद्याः | नदीभ्याम् | नदीभ्यः | ನದಿಯ ದೇಸೇಯಿನ್ದ | ನದಿಯಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ನದಿಗಳ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | नद्याः | नद्योः | नदीणाम् | ನದಿಯ | ನದಿಯಿಬ್ಬರ | ನದಿಗಳ |
-| **ಸಪ್ತಮೀ** | नद्याम् | नद्योः | नदीषु | ನದಿಯಲ್ಲಿ | ನದಿಯಿಬ್ಬರಲ್ಲಿ | ನದಿಗಳಲ್ಲಿ |
-| **ಸಂಬೋಧನ** | हे नदि | हे नद्यौ | हे नद्यः | ಹೇ ನದಿಯೇ | ಹೇ ನದಿಯಿಬ್ಬರೇ | ಹೇ ನದಿಗಳರೇ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | नदी | नद्यौ | नद्यः |ನದಿಯು <br/> <span style="font-size:0.9em;color:gray">नदियु</span> |ನದಿಯಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">नदियिब्बरु</span> |ನದಿಗಳು <br/> <span style="font-size:0.9em;color:gray">नदिगळु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | नदीम् | नद्यौ | नदीः |ನದಿಯನ್ನು <br/> <span style="font-size:0.9em;color:gray">नदियन्नु</span> |ನದಿಯಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">नदियिब्बरन्नु</span> |ನದಿಗಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">नदिगळन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | नद्या | नदीभ्याम् | नदीभिः |ನದಿಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नदियिन्द</span> |ನದಿಯಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नदियिब्बरिन्द</span> |ನದಿಗಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नदिगळिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | नद्यै | नदीभ्याम् | नदीभ्यः |ನದಿಯಿಗೇ <br/> <span style="font-size:0.9em;color:gray">नदियिगे</span> |ನದಿಯಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">नदियिब्बरिगे</span> |ನದಿಗಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">नदिगळिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | नद्याः | नदीभ्याम् | नदीभ्यः |ನದಿಯ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नदिय देसेयिन्द</span> |ನದಿಯಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नदियिब्बर देसेयिन्द</span> |ನದಿಗಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नदिगळ देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | नद्याः | नद्योः | नदीणाम् |ನದಿಯ <br/> <span style="font-size:0.9em;color:gray">नदिय</span> |ನದಿಯಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">नदियिब्बर</span> |ನದಿಗಳ <br/> <span style="font-size:0.9em;color:gray">नदिगळ</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | नद्याम् | नद्योः | नदीषु |ನದಿಯಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">नदियल्लि</span> |ನದಿಯಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">नदियिब्बरल्लि</span> |ನದಿಗಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">नदिगळल्लि</span> |
+|**ಸಂಬೋಧನ** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे नदि | हे नद्यौ | हे नद्यः |ಹೇ ನದಿಯೇ <br/> <span style="font-size:0.9em;color:gray">हे नदिये</span> |ಹೇ ನದಿಯಿಬ್ಬರೇ <br/> <span style="font-size:0.9em;color:gray">हे नदियिब्बरे</span> |ಹೇ ನದಿಗಳರೇ <br/> <span style="font-size:0.9em;color:gray">हे नदिगळरे</span> |
 
 **ಏವಮ್ \-** ಗೌರೀ (ಗೌರಿಯು), ಪಾರ್ವತೀ (ಪಾರ್ವತಿಯು), ಜನನೀ (ತಯಿಯು), ಭಗಿನೀ (ಸಹೋದರಿಯು), ಲಕ್ಷ್ಮೀ (ಲಕ್ಷ್ಮಿಯು), ಸರಸ್ವತೀ (ಸರಸ್ವತಿಯು), ನಗರೀ (ಪಟ್ಟಣವು), ವಾಣೀ (ಮಾತು), ದಾಸೀ (ಸೇವಕಿಯು), ದ್ರೋಣೀ (ದೋಣಿಯು) ।
 
 ### 7. ಅಕಾರಾನ್ತಃ ನಪುಂಸಕಲಿಙ್ಗಃ ಜ್ಞಾನ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | ज्ञानम् | ज्ञाने | ज्ञानानि | ಜ್ಞಾನವು | ಏರಡು ಜ್ಞಾನಗಳು | ಜ್ಞಾನಗಳು |
-| **ದ್ವಿತೀಯಾ** | ज्ञानम् | ज्ञाने | ज्ञानानि | ಜ್ಞಾನವನ್ನು | ಏರಡು ಜ್ಞಾನಗಳನ್ನು | ಜ್ಞಾನಗಳನ್ನು |
-| **ತೃತೀಯಾ** | ज्ञानेन | ज्ञानाभ्याम् | ज्ञानैः | ಜ್ಞಾನದಿನ್ದ | ಏರಡು ಜ್ಞಾನಗಳಿನ್ದ | ಜ್ಞಾನಗಳಿನ್ದ |
-| **ಚತುರ್ಥೀ** | ज्ञानाय | ज्ञानाभ्याम् | ज्ञानैभ्यः | ಜ್ಞಾನಕ್ಕೇ | ಏರಡು ಜ್ಞಾನಗಳಿಗೇ | ಜ್ಞಾನಗಳಿಗೇ |
-| **ಪಂಚಮೀ** | ज्ञानात् | ज्ञानाभ्याम् | ज्ञानैभ्यः | ಜ್ಞಾನದ ದೇಸೇಯಿನ್ದ | ಏರಡು ಜ್ಞಾನಗಳ ದೇಸೇಯಿನ್ದ | ಜ್ಞಾನಗಳ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | ज्ञानस्य | ज्ञानयोः | ज्ञानानाम् | ಜ್ಞಾನದ | ಏರಡು ಜ್ಞಾನಗಳ | ಜ್ಞಾನಗಳ |
-| **ಸಪ್ತಮೀ** | ज्ञाने | ज्ञानयोः | ज्ञानेषु | ಜ್ಞಾನದಲ್ಲಿ | ಏರಡು ಜ್ಞಾನಗಳಲ್ಲಿ | ಜ್ಞಾನಗಳಲ್ಲಿ |
-| **ಸಂಬೋಧನ** | हे ज्ञान | हे ज्ञाने | हे ज्ञानानि | ಹೇ ಜ್ಞಾನವೇ | ಹೇ ಏರಡು ಜ್ಞಾನಗಳರೇ | ಹೇ ಜ್ಞಾನಗಳರೇ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | ज्ञानम् | ज्ञाने | ज्ञानानि |ಜ್ಞಾನವು <br/> <span style="font-size:0.9em;color:gray">ज्ञानवु</span> |ಏರಡು ಜ್ಞಾನಗಳು <br/> <span style="font-size:0.9em;color:gray">एरडु ज्ञानगळु</span> |ಜ್ಞಾನಗಳು <br/> <span style="font-size:0.9em;color:gray">ज्ञानगळु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | ज्ञानम् | ज्ञाने | ज्ञानानि |ಜ್ಞಾನವನ್ನು <br/> <span style="font-size:0.9em;color:gray">ज्ञानवन्नु</span> |ಏರಡು ಜ್ಞಾನಗಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">एरडु ज्ञानगळन्नु</span> |ಜ್ಞಾನಗಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">ज्ञानगळन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | ज्ञानेन | ज्ञानाभ्याम् | ज्ञानैः |ಜ್ಞಾನದಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">ज्ञानदिन्द</span> |ಏರಡು ಜ್ಞಾನಗಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">एरडु ज्ञानगळिन्द</span> |ಜ್ಞಾನಗಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">ज्ञानगळिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | ज्ञानाय | ज्ञानाभ्याम् | ज्ञानैभ्यः |ಜ್ಞಾನಕ್ಕೇ <br/> <span style="font-size:0.9em;color:gray">ज्ञानक्के</span> |ಏರಡು ಜ್ಞಾನಗಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">एरडु ज्ञानगळिगे</span> |ಜ್ಞಾನಗಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">ज्ञानगळिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | ज्ञानात् | ज्ञानाभ्याम् | ज्ञानैभ्यः |ಜ್ಞಾನದ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">ज्ञानद देसेयिन्द</span> |ಏರಡು ಜ್ಞಾನಗಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">एरडु ज्ञानगळ देसेयिन्द</span> |ಜ್ಞಾನಗಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">ज्ञानगळ देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | ज्ञानस्य | ज्ञानयोः | ज्ञानानाम् |ಜ್ಞಾನದ <br/> <span style="font-size:0.9em;color:gray">ज्ञानद</span> |ಏರಡು ಜ್ಞಾನಗಳ <br/> <span style="font-size:0.9em;color:gray">एरडु ज्ञानगळ</span> |ಜ್ಞಾನಗಳ <br/> <span style="font-size:0.9em;color:gray">ज्ञानगळ</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | ज्ञाने | ज्ञानयोः | ज्ञानेषु |ಜ್ಞಾನದಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">ज्ञानदल्लि</span> |ಏರಡು ಜ್ಞಾನಗಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">एरडु ज्ञानगळल्लि</span> |ಜ್ಞಾನಗಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">ज्ञानगळल्लि</span> |
+|**ಸಂಬೋಧನ** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे ज्ञान | हे ज्ञाने | हे ज्ञानानि |ಹೇ ಜ್ಞಾನವೇ <br/> <span style="font-size:0.9em;color:gray">हे ज्ञानवे</span> |ಹೇ ಏರಡು ಜ್ಞಾನಗಳರೇ <br/> <span style="font-size:0.9em;color:gray">हे एरडु ज्ञानगळरे</span> |ಹೇ ಜ್ಞಾನಗಳರೇ <br/> <span style="font-size:0.9em;color:gray">हे ज्ञानगळरे</span> |
 
 **ಏವಮ್** ಫಲ (ಹಣ್ಣು), ವನ (ಕಾಡು), ಜಲ (ನೀರು), ಪುಷ್ಪ (ಹೂವು), ಪುಸ್ತಕ (ಪುಸ್ತಕ), ಪತ್ರ (ಏಲೇ), ನೇತ್ರ (ಕಣ್ಣು), ಗೃಹ (ಮನೇ), ಮುಖ (ಮೋರೇ/ಮುಖ), ಕಮಲ (ತಾಮರೇ) ।
 
 ### 8. ದಕಾರಾನ್ತಃ ಪುಲ್ಲಿಙ್ಗಃ ತದ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | सः | तौ | ते | ಅವನು | ಅವರಿಬ್ಬರು | ಅವರು |
-| **ದ್ವಿತೀಯಾ** | तम् | तौ | तान् | ಅವನನ್ನು | ಅವರಿಬ್ಬರನ್ನು | ಅವರನ್ನು |
-| **ತೃತೀಯಾ** | तेन | ताभ्याम् | तैः | ಅವನಿನಿನ್ದ | ಅವರಿಬ್ಬರಿನ್ದ | ಅವರಿನ್ದ |
-| **ಚತುರ್ಥೀ** | तस्मै | ताभ्याम् | तेभ्यः | ಅವನಿಗೇ | ಅವರಿಬ್ಬರಿಗೇ | ಅವರಿಗೇ |
-| **ಪಂಚಮೀ** | तस्मात् | ताभ्याम् | तेभ्यः | ಅವನ ದೇಸೇಯಿನ್ದ | ಅವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ಅವರ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | तस्य | तयोः | तेषाम् | ಅವನ | ಅವರಿಬ್ಬರ | ಅವರ |
-| **ಸಪ್ತಮೀ** | तस्मिन् | तयोः | तेषु | ಅವನಲ್ಲಿ | ಅವರಿಬ್ಬರಲ್ಲಿ | ಅವರಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | सः | तौ | ते |ಅವನು <br/> <span style="font-size:0.9em;color:gray">अवनु</span> |ಅವರಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">अवरिब्बरु</span> |ಅವರು <br/> <span style="font-size:0.9em;color:gray">अवरु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | तम् | तौ | तान् |ಅವನನ್ನು <br/> <span style="font-size:0.9em;color:gray">अवनन्नु</span> |ಅವರಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">अवरिब्बरन्नु</span> |ಅವರನ್ನು <br/> <span style="font-size:0.9em;color:gray">अवरन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | तेन | ताभ्याम् | तैः |ಅವನಿನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवनिनिन्द</span> |ಅವರಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवरिब्बरिन्द</span> |ಅವರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवरिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | तस्मै | ताभ्याम् | तेभ्यः |ಅವನಿಗೇ <br/> <span style="font-size:0.9em;color:gray">अवनिगे</span> |ಅವರಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">अवरिब्बरिगे</span> |ಅವರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">अवरिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | तस्मात् | ताभ्याम् | तेभ्यः |ಅವನ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवन देसेयिन्द</span> |ಅವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवरिब्बर देसेयिन्द</span> |ಅವರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवर देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | तस्य | तयोः | तेषाम् |ಅವನ <br/> <span style="font-size:0.9em;color:gray">अवन</span> |ಅವರಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">अवरिब्बर</span> |ಅವರ <br/> <span style="font-size:0.9em;color:gray">अवर</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | तस्मिन् | तयोः | तेषु |ಅವನಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">अवनल्लि</span> |ಅವರಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">अवरिब्बरल्लि</span> |ಅವರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">अवरल्लि</span> |
 
 
 ### 9. ದಕಾರಾನ್ತಃ ಸ್ತ್ರೀಲಿಙ್ಗಃ ತದ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | सा | ते | ताः | ಅವಳು | ಅವರಿಬ್ಬರು | ಅವರು |
-| **ದ್ವಿತೀಯಾ** | ताम् | ते | ताः | ಅವಳನ್ನು | ಅವರಿಬ್ಬರನ್ನು | ಅವರನ್ನು |
-| **ತೃತೀಯಾ** | तया | ताभ्याम् | ताभिः | ಅವಳಿನ್ದ | ಅವರಿಬ್ಬರಿನ್ದ | ಅವರಿನ್ದ |
-| **ಚತುರ್ಥೀ** | तस्यै | ताभ्याम् | ताभ्यः | ಅವಳಿಗೇ | ಅವರಿಬ್ಬರಿಗೇ | ಅವರಿಗೇ |
-| **ಪಂಚಮೀ** | तस्याः | ताभ्याम् | ताभ्यः | ಅವಳ ದೇಸೇಯಿನ್ದ | ಅವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ಅವರ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | तस्याः | तयोः | तासाम् | ಅವಳ | ಅವರಿಬ್ಬರ | ಅವರ |
-| **ಸಪ್ತಮೀ** | तस्याम् | तयोः | तासु | ಅವಳಲ್ಲಿ | ಅವರಿಬ್ಬರಲ್ಲಿ | ಅವರಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | सा | ते | ताः |ಅವಳು <br/> <span style="font-size:0.9em;color:gray">अवळु</span> |ಅವರಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">अवरिब्बरु</span> |ಅವರು <br/> <span style="font-size:0.9em;color:gray">अवरु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | ताम् | ते | ताः |ಅವಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">अवळन्नु</span> |ಅವರಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">अवरिब्बरन्नु</span> |ಅವರನ್ನು <br/> <span style="font-size:0.9em;color:gray">अवरन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | तया | ताभ्याम् | ताभिः |ಅವಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवळिन्द</span> |ಅವರಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवरिब्बरिन्द</span> |ಅವರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवरिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | तस्यै | ताभ्याम् | ताभ्यः |ಅವಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">अवळिगे</span> |ಅವರಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">अवरिब्बरिगे</span> |ಅವರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">अवरिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | तस्याः | ताभ्याम् | ताभ्यः |ಅವಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवळ देसेयिन्द</span> |ಅವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवरिब्बर देसेयिन्द</span> |ಅವರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवर देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | तस्याः | तयोः | तासाम् |ಅವಳ <br/> <span style="font-size:0.9em;color:gray">अवळ</span> |ಅವರಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">अवरिब्बर</span> |ಅವರ <br/> <span style="font-size:0.9em;color:gray">अवर</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | तस्याम् | तयोः | तासु |ಅವಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">अवळल्लि</span> |ಅವರಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">अवरिब्बरल्लि</span> |ಅವರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">अवरल्लि</span> |
 
 
 ### 10. ದಕಾರಾನ್ತಃ ನಪುಂಸಕಲಿಙ್ಗಃ ತದ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | तत् | ते | तानि | ಅದು | ಅವು ಏರಡು | ಅವುಗಳು |
-| **ದ್ವಿತೀಯಾ** | तत् | ते | तानि | ಅದರನ್ನು | ಅವು ಏರಡನ್ನು | ಅವುಗಳನ್ನು |
-| **ತೃತೀಯಾ** | तेन | ताभ्याम् | तैः | ಅದರಿನ್ದ | ಅವು ಏರಡರಿನ್ದ | ಅವುಗಳಿನ್ದ |
-| **ಚತುರ್ಥೀ** | तस्मै | ताभ्याम् | तेभ्यः | ಅದರಿಗೇ | ಅವು ಏರಡರಿಗೇ | ಅವುಗಳಿಗೇ |
-| **ಪಂಚಮೀ** | तस्मात् | ताभ्याम् | तेभ्यः | ಅದರ ದೇಸೇಯಿನ್ದ | ಅವು ಏರಡರ ದೇಸೇಯಿನ್ದ | ಅವುಗಳ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | तस्य | तयोः | तेषाम् | ಅದರ | ಅವು ಏರಡರ | ಅವುಗಳ |
-| **ಸಪ್ತಮೀ** | तस्मिन् | तयोः | तेषु | ಅದರಲ್ಲಿ | ಅವು ಏರಡರಲ್ಲಿ | ಅವುಗಳಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | तत् | ते | तानि |ಅದು <br/> <span style="font-size:0.9em;color:gray">अदु</span> |ಅವು ಏರಡು <br/> <span style="font-size:0.9em;color:gray">अवु एरडु</span> |ಅವುಗಳು <br/> <span style="font-size:0.9em;color:gray">अवुगळु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | तत् | ते | तानि |ಅದರನ್ನು <br/> <span style="font-size:0.9em;color:gray">अदरन्नु</span> |ಅವು ಏರಡನ್ನು <br/> <span style="font-size:0.9em;color:gray">अवु एरडन्नु</span> |ಅವುಗಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">अवुगळन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | तेन | ताभ्याम् | तैः |ಅದರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अदरिन्द</span> |ಅವು ಏರಡರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवु एरडरिन्द</span> |ಅವುಗಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवुगळिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | तस्मै | ताभ्याम् | तेभ्यः |ಅದರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">अदरिगे</span> |ಅವು ಏರಡರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">अवु एरडरिगे</span> |ಅವುಗಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">अवुगळिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | तस्मात् | ताभ्याम् | तेभ्यः |ಅದರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अदर देसेयिन्द</span> |ಅವು ಏರಡರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवु एरडर देसेयिन्द</span> |ಅವುಗಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">अवुगळ देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | तस्य | तयोः | तेषाम् |ಅದರ <br/> <span style="font-size:0.9em;color:gray">अदर</span> |ಅವು ಏರಡರ <br/> <span style="font-size:0.9em;color:gray">अवु एरडर</span> |ಅವುಗಳ <br/> <span style="font-size:0.9em;color:gray">अवुगळ</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | तस्मिन् | तयोः | तेषु |ಅದರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">अदरल्लि</span> |ಅವು ಏರಡರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">अवु एरडरल्लि</span> |ಅವುಗಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">अवुगळल्लि</span> |
 
 
 ### 11. ಮಕಾರಾನ್ತಃ ಪುಲ್ಲಿಙ್ಗಃ ಕಿಮ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | कः | कौ | के | ಯಾವನು | ಯಾರಿಬ್ಬರು | ಯಾರರು |
-| **ದ್ವಿತೀಯಾ** | कम् | कौ | कान् | ಯಾರನ್ನು | ಯಾರಿಬ್ಬರನ್ನು | ಯಾರನ್ನು |
-| **ತೃತೀಯಾ** | केन | काभ्याम् | कैः | ಯಾರಿನಿನ್ದ | ಯಾರಿಬ್ಬರಿನ್ದ | ಯಾರರಿನ್ದ |
-| **ಚತುರ್ಥೀ** | कस्मै | काभ्याम् | केभ्यः | ಯಾರಿಗೇ | ಯಾರಿಬ್ಬರಿಗೇ | ಯಾರರಿಗೇ |
-| **ಪಂಚಮೀ** | कस्मात् | काभ्याम् | केभ्यः | ಯಾರ ದೇಸೇಯಿನ್ದ | ಯಾರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ಯಾರ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | कस्य | कयोः | केषाम् | ಯಾರ | ಯಾರಿಬ್ಬರ | ಯಾರ |
-| **ಸಪ್ತಮೀ** | कस्मिन् | कयोः | केषु | ಯಾರಲ್ಲಿ | ಯಾರಿಬ್ಬರಲ್ಲಿ | ಯಾರಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | कः | कौ | के |ಯಾವನು <br/> <span style="font-size:0.9em;color:gray">यावनु</span> |ಯಾರಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">यारिब्बरु</span> |ಯಾರರು <br/> <span style="font-size:0.9em;color:gray">याररु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | कम् | कौ | कान् |ಯಾರನ್ನು <br/> <span style="font-size:0.9em;color:gray">यारन्नु</span> |ಯಾರಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">यारिब्बरन्नु</span> |ಯಾರನ್ನು <br/> <span style="font-size:0.9em;color:gray">यारन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | केन | काभ्याम् | कैः |ಯಾರಿನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यारिनिन्द</span> |ಯಾರಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यारिब्बरिन्द</span> |ಯಾರರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">याररिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | कस्मै | काभ्याम् | केभ्यः |ಯಾರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">यारिगे</span> |ಯಾರಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">यारिब्बरिगे</span> |ಯಾರರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">याररिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | कस्मात् | काभ्याम् | केभ्यः |ಯಾರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यार देसेयिन्द</span> |ಯಾರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यारिब्बर देसेयिन्द</span> |ಯಾರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यार देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | कस्य | कयोः | केषाम् |ಯಾರ <br/> <span style="font-size:0.9em;color:gray">यार</span> |ಯಾರಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">यारिब्बर</span> |ಯಾರ <br/> <span style="font-size:0.9em;color:gray">यार</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | कस्मिन् | कयोः | केषु |ಯಾರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">यारल्लि</span> |ಯಾರಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">यारिब्बरल्लि</span> |ಯಾರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">यारल्लि</span> |
 
 
 ### 12. ಮಕಾರಾನ್ತಃ ಸ್ತ್ರೀಲಿಙ್ಗಃ ಕಿಮ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | का | के | काः | ಯಾವಳು | ಯಾರಿಬ್ಬರು | ಯಾರರು |
-| **ದ್ವಿತೀಯಾ** | काम् | के | काः | ಯಾರನ್ನು | ಯಾರಿಬ್ಬರನ್ನು | ಯಾರನ್ನು |
-| **ತೃತೀಯಾ** | कया | काभ्याम् | काभिः | ಯಾರಿನಿನ್ದ | ಯಾರಿಬ್ಬರಿನ್ದ | ಯಾರರಿನ್ದ |
-| **ಚತುರ್ಥೀ** | कस्यै | काभ्याम् | काभ्यः | ಯಾರನಿಗೇ | ಯಾರಿಬ್ಬರಿಗೇ | ಯಾರರಿಗೇ |
-| **ಪಂಚಮೀ** | कस्याः | काभ्याम् | काभ्यः | ಯಾರ ದೇಸೇಯಿನ್ದ | ಯಾರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ಯಾರ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | कस्याः | कयोः | कासाम् | ಯಾರ | ಯಾರಿಬ್ಬರ | ಯಾರ |
-| **ಸಪ್ತಮೀ** | कस्याम् | कयोः | कासु | ಯಾರಲ್ಲಿ | ಯಾರಿಬ್ಬರಲ್ಲಿ | ಯಾರಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | का | के | काः |ಯಾವಳು <br/> <span style="font-size:0.9em;color:gray">यावळु</span> |ಯಾರಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">यारिब्बरु</span> |ಯಾರರು <br/> <span style="font-size:0.9em;color:gray">याररु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | काम् | के | काः |ಯಾರನ್ನು <br/> <span style="font-size:0.9em;color:gray">यारन्नु</span> |ಯಾರಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">यारिब्बरन्नु</span> |ಯಾರನ್ನು <br/> <span style="font-size:0.9em;color:gray">यारन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | कया | काभ्याम् | काभिः |ಯಾರಿನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यारिनिन्द</span> |ಯಾರಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यारिब्बरिन्द</span> |ಯಾರರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">याररिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | कस्यै | काभ्याम् | काभ्यः |ಯಾರನಿಗೇ <br/> <span style="font-size:0.9em;color:gray">यारनिगे</span> |ಯಾರಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">यारिब्बरिगे</span> |ಯಾರರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">याररिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | कस्याः | काभ्याम् | काभ्यः |ಯಾರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यार देसेयिन्द</span> |ಯಾರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यारिब्बर देसेयिन्द</span> |ಯಾರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यार देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | कस्याः | कयोः | कासाम् |ಯಾರ <br/> <span style="font-size:0.9em;color:gray">यार</span> |ಯಾರಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">यारिब्बर</span> |ಯಾರ <br/> <span style="font-size:0.9em;color:gray">यार</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | कस्याम् | कयोः | कासु |ಯಾರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">यारल्लि</span> |ಯಾರಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">यारिब्बरल्लि</span> |ಯಾರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">यारल्लि</span> |
 
 
 ### 13. ಮಕಾರಾನ್ತಃ ನಪುಂಸಕಲಿಙ್ಗಃ ಕಿಮ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | किम् | के | कानि | ಏನು/ಯಾವುದು | ಯಾವೇರಡು | ಯಾವುಗಳು |
-| **ದ್ವಿತೀಯಾ** | किम् | के | कानि | ಏನನ್ನು/ಯಾವುದನ್ನು | ಯಾವೇರಡನ್ನು | ಯಾವುಗಳನ್ನು |
-| **ತೃತೀಯಾ** | केन | काभ्याम् | कैः | ಯಾವದರಿನ್ದ | ಯಾವೇರಡರಿನಿನ್ದ | ಯಾವುಗಳಿನ್ದ |
-| **ಚತುರ್ಥೀ** | कस्मै | काभ्याम् | केभ्यः | ಯಾವದರಿಗೇ | ಯಾವೇರಡರಿನಿಗೇ | ಯಾವುಗಳಿಗೇ |
-| **ಪಂಚಮೀ** | कस्मात् | काभ्याम् | केभ्यः | ಯಾವದರ ದೇಸೇಯಿನ್ದ | ಯಾವೇರಡರ ದೇಸೇಯಿನ್ದ | ಯಾವುಗಳ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | कस्य | कयोः | केषाम् | ಯಾವದರ | ಯಾವೇರಡರ | ಯಾವುಗಳ |
-| **ಸಪ್ತಮೀ** | कस्मिन् | कयोः | केषु | ಯಾವದರಲ್ಲಿ | ಯಾವೇರಡರಲ್ಲಿ | ಯಾವುಗಳಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | किम् | के | कानि |ಏನು/ಯಾವುದು <br/> <span style="font-size:0.9em;color:gray">एनु/यावुदु</span> |ಯಾವೇರಡು <br/> <span style="font-size:0.9em;color:gray">यावेरडु</span> |ಯಾವುಗಳು <br/> <span style="font-size:0.9em;color:gray">यावुगळु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | किम् | के | कानि |ಏನನ್ನು/ಯಾವುದನ್ನು <br/> <span style="font-size:0.9em;color:gray">एनन्नु/यावुदन्नु</span> |ಯಾವೇರಡನ್ನು <br/> <span style="font-size:0.9em;color:gray">यावेरडन्नु</span> |ಯಾವುಗಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">यावुगळन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | केन | काभ्याम् | कैः |ಯಾವದರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यावदरिन्द</span> |ಯಾವೇರಡರಿನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यावेरडरिनिन्द</span> |ಯಾವುಗಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यावुगळिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | कस्मै | काभ्याम् | केभ्यः |ಯಾವದರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">यावदरिगे</span> |ಯಾವೇರಡರಿನಿಗೇ <br/> <span style="font-size:0.9em;color:gray">यावेरडरिनिगे</span> |ಯಾವುಗಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">यावुगळिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | कस्मात् | काभ्याम् | केभ्यः |ಯಾವದರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यावदर देसेयिन्द</span> |ಯಾವೇರಡರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यावेरडर देसेयिन्द</span> |ಯಾವುಗಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">यावुगळ देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | कस्य | कयोः | केषाम् |ಯಾವದರ <br/> <span style="font-size:0.9em;color:gray">यावदर</span> |ಯಾವೇರಡರ <br/> <span style="font-size:0.9em;color:gray">यावेरडर</span> |ಯಾವುಗಳ <br/> <span style="font-size:0.9em;color:gray">यावुगळ</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | कस्मिन् | कयोः | केषु |ಯಾವದರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">यावदरल्लि</span> |ಯಾವೇರಡರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">यावेरडरल्लि</span> |ಯಾವುಗಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">यावुगळल्लि</span> |
 
 
 ### 14. ಮಕಾರಾನ್ತಃ ಪುಲ್ಲಿಙ್ಗಃ ಇದಮ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | अयम् | इमौ | इमे | ಇವನು | ಇವರಿಬ್ಬರು | ಇವರು |
-| **ದ್ವಿತೀಯಾ** | इमम् / एनम् | इमौ / एनौ | इमान् / एनान् | ಇವನನ್ನು | ಇವರಿಬ್ಬರನ್ನು | ಇವರನ್ನು |
-| **ತೃತೀಯಾ** | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः | ಇವನಿನಿನ್ದ | ಇವರಿಬ್ಬರಿನ್ದ | ಇವರಿನ್ದ |
-| **ಚತುರ್ಥೀ** | अस्मै | आभ्याम् | एभ्यः | ಇವನಿಗೇ | ಇವರಿಬ್ಬರಿಗೇ | ಇವರಿಗೇ |
-| **ಪಂಚಮೀ** | अस्मात् | आभ्याम् | एभ्यः | ಇವನ ದೇಸೇಯಿನ್ದ | ಇವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ಇವರ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | अस्य | अनयोः / एनयोः | एषाम् | ಇವನ | ಇವರಿಬ್ಬರ | ಇವರ |
-| **ಸಪ್ತಮೀ** | अस्मिन् | अनयोः / एनयोः | एषु | ಇವನಲ್ಲಿ | ಇವರಿಬ್ಬರಲ್ಲಿ | ಇವರಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | अयम् | इमौ | इमे |ಇವನು <br/> <span style="font-size:0.9em;color:gray">इवनु</span> |ಇವರಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरु</span> |ಇವರು <br/> <span style="font-size:0.9em;color:gray">इवरु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | इमम् / एनम् | इमौ / एनौ | इमान् / एनान् |ಇವನನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवनन्नु</span> |ಇವರಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरन्नु</span> |ಇವರನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवरन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः |ಇವನಿನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवनिनिन्द</span> |ಇವರಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरिन्द</span> |ಇವರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | अस्मै | आभ्याम् | एभ्यः |ಇವನಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवनिगे</span> |ಇವರಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरिगे</span> |ಇವರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवरिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | अस्मात् | आभ्याम् | एभ्यः |ಇವನ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवन देसेयिन्द</span> |ಇವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बर देसेयिन्द</span> |ಇವರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवर देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | अस्य | अनयोः / एनयोः | एषाम् |ಇವನ <br/> <span style="font-size:0.9em;color:gray">इवन</span> |ಇವರಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बर</span> |ಇವರ <br/> <span style="font-size:0.9em;color:gray">इवर</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | अस्मिन् | अनयोः / एनयोः | एषु |ಇವನಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवनल्लि</span> |ಇವರಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरल्लि</span> |ಇವರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवरल्लि</span> |
 
 
 ### 15. ಮಕಾರಾನ್ತಃ ಸ್ತ್ರೀಲಿಙ್ಗಃ ಇದಮ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | इयम् | इमे | इमाः | ಇವಳು | ಇವರಿಬ್ಬರು | ಇವರು |
-| **ದ್ವಿತೀಯಾ** | इमाम् / एनाम् | इमे / एने | इमाः / एनाः | ಇವಳನ್ನು | ಇವರಿಬ್ಬರನ್ನು | ಇವರನ್ನು |
-| **ತೃತೀಯಾ** | अनया / एनया | आभ्याम् / एनाभ्याम् | आभिः | ಇವಳಿನ್ದ | ಇವರಿಬ್ಬರಿನ್ದ | ಇವರಿನ್ದ |
-| **ಚತುರ್ಥೀ** | अस्यै | आभ्याम् | आभ्यः | ಇವಳಿಗೇ | ಇವರಿಬ್ಬರಿಗೇ | ಇವರಿಗೇ |
-| **ಪಂಚಮೀ** | अस्याः | आभ्याम् | आभ्यः | ಇವಳ ದೇಸೇಯಿನ್ದ | ಇವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ಇವರ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | अस्याः | अनयोः / एनयोः | आसाम् | ಇವಳ | ಇವರಿಬ್ಬರ | ಇವರ |
-| **ಸಪ್ತಮೀ** | अस्याम् | अनयोः / एनयोः | आसु | ಇವಳಲ್ಲಿ | ಇವರಿಬ್ಬರಲ್ಲಿ | ಇವರಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | इयम् | इमे | इमाः |ಇವಳು <br/> <span style="font-size:0.9em;color:gray">इवळु</span> |ಇವರಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरु</span> |ಇವರು <br/> <span style="font-size:0.9em;color:gray">इवरु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | इमाम् / एनाम् | इमे / एने | इमाः / एनाः |ಇವಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवळन्नु</span> |ಇವರಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरन्नु</span> |ಇವರನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवरन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | अनया / एनया | आभ्याम् / एनाभ्याम् | आभिः |ಇವಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवळिन्द</span> |ಇವರಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरिन्द</span> |ಇವರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | अस्यै | आभ्याम् | आभ्यः |ಇವಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवळिगे</span> |ಇವರಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरिगे</span> |ಇವರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवरिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | अस्याः | आभ्याम् | आभ्यः |ಇವಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवळ देसेयिन्द</span> |ಇವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बर देसेयिन्द</span> |ಇವರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवर देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | अस्याः | अनयोः / एनयोः | आसाम् |ಇವಳ <br/> <span style="font-size:0.9em;color:gray">इवळ</span> |ಇವರಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बर</span> |ಇವರ <br/> <span style="font-size:0.9em;color:gray">इवर</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | अस्याम् | अनयोः / एनयोः | आसु |ಇವಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवळल्लि</span> |ಇವರಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरल्लि</span> |ಇವರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवरल्लि</span> |
 
 
 ### 16. ಮಕಾರಾನ್ತಃ ನಪುಂಸಕಲಿಙ್ಗಃ ಇದಮ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | इदम् | इमे | इमानि | ಇದು | ಇವೇರಡು | ಇವುಗಳು |
-| **ದ್ವಿತೀಯಾ** | इदम् / एनत् | इमे / एने | इमानि / एनानि | ಇದರನ್ನು | ಇವೇರಡನ್ನು | ಇವುಗಳನ್ನು |
-| **ತೃತೀಯಾ** | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः | ಇದರಿನ್ದ | ಇವೇರಡರಿನಿನ್ದ | ಇವುಗಳಿನ್ದ |
-| **ಚತುರ್ಥೀ** | अस्मै | आभ्याम् | एभ्यः | ಇದರಿಗೇ | ಇವೇರಡರಿನಿಗೇ | ಇವುಗಳಿಗೇ |
-| **ಪಂಚಮೀ** | अस्मात् | आभ्याम् | एभ्यः | ಇದರ ದೇಸೇಯಿನ್ದ | ಇವೇರಡರ ದೇಸೇಯಿನ್ದ | ಇವುಗಳ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | अस्य | अनयोः / एनयोः | एषाम् | ಇದರ | ಇವೇರಡರ | ಇವುಗಳ |
-| **ಸಪ್ತಮೀ** | अस्मिन् | अनयोः / एनयोः | एषु | ಇದರಲ್ಲಿ | ಇವೇರಡರಲ್ಲಿ | ಇವುಗಳಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | इदम् | इमे | इमानि |ಇದು <br/> <span style="font-size:0.9em;color:gray">इदु</span> |ಇವೇರಡು <br/> <span style="font-size:0.9em;color:gray">इवेरडु</span> |ಇವುಗಳು <br/> <span style="font-size:0.9em;color:gray">इवुगळु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | इदम् / एनत् | इमे / एने | इमानि / एनानि |ಇದರನ್ನು <br/> <span style="font-size:0.9em;color:gray">इदरन्नु</span> |ಇವೇರಡನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवेरडन्नु</span> |ಇವುಗಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवुगळन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः |ಇದರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इदरिन्द</span> |ಇವೇರಡರಿನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवेरडरिनिन्द</span> |ಇವುಗಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवुगळिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | अस्मै | आभ्याम् | एभ्यः |ಇದರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इदरिगे</span> |ಇವೇರಡರಿನಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवेरडरिनिगे</span> |ಇವುಗಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवुगळिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | अस्मात् | आभ्याम् | एभ्यः |ಇದರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इदर देसेयिन्द</span> |ಇವೇರಡರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवेरडर देसेयिन्द</span> |ಇವುಗಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवुगळ देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | अस्य | अनयोः / एनयोः | एषाम् |ಇದರ <br/> <span style="font-size:0.9em;color:gray">इदर</span> |ಇವೇರಡರ <br/> <span style="font-size:0.9em;color:gray">इवेरडर</span> |ಇವುಗಳ <br/> <span style="font-size:0.9em;color:gray">इवुगळ</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | अस्मिन् | अनयोः / एनयोः | एषु |ಇದರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इदरल्लि</span> |ಇವೇರಡರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवेरडरल्लि</span> |ಇವುಗಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवुगळल्लि</span> |
 
 
 ### 17. ದಕಾರಾನ್ತಃ ಪುಲ್ಲಿಙ್ಗಃ ಏತದ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | एषः | एतौ | एते | ಇವನು | ಇವರಿಬ್ಬರು | ಇವರು |
-| **ದ್ವಿತೀಯಾ** | एतम् / एनम् | एतौ / एनौ | एतान् / एनान् | ಇವನನ್ನು | ಇವರಿಬ್ಬರನ್ನು | ಇವರನ್ನು |
-| **ತೃತೀಯಾ** | एतेन / एनेन | एताभ्याम् | एतैः | ಇವನಿನ್ದ | ಇವರಿಬ್ಬರಿನ್ದ | ಇವರಿನ್ದ |
-| **ಚತುರ್ಥೀ** | एतस्मै | एताभ्याम् | एतेभ्यः | ಇವನಿಗೇ | ಇವರಿಬ್ಬರಿಗೇ | ಇವರಿಗೇ |
-| **ಪಂಚಮೀ** | एतस्मात् | एताभ्याम् | एतेभ्यः | ಇವನ ದೇಸೇಯಿನ್ದ | ಇವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ಇವರ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | एतस्य | एतयोः / एनयोः | एतेषाम् | ಇವನ | ಇವರಿಬ್ಬರ | ಇವರ |
-| **ಸಪ್ತಮೀ** | एतस्मिन् | एतयोः / एनयोः | एतेषु | ಇವನಲ್ಲಿ | ಇವರಿಬ್ಬರಲ್ಲಿ | ಇವರಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | एषः | एतौ | एते |ಇವನು <br/> <span style="font-size:0.9em;color:gray">इवनु</span> |ಇವರಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरु</span> |ಇವರು <br/> <span style="font-size:0.9em;color:gray">इवरु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | एतम् / एनम् | एतौ / एनौ | एतान् / एनान् |ಇವನನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवनन्नु</span> |ಇವರಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरन्नु</span> |ಇವರನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवरन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | एतेन / एनेन | एताभ्याम् | एतैः |ಇವನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवनिन्द</span> |ಇವರಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरिन्द</span> |ಇವರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | एतस्मै | एताभ्याम् | एतेभ्यः |ಇವನಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवनिगे</span> |ಇವರಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरिगे</span> |ಇವರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवरिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | एतस्मात् | एताभ्याम् | एतेभ्यः |ಇವನ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवन देसेयिन्द</span> |ಇವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बर देसेयिन्द</span> |ಇವರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवर देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | एतस्य | एतयोः / एनयोः | एतेषाम् |ಇವನ <br/> <span style="font-size:0.9em;color:gray">इवन</span> |ಇವರಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बर</span> |ಇವರ <br/> <span style="font-size:0.9em;color:gray">इवर</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | एतस्मिन् | एतयोः / एनयोः | एतेषु |ಇವನಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवनल्लि</span> |ಇವರಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरल्लि</span> |ಇವರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवरल्लि</span> |
 
 
 ### 18. ದಕಾರಾನ್ತಃ ಸ್ತ್ರೀಲಿಙ್ಗಃ ಏತದ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | एषा | एते | एताः | ಇವಳು | ಇವರಿಬ್ಬರು | ಇವರು |
-| **ದ್ವಿತೀಯಾ** | एताम् / एनाम् | एते / एने | एताः / एनाः | ಇವಳನ್ನು | ಇವರಿಬ್ಬರನ್ನು | ಇವರನ್ನು |
-| **ತೃತೀಯಾ** | एतया / एनया | एताभ्याम् | एताभिः | ಇವಳಿನ್ದ | ಇವರಿಬ್ಬರಿನ್ದ | ಇವರಿನ್ದ |
-| **ಚತುರ್ಥೀ** | एतस्यै | एताभ्याम् | एताभ्यः | ಇವಳಿಗೇ | ಇವರಿಬ್ಬರಿಗೇ | ಇವರಿಗೇ |
-| **ಪಂಚಮೀ** | एतस्याः | एताभ्याम् | एताभ्यः | ಇವಳ ದೇಸೇಯಿನ್ದ | ಇವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ಇವರ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | एतस्याः | एतयोः / एनयोः | एतासाम् | ಇವಳ | ಇವರಿಬ್ಬರ | ಇವರ |
-| **ಸಪ್ತಮೀ** | एतस्याम् | एतयोः / एनयोः | एतासु | ಇವಳಲ್ಲಿ | ಇವರಿಬ್ಬರಲ್ಲಿ | ಇವರಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | एषा | एते | एताः |ಇವಳು <br/> <span style="font-size:0.9em;color:gray">इवळु</span> |ಇವರಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरु</span> |ಇವರು <br/> <span style="font-size:0.9em;color:gray">इवरु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | एताम् / एनाम् | एते / एने | एताः / एनाः |ಇವಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवळन्नु</span> |ಇವರಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरन्नु</span> |ಇವರನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवरन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | एतया / एनया | एताभ्याम् | एताभिः |ಇವಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवळिन्द</span> |ಇವರಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरिन्द</span> |ಇವರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | एतस्यै | एताभ्याम् | एताभ्यः |ಇವಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवळिगे</span> |ಇವರಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरिगे</span> |ಇವರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवरिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | एतस्याः | एताभ्याम् | एताभ्यः |ಇವಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवळ देसेयिन्द</span> |ಇವರಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बर देसेयिन्द</span> |ಇವರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवर देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | एतस्याः | एतयोः / एनयोः | एतासाम् |ಇವಳ <br/> <span style="font-size:0.9em;color:gray">इवळ</span> |ಇವರಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बर</span> |ಇವರ <br/> <span style="font-size:0.9em;color:gray">इवर</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | एतस्याम् | एतयोः / एनयोः | एतासु |ಇವಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवळल्लि</span> |ಇವರಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवरिब्बरल्लि</span> |ಇವರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवरल्लि</span> |
 
 
 ### 19. ದಕಾರಾನ್ತಃ ನಪುಂಸಕಲಿಙ್ಗಃ ಏತದ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | एतत् | एते | एतानि | ಇದು | ಇವೇರಡು | ಇವುಗಳು |
-| **ದ್ವಿತೀಯಾ** | एतत् / एनत् | एते / एने | एतानि / एनानि | ಇದರನ್ನು | ಇವೇರಡನ್ನು | ಇವುಗಳನ್ನು |
-| **ತೃತೀಯಾ** | एतेन / एनेन | एताभ्याम् | एतैः | ಇದರಿನ್ದ | ಇವೇರಡರಿನಿನ್ದ | ಇವುಗಳಿನ್ದ |
-| **ಚತುರ್ಥೀ** | एतस्मै | एताभ्याम् | एतेभ्यः | ಇದರಿಗೇ | ಇವೇರಡರಿಗೇ | ಇವುಗಳಿಗೇ |
-| **ಪಂಚಮೀ** | एतस्मात् | एताभ्याम् | एतेभ्यः | ಇದರ ದೇಸೇಯಿನ್ದ | ಇವೇರಡರ ದೇಸೇಯಿನ್ದ | ಇವುಗಳ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | एतस्य | एतयोः / एनयोः | एतेषाम् | ಇದರ | ಇವೇರಡರ | ಇವುಗಳ |
-| **ಸಪ್ತಮೀ** | एतस्मिन् | एतयोः / एनयोः | एतेषु | ಇದರಲ್ಲಿ | ಇವೇರಡರಲ್ಲಿ | ಇವುಗಳಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | एतत् | एते | एतानि |ಇದು <br/> <span style="font-size:0.9em;color:gray">इदु</span> |ಇವೇರಡು <br/> <span style="font-size:0.9em;color:gray">इवेरडु</span> |ಇವುಗಳು <br/> <span style="font-size:0.9em;color:gray">इवुगळु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | एतत् / एनत् | एते / एने | एतानि / एनानि |ಇದರನ್ನು <br/> <span style="font-size:0.9em;color:gray">इदरन्नु</span> |ಇವೇರಡನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवेरडन्नु</span> |ಇವುಗಳನ್ನು <br/> <span style="font-size:0.9em;color:gray">इवुगळन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | एतेन / एनेन | एताभ्याम् | एतैः |ಇದರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इदरिन्द</span> |ಇವೇರಡರಿನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवेरडरिनिन्द</span> |ಇವುಗಳಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवुगळिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | एतस्मै | एताभ्याम् | एतेभ्यः |ಇದರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इदरिगे</span> |ಇವೇರಡರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवेरडरिगे</span> |ಇವುಗಳಿಗೇ <br/> <span style="font-size:0.9em;color:gray">इवुगळिगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | एतस्मात् | एताभ्याम् | एतेभ्यः |ಇದರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इदर देसेयिन्द</span> |ಇವೇರಡರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवेरडर देसेयिन्द</span> |ಇವುಗಳ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">इवुगळ देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | एतस्य | एतयोः / एनयोः | एतेषाम् |ಇದರ <br/> <span style="font-size:0.9em;color:gray">इदर</span> |ಇವೇರಡರ <br/> <span style="font-size:0.9em;color:gray">इवेरडर</span> |ಇವುಗಳ <br/> <span style="font-size:0.9em;color:gray">इवुगळ</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | एतस्मिन् | एतयोः / एनयोः | एतेषु |ಇದರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इदरल्लि</span> |ಇವೇರಡರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवेरडरल्लि</span> |ಇವುಗಳಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">इवुगळल्लि</span> |
 
 
 ### 20. ದಕಾರಾನ್ತಃ ತ್ರಿಷು ಲಿಙ್ಗೇಷು ಸಮಾನಃ ಅಸ್ಮದ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | अहम् | आवाम् | वयम् | ನಾನು | ನಾವಿಬ್ಬರು | ನಾವು |
-| **ದ್ವಿತೀಯಾ** | माम्, मा | आवाम्, नौ | अस्मान्, नः | ನನ್ನನ್ನು | ನಮ್ಮಿಬ್ಬರನ್ನು | ನಮ್ಮನ್ನು |
-| **ತೃತೀಯಾ** | मया | आवाभ्याम् | अस्माभिः | ನನ್ನಿನಿನ್ದ | ನಮ್ಮಿಬ್ಬರಿನ್ದ | ನಮ್ಮಿನಿನ್ದ |
-| **ಚತುರ್ಥೀ** | मह्यम्, मे | आवाभ्याम्, नौ | अस्मभ्यम्, नः | ನನಗೇ | ನಮ್ಮಿಬ್ಬರಿಗೇ | ನಮ್ಮಗೇ |
-| **ಪಂಚಮೀ** | मत् | आवाभ्याम् | अस्मत् | ನನ್ನ ದೇಸೇಯಿನ್ದ | ನಮ್ಮಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ನಮ್ಮ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | मम, मे | आवयोः, नौ | अस्माकम्, नः | ನನ್ನ | ನಮ್ಮಿಬ್ಬರ | ನಮ್ಮ |
-| **ಸಪ್ತಮೀ** | मयि | आवयोः | अस्मासु | ನನ್ನಲ್ಲಿ | ನಮ್ಮಿಬ್ಬರಲ್ಲಿ | ನಮ್ಮಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | अहम् | आवाम् | वयम् |ನಾನು <br/> <span style="font-size:0.9em;color:gray">नानु</span> |ನಾವಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">नाविब्बरु</span> |ನಾವು <br/> <span style="font-size:0.9em;color:gray">नावु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | माम्, मा | आवाम्, नौ | अस्मान्, नः |ನನ್ನನ್ನು <br/> <span style="font-size:0.9em;color:gray">नन्नन्नु</span> |ನಮ್ಮಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">नम्मिब्बरन्नु</span> |ನಮ್ಮನ್ನು <br/> <span style="font-size:0.9em;color:gray">नम्मन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | मया | आवाभ्याम् | अस्माभिः |ನನ್ನಿನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नन्निनिन्द</span> |ನಮ್ಮಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नम्मिब्बरिन्द</span> |ನಮ್ಮಿನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नम्मिनिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | मह्यम्, मे | आवाभ्याम्, नौ | अस्मभ्यम्, नः |ನನಗೇ <br/> <span style="font-size:0.9em;color:gray">ननगे</span> |ನಮ್ಮಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">नम्मिब्बरिगे</span> |ನಮ್ಮಗೇ <br/> <span style="font-size:0.9em;color:gray">नम्मगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | मत् | आवाभ्याम् | अस्मत् |ನನ್ನ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नन्न देसेयिन्द</span> |ನಮ್ಮಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नम्मिब्बर देसेयिन्द</span> |ನಮ್ಮ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">नम्म देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | मम, मे | आवयोः, नौ | अस्माकम्, नः |ನನ್ನ <br/> <span style="font-size:0.9em;color:gray">नन्न</span> |ನಮ್ಮಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">नम्मिब्बर</span> |ನಮ್ಮ <br/> <span style="font-size:0.9em;color:gray">नम्म</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | मयि | आवयोः | अस्मासु |ನನ್ನಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">नन्नल्लि</span> |ನಮ್ಮಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">नम्मिब्बरल्लि</span> |ನಮ್ಮಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">नम्मल्लि</span> |
 
 
 ### 21. ದಕಾರಾನ್ತಃ ತ್ರಿಷು ಲಿಙ್ಗೇಷು ಸಮಾನಃ ಯುಷ್ಮದ್ ಶಬ್ದಃ
 
-| ವಿಭಕ್ತಿ | ಏಕವಚನ | ದ್ವಿವಚನ | ಬಹುವಚನ | ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) | ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) |
+|ವಿಭಕ್ತಿ <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ಏಕವಚನ <br/> <span style="font-size:0.9em;color:gray">एकवचन</span> |ದ್ವಿವಚನ <br/> <span style="font-size:0.9em;color:gray">द्विवचन</span> |ಬಹುವಚನ <br/> <span style="font-size:0.9em;color:gray">बहुवचन</span> |ಕನ್ನಡ ಅರ್ಥ (ಏಕವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (एकवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ದ್ವಿವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (द्विवचन)</span> |ಕನ್ನಡ ಅರ್ಥ (ಬಹುವಚನ) <br/> <span style="font-size:0.9em;color:gray">कन्नड अर्थ (बहुवचन)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ಪ್ರಥಮಾ** | त्वम् | युवाम् | यूयम् | ನೀನು | ನೀವಿಬ್ಬರು | ನೀವು |
-| **ದ್ವಿತೀಯಾ** | त्वाम्, त्वा | युवाम्, वाम् | युष्मान्, वः | ನಿನ್ನನ್ನು | ನಿಮ್ಮಿಬ್ಬರನ್ನು | ನಿಮ್ಮನ್ನು |
-| **ತೃತೀಯಾ** | त्वया | युवाभ्याम् | युष्माभिः | ನಿನ್ನಿನಿನ್ದ | ನಿಮ್ಮಿಬ್ಬರಿನ್ದ | ನಿಮ್ಮಿನಿನ್ದ |
-| **ಚತುರ್ಥೀ** | तुभ्यम्, ते | युवाभ्याम्, वाम् | युष्मभ्यम्, वः | ನಿನಗೇ | ನಿಮ್ಮಿಬ್ಬರಿಗೇ | ನಿಮ್ಮಗೇ |
-| **ಪಂಚಮೀ** | त्वत् | युवाभ्याम् | युष्मत् | ನಿನ್ನ ದೇಸೇಯಿನ್ದ | ನಿಮ್ಮಿಬ್ಬರ ದೇಸೇಯಿನ್ದ | ನಿಮ್ಮ ದೇಸೇಯಿನ್ದ |
-| **ಷಷ್ಠೀ** | तव, ते | युवयोः, वाम् | युष्माकम्, वः | ನಿನ್ನ | ನಿಮ್ಮಿಬ್ಬರ | ನಿಮ್ಮ |
-| **ಸಪ್ತಮೀ** | त्वयि | युवयोः | युष्मासु | ನಿನ್ನಲ್ಲಿ | ನಿಮ್ಮಿಬ್ಬರಲ್ಲಿ | ನಿಮ್ಮಲ್ಲಿ |
+|**ಪ್ರಥಮಾ** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | त्वम् | युवाम् | यूयम् |ನೀನು <br/> <span style="font-size:0.9em;color:gray">नीनु</span> |ನೀವಿಬ್ಬರು <br/> <span style="font-size:0.9em;color:gray">नीविब्बरु</span> |ನೀವು <br/> <span style="font-size:0.9em;color:gray">नीवु</span> |
+|**ದ್ವಿತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | त्वाम्, त्वा | युवाम्, वाम् | युष्मान्, वः |ನಿನ್ನನ್ನು <br/> <span style="font-size:0.9em;color:gray">निन्नन्नु</span> |ನಿಮ್ಮಿಬ್ಬರನ್ನು <br/> <span style="font-size:0.9em;color:gray">निम्मिब्बरन्नु</span> |ನಿಮ್ಮನ್ನು <br/> <span style="font-size:0.9em;color:gray">निम्मन्नु</span> |
+|**ತೃತೀಯಾ** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | त्वया | युवाभ्याम् | युष्माभिः |ನಿನ್ನಿನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">निन्निनिन्द</span> |ನಿಮ್ಮಿಬ್ಬರಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">निम्मिब्बरिन्द</span> |ನಿಮ್ಮಿನಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">निम्मिनिन्द</span> |
+|**ಚತುರ್ಥೀ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | तुभ्यम्, ते | युवाभ्याम्, वाम् | युष्मभ्यम्, वः |ನಿನಗೇ <br/> <span style="font-size:0.9em;color:gray">निनगे</span> |ನಿಮ್ಮಿಬ್ಬರಿಗೇ <br/> <span style="font-size:0.9em;color:gray">निम्मिब्बरिगे</span> |ನಿಮ್ಮಗೇ <br/> <span style="font-size:0.9em;color:gray">निम्मगे</span> |
+|**ಪಂಚಮೀ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | त्वत् | युवाभ्याम् | युष्मत् |ನಿನ್ನ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">निन्न देसेयिन्द</span> |ನಿಮ್ಮಿಬ್ಬರ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">निम्मिब्बर देसेयिन्द</span> |ನಿಮ್ಮ ದೇಸೇಯಿನ್ದ <br/> <span style="font-size:0.9em;color:gray">निम्म देसेयिन्द</span> |
+|**ಷಷ್ಠೀ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | तव, ते | युवयोः, वाम् | युष्माकम्, वः |ನಿನ್ನ <br/> <span style="font-size:0.9em;color:gray">निन्न</span> |ನಿಮ್ಮಿಬ್ಬರ <br/> <span style="font-size:0.9em;color:gray">निम्मिब्बर</span> |ನಿಮ್ಮ <br/> <span style="font-size:0.9em;color:gray">निम्म</span> |
+|**ಸಪ್ತಮೀ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | त्वयि | युवयोः | युष्मासु |ನಿನ್ನಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">निन्नल्लि</span> |ನಿಮ್ಮಿಬ್ಬರಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">निम्मिब्बरल्लि</span> |ನಿಮ್ಮಲ್ಲಿ <br/> <span style="font-size:0.9em;color:gray">निम्मल्लि</span> |
 
 

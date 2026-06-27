@@ -9,288 +9,288 @@ language: "te"
 
 ### 1. अकारान्तः पुल्लिङ्गः राम शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | रामः | रामौ | रामाः | రాముడు | ఇద్దరు రాములు | రాములు |
-| **ద్వితీయా** | रामम् | रामौ | रामान् | రామునిని/ను | రాములలను | రాములను |
-| **తృతీయా** | रामेण | रामाभ्याम् | रामैः | రామునితో | రాములలతో | రాములతో |
-| **చతుర్థీ** | रामाय | रामाभ्याम् | रामेभ्यः | రాముని కొరకు | రాములల కొరకు | రాముల కొరకు |
-| **పంచమీ** | रामात् | रामाभ्याम् | रामेभ्यः | రాముని నుండి | రాములల నుండి | రాముల నుండి |
-| **షష్ఠీ** | रामस्य | रामयोः | रामाणाम् | రాముని యొక్క | రాములల యొక్క | రాముల యొక్క |
-| **సప్తమీ** | रामे | रामयोः | रामेषु | రాముని లో | రాములల లో | రాముల లో |
-| **సంబోధన** | हे राम | हे रामौ | हे रामाः | ఓ రాముడా! / ఓ హరీ! | ఓ ఇద్దరు రాములలారా! | ఓ రాములలారా! |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | रामः | रामौ | रामाः |రాముడు <br/> <span style="font-size:0.9em;color:gray">रामुडु</span> |ఇద్దరు రాములు <br/> <span style="font-size:0.9em;color:gray">इद्दरु रामुलु</span> |రాములు <br/> <span style="font-size:0.9em;color:gray">रामुलु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | रामम् | रामौ | रामान् |రామునిని/ను <br/> <span style="font-size:0.9em;color:gray">रामुनिनि/नु</span> |రాములలను <br/> <span style="font-size:0.9em;color:gray">रामुललनु</span> |రాములను <br/> <span style="font-size:0.9em;color:gray">रामुलनु</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | रामेण | रामाभ्याम् | रामैः |రామునితో <br/> <span style="font-size:0.9em;color:gray">रामुनितो</span> |రాములలతో <br/> <span style="font-size:0.9em;color:gray">रामुललतो</span> |రాములతో <br/> <span style="font-size:0.9em;color:gray">रामुलतो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | रामाय | रामाभ्याम् | रामेभ्यः |రాముని కొరకు <br/> <span style="font-size:0.9em;color:gray">रामुनि कॊरकु</span> |రాములల కొరకు <br/> <span style="font-size:0.9em;color:gray">रामुलल कॊरकु</span> |రాముల కొరకు <br/> <span style="font-size:0.9em;color:gray">रामुल कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | रामात् | रामाभ्याम् | रामेभ्यः |రాముని నుండి <br/> <span style="font-size:0.9em;color:gray">रामुनि नुंडि</span> |రాములల నుండి <br/> <span style="font-size:0.9em;color:gray">रामुलल नुंडि</span> |రాముల నుండి <br/> <span style="font-size:0.9em;color:gray">रामुल नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | रामस्य | रामयोः | रामाणाम् |రాముని యొక్క <br/> <span style="font-size:0.9em;color:gray">रामुनि यॊक्क</span> |రాములల యొక్క <br/> <span style="font-size:0.9em;color:gray">रामुलल यॊक्क</span> |రాముల యొక్క <br/> <span style="font-size:0.9em;color:gray">रामुल यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | रामे | रामयोः | रामेषु |రాముని లో <br/> <span style="font-size:0.9em;color:gray">रामुनि लो</span> |రాములల లో <br/> <span style="font-size:0.9em;color:gray">रामुलल लो</span> |రాముల లో <br/> <span style="font-size:0.9em;color:gray">रामुल लो</span> |
+|**సంబోధన** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे राम | हे रामौ | हे रामाः |ఓ రాముడా! / ఓ హరీ! <br/> <span style="font-size:0.9em;color:gray">ओ रामुडा! / ओ हरी!</span> |ఓ ఇద్దరు రాములలారా! <br/> <span style="font-size:0.9em;color:gray">ओ इद्दरु रामुललारा!</span> |ఓ రాములలారా! <br/> <span style="font-size:0.9em;color:gray">ओ रामुललारा!</span> |
 
 **ఇదే విధంగా** \- कृष्ण (కృష్ణుడు), बाल (బాలుడు), वृक्ष (చెట్టు), सूर्य (సూర్యుడు), चन्द्र (చంద్రుడు), देव (దేవుడు), नृप (రాజు), छात्र (విద్యార్థి), जनक (తండ్రి), पुत्र (కుమారుడు), गज (ఏనుగు), अश्व (గుర్రము), हस्त (చేయి), पाद (కాలు), विद्यालय (పాఠశాల), देवालय (దేవాలయము), ग्राम (గ్రామము) ।
 
 ### 2. इकारान्तः पुल्लिङ्गः हरि शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | हरिः | हरी | हरयः | హరి | ఇద్దరు హరులు | హరులు |
-| **ద్వితీయా** | हरिम | हरी | हरीन् | హరిని/ను | హరులలను | హరులను |
-| **తృతీయా** | हरिणा | हरिभ्याम् | हरिभिः | హరితో | హరులలతో | హరులతో |
-| **చతుర్థీ** | हरये | हरिभ्याम् | हरिभ्यः | హరి కొరకు | హరులల కొరకు | హరుల కొరకు |
-| **పంచమీ** | हरेः | हरिभ्याम् | हरिभ्यः | హరి నుండి | హరులల నుండి | హరుల నుండి |
-| **షష్ఠీ** | हरेः | हर्योः | हरीणाम् | హరి యొక్క | హరులల యొక్క | హరుల యొక్క |
-| **సప్తమీ** | हरौ | हर्योः | हरिषु | హరి లో | హరులల లో | హరుల లో |
-| **సంబోధన** | हे हरे | हे हरी | हे हरयः | ఓ రాముడా! / ఓ హరీ! | ఓ ఇద్దరు హరులలారా! | ఓ హరులలారా! |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | हरिः | हरी | हरयः |హరి <br/> <span style="font-size:0.9em;color:gray">हरि</span> |ఇద్దరు హరులు <br/> <span style="font-size:0.9em;color:gray">इद्दरु हरुलु</span> |హరులు <br/> <span style="font-size:0.9em;color:gray">हरुलु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | हरिम | हरी | हरीन् |హరిని/ను <br/> <span style="font-size:0.9em;color:gray">हरिनि/नु</span> |హరులలను <br/> <span style="font-size:0.9em;color:gray">हरुललनु</span> |హరులను <br/> <span style="font-size:0.9em;color:gray">हरुलनु</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | हरिणा | हरिभ्याम् | हरिभिः |హరితో <br/> <span style="font-size:0.9em;color:gray">हरितो</span> |హరులలతో <br/> <span style="font-size:0.9em;color:gray">हरुललतो</span> |హరులతో <br/> <span style="font-size:0.9em;color:gray">हरुलतो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | हरये | हरिभ्याम् | हरिभ्यः |హరి కొరకు <br/> <span style="font-size:0.9em;color:gray">हरि कॊरकु</span> |హరులల కొరకు <br/> <span style="font-size:0.9em;color:gray">हरुलल कॊरकु</span> |హరుల కొరకు <br/> <span style="font-size:0.9em;color:gray">हरुल कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | हरेः | हरिभ्याम् | हरिभ्यः |హరి నుండి <br/> <span style="font-size:0.9em;color:gray">हरि नुंडि</span> |హరులల నుండి <br/> <span style="font-size:0.9em;color:gray">हरुलल नुंडि</span> |హరుల నుండి <br/> <span style="font-size:0.9em;color:gray">हरुल नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | हरेः | हर्योः | हरीणाम् |హరి యొక్క <br/> <span style="font-size:0.9em;color:gray">हरि यॊक्क</span> |హరులల యొక్క <br/> <span style="font-size:0.9em;color:gray">हरुलल यॊक्क</span> |హరుల యొక్క <br/> <span style="font-size:0.9em;color:gray">हरुल यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | हरौ | हर्योः | हरिषु |హరి లో <br/> <span style="font-size:0.9em;color:gray">हरि लो</span> |హరులల లో <br/> <span style="font-size:0.9em;color:gray">हरुलल लो</span> |హరుల లో <br/> <span style="font-size:0.9em;color:gray">हरुल लो</span> |
+|**సంబోధన** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे हरे | हे हरी | हे हरयः |ఓ రాముడా! / ఓ హరీ! <br/> <span style="font-size:0.9em;color:gray">ओ रामुडा! / ओ हरी!</span> |ఓ ఇద్దరు హరులలారా! <br/> <span style="font-size:0.9em;color:gray">ओ इद्दरु हरुललारा!</span> |ఓ హరులలారా! <br/> <span style="font-size:0.9em;color:gray">ओ हरुललारा!</span> |
 
 **ఇదే విధంగా** \- ऋषि (ఋషి), कवि (కవి), रवि (సూర్యుడు), मुनि (ముని), गिरि (పర్వతము), यति (సన్యాసి), निधि (నిధి), विधि (బ్రహ్మ), कपि (కోతి), अग्नि (అగ్ని) ।
 
 ### 3. उकारान्तः पुल्लिङ्गः गुरु शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | गुरुः | गुरू | गुरवः | గురువు | ఇద్దరు గురువులు | గురువులు |
-| **ద్వితీయా** | गुरुम् | गुरू | गुरून् | గురువుని/ను | గురువులలను | గురువులను |
-| **తృతీయా** | गुरुणा | गुरुभ्याम् | गुरुभिः | గురువుతో | గురువులలతో | గురువులతో |
-| **చతుర్థీ** | गुरवे | गुरुभ्याम् | गुरुभ्यः | గురువు కొరకు | గురువులల కొరకు | గురువుల కొరకు |
-| **పంచమీ** | गुरोः | गुरुभ्याम् | गुरुभ्यः | గురువు నుండి | గురువులల నుండి | గురువుల నుండి |
-| **షష్ఠీ** | गुरोः | गुर्वोः | गुरूणाम् | గురువు యొక్క | గురువులల యొక్క | గురువుల యొక్క |
-| **సప్తమీ** | गुरौ | गुर्वोः | गुरुषु | గురువు లో | గురువులల లో | గురువుల లో |
-| **సంబోధన** | हे गुरो | हे गुरू | हे गुरवः | ఓ రాముడా! / ఓ హరీ! | ఓ ఇద్దరు గురువులలారా! | ఓ గురువులలారా! |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | गुरुः | गुरू | गुरवः |గురువు <br/> <span style="font-size:0.9em;color:gray">गुरुवु</span> |ఇద్దరు గురువులు <br/> <span style="font-size:0.9em;color:gray">इद्दरु गुरुवुलु</span> |గురువులు <br/> <span style="font-size:0.9em;color:gray">गुरुवुलु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | गुरुम् | गुरू | गुरून् |గురువుని/ను <br/> <span style="font-size:0.9em;color:gray">गुरुवुनि/नु</span> |గురువులలను <br/> <span style="font-size:0.9em;color:gray">गुरुवुललनु</span> |గురువులను <br/> <span style="font-size:0.9em;color:gray">गुरुवुलनु</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | गुरुणा | गुरुभ्याम् | गुरुभिः |గురువుతో <br/> <span style="font-size:0.9em;color:gray">गुरुवुतो</span> |గురువులలతో <br/> <span style="font-size:0.9em;color:gray">गुरुवुललतो</span> |గురువులతో <br/> <span style="font-size:0.9em;color:gray">गुरुवुलतो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | गुरवे | गुरुभ्याम् | गुरुभ्यः |గురువు కొరకు <br/> <span style="font-size:0.9em;color:gray">गुरुवु कॊरकु</span> |గురువులల కొరకు <br/> <span style="font-size:0.9em;color:gray">गुरुवुलल कॊरकु</span> |గురువుల కొరకు <br/> <span style="font-size:0.9em;color:gray">गुरुवुल कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | गुरोः | गुरुभ्याम् | गुरुभ्यः |గురువు నుండి <br/> <span style="font-size:0.9em;color:gray">गुरुवु नुंडि</span> |గురువులల నుండి <br/> <span style="font-size:0.9em;color:gray">गुरुवुलल नुंडि</span> |గురువుల నుండి <br/> <span style="font-size:0.9em;color:gray">गुरुवुल नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | गुरोः | गुर्वोः | गुरूणाम् |గురువు యొక్క <br/> <span style="font-size:0.9em;color:gray">गुरुवु यॊक्क</span> |గురువులల యొక్క <br/> <span style="font-size:0.9em;color:gray">गुरुवुलल यॊक्क</span> |గురువుల యొక్క <br/> <span style="font-size:0.9em;color:gray">गुरुवुल यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | गुरौ | गुर्वोः | गुरुषु |గురువు లో <br/> <span style="font-size:0.9em;color:gray">गुरुवु लो</span> |గురువులల లో <br/> <span style="font-size:0.9em;color:gray">गुरुवुलल लो</span> |గురువుల లో <br/> <span style="font-size:0.9em;color:gray">गुरुवुल लो</span> |
+|**సంబోధన** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे गुरो | हे गुरू | हे गुरवः |ఓ రాముడా! / ఓ హరీ! <br/> <span style="font-size:0.9em;color:gray">ओ रामुडा! / ओ हरी!</span> |ఓ ఇద్దరు గురువులలారా! <br/> <span style="font-size:0.9em;color:gray">ओ इद्दरु गुरुवुललारा!</span> |ఓ గురువులలారా! <br/> <span style="font-size:0.9em;color:gray">ओ गुरुवुललारा!</span> |
 
 **एवम् \-** भानु (సూర్యుడు), शिशु (శిశువు/బిడ్డ), विष्णु (విష్ణువు), शम्भु (శివుడు), वायु (గాలి), रिपु (శత్రువు), प्रभु (ప్రభువు), बन्धु (బంధువు), साधु (సజ్జనుడు), वेणु (పిల్లనగ్రోవి) ।
 
 ### 4. आकारान्तः स्त्रीलिङ्गः रमा शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | रमा | रमे | रमाः | రమ | ఇద్దరు రమలు | రమలు |
-| **ద్వితీయా** | रमाम | रमे | रमाः | రమని/ను | రమలలను | రమలను |
-| **తృతీయా** | रमया | रमाभ्याम् | रमाभिः | రమతో | రమలలతో | రమలతో |
-| **చతుర్థీ** | रमायै | रमाभ्याम् | रमाभ्यः | రమ కొరకు | రమలల కొరకు | రమల కొరకు |
-| **పంచమీ** | रमायाः | रमाभ्याम् | रमाभ्यः | రమ నుండి | రమలల నుండి | రమల నుండి |
-| **షష్ఠీ** | रमायाः | रमयोः | रमाणाम् | రమ యొక్క | రమలల యొక్క | రమల యొక్క |
-| **సప్తమీ** | रमायाम् | रमयोः | रमासु | రమ లో | రమలల లో | రమల లో |
-| **సంబోధన** | हे रमे | हे रमे | हे रमाः | ఓ రాముడా! / ఓ హరీ! | ఓ ఇద్దరు రమలలారా! | ఓ రమలలారా! |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | रमा | रमे | रमाः |రమ <br/> <span style="font-size:0.9em;color:gray">रम</span> |ఇద్దరు రమలు <br/> <span style="font-size:0.9em;color:gray">इद्दरु रमलु</span> |రమలు <br/> <span style="font-size:0.9em;color:gray">रमलु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | रमाम | रमे | रमाः |రమని/ను <br/> <span style="font-size:0.9em;color:gray">रमनि/नु</span> |రమలలను <br/> <span style="font-size:0.9em;color:gray">रमललनु</span> |రమలను <br/> <span style="font-size:0.9em;color:gray">रमलनु</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | रमया | रमाभ्याम् | रमाभिः |రమతో <br/> <span style="font-size:0.9em;color:gray">रमतो</span> |రమలలతో <br/> <span style="font-size:0.9em;color:gray">रमललतो</span> |రమలతో <br/> <span style="font-size:0.9em;color:gray">रमलतो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | रमायै | रमाभ्याम् | रमाभ्यः |రమ కొరకు <br/> <span style="font-size:0.9em;color:gray">रम कॊरकु</span> |రమలల కొరకు <br/> <span style="font-size:0.9em;color:gray">रमलल कॊरकु</span> |రమల కొరకు <br/> <span style="font-size:0.9em;color:gray">रमल कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | रमायाः | रमाभ्याम् | रमाभ्यः |రమ నుండి <br/> <span style="font-size:0.9em;color:gray">रम नुंडि</span> |రమలల నుండి <br/> <span style="font-size:0.9em;color:gray">रमलल नुंडि</span> |రమల నుండి <br/> <span style="font-size:0.9em;color:gray">रमल नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | रमायाः | रमयोः | रमाणाम् |రమ యొక్క <br/> <span style="font-size:0.9em;color:gray">रम यॊक्क</span> |రమలల యొక్క <br/> <span style="font-size:0.9em;color:gray">रमलल यॊक्क</span> |రమల యొక్క <br/> <span style="font-size:0.9em;color:gray">रमल यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | रमायाम् | रमयोः | रमासु |రమ లో <br/> <span style="font-size:0.9em;color:gray">रम लो</span> |రమలల లో <br/> <span style="font-size:0.9em;color:gray">रमलल लो</span> |రమల లో <br/> <span style="font-size:0.9em;color:gray">रमल लो</span> |
+|**సంబోధన** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे रमे | हे रमे | हे रमाः |ఓ రాముడా! / ఓ హరీ! <br/> <span style="font-size:0.9em;color:gray">ओ रामुडा! / ओ हरी!</span> |ఓ ఇద్దరు రమలలారా! <br/> <span style="font-size:0.9em;color:gray">ओ इद्दरु रमललारा!</span> |ఓ రమలలారా! <br/> <span style="font-size:0.9em;color:gray">ओ रमललारा!</span> |
 
 **एवम् \-** सीता (సీత), लता (తీగ), माला (దండ/మాల), बाला (బాలిక), शाला (శాల/బడి), कला (కళ), कथा (కథ), क्रीडा (ఆట), छाया (నీడ), शिक्षा (శిక్ష/చదువు) ।
 
 ### 5. इकारान्तः स्त्रीलिङ्गः रुचि शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | रुचिः | रुची | रुचयः | రుచి | ఇద్దరు రుచులు | రుచులు |
-| **ద్వితీయా** | रुचिम् | रुची | रुचीः | రుచిని/ను | రుచులలను | రుచులను |
-| **తృతీయా** | रुच्या | रुचिभ्याम् | रुचिभिः | రుచితో | రుచులలతో | రుచులతో |
-| **చతుర్థీ** | रुचये / रुच्यै | रुचिभ्याम् | रुचिभ्यः | రుచి కొరకు | రుచులల కొరకు | రుచుల కొరకు |
-| **పంచమీ** | रुचेः / रुच्याः | रुचिभ्याम् | रुचिभ्यः | రుచి నుండి | రుచులల నుండి | రుచుల నుండి |
-| **షష్ఠీ** | रुचेः / रुच्याः | रुच्योः | रुचीनाम् | రుచి యొక్క | రుచులల యొక్క | రుచుల యొక్క |
-| **సప్తమీ** | रुचौ / रुच्याम् | रुच्योः | रुचिषु | రుచి లో | రుచులల లో | రుచుల లో |
-| **సంబోధన** | हे रुचे | हे रुची | हे रुचयः | ఓ రాముడా! / ఓ హరీ! | ఓ ఇద్దరు రుచులలారా! | ఓ రుచులలారా! |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | रुचिः | रुची | रुचयः |రుచి <br/> <span style="font-size:0.9em;color:gray">रुचि</span> |ఇద్దరు రుచులు <br/> <span style="font-size:0.9em;color:gray">इद्दरु रुचुलु</span> |రుచులు <br/> <span style="font-size:0.9em;color:gray">रुचुलु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | रुचिम् | रुची | रुचीः |రుచిని/ను <br/> <span style="font-size:0.9em;color:gray">रुचिनि/नु</span> |రుచులలను <br/> <span style="font-size:0.9em;color:gray">रुचुललनु</span> |రుచులను <br/> <span style="font-size:0.9em;color:gray">रुचुलनु</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | रुच्या | रुचिभ्याम् | रुचिभिः |రుచితో <br/> <span style="font-size:0.9em;color:gray">रुचितो</span> |రుచులలతో <br/> <span style="font-size:0.9em;color:gray">रुचुललतो</span> |రుచులతో <br/> <span style="font-size:0.9em;color:gray">रुचुलतो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | रुचये / रुच्यै | रुचिभ्याम् | रुचिभ्यः |రుచి కొరకు <br/> <span style="font-size:0.9em;color:gray">रुचि कॊरकु</span> |రుచులల కొరకు <br/> <span style="font-size:0.9em;color:gray">रुचुलल कॊरकु</span> |రుచుల కొరకు <br/> <span style="font-size:0.9em;color:gray">रुचुल कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | रुचेः / रुच्याः | रुचिभ्याम् | रुचिभ्यः |రుచి నుండి <br/> <span style="font-size:0.9em;color:gray">रुचि नुंडि</span> |రుచులల నుండి <br/> <span style="font-size:0.9em;color:gray">रुचुलल नुंडि</span> |రుచుల నుండి <br/> <span style="font-size:0.9em;color:gray">रुचुल नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | रुचेः / रुच्याः | रुच्योः | रुचीनाम् |రుచి యొక్క <br/> <span style="font-size:0.9em;color:gray">रुचि यॊक्क</span> |రుచులల యొక్క <br/> <span style="font-size:0.9em;color:gray">रुचुलल यॊक्क</span> |రుచుల యొక్క <br/> <span style="font-size:0.9em;color:gray">रुचुल यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | रुचौ / रुच्याम् | रुच्योः | रुचिषु |రుచి లో <br/> <span style="font-size:0.9em;color:gray">रुचि लो</span> |రుచులల లో <br/> <span style="font-size:0.9em;color:gray">रुचुलल लो</span> |రుచుల లో <br/> <span style="font-size:0.9em;color:gray">रुचुल लो</span> |
+|**సంబోధన** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे रुचे | हे रुची | हे रुचयः |ఓ రాముడా! / ఓ హరీ! <br/> <span style="font-size:0.9em;color:gray">ओ रामुडा! / ओ हरी!</span> |ఓ ఇద్దరు రుచులలారా! <br/> <span style="font-size:0.9em;color:gray">ओ इद्दरु रुचुललारा!</span> |ఓ రుచులలారా! <br/> <span style="font-size:0.9em;color:gray">ओ रुचुललारा!</span> |
 
 **ఇదే విధంగా** \- मति (బుద్ధి), कीर्ति (కీర్తి), भूमि (భూమి), शुद्धि (శుద్ధి), शक्ति (శక్తి), bhakti (భక్తి), శాన్తి (శాంతి), బుద్ధి (బుద్ధి/తెలివి), నీతి (నీతి), ప్రీతి (ప్రీతి/ప్రేమ) ।
 
 ### 6. ईकारान्तः स्त्रीलिङ्गः नदी शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | नदी | नद्यौ | नद्यः | నది | ఇద్దరు నదులు | నదులు |
-| **ద్వితీయా** | नदीम् | नद्यौ | नदीः | నదిని/ను | నదులలను | నదులను |
-| **తృతీయా** | नद्या | नदीभ्याम् | नदीभिः | నదితో | నదులలతో | నదులతో |
-| **చతుర్థీ** | नद्यै | नदीभ्याम् | नदीभ्यः | నది కొరకు | నదులల కొరకు | నదుల కొరకు |
-| **పంచమీ** | नद्याः | नदीभ्याम् | नदीभ्यः | నది నుండి | నదులల నుండి | నదుల నుండి |
-| **షష్ఠీ** | नद्याः | नद्योः | नदीणाम् | నది యొక్క | నదులల యొక్క | నదుల యొక్క |
-| **సప్తమీ** | नद्याम् | नद्योः | नदीषु | నది లో | నదులల లో | నదుల లో |
-| **సంబోధన** | हे नदि | हे नद्यौ | हे नद्यः | ఓ రాముడా! / ఓ హరీ! | ఓ ఇద్దరు నదులలారా! | ఓ నదులలారా! |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | नदी | नद्यौ | नद्यः |నది <br/> <span style="font-size:0.9em;color:gray">नदि</span> |ఇద్దరు నదులు <br/> <span style="font-size:0.9em;color:gray">इद्दरु नदुलु</span> |నదులు <br/> <span style="font-size:0.9em;color:gray">नदुलु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | नदीम् | नद्यौ | नदीः |నదిని/ను <br/> <span style="font-size:0.9em;color:gray">नदिनि/नु</span> |నదులలను <br/> <span style="font-size:0.9em;color:gray">नदुललनु</span> |నదులను <br/> <span style="font-size:0.9em;color:gray">नदुलनु</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | नद्या | नदीभ्याम् | नदीभिः |నదితో <br/> <span style="font-size:0.9em;color:gray">नदितो</span> |నదులలతో <br/> <span style="font-size:0.9em;color:gray">नदुललतो</span> |నదులతో <br/> <span style="font-size:0.9em;color:gray">नदुलतो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | नद्यै | नदीभ्याम् | नदीभ्यः |నది కొరకు <br/> <span style="font-size:0.9em;color:gray">नदि कॊरकु</span> |నదులల కొరకు <br/> <span style="font-size:0.9em;color:gray">नदुलल कॊरकु</span> |నదుల కొరకు <br/> <span style="font-size:0.9em;color:gray">नदुल कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | नद्याः | नदीभ्याम् | नदीभ्यः |నది నుండి <br/> <span style="font-size:0.9em;color:gray">नदि नुंडि</span> |నదులల నుండి <br/> <span style="font-size:0.9em;color:gray">नदुलल नुंडि</span> |నదుల నుండి <br/> <span style="font-size:0.9em;color:gray">नदुल नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | नद्याः | नद्योः | नदीणाम् |నది యొక్క <br/> <span style="font-size:0.9em;color:gray">नदि यॊक्क</span> |నదులల యొక్క <br/> <span style="font-size:0.9em;color:gray">नदुलल यॊक्क</span> |నదుల యొక్క <br/> <span style="font-size:0.9em;color:gray">नदुल यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | नद्याम् | नद्योः | नदीषु |నది లో <br/> <span style="font-size:0.9em;color:gray">नदि लो</span> |నదులల లో <br/> <span style="font-size:0.9em;color:gray">नदुलल लो</span> |నదుల లో <br/> <span style="font-size:0.9em;color:gray">नदुल लो</span> |
+|**సంబోధన** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे नदि | हे नद्यौ | हे नद्यः |ఓ రాముడా! / ఓ హరీ! <br/> <span style="font-size:0.9em;color:gray">ओ रामुडा! / ओ हरी!</span> |ఓ ఇద్దరు నదులలారా! <br/> <span style="font-size:0.9em;color:gray">ओ इद्दरु नदुललारा!</span> |ఓ నదులలారా! <br/> <span style="font-size:0.9em;color:gray">ओ नदुललारा!</span> |
 
 **एवम् \-** गौरी (గౌరి), पार्वती (పార్వతి), जननी (తల్లి), भगिनी (సహోదరి), लक्ष्मी (లక్ష్మి), सरस्वती (సరస్వతి), नगरी (నగరము), वाणी (వాక్కు/మాట), दासी (దాసి), ద్రోణి (దోనె) ।
 
 ### 7. अकारान्तः नपुंसकलिङ्गः ज्ञान शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | ज्ञानम् | ज्ञाने | ज्ञानानि | జ్ఞానము | ఇద్దరు జ్ఞానములు | జ్ఞానములు |
-| **ద్వితీయా** | ज्ञानम् | ज्ञाने | ज्ञानानि | జ్ఞానముని/ను | జ్ఞానములలను | జ్ఞానములను |
-| **తృతీయా** | ज्ञानेन | ज्ञानाभ्याम् | ज्ञानैः | జ్ఞానముతో | జ్ఞానములలతో | జ్ఞానములతో |
-| **చతుర్థీ** | ज्ञानाय | ज्ञानाभ्याम् | ज्ञानैभ्यः | జ్ఞానము కొరకు | జ్ఞానములల కొరకు | జ్ఞానముల కొరకు |
-| **పంచమీ** | ज्ञानात् | ज्ञानाभ्याम् | ज्ञानैभ्यः | జ్ఞానము నుండి | జ్ఞానములల నుండి | జ్ఞానముల నుండి |
-| **షష్ఠీ** | ज्ञानस्य | ज्ञानयोः | ज्ञानानाम् | జ్ఞానము యొక్క | జ్ఞానములల యొక్క | జ్ఞానముల యొక్క |
-| **సప్తమీ** | ज्ञाने | ज्ञानयोः | ज्ञानेषु | జ్ఞానము లో | జ్ఞానములల లో | జ్ఞానముల లో |
-| **సంబోధన** | हे ज्ञान | हे ज्ञाने | हे ज्ञानानि | ఓ రాముడా! / ఓ హరీ! | ఓ ఇద్దరు జ్ఞానములలారా! | ఓ జ్ఞానములలారా! |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | ज्ञानम् | ज्ञाने | ज्ञानानि |జ్ఞానము <br/> <span style="font-size:0.9em;color:gray">ज्ञानमु</span> |ఇద్దరు జ్ఞానములు <br/> <span style="font-size:0.9em;color:gray">इद्दरु ज्ञानमुलु</span> |జ్ఞానములు <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुलु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | ज्ञानम् | ज्ञाने | ज्ञानानि |జ్ఞానముని/ను <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुनि/नु</span> |జ్ఞానములలను <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुललनु</span> |జ్ఞానములను <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुलनु</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | ज्ञानेन | ज्ञानाभ्याम् | ज्ञानैः |జ్ఞానముతో <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुतो</span> |జ్ఞానములలతో <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुललतो</span> |జ్ఞానములతో <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुलतो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | ज्ञानाय | ज्ञानाभ्याम् | ज्ञानैभ्यः |జ్ఞానము కొరకు <br/> <span style="font-size:0.9em;color:gray">ज्ञानमु कॊरकु</span> |జ్ఞానములల కొరకు <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुलल कॊरकु</span> |జ్ఞానముల కొరకు <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुल कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | ज्ञानात् | ज्ञानाभ्याम् | ज्ञानैभ्यः |జ్ఞానము నుండి <br/> <span style="font-size:0.9em;color:gray">ज्ञानमु नुंडि</span> |జ్ఞానములల నుండి <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुलल नुंडि</span> |జ్ఞానముల నుండి <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुल नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | ज्ञानस्य | ज्ञानयोः | ज्ञानानाम् |జ్ఞానము యొక్క <br/> <span style="font-size:0.9em;color:gray">ज्ञानमु यॊक्क</span> |జ్ఞానములల యొక్క <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुलल यॊक्क</span> |జ్ఞానముల యొక్క <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुल यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | ज्ञाने | ज्ञानयोः | ज्ञानेषु |జ్ఞానము లో <br/> <span style="font-size:0.9em;color:gray">ज्ञानमु लो</span> |జ్ఞానములల లో <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुलल लो</span> |జ్ఞానముల లో <br/> <span style="font-size:0.9em;color:gray">ज्ञानमुल लो</span> |
+|**సంబోధన** <br/> <span style="font-size:0.9em;color:gray">**संबोधन**</span> | हे ज्ञान | हे ज्ञाने | हे ज्ञानानि |ఓ రాముడా! / ఓ హరీ! <br/> <span style="font-size:0.9em;color:gray">ओ रामुडा! / ओ हरी!</span> |ఓ ఇద్దరు జ్ఞానములలారా! <br/> <span style="font-size:0.9em;color:gray">ओ इद्दरु ज्ञानमुललारा!</span> |ఓ జ్ఞానములలారా! <br/> <span style="font-size:0.9em;color:gray">ओ ज्ञानमुललारा!</span> |
 
 **ఇదే విధంగా** फल (పండు), वन (అడవి), जल (నీరు), पुष्प (పువ్వు), पुस्तक (పుస్తకము), पत्र (ఆకు/జాబు), नेत्र (కన్ను), गृह (ఇల్లు), मुख (నోరు/ముఖము), कमल (తామర) ।
 
 ### 8. दकारान्तः पुल्लिङ्गः तद् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | सः | तौ | ते | అతడు | వారిద్దరు | వారు |
-| **ద్వితీయా** | तम् | तौ | तान् | అతనిని | వారిద్దరిని | వారిని |
-| **తృతీయా** | तेन | ताभ्याम् | तैः | అతనితో | వారిద్దరితో | వారితో |
-| **చతుర్థీ** | तस्मै | ताभ्याम् | तेभ्यः | అతనికి | వారిద్దరికి | వారికి |
-| **పంచమీ** | तस्मात् | ताभ्याम् | तेभ्यः | అతని నుండి | వారిద్దరి నుండి | వారి నుండి |
-| **షష్ఠీ** | तस्य | तयोः | तेषाम् | అతని యొక్క | వారిద్దరి యొక్క | వారి యొక్క |
-| **సప్తమీ** | तस्मिन् | तयोः | तेषु | అతని యందు | వారిద్దరి లో | వారి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | सः | तौ | ते |అతడు <br/> <span style="font-size:0.9em;color:gray">अतडु</span> |వారిద్దరు <br/> <span style="font-size:0.9em;color:gray">वारिद्दरु</span> |వారు <br/> <span style="font-size:0.9em;color:gray">वारु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | तम् | तौ | तान् |అతనిని <br/> <span style="font-size:0.9em;color:gray">अतनिनि</span> |వారిద్దరిని <br/> <span style="font-size:0.9em;color:gray">वारिद्दरिनि</span> |వారిని <br/> <span style="font-size:0.9em;color:gray">वारिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | तेन | ताभ्याम् | तैः |అతనితో <br/> <span style="font-size:0.9em;color:gray">अतनितो</span> |వారిద్దరితో <br/> <span style="font-size:0.9em;color:gray">वारिद्दरितो</span> |వారితో <br/> <span style="font-size:0.9em;color:gray">वारितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | तस्मै | ताभ्याम् | तेभ्यः |అతనికి <br/> <span style="font-size:0.9em;color:gray">अतनिकि</span> |వారిద్దరికి <br/> <span style="font-size:0.9em;color:gray">वारिद्दरिकि</span> |వారికి <br/> <span style="font-size:0.9em;color:gray">वारिकि</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | तस्मात् | ताभ्याम् | तेभ्यः |అతని నుండి <br/> <span style="font-size:0.9em;color:gray">अतनि नुंडि</span> |వారిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">वारिद्दरि नुंडि</span> |వారి నుండి <br/> <span style="font-size:0.9em;color:gray">वारि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | तस्य | तयोः | तेषाम् |అతని యొక్క <br/> <span style="font-size:0.9em;color:gray">अतनि यॊक्क</span> |వారిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वारिद्दरि यॊक्क</span> |వారి యొక్క <br/> <span style="font-size:0.9em;color:gray">वारि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | तस्मिन् | तयोः | तेषु |అతని యందు <br/> <span style="font-size:0.9em;color:gray">अतनि यंदु</span> |వారిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">वारिद्दरि लो</span> |వారి లో <br/> <span style="font-size:0.9em;color:gray">वारि लो</span> |
 
 
 ### 9. दकारान्तः स्त्रीलिङ्गः तद् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | सा | ते | ताः | ఆమె | వారిద్దరు | వారు |
-| **ద్వితీయా** | ताम् | ते | ताः | ఆమెను | వారిద్దరిని | వారిని |
-| **తృతీయా** | तया | ताभ्याम् | ताभिः | ఆమెతో | వారిద్దరితో | వారితో |
-| **చతుర్థీ** | तस्यै | ताभ्याम् | ताभ्यः | ఆమె కొరకు | వారిద్దరి కొరకు | వారి కొరకు |
-| **పంచమీ** | तस्याः | ताभ्याम् | ताभ्यः | ఆమె నుండి | వారిద్దరి నుండి | వారి నుండి |
-| **షష్ఠీ** | तस्याः | तयोः | तासाम् | ఆమె యొక్క | వారిద్దరి యొక్క | వారి యొక్క |
-| **సప్తమీ** | तस्याम् | तयोः | तासु | ఆమె యందు | వారిద్దరి లో | వారి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | सा | ते | ताः |ఆమె <br/> <span style="font-size:0.9em;color:gray">आमॆ</span> |వారిద్దరు <br/> <span style="font-size:0.9em;color:gray">वारिद्दरु</span> |వారు <br/> <span style="font-size:0.9em;color:gray">वारु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | ताम् | ते | ताः |ఆమెను <br/> <span style="font-size:0.9em;color:gray">आमॆनु</span> |వారిద్దరిని <br/> <span style="font-size:0.9em;color:gray">वारिद्दरिनि</span> |వారిని <br/> <span style="font-size:0.9em;color:gray">वारिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | तया | ताभ्याम् | ताभिः |ఆమెతో <br/> <span style="font-size:0.9em;color:gray">आमॆतो</span> |వారిద్దరితో <br/> <span style="font-size:0.9em;color:gray">वारिद्दरितो</span> |వారితో <br/> <span style="font-size:0.9em;color:gray">वारितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | तस्यै | ताभ्याम् | ताभ्यः |ఆమె కొరకు <br/> <span style="font-size:0.9em;color:gray">आमॆ कॊरकु</span> |వారిద్దరి కొరకు <br/> <span style="font-size:0.9em;color:gray">वारिद्दरि कॊरकु</span> |వారి కొరకు <br/> <span style="font-size:0.9em;color:gray">वारि कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | तस्याः | ताभ्याम् | ताभ्यः |ఆమె నుండి <br/> <span style="font-size:0.9em;color:gray">आमॆ नुंडि</span> |వారిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">वारिद्दरि नुंडि</span> |వారి నుండి <br/> <span style="font-size:0.9em;color:gray">वारि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | तस्याः | तयोः | तासाम् |ఆమె యొక్క <br/> <span style="font-size:0.9em;color:gray">आमॆ यॊक्क</span> |వారిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वारिद्दरि यॊक्क</span> |వారి యొక్క <br/> <span style="font-size:0.9em;color:gray">वारि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | तस्याम् | तयोः | तासु |ఆమె యందు <br/> <span style="font-size:0.9em;color:gray">आमॆ यंदु</span> |వారిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">वारिद्दरि लो</span> |వారి లో <br/> <span style="font-size:0.9em;color:gray">वारि लो</span> |
 
 
 ### 10. दकारान्तः नपुंसकलिङ्गः तद् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | तत् | ते | तानि | అది | అవి రెండు | అవి |
-| **ద్వితీయా** | तत् | ते | तानि | దానిని | వాటిద్దరిని | వాటిని |
-| **తృతీయా** | तेन | ताभ्याम् | तैः | దానితో | వాటిద్దరితో | వాటితో |
-| **చతుర్థీ** | तस्मै | ताभ्याम् | तेभ्यः | దానికి | వాటిద్దరికి | వాటికి |
-| **పంచమీ** | तस्मात् | ताभ्याम् | तेभ्यः | దాని నుండి | వాటిద్దరి నుండి | వాటి నుండి |
-| **షష్ఠీ** | तस्य | तयोः | तेषाम् | దాని యొక్క | వాటిద్దరి యొక్క | వాటి యొక్క |
-| **సప్తమీ** | तस्मिन् | तयोः | तेषु | దాని యందు | వాటిద్దరి లో | వాటి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | तत् | ते | तानि |అది <br/> <span style="font-size:0.9em;color:gray">अदि</span> |అవి రెండు <br/> <span style="font-size:0.9em;color:gray">अवि रॆंडु</span> |అవి <br/> <span style="font-size:0.9em;color:gray">अवि</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | तत् | ते | तानि |దానిని <br/> <span style="font-size:0.9em;color:gray">दानिनि</span> |వాటిద్దరిని <br/> <span style="font-size:0.9em;color:gray">वाटिद्दरिनि</span> |వాటిని <br/> <span style="font-size:0.9em;color:gray">वाटिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | तेन | ताभ्याम् | तैः |దానితో <br/> <span style="font-size:0.9em;color:gray">दानितो</span> |వాటిద్దరితో <br/> <span style="font-size:0.9em;color:gray">वाटिद्दरितो</span> |వాటితో <br/> <span style="font-size:0.9em;color:gray">वाटितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | तस्मै | ताभ्याम् | तेभ्यः |దానికి <br/> <span style="font-size:0.9em;color:gray">दानिकि</span> |వాటిద్దరికి <br/> <span style="font-size:0.9em;color:gray">वाटिद्दरिकि</span> |వాటికి <br/> <span style="font-size:0.9em;color:gray">वाटिकि</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | तस्मात् | ताभ्याम् | तेभ्यः |దాని నుండి <br/> <span style="font-size:0.9em;color:gray">दानि नुंडि</span> |వాటిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">वाटिद्दरि नुंडि</span> |వాటి నుండి <br/> <span style="font-size:0.9em;color:gray">वाटि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | तस्य | तयोः | तेषाम् |దాని యొక్క <br/> <span style="font-size:0.9em;color:gray">दानि यॊक्क</span> |వాటిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वाटिद्दरि यॊक्क</span> |వాటి యొక్క <br/> <span style="font-size:0.9em;color:gray">वाटि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | तस्मिन् | तयोः | तेषु |దాని యందు <br/> <span style="font-size:0.9em;color:gray">दानि यंदु</span> |వాటిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">वाटिद्दरि लो</span> |వాటి లో <br/> <span style="font-size:0.9em;color:gray">वाटि लो</span> |
 
 
 ### 11. मकारान्तः पुल्लिङ्गः किम् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | कः | कौ | के | ఎవడు | ఎవరిద్దరు | ఎవరు |
-| **ద్వితీయా** | कम् | कौ | कान् | ఎవనిని | ఎవరిద్దరిని | ఎవరిని |
-| **తృతీయా** | केन | काभ्याम् | कैः | ఎవనితో | ఎవరిద్దరితో | ఎవరితో |
-| **చతుర్థీ** | कस्मै | काभ्याम् | केभ्यः | ఎవనికి | ఎవరిద్దరికి | ఎవరికి |
-| **పంచమీ** | कस्मात् | काभ्याम् | केभ्यः | ఎవని నుండి | ఎవరిద్దరి నుండి | ఎవరి నుండి |
-| **షష్ఠీ** | कस्य | कयोः | केषाम् | ఎవని యొక్క | ఎవరిద్దరి యొక్క | ఎవరి యొక్క |
-| **సప్తమీ** | कस्मिन् | कयोः | केषु | ఎవని యందు | ఎవరిద్దరి లో | ఎవరి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | कः | कौ | के |ఎవడు <br/> <span style="font-size:0.9em;color:gray">ऎवडु</span> |ఎవరిద్దరు <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरु</span> |ఎవరు <br/> <span style="font-size:0.9em;color:gray">ऎवरु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | कम् | कौ | कान् |ఎవనిని <br/> <span style="font-size:0.9em;color:gray">ऎवनिनि</span> |ఎవరిద్దరిని <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरिनि</span> |ఎవరిని <br/> <span style="font-size:0.9em;color:gray">ऎवरिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | केन | काभ्याम् | कैः |ఎవనితో <br/> <span style="font-size:0.9em;color:gray">ऎवनितो</span> |ఎవరిద్దరితో <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरितो</span> |ఎవరితో <br/> <span style="font-size:0.9em;color:gray">ऎवरितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | कस्मै | काभ्याम् | केभ्यः |ఎవనికి <br/> <span style="font-size:0.9em;color:gray">ऎवनिकि</span> |ఎవరిద్దరికి <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरिकि</span> |ఎవరికి <br/> <span style="font-size:0.9em;color:gray">ऎवरिकि</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | कस्मात् | काभ्याम् | केभ्यः |ఎవని నుండి <br/> <span style="font-size:0.9em;color:gray">ऎवनि नुंडि</span> |ఎవరిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरि नुंडि</span> |ఎవరి నుండి <br/> <span style="font-size:0.9em;color:gray">ऎवरि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | कस्य | कयोः | केषाम् |ఎవని యొక్క <br/> <span style="font-size:0.9em;color:gray">ऎवनि यॊक्क</span> |ఎవరిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरि यॊक्क</span> |ఎవరి యొక్క <br/> <span style="font-size:0.9em;color:gray">ऎवरि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | कस्मिन् | कयोः | केषु |ఎవని యందు <br/> <span style="font-size:0.9em;color:gray">ऎवनि यंदु</span> |ఎవరిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरि लो</span> |ఎవరి లో <br/> <span style="font-size:0.9em;color:gray">ऎवरि लो</span> |
 
 
 ### 12. मकारान्तः स्त्रीलिङ्गः किम् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | का | के | काः | ఎవతె | ఎవరిద్దరు | ఎవరు |
-| **ద్వితీయా** | काम् | के | काः | ఎవతెను | ఎవరిద్దరిని | ఎవరిని |
-| **తృతీయా** | कया | काभ्याम् | काभिः | ఎవతెతో | ఎవరిద్దరితో | ఎవరితో |
-| **చతుర్థీ** | कस्यै | काभ्याम् | काभ्यः | ఎవతె కొరకు | ఎవరిద్దరి కొరకు | ఎవరి కొరకు |
-| **పంచమీ** | कस्याः | काभ्याम् | काभ्यः | ఎవతె నుండి | ఎవరిద్దరి నుండి | ఎవరి నుండి |
-| **షష్ఠీ** | कस्याः | कयोः | कासाम् | ఎవతె యొక్క | ఎవరిద్దరి యొక్క | ఎవరి యొక్క |
-| **సప్తమీ** | कस्याम् | कयोः | कासु | ఎవతె యందు | ఎవరిద్దరి లో | ఎవరి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | का | के | काः |ఎవతె <br/> <span style="font-size:0.9em;color:gray">ऎवतॆ</span> |ఎవరిద్దరు <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरु</span> |ఎవరు <br/> <span style="font-size:0.9em;color:gray">ऎवरु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | काम् | के | काः |ఎవతెను <br/> <span style="font-size:0.9em;color:gray">ऎवतॆनु</span> |ఎవరిద్దరిని <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरिनि</span> |ఎవరిని <br/> <span style="font-size:0.9em;color:gray">ऎवरिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | कया | काभ्याम् | काभिः |ఎవతెతో <br/> <span style="font-size:0.9em;color:gray">ऎवतॆतो</span> |ఎవరిద్దరితో <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरितो</span> |ఎవరితో <br/> <span style="font-size:0.9em;color:gray">ऎवरितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | कस्यै | काभ्याम् | काभ्यः |ఎవతె కొరకు <br/> <span style="font-size:0.9em;color:gray">ऎवतॆ कॊरकु</span> |ఎవరిద్దరి కొరకు <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरि कॊरकु</span> |ఎవరి కొరకు <br/> <span style="font-size:0.9em;color:gray">ऎवरि कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | कस्याः | काभ्याम् | काभ्यः |ఎవతె నుండి <br/> <span style="font-size:0.9em;color:gray">ऎवतॆ नुंडि</span> |ఎవరిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरि नुंडि</span> |ఎవరి నుండి <br/> <span style="font-size:0.9em;color:gray">ऎवरि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | कस्याः | कयोः | कासाम् |ఎవతె యొక్క <br/> <span style="font-size:0.9em;color:gray">ऎवतॆ यॊक्क</span> |ఎవరిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरि यॊक्क</span> |ఎవరి యొక్క <br/> <span style="font-size:0.9em;color:gray">ऎवरि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | कस्याम् | कयोः | कासु |ఎవతె యందు <br/> <span style="font-size:0.9em;color:gray">ऎवतॆ यंदु</span> |ఎవరిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">ऎवरिद्दरि लो</span> |ఎవరి లో <br/> <span style="font-size:0.9em;color:gray">ऎवरि लो</span> |
 
 
 ### 13. मकारान्तः नपुंसकलिङ्गः किम् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | किम् | के | कानि | ఏది / ఏమి | ఏవి రెండు | ఏవి |
-| **ద్వితీయా** | किम् | के | कानि | దేనిని | ఏవి రెండిటిని | వాటిని |
-| **తృతీయా** | केन | काभ्याम् | कैः | దేనితో | ఏవి రెండిటితో | వాటితో |
-| **చతుర్థీ** | कस्मै | काभ्याम् | केभ्यः | దేనికి | ఏవి రెండిటికి | వాటికి |
-| **పంచమీ** | कस्मात् | काभ्याम् | केभ्यः | దేని నుండి | ఏవి రెండిటి నుండి | వాటి నుండి |
-| **షష్ఠీ** | कस्य | कयोः | केषाम् | దేని యొక్క | ఏవి రెండిటి యొక్క | వాటి యొక్క |
-| **సప్తమీ** | कस्मिन् | कयोः | केषु | దేని యందు | ఏవి రెండిటి లో | వాటి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | किम् | के | कानि |ఏది / ఏమి <br/> <span style="font-size:0.9em;color:gray">एदि / एमि</span> |ఏవి రెండు <br/> <span style="font-size:0.9em;color:gray">एवि रॆंडु</span> |ఏవి <br/> <span style="font-size:0.9em;color:gray">एवि</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | किम् | के | कानि |దేనిని <br/> <span style="font-size:0.9em;color:gray">देनिनि</span> |ఏవి రెండిటిని <br/> <span style="font-size:0.9em;color:gray">एवि रॆंडिटिनि</span> |వాటిని <br/> <span style="font-size:0.9em;color:gray">वाटिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | केन | काभ्याम् | कैः |దేనితో <br/> <span style="font-size:0.9em;color:gray">देनितो</span> |ఏవి రెండిటితో <br/> <span style="font-size:0.9em;color:gray">एवि रॆंडिटितो</span> |వాటితో <br/> <span style="font-size:0.9em;color:gray">वाटितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | कस्मै | काभ्याम् | केभ्यः |దేనికి <br/> <span style="font-size:0.9em;color:gray">देनिकि</span> |ఏవి రెండిటికి <br/> <span style="font-size:0.9em;color:gray">एवि रॆंडिटिकि</span> |వాటికి <br/> <span style="font-size:0.9em;color:gray">वाटिकि</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | कस्मात् | काभ्याम् | केभ्यः |దేని నుండి <br/> <span style="font-size:0.9em;color:gray">देनि नुंडि</span> |ఏవి రెండిటి నుండి <br/> <span style="font-size:0.9em;color:gray">एवि रॆंडिटि नुंडि</span> |వాటి నుండి <br/> <span style="font-size:0.9em;color:gray">वाटि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | कस्य | कयोः | केषाम् |దేని యొక్క <br/> <span style="font-size:0.9em;color:gray">देनि यॊक्क</span> |ఏవి రెండిటి యొక్క <br/> <span style="font-size:0.9em;color:gray">एवि रॆंडिटि यॊक्क</span> |వాటి యొక్క <br/> <span style="font-size:0.9em;color:gray">वाटि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | कस्मिन् | कयोः | केषु |దేని యందు <br/> <span style="font-size:0.9em;color:gray">देनि यंदु</span> |ఏవి రెండిటి లో <br/> <span style="font-size:0.9em;color:gray">एवि रॆंडिटि लो</span> |వాటి లో <br/> <span style="font-size:0.9em;color:gray">वाटि लो</span> |
 
 
 ### 14. मकारान्तः पुल्लिङ्गः इदम् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | अयम् | इमौ | इमे | ఇతడు | వీరిద్దరు | వీరు |
-| **ద్వితీయా** | इमम् / एनम् | इमौ / एनौ | इमान् / एनान् | ఇతనిని | వీరిద్దరిని | వీరిని |
-| **తృతీయా** | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः | ఇతనితో | వీరిద్దరితో | వీరితో |
-| **చతుర్థీ** | अस्मै | आभ्याम् | एभ्यः | ఇతనికి | వీరిద్దరికి | వీరికి |
-| **పంచమీ** | अस्मात् | आभ्याम् | एभ्यः | ఇతని నుండి | వీరిద్దరి నుండి | వీరి నుండి |
-| **షష్ఠీ** | अस्य | अनयोः / एनयोः | एषाम् | ఇతని యొక్క | వీరిద్దరి యొక్క | వీరి యొక్క |
-| **సప్తమీ** | अस्मिन् | अनयोः / एनयोः | एषु | ఇతని యందు | వీరిద్దరి లో | వీరి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | अयम् | इमौ | इमे |ఇతడు <br/> <span style="font-size:0.9em;color:gray">इतडु</span> |వీరిద్దరు <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरु</span> |వీరు <br/> <span style="font-size:0.9em;color:gray">वीरु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | इमम् / एनम् | इमौ / एनौ | इमान् / एनान् |ఇతనిని <br/> <span style="font-size:0.9em;color:gray">इतनिनि</span> |వీరిద్దరిని <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरिनि</span> |వీరిని <br/> <span style="font-size:0.9em;color:gray">वीरिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः |ఇతనితో <br/> <span style="font-size:0.9em;color:gray">इतनितो</span> |వీరిద్దరితో <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरितो</span> |వీరితో <br/> <span style="font-size:0.9em;color:gray">वीरितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | अस्मै | आभ्याम् | एभ्यः |ఇతనికి <br/> <span style="font-size:0.9em;color:gray">इतनिकि</span> |వీరిద్దరికి <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरिकि</span> |వీరికి <br/> <span style="font-size:0.9em;color:gray">वीरिकि</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | अस्मात् | आभ्याम् | एभ्यः |ఇతని నుండి <br/> <span style="font-size:0.9em;color:gray">इतनि नुंडि</span> |వీరిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि नुंडि</span> |వీరి నుండి <br/> <span style="font-size:0.9em;color:gray">वीरि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | अस्य | अनयोः / एनयोः | एषाम् |ఇతని యొక్క <br/> <span style="font-size:0.9em;color:gray">इतनि यॊक्क</span> |వీరిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि यॊक्क</span> |వీరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीरि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | अस्मिन् | अनयोः / एनयोः | एषु |ఇతని యందు <br/> <span style="font-size:0.9em;color:gray">इतनि यंदु</span> |వీరిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि लो</span> |వీరి లో <br/> <span style="font-size:0.9em;color:gray">वीरि लो</span> |
 
 
 ### 15. मकारान्तः स्त्रीलिङ्गः इदम् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | इयम् | इमे | इमाः | ఈమె | వీరిద్దరు | వీరు |
-| **ద్వితీయా** | इमाम् / एनाम् | इमे / एने | इमाः / एनाः | ఈమెను | వీరిద్దరిని | వీరిని |
-| **తృతీయా** | अनया / एनया | आभ्याम् / एनाभ्याम् | आभिः | ఈమెతో | వీరిద్దరితో | వీరితో |
-| **చతుర్థీ** | अस्यै | आभ्याम् | आभ्यः | ఈమె కొరకు | వీరిద్దరి కొరకు | వీరి కొరకు |
-| **పంచమీ** | अस्याः | आभ्याम् | आभ्यः | ఈమె నుండి | వీరిద్దరి నుండి | వీరి నుండి |
-| **షష్ఠీ** | अस्याः | अनयोः / एनयोः | आसाम् | ఈమె యొక్క | వీరిద్దరి యొక్క | వీరి యొక్క |
-| **సప్తమీ** | अस्याम् | अनयोः / एनयोः | आसु | ఈమె యందు | వీరిద్దరి లో | వీరి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | इयम् | इमे | इमाः |ఈమె <br/> <span style="font-size:0.9em;color:gray">ईमॆ</span> |వీరిద్దరు <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरु</span> |వీరు <br/> <span style="font-size:0.9em;color:gray">वीरु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | इमाम् / एनाम् | इमे / एने | इमाः / एनाः |ఈమెను <br/> <span style="font-size:0.9em;color:gray">ईमॆनु</span> |వీరిద్దరిని <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरिनि</span> |వీరిని <br/> <span style="font-size:0.9em;color:gray">वीरिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | अनया / एनया | आभ्याम् / एनाभ्याम् | आभिः |ఈమెతో <br/> <span style="font-size:0.9em;color:gray">ईमॆतो</span> |వీరిద్దరితో <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरितो</span> |వీరితో <br/> <span style="font-size:0.9em;color:gray">वीरितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | अस्यै | आभ्याम् | आभ्यः |ఈమె కొరకు <br/> <span style="font-size:0.9em;color:gray">ईमॆ कॊरकु</span> |వీరిద్దరి కొరకు <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि कॊरकु</span> |వీరి కొరకు <br/> <span style="font-size:0.9em;color:gray">वीरि कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | अस्याः | आभ्याम् | आभ्यः |ఈమె నుండి <br/> <span style="font-size:0.9em;color:gray">ईमॆ नुंडि</span> |వీరిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि नुंडि</span> |వీరి నుండి <br/> <span style="font-size:0.9em;color:gray">वीरि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | अस्याः | अनयोः / एनयोः | आसाम् |ఈమె యొక్క <br/> <span style="font-size:0.9em;color:gray">ईमॆ यॊक्क</span> |వీరిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि यॊक्क</span> |వీరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीरि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | अस्याम् | अनयोः / एनयोः | आसु |ఈమె యందు <br/> <span style="font-size:0.9em;color:gray">ईमॆ यंदु</span> |వీరిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि लो</span> |వీరి లో <br/> <span style="font-size:0.9em;color:gray">वीरि लो</span> |
 
 
 ### 16. मकारान्तः नपुंसकलिङ्गः इदम् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | इदम् | इमे | इमानि | ఇది | ఇవి రెండు | ఇవి |
-| **ద్వితీయా** | इदम् / एनत् | इमे / एने | इमानि / एनानि | దీనిని | వీటిద్దరిని | వీటిని |
-| **తృతీయా** | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः | దీనితో | వీటిద్దరితో | వీటితో |
-| **చతుర్థీ** | अस्मै | आभ्याम् | एभ्यः | దీనికి | వీటిద్దరికి | వీటికి |
-| **పంచమీ** | अस्मात् | आभ्याम् | एभ्यः | దీని నుండి | వీటిద్దరి నుండి | వీటి నుండి |
-| **షష్ఠీ** | अस्य | अनयोः / एनयोः | एषाम् | దీని యొక్క | వీటిద్దరి యొక్క | వీటి యొక్క |
-| **సప్తమీ** | अस्मिन् | अनयोः / एनयोः | एषु | దీని యందు | వీటిద్దరి లో | వీటి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | इदम् | इमे | इमानि |ఇది <br/> <span style="font-size:0.9em;color:gray">इदि</span> |ఇవి రెండు <br/> <span style="font-size:0.9em;color:gray">इवि रॆंडु</span> |ఇవి <br/> <span style="font-size:0.9em;color:gray">इवि</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | इदम् / एनत् | इमे / एने | इमानि / एनानि |దీనిని <br/> <span style="font-size:0.9em;color:gray">दीनिनि</span> |వీటిద్దరిని <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरिनि</span> |వీటిని <br/> <span style="font-size:0.9em;color:gray">वीटिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | अनेन / एनेन | आभ्याम् / एनाभ्याम् | एभिः |దీనితో <br/> <span style="font-size:0.9em;color:gray">दीनितो</span> |వీటిద్దరితో <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरितो</span> |వీటితో <br/> <span style="font-size:0.9em;color:gray">वीटितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | अस्मै | आभ्याम् | एभ्यः |దీనికి <br/> <span style="font-size:0.9em;color:gray">दीनिकि</span> |వీటిద్దరికి <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरिकि</span> |వీటికి <br/> <span style="font-size:0.9em;color:gray">वीटिकि</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | अस्मात् | आभ्याम् | एभ्यः |దీని నుండి <br/> <span style="font-size:0.9em;color:gray">दीनि नुंडि</span> |వీటిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरि नुंडि</span> |వీటి నుండి <br/> <span style="font-size:0.9em;color:gray">वीटि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | अस्य | अनयोः / एनयोः | एषाम् |దీని యొక్క <br/> <span style="font-size:0.9em;color:gray">दीनि यॊक्क</span> |వీటిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरि यॊक्क</span> |వీటి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीटि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | अस्मिन् | अनयोः / एनयोः | एषु |దీని యందు <br/> <span style="font-size:0.9em;color:gray">दीनि यंदु</span> |వీటిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरि लो</span> |వీటి లో <br/> <span style="font-size:0.9em;color:gray">वीटि लो</span> |
 
 
 ### 17. दकारान्तः पुल्लिङ्गः एतद् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | एषः | एतौ | एते | ఇతడు (దగ్గర) | వీరిద్దరు | వీరు |
-| **ద్వితీయా** | एतम् / एनम् | एतौ / एनौ | एतान् / एनान् | ఇతనిని | వీరిద్దరిని | వీరిని |
-| **తృతీయా** | एतेन / एनेन | एताभ्याम् | एतैः | ఇతనితో | వీరిద్దరితో | వీరితో |
-| **చతుర్థీ** | एतस्मै | एताभ्याम् | एतेभ्यः | ఇతనికి | వీరిద్దరికి | వీరికి |
-| **పంచమీ** | एतस्मात् | एताभ्याम् | एतेभ्यः | ఇతని నుండి | వీరిద్దరి నుండి | వీరి నుండి |
-| **షష్ఠీ** | एतस्य | एतयोः / एनयोः | एतेषाम् | ఇతని యొక్క | వీరిద్దరి యొక్క | వీరి యొక్క |
-| **సప్తమీ** | एतस्मिन् | एतयोः / एनयोः | एतेषु | ఇతని యందు | వీరిద్దరి లో | వీరి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | एषः | एतौ | एते |ఇతడు (దగ్గర) <br/> <span style="font-size:0.9em;color:gray">इतडु (दग्गर)</span> |వీరిద్దరు <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरु</span> |వీరు <br/> <span style="font-size:0.9em;color:gray">वीरु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | एतम् / एनम् | एतौ / एनौ | एतान् / एनान् |ఇతనిని <br/> <span style="font-size:0.9em;color:gray">इतनिनि</span> |వీరిద్దరిని <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरिनि</span> |వీరిని <br/> <span style="font-size:0.9em;color:gray">वीरिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | एतेन / एनेन | एताभ्याम् | एतैः |ఇతనితో <br/> <span style="font-size:0.9em;color:gray">इतनितो</span> |వీరిద్దరితో <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरितो</span> |వీరితో <br/> <span style="font-size:0.9em;color:gray">वीरितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | एतस्मै | एताभ्याम् | एतेभ्यः |ఇతనికి <br/> <span style="font-size:0.9em;color:gray">इतनिकि</span> |వీరిద్దరికి <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरिकि</span> |వీరికి <br/> <span style="font-size:0.9em;color:gray">वीरिकि</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | एतस्मात् | एताभ्याम् | एतेभ्यः |ఇతని నుండి <br/> <span style="font-size:0.9em;color:gray">इतनि नुंडि</span> |వీరిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि नुंडि</span> |వీరి నుండి <br/> <span style="font-size:0.9em;color:gray">वीरि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | एतस्य | एतयोः / एनयोः | एतेषाम् |ఇతని యొక్క <br/> <span style="font-size:0.9em;color:gray">इतनि यॊक्क</span> |వీరిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि यॊक्क</span> |వీరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीरि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | एतस्मिन् | एतयोः / एनयोः | एतेषु |ఇతని యందు <br/> <span style="font-size:0.9em;color:gray">इतनि यंदु</span> |వీరిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि लो</span> |వీరి లో <br/> <span style="font-size:0.9em;color:gray">वीरि लो</span> |
 
 
 ### 18. दकारान्तः स्त्रीलिङ्गः एतद् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | एषा | एते | एताः | ఈమె (దగ్గర) | వీరిద్దరు | వీరు |
-| **ద్వితీయా** | एताम् / एनाम् | एते / एने | एताः / एनाः | ఈమెను | వీరిద్దరిని | వీరిని |
-| **తృతీయా** | एतया / एनया | एताभ्याम् | एताभिः | ఈమెతో | వీరిద్దరితో | వీరితో |
-| **చతుర్థీ** | एतस्यै | एताभ्याम् | एताभ्यः | ఈమె కొరకు | వీరిద్దరి కొరకు | వీరి కొరకు |
-| **పంచమీ** | एतस्याः | एताभ्याम् | एताभ्यः | ఈమె నుండి | వీరిద్దరి నుండి | వీరి నుండి |
-| **షష్ఠీ** | एतस्याः | एतयोः / एनयोः | एतासाम् | ఈమె యొక్క | వీరిద్దరి యొక్క | వీరి యొక్క |
-| **సప్తమీ** | एतस्याम् | एतयोः / एनयोः | एतासु | ఈమె యందు | వీరిద్దరి లో | వీరి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | एषा | एते | एताः |ఈమె (దగ్గర) <br/> <span style="font-size:0.9em;color:gray">ईमॆ (दग्गर)</span> |వీరిద్దరు <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरु</span> |వీరు <br/> <span style="font-size:0.9em;color:gray">वीरु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | एताम् / एनाम् | एते / एने | एताः / एनाः |ఈమెను <br/> <span style="font-size:0.9em;color:gray">ईमॆनु</span> |వీరిద్దరిని <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरिनि</span> |వీరిని <br/> <span style="font-size:0.9em;color:gray">वीरिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | एतया / एनया | एताभ्याम् | एताभिः |ఈమెతో <br/> <span style="font-size:0.9em;color:gray">ईमॆतो</span> |వీరిద్దరితో <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरितो</span> |వీరితో <br/> <span style="font-size:0.9em;color:gray">वीरितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | एतस्यै | एताभ्याम् | एताभ्यः |ఈమె కొరకు <br/> <span style="font-size:0.9em;color:gray">ईमॆ कॊरकु</span> |వీరిద్దరి కొరకు <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि कॊरकु</span> |వీరి కొరకు <br/> <span style="font-size:0.9em;color:gray">वीरि कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | एतस्याः | एताभ्याम् | एताभ्यः |ఈమె నుండి <br/> <span style="font-size:0.9em;color:gray">ईमॆ नुंडि</span> |వీరిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि नुंडि</span> |వీరి నుండి <br/> <span style="font-size:0.9em;color:gray">वीरि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | एतस्याः | एतयोः / एनयोः | एतासाम् |ఈమె యొక్క <br/> <span style="font-size:0.9em;color:gray">ईमॆ यॊक्क</span> |వీరిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि यॊक्क</span> |వీరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीरि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | एतस्याम् | एतयोः / एनयोः | एतासु |ఈమె యందు <br/> <span style="font-size:0.9em;color:gray">ईमॆ यंदु</span> |వీరిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">वीरिद्दरि लो</span> |వీరి లో <br/> <span style="font-size:0.9em;color:gray">वीरि लो</span> |
 
 
 ### 19. दकारान्तः नपुंसकलिङ्गः एतद् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | एतत् | एते | एतानि | ఇది (దగ్గర) | ఇవి రెండు | ఇవి |
-| **ద్వితీయా** | एतत् / एनत् | एते / एने | एतानि / एनानि | దీనిని | వీటిద్దరిని | వీటిని |
-| **తృతీయా** | एतेन / एनेन | एताभ्याम् | एतैः | దీనితో | వీటిద్దరితో | వీటితో |
-| **చతుర్థీ** | एतस्मै | एताभ्याम् | एतेभ्यः | దీనికి | వీటిద్దరికి | వీటికి |
-| **పంచమీ** | एतस्मात् | एताभ्याम् | एतेभ्यः | దీని నుండి | వీటిద్దరి నుండి | వీటి నుండి |
-| **షష్ఠీ** | एतस्य | एतयोः / एनयोः | एतेषाम् | దీని యొక్క | వీటిద్దరి యొక్క | వీటి యొక్క |
-| **సప్తమీ** | एतस्मिन् | एतयोः / एनयोः | एतेषु | దీని యందు | వీటిద్దరి లో | వీటి లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | एतत् | एते | एतानि |ఇది (దగ్గర) <br/> <span style="font-size:0.9em;color:gray">इदि (दग्गर)</span> |ఇవి రెండు <br/> <span style="font-size:0.9em;color:gray">इवि रॆंडु</span> |ఇవి <br/> <span style="font-size:0.9em;color:gray">इवि</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | एतत् / एनत् | एते / एने | एतानि / एनानि |దీనిని <br/> <span style="font-size:0.9em;color:gray">दीनिनि</span> |వీటిద్దరిని <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरिनि</span> |వీటిని <br/> <span style="font-size:0.9em;color:gray">वीटिनि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | एतेन / एनेन | एताभ्याम् | एतैः |దీనితో <br/> <span style="font-size:0.9em;color:gray">दीनितो</span> |వీటిద్దరితో <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरितो</span> |వీటితో <br/> <span style="font-size:0.9em;color:gray">वीटितो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | एतस्मै | एताभ्याम् | एतेभ्यः |దీనికి <br/> <span style="font-size:0.9em;color:gray">दीनिकि</span> |వీటిద్దరికి <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरिकि</span> |వీటికి <br/> <span style="font-size:0.9em;color:gray">वीटिकि</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | एतस्मात् | एताभ्याम् | एतेभ्यः |దీని నుండి <br/> <span style="font-size:0.9em;color:gray">दीनि नुंडि</span> |వీటిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरि नुंडि</span> |వీటి నుండి <br/> <span style="font-size:0.9em;color:gray">वीटि नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | एतस्य | एतयोः / एनयोः | एतेषाम् |దీని యొక్క <br/> <span style="font-size:0.9em;color:gray">दीनि यॊक्क</span> |వీటిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरि यॊक्क</span> |వీటి యొక్క <br/> <span style="font-size:0.9em;color:gray">वीटि यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | एतस्मिन् | एतयोः / एनयोः | एतेषु |దీని యందు <br/> <span style="font-size:0.9em;color:gray">दीनि यंदु</span> |వీటిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">वीटिद्दरि लो</span> |వీటి లో <br/> <span style="font-size:0.9em;color:gray">वीटि लो</span> |
 
 
 ### 20. दकारान्तः त्रिषु लिङ्गेषु समानः अस्मद् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | अहम् | आवाम् | वयम् | నేను | మేమిద్దరం | మేము |
-| **ద్వితీయా** | माम्, मा | आवाम्, नौ | अस्मान्, नः | నన్ను | మమ్మిద్దరిని | మమ్మల్ని |
-| **తృతీయా** | मया | आवाभ्याम् | अस्माभिः | నాతో | మమ్మిద్దరితో | మాతో |
-| **చతుర్థీ** | मह्यम्, मे | आवाभ्याम्, नौ | अस्मभ्यम्, नः | నా కొరకు | మమ్మిద్దరి కొరకు | మా కొరకు |
-| **పంచమీ** | मत् | आवाभ्याम् | अस्मत् | నా నుండి | మమ్మిద్దరి నుండి | మా నుండి |
-| **షష్ఠీ** | मम, मे | आवयोः, नौ | अस्माकम्, नः | నా యొక్క | మమ్మిద్దరి యొక్క | మా యొక్క |
-| **సప్తమీ** | मयि | आवयोः | अस्मासु | నా యందు | మమ్మిద్దరి లో | మా లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | अहम् | आवाम् | वयम् |నేను <br/> <span style="font-size:0.9em;color:gray">नेनु</span> |మేమిద్దరం <br/> <span style="font-size:0.9em;color:gray">मेमिद्दरं</span> |మేము <br/> <span style="font-size:0.9em;color:gray">मेमु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | माम्, मा | आवाम्, नौ | अस्मान्, नः |నన్ను <br/> <span style="font-size:0.9em;color:gray">नन्नु</span> |మమ్మిద్దరిని <br/> <span style="font-size:0.9em;color:gray">मम्मिद्दरिनि</span> |మమ్మల్ని <br/> <span style="font-size:0.9em;color:gray">मम्मल्नि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | मया | आवाभ्याम् | अस्माभिः |నాతో <br/> <span style="font-size:0.9em;color:gray">नातो</span> |మమ్మిద్దరితో <br/> <span style="font-size:0.9em;color:gray">मम्मिद्दरितो</span> |మాతో <br/> <span style="font-size:0.9em;color:gray">मातो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | मह्यम्, मे | आवाभ्याम्, नौ | अस्मभ्यम्, नः |నా కొరకు <br/> <span style="font-size:0.9em;color:gray">ना कॊरकु</span> |మమ్మిద్దరి కొరకు <br/> <span style="font-size:0.9em;color:gray">मम्मिद्दरि कॊरकु</span> |మా కొరకు <br/> <span style="font-size:0.9em;color:gray">मा कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | मत् | आवाभ्याम् | अस्मत् |నా నుండి <br/> <span style="font-size:0.9em;color:gray">ना नुंडि</span> |మమ్మిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">मम्मिद्दरि नुंडि</span> |మా నుండి <br/> <span style="font-size:0.9em;color:gray">मा नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | मम, मे | आवयोः, नौ | अस्माकम्, नः |నా యొక్క <br/> <span style="font-size:0.9em;color:gray">ना यॊक्क</span> |మమ్మిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">मम्मिद्दरि यॊक्क</span> |మా యొక్క <br/> <span style="font-size:0.9em;color:gray">मा यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | मयि | आवयोः | अस्मासु |నా యందు <br/> <span style="font-size:0.9em;color:gray">ना यंदु</span> |మమ్మిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">मम्मिद्दरि लो</span> |మా లో <br/> <span style="font-size:0.9em;color:gray">मा लो</span> |
 
 
 ### 21. दकारान्तः त्रिषु लिङ्गेषु समानः युष्मद् शब्दः
 
-| విభక్తి | ఏకవచనము | ద్వివచనము | బహువచనము | తెలుగు అర్థము (ఏకవచనము) | తెలుగు అర్థము (ద్వివచనము) | తెలుగు అర్థము (బహువచనము) |
+|విభక్తి <br/> <span style="font-size:0.9em;color:gray">विभक्ति</span> |ఏకవచనము <br/> <span style="font-size:0.9em;color:gray">एकवचनमु</span> |ద్వివచనము <br/> <span style="font-size:0.9em;color:gray">द्विवचनमु</span> |బహువచనము <br/> <span style="font-size:0.9em;color:gray">बहुवचनमु</span> |తెలుగు అర్థము (ఏకవచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (एकवचनमु)</span> |తెలుగు అర్థము (ద్వివచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (द्विवचनमु)</span> |తెలుగు అర్థము (బహువచనము) <br/> <span style="font-size:0.9em;color:gray">तॆलुगु अर्थमु (बहुवचनमु)</span> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ప్రథమా** | त्वम् | युवाम् | यूयम् | నీవు | మీరిద్దరు | మీరు |
-| **ద్వితీయా** | त्वाम्, त्वा | युवाम्, वाम् | युष्मान्, वः | నిన్ను | మిమ్మిద్దరిని | మిమ్మల్ని |
-| **తృతీయా** | त्वया | युवाभ्याम् | युष्माभिः | నీతో | మిమ్మిద్దరితో | మీతో |
-| **చతుర్థీ** | तुभ्यम्, ते | युवाभ्याम्, वाम् | युष्मभ्यम्, वः | నీ కొరకు | మిమ్మిద్దరి కొరకు | మీ కొరకు |
-| **పంచమీ** | त्वत् | युवाभ्याम् | युष्मत् | నీ నుండి | మిమ్మిద్దరి నుండి | మీ నుండి |
-| **షష్ఠీ** | तव, ते | युवयोः, वाम् | युष्माकम्, वः | నీ యొక్క | మిమ్మిద్దరి యొక్క | మీ యొక్క |
-| **సప్తమీ** | त्वयि | युवयोः | युष्मासु | నీ యందు | మిమ్మిద్దరి లో | మీ లో |
+|**ప్రథమా** <br/> <span style="font-size:0.9em;color:gray">**प्रथमा**</span> | त्वम् | युवाम् | यूयम् |నీవు <br/> <span style="font-size:0.9em;color:gray">नीवु</span> |మీరిద్దరు <br/> <span style="font-size:0.9em;color:gray">मीरिद्दरु</span> |మీరు <br/> <span style="font-size:0.9em;color:gray">मीरु</span> |
+|**ద్వితీయా** <br/> <span style="font-size:0.9em;color:gray">**द्वितीया**</span> | त्वाम्, त्वा | युवाम्, वाम् | युष्मान्, वः |నిన్ను <br/> <span style="font-size:0.9em;color:gray">निन्नु</span> |మిమ్మిద్దరిని <br/> <span style="font-size:0.9em;color:gray">मिम्मिद्दरिनि</span> |మిమ్మల్ని <br/> <span style="font-size:0.9em;color:gray">मिम्मल्नि</span> |
+|**తృతీయా** <br/> <span style="font-size:0.9em;color:gray">**तृतीया**</span> | त्वया | युवाभ्याम् | युष्माभिः |నీతో <br/> <span style="font-size:0.9em;color:gray">नीतो</span> |మిమ్మిద్దరితో <br/> <span style="font-size:0.9em;color:gray">मिम्मिद्दरितो</span> |మీతో <br/> <span style="font-size:0.9em;color:gray">मीतो</span> |
+|**చతుర్థీ** <br/> <span style="font-size:0.9em;color:gray">**चतुर्थी**</span> | तुभ्यम्, ते | युवाभ्याम्, वाम् | युष्मभ्यम्, वः |నీ కొరకు <br/> <span style="font-size:0.9em;color:gray">नी कॊरकु</span> |మిమ్మిద్దరి కొరకు <br/> <span style="font-size:0.9em;color:gray">मिम्मिद्दरि कॊरकु</span> |మీ కొరకు <br/> <span style="font-size:0.9em;color:gray">मी कॊरकु</span> |
+|**పంచమీ** <br/> <span style="font-size:0.9em;color:gray">**पंचमी**</span> | त्वत् | युवाभ्याम् | युष्मत् |నీ నుండి <br/> <span style="font-size:0.9em;color:gray">नी नुंडि</span> |మిమ్మిద్దరి నుండి <br/> <span style="font-size:0.9em;color:gray">मिम्मिद्दरि नुंडि</span> |మీ నుండి <br/> <span style="font-size:0.9em;color:gray">मी नुंडि</span> |
+|**షష్ఠీ** <br/> <span style="font-size:0.9em;color:gray">**षष्ठी**</span> | तव, ते | युवयोः, वाम् | युष्माकम्, वः |నీ యొక్క <br/> <span style="font-size:0.9em;color:gray">नी यॊक्क</span> |మిమ్మిద్దరి యొక్క <br/> <span style="font-size:0.9em;color:gray">मिम्मिद्दरि यॊक्क</span> |మీ యొక్క <br/> <span style="font-size:0.9em;color:gray">मी यॊक्क</span> |
+|**సప్తమీ** <br/> <span style="font-size:0.9em;color:gray">**सप्तमी**</span> | त्वयि | युवयोः | युष्मासु |నీ యందు <br/> <span style="font-size:0.9em;color:gray">नी यंदु</span> |మిమ్మిద్దరి లో <br/> <span style="font-size:0.9em;color:gray">मिम्मिद्दरि लो</span> |మీ లో <br/> <span style="font-size:0.9em;color:gray">मी लो</span> |
 
 
