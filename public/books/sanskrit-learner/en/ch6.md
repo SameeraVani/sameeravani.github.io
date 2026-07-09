@@ -104,8 +104,8 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | **Prathamā** | ज्ञानम् | ज्ञाने | ज्ञानानि | Knowledge [Subject] | two knowledges | knowledges |
 | **Dvitīyā** | ज्ञानम् | ज्ञाने | ज्ञानानि | to Knowledge [Object] | to two knowledges | to knowledges |
 | **Tṛtīyā** | ज्ञानेन | ज्ञानाभ्याम् | ज्ञानैः | by Knowledge | by two knowledges | by knowledges |
-| **Caturthī** | ज्ञानाय | ज्ञानाभ्याम् | ज्ञानैभ्यः | for Knowledge | for two knowledges | for knowledges |
-| **Pañcamī** | ज्ञानात् | ज्ञानाभ्याम् | ज्ञानैभ्यः | from Knowledge | from two knowledges | from knowledges |
+| **Caturthī** | ज्ञानाय | ज्ञानाभ्याम् | ज्ञानेभ्यः | for Knowledge | for two knowledges | for knowledges |
+| **Pañcamī** | ज्ञानात् | ज्ञानाभ्याम् | ज्ञानेभ्यः | from Knowledge | from two knowledges | from knowledges |
 | **Ṣaṣṭhī** | ज्ञानस्य | ज्ञानयोः | ज्ञानानाम् | of Knowledge | of two knowledges | of knowledges |
 | **Saptamī** | ज्ञाने | ज्ञानयोः | ज्ञानेषु | in/on Knowledge | in/on two knowledges | in/on knowledges |
 | **Sambodhana** | हे ज्ञान | हे ज्ञाने | हे ज्ञानानि | O Knowledge | O two knowledges | O knowledges |
