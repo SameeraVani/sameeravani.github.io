@@ -1,0 +1,3835 @@
+[
+  {
+    "id": "svar-a",
+    "char": "अ",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-aa",
+    "char": "आ",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-i",
+    "char": "इ",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-ii",
+    "char": "ई",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-u",
+    "char": "उ",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-uu",
+    "char": "ऊ",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-r",
+    "char": "ऋ",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-rr",
+    "char": "ॠ",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-l",
+    "char": "लृ",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-e",
+    "char": "ए",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-ai",
+    "char": "ऐ",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-o",
+    "char": "ओ",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-au",
+    "char": "औ",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-am",
+    "char": "अं",
+    "type": "vowel"
+  },
+  {
+    "id": "svar-ah",
+    "char": "अः",
+    "type": "vowel"
+  },
+  {
+    "id": "vyan-ka-varga-k",
+    "char": "क्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ka-varga-kh",
+    "char": "ख्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ka-varga-g",
+    "char": "ग्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ka-varga-gh",
+    "char": "घ्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ka-varga-ng",
+    "char": "ङ्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-cha-varga-ch",
+    "char": "च्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-cha-varga-chh",
+    "char": "छ्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-cha-varga-j",
+    "char": "ज्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-cha-varga-jh",
+    "char": "झ्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-cha-varga-ny",
+    "char": "ञ्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ta-varga-t-retro",
+    "char": "ट्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ta-varga-th-retro",
+    "char": "ठ्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ta-varga-d-retro",
+    "char": "ड्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ta-varga-dh-retro",
+    "char": "ढ्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ta-varga-n-retro",
+    "char": "ण्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ta-varga-t-dental",
+    "char": "त्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ta-varga-th-dental",
+    "char": "थ्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ta-varga-d-dental",
+    "char": "द्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ta-varga-dh-dental",
+    "char": "ध्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-ta-varga-n-dental",
+    "char": "न्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-pa-varga-p",
+    "char": "प्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-pa-varga-ph",
+    "char": "फ्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-pa-varga-b",
+    "char": "ब्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-pa-varga-bh",
+    "char": "भ्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-pa-varga-m",
+    "char": "म्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-avargiya-y",
+    "char": "य्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-avargiya-r",
+    "char": "र्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-avargiya-l",
+    "char": "ल्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-avargiya-v",
+    "char": "व्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-avargiya-sh",
+    "char": "श्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-avargiya-shh",
+    "char": "ष्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-avargiya-s",
+    "char": "स्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-avargiya-h",
+    "char": "ह्",
+    "type": "consonant"
+  },
+  {
+    "id": "vyan-avargiya-ll",
+    "char": "ळ्",
+    "type": "consonant"
+  },
+  {
+    "id": "g1",
+    "char": "क",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g2",
+    "char": "का",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g3",
+    "char": "कि",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g4",
+    "char": "की",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g5",
+    "char": "कु",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g6",
+    "char": "कू",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g7",
+    "char": "कृ",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g8",
+    "char": "कॄ",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g9",
+    "char": "कॢ",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g10",
+    "char": "कॣ",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g11",
+    "char": "के",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g12",
+    "char": "कै",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g13",
+    "char": "को",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g14",
+    "char": "कौ",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g15",
+    "char": "कं",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g16",
+    "char": "कः",
+    "type": "gunita",
+    "baseConsonant": "क"
+  },
+  {
+    "id": "g17",
+    "char": "ख",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g18",
+    "char": "खा",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g19",
+    "char": "खि",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g20",
+    "char": "खी",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g21",
+    "char": "खु",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g22",
+    "char": "खू",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g23",
+    "char": "खृ",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g24",
+    "char": "खॄ",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g25",
+    "char": "खॢ",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g26",
+    "char": "खॣ",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g27",
+    "char": "खे",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g28",
+    "char": "खै",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g29",
+    "char": "खो",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g30",
+    "char": "खौ",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g31",
+    "char": "खं",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g32",
+    "char": "खः",
+    "type": "gunita",
+    "baseConsonant": "ख"
+  },
+  {
+    "id": "g33",
+    "char": "ग",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g34",
+    "char": "गा",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g35",
+    "char": "गि",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g36",
+    "char": "गी",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g37",
+    "char": "गु",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g38",
+    "char": "गू",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g39",
+    "char": "गृ",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g40",
+    "char": "गॄ",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g41",
+    "char": "गॢ",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g42",
+    "char": "गॣ",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g43",
+    "char": "गे",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g44",
+    "char": "गै",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g45",
+    "char": "गो",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g46",
+    "char": "गौ",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g47",
+    "char": "गं",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g48",
+    "char": "गः",
+    "type": "gunita",
+    "baseConsonant": "ग"
+  },
+  {
+    "id": "g49",
+    "char": "घ",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g50",
+    "char": "घा",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g51",
+    "char": "घि",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g52",
+    "char": "घी",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g53",
+    "char": "घु",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g54",
+    "char": "घू",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g55",
+    "char": "घृ",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g56",
+    "char": "घॄ",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g57",
+    "char": "घॢ",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g58",
+    "char": "घॣ",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g59",
+    "char": "घे",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g60",
+    "char": "घै",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g61",
+    "char": "घो",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g62",
+    "char": "घौ",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g63",
+    "char": "घं",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g64",
+    "char": "घः",
+    "type": "gunita",
+    "baseConsonant": "घ"
+  },
+  {
+    "id": "g65",
+    "char": "ङ",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g66",
+    "char": "ङा",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g67",
+    "char": "ङि",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g68",
+    "char": "ङी",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g69",
+    "char": "ङु",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g70",
+    "char": "ङू",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g71",
+    "char": "ङृ",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g72",
+    "char": "ङॄ",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g73",
+    "char": "ङॢ",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g74",
+    "char": "ङॣ",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g75",
+    "char": "ङे",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g76",
+    "char": "ङै",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g77",
+    "char": "ङो",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g78",
+    "char": "ङौ",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g79",
+    "char": "ङं",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g80",
+    "char": "ङः",
+    "type": "gunita",
+    "baseConsonant": "ङ"
+  },
+  {
+    "id": "g81",
+    "char": "च",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g82",
+    "char": "चा",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g83",
+    "char": "चि",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g84",
+    "char": "ची",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g85",
+    "char": "चु",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g86",
+    "char": "चू",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g87",
+    "char": "चृ",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g88",
+    "char": "चॄ",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g89",
+    "char": "चॢ",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g90",
+    "char": "चॣ",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g91",
+    "char": "चे",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g92",
+    "char": "चै",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g93",
+    "char": "चो",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g94",
+    "char": "चौ",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g95",
+    "char": "चं",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g96",
+    "char": "चः",
+    "type": "gunita",
+    "baseConsonant": "च"
+  },
+  {
+    "id": "g97",
+    "char": "छ",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g98",
+    "char": "छा",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g99",
+    "char": "छि",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g100",
+    "char": "छी",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g101",
+    "char": "छु",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g102",
+    "char": "छू",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g103",
+    "char": "छृ",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g104",
+    "char": "छॄ",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g105",
+    "char": "छॢ",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g106",
+    "char": "छॣ",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g107",
+    "char": "छे",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g108",
+    "char": "छै",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g109",
+    "char": "छो",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g110",
+    "char": "छौ",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g111",
+    "char": "छं",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g112",
+    "char": "छः",
+    "type": "gunita",
+    "baseConsonant": "छ"
+  },
+  {
+    "id": "g113",
+    "char": "ज",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g114",
+    "char": "जा",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g115",
+    "char": "जि",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g116",
+    "char": "जी",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g117",
+    "char": "जु",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g118",
+    "char": "जू",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g119",
+    "char": "जृ",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g120",
+    "char": "जॄ",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g121",
+    "char": "जॢ",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g122",
+    "char": "जॣ",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g123",
+    "char": "जे",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g124",
+    "char": "जै",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g125",
+    "char": "जो",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g126",
+    "char": "जौ",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g127",
+    "char": "जं",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g128",
+    "char": "जः",
+    "type": "gunita",
+    "baseConsonant": "ज"
+  },
+  {
+    "id": "g129",
+    "char": "झ",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g130",
+    "char": "झा",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g131",
+    "char": "झि",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g132",
+    "char": "झी",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g133",
+    "char": "झु",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g134",
+    "char": "झू",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g135",
+    "char": "झृ",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g136",
+    "char": "झॄ",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g137",
+    "char": "झॢ",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g138",
+    "char": "झॣ",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g139",
+    "char": "झे",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g140",
+    "char": "झै",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g141",
+    "char": "झो",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g142",
+    "char": "झौ",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g143",
+    "char": "झं",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g144",
+    "char": "झः",
+    "type": "gunita",
+    "baseConsonant": "झ"
+  },
+  {
+    "id": "g145",
+    "char": "ञ",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g146",
+    "char": "ञा",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g147",
+    "char": "ञि",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g148",
+    "char": "ञी",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g149",
+    "char": "ञु",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g150",
+    "char": "ञू",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g151",
+    "char": "ञृ",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g152",
+    "char": "ञॄ",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g153",
+    "char": "ञॢ",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g154",
+    "char": "ञॣ",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g155",
+    "char": "ञे",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g156",
+    "char": "ञै",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g157",
+    "char": "ञो",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g158",
+    "char": "ञौ",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g159",
+    "char": "ञं",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g160",
+    "char": "ञः",
+    "type": "gunita",
+    "baseConsonant": "ञ"
+  },
+  {
+    "id": "g161",
+    "char": "ट",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g162",
+    "char": "टा",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g163",
+    "char": "टि",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g164",
+    "char": "टी",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g165",
+    "char": "टु",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g166",
+    "char": "टू",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g167",
+    "char": "टृ",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g168",
+    "char": "टॄ",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g169",
+    "char": "टॢ",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g170",
+    "char": "टॣ",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g171",
+    "char": "टे",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g172",
+    "char": "टै",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g173",
+    "char": "टो",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g174",
+    "char": "टौ",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g175",
+    "char": "टं",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g176",
+    "char": "टः",
+    "type": "gunita",
+    "baseConsonant": "ट"
+  },
+  {
+    "id": "g177",
+    "char": "ठ",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g178",
+    "char": "ठा",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g179",
+    "char": "ठि",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g180",
+    "char": "ठी",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g181",
+    "char": "ठु",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g182",
+    "char": "ठू",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g183",
+    "char": "ठृ",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g184",
+    "char": "ठॄ",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g185",
+    "char": "ठॢ",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g186",
+    "char": "ठॣ",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g187",
+    "char": "ठे",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g188",
+    "char": "ठै",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g189",
+    "char": "ठो",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g190",
+    "char": "ठौ",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g191",
+    "char": "ठं",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g192",
+    "char": "ठः",
+    "type": "gunita",
+    "baseConsonant": "ठ"
+  },
+  {
+    "id": "g193",
+    "char": "ड",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g194",
+    "char": "डा",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g195",
+    "char": "डि",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g196",
+    "char": "डी",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g197",
+    "char": "डु",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g198",
+    "char": "डू",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g199",
+    "char": "डृ",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g200",
+    "char": "डॄ",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g201",
+    "char": "डॢ",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g202",
+    "char": "डॣ",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g203",
+    "char": "डे",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g204",
+    "char": "डै",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g205",
+    "char": "डो",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g206",
+    "char": "डौ",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g207",
+    "char": "डं",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g208",
+    "char": "डः",
+    "type": "gunita",
+    "baseConsonant": "ड"
+  },
+  {
+    "id": "g209",
+    "char": "ढ",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g210",
+    "char": "ढा",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g211",
+    "char": "ढि",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g212",
+    "char": "ढी",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g213",
+    "char": "ढु",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g214",
+    "char": "ढू",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g215",
+    "char": "ढृ",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g216",
+    "char": "ढॄ",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g217",
+    "char": "ढॢ",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g218",
+    "char": "ढॣ",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g219",
+    "char": "ढे",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g220",
+    "char": "ढै",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g221",
+    "char": "ढो",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g222",
+    "char": "ढौ",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g223",
+    "char": "ढं",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g224",
+    "char": "ढः",
+    "type": "gunita",
+    "baseConsonant": "ढ"
+  },
+  {
+    "id": "g225",
+    "char": "ण",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g226",
+    "char": "णा",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g227",
+    "char": "णि",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g228",
+    "char": "णी",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g229",
+    "char": "णु",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g230",
+    "char": "णू",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g231",
+    "char": "णृ",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g232",
+    "char": "णॄ",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g233",
+    "char": "णॢ",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g234",
+    "char": "णॣ",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g235",
+    "char": "णे",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g236",
+    "char": "णै",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g237",
+    "char": "णो",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g238",
+    "char": "णौ",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g239",
+    "char": "णं",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g240",
+    "char": "णः",
+    "type": "gunita",
+    "baseConsonant": "ण"
+  },
+  {
+    "id": "g241",
+    "char": "त",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g242",
+    "char": "ता",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g243",
+    "char": "ति",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g244",
+    "char": "ती",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g245",
+    "char": "तु",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g246",
+    "char": "तू",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g247",
+    "char": "तृ",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g248",
+    "char": "तॄ",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g249",
+    "char": "तॢ",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g250",
+    "char": "तॣ",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g251",
+    "char": "ते",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g252",
+    "char": "तै",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g253",
+    "char": "तो",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g254",
+    "char": "तौ",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g255",
+    "char": "तं",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g256",
+    "char": "तः",
+    "type": "gunita",
+    "baseConsonant": "त"
+  },
+  {
+    "id": "g257",
+    "char": "थ",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g258",
+    "char": "था",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g259",
+    "char": "थि",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g260",
+    "char": "थी",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g261",
+    "char": "थु",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g262",
+    "char": "थू",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g263",
+    "char": "थृ",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g264",
+    "char": "थॄ",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g265",
+    "char": "थॢ",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g266",
+    "char": "थॣ",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g267",
+    "char": "थे",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g268",
+    "char": "थै",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g269",
+    "char": "थो",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g270",
+    "char": "थौ",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g271",
+    "char": "थं",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g272",
+    "char": "थः",
+    "type": "gunita",
+    "baseConsonant": "थ"
+  },
+  {
+    "id": "g273",
+    "char": "द",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g274",
+    "char": "दा",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g275",
+    "char": "दि",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g276",
+    "char": "दी",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g277",
+    "char": "दु",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g278",
+    "char": "दू",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g279",
+    "char": "दृ",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g280",
+    "char": "दॄ",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g281",
+    "char": "दॢ",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g282",
+    "char": "दॣ",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g283",
+    "char": "दे",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g284",
+    "char": "दै",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g285",
+    "char": "दो",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g286",
+    "char": "दौ",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g287",
+    "char": "दं",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g288",
+    "char": "दः",
+    "type": "gunita",
+    "baseConsonant": "द"
+  },
+  {
+    "id": "g289",
+    "char": "ध",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g290",
+    "char": "धा",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g291",
+    "char": "धि",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g292",
+    "char": "धी",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g293",
+    "char": "धु",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g294",
+    "char": "धू",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g295",
+    "char": "धृ",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g296",
+    "char": "धॄ",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g297",
+    "char": "धॢ",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g298",
+    "char": "धॣ",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g299",
+    "char": "धे",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g300",
+    "char": "धै",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g301",
+    "char": "धो",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g302",
+    "char": "धौ",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g303",
+    "char": "धं",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g304",
+    "char": "धः",
+    "type": "gunita",
+    "baseConsonant": "ध"
+  },
+  {
+    "id": "g305",
+    "char": "न",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g306",
+    "char": "ना",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g307",
+    "char": "नि",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g308",
+    "char": "नी",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g309",
+    "char": "नु",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g310",
+    "char": "नू",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g311",
+    "char": "नृ",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g312",
+    "char": "नॄ",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g313",
+    "char": "नॢ",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g314",
+    "char": "नॣ",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g315",
+    "char": "ने",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g316",
+    "char": "नै",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g317",
+    "char": "नो",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g318",
+    "char": "नौ",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g319",
+    "char": "नं",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g320",
+    "char": "नः",
+    "type": "gunita",
+    "baseConsonant": "न"
+  },
+  {
+    "id": "g321",
+    "char": "प",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g322",
+    "char": "पा",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g323",
+    "char": "पि",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g324",
+    "char": "पी",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g325",
+    "char": "पु",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g326",
+    "char": "पू",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g327",
+    "char": "पृ",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g328",
+    "char": "पॄ",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g329",
+    "char": "पॢ",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g330",
+    "char": "पॣ",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g331",
+    "char": "पे",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g332",
+    "char": "पै",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g333",
+    "char": "पो",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g334",
+    "char": "पौ",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g335",
+    "char": "पं",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g336",
+    "char": "पः",
+    "type": "gunita",
+    "baseConsonant": "प"
+  },
+  {
+    "id": "g337",
+    "char": "फ",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g338",
+    "char": "फा",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g339",
+    "char": "फि",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g340",
+    "char": "फी",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g341",
+    "char": "फु",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g342",
+    "char": "फू",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g343",
+    "char": "फृ",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g344",
+    "char": "फॄ",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g345",
+    "char": "फॢ",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g346",
+    "char": "फॣ",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g347",
+    "char": "फे",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g348",
+    "char": "फै",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g349",
+    "char": "फो",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g350",
+    "char": "फौ",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g351",
+    "char": "फं",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g352",
+    "char": "फः",
+    "type": "gunita",
+    "baseConsonant": "फ"
+  },
+  {
+    "id": "g353",
+    "char": "ब",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g354",
+    "char": "बा",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g355",
+    "char": "बि",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g356",
+    "char": "बी",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g357",
+    "char": "बु",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g358",
+    "char": "बू",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g359",
+    "char": "बृ",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g360",
+    "char": "बॄ",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g361",
+    "char": "बॢ",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g362",
+    "char": "बॣ",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g363",
+    "char": "बे",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g364",
+    "char": "बै",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g365",
+    "char": "बो",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g366",
+    "char": "बौ",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g367",
+    "char": "बं",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g368",
+    "char": "बः",
+    "type": "gunita",
+    "baseConsonant": "ब"
+  },
+  {
+    "id": "g369",
+    "char": "भ",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g370",
+    "char": "भा",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g371",
+    "char": "भि",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g372",
+    "char": "भी",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g373",
+    "char": "भु",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g374",
+    "char": "भू",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g375",
+    "char": "भृ",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g376",
+    "char": "भॄ",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g377",
+    "char": "भॢ",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g378",
+    "char": "भॣ",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g379",
+    "char": "भे",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g380",
+    "char": "भै",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g381",
+    "char": "भो",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g382",
+    "char": "भौ",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g383",
+    "char": "भं",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g384",
+    "char": "भः",
+    "type": "gunita",
+    "baseConsonant": "भ"
+  },
+  {
+    "id": "g385",
+    "char": "म",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g386",
+    "char": "मा",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g387",
+    "char": "मि",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g388",
+    "char": "मी",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g389",
+    "char": "मु",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g390",
+    "char": "मू",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g391",
+    "char": "मृ",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g392",
+    "char": "मॄ",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g393",
+    "char": "मॢ",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g394",
+    "char": "मॣ",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g395",
+    "char": "मे",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g396",
+    "char": "मै",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g397",
+    "char": "मो",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g398",
+    "char": "मौ",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g399",
+    "char": "मं",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g400",
+    "char": "मः",
+    "type": "gunita",
+    "baseConsonant": "म"
+  },
+  {
+    "id": "g401",
+    "char": "य",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g402",
+    "char": "या",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g403",
+    "char": "यि",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g404",
+    "char": "यी",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g405",
+    "char": "यु",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g406",
+    "char": "यू",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g407",
+    "char": "यृ",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g408",
+    "char": "यॄ",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g409",
+    "char": "यॢ",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g410",
+    "char": "यॣ",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g411",
+    "char": "ये",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g412",
+    "char": "यै",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g413",
+    "char": "यो",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g414",
+    "char": "यौ",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g415",
+    "char": "यं",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g416",
+    "char": "यः",
+    "type": "gunita",
+    "baseConsonant": "य"
+  },
+  {
+    "id": "g417",
+    "char": "र",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g418",
+    "char": "रा",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g419",
+    "char": "रि",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g420",
+    "char": "री",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g421",
+    "char": "रु",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g422",
+    "char": "रू",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g423",
+    "char": "रृ",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g424",
+    "char": "रॄ",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g425",
+    "char": "रॢ",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g426",
+    "char": "रॣ",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g427",
+    "char": "रे",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g428",
+    "char": "रै",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g429",
+    "char": "रो",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g430",
+    "char": "रौ",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g431",
+    "char": "रं",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g432",
+    "char": "रः",
+    "type": "gunita",
+    "baseConsonant": "र"
+  },
+  {
+    "id": "g433",
+    "char": "ल",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g434",
+    "char": "ला",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g435",
+    "char": "लि",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g436",
+    "char": "ली",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g437",
+    "char": "लु",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g438",
+    "char": "लू",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g439",
+    "char": "लृ",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g440",
+    "char": "लॄ",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g441",
+    "char": "लॢ",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g442",
+    "char": "लॣ",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g443",
+    "char": "ले",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g444",
+    "char": "लै",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g445",
+    "char": "लो",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g446",
+    "char": "लौ",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g447",
+    "char": "लं",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g448",
+    "char": "लः",
+    "type": "gunita",
+    "baseConsonant": "ल"
+  },
+  {
+    "id": "g449",
+    "char": "व",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g450",
+    "char": "वा",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g451",
+    "char": "वि",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g452",
+    "char": "वी",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g453",
+    "char": "वु",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g454",
+    "char": "वू",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g455",
+    "char": "वृ",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g456",
+    "char": "वॄ",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g457",
+    "char": "वॢ",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g458",
+    "char": "वॣ",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g459",
+    "char": "वे",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g460",
+    "char": "वै",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g461",
+    "char": "वो",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g462",
+    "char": "वौ",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g463",
+    "char": "वं",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g464",
+    "char": "वः",
+    "type": "gunita",
+    "baseConsonant": "व"
+  },
+  {
+    "id": "g465",
+    "char": "श",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g466",
+    "char": "शा",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g467",
+    "char": "शि",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g468",
+    "char": "शी",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g469",
+    "char": "शु",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g470",
+    "char": "शू",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g471",
+    "char": "शृ",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g472",
+    "char": "शॄ",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g473",
+    "char": "शॢ",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g474",
+    "char": "शॣ",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g475",
+    "char": "शे",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g476",
+    "char": "शै",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g477",
+    "char": "शो",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g478",
+    "char": "शौ",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g479",
+    "char": "शं",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g480",
+    "char": "शः",
+    "type": "gunita",
+    "baseConsonant": "श"
+  },
+  {
+    "id": "g481",
+    "char": "ष",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g482",
+    "char": "षा",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g483",
+    "char": "षि",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g484",
+    "char": "षी",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g485",
+    "char": "षु",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g486",
+    "char": "षू",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g487",
+    "char": "षृ",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g488",
+    "char": "षॄ",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g489",
+    "char": "षॢ",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g490",
+    "char": "षॣ",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g491",
+    "char": "षे",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g492",
+    "char": "षै",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g493",
+    "char": "षो",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g494",
+    "char": "षौ",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g495",
+    "char": "षं",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g496",
+    "char": "षः",
+    "type": "gunita",
+    "baseConsonant": "ष"
+  },
+  {
+    "id": "g497",
+    "char": "स",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g498",
+    "char": "सा",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g499",
+    "char": "सि",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g500",
+    "char": "सी",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g501",
+    "char": "सु",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g502",
+    "char": "सू",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g503",
+    "char": "सृ",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g504",
+    "char": "सॄ",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g505",
+    "char": "सॢ",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g506",
+    "char": "सॣ",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g507",
+    "char": "से",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g508",
+    "char": "सै",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g509",
+    "char": "सो",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g510",
+    "char": "सौ",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g511",
+    "char": "सं",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g512",
+    "char": "सः",
+    "type": "gunita",
+    "baseConsonant": "स"
+  },
+  {
+    "id": "g513",
+    "char": "ह",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g514",
+    "char": "हा",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g515",
+    "char": "हि",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g516",
+    "char": "ही",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g517",
+    "char": "हु",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g518",
+    "char": "हू",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g519",
+    "char": "हृ",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g520",
+    "char": "हॄ",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g521",
+    "char": "हॢ",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g522",
+    "char": "हॣ",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g523",
+    "char": "हे",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g524",
+    "char": "है",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g525",
+    "char": "हो",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g526",
+    "char": "हौ",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g527",
+    "char": "हं",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g528",
+    "char": "हः",
+    "type": "gunita",
+    "baseConsonant": "ह"
+  },
+  {
+    "id": "g529",
+    "char": "ळ",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g530",
+    "char": "ळा",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g531",
+    "char": "ळि",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g532",
+    "char": "ळी",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g533",
+    "char": "ळु",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g534",
+    "char": "ळू",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g535",
+    "char": "ळृ",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g536",
+    "char": "ळॄ",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g537",
+    "char": "ळॢ",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g538",
+    "char": "ळॣ",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g539",
+    "char": "ळे",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g540",
+    "char": "ळै",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g541",
+    "char": "ळो",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g542",
+    "char": "ळौ",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g543",
+    "char": "ळं",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "g544",
+    "char": "ळः",
+    "type": "gunita",
+    "baseConsonant": "ळ"
+  },
+  {
+    "id": "cj1",
+    "char": "क्क",
+    "type": "conjunct",
+    "example": "अक्का"
+  },
+  {
+    "id": "cj2",
+    "char": "क्त",
+    "type": "conjunct",
+    "example": "मुक्तः"
+  },
+  {
+    "id": "cj3",
+    "char": "क्य",
+    "type": "conjunct",
+    "example": "वाक्यम्"
+  },
+  {
+    "id": "cj4",
+    "char": "क्र",
+    "type": "conjunct",
+    "example": "नक्रः"
+  },
+  {
+    "id": "cj5",
+    "char": "क्व",
+    "type": "conjunct",
+    "example": "पक्वम्"
+  },
+  {
+    "id": "cj6",
+    "char": "क्ष",
+    "type": "conjunct",
+    "example": "क्षणम्"
+  },
+  {
+    "id": "cj7",
+    "char": "क्स",
+    "type": "conjunct",
+    "example": "वाक्समूहः"
+  },
+  {
+    "id": "cj8",
+    "char": "ख्य",
+    "type": "conjunct",
+    "example": "मुख्यः"
+  },
+  {
+    "id": "cj9",
+    "char": "ग्ग",
+    "type": "conjunct",
+    "example": "दग्गजः"
+  },
+  {
+    "id": "cj10",
+    "char": "ग्म",
+    "type": "conjunct",
+    "example": "युग्मम्"
+  },
+  {
+    "id": "cj11",
+    "char": "ग्य",
+    "type": "conjunct",
+    "example": "भाग्यम्"
+  },
+  {
+    "id": "cj12",
+    "char": "घ्य",
+    "type": "conjunct",
+    "example": "अर्घ्यम्"
+  },
+  {
+    "id": "cj13",
+    "char": "ङ्ख",
+    "type": "conjunct",
+    "example": "शङ्खः"
+  },
+  {
+    "id": "cj14",
+    "char": "च्च",
+    "type": "conjunct",
+    "example": "उच्चारः"
+  },
+  {
+    "id": "cj15",
+    "char": "ज्ज",
+    "type": "conjunct",
+    "example": "लज्जा"
+  },
+  {
+    "id": "cj16",
+    "char": "ञ्च",
+    "type": "conjunct",
+    "example": "कुञ्चिका"
+  },
+  {
+    "id": "cj17",
+    "char": "ट्ट",
+    "type": "conjunct",
+    "example": "अट्टम्"
+  },
+  {
+    "id": "cj18",
+    "char": "ट्व",
+    "type": "conjunct",
+    "example": "खट्वाङ्गः"
+  },
+  {
+    "id": "cj19",
+    "char": "ड्ड",
+    "type": "conjunct",
+    "example": "उड्डयनम्"
+  },
+  {
+    "id": "cj20",
+    "char": "त्त",
+    "type": "conjunct",
+    "example": "उत्तमम्"
+  },
+  {
+    "id": "cj21",
+    "char": "त्न",
+    "type": "conjunct",
+    "example": "रत्नम्"
+  },
+  {
+    "id": "cj22",
+    "char": "त्य",
+    "type": "conjunct",
+    "example": "सत्यम्"
+  },
+  {
+    "id": "cj23",
+    "char": "त्र",
+    "type": "conjunct",
+    "example": "पत्रम्"
+  },
+  {
+    "id": "cj24",
+    "char": "थ्य",
+    "type": "conjunct",
+    "example": "पथ्या / मिथ्या"
+  },
+  {
+    "id": "cj25",
+    "char": "द्द",
+    "type": "conjunct",
+    "example": "उद्देशः"
+  },
+  {
+    "id": "cj26",
+    "char": "द्ध",
+    "type": "conjunct",
+    "example": "शुद्धम्"
+  },
+  {
+    "id": "cj27",
+    "char": "द्भ",
+    "type": "conjunct",
+    "example": "रत्नोद्भवः"
+  },
+  {
+    "id": "cj28",
+    "char": "द्म",
+    "type": "conjunct",
+    "example": "पद्मम्"
+  },
+  {
+    "id": "cj29",
+    "char": "द्य",
+    "type": "conjunct",
+    "example": "अद्य"
+  },
+  {
+    "id": "cj30",
+    "char": "न्न",
+    "type": "conjunct",
+    "example": "उन्नतः"
+  },
+  {
+    "id": "cj31",
+    "char": "प्त",
+    "type": "conjunct",
+    "example": "सप्ताहः"
+  },
+  {
+    "id": "cj32",
+    "char": "प्प",
+    "type": "conjunct",
+    "example": "पिप्पलः"
+  },
+  {
+    "id": "cj33",
+    "char": "प्र",
+    "type": "conjunct",
+    "example": "प्रदीपः"
+  },
+  {
+    "id": "cj34",
+    "char": "भ्न",
+    "type": "conjunct",
+    "example": "स्तभ्नाति"
+  },
+  {
+    "id": "cj35",
+    "char": "भ्य",
+    "type": "conjunct",
+    "example": "शीघ्रः / सभ्यः"
+  },
+  {
+    "id": "cj36",
+    "char": "म्म",
+    "type": "conjunct",
+    "example": "सम्मतम्"
+  },
+  {
+    "id": "cj37",
+    "char": "य्य",
+    "type": "conjunct",
+    "example": "शय्या"
+  },
+  {
+    "id": "cj38",
+    "char": "र्क",
+    "type": "conjunct",
+    "example": "शर्करा"
+  },
+  {
+    "id": "cj39",
+    "char": "र्य",
+    "type": "conjunct",
+    "example": "सूर्यः"
+  },
+  {
+    "id": "cj40",
+    "char": "ल्प",
+    "type": "conjunct",
+    "example": "अल्पः"
+  },
+  {
+    "id": "cj41",
+    "char": "ल्य",
+    "type": "conjunct",
+    "example": "मूल्यम्"
+  },
+  {
+    "id": "cj42",
+    "char": "ल्ल",
+    "type": "conjunct",
+    "example": "उल्लासः"
+  },
+  {
+    "id": "cj43",
+    "char": "व्य",
+    "type": "conjunct",
+    "example": "काव्यम्"
+  },
+  {
+    "id": "cj44",
+    "char": "श्च",
+    "type": "conjunct",
+    "example": "आश्चर्यम्"
+  },
+  {
+    "id": "cj45",
+    "char": "श्य",
+    "type": "conjunct",
+    "example": "पश्यति"
+  },
+  {
+    "id": "cj46",
+    "char": "श्व",
+    "type": "conjunct",
+    "example": "अश्वः"
+  },
+  {
+    "id": "cj47",
+    "char": "ष्ण",
+    "type": "conjunct",
+    "example": "कृष्णः"
+  },
+  {
+    "id": "cj48",
+    "char": "ष्म",
+    "type": "conjunct",
+    "example": "ऊष्मन्"
+  },
+  {
+    "id": "cj49",
+    "char": "स्क",
+    "type": "conjunct",
+    "example": "स्कन्धः"
+  },
+  {
+    "id": "cj50",
+    "char": "स्न",
+    "type": "conjunct",
+    "example": "स्नानम्"
+  },
+  {
+    "id": "cj51",
+    "char": "स्स",
+    "type": "conjunct",
+    "example": "दुस्सहः"
+  },
+  {
+    "id": "cj52",
+    "char": "ह्ण",
+    "type": "conjunct",
+    "example": "गृह्णाति"
+  },
+  {
+    "id": "cj53",
+    "char": "ह्य",
+    "type": "conjunct",
+    "example": "ह्यः"
+  },
+  {
+    "id": "cj54",
+    "char": "ञ्ज",
+    "type": "conjunct",
+    "example": "अञ्जना"
+  }
+]

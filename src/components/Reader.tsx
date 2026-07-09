@@ -17,10 +17,12 @@ import {
   Share2,
   ArrowUp,
   BookOpen,
-  Download
+  Download,
+  Gamepad
 } from 'lucide-react';
 
 import { downloadChapterAsPdf, downloadFullBookAsPdf, acquireSaveFileHandle } from '../utils/download';
+import { PracticeDashboard } from './practice/PracticeDashboard';
 
 
 interface ReaderProps {
@@ -61,6 +63,7 @@ export const Reader: React.FC<ReaderProps> = ({
   const [settingsOpen, setSettingsOpen] = useState<boolean>(false);
   const [showShareTooltip, setShowShareTooltip] = useState<boolean>(false);
   const [showGoToTop, setShowGoToTop] = useState<boolean>(false);
+  const [practiceMode, setPracticeMode] = useState<boolean>(false);
 
   // In-Book Search State
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -1396,13 +1399,20 @@ export const Reader: React.FC<ReaderProps> = ({
 
       {/* Reader Content Area */}
       <div className="reader-workspace">
-        <div 
-          className="reader-content-scroll" 
-          ref={scrollContainerRef}
-          onScroll={handleScroll}
-          id="reader-text-container"
-        >
-          <div className="reader-content-width">
+        {practiceMode ? (
+          <div className="reader-content-scroll" style={{ overflowY: 'auto', height: '100%' }}>
+            <div className="reader-content-width" style={{ marginTop: '20px', paddingBottom: '60px' }}>
+              <PracticeDashboard onBack={() => setPracticeMode(false)} activeLanguage={activeLanguage} />
+            </div>
+          </div>
+        ) : (
+          <div 
+            className="reader-content-scroll" 
+            ref={scrollContainerRef}
+            onScroll={handleScroll}
+            id="reader-text-container"
+          >
+            <div className="reader-content-width">
             {loadingChapter ? (
               <div className="loader-container">
                 <div className="spinner"></div>
@@ -1443,6 +1453,17 @@ export const Reader: React.FC<ReaderProps> = ({
                       >
                         Start Reading
                       </button>
+
+                      {bookId === 'sanskrit-learner' && (
+                        <button
+                          className="intro-btn-primary"
+                          onClick={() => setPracticeMode(true)}
+                          style={{ background: '#4ade80' }}
+                        >
+                          <Gamepad size={18} style={{ marginRight: '6px', verticalAlign: 'middle' }} />
+                          Practice Mode
+                        </button>
+                      )}
                       
                       {savedProgress && savedProgress.currentLanguage === activeLanguage && (
                         <button 
@@ -1574,6 +1595,7 @@ export const Reader: React.FC<ReaderProps> = ({
             )}
           </div>
         </div>
+        )}
 
         {/* Go to Top floating button */}
         {showGoToTop && (

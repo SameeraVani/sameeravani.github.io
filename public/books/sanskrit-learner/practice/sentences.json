@@ -1,0 +1,40 @@
+[
+  {
+    "id": "s1",
+    "english": "Rama goes to the forest.",
+    "telugu": "రాముడు అడవికి వెళుతున్నాడు.",
+    "tamil": "ராமன் காட்டுக்கு செல்கிறான்.",
+    "kannada": "ರಾಮ ಕಾಡಿಗೆ ಹೋಗುತ್ತಾನೆ.",
+    "words": [
+      { "id": "s1_1", "sanskrit": "रामः" },
+      { "id": "s1_2", "sanskrit": "वनम्" },
+      { "id": "s1_3", "sanskrit": "गच्छति" }
+    ],
+    "correctOrder": ["s1_1", "s1_2", "s1_3"]
+  },
+  {
+    "id": "s2",
+    "english": "The boy reads a book.",
+    "telugu": "బాలుడు పుస్తకం చదువుతున్నాడు.",
+    "tamil": "சிறுவன் புத்தகம் படிக்கிறான்.",
+    "kannada": "ಹುಡುಗ ಪುಸ್ತಕ ಓದುತ್ತಾನೆ.",
+    "words": [
+      { "id": "s2_1", "sanskrit": "पठति" },
+      { "id": "s2_2", "sanskrit": "बालकः" },
+      { "id": "s2_3", "sanskrit": "पुस्तकम्" }
+    ],
+    "correctOrder": ["s2_2", "s2_3", "s2_1"]
+  },
+  {
+    "id": "s3",
+    "english": "Rama plays.",
+    "telugu": "రాముడు ఆడుతున్నాడు.",
+    "tamil": "ராமன் விளையாடுகிறான்.",
+    "kannada": "ರಾಮ ಆಡುತ್ತಾನೆ.",
+    "words": [
+      { "id": "s3_1", "sanskrit": "क्रीडति" },
+      { "id": "s3_2", "sanskrit": "रामः" }
+    ],
+    "correctOrder": ["s3_2", "s3_1"]
+  }
+]

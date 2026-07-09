@@ -1,0 +1,12 @@
+[
+  { "id": "w1", "sanskrit": "रामः", "english": "Rama", "telugu": "రాముడు", "tamil": "ராமன்", "kannada": "ರಾಮ" },
+  { "id": "w2", "sanskrit": "वृक्षः", "english": "Tree", "telugu": "చెట్టు", "tamil": "மரம்", "kannada": "ಮರ" },
+  { "id": "w3", "sanskrit": "सूर्यः", "english": "Sun", "telugu": "సూర్యుడు", "tamil": "சூரியன்", "kannada": "ಸೂರ್ಯ" },
+  { "id": "w4", "sanskrit": "चन्द्रः", "english": "Moon", "telugu": "చంద్రుడు", "tamil": "சந்திரன்", "kannada": "ಚಂದ್ರ" },
+  { "id": "w5", "sanskrit": "बालकः", "english": "Boy", "telugu": "బాలుడు", "tamil": "சிறுவன்", "kannada": "ಹುಡುಗ" },
+  { "id": "w6", "sanskrit": "गच्छति", "english": "Goes", "telugu": "వెళుతున్నాడు", "tamil": "செல்கிறான்", "kannada": "ಹೋಗುತ್ತಾನೆ" },
+  { "id": "w7", "sanskrit": "पठति", "english": "Reads", "telugu": "చదువుతున్నాడు", "tamil": "படிக்கிறான்", "kannada": "ಓದುತ್ತಾನೆ" },
+  { "id": "w8", "sanskrit": "क्रीडति", "english": "Plays", "telugu": "ఆడుతున్నాడు", "tamil": "விளையாடுகிறான்", "kannada": "ಆಡುತ್ತಾನೆ" },
+  { "id": "w9", "sanskrit": "वनम्", "english": "Forest", "telugu": "అడవి", "tamil": "காடு", "kannada": "ಕಾಡು" },
+  { "id": "w10", "sanskrit": "पुस्तकम्", "english": "Book", "telugu": "పుస్తకము", "tamil": "புத்தகம்", "kannada": "ಪುಸ್ತಕ" }
+]
