@@ -280,7 +280,7 @@ export const LetterPractice: React.FC<LetterPracticeProps> = ({ onBack, onComple
               <Volume2 size={20}/>
             </button>
 
-            {(selectedLetter.type === 'vowel' || selectedLetter.type === 'consonant') && (
+            {(selectedLetter.type === 'vowel' || selectedLetter.type === 'consonant') && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') && (
               <button 
                 onClick={() => isRecording ? stopRecording() : startRecording(selectedLetter.id)} 
                 style={{ position: 'absolute', top: '65px', right: '15px', border: 'none', background: isRecording ? 'red' : 'var(--bg-tertiary)', color: isRecording ? 'white' : 'var(--text-primary)', borderRadius: '50%', width: '40px', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}
