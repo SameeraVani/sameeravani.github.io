@@ -4,6 +4,15 @@ export interface Chapter {
   path: string;
 }
 
+export interface VideoPlaylist {
+  id: string;
+  title: string;
+  groupRegex?: string;
+  groupPrefix?: string;
+  chunkSize?: number;
+  chunkPrefix?: string;
+}
+
 export interface Book {
   id: string;
   author: string;
@@ -19,8 +28,11 @@ export interface Book {
       description: string;
     };
   };
-  chapters: {
+  chapters?: {
     [lang: string]: Chapter[];
+  };
+  playlists?: {
+    [lang: string]: VideoPlaylist[];
   };
 }
 

@@ -61,7 +61,7 @@ export const Catalog: React.FC<CatalogProps> = ({
     if (!bookProgress) return 0;
     
     const activeLang = bookProgress.currentLanguage || book.languages[0];
-    const langChapters = book.chapters[activeLang];
+    const langChapters = book.chapters?.[activeLang];
     if (!langChapters || langChapters.length === 0) return 0;
 
     // Find index of the current chapter
@@ -176,7 +176,7 @@ export const Catalog: React.FC<CatalogProps> = ({
                   <div className="book-meta" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', alignItems: 'center' }}>
                     <span>{book.year}</span>
                     <span> &bull; </span>
-                    <span>{book.chapters[book.languages[0]]?.length || 0} Chapters</span>
+                    <span>{book.chapters?.[book.languages[0]]?.length || 0} Chapters</span>
                     <span style={{ marginLeft: 'auto', display: 'flex', gap: '4px' }}>
                       {book.languages.map((lang) => {
                         const labels: Record<string, string> = {

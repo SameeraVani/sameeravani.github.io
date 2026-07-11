@@ -128,7 +128,7 @@ export const Reader: React.FC<ReaderProps> = ({
 
         // 2. Resolve Chapter ID (only set if in URL and valid)
         if (initialLang) {
-          const chapters = found.chapters[initialLang] || [];
+          const chapters = found.chapters?.[initialLang] || [];
           if (urlChapter && chapters.some((c) => c.id === urlChapter)) {
             initialChapter = urlChapter;
             if (savedProgress && savedProgress.currentLanguage === initialLang && savedProgress.currentChapterId === urlChapter) {
@@ -161,7 +161,7 @@ export const Reader: React.FC<ReaderProps> = ({
         if (route.lang && book.languages.includes(route.lang)) {
           setActiveLanguage(route.lang);
         }
-        const chapters = book.chapters[route.lang || ''] || [];
+        const chapters = book.chapters?.[route.lang || ''] || [];
         if (route.chapterId && chapters.some((c) => c.id === route.chapterId)) {
           setActiveChapterId(route.chapterId);
         } else {
@@ -191,7 +191,7 @@ export const Reader: React.FC<ReaderProps> = ({
     const loadAllContent = async () => {
       setSearchingAll(true);
       const contentsMap: Record<string, string> = {};
-      const langChapters = book.chapters[activeLanguage] || [];
+      const langChapters = book.chapters?.[activeLanguage] || [];
       
       for (const chapter of langChapters) {
         try {
@@ -224,7 +224,7 @@ export const Reader: React.FC<ReaderProps> = ({
       return;
     }
     
-    const langChapters = book.chapters[activeLanguage] || [];
+    const langChapters = book.chapters?.[activeLanguage] || [];
     const activeChapter = langChapters.find((c) => c.id === activeChapterId);
     if (!activeChapter) return;
 
@@ -288,7 +288,7 @@ export const Reader: React.FC<ReaderProps> = ({
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!book || !activeLanguage || settingsOpen || activeChapterId === '') return;
       
-      const langChapters = book.chapters[activeLanguage] || [];
+      const langChapters = book.chapters?.[activeLanguage] || [];
       const currentIdx = langChapters.findIndex((c) => c.id === activeChapterId);
       if (currentIdx === -1) return;
 
@@ -380,10 +380,10 @@ export const Reader: React.FC<ReaderProps> = ({
   const handleLanguageChange = (newLang: string) => {
     if (!book) return;
 
-    const currentLangChapters = book.chapters[activeLanguage] || [];
+    const currentLangChapters = book.chapters?.[activeLanguage] || [];
     const currentChapterIdx = currentLangChapters.findIndex((c) => c.id === activeChapterId);
     
-    const targetLangChapters = book.chapters[newLang] || [];
+    const targetLangChapters = book.chapters?.[newLang] || [];
     let targetChapterId = '';
     
     // Jump to the same chapter index in the new language
@@ -429,7 +429,7 @@ export const Reader: React.FC<ReaderProps> = ({
     }
 
     const matches: typeof searchResults = [];
-    const langChapters = book.chapters[activeLanguage] || [];
+    const langChapters = book.chapters?.[activeLanguage] || [];
     const chaptersToSearch = searchCurrentChapterOnly 
       ? langChapters.filter(c => c.id === activeChapterId)
       : langChapters;
@@ -474,7 +474,7 @@ export const Reader: React.FC<ReaderProps> = ({
     const container = scrollContainerRef.current;
     if (!container) return;
 
-    const langChapters = book.chapters[activeLanguage] || [];
+    const langChapters = book.chapters?.[activeLanguage] || [];
     const activeChapter = langChapters.find((c) => c.id === activeChapterId);
     if (!activeChapter) return;
 
@@ -526,7 +526,7 @@ export const Reader: React.FC<ReaderProps> = ({
     }
 
     if (book) {
-      const langChapters = book.chapters[activeLanguage] || [];
+      const langChapters = book.chapters?.[activeLanguage] || [];
       const activeIdx = langChapters.findIndex((c) => c.id === activeChapterId);
       const thisIdx = langChapters.findIndex((c) => c.id === chapterId);
       if (activeIdx > thisIdx) return 100;
@@ -556,7 +556,7 @@ export const Reader: React.FC<ReaderProps> = ({
     );
   }
 
-  const langChapters = book.chapters[activeLanguage] || [];
+  const langChapters = book.chapters?.[activeLanguage] || [];
   const activeChapterIdx = langChapters.findIndex((c) => c.id === activeChapterId);
   const activeChapter = langChapters[activeChapterIdx];
   const hasPrevChapter = activeChapterIdx > 0;

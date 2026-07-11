@@ -198,7 +198,7 @@ export async function downloadChapterAsPdf(markdownText: string, filename: strin
  * Utility to fetch and download all chapters of a book in a specific language as PDF.
  */
 export async function downloadFullBookAsPdf(book: Book, language: string, fileHandle?: FileSystemFileHandle | null): Promise<void> {
-  const chapters = book.chapters[language] || [];
+  const chapters = book.chapters?.[language] || [];
   if (chapters.length === 0) {
     console.warn('No chapters found for this language.');
     return;

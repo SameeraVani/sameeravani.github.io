@@ -1,0 +1,137 @@
+[
+  {
+    "id": "sanskrit-learner",
+    "title": "Sanskrit Learner",
+    "author": "Vyasa Madhwa Technology Labs Trust",
+    "year": "2026",
+    "genre": "Language Learning / Education",
+    "description": "A comprehensive multi-lingual guide to learning Sanskrit basic phonetics, daily prayers, case grammar, and verb conjugations, adapted from traditional Sanskrit lesson materials.",
+    "coverUrl": "books/sanskrit-learner/cover.png",
+    "languages": [
+      "english",
+      "sanskrit",
+      "hindi",
+      "kannada",
+      "tamil",
+      "telugu"
+    ],
+    "localized": {
+      "sanskrit": {
+        "title": "संस्कृत-प्रवेशः",
+        "description": "सरलसंस्कृतेन संस्कृतपठनाय प्रवेशिका पुस्तिका। (अक्षराभ्यासः, नित्यप्रार्थना, सुबन्त-तिङन्तरूपपरिचयः)"
+      },
+      "hindi": {
+        "title": "संस्कृत प्रवेशिका",
+        "description": "वर्णमाला, संयुक्ताक्षर, नित्य प्रार्थनाएँ, विभक्ति रूप (राम-फल शब्द) तथा धातु रूप सीखने के लिए एक परिचयात्मक पुस्तक।"
+      },
+      "kannada": {
+        "title": "ಸಂಸ್ಕೃತ ಪ್ರವೇಶ",
+        "description": "ದೇವನಾಗರಿ ಅಕ್ಷರಾಭ್ಯಾಸ, ನಿತ್ಯ ಪ್ರಾರ್ಥನಾ ಶ್ಲೋಕಗಳು, ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯಗಳು (ರಾಮ ಶಬ್ದ ರೂಪಗಳು) ಮತ್ತು ಕ್ರಿಯಾಪದ ಕಾಲಗಳನ್ನು ಕಲಿಯಲು ಒಂದು ಸರಳ ಕೈಪಿಡಿ."
+      },
+      "tamil": {
+        "title": "சமஸ்கிருதப் பிரவேசம்",
+        "description": "எழுத்துக்கள், எளிய சொற்கள், அன்றாட ஸ்லோகங்கள், வேற்றுமை உருபுகள் மற்றும் வினைச்சொல் காலங்களைக் கற்க ஒரு எளிய அறிமுகப் புத்தகம்."
+      },
+      "telugu": {
+        "title": "సంస్కృత ప్రవేశము",
+        "description": "అక్షరాల పరిచయము, నిత్య ప్రార్థనలు, నామపద విభక్తులు మరియు క్రియా రూపములు నేర్చుకోవడానికి ఒక సరళ పరిచయ పుస్తకం."
+      }
+    },
+    "playlists": {
+      "english": [
+        {
+          "id": "PLn9lLn6rYfjquxmVP8dVvnaYCmiOJcUqe",
+          "title": "Sanskrit Lessons",
+          "chunkSize": 20,
+          "chunkPrefix": "Lesson"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hari-bhakti-sara",
+    "title": "Hari Bhakti Sara",
+    "author": "Sri Kanakadasa",
+    "year": "16th Century",
+    "genre": "Devotional / Video Course",
+    "description": "Video lessons and recitations of Hari Bhakti Sara.",
+    "coverUrl": "books/default-cover.png",
+    "languages": [
+      "kannada"
+    ],
+    "playlists": {
+      "kannada": [
+        {
+          "id": "PLn9lLn6rYfjrkTXjsYU4PG4nah_qh59U6",
+          "title": "Hari Bhakti Sara Lessons",
+          "chunkSize": 20,
+          "chunkPrefix": "Shloka"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dwadasha-stotra",
+    "title": "Dwadasha Stotra",
+    "author": "Sri Madhvacharya",
+    "year": "13th Century",
+    "genre": "Devotional / Video Course",
+    "description": "Video recitations and lessons of Dwadasha Stotra.",
+    "coverUrl": "books/default-cover.png",
+    "languages": [
+      "sanskrit"
+    ],
+    "playlists": {
+      "sanskrit": [
+        {
+          "id": "PLn9lLn6rYfjqxEDGgSAIIM9sd_Ama9Znk",
+          "title": "Dwadasha Stotra Recitation",
+          "groupRegex": "stotra\\s*(\\d+)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sumadhwa-vijaya",
+    "title": "Sumadhwa Vijaya",
+    "author": "Sri Narayana Panditacharya",
+    "year": "14th Century",
+    "genre": "Biography / Video Course",
+    "description": "Video recitations and lessons of Sumadhwa Vijaya.",
+    "coverUrl": "books/default-cover.png",
+    "languages": [
+      "sanskrit"
+    ],
+    "playlists": {
+      "sanskrit": [
+        {
+          "id": "PLn9lLn6rYfjpg4wQ-1lvQuIfpc7lYXBT4,PLn9lLn6rYfjqn6LVoBlbJ7MWFN7vswJzK",
+          "title": "Sumadhwa Vijaya",
+          "groupRegex": "sarga[\\s:\\-]*(\\d+)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mahabharata-tatparya-nirnaya",
+    "title": "Mahabharata Tatparya Nirnaya",
+    "author": "Sri Madhvacharya",
+    "year": "13th Century",
+    "genre": "Epic / Video Course",
+    "description": "Video recitations and lessons of Mahabharata Tatparya Nirnaya.",
+    "coverUrl": "books/default-cover.png",
+    "languages": [
+      "sanskrit"
+    ],
+    "playlists": {
+      "sanskrit": [
+        {
+          "id": "PLn9lLn6rYfjpWqhmCmTUO_KKTpKHBKpKg,PLn9lLn6rYfjq0W-FmjwuGMPlPXvMhKDef,PLn9lLn6rYfjoXtaesuZRgNmcNWKLfTLh1,PLn9lLn6rYfjpr3Gkb7GywOQQHV2-XQO1a,PLn9lLn6rYfjp4nSgjwEefE8wkyB5KHpI9,PLn9lLn6rYfjqW2UIl6zM6Qz7cECXtBVqL,PLn9lLn6rYfjrQSd1vPM9DBSt_OTsJPRfC,PLn9lLn6rYfjr8MRTXr4eiqCKTQ-81HJnq,PLn9lLn6rYfjrGjk2r6f_8oiw-AaxWzja6",
+          "title": "Mahabharata Tatparya Nirnaya",
+          "groupRegex": "chapter[\\s:\\-]*(\\d+)",
+          "groupPrefix": "Chapter"
+        }
+      ]
+    }
+  }
+]

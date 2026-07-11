@@ -107,7 +107,7 @@ catalog.forEach((book) => {
 
     writePage(`/books/${book.id}/${lang}`, `${langTitle} (${lang}) | SameeraVani`, langDesc, cover);
 
-    const chapters = book.chapters[lang] || [];
+    const chapters = book.chapters?.[lang] || [];
     chapters.forEach((chapter) => {
       let chapterDesc = langDesc;
       const mdPath = path.join(__dirname, 'public', chapter.path);

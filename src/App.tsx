@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Catalog } from './components/Catalog';
 import { Reader } from './components/Reader';
+import { VideoLibrary } from './components/video/VideoLibrary';
 import { parseRoute, getUrlForRoute } from './utils/route';
 import type { ReadingProgressMap, Bookmark } from './types';
 
@@ -10,6 +11,8 @@ function App() {
     if (route.bookId) return route.bookId;
     return localStorage.getItem('active-book-id');
   });
+
+  const [appMode, setAppMode] = useState<'reading' | 'video'>('reading');
 
   const [appLanguage, setAppLanguage] = useState<string>(() => {
     const route = parseRoute();
@@ -181,12 +184,34 @@ function App() {
           onChangeLanguage={handleLanguageChange}
         />
       ) : (
-        <Catalog 
-          onSelectBook={handleSelectBook} 
-          progress={progress} 
-          appLanguage={appLanguage}
-          onChangeLanguage={handleLanguageChange}
-        />
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+          <header style={{ display: 'flex', justifyContent: 'center', padding: '15px', background: 'var(--bg-primary)', borderBottom: '1px solid var(--border)', gap: '20px' }}>
+            <button 
+              onClick={() => setAppMode('reading')}
+              style={{ padding: '10px 20px', borderRadius: '20px', border: 'none', background: appMode === 'reading' ? 'var(--accent)' : 'var(--bg-tertiary)', color: appMode === 'reading' ? 'white' : 'var(--text-primary)', fontWeight: 'bold', cursor: 'pointer' }}
+            >
+              Books Library
+            </button>
+            <button 
+              onClick={() => setAppMode('video')}
+              style={{ padding: '10px 20px', borderRadius: '20px', border: 'none', background: appMode === 'video' ? 'var(--accent)' : 'var(--bg-tertiary)', color: appMode === 'video' ? 'white' : 'var(--text-primary)', fontWeight: 'bold', cursor: 'pointer' }}
+            >
+              Video Library
+            </button>
+          </header>
+          <div style={{ flex: 1 }}>
+            {appMode === 'reading' ? (
+              <Catalog 
+                onSelectBook={handleSelectBook} 
+                progress={progress} 
+                appLanguage={appLanguage}
+                onChangeLanguage={handleLanguageChange}
+              />
+            ) : (
+              <VideoLibrary />
+            )}
+          </div>
+        </div>
       )}
     </div>
   );
