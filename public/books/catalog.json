@@ -1888,134 +1888,44 @@
     "chapters": {
       "english": [
         {
-          "id": "paricheda-1",
-          "title": "Paricheda 1",
-          "path": "books/nyayamruta/en/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "Paricheda 2",
-          "path": "books/nyayamruta/en/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "Paricheda 3",
-          "path": "books/nyayamruta/en/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "Paricheda 4",
-          "path": "books/nyayamruta/en/paricheda4.md"
+          "id": "paricheda-1-prakarana-1",
+          "title": "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+          "path": "books/nyayamruta/en/paricheda1/prakarana1.md"
         }
       ],
       "sanskrit": [
         {
-          "id": "paricheda-1",
-          "title": "प्रथमः परिच्छेदः",
-          "path": "books/nyayamruta/sa/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "द्वितीयः परिच्छेदः",
-          "path": "books/nyayamruta/sa/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "तृतीयः परिच्छेदः",
-          "path": "books/nyayamruta/sa/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "चतुर्थः परिच्छेदः",
-          "path": "books/nyayamruta/sa/paricheda4.md"
+          "id": "paricheda-1-prakarana-1",
+          "title": "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+          "path": "books/nyayamruta/sa/paricheda1/prakarana1.md"
         }
       ],
       "hindi": [
         {
-          "id": "paricheda-1",
-          "title": "प्रथम परिच्छेद",
-          "path": "books/nyayamruta/hi/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "द्वितीय परिच्छेद",
-          "path": "books/nyayamruta/hi/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "तृतीय परिच्छेद",
-          "path": "books/nyayamruta/hi/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "चतुर्थ परिच्छेद",
-          "path": "books/nyayamruta/hi/paricheda4.md"
+          "id": "paricheda-1-prakarana-1",
+          "title": "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+          "path": "books/nyayamruta/hi/paricheda1/prakarana1.md"
         }
       ],
       "kannada": [
         {
-          "id": "paricheda-1",
-          "title": "ಪ್ರಥಮ ಪರಿಚ್ಛೇದ",
-          "path": "books/nyayamruta/kn/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "ದ್ವಿತೀಯ ಪರಿಚ್ಛೇದ",
-          "path": "books/nyayamruta/kn/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "ತೃತೀಯ ಪರಿಚ್ಛೇದ",
-          "path": "books/nyayamruta/kn/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "ಚತುರ್ಥ ಪರಿಚ್ಛೇದ",
-          "path": "books/nyayamruta/kn/paricheda4.md"
+          "id": "paricheda-1-prakarana-1",
+          "title": "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+          "path": "books/nyayamruta/kn/paricheda1/prakarana1.md"
         }
       ],
       "tamil": [
         {
-          "id": "paricheda-1",
-          "title": "முதல் பரிச்சேதம்",
-          "path": "books/nyayamruta/ta/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "இரண்டாம் பரிச்சேதம்",
-          "path": "books/nyayamruta/ta/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "மூன்றாம் பரிச்சேதம்",
-          "path": "books/nyayamruta/ta/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "நான்காம் பரிச்சேதம்",
-          "path": "books/nyayamruta/ta/paricheda4.md"
+          "id": "paricheda-1-prakarana-1",
+          "title": "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+          "path": "books/nyayamruta/ta/paricheda1/prakarana1.md"
         }
       ],
       "telugu": [
         {
-          "id": "paricheda-1",
-          "title": "ప్రథమ పరిచ్ఛేదము",
-          "path": "books/nyayamruta/te/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "ద్వితీయ పరిచ్ఛేదము",
-          "path": "books/nyayamruta/te/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "తృతీయ పరిచ్ఛేదము",
-          "path": "books/nyayamruta/te/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "చతుర్థ పరిచ్ఛేదము",
-          "path": "books/nyayamruta/te/paricheda4.md"
+          "id": "paricheda-1-prakarana-1",
+          "title": "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+          "path": "books/nyayamruta/te/paricheda1/prakarana1.md"
         }
       ]
     }

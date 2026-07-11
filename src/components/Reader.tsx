@@ -1598,19 +1598,17 @@ export const Reader: React.FC<ReaderProps> = ({
         )}
 
         {/* Go to Top floating button */}
-        {showGoToTop && (
-          <button 
-            className="go-to-top-btn"
-            onClick={() => {
-              if (scrollContainerRef.current) {
-                scrollContainerRef.current.scrollTo({ top: 0, behavior: 'smooth' });
-              }
-            }}
-            title="Go to Top"
-          >
-            <ArrowUp size={20} />
-          </button>
-        )}
+        <button 
+          className="go-to-top-btn"
+          onClick={() => {
+            if (scrollContainerRef.current) {
+              scrollContainerRef.current.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          }}
+          title="Go to Top"
+        >
+          <ArrowUp size={20} />
+        </button>
       </div>
 
     </div>

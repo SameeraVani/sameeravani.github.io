@@ -1,0 +1,17 @@
+You are Sanskrit OCR expert. Here is the sanskrit pdf with 57 pages.
+Please extract 46 to 57 pages from and display here.
+Do not ignore any word or sentence. Do not summarize. No english or other text.
+
+------------
+
+creata a new book called Nyayamruta composed by Sri Vyasarajaru.
+It has 4 paricheda. 
+
+after updating content in md:
+sa\paricheda1\prakarana1.md - updated content here. Moola is named under न्यायामृतम्. First Commentary called लघ्वामोदम् and second commentary called न्यायामृतप्रकाशः
+
+after sa is verified:
+please translate in other 5 languages and make sure google's OKF compatible. do not modify sanskrit md file.
+
+
+
