@@ -1846,5 +1846,178 @@
         }
       ]
     }
+  },
+  {
+    "id": "nyayamruta",
+    "title": "Nyayamruta",
+    "author": "Sri Vyasarajaru",
+    "year": "15th Century CE",
+    "genre": "Philosophy / Vedanta",
+    "description": "Nyayamruta is a monumental work by Sri Vyasarajaru defending the Dvaita philosophy against Advaita.",
+    "coverUrl": "books/nyayamruta/cover.png",
+    "languages": [
+      "english",
+      "sanskrit",
+      "hindi",
+      "kannada",
+      "tamil",
+      "telugu"
+    ],
+    "localized": {
+      "sanskrit": {
+        "title": "न्यायामृतम्",
+        "description": "न्यायामृतम् श्रीव्यासराजविरचितं अद्वैतमतखण्डनपूर्वकं द्वैतसिद्धान्तस्थापनपरं महाग्रन्थम्।"
+      },
+      "hindi": {
+        "title": "न्यायामृत",
+        "description": "न्यायामृत श्रीव्यासराज द्वारा रचित एक महान ग्रन्थ है जो अद्वैत मत का खण्डन कर द्वैत सिद्धान्त की स्थापना करता है।"
+      },
+      "kannada": {
+        "title": "ನ್ಯಾಯಾಮೃತ",
+        "description": "ನ್ಯಾಯಾಮೃತವು ಶ್ರೀ ವ್ಯಾಸರಾಜರಿಂದ ರಚಿತವಾದ ಒಂದು ಮಹಾನ್ ಗ್ರಂಥ. ಇದು ಅದ್ವೈತ ಸಿದ್ಧಾಂತವನ್ನು ಖಂಡಿಸಿ ದ್ವೈತ ಸಿದ್ಧಾಂತವನ್ನು ಪ್ರತಿಪಾದಿಸುತ್ತದೆ."
+      },
+      "tamil": {
+        "title": "நியாயாம்ருதம்",
+        "description": "நியாயாம்ருதம் என்பது ஸ்ரீ வியாசராஜரால் இயற்றப்பட்ட ஒரு சிறந்த நூலாகும். இது அத்வைதத்தை மறுத்து துவைத தத்துவத்தை நிலைநிறுத்துகிறது."
+      },
+      "telugu": {
+        "title": "న్యాయామృతము",
+        "description": "న్యాయామృతము శ్రీ వ్యాసరాజులు రచించిన ఒక మహత్తర గ్రంథము. ఇది అద్వైత మతమును ఖండించి ద్వైత సిద్ధాంతమును స్థాపించును."
+      }
+    },
+    "chapters": {
+      "english": [
+        {
+          "id": "paricheda-1",
+          "title": "Paricheda 1",
+          "path": "books/nyayamruta/en/paricheda1.md"
+        },
+        {
+          "id": "paricheda-2",
+          "title": "Paricheda 2",
+          "path": "books/nyayamruta/en/paricheda2.md"
+        },
+        {
+          "id": "paricheda-3",
+          "title": "Paricheda 3",
+          "path": "books/nyayamruta/en/paricheda3.md"
+        },
+        {
+          "id": "paricheda-4",
+          "title": "Paricheda 4",
+          "path": "books/nyayamruta/en/paricheda4.md"
+        }
+      ],
+      "sanskrit": [
+        {
+          "id": "paricheda-1",
+          "title": "प्रथमः परिच्छेदः",
+          "path": "books/nyayamruta/sa/paricheda1.md"
+        },
+        {
+          "id": "paricheda-2",
+          "title": "द्वितीयः परिच्छेदः",
+          "path": "books/nyayamruta/sa/paricheda2.md"
+        },
+        {
+          "id": "paricheda-3",
+          "title": "तृतीयः परिच्छेदः",
+          "path": "books/nyayamruta/sa/paricheda3.md"
+        },
+        {
+          "id": "paricheda-4",
+          "title": "चतुर्थः परिच्छेदः",
+          "path": "books/nyayamruta/sa/paricheda4.md"
+        }
+      ],
+      "hindi": [
+        {
+          "id": "paricheda-1",
+          "title": "प्रथम परिच्छेद",
+          "path": "books/nyayamruta/hi/paricheda1.md"
+        },
+        {
+          "id": "paricheda-2",
+          "title": "द्वितीय परिच्छेद",
+          "path": "books/nyayamruta/hi/paricheda2.md"
+        },
+        {
+          "id": "paricheda-3",
+          "title": "तृतीय परिच्छेद",
+          "path": "books/nyayamruta/hi/paricheda3.md"
+        },
+        {
+          "id": "paricheda-4",
+          "title": "चतुर्थ परिच्छेद",
+          "path": "books/nyayamruta/hi/paricheda4.md"
+        }
+      ],
+      "kannada": [
+        {
+          "id": "paricheda-1",
+          "title": "ಪ್ರಥಮ ಪರಿಚ್ಛೇದ",
+          "path": "books/nyayamruta/kn/paricheda1.md"
+        },
+        {
+          "id": "paricheda-2",
+          "title": "ದ್ವಿತೀಯ ಪರಿಚ್ಛೇದ",
+          "path": "books/nyayamruta/kn/paricheda2.md"
+        },
+        {
+          "id": "paricheda-3",
+          "title": "ತೃತೀಯ ಪರಿಚ್ಛೇದ",
+          "path": "books/nyayamruta/kn/paricheda3.md"
+        },
+        {
+          "id": "paricheda-4",
+          "title": "ಚತುರ್ಥ ಪರಿಚ್ಛೇದ",
+          "path": "books/nyayamruta/kn/paricheda4.md"
+        }
+      ],
+      "tamil": [
+        {
+          "id": "paricheda-1",
+          "title": "முதல் பரிச்சேதம்",
+          "path": "books/nyayamruta/ta/paricheda1.md"
+        },
+        {
+          "id": "paricheda-2",
+          "title": "இரண்டாம் பரிச்சேதம்",
+          "path": "books/nyayamruta/ta/paricheda2.md"
+        },
+        {
+          "id": "paricheda-3",
+          "title": "மூன்றாம் பரிச்சேதம்",
+          "path": "books/nyayamruta/ta/paricheda3.md"
+        },
+        {
+          "id": "paricheda-4",
+          "title": "நான்காம் பரிச்சேதம்",
+          "path": "books/nyayamruta/ta/paricheda4.md"
+        }
+      ],
+      "telugu": [
+        {
+          "id": "paricheda-1",
+          "title": "ప్రథమ పరిచ్ఛేదము",
+          "path": "books/nyayamruta/te/paricheda1.md"
+        },
+        {
+          "id": "paricheda-2",
+          "title": "ద్వితీయ పరిచ్ఛేదము",
+          "path": "books/nyayamruta/te/paricheda2.md"
+        },
+        {
+          "id": "paricheda-3",
+          "title": "తృతీయ పరిచ్ఛేదము",
+          "path": "books/nyayamruta/te/paricheda3.md"
+        },
+        {
+          "id": "paricheda-4",
+          "title": "చతుర్థ పరిచ్ఛేదము",
+          "path": "books/nyayamruta/te/paricheda4.md"
+        }
+      ]
+    }
   }
 ]
