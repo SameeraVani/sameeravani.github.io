@@ -1688,6 +1688,52 @@ a:hover {
 }
 
 
+.reader-markdown details {
+  margin-bottom: 1.5em;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background-color: var(--bg-secondary);
+}
 
+.reader-markdown summary {
+  background-color: var(--bg-tertiary);
+  padding: 14px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: block;
+  user-select: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
 
+.reader-markdown summary:hover {
+  background-color: var(--border);
+}
+
+/* Custom triangle for summary */
+.reader-markdown summary::before {
+  content: "▶";
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 0.8em;
+  transition: transform 0.2s ease;
+}
+
+.reader-markdown details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.reader-markdown details[open] > summary {
+  border-bottom: 1px solid var(--border);
+  box-shadow: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.reader-markdown details > *:not(summary) {
+  padding: 8px 16px;
+}
 

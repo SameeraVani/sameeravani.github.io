@@ -62,7 +62,6 @@ export const Reader: React.FC<ReaderProps> = ({
   const [sidebarTab, setSidebarTab] = useState<'toc' | 'search' | 'bookmarks'>('toc');
   const [settingsOpen, setSettingsOpen] = useState<boolean>(false);
   const [showShareTooltip, setShowShareTooltip] = useState<boolean>(false);
-  const [showGoToTop, setShowGoToTop] = useState<boolean>(false);
   const [practiceMode, setPracticeMode] = useState<boolean>(false);
 
   // In-Book Search State
@@ -192,8 +191,9 @@ export const Reader: React.FC<ReaderProps> = ({
       setSearchingAll(true);
       const contentsMap: Record<string, string> = {};
       const langChapters = book.chapters?.[activeLanguage] || [];
+    const flatLangChapters = langChapters.flatMap(c => c.topics ? [c, ...c.topics] : [c]);
       
-      for (const chapter of langChapters) {
+      for (const chapter of flatLangChapters) {
         try {
           const res = await fetch(`${import.meta.env.BASE_URL}${chapter.path}?t=${Date.now()}`);
           if (res.ok) {
@@ -225,7 +225,8 @@ export const Reader: React.FC<ReaderProps> = ({
     }
     
     const langChapters = book.chapters?.[activeLanguage] || [];
-    const activeChapter = langChapters.find((c) => c.id === activeChapterId);
+    const flatLangChapters = langChapters.flatMap(c => c.topics ? [c, ...c.topics] : [c]);
+    const activeChapter = flatLangChapters.find((c) => c.id === activeChapterId);
     if (!activeChapter) return;
 
     setLoadingChapter(true);
@@ -257,7 +258,6 @@ export const Reader: React.FC<ReaderProps> = ({
           const clientHeight = container.clientHeight;
           const targetScrollTop = (restoreScrollPercent / 100) * (scrollHeight - clientHeight);
           container.scrollTop = targetScrollTop;
-          setShowGoToTop(targetScrollTop > 0);
         }
         setRestoreScrollPercent(null);
       }, 120); // Small timeout to ensure markdown rendering is fully layout-calculated
@@ -274,9 +274,6 @@ export const Reader: React.FC<ReaderProps> = ({
 
     const { scrollTop, scrollHeight, clientHeight } = container;
     
-    // Toggle Go to Top button visibility
-    setShowGoToTop(scrollTop > 0);
-
     const maxScroll = scrollHeight - clientHeight;
     const scrollPercent = maxScroll > 0 ? (scrollTop / maxScroll) * 100 : 0;
     
@@ -289,7 +286,8 @@ export const Reader: React.FC<ReaderProps> = ({
       if (!book || !activeLanguage || settingsOpen || activeChapterId === '') return;
       
       const langChapters = book.chapters?.[activeLanguage] || [];
-      const currentIdx = langChapters.findIndex((c) => c.id === activeChapterId);
+    const flatLangChapters = langChapters.flatMap(c => c.topics ? [c, ...c.topics] : [c]);
+      const currentIdx = flatLangChapters.findIndex((c) => c.id === activeChapterId);
       if (currentIdx === -1) return;
 
       if (e.key === 'ArrowRight' && currentIdx < langChapters.length - 1) {
@@ -430,8 +428,9 @@ export const Reader: React.FC<ReaderProps> = ({
 
     const matches: typeof searchResults = [];
     const langChapters = book.chapters?.[activeLanguage] || [];
+    const flatLangChapters = langChapters.flatMap(c => c.topics ? [c, ...c.topics] : [c]);
     const chaptersToSearch = searchCurrentChapterOnly 
-      ? langChapters.filter(c => c.id === activeChapterId)
+      ? flatLangChapters.filter(c => c.id === activeChapterId)
       : langChapters;
 
     chaptersToSearch.forEach((chapter) => {
@@ -475,7 +474,8 @@ export const Reader: React.FC<ReaderProps> = ({
     if (!container) return;
 
     const langChapters = book.chapters?.[activeLanguage] || [];
-    const activeChapter = langChapters.find((c) => c.id === activeChapterId);
+    const flatLangChapters = langChapters.flatMap(c => c.topics ? [c, ...c.topics] : [c]);
+    const activeChapter = flatLangChapters.find((c) => c.id === activeChapterId);
     if (!activeChapter) return;
 
     const { scrollTop, scrollHeight, clientHeight } = container;
@@ -527,8 +527,9 @@ export const Reader: React.FC<ReaderProps> = ({
 
     if (book) {
       const langChapters = book.chapters?.[activeLanguage] || [];
-      const activeIdx = langChapters.findIndex((c) => c.id === activeChapterId);
-      const thisIdx = langChapters.findIndex((c) => c.id === chapterId);
+    const flatLangChapters = langChapters.flatMap(c => c.topics ? [c, ...c.topics] : [c]);
+      const activeIdx = flatLangChapters.findIndex((c) => c.id === activeChapterId);
+      const thisIdx = flatLangChapters.findIndex((c) => c.id === chapterId);
       if (activeIdx > thisIdx) return 100;
     }
 
@@ -557,10 +558,11 @@ export const Reader: React.FC<ReaderProps> = ({
   }
 
   const langChapters = book.chapters?.[activeLanguage] || [];
-  const activeChapterIdx = langChapters.findIndex((c) => c.id === activeChapterId);
-  const activeChapter = langChapters[activeChapterIdx];
+    const flatLangChapters = langChapters.flatMap(c => c.topics ? [c, ...c.topics] : [c]);
+  const activeChapterIdx = flatLangChapters.findIndex((c) => c.id === activeChapterId);
+  const activeChapter = flatLangChapters[activeChapterIdx];
   const hasPrevChapter = activeChapterIdx > 0;
-  const hasNextChapter = activeChapterIdx < langChapters.length - 1;
+  const hasNextChapter = activeChapterIdx < flatLangChapters.length - 1;
 
   // Bookmarks for this book and language specifically
   const bookBookmarks = bookmarks.filter((b) => b.bookId === book.id && b.language === activeLanguage);
@@ -1446,8 +1448,8 @@ export const Reader: React.FC<ReaderProps> = ({
                       <button 
                         className="intro-btn-primary" 
                         onClick={() => {
-                          if (langChapters.length > 0) {
-                            handleNavigateToChapter(langChapters[0].id);
+                          if (flatLangChapters.length > 0) {
+                            handleNavigateToChapter(flatLangChapters[0].id);
                           }
                         }}
                       >
@@ -1474,7 +1476,7 @@ export const Reader: React.FC<ReaderProps> = ({
                         >
                           Resume: {Math.round(savedProgress.scrollPercent)}% (Chapter {
                             (() => {
-                              const chIdx = langChapters.findIndex(c => c.id === savedProgress.currentChapterId);
+                              const chIdx = flatLangChapters.findIndex(c => c.id === savedProgress.currentChapterId);
                               return chIdx !== -1 ? chIdx + 1 : 1;
                             })()
                           })
@@ -1552,7 +1554,7 @@ export const Reader: React.FC<ReaderProps> = ({
                       }
                     }}
                   >
-                    {chapterContent}
+                    {chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, '')}
                   </ReactMarkdown>
 
                   {/* Next / Prev Chapter buttons */}
@@ -1560,10 +1562,10 @@ export const Reader: React.FC<ReaderProps> = ({
                     {hasPrevChapter ? (
                       <button 
                         className="nav-btn prev"
-                        onClick={() => handleNavigateToChapter(langChapters[activeChapterIdx - 1].id)}
+                        onClick={() => handleNavigateToChapter(flatLangChapters[activeChapterIdx - 1].id)}
                       >
                         <span className="nav-btn-label">Previous Chapter</span>
-                        <span className="nav-btn-title">{langChapters[activeChapterIdx - 1].title}</span>
+                        <span className="nav-btn-title">{flatLangChapters[activeChapterIdx - 1].title}</span>
                       </button>
                     ) : (
                       <button 
@@ -1578,10 +1580,10 @@ export const Reader: React.FC<ReaderProps> = ({
                     {hasNextChapter ? (
                       <button 
                         className="nav-btn next"
-                        onClick={() => handleNavigateToChapter(langChapters[activeChapterIdx + 1].id)}
+                        onClick={() => handleNavigateToChapter(flatLangChapters[activeChapterIdx + 1].id)}
                       >
                         <span className="nav-btn-label">Next Chapter</span>
-                        <span className="nav-btn-title">{langChapters[activeChapterIdx + 1].title}</span>
+                        <span className="nav-btn-title">{flatLangChapters[activeChapterIdx + 1].title}</span>
                       </button>
                     ) : (
                       <button className="nav-btn next" onClick={onBack}>
