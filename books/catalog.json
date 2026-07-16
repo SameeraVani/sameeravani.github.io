@@ -1,2023 +1,1975 @@
 [
-  {
-    "id": "bhagavad-gita",
-    "title": "Bhagavad Gita",
-    "author": "Vyasa",
-    "year": "500 BCE",
-    "genre": "Scripture / Philosophy",
-    "description": "The Bhagavad Gita is a 700-verse Hindu scripture that is part of the epic Mahabharata, containing a sacred conversation between Arjuna and Krishna on duty, self-realization, and devotion.",
-    "coverUrl": "books/bhagavad-gita/cover.png",
-    "languages": [
-      "english",
-      "sanskrit",
-      "hindi",
-      "kannada",
-      "tamil",
-      "telugu"
-    ],
-    "localized": {
-      "sanskrit": {
-        "title": "भगवद्गीता",
-        "description": "भगवद्गीता महाभारत महाकाव्य का एक ७००-श्लोक वाला हिंदू ग्रंथ है, जिसमें अर्जुन और उनके सारथी श्री कृष्ण के बीच कर्तव्य, आत्म-साक्षात्कार और भक्ति पर चर्चा है।"
-      },
-      "hindi": {
-        "title": "श्रीमद्भगवद्गीता",
-        "description": "भगवद्गीता महाभारत के भीष्म पर्व का एक हिस्सा है, जिसमें भगवान कृष्ण अर्जुन को निष्काम कर्मयोग, ज्ञानयोग और भक्तियोग का दिव्य उपदेश देते हैं।"
-      },
-      "kannada": {
-        "title": "ಭಗವದ್ಗೀತೆ",
-        "description": "ಭಗವದ್ಗೀತೆಯು ಮಹಾಭಾರತದ ಭೀಷ್ಮಪರ್ವದ ಭಾಗವಾಗಿದ್ದು, ಶ್ರೀ ಕೃಷ್ಣನು ಅರ್ಜುನನಿಗೆ ಕರ್ತವ್ಯ, ಜ್ಞಾನ ಮತ್ತು ಭಕ್ತಿ ಮಾರ್ಗಗಳ ಕುರಿತು ನೀಡಿದ ದಿವ್ಯ ಸಂದೇಶವಾಗಿದೆ."
-      },
-      "tamil": {
-        "title": "பகவத் கீதை",
-        "description": "மகாபாரதத்தின் பீஷ்ம பர்வத்தில் இடம்பெற்றுள்ள பகவத் கீதை, அர்ஜுனனுக்கும் கிருஷ்ணருக்கும் இடையேயான கடமை, ஆத்ம ஞானம் மற்றும் பக்தி பற்றிய உரையாடலாகும்."
-      },
-      "telugu": {
-        "title": "భగవద్గీత",
-        "description": "భగవద్గీత మహాభారతంలోని భీష్మపర్వమున కలదు. యుద్ధరంగంలో శ్రీ కృష్ణుడు అర్జునునికి కర్తవ్యము, మోక్షము మరియు భక్తి గురించి చేసిన దివ్యబోధ."
-      }
+    {
+        "id":  "bhagavad-gita",
+        "title":  "Bhagavad Gita",
+        "author":  "Vyasa",
+        "year":  "500 BCE",
+        "genre":  "Scripture / Philosophy",
+        "description":  "The Bhagavad Gita is a 700-verse Hindu scripture that is part of the epic Mahabharata, containing a sacred conversation between Arjuna and Krishna on duty, self-realization, and devotion.",
+        "coverUrl":  "books/bhagavad-gita/cover.png",
+        "languages":  [
+                          "english",
+                          "sanskrit",
+                          "hindi",
+                          "kannada",
+                          "tamil",
+                          "telugu"
+                      ],
+        "localized":  {
+                          "sanskrit":  {
+                                           "title":  "भगवद्गीता",
+                                           "description":  "भगवद्गीता महाभारत महाकाव्य का एक ७००-श्लोक वाला हिंदू ग्रंथ है, जिसमें अर्जुन और उनके सारथी श्री कृष्ण के बीच कर्तव्य, आत्म-साक्षात्कार और भक्ति पर चर्चा है।"
+                                       },
+                          "hindi":  {
+                                        "title":  "श्रीमद्भगवद्गीता",
+                                        "description":  "भगवद्गीता महाभारत के भीष्म पर्व का एक हिस्सा है, जिसमें भगवान कृष्ण अर्जुन को निष्काम कर्मयोग, ज्ञानयोग और भक्तियोग का दिव्य उपदेश देते हैं।"
+                                    },
+                          "kannada":  {
+                                          "title":  "ಭಗವದ್ಗೀತೆ",
+                                          "description":  "ಭಗವದ್ಗೀತೆಯು ಮಹಾಭಾರತದ ಭೀಷ್ಮಪರ್ವದ ಭಾಗವಾಗಿದ್ದು, ಶ್ರೀ ಕೃಷ್ಣನು ಅರ್ಜುನನಿಗೆ ಕರ್ತವ್ಯ, ಜ್ಞಾನ ಮತ್ತು ಭಕ್ತಿ ಮಾರ್ಗಗಳ ಕುರಿತು ನೀಡಿದ ದಿವ್ಯ ಸಂದೇಶವಾಗಿದೆ."
+                                      },
+                          "tamil":  {
+                                        "title":  "பகவத் கீதை",
+                                        "description":  "மகாபாரதத்தின் பீஷ்ம பர்வத்தில் இடம்பெற்றுள்ள பகவத் கீதை, அர்ஜுனனுக்கும் கிருஷ்ணருக்கும் இடையேயான கடமை, ஆத்ம ஞானம் மற்றும் பக்தி பற்றிய உரையாடலாகும்."
+                                    },
+                          "telugu":  {
+                                         "title":  "భగవద్గీత",
+                                         "description":  "భగవద్గీత మహాభారతంలోని భీష్మపర్వమున కలదు. యుద్ధరంగంలో శ్రీ కృష్ణుడు అర్జునునికి కర్తవ్యము, మోక్షము మరియు భక్తి గురించి చేసిన దివ్యబోధ."
+                                     }
+                      },
+        "chapters":  {
+                         "english":  [
+                                         {
+                                             "id":  "karma-yoga",
+                                             "title":  "Chapter I: The Yoga of Action (Karma Yoga)",
+                                             "path":  "books/bhagavad-gita/en/ch1.md"
+                                         },
+                                         {
+                                             "id":  "jnana-yoga",
+                                             "title":  "Chapter II: The Yoga of Knowledge (Jnana Yoga)",
+                                             "path":  "books/bhagavad-gita/en/ch2.md"
+                                         },
+                                         {
+                                             "id":  "bhakti-yoga",
+                                             "title":  "Chapter III: The Yoga of Devotion (Bhakti Yoga)",
+                                             "path":  "books/bhagavad-gita/en/ch3.md"
+                                         }
+                                     ],
+                         "sanskrit":  [
+                                          {
+                                              "id":  "karma-yoga",
+                                              "title":  "प्रथमोऽध्यायः: कर्मयोगः",
+                                              "path":  "books/bhagavad-gita/sa/ch1.md"
+                                          },
+                                          {
+                                              "id":  "jnana-yoga",
+                                              "title":  "द्वितीयोऽध्यायः: सांख्ययोगः",
+                                              "path":  "books/bhagavad-gita/sa/ch2.md"
+                                          },
+                                          {
+                                              "id":  "bhakti-yoga",
+                                              "title":  "तृतीयोऽध्यायः: भक्तियोगः",
+                                              "path":  "books/bhagavad-gita/sa/ch3.md"
+                                          }
+                                      ],
+                         "hindi":  [
+                                       {
+                                           "id":  "karma-yoga",
+                                           "title":  "अध्याय १: कर्म योग",
+                                           "path":  "books/bhagavad-gita/hi/ch1.md"
+                                       },
+                                       {
+                                           "id":  "jnana-yoga",
+                                           "title":  "अध्याय २: ज्ञान योग",
+                                           "path":  "books/bhagavad-gita/hi/ch2.md"
+                                       },
+                                       {
+                                           "id":  "bhakti-yoga",
+                                           "title":  "अध्याय ३: भक्ति योग",
+                                           "path":  "books/bhagavad-gita/hi/ch3.md"
+                                       }
+                                   ],
+                         "kannada":  [
+                                         {
+                                             "id":  "karma-yoga",
+                                             "title":  "ಅಧ್ಯಾಯ ೧: ಕರ್ಮ ಯೋಗ",
+                                             "path":  "books/bhagavad-gita/kn/ch1.md"
+                                         },
+                                         {
+                                             "id":  "jnana-yoga",
+                                             "title":  "ಅಧ್ಯಾಯ ೨: ಜ್ಞಾನ ಯೋಗ (ಸಾಂಖ್ಯಯೋಗ)",
+                                             "path":  "books/bhagavad-gita/kn/ch2.md"
+                                         },
+                                         {
+                                             "id":  "bhakti-yoga",
+                                             "title":  "ಅಧ್ಯಾಯ ೩: ಭಕ್ತಿ ಯೋಗ",
+                                             "path":  "books/bhagavad-gita/kn/ch3.md"
+                                         }
+                                     ],
+                         "tamil":  [
+                                       {
+                                           "id":  "karma-yoga",
+                                           "title":  "அத்தியாயம் 1: கர்ம யோகம்",
+                                           "path":  "books/bhagavad-gita/ta/ch1.md"
+                                       },
+                                       {
+                                           "id":  "jnana-yoga",
+                                           "title":  "அத்தியாயம் 2: ஞான யோகம் (சாங்கிய யோகம்)",
+                                           "path":  "books/bhagavad-gita/ta/ch2.md"
+                                       },
+                                       {
+                                           "id":  "bhakti-yoga",
+                                           "title":  "அத்தியாயம் 3: பக்தி யோகம்",
+                                           "path":  "books/bhagavad-gita/ta/ch3.md"
+                                       }
+                                   ],
+                         "telugu":  [
+                                        {
+                                            "id":  "karma-yoga",
+                                            "title":  "అధ్యాయము 1: కర్మ యోగము",
+                                            "path":  "books/bhagavad-gita/te/ch1.md"
+                                        },
+                                        {
+                                            "id":  "jnana-yoga",
+                                            "title":  "అధ్యాయము 2: జ్ఞాన యోగము (సాంఖ్యయోగము)",
+                                            "path":  "books/bhagavad-gita/te/ch2.md"
+                                        },
+                                        {
+                                            "id":  "bhakti-yoga",
+                                            "title":  "అధ్యాయము 3: భక్తి యోగము",
+                                            "path":  "books/bhagavad-gita/te/ch3.md"
+                                        }
+                                    ]
+                     }
     },
-    "chapters": {
-      "english": [
-        {
-          "id": "karma-yoga",
-          "title": "Chapter I: The Yoga of Action (Karma Yoga)",
-          "path": "books/bhagavad-gita/en/ch1.md"
-        },
-        {
-          "id": "jnana-yoga",
-          "title": "Chapter II: The Yoga of Knowledge (Jnana Yoga)",
-          "path": "books/bhagavad-gita/en/ch2.md"
-        },
-        {
-          "id": "bhakti-yoga",
-          "title": "Chapter III: The Yoga of Devotion (Bhakti Yoga)",
-          "path": "books/bhagavad-gita/en/ch3.md"
-        }
-      ],
-      "sanskrit": [
-        {
-          "id": "karma-yoga",
-          "title": "प्रथमोऽध्यायः: कर्मयोगः",
-          "path": "books/bhagavad-gita/sa/ch1.md"
-        },
-        {
-          "id": "jnana-yoga",
-          "title": "द्वितीयोऽध्यायः: सांख्ययोगः",
-          "path": "books/bhagavad-gita/sa/ch2.md"
-        },
-        {
-          "id": "bhakti-yoga",
-          "title": "तृतीयोऽध्यायः: भक्तियोगः",
-          "path": "books/bhagavad-gita/sa/ch3.md"
-        }
-      ],
-      "hindi": [
-        {
-          "id": "karma-yoga",
-          "title": "अध्याय १: कर्म योग",
-          "path": "books/bhagavad-gita/hi/ch1.md"
-        },
-        {
-          "id": "jnana-yoga",
-          "title": "अध्याय २: ज्ञान योग",
-          "path": "books/bhagavad-gita/hi/ch2.md"
-        },
-        {
-          "id": "bhakti-yoga",
-          "title": "अध्याय ३: भक्ति योग",
-          "path": "books/bhagavad-gita/hi/ch3.md"
-        }
-      ],
-      "kannada": [
-        {
-          "id": "karma-yoga",
-          "title": "ಅಧ್ಯಾಯ ೧: ಕರ್ಮ ಯೋಗ",
-          "path": "books/bhagavad-gita/kn/ch1.md"
-        },
-        {
-          "id": "jnana-yoga",
-          "title": "ಅಧ್ಯಾಯ ೨: ಜ್ಞಾನ ಯೋಗ (ಸಾಂಖ್ಯಯೋಗ)",
-          "path": "books/bhagavad-gita/kn/ch2.md"
-        },
-        {
-          "id": "bhakti-yoga",
-          "title": "ಅಧ್ಯಾಯ ೩: ಭಕ್ತಿ ಯೋಗ",
-          "path": "books/bhagavad-gita/kn/ch3.md"
-        }
-      ],
-      "tamil": [
-        {
-          "id": "karma-yoga",
-          "title": "அத்தியாயம் 1: கர்ம யோகம்",
-          "path": "books/bhagavad-gita/ta/ch1.md"
-        },
-        {
-          "id": "jnana-yoga",
-          "title": "அத்தியாயம் 2: ஞான யோகம் (சாங்கிய யோகம்)",
-          "path": "books/bhagavad-gita/ta/ch2.md"
-        },
-        {
-          "id": "bhakti-yoga",
-          "title": "அத்தியாயம் 3: பக்தி யோகம்",
-          "path": "books/bhagavad-gita/ta/ch3.md"
-        }
-      ],
-      "telugu": [
-        {
-          "id": "karma-yoga",
-          "title": "అధ్యాయము 1: కర్మ యోగము",
-          "path": "books/bhagavad-gita/te/ch1.md"
-        },
-        {
-          "id": "jnana-yoga",
-          "title": "అధ్యాయము 2: జ్ఞాన యోగము (సాంఖ్యయోగము)",
-          "path": "books/bhagavad-gita/te/ch2.md"
-        },
-        {
-          "id": "bhakti-yoga",
-          "title": "అధ్యాయము 3: భక్తి యోగము",
-          "path": "books/bhagavad-gita/te/ch3.md"
-        }
-      ]
-    }
-  },
-  {
-    "id": "nyaya-sudha",
-    "title": "Nyaya Sudha",
-    "author": "Sri Jayatirtha",
-    "year": "14th Century CE",
-    "genre": "Philosophy / Vedanta",
-    "description": "Nyaya Sudha is Jayatirtha's monumental Sanskrit commentary on Madhvacharya's Anuvyakhyana, providing a detailed critique of rival schools of Indian philosophy and establishing the core principles of Dvaita Vedanta.",
-    "coverUrl": "books/nyaya-sudha/cover.png",
-    "languages": [
-      "english",
-      "sanskrit",
-      "hindi",
-      "kannada",
-      "tamil",
-      "telugu"
-    ],
-    "localized": {
-      "sanskrit": {
-        "title": "न्यायसुधा",
-        "description": "न्यायसुधा श्रीजयतीर्थविरचिता श्रीमन्मध्वाचार्यकृत-अनुव्याख्यानस्य महाग्रन्थस्वरूपा टीका अस्ति। इयं द्वैतसिद्धान्तस्य प्रमुखस्तम्भः तथा परमतखण्डने स्वमतस्थापने च अग्रगण्यः ग्रन्थः वर्तते।"
-      },
-      "hindi": {
-        "title": "न्यायसुधा",
-        "description": "न्यायसुधा श्री जयतीर्थ द्वारा रचित श्रीमन्मध्वाचार्य के अनुव्याख्यान पर एक महान टीका ग्रन्थ है। यह ग्रन्थ द्वैत वेदान्त दर्शन के सिद्धान्तों को सुदृढ़ता से स्थापित करता है।"
-      },
-      "kannada": {
-        "title": "ನ್ಯಾಯಸುಧಾ",
-        "description": "ನ್ಯಾಯಸುಧಾ ಶ್ರೀ ಜಯತೀರ್ಥರು ಶ್ರೀಮನ್ಮಧ್ವಾಚಾರ್ಯರ ಅನುವ್ಯಾಖ್ಯಾನಕ್ಕೆ ಬರೆದ ಮಹೋನ್ನತ ಟೀಕಾ ಗ್ರಂಥವಾಗಿದೆ. ಇದು ದ್ವೈತ ಸಿದ್ಧಾಂತದ ಪ್ರಮುಖ ಆಧಾರಸ್ತಂಭವಾಗಿದ್ದು, ತತ್ವಶಾಸ್ತ್ರ ಲೋಕದಲ್ಲಿ ಅತ್ಯಂತ ಪ್ರಸಿದ್ಧವಾಗಿದೆ."
-      },
-      "tamil": {
-        "title": "நியாயசுதா",
-        "description": "நியாயசுதா என்பது ஸ்ரீ ஜெயதீர்த்தர் ஸ்ரீ மత్வாச்சாரியாரின் அனுவியாக்யானத்திற்கு எழுதிய ஒரு புகழ்பெற்ற உரையாகும். இது துவைத வேதாந்த தத்துவத்தின் தூణாகக் கருதப்படுகிறது."
-      },
-      "telugu": {
-        "title": "న్యాయసుధా",
-        "description": "న్యాయసుధా శ్రీ జయతీర్థులు శ్రీమన్మధ్వాచార్యుల అనువ్యాఖ్యానమునకు రచించిన మహాభాష్యము. ఇది ద్వైత సిద్ధాంతము యొక్క అత్యున్నత ప్రామాణిక గ్రంథము."
-      }
+    {
+        "id":  "nyaya-sudha",
+        "title":  "Nyaya Sudha",
+        "author":  "Sri Jayatirtha",
+        "year":  "14th Century CE",
+        "genre":  "Philosophy / Vedanta",
+        "description":  "Nyaya Sudha is Jayatirtha\u0027s monumental Sanskrit commentary on Madhvacharya\u0027s Anuvyakhyana, providing a detailed critique of rival schools of Indian philosophy and establishing the core principles of Dvaita Vedanta.",
+        "coverUrl":  "books/nyaya-sudha/cover.png",
+        "languages":  [
+                          "english",
+                          "sanskrit",
+                          "hindi",
+                          "kannada",
+                          "tamil",
+                          "telugu"
+                      ],
+        "localized":  {
+                          "sanskrit":  {
+                                           "title":  "न्यायसुधा",
+                                           "description":  "न्यायसुधा श्रीजयतीर्थविरचिता श्रीमन्मध्वाचार्यकृत-अनुव्याख्यानस्य महाग्रन्थस्वरूपा टीका अस्ति। इयं द्वैतसिद्धान्तस्य प्रमुखस्तम्भः तथा परमतखण्डने स्वमतस्थापने च अग्रगण्यः ग्रन्थः वर्तते।"
+                                       },
+                          "hindi":  {
+                                        "title":  "न्यायसुधा",
+                                        "description":  "न्यायसुधा श्री जयतीर्थ द्वारा रचित श्रीमन्मध्वाचार्य के अनुव्याख्यान पर एक महान टीका ग्रन्थ है। यह ग्रन्थ द्वैत वेदान्त दर्शन के सिद्धान्तों को सुदृढ़ता से स्थापित करता है।"
+                                    },
+                          "kannada":  {
+                                          "title":  "ನ್ಯಾಯಸುಧಾ",
+                                          "description":  "ನ್ಯಾಯಸುಧಾ ಶ್ರೀ ಜಯತೀರ್ಥರು ಶ್ರೀಮನ್ಮಧ್ವಾಚಾರ್ಯರ ಅನುವ್ಯಾಖ್ಯಾನಕ್ಕೆ ಬರೆದ ಮಹೋನ್ನತ ಟೀಕಾ ಗ್ರಂಥವಾಗಿದೆ. ಇದು ದ್ವೈತ ಸಿದ್ಧಾಂತದ ಪ್ರಮುಖ ಆಧಾರಸ್ತಂಭವಾಗಿದ್ದು, ತತ್ವಶಾಸ್ತ್ರ ಲೋಕದಲ್ಲಿ ಅತ್ಯಂತ ಪ್ರಸಿದ್ಧವಾಗಿದೆ."
+                                      },
+                          "tamil":  {
+                                        "title":  "நியாயசுதா",
+                                        "description":  "நியாயசுதா என்பது ஸ்ரீ ஜெயதீர்த்தர் ஸ்ரீ மత్வாச்சாரியாரின் அனுவியாக்யானத்திற்கு எழுதிய ஒரு புகழ்பெற்ற உரையாகும். இது துவைத வேதாந்த தத்துவத்தின் தூణாகக் கருதப்படுகிறது."
+                                    },
+                          "telugu":  {
+                                         "title":  "న్యాయసుధా",
+                                         "description":  "న్యాయసుధా శ్రీ జయతీర్థులు శ్రీమన్మధ్వాచార్యుల అనువ్యాఖ్యానమునకు రచించిన మహాభాష్యము. ఇది ద్వైత సిద్ధాంతము యొక్క అత్యున్నత ప్రామాణిక గ్రంథము."
+                                     }
+                      },
+        "chapters":  {
+                         "english":  [
+                                         {
+                                             "id":  "ad1-pd1-adh1-pt1",
+                                             "title":  "Adhyaya 1, Pada 1, Adhikarana 1, Part 1",
+                                             "path":  "books/nyaya-sudha/en/adhyaya1/pada1/adhikarana1/part1.md"
+                                         }
+                                     ],
+                         "sanskrit":  [
+                                          {
+                                              "id":  "ad1-pd1-adh1-pt1",
+                                              "title":  "अध्यायः १, पादः १, अधिकरणम् १, विषयः १",
+                                              "path":  "books/nyaya-sudha/sa/adhyaya1/pada1/adhikarana1/part1.md"
+                                          }
+                                      ],
+                         "hindi":  [
+                                       {
+                                           "id":  "ad1-pd1-adh1-pt1",
+                                           "title":  "अध्याय १, पाद १, अधिकरण १, भाग १",
+                                           "path":  "books/nyaya-sudha/hi/adhyaya1/pada1/adhikarana1/part1.md"
+                                       }
+                                   ],
+                         "kannada":  [
+                                         {
+                                             "id":  "ad1-pd1-adh1-pt1",
+                                             "title":  "ಅಧ್ಯಾಯ ೧, ಪಾದ ೧, ಅಧಿಕರಣ ೧, ಭಾಗ ೧",
+                                             "path":  "books/nyaya-sudha/kn/adhyaya1/pada1/adhikarana1/part1.md"
+                                         }
+                                     ],
+                         "tamil":  [
+                                       {
+                                           "id":  "ad1-pd1-adh1-pt1",
+                                           "title":  "அத்தியாயம் 1, பாதம் 1, அதிகரணம் 1, பகுதி 1",
+                                           "path":  "books/nyaya-sudha/ta/adhyaya1/pada1/adhikarana1/part1.md"
+                                       }
+                                   ],
+                         "telugu":  [
+                                        {
+                                            "id":  "ad1-pd1-adh1-pt1",
+                                            "title":  "అధ్యాయము 1, పాదము 1, అధికరణము 1, భాగము 1",
+                                            "path":  "books/nyaya-sudha/te/adhyaya1/pada1/adhikarana1/part1.md"
+                                        }
+                                    ]
+                     }
     },
-    "chapters": {
-      "english": [
-        {
-          "id": "ad1-pd1-adh1-pt1",
-          "title": "Adhyaya 1, Pada 1, Adhikarana 1, Part 1",
-          "path": "books/nyaya-sudha/en/adhyaya1/pada1/adhikarana1/part1.md"
-        }
-      ],
-      "sanskrit": [
-        {
-          "id": "ad1-pd1-adh1-pt1",
-          "title": "अध्यायः १, पादः १, अधिकरणम् १, विषयः १",
-          "path": "books/nyaya-sudha/sa/adhyaya1/pada1/adhikarana1/part1.md"
-        }
-      ],
-      "hindi": [
-        {
-          "id": "ad1-pd1-adh1-pt1",
-          "title": "अध्याय १, पाद १, अधिकरण १, भाग १",
-          "path": "books/nyaya-sudha/hi/adhyaya1/pada1/adhikarana1/part1.md"
-        }
-      ],
-      "kannada": [
-        {
-          "id": "ad1-pd1-adh1-pt1",
-          "title": "ಅಧ್ಯಾಯ ೧, ಪಾದ ೧, ಅಧಿಕರಣ ೧, ಭಾಗ ೧",
-          "path": "books/nyaya-sudha/kn/adhyaya1/pada1/adhikarana1/part1.md"
-        }
-      ],
-      "tamil": [
-        {
-          "id": "ad1-pd1-adh1-pt1",
-          "title": "அத்தியாயம் 1, பாதம் 1, அதிகரணம் 1, பகுதி 1",
-          "path": "books/nyaya-sudha/ta/adhyaya1/pada1/adhikarana1/part1.md"
-        }
-      ],
-      "telugu": [
-        {
-          "id": "ad1-pd1-adh1-pt1",
-          "title": "అధ్యాయము 1, పాదము 1, అధికరణము 1, భాగము 1",
-          "path": "books/nyaya-sudha/te/adhyaya1/pada1/adhikarana1/part1.md"
-        }
-      ]
-    }
-  },
-  {
-    "id": "stotra-sangraha",
-    "title": "Stotra Sangraha",
-    "author": "Traditional",
-    "year": "Ancient",
-    "genre": "Devotional / Stotras",
-    "description": "A collection containing Sri Raghavendra Stotram with word-by-word meanings and commentaries.",
-    "coverUrl": "books/stotra-sangraha/cover.png",
-    "languages": [
-      "english",
-      "sanskrit",
-      "hindi",
-      "kannada",
-      "tamil",
-      "telugu"
-    ],
-    "localized": {
-      "sanskrit": {
-        "title": "स्तोत्रसंग्रहः",
-        "description": "श्रीराघवेन्द्रस्तोत्रम् - पदशः अर्थः भावार्थश्च संस्कृते विवृतः।"
-      },
-      "hindi": {
-        "title": "स्तोत्र संग्रह",
-        "description": "श्री राघवेंद्र स्तोत्र का संग्रह, जिसमें प्रत्येक श्लोक का शब्दार्थ और भावार्थ सरल हिन्दी में दिया गया है।"
-      },
-      "kannada": {
-        "title": "ಸ್ತೋತ್ರ ಸಂಗ್ರಹ",
-        "description": "ಶ್ರೀ ರಾಘವೇಂದ್ರ ಸ್ತೋತ್ರದ ಸಂಗ್ರಹ. ಇಲ್ಲಿ ಪ್ರತಿ ಶ್ಲೋಕದ ಪದ ಪರಿಚಯ ಮತ್ತು ಕನ್ನಡ ಭಾವಾರ್ಥವನ್ನು ನೀಡಲಾಗಿದೆ."
-      },
-      "tamil": {
-        "title": "ஸ்தோத்திர சங்கிரகம்",
-        "description": "ஸ்ரீ ராகவேந்திர ஸ்தோத்திரம் - ஒவ்வொரு ஸ்லோகத்தின் சொற்பொருளும் எளிய தமிழும் வழங்கப்பட்டுள்ளது."
-      },
-      "telugu": {
-        "title": "స్తోత్ర సంగ్రహము",
-        "description": "శ్రీ రాఘవేంద్ర స్తోత్రము - ఇక్కడ ప్రతి శ్లోకము యొక్క పదపరిచయము మరియు తాత్పర్యము తెలుగులో కలదు."
-      }
+    {
+        "id":  "stotra-sangraha",
+        "title":  "Stotra Sangraha",
+        "author":  "Traditional",
+        "year":  "Ancient",
+        "genre":  "Devotional / Stotras",
+        "description":  "A collection containing Sri Raghavendra Stotram with word-by-word meanings and commentaries.",
+        "coverUrl":  "books/stotra-sangraha/cover.png",
+        "languages":  [
+                          "english",
+                          "sanskrit",
+                          "hindi",
+                          "kannada",
+                          "tamil",
+                          "telugu"
+                      ],
+        "localized":  {
+                          "sanskrit":  {
+                                           "title":  "स्तोत्रसंग्रहः",
+                                           "description":  "श्रीराघवेन्द्रस्तोत्रम् - पदशः अर्थः भावार्थश्च संस्कृते विवृतः।"
+                                       },
+                          "hindi":  {
+                                        "title":  "स्तोत्र संग्रह",
+                                        "description":  "श्री राघवेंद्र स्तोत्र का संग्रह, जिसमें प्रत्येक श्लोक का शब्दार्थ और भावार्थ सरल हिन्दी में दिया गया है।"
+                                    },
+                          "kannada":  {
+                                          "title":  "ಸ್ತೋತ್ರ ಸಂಗ್ರಹ",
+                                          "description":  "ಶ್ರೀ ರಾಘವೇಂದ್ರ ಸ್ತೋತ್ರದ ಸಂಗ್ರಹ. ಇಲ್ಲಿ ಪ್ರತಿ ಶ್ಲೋಕದ ಪದ ಪರಿಚಯ ಮತ್ತು ಕನ್ನಡ ಭಾವಾರ್ಥವನ್ನು ನೀಡಲಾಗಿದೆ."
+                                      },
+                          "tamil":  {
+                                        "title":  "ஸ்தோத்திர சங்கிரகம்",
+                                        "description":  "ஸ்ரீ ராகவேந்திர ஸ்தோத்திரம் - ஒவ்வொரு ஸ்லோகத்தின் சொற்பொருளும் எளிய தமிழும் வழங்கப்பட்டுள்ளது."
+                                    },
+                          "telugu":  {
+                                         "title":  "స్తోత్ర సంగ్రహము",
+                                         "description":  "శ్రీ రాఘవేంద్ర స్తోత్రము - ఇక్కడ ప్రతి శ్లోకము యొక్క పదపరిచయము మరియు తాత్పర్యము తెలుగులో కలదు."
+                                     }
+                      },
+        "chapters":  {
+                         "english":  [
+                                         {
+                                             "id":  "raghavendra-stotram",
+                                             "title":  "Sri Raghavendra Stotram",
+                                             "path":  "books/stotra-sangraha/en/raghavendra/stotram.md"
+                                         },
+                                         {
+                                             "id":  "sripadaraja-pancharatna",
+                                             "title":  "Sripadaraja Pancharatna Maalika",
+                                             "path":  "books/stotra-sangraha/en/sripadaraja/pancharatna.md"
+                                         }
+                                     ],
+                         "sanskrit":  [
+                                          {
+                                              "id":  "raghavendra-stotram",
+                                              "title":  "श्रीराघवेन्द्रस्तोत्रम्",
+                                              "path":  "books/stotra-sangraha/sa/raghavendra/stotram.md"
+                                          },
+                                          {
+                                              "id":  "sripadaraja-pancharatna",
+                                              "title":  "श्रीश्रीपादराजपञ्चरत्नमालिका",
+                                              "path":  "books/stotra-sangraha/sa/sripadaraja/pancharatna.md"
+                                          }
+                                      ],
+                         "hindi":  [
+                                       {
+                                           "id":  "raghavendra-stotram",
+                                           "title":  "श्री राघवेंद्र स्तोत्र",
+                                           "path":  "books/stotra-sangraha/hi/raghavendra/stotram.md"
+                                       },
+                                       {
+                                           "id":  "sripadaraja-pancharatna",
+                                           "title":  "श्री श्रीपादराज पञ्चरत्नमालिका",
+                                           "path":  "books/stotra-sangraha/hi/sripadaraja/pancharatna.md"
+                                       }
+                                   ],
+                         "kannada":  [
+                                         {
+                                             "id":  "raghavendra-stotram",
+                                             "title":  "ಶ್ರೀ ರಾಘವೇಂದ್ರ ಸ್ತೋತ್ರ",
+                                             "path":  "books/stotra-sangraha/kn/raghavendra/stotram.md"
+                                         },
+                                         {
+                                             "id":  "sripadaraja-pancharatna",
+                                             "title":  "ಶ್ರೀ ಶ್ರೀಪಾದರಾಜ ಪಂಚರತ್ನಮಾಲಿಕಾ",
+                                             "path":  "books/stotra-sangraha/kn/sripadaraja/pancharatna.md"
+                                         }
+                                     ],
+                         "tamil":  [
+                                       {
+                                           "id":  "raghavendra-stotram",
+                                           "title":  "ஸ்ரீ ராகவேந்திர ஸ்தோத்திரம்",
+                                           "path":  "books/stotra-sangraha/ta/raghavendra/stotram.md"
+                                       },
+                                       {
+                                           "id":  "sripadaraja-pancharatna",
+                                           "title":  "ஸ்ரீ ஸ்ரீபாதராஜ பஞ்சரத்னமாலிகா",
+                                           "path":  "books/stotra-sangraha/ta/sripadaraja/pancharatna.md"
+                                       }
+                                   ],
+                         "telugu":  [
+                                        {
+                                            "id":  "raghavendra-stotram",
+                                            "title":  "శ్రీ రాఘవేంద్ర స్తోత్రము",
+                                            "path":  "books/stotra-sangraha/te/raghavendra/stotram.md"
+                                        },
+                                        {
+                                            "id":  "sripadaraja-pancharatna",
+                                            "title":  "శ్రీ శ్రీపాదరాజ పంచరత్నమాలికా",
+                                            "path":  "books/stotra-sangraha/te/sripadaraja/pancharatna.md"
+                                        }
+                                    ]
+                     }
     },
-    "chapters": {
-      "english": [
-        {
-          "id": "raghavendra-stotram",
-          "title": "Sri Raghavendra Stotram",
-          "path": "books/stotra-sangraha/en/raghavendra/stotram.md"
-        },
-        {
-          "id": "sripadaraja-pancharatna",
-          "title": "Sripadaraja Pancharatna Maalika",
-          "path": "books/stotra-sangraha/en/sripadaraja/pancharatna.md"
-        }
-      ],
-      "sanskrit": [
-        {
-          "id": "raghavendra-stotram",
-          "title": "श्रीराघवेन्द्रस्तोत्रम्",
-          "path": "books/stotra-sangraha/sa/raghavendra/stotram.md"
-        },
-        {
-          "id": "sripadaraja-pancharatna",
-          "title": "श्रीश्रीपादराजपञ्चरत्नमालिका",
-          "path": "books/stotra-sangraha/sa/sripadaraja/pancharatna.md"
-        }
-      ],
-      "hindi": [
-        {
-          "id": "raghavendra-stotram",
-          "title": "श्री राघवेंद्र स्तोत्र",
-          "path": "books/stotra-sangraha/hi/raghavendra/stotram.md"
-        },
-        {
-          "id": "sripadaraja-pancharatna",
-          "title": "श्री श्रीपादराज पञ्चरत्नमालिका",
-          "path": "books/stotra-sangraha/hi/sripadaraja/pancharatna.md"
-        }
-      ],
-      "kannada": [
-        {
-          "id": "raghavendra-stotram",
-          "title": "ಶ್ರೀ ರಾಘವೇಂದ್ರ ಸ್ತೋತ್ರ",
-          "path": "books/stotra-sangraha/kn/raghavendra/stotram.md"
-        },
-        {
-          "id": "sripadaraja-pancharatna",
-          "title": "ಶ್ರೀ ಶ್ರೀಪಾದರಾಜ ಪಂಚರತ್ನಮಾಲಿಕಾ",
-          "path": "books/stotra-sangraha/kn/sripadaraja/pancharatna.md"
-        }
-      ],
-      "tamil": [
-        {
-          "id": "raghavendra-stotram",
-          "title": "ஸ்ரீ ராகவேந்திர ஸ்தோத்திரம்",
-          "path": "books/stotra-sangraha/ta/raghavendra/stotram.md"
-        },
-        {
-          "id": "sripadaraja-pancharatna",
-          "title": "ஸ்ரீ ஸ்ரீபாதராஜ பஞ்சரத்னமாலிகா",
-          "path": "books/stotra-sangraha/ta/sripadaraja/pancharatna.md"
-        }
-      ],
-      "telugu": [
-        {
-          "id": "raghavendra-stotram",
-          "title": "శ్రీ రాఘవేంద్ర స్తోత్రము",
-          "path": "books/stotra-sangraha/te/raghavendra/stotram.md"
-        },
-        {
-          "id": "sripadaraja-pancharatna",
-          "title": "శ్రీ శ్రీపాదరాజ పంచరత్నమాలికా",
-          "path": "books/stotra-sangraha/te/sripadaraja/pancharatna.md"
-        }
-      ]
-    }
-  },
-  {
-    "id": "sanskrit-learner",
-    "title": "Sanskrit Learner",
-    "author": "Vyasa Madhwa Technology Labs Trust",
-    "year": "2026",
-    "genre": "Language Learning / Education",
-    "description": "A comprehensive multi-lingual guide to learning Sanskrit basic phonetics, daily prayers, case grammar, and verb conjugations, adapted from traditional Sanskrit lesson materials.",
-    "coverUrl": "books/sanskrit-learner/cover.png",
-    "languages": [
-      "english",
-      "sanskrit",
-      "hindi",
-      "kannada",
-      "tamil",
-      "telugu"
-    ],
-    "localized": {
-      "sanskrit": {
-        "title": "संस्कृत-प्रवेशः",
-        "description": "सरलसंस्कृतेन संस्कृतपठनाय प्रवेशिका पुस्तिका। (अक्षराभ्यासः, नित्यप्रार्थना, सुबन्त-तिङन्तरूपपरिचयः)"
-      },
-      "hindi": {
-        "title": "संस्कृत प्रवेशिका",
-        "description": "वर्णमाला, संयुक्ताक्षर, नित्य प्रार्थनाएँ, विभक्ति रूप (राम-फल शब्द) तथा धातु रूप सीखने के लिए एक परिचयात्मक पुस्तक।"
-      },
-      "kannada": {
-        "title": "ಸಂಸ್ಕೃತ ಪ್ರವೇಶ",
-        "description": "ದೇವನಾಗರಿ ಅಕ್ಷರಾಭ್ಯಾಸ, ನಿತ್ಯ ಪ್ರಾರ್ಥನಾ ಶ್ಲೋಕಗಳು, ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯಗಳು (ರಾಮ ಶಬ್ದ ರೂಪಗಳು) ಮತ್ತು ಕ್ರಿಯಾಪದ ಕಾಲಗಳನ್ನು ಕಲಿಯಲು ಒಂದು ಸರಳ ಕೈಪಿಡಿ."
-      },
-      "tamil": {
-        "title": "சமஸ்கிருதப் பிரவேசம்",
-        "description": "எழுத்துக்கள், எளிய சொற்கள், அன்றாட ஸ்லோகங்கள், வேற்றுமை உருபுகள் மற்றும் வினைச்சொல் காலங்களைக் கற்க ஒரு எளிய அறிமுகப் புத்தகம்."
-      },
-      "telugu": {
-        "title": "సంస్కృత ప్రవేశము",
-        "description": "అక్షరాల పరిచయము, నిత్య ప్రార్థనలు, నామపద విభక్తులు మరియు క్రియా రూపములు నేర్చుకోవడానికి ఒక సరళ పరిచయ పుస్తకం."
-      }
+    {
+        "id":  "sanskrit-learner",
+        "title":  "Sanskrit Learner",
+        "author":  "Vyasa Madhwa Technology Labs Trust",
+        "year":  "2026",
+        "genre":  "Language Learning / Education",
+        "description":  "A comprehensive multi-lingual guide to learning Sanskrit basic phonetics, daily prayers, case grammar, and verb conjugations, adapted from traditional Sanskrit lesson materials.",
+        "coverUrl":  "books/sanskrit-learner/cover.png",
+        "languages":  [
+                          "english",
+                          "sanskrit",
+                          "hindi",
+                          "kannada",
+                          "tamil",
+                          "telugu"
+                      ],
+        "localized":  {
+                          "sanskrit":  {
+                                           "title":  "संस्कृत-प्रवेशः",
+                                           "description":  "सरलसंस्कृतेन संस्कृतपठनाय प्रवेशिका पुस्तिका। (अक्षराभ्यासः, नित्यप्रार्थना, सुबन्त-तिङन्तरूपपरिचयः)"
+                                       },
+                          "hindi":  {
+                                        "title":  "संस्कृत प्रवेशिका",
+                                        "description":  "वर्णमाला, संयुक्ताक्षर, नित्य प्रार्थनाएँ, विभक्ति रूप (राम-फल शब्द) तथा धातु रूप सीखने के लिए एक परिचयात्मक पुस्तक।"
+                                    },
+                          "kannada":  {
+                                          "title":  "ಸಂಸ್ಕೃತ ಪ್ರವೇಶ",
+                                          "description":  "ದೇವನಾಗರಿ ಅಕ್ಷರಾಭ್ಯಾಸ, ನಿತ್ಯ ಪ್ರಾರ್ಥನಾ ಶ್ಲೋಕಗಳು, ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯಗಳು (ರಾಮ ಶಬ್ದ ರೂಪಗಳು) ಮತ್ತು ಕ್ರಿಯಾಪದ ಕಾಲಗಳನ್ನು ಕಲಿಯಲು ಒಂದು ಸರಳ ಕೈಪಿಡಿ."
+                                      },
+                          "tamil":  {
+                                        "title":  "சமஸ்கிருதப் பிரவேசம்",
+                                        "description":  "எழுத்துக்கள், எளிய சொற்கள், அன்றாட ஸ்லோகங்கள், வேற்றுமை உருபுகள் மற்றும் வினைச்சொல் காலங்களைக் கற்க ஒரு எளிய அறிமுகப் புத்தகம்."
+                                    },
+                          "telugu":  {
+                                         "title":  "సంస్కృత ప్రవేశము",
+                                         "description":  "అక్షరాల పరిచయము, నిత్య ప్రార్థనలు, నామపద విభక్తులు మరియు క్రియా రూపములు నేర్చుకోవడానికి ఒక సరళ పరిచయ పుస్తకం."
+                                     }
+                      },
+        "chapters":  {
+                         "english":  [
+                                         {
+                                             "id":  "ch1",
+                                             "title":  "Chapter 1: The Alphabet (Varnamala)",
+                                             "path":  "books/sanskrit-learner/en/ch1.md"
+                                         },
+                                         {
+                                             "id":  "ch2",
+                                             "title":  "Chapter 2: Vowel Markers (गुणिताक्षराणि)",
+                                             "path":  "books/sanskrit-learner/en/ch2.md"
+                                         },
+                                         {
+                                             "id":  "ch3",
+                                             "title":  "Chapter 3: Conjunct Letters (संयुक्ताक्षराणि)",
+                                             "path":  "books/sanskrit-learner/en/ch3.md"
+                                         },
+                                         {
+                                             "id":  "ch4",
+                                             "title":  "Chapter 4: Sanskrit Vocabulary (शब्दपरिचयः)",
+                                             "path":  "books/sanskrit-learner/en/ch4.md"
+                                         },
+                                         {
+                                             "id":  "ch5",
+                                             "title":  "Chapter 5: Daily Devotional Stotras (नित्यप्रार्थना)",
+                                             "path":  "books/sanskrit-learner/en/ch5.md"
+                                         },
+                                         {
+                                             "id":  "ch6",
+                                             "title":  "Chapter 6: Noun Declensions (शब्दरूपाणि)",
+                                             "path":  "books/sanskrit-learner/en/ch6.md"
+                                         },
+                                         {
+                                             "id":  "ch7",
+                                             "title":  "Chapter 7: Sentence Creation Practice (वाक्यरचना अभ्यासः)",
+                                             "path":  "books/sanskrit-learner/en/ch7.md"
+                                         },
+                                         {
+                                             "id":  "ch8",
+                                             "title":  "Chapter 8: Verb Conjugations (धातु-रूपाणि)",
+                                             "path":  "books/sanskrit-learner/en/ch8.md"
+                                         },
+                                         {
+                                             "id":  "ch9",
+                                             "title":  "Chapter 9: Sandhi Rules (सन्धिप्रकरणम्)",
+                                             "path":  "books/sanskrit-learner/en/ch9.md"
+                                         },
+                                         {
+                                             "id":  "ch10",
+                                             "title":  "Chapter 10: Compound Words \u0026 Derivations",
+                                             "path":  "books/sanskrit-learner/en/ch10.md"
+                                         }
+                                     ],
+                         "sanskrit":  [
+                                          {
+                                              "id":  "ch1",
+                                              "title":  "प्रथमः पाठः: अक्षराभ्यासः (वर्णमाला संख्याः च)",
+                                              "path":  "books/sanskrit-learner/sa/ch1.md"
+                                          },
+                                          {
+                                              "id":  "ch2",
+                                              "title":  "द्वितीयः पाठः: अक्षराभ्यासः २ (गुणिताक्षराणि)",
+                                              "path":  "books/sanskrit-learner/sa/ch2.md"
+                                          },
+                                          {
+                                              "id":  "ch3",
+                                              "title":  "तृतीयः पाठः: अक्षराभ्यासः ३ (संयुक्ताक्षराणि)",
+                                              "path":  "books/sanskrit-learner/sa/ch3.md"
+                                          },
+                                          {
+                                              "id":  "ch4",
+                                              "title":  "चतुर्थः पाठः: शब्दपरिचयः वर्णविच्छेदः च (शब्दावली)",
+                                              "path":  "books/sanskrit-learner/sa/ch4.md"
+                                          },
+                                          {
+                                              "id":  "ch5",
+                                              "title":  "पञ्चमः पाठः: नित्यप्रार्थना (श्लोकाः)",
+                                              "path":  "books/sanskrit-learner/sa/ch5.md"
+                                          },
+                                          {
+                                              "id":  "ch6",
+                                              "title":  "षष्ठः पाठः: मूलव्याकरणं वाक्याभ्यासः च (विभक्तिपरिचयः)",
+                                              "path":  "books/sanskrit-learner/sa/ch6.md"
+                                          },
+                                          {
+                                              "id":  "ch7",
+                                              "title":  "सप्तमः पाठः: वाक्यरचना अभ्यासः (रामशब्द-प्रयोगः)",
+                                              "path":  "books/sanskrit-learner/sa/ch7.md"
+                                          },
+                                          {
+                                              "id":  "ch8",
+                                              "title":  "अष्टमः पाठः: धातुरूपाणि (Verb Conjugations)",
+                                              "path":  "books/sanskrit-learner/sa/ch8.md"
+                                          },
+                                          {
+                                              "id":  "ch9",
+                                              "title":  "नवमः पाठः: सन्धिप्रकरणम्",
+                                              "path":  "books/sanskrit-learner/sa/ch9.md"
+                                          },
+                                          {
+                                              "id":  "ch10",
+                                              "title":  "दशमः पाठः: समासाः वृत्तयश्च",
+                                              "path":  "books/sanskrit-learner/sa/ch10.md"
+                                          }
+                                      ],
+                         "hindi":  [
+                                       {
+                                           "id":  "ch1",
+                                           "title":  "अध्याय १: वर्णमाला और अक्षराभ्यास",
+                                           "path":  "books/sanskrit-learner/hi/ch1.md"
+                                       },
+                                       {
+                                           "id":  "ch2",
+                                           "title":  "अध्याय २: मात्रा विचार (गुणिताक्षर)",
+                                           "path":  "books/sanskrit-learner/hi/ch2.md"
+                                       },
+                                       {
+                                           "id":  "ch3",
+                                           "title":  "अध्याय ३: संयुक्ताक्षर (संयोग वर्ण)",
+                                           "path":  "books/sanskrit-learner/hi/ch3.md"
+                                       },
+                                       {
+                                           "id":  "ch4",
+                                           "title":  "अध्याय ४: संस्कृत शब्दावली (शब्द परिचय)",
+                                           "path":  "books/sanskrit-learner/hi/ch4.md"
+                                       },
+                                       {
+                                           "id":  "ch5",
+                                           "title":  "अध्याय ५: नित्य प्रार्थना एवं श्लोक",
+                                           "path":  "books/sanskrit-learner/hi/ch5.md"
+                                       },
+                                       {
+                                           "id":  "ch6",
+                                           "title":  "अध्याय ६: शब्द रूप (विभक्ति परिचय)",
+                                           "path":  "books/sanskrit-learner/hi/ch6.md"
+                                       },
+                                       {
+                                           "id":  "ch7",
+                                           "title":  "अध्याय ७: वाक्य रचना अभ्यास (राम शब्द प्रयोग)",
+                                           "path":  "books/sanskrit-learner/hi/ch7.md"
+                                       },
+                                       {
+                                           "id":  "ch8",
+                                           "title":  "अध्याय ८: धातु रूप (क्रिया काल)",
+                                           "path":  "books/sanskrit-learner/hi/ch8.md"
+                                       },
+                                       {
+                                           "id":  "ch9",
+                                           "title":  "अध्याय ९: सन्धि प्रकरण",
+                                           "path":  "books/sanskrit-learner/hi/ch9.md"
+                                       },
+                                       {
+                                           "id":  "ch10",
+                                           "title":  "अध्याय १०: समास एवं वृत्तियाँ",
+                                           "path":  "books/sanskrit-learner/hi/ch10.md"
+                                       }
+                                   ],
+                         "kannada":  [
+                                         {
+                                             "id":  "ch1",
+                                             "title":  "ಅಧ್ಯಾಯ ೧: ಸಂಸ್ಕೃತ ವರ್ಣಮಾಲೆ ಮತ್ತು ಅಕ್ಷರಾಭ್ಯಾಸ",
+                                             "path":  "books/sanskrit-learner/kn/ch1.md"
+                                         },
+                                         {
+                                             "id":  "ch2",
+                                             "title":  "ಅಧ್ಯಾಯ ೨: ಗುಣಿತಾಕ್ಷರಗಳು (ಮಾತ್ರಾ ಚಿಹ್ನೆಗಳು)",
+                                             "path":  "books/sanskrit-learner/kn/ch2.md"
+                                         },
+                                         {
+                                             "id":  "ch3",
+                                             "title":  "ಅಧ್ಯಾಯ ೩: ಸಂಯುಕ್ತಾಕ್ಷರಗಳು (ಒತ್ತಕ್ಷರಗಳು)",
+                                             "path":  "books/sanskrit-learner/kn/ch3.md"
+                                         },
+                                         {
+                                             "id":  "ch4",
+                                             "title":  "ಅಧ್ಯಾಯ ೪: ಸಂಸ್ಕೃತ ಶಬ್ದಕೋಶ (ಪದ ಪರಿಚಯ)",
+                                             "path":  "books/sanskrit-learner/kn/ch4.md"
+                                         },
+                                         {
+                                             "id":  "ch5",
+                                             "title":  "ಅಧ್ಯಾಯ ೫: ನಿತ್ಯ ಪ್ರಾರ್ಥನಾ ಶ್ಲೋಕಗಳು",
+                                             "path":  "books/sanskrit-learner/kn/ch5.md"
+                                         },
+                                         {
+                                             "id":  "ch6",
+                                             "title":  "ಅಧ್ಯಾಯ ೬: ಶಬ್ದ ರೂಪಗಳು (ವಿಭಕ್ತಿ ಪರಿಚಯ)",
+                                             "path":  "books/sanskrit-learner/kn/ch6.md"
+                                         },
+                                         {
+                                             "id":  "ch7",
+                                             "title":  "ಅಧ್ಯಾಯ ೭: ವಾಕ್ಯ ರಚನಾ ಅಭ್ಯಾಸ (ರಾಮಶಬ್ದ ಪ್ರಯೋಗ)",
+                                             "path":  "books/sanskrit-learner/kn/ch7.md"
+                                         },
+                                         {
+                                             "id":  "ch8",
+                                             "title":  "ಅಧ್ಯಾಯ ೮: ಧಾತು ರೂಪಗಳು (ಕ್ರಿಯಾಪದ ಕಾಲಗಳು)",
+                                             "path":  "books/sanskrit-learner/kn/ch8.md"
+                                         },
+                                         {
+                                             "id":  "ch9",
+                                             "title":  "ಅಧ್ಯಾಯ ೯: ಸಂಧಿ ಪ್ರಕರಣ",
+                                             "path":  "books/sanskrit-learner/kn/ch9.md"
+                                         },
+                                         {
+                                             "id":  "ch10",
+                                             "title":  "ಅಧ್ಯಾಯ ೧೦: ಸಮಾಸಗಳು ಮತ್ತು ವೃತ್ತಿಗಳು",
+                                             "path":  "books/sanskrit-learner/kn/ch10.md"
+                                         }
+                                     ],
+                         "tamil":  [
+                                       {
+                                           "id":  "ch1",
+                                           "title":  "அத்தியாயம் 1: சமஸ்கிருத எழுத்துக்கள் (வர்ணமாலை)",
+                                           "path":  "books/sanskrit-learner/ta/ch1.md"
+                                       },
+                                       {
+                                           "id":  "ch2",
+                                           "title":  "அத்தியாயம் 2: உயிர்மெய் எழுத்துக் குறிகள் (குணிதாக்ஷரங்கள்)",
+                                           "path":  "books/sanskrit-learner/ta/ch2.md"
+                                       },
+                                       {
+                                           "id":  "ch3",
+                                           "title":  "அத்தியாயம் 3: கூட்டெழுத்துக்கள் (ஸம்யுக்தாக்ஷரங்கள்)",
+                                           "path":  "books/sanskrit-learner/ta/ch3.md"
+                                       },
+                                       {
+                                           "id":  "ch4",
+                                           "title":  "அத்தியாயம் 4: சமஸ்கிருத சொற்களஞ்சியம் (சப்தபரிசயம்)",
+                                           "path":  "books/sanskrit-learner/ta/ch4.md"
+                                       },
+                                       {
+                                           "id":  "ch5",
+                                           "title":  "அத்தியாயம் 5: அன்றாட பிரார்த்தனை ஸ்லோகங்கள்",
+                                           "path":  "books/sanskrit-learner/ta/ch5.md"
+                                       },
+                                       {
+                                           "id":  "ch6",
+                                           "title":  "அத்தியாயம் 6: பெயர்ச்சொல் வேற்றுமை உருபுகள் (சப்தரூபங்கள்)",
+                                           "path":  "books/sanskrit-learner/ta/ch6.md"
+                                       },
+                                       {
+                                           "id":  "ch7",
+                                           "title":  "அத்தியாயம் 7: வாக்கிய அமைப்பு பயிற்சி (ராமசப்த பிரயோகம்)",
+                                           "path":  "books/sanskrit-learner/ta/ch7.md"
+                                       },
+                                       {
+                                           "id":  "ch8",
+                                           "title":  "அத்தியாயம் 8: வினைமுற்றுகள் (தாதுரூபங்கள்)",
+                                           "path":  "books/sanskrit-learner/ta/ch8.md"
+                                       },
+                                       {
+                                           "id":  "ch9",
+                                           "title":  "அத்தியாயம் 9: சந்தி பிரகரணம்",
+                                           "path":  "books/sanskrit-learner/ta/ch9.md"
+                                       },
+                                       {
+                                           "id":  "ch10",
+                                           "title":  "அத்தியாயம் 10: கூட்டுச் சொற்கள் (ஸமாஸங்கள்)",
+                                           "path":  "books/sanskrit-learner/ta/ch10.md"
+                                       }
+                                   ],
+                         "telugu":  [
+                                        {
+                                            "id":  "ch1",
+                                            "title":  "అధ్యాయము 1: సంస్కృత వర్ణమాల",
+                                            "path":  "books/sanskrit-learner/te/ch1.md"
+                                        },
+                                        {
+                                            "id":  "ch2",
+                                            "title":  "అధ్యాయము 2: గుణింతపు గుర్తులు (గుణితాక్షరములు)",
+                                            "path":  "books/sanskrit-learner/te/ch2.md"
+                                        },
+                                        {
+                                            "id":  "ch3",
+                                            "title":  "అధ్యాయము 3: సంయుక్తాక్షరములు (వత్తులు)",
+                                            "path":  "books/sanskrit-learner/te/ch3.md"
+                                        },
+                                        {
+                                            "id":  "ch4",
+                                            "title":  "అధ్యాయము 4: సంస్కృత పదకోశము (పద పరిచయము)",
+                                            "path":  "books/sanskrit-learner/te/ch4.md"
+                                        },
+                                        {
+                                            "id":  "ch5",
+                                            "title":  "అధ్యాయము 5: నిత్య ప్రార్థనా శ్లోకములు",
+                                            "path":  "books/sanskrit-learner/te/ch5.md"
+                                        },
+                                        {
+                                            "id":  "ch6",
+                                            "title":  "అధ్యాయము 6: శబ్ద రూపములు (విభక్తి పరిచయము)",
+                                            "path":  "books/sanskrit-learner/te/ch6.md"
+                                        },
+                                        {
+                                            "id":  "ch7",
+                                            "title":  "అధ్యాయము 7: వాక్యం రచనా అభ్యాసము (రామశబ్ద ప్రయోగము)",
+                                            "path":  "books/sanskrit-learner/te/ch7.md"
+                                        },
+                                        {
+                                            "id":  "ch8",
+                                            "title":  "అధ్యాయము 8: ధాతు రూపములు (క్రియాపద కాలములు)",
+                                            "path":  "books/sanskrit-learner/te/ch8.md"
+                                        },
+                                        {
+                                            "id":  "ch9",
+                                            "title":  "అధ్యాయము 9: సంధి ప్రకరణము",
+                                            "path":  "books/sanskrit-learner/te/ch9.md"
+                                        },
+                                        {
+                                            "id":  "ch10",
+                                            "title":  "అధ్యాయము 10: సమాసములు మరియు వృత్తులు",
+                                            "path":  "books/sanskrit-learner/te/ch10.md"
+                                        }
+                                    ]
+                     }
     },
-    "chapters": {
-      "english": [
-        {
-          "id": "ch1",
-          "title": "Chapter 1: The Alphabet (Varnamala)",
-          "path": "books/sanskrit-learner/en/ch1.md"
-        },
-        {
-          "id": "ch2",
-          "title": "Chapter 2: Vowel Markers (गुणिताक्षराणि)",
-          "path": "books/sanskrit-learner/en/ch2.md"
-        },
-        {
-          "id": "ch3",
-          "title": "Chapter 3: Conjunct Letters (संयुक्ताक्षराणि)",
-          "path": "books/sanskrit-learner/en/ch3.md"
-        },
-        {
-          "id": "ch4",
-          "title": "Chapter 4: Sanskrit Vocabulary (शब्दपरिचयः)",
-          "path": "books/sanskrit-learner/en/ch4.md"
-        },
-        {
-          "id": "ch5",
-          "title": "Chapter 5: Daily Devotional Stotras (नित्यप्रार्थना)",
-          "path": "books/sanskrit-learner/en/ch5.md"
-        },
-        {
-          "id": "ch6",
-          "title": "Chapter 6: Noun Declensions (शब्दरूपाणि)",
-          "path": "books/sanskrit-learner/en/ch6.md"
-        },
-        {
-          "id": "ch7",
-          "title": "Chapter 7: Sentence Creation Practice (वाक्यरचना अभ्यासः)",
-          "path": "books/sanskrit-learner/en/ch7.md"
-        },
-        {
-          "id": "ch8",
-          "title": "Chapter 8: Verb Conjugations (धातु-रूपाणि)",
-          "path": "books/sanskrit-learner/en/ch8.md"
-        },
-        {
-          "id": "ch9",
-          "title": "Chapter 9: Sandhi Rules (सन्धिप्रकरणम्)",
-          "path": "books/sanskrit-learner/en/ch9.md"
-        },
-        {
-          "id": "ch10",
-          "title": "Chapter 10: Compound Words & Derivations",
-          "path": "books/sanskrit-learner/en/ch10.md"
-        }
-      ],
-      "sanskrit": [
-        {
-          "id": "ch1",
-          "title": "प्रथमः पाठः: अक्षराभ्यासः (वर्णमाला संख्याः च)",
-          "path": "books/sanskrit-learner/sa/ch1.md"
-        },
-        {
-          "id": "ch2",
-          "title": "द्वितीयः पाठः: अक्षराभ्यासः २ (गुणिताक्षराणि)",
-          "path": "books/sanskrit-learner/sa/ch2.md"
-        },
-        {
-          "id": "ch3",
-          "title": "तृतीयः पाठः: अक्षराभ्यासः ३ (संयुक्ताक्षराणि)",
-          "path": "books/sanskrit-learner/sa/ch3.md"
-        },
-        {
-          "id": "ch4",
-          "title": "चतुर्थः पाठः: शब्दपरिचयः वर्णविच्छेदः च (शब्दावली)",
-          "path": "books/sanskrit-learner/sa/ch4.md"
-        },
-        {
-          "id": "ch5",
-          "title": "पञ्चमः पाठः: नित्यप्रार्थना (श्लोकाः)",
-          "path": "books/sanskrit-learner/sa/ch5.md"
-        },
-        {
-          "id": "ch6",
-          "title": "षष्ठः पाठः: मूलव्याकरणं वाक्याभ्यासः च (विभक्तिपरिचयः)",
-          "path": "books/sanskrit-learner/sa/ch6.md"
-        },
-        {
-          "id": "ch7",
-          "title": "सप्तमः पाठः: वाक्यरचना अभ्यासः (रामशब्द-प्रयोगः)",
-          "path": "books/sanskrit-learner/sa/ch7.md"
-        },
-        {
-          "id": "ch8",
-          "title": "अष्टमः पाठः: धातुरूपाणि (Verb Conjugations)",
-          "path": "books/sanskrit-learner/sa/ch8.md"
-        },
-        {
-          "id": "ch9",
-          "title": "नवमः पाठः: सन्धिप्रकरणम्",
-          "path": "books/sanskrit-learner/sa/ch9.md"
-        },
-        {
-          "id": "ch10",
-          "title": "दशमः पाठः: समासाः वृत्तयश्च",
-          "path": "books/sanskrit-learner/sa/ch10.md"
-        }
-      ],
-      "hindi": [
-        {
-          "id": "ch1",
-          "title": "अध्याय १: वर्णमाला और अक्षराभ्यास",
-          "path": "books/sanskrit-learner/hi/ch1.md"
-        },
-        {
-          "id": "ch2",
-          "title": "अध्याय २: मात्रा विचार (गुणिताक्षर)",
-          "path": "books/sanskrit-learner/hi/ch2.md"
-        },
-        {
-          "id": "ch3",
-          "title": "अध्याय ३: संयुक्ताक्षर (संयोग वर्ण)",
-          "path": "books/sanskrit-learner/hi/ch3.md"
-        },
-        {
-          "id": "ch4",
-          "title": "अध्याय ४: संस्कृत शब्दावली (शब्द परिचय)",
-          "path": "books/sanskrit-learner/hi/ch4.md"
-        },
-        {
-          "id": "ch5",
-          "title": "अध्याय ५: नित्य प्रार्थना एवं श्लोक",
-          "path": "books/sanskrit-learner/hi/ch5.md"
-        },
-        {
-          "id": "ch6",
-          "title": "अध्याय ६: शब्द रूप (विभक्ति परिचय)",
-          "path": "books/sanskrit-learner/hi/ch6.md"
-        },
-        {
-          "id": "ch7",
-          "title": "अध्याय ७: वाक्य रचना अभ्यास (राम शब्द प्रयोग)",
-          "path": "books/sanskrit-learner/hi/ch7.md"
-        },
-        {
-          "id": "ch8",
-          "title": "अध्याय ८: धातु रूप (क्रिया काल)",
-          "path": "books/sanskrit-learner/hi/ch8.md"
-        },
-        {
-          "id": "ch9",
-          "title": "अध्याय ९: सन्धि प्रकरण",
-          "path": "books/sanskrit-learner/hi/ch9.md"
-        },
-        {
-          "id": "ch10",
-          "title": "अध्याय १०: समास एवं वृत्तियाँ",
-          "path": "books/sanskrit-learner/hi/ch10.md"
-        }
-      ],
-      "kannada": [
-        {
-          "id": "ch1",
-          "title": "ಅಧ್ಯಾಯ ೧: ಸಂಸ್ಕೃತ ವರ್ಣಮಾಲೆ ಮತ್ತು ಅಕ್ಷರಾಭ್ಯಾಸ",
-          "path": "books/sanskrit-learner/kn/ch1.md"
-        },
-        {
-          "id": "ch2",
-          "title": "ಅಧ್ಯಾಯ ೨: ಗುಣಿತಾಕ್ಷರಗಳು (ಮಾತ್ರಾ ಚಿಹ್ನೆಗಳು)",
-          "path": "books/sanskrit-learner/kn/ch2.md"
-        },
-        {
-          "id": "ch3",
-          "title": "ಅಧ್ಯಾಯ ೩: ಸಂಯುಕ್ತಾಕ್ಷರಗಳು (ಒತ್ತಕ್ಷರಗಳು)",
-          "path": "books/sanskrit-learner/kn/ch3.md"
-        },
-        {
-          "id": "ch4",
-          "title": "ಅಧ್ಯಾಯ ೪: ಸಂಸ್ಕೃತ ಶಬ್ದಕೋಶ (ಪದ ಪರಿಚಯ)",
-          "path": "books/sanskrit-learner/kn/ch4.md"
-        },
-        {
-          "id": "ch5",
-          "title": "ಅಧ್ಯಾಯ ೫: ನಿತ್ಯ ಪ್ರಾರ್ಥನಾ ಶ್ಲೋಕಗಳು",
-          "path": "books/sanskrit-learner/kn/ch5.md"
-        },
-        {
-          "id": "ch6",
-          "title": "ಅಧ್ಯಾಯ ೬: ಶಬ್ದ ರೂಪಗಳು (ವಿಭಕ್ತಿ ಪರಿಚಯ)",
-          "path": "books/sanskrit-learner/kn/ch6.md"
-        },
-        {
-          "id": "ch7",
-          "title": "ಅಧ್ಯಾಯ ೭: ವಾಕ್ಯ ರಚನಾ ಅಭ್ಯಾಸ (ರಾಮಶಬ್ದ ಪ್ರಯೋಗ)",
-          "path": "books/sanskrit-learner/kn/ch7.md"
-        },
-        {
-          "id": "ch8",
-          "title": "ಅಧ್ಯಾಯ ೮: ಧಾತು ರೂಪಗಳು (ಕ್ರಿಯಾಪದ ಕಾಲಗಳು)",
-          "path": "books/sanskrit-learner/kn/ch8.md"
-        },
-        {
-          "id": "ch9",
-          "title": "ಅಧ್ಯಾಯ ೯: ಸಂಧಿ ಪ್ರಕರಣ",
-          "path": "books/sanskrit-learner/kn/ch9.md"
-        },
-        {
-          "id": "ch10",
-          "title": "ಅಧ್ಯಾಯ ೧೦: ಸಮಾಸಗಳು ಮತ್ತು ವೃತ್ತಿಗಳು",
-          "path": "books/sanskrit-learner/kn/ch10.md"
-        }
-      ],
-      "tamil": [
-        {
-          "id": "ch1",
-          "title": "அத்தியாயம் 1: சமஸ்கிருத எழுத்துக்கள் (வர்ணமாலை)",
-          "path": "books/sanskrit-learner/ta/ch1.md"
-        },
-        {
-          "id": "ch2",
-          "title": "அத்தியாயம் 2: உயிர்மெய் எழுத்துக் குறிகள் (குணிதாக்ஷரங்கள்)",
-          "path": "books/sanskrit-learner/ta/ch2.md"
-        },
-        {
-          "id": "ch3",
-          "title": "அத்தியாயம் 3: கூட்டெழுத்துக்கள் (ஸம்யுக்தாக்ஷரங்கள்)",
-          "path": "books/sanskrit-learner/ta/ch3.md"
-        },
-        {
-          "id": "ch4",
-          "title": "அத்தியாயம் 4: சமஸ்கிருத சொற்களஞ்சியம் (சப்தபரிசயம்)",
-          "path": "books/sanskrit-learner/ta/ch4.md"
-        },
-        {
-          "id": "ch5",
-          "title": "அத்தியாயம் 5: அன்றாட பிரார்த்தனை ஸ்லோகங்கள்",
-          "path": "books/sanskrit-learner/ta/ch5.md"
-        },
-        {
-          "id": "ch6",
-          "title": "அத்தியாயம் 6: பெயர்ச்சொல் வேற்றுமை உருபுகள் (சப்தரூபங்கள்)",
-          "path": "books/sanskrit-learner/ta/ch6.md"
-        },
-        {
-          "id": "ch7",
-          "title": "அத்தியாயம் 7: வாக்கிய அமைப்பு பயிற்சி (ராமசப்த பிரயோகம்)",
-          "path": "books/sanskrit-learner/ta/ch7.md"
-        },
-        {
-          "id": "ch8",
-          "title": "அத்தியாயம் 8: வினைமுற்றுகள் (தாதுரூபங்கள்)",
-          "path": "books/sanskrit-learner/ta/ch8.md"
-        },
-        {
-          "id": "ch9",
-          "title": "அத்தியாயம் 9: சந்தி பிரகரணம்",
-          "path": "books/sanskrit-learner/ta/ch9.md"
-        },
-        {
-          "id": "ch10",
-          "title": "அத்தியாயம் 10: கூட்டுச் சொற்கள் (ஸமாஸங்கள்)",
-          "path": "books/sanskrit-learner/ta/ch10.md"
-        }
-      ],
-      "telugu": [
-        {
-          "id": "ch1",
-          "title": "అధ్యాయము 1: సంస్కృత వర్ణమాల",
-          "path": "books/sanskrit-learner/te/ch1.md"
-        },
-        {
-          "id": "ch2",
-          "title": "అధ్యాయము 2: గుణింతపు గుర్తులు (గుణితాక్షరములు)",
-          "path": "books/sanskrit-learner/te/ch2.md"
-        },
-        {
-          "id": "ch3",
-          "title": "అధ్యాయము 3: సంయుక్తాక్షరములు (వత్తులు)",
-          "path": "books/sanskrit-learner/te/ch3.md"
-        },
-        {
-          "id": "ch4",
-          "title": "అధ్యాయము 4: సంస్కృత పదకోశము (పద పరిచయము)",
-          "path": "books/sanskrit-learner/te/ch4.md"
-        },
-        {
-          "id": "ch5",
-          "title": "అధ్యాయము 5: నిత్య ప్రార్థనా శ్లోకములు",
-          "path": "books/sanskrit-learner/te/ch5.md"
-        },
-        {
-          "id": "ch6",
-          "title": "అధ్యాయము 6: శబ్ద రూపములు (విభక్తి పరిచయము)",
-          "path": "books/sanskrit-learner/te/ch6.md"
-        },
-        {
-          "id": "ch7",
-          "title": "అధ్యాయము 7: వాక్యం రచనా అభ్యాసము (రామశబ్ద ప్రయోగము)",
-          "path": "books/sanskrit-learner/te/ch7.md"
-        },
-        {
-          "id": "ch8",
-          "title": "అధ్యాయము 8: ధాతు రూపములు (క్రియాపద కాలములు)",
-          "path": "books/sanskrit-learner/te/ch8.md"
-        },
-        {
-          "id": "ch9",
-          "title": "అధ్యాయము 9: సంధి ప్రకరణము",
-          "path": "books/sanskrit-learner/te/ch9.md"
-        },
-        {
-          "id": "ch10",
-          "title": "అధ్యాయము 10: సమాసములు మరియు వృత్తులు",
-          "path": "books/sanskrit-learner/te/ch10.md"
-        }
-      ]
-    }
-  },
-  {
-    "id": "mani-manjari",
-    "title": "Mani Manjari",
-    "author": "Sri Narayana Panditacharya",
-    "year": "14th Century CE",
-    "genre": "Scripture / History / Biography",
-    "description": "Mani Manjari is a classical Sanskrit epic by Narayana Panditacharya. It provides an outline of the history of Dvaita philosophy, starting from creation, tracing the incarnations of Vayu (Hanuman, Bhima, Madhvacharya), and describing the lineage of gurus.",
-    "coverUrl": "books/mani-manjari/cover.png",
-    "languages": [
-      "english",
-      "sanskrit",
-      "hindi",
-      "kannada",
-      "tamil",
-      "telugu"
-    ],
-    "localized": {
-      "sanskrit": {
-        "title": "मणिमञ्जरी",
-        "description": "मणिमञ्जरी श्रीमन्नारायणपण्डिताचार्यविरचिता अस्ति। अस्मिन् सर्गद्वये सृष्ट्यारम्भात् आरभ्य श्रीराम-कृष्णावतारे वायुदेवस्य हनुमद्भीमयोः चरित्रं तथा च द्वैतसिद्धान्तस्य प्रादुर्भावः सविस्तरं वर्णितः अस्ति।"
-      },
-      "hindi": {
-        "title": "मणिमञ्जरी",
-        "description": "मणिमञ्जरी श्रीमन्नारायणपण्डिताचार्य द्वारा रचित एक शास्त्रीय महाकाव्य है। यह सृष्टि से लेकर वायुदेव के अवतारों (हनुमान, भीम, मध्वाचार्य) और गुरुओं की परंपरा का वर्णन करता हुआ द्वैत दर्शन के इतिहास की रूपरेखा प्रदान करता है।"
-      },
-      "kannada": {
-        "title": "ಮಣಿಮಂಜರಿ",
-        "description": "ಮಣಿಮಂಜರಿಯು ಶ್ರೀ ನಾರಾಯಣ ಪಂಡಿತಾಚಾರ್ಯರಿಂದ ರಚಿತವಾದ ಒಂದು ಪ್ರಸಿದ್ಧ ಸಂಸ್ಕೃತ ಮಹಾಕಾವ್ಯವಾಗಿದೆ. ಇದು ಸೃಷ್ಟಿಯಿಂದ ಪ್ರಾರಂಭಿಸಿ, ವಾಯುದೇವರ ಅವತಾರಗಳಾದ ಹನುಮಂತ, ಭೀಮಸೇನ ಮತ್ತು ಮಧ್ವಾಚಾರ್ಯರ ಚರಿತ್ರೆಯನ್ನು ಹಾಗೂ ಗುರು ಪರಂಪರೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ."
-      },
-      "tamil": {
-        "title": "மணிமஞ்சரி",
-        "description": "மணிமஞ்சரி என்பது நாராயண பண்டிதாசாரியரால் இயற்றப்பட்ட ஒரு உன்னதமான சமஸ்கிருத காவியமாகும். இது படைப்பு முதல் வாயுதேவனின் அவதாரங்களையும் (அனுமன், பீமன், மத்வாசாரியர்), குருமார்களின் பரம்பரையையும் விவரிக்கும் துவைத தத்துவத்தின் வரலாற்றுச் சுருக்கத்தை வழங்குகிறது."
-      },
-      "telugu": {
-        "title": "మణిమంజరి",
-        "description": "మణిమంజరి శ్రీ నారాయణ పండితాచార్యుల చేత రచింపబడిన ఒక సుప్రసిద్ధ సంస్కృత మహాకావ్యము. ఇది సృష్టి నుండి ప్రారంభించి, వాయుదేవుని అవతారాలైన హనుమంతుడు, భీముడు మరియు మధ్వాచార్యుల చరిత్రను అలాగే గురు పరంపరను వివరిస్తుంది."
-      }
+    {
+        "id":  "mani-manjari",
+        "title":  "Mani Manjari",
+        "author":  "Sri Narayana Panditacharya",
+        "year":  "14th Century CE",
+        "genre":  "Scripture / History / Biography",
+        "description":  "Mani Manjari is a classical Sanskrit epic by Narayana Panditacharya. It provides an outline of the history of Dvaita philosophy, starting from creation, tracing the incarnations of Vayu (Hanuman, Bhima, Madhvacharya), and describing the lineage of gurus.",
+        "coverUrl":  "books/mani-manjari/cover.png",
+        "languages":  [
+                          "english",
+                          "sanskrit",
+                          "hindi",
+                          "kannada",
+                          "tamil",
+                          "telugu"
+                      ],
+        "localized":  {
+                          "sanskrit":  {
+                                           "title":  "मणिमञ्जरी",
+                                           "description":  "मणिमञ्जरी श्रीमन्नारायणपण्डिताचार्यविरचिता अस्ति। अस्मिन् सर्गद्वये सृष्ट्यारम्भात् आरभ्य श्रीराम-कृष्णावतारे वायुदेवस्य हनुमद्भीमयोः चरित्रं तथा च द्वैतसिद्धान्तस्य प्रादुर्भावः सविस्तरं वर्णितः अस्ति।"
+                                       },
+                          "hindi":  {
+                                        "title":  "मणिमञ्जरी",
+                                        "description":  "मणिमञ्जरी श्रीमन्नारायणपण्डिताचार्य द्वारा रचित एक शास्त्रीय महाकाव्य है। यह सृष्टि से लेकर वायुदेव के अवतारों (हनुमान, भीम, मध्वाचार्य) और गुरुओं की परंपरा का वर्णन करता हुआ द्वैत दर्शन के इतिहास की रूपरेखा प्रदान करता है।"
+                                    },
+                          "kannada":  {
+                                          "title":  "ಮಣಿಮಂಜರಿ",
+                                          "description":  "ಮಣಿಮಂಜರಿಯು ಶ್ರೀ ನಾರಾಯಣ ಪಂಡಿತಾಚಾರ್ಯರಿಂದ ರಚಿತವಾದ ಒಂದು ಪ್ರಸಿದ್ಧ ಸಂಸ್ಕೃತ ಮಹಾಕಾವ್ಯವಾಗಿದೆ. ಇದು ಸೃಷ್ಟಿಯಿಂದ ಪ್ರಾರಂಭಿಸಿ, ವಾಯುದೇವರ ಅವತಾರಗಳಾದ ಹನುಮಂತ, ಭೀಮಸೇನ ಮತ್ತು ಮಧ್ವಾಚಾರ್ಯರ ಚರಿತ್ರೆಯನ್ನು ಹಾಗೂ ಗುರು ಪರಂಪರೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ."
+                                      },
+                          "tamil":  {
+                                        "title":  "மணிமஞ்சரி",
+                                        "description":  "மணிமஞ்சரி என்பது நாராயண பண்டிதாசாரியரால் இயற்றப்பட்ட ஒரு உன்னதமான சமஸ்கிருத காவியமாகும். இது படைப்பு முதல் வாயுதேவனின் அவதாரங்களையும் (அனுமன், பீமன், மத்வாசாரியர்), குருமார்களின் பரம்பரையையும் விவரிக்கும் துவைத தத்துவத்தின் வரலாற்றுச் சுருக்கத்தை வழங்குகிறது."
+                                    },
+                          "telugu":  {
+                                         "title":  "మణిమంజరి",
+                                         "description":  "మణిమంజరి శ్రీ నారాయణ పండితాచార్యుల చేత రచింపబడిన ఒక సుప్రసిద్ధ సంస్కృత మహాకావ్యము. ఇది సృష్టి నుండి ప్రారంభించి, వాయుదేవుని అవతారాలైన హనుమంతుడు, భీముడు మరియు మధ్వాచార్యుల చరిత్రను అలాగే గురు పరంపరను వివరిస్తుంది."
+                                     }
+                      },
+        "chapters":  {
+                         "english":  [
+                                         {
+                                             "id":  "sarga-1",
+                                             "title":  "Sarga I",
+                                             "path":  "books/mani-manjari/en/sarga1.md"
+                                         },
+                                         {
+                                             "id":  "sarga-2",
+                                             "title":  "Sarga II",
+                                             "path":  "books/mani-manjari/en/sarga2.md"
+                                         }
+                                     ],
+                         "sanskrit":  [
+                                          {
+                                              "id":  "sarga-1",
+                                              "title":  "प्रथमः सर्गः (Sarga I)",
+                                              "path":  "books/mani-manjari/sa/sarga1.md"
+                                          },
+                                          {
+                                              "id":  "sarga-2",
+                                              "title":  "द्वितीयः सर्गः (Sarga II)",
+                                              "path":  "books/mani-manjari/sa/sarga2.md"
+                                          }
+                                      ],
+                         "hindi":  [
+                                       {
+                                           "id":  "sarga-1",
+                                           "title":  "प्रथम सर्ग (Sarga I)",
+                                           "path":  "books/mani-manjari/hi/sarga1.md"
+                                       },
+                                       {
+                                           "id":  "sarga-2",
+                                           "title":  "द्वितीय सर्ग (Sarga II)",
+                                           "path":  "books/mani-manjari/hi/sarga2.md"
+                                       }
+                                   ],
+                         "kannada":  [
+                                         {
+                                             "id":  "sarga-1",
+                                             "title":  "ಪ್ರಥಮ ಸರ್ಗ (Sarga I)",
+                                             "path":  "books/mani-manjari/kn/sarga1.md"
+                                         },
+                                         {
+                                             "id":  "sarga-2",
+                                             "title":  "ದ್ವಿತೀಯ ಸರ್ಗ (Sarga II)",
+                                             "path":  "books/mani-manjari/kn/sarga2.md"
+                                         }
+                                     ],
+                         "tamil":  [
+                                       {
+                                           "id":  "sarga-1",
+                                           "title":  "முதலாம் சர்க்கம் (Sarga I)",
+                                           "path":  "books/mani-manjari/ta/sarga1.md"
+                                       },
+                                       {
+                                           "id":  "sarga-2",
+                                           "title":  "இரண்டாம் சர்க்கம் (Sarga II)",
+                                           "path":  "books/mani-manjari/ta/sarga2.md"
+                                       }
+                                   ],
+                         "telugu":  [
+                                        {
+                                            "id":  "sarga-1",
+                                            "title":  "ప్రథమ సర్గము (Sarga I)",
+                                            "path":  "books/mani-manjari/te/sarga1.md"
+                                        },
+                                        {
+                                            "id":  "sarga-2",
+                                            "title":  "ద్వితీయ సర్గము (Sarga II)",
+                                            "path":  "books/mani-manjari/te/sarga2.md"
+                                        }
+                                    ]
+                     }
     },
-    "chapters": {
-      "english": [
-        {
-          "id": "sarga-1",
-          "title": "Sarga I",
-          "path": "books/mani-manjari/en/sarga1.md"
-        },
-        {
-          "id": "sarga-2",
-          "title": "Sarga II",
-          "path": "books/mani-manjari/en/sarga2.md"
-        }
-      ],
-      "sanskrit": [
-        {
-          "id": "sarga-1",
-          "title": "प्रथमः सर्गः (Sarga I)",
-          "path": "books/mani-manjari/sa/sarga1.md"
-        },
-        {
-          "id": "sarga-2",
-          "title": "द्वितीयः सर्गः (Sarga II)",
-          "path": "books/mani-manjari/sa/sarga2.md"
-        }
-      ],
-      "hindi": [
-        {
-          "id": "sarga-1",
-          "title": "प्रथम सर्ग (Sarga I)",
-          "path": "books/mani-manjari/hi/sarga1.md"
-        },
-        {
-          "id": "sarga-2",
-          "title": "द्वितीय सर्ग (Sarga II)",
-          "path": "books/mani-manjari/hi/sarga2.md"
-        }
-      ],
-      "kannada": [
-        {
-          "id": "sarga-1",
-          "title": "ಪ್ರಥಮ ಸರ್ಗ (Sarga I)",
-          "path": "books/mani-manjari/kn/sarga1.md"
-        },
-        {
-          "id": "sarga-2",
-          "title": "ದ್ವಿತೀಯ ಸರ್ಗ (Sarga II)",
-          "path": "books/mani-manjari/kn/sarga2.md"
-        }
-      ],
-      "tamil": [
-        {
-          "id": "sarga-1",
-          "title": "முதலாம் சர்க்கம் (Sarga I)",
-          "path": "books/mani-manjari/ta/sarga1.md"
-        },
-        {
-          "id": "sarga-2",
-          "title": "இரண்டாம் சர்க்கம் (Sarga II)",
-          "path": "books/mani-manjari/ta/sarga2.md"
-        }
-      ],
-      "telugu": [
-        {
-          "id": "sarga-1",
-          "title": "ప్రథమ సర్గము (Sarga I)",
-          "path": "books/mani-manjari/te/sarga1.md"
-        },
-        {
-          "id": "sarga-2",
-          "title": "ద్వితీయ సర్గము (Sarga II)",
-          "path": "books/mani-manjari/te/sarga2.md"
-        }
-      ]
-    }
-  },
-  {
-    "id": "hari-kathamruta-saara",
-    "title": "Hari Kathamruta Saara",
-    "author": "Sri Jagannatha Dasa",
-    "year": "18th Century CE",
-    "genre": "Devotional / Haridasa Sahitya",
-    "description": "Hari Kathamruta Saara is a magnum opus of Haridasa literature written by Sri Jagannatha Dasa in Kannada. It distills the complex philosophy of Dvaita Vedanta into accessible poetic verses.",
-    "coverUrl": "books/hari-kathamruta-saara/cover.png",
-    "languages": [
-      "english",
-      "sanskrit",
-      "hindi",
-      "kannada",
-      "tamil",
-      "telugu"
-    ],
-    "localized": {
-      "sanskrit": {
-        "title": "हरिकथामृतसारः",
-        "description": "हरिकथामृतसारः श्रीजगन्नाथदासेन रचितः हरिदाससाहित्यस्य महाग्रन्थः अस्ति। अस्मिन् द्वैतवेदान्तस्य गहनतत्त्वानि सुलभरूपेण वर्णितानि सन्ति।"
-      },
-      "hindi": {
-        "title": "हरिकथामृतसार",
-        "description": "हरिकथामृतसार श्री जगन्नाथ दास द्वारा रचित हरिदास साहित्य का एक महान ग्रंथ है। इसमें द्वैत वेदांत के जटिल दर्शन को सरल काव्य रूप में प्रस्तुत किया गया है।"
-      },
-      "kannada": {
-        "title": "ಹರಿಕಥಾಮೃತಸಾರ",
-        "description": "ಹರಿಕಥಾಮೃತಸಾರವು ಶ್ರೀ ಜಗನ್ನಾಥ ದಾಸರಿಂದ ರಚಿತವಾದ ಹರಿದಾಸ ಸಾಹಿತ್ಯದ ಒಂದು ಶ್ರೇಷ್ಠ ಕೃತಿಯಾಗಿದೆ. ದ್ವೈತ ವೇದಾಂತದ ಗಹನವಾದ ತತ್ವಗಳನ್ನು ಇದು ಸುಲಭವಾಗಿ ತಿಳಿಸುತ್ತದೆ."
-      },
-      "tamil": {
-        "title": "ஹரிகதாம்ருத சாரம்",
-        "description": "ஹரிகதாம்ருத சாரம் ஸ்ரீ ஜெகந்நாத தாசரால் இயற்றப்பட்ட ஹரிதாச இலக்கியத்தின் ஒரு தலைசிறந்த படைப்பாகும். இது துவைத வேதாந்தத்தின் சிக்கலான தத்துவங்களை எளிமையான கவிதை வடிவில் வழங்குகிறது."
-      },
-      "telugu": {
-        "title": "హరికథామృతసారము",
-        "description": "హరికథామృతసారము శ్రీ జగన్నాథ దాసులచే రచింపబడిన హరిదాస సాహిత్యములోని మహా గ్రంథము. ఇది ద్వైత వేదాంతము యొక్క క్లిష్టమైన తత్వమును సరళమైన కావ్య రూపములో బోధిస్తుంది."
-      }
+    {
+        "id":  "hari-kathamruta-saara",
+        "title":  "Hari Kathamruta Saara",
+        "author":  "Sri Jagannatha Dasa",
+        "year":  "18th Century CE",
+        "genre":  "Devotional / Haridasa Sahitya",
+        "description":  "Hari Kathamruta Saara is a magnum opus of Haridasa literature written by Sri Jagannatha Dasa in Kannada. It distills the complex philosophy of Dvaita Vedanta into accessible poetic verses.",
+        "coverUrl":  "books/hari-kathamruta-saara/cover.png",
+        "languages":  [
+                          "english",
+                          "sanskrit",
+                          "hindi",
+                          "kannada",
+                          "tamil",
+                          "telugu"
+                      ],
+        "localized":  {
+                          "sanskrit":  {
+                                           "title":  "हरिकथामृतसारः",
+                                           "description":  "हरिकथामृतसारः श्रीजगन्नाथदासेन रचितः हरिदाससाहित्यस्य महाग्रन्थः अस्ति। अस्मिन् द्वैतवेदान्तस्य गहनतत्त्वानि सुलभरूपेण वर्णितानि सन्ति।"
+                                       },
+                          "hindi":  {
+                                        "title":  "हरिकथामृतसार",
+                                        "description":  "हरिकथामृतसार श्री जगन्नाथ दास द्वारा रचित हरिदास साहित्य का एक महान ग्रंथ है। इसमें द्वैत वेदांत के जटिल दर्शन को सरल काव्य रूप में प्रस्तुत किया गया है।"
+                                    },
+                          "kannada":  {
+                                          "title":  "ಹರಿಕಥಾಮೃತಸಾರ",
+                                          "description":  "ಹರಿಕಥಾಮೃತಸಾರವು ಶ್ರೀ ಜಗನ್ನಾಥ ದಾಸರಿಂದ ರಚಿತವಾದ ಹರಿದಾಸ ಸಾಹಿತ್ಯದ ಒಂದು ಶ್ರೇಷ್ಠ ಕೃತಿಯಾಗಿದೆ. ದ್ವೈತ ವೇದಾಂತದ ಗಹನವಾದ ತತ್ವಗಳನ್ನು ಇದು ಸುಲಭವಾಗಿ ತಿಳಿಸುತ್ತದೆ."
+                                      },
+                          "tamil":  {
+                                        "title":  "ஹரிகதாம்ருத சாரம்",
+                                        "description":  "ஹரிகதாம்ருத சாரம் ஸ்ரீ ஜெகந்நாத தாசரால் இயற்றப்பட்ட ஹரிதாச இலக்கியத்தின் ஒரு தலைசிறந்த படைப்பாகும். இது துவைத வேதாந்தத்தின் சிக்கலான தத்துவங்களை எளிமையான கவிதை வடிவில் வழங்குகிறது."
+                                    },
+                          "telugu":  {
+                                         "title":  "హరికథామృతసారము",
+                                         "description":  "హరికథామృతసారము శ్రీ జగన్నాథ దాసులచే రచింపబడిన హరిదాస సాహిత్యములోని మహా గ్రంథము. ఇది ద్వైత వేదాంతము యొక్క క్లిష్టమైన తత్వమును సరళమైన కావ్య రూపములో బోధిస్తుంది."
+                                     }
+                      },
+        "chapters":  {
+                         "english":  [
+                                         {
+                                             "id":  "sandhi-1",
+                                             "title":  "Sandhi 1: Mangala Charana Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/1-mangala-charana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-2",
+                                             "title":  "Sandhi 2: Karuna Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/2-karuna-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-3",
+                                             "title":  "Sandhi 3: Vyapthi Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/3-vyapthi-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-4",
+                                             "title":  "Sandhi 4: Bhojana Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/4-bhojana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-5",
+                                             "title":  "Sandhi 5: Vibhooti Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/5-vibhooti-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-6",
+                                             "title":  "Sandhi 6: Panchamahayagna Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/6-panchamahayagna-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-7",
+                                             "title":  "Sandhi 7: Durita Nivaraana Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/7-durita-nivaraana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-8",
+                                             "title":  "Sandhi 8: Mathruka Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/8-mathruka-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-9",
+                                             "title":  "Sandhi 9: Udaattaanudaatta Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/9-udaattaanudaatta-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-10",
+                                             "title":  "Sandhi 10: Sarva Pratheeka Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/10-sarva-pratheeka-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-11",
+                                             "title":  "Sandhi 11: Dhyaana Prakriyasandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/11-dhyaana-prakriyasandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-12",
+                                             "title":  "Sandhi 12: Nadeeprakarana Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/12-nadeeprakarana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-13",
+                                             "title":  "Sandhi 13: Namasmarana Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/13-namasmarana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-14",
+                                             "title":  "Sandhi 14: Jeevanaprakriya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/14-jeevanaprakriya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-15",
+                                             "title":  "Sandhi 15: Shwaasa Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/15-shwaasa-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-16",
+                                             "title":  "Sandhi 16: Swatantrnya Vibhajane Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/16-swatantrnya-vibhajane-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-17",
+                                             "title":  "Sandhi 17: Swagathaswantrya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/17-swagathaswantrya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-18",
+                                             "title":  "Sandhi 18: Sarvaswatantrya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/18-sarvaswatantrya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-19",
+                                             "title":  "Sandhi 19: Bimba Pratibimba Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/19-bimba-pratibimba-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-20",
+                                             "title":  "Sandhi 20: Guna Taratamya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/20-guna-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-21",
+                                             "title":  "Sandhi 21: Karma Vimochana Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/21-karma-vimochana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-22",
+                                             "title":  "Sandhi 22: Sakaladuritanivaarana Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/22-sakaladuritanivaarana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-23",
+                                             "title":  "Sandhi 23: Bruhat Taratamya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/23-bruhat-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-24",
+                                             "title":  "Sandhi 24: Aparoksha Taratamya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/24-aparoksha-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-25",
+                                             "title":  "Sandhi 25: Aarohana Taratamya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/25-aarohana-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-26",
+                                             "title":  "Sandhi 26: Avarohana Taratamya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/26-avarohana-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-27",
+                                             "title":  "Sandhi 27: Anukramanika Tharatamya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/27-anukramanika-tharatamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-28",
+                                             "title":  "Sandhi 28: Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/28-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-29",
+                                             "title":  "Sandhi 29: Anu Taratamya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/29-anu-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-30",
+                                             "title":  "Sandhi 30: Dhaithya Taratamya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/30-dhaithya-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-31",
+                                             "title":  "Sandhi 31: Neivedhya Prakarana Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/31-neivedhya-prakarana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-32",
+                                             "title":  "Sandhi 32: Kaksha Taratamya Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/32-kaksha-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-33",
+                                             "title":  "Sandhi 33: Palashruthi Sandhi",
+                                             "path":  "books/hari-kathamruta-saara/en/33-palashruthi-sandhi.md"
+                                         }
+                                     ],
+                         "hindi":  [
+                                       {
+                                           "id":  "sandhi-1",
+                                           "title":  "सन्धि 1",
+                                           "path":  "books/hari-kathamruta-saara/hi/1-mangala-charana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-2",
+                                           "title":  "सन्धि 2",
+                                           "path":  "books/hari-kathamruta-saara/hi/2-karuna-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-3",
+                                           "title":  "सन्धि 3",
+                                           "path":  "books/hari-kathamruta-saara/hi/3-vyapthi-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-4",
+                                           "title":  "सन्धि 4",
+                                           "path":  "books/hari-kathamruta-saara/hi/4-bhojana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-5",
+                                           "title":  "सन्धि 5",
+                                           "path":  "books/hari-kathamruta-saara/hi/5-vibhooti-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-6",
+                                           "title":  "सन्धि 6",
+                                           "path":  "books/hari-kathamruta-saara/hi/6-panchamahayagna-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-7",
+                                           "title":  "सन्धि 7",
+                                           "path":  "books/hari-kathamruta-saara/hi/7-durita-nivaraana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-8",
+                                           "title":  "सन्धि 8",
+                                           "path":  "books/hari-kathamruta-saara/hi/8-mathruka-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-9",
+                                           "title":  "सन्धि 9",
+                                           "path":  "books/hari-kathamruta-saara/hi/9-udaattaanudaatta-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-10",
+                                           "title":  "सन्धि 10",
+                                           "path":  "books/hari-kathamruta-saara/hi/10-sarva-pratheeka-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-11",
+                                           "title":  "सन्धि 11",
+                                           "path":  "books/hari-kathamruta-saara/hi/11-dhyaana-prakriyasandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-12",
+                                           "title":  "सन्धि 12",
+                                           "path":  "books/hari-kathamruta-saara/hi/12-nadeeprakarana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-13",
+                                           "title":  "सन्धि 13",
+                                           "path":  "books/hari-kathamruta-saara/hi/13-namasmarana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-14",
+                                           "title":  "सन्धि 14",
+                                           "path":  "books/hari-kathamruta-saara/hi/14-jeevanaprakriya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-15",
+                                           "title":  "सन्धि 15",
+                                           "path":  "books/hari-kathamruta-saara/hi/15-shwaasa-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-16",
+                                           "title":  "सन्धि 16",
+                                           "path":  "books/hari-kathamruta-saara/hi/16-swatantrnya-vibhajane-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-17",
+                                           "title":  "सन्धि 17",
+                                           "path":  "books/hari-kathamruta-saara/hi/17-swagathaswantrya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-18",
+                                           "title":  "सन्धि 18",
+                                           "path":  "books/hari-kathamruta-saara/hi/18-sarvaswatantrya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-19",
+                                           "title":  "सन्धि 19",
+                                           "path":  "books/hari-kathamruta-saara/hi/19-bimba-pratibimba-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-20",
+                                           "title":  "सन्धि 20",
+                                           "path":  "books/hari-kathamruta-saara/hi/20-guna-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-21",
+                                           "title":  "सन्धि 21",
+                                           "path":  "books/hari-kathamruta-saara/hi/21-karma-vimochana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-22",
+                                           "title":  "सन्धि 22",
+                                           "path":  "books/hari-kathamruta-saara/hi/22-sakaladuritanivaarana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-23",
+                                           "title":  "सन्धि 23",
+                                           "path":  "books/hari-kathamruta-saara/hi/23-bruhat-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-24",
+                                           "title":  "सन्धि 24",
+                                           "path":  "books/hari-kathamruta-saara/hi/24-aparoksha-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-25",
+                                           "title":  "सन्धि 25",
+                                           "path":  "books/hari-kathamruta-saara/hi/25-aarohana-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-26",
+                                           "title":  "सन्धि 26",
+                                           "path":  "books/hari-kathamruta-saara/hi/26-avarohana-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-27",
+                                           "title":  "सन्धि 27",
+                                           "path":  "books/hari-kathamruta-saara/hi/27-anukramanika-tharatamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-28",
+                                           "title":  "सन्धि 28",
+                                           "path":  "books/hari-kathamruta-saara/hi/28-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-29",
+                                           "title":  "सन्धि 29",
+                                           "path":  "books/hari-kathamruta-saara/hi/29-anu-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-30",
+                                           "title":  "सन्धि 30",
+                                           "path":  "books/hari-kathamruta-saara/hi/30-dhaithya-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-31",
+                                           "title":  "सन्धि 31",
+                                           "path":  "books/hari-kathamruta-saara/hi/31-neivedhya-prakarana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-32",
+                                           "title":  "सन्धि 32",
+                                           "path":  "books/hari-kathamruta-saara/hi/32-kaksha-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-33",
+                                           "title":  "सन्धि 33",
+                                           "path":  "books/hari-kathamruta-saara/hi/33-palashruthi-sandhi.md"
+                                       }
+                                   ],
+                         "kannada":  [
+                                         {
+                                             "id":  "sandhi-1",
+                                             "title":  "ಸಂಧಿ 1",
+                                             "path":  "books/hari-kathamruta-saara/kn/1-mangala-charana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-2",
+                                             "title":  "ಸಂಧಿ 2",
+                                             "path":  "books/hari-kathamruta-saara/kn/2-karuna-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-3",
+                                             "title":  "ಸಂಧಿ 3",
+                                             "path":  "books/hari-kathamruta-saara/kn/3-vyapthi-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-4",
+                                             "title":  "ಸಂಧಿ 4",
+                                             "path":  "books/hari-kathamruta-saara/kn/4-bhojana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-5",
+                                             "title":  "ಸಂಧಿ 5",
+                                             "path":  "books/hari-kathamruta-saara/kn/5-vibhooti-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-6",
+                                             "title":  "ಸಂಧಿ 6",
+                                             "path":  "books/hari-kathamruta-saara/kn/6-panchamahayagna-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-7",
+                                             "title":  "ಸಂಧಿ 7",
+                                             "path":  "books/hari-kathamruta-saara/kn/7-durita-nivaraana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-8",
+                                             "title":  "ಸಂಧಿ 8",
+                                             "path":  "books/hari-kathamruta-saara/kn/8-mathruka-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-9",
+                                             "title":  "ಸಂಧಿ 9",
+                                             "path":  "books/hari-kathamruta-saara/kn/9-udaattaanudaatta-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-10",
+                                             "title":  "ಸಂಧಿ 10",
+                                             "path":  "books/hari-kathamruta-saara/kn/10-sarva-pratheeka-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-11",
+                                             "title":  "ಸಂಧಿ 11",
+                                             "path":  "books/hari-kathamruta-saara/kn/11-dhyaana-prakriyasandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-12",
+                                             "title":  "ಸಂಧಿ 12",
+                                             "path":  "books/hari-kathamruta-saara/kn/12-nadeeprakarana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-13",
+                                             "title":  "ಸಂಧಿ 13",
+                                             "path":  "books/hari-kathamruta-saara/kn/13-namasmarana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-14",
+                                             "title":  "ಸಂಧಿ 14",
+                                             "path":  "books/hari-kathamruta-saara/kn/14-jeevanaprakriya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-15",
+                                             "title":  "ಸಂಧಿ 15",
+                                             "path":  "books/hari-kathamruta-saara/kn/15-shwaasa-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-16",
+                                             "title":  "ಸಂಧಿ 16",
+                                             "path":  "books/hari-kathamruta-saara/kn/16-swatantrnya-vibhajane-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-17",
+                                             "title":  "ಸಂಧಿ 17",
+                                             "path":  "books/hari-kathamruta-saara/kn/17-swagathaswantrya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-18",
+                                             "title":  "ಸಂಧಿ 18",
+                                             "path":  "books/hari-kathamruta-saara/kn/18-sarvaswatantrya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-19",
+                                             "title":  "ಸಂಧಿ 19",
+                                             "path":  "books/hari-kathamruta-saara/kn/19-bimba-pratibimba-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-20",
+                                             "title":  "ಸಂಧಿ 20",
+                                             "path":  "books/hari-kathamruta-saara/kn/20-guna-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-21",
+                                             "title":  "ಸಂಧಿ 21",
+                                             "path":  "books/hari-kathamruta-saara/kn/21-karma-vimochana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-22",
+                                             "title":  "ಸಂಧಿ 22",
+                                             "path":  "books/hari-kathamruta-saara/kn/22-sakaladuritanivaarana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-23",
+                                             "title":  "ಸಂಧಿ 23",
+                                             "path":  "books/hari-kathamruta-saara/kn/23-bruhat-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-24",
+                                             "title":  "ಸಂಧಿ 24",
+                                             "path":  "books/hari-kathamruta-saara/kn/24-aparoksha-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-25",
+                                             "title":  "ಸಂಧಿ 25",
+                                             "path":  "books/hari-kathamruta-saara/kn/25-aarohana-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-26",
+                                             "title":  "ಸಂಧಿ 26",
+                                             "path":  "books/hari-kathamruta-saara/kn/26-avarohana-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-27",
+                                             "title":  "ಸಂಧಿ 27",
+                                             "path":  "books/hari-kathamruta-saara/kn/27-anukramanika-tharatamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-28",
+                                             "title":  "ಸಂಧಿ 28",
+                                             "path":  "books/hari-kathamruta-saara/kn/28-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-29",
+                                             "title":  "ಸಂಧಿ 29",
+                                             "path":  "books/hari-kathamruta-saara/kn/29-anu-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-30",
+                                             "title":  "ಸಂಧಿ 30",
+                                             "path":  "books/hari-kathamruta-saara/kn/30-dhaithya-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-31",
+                                             "title":  "ಸಂಧಿ 31",
+                                             "path":  "books/hari-kathamruta-saara/kn/31-neivedhya-prakarana-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-32",
+                                             "title":  "ಸಂಧಿ 32",
+                                             "path":  "books/hari-kathamruta-saara/kn/32-kaksha-taratamya-sandhi.md"
+                                         },
+                                         {
+                                             "id":  "sandhi-33",
+                                             "title":  "ಸಂಧಿ 33",
+                                             "path":  "books/hari-kathamruta-saara/kn/33-palashruthi-sandhi.md"
+                                         }
+                                     ],
+                         "sanskrit":  [
+                                          {
+                                              "id":  "sandhi-1",
+                                              "title":  "सन्धिः 1",
+                                              "path":  "books/hari-kathamruta-saara/sa/1-mangala-charana-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-2",
+                                              "title":  "सन्धिः 2",
+                                              "path":  "books/hari-kathamruta-saara/sa/2-karuna-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-3",
+                                              "title":  "सन्धिः 3",
+                                              "path":  "books/hari-kathamruta-saara/sa/3-vyapthi-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-4",
+                                              "title":  "सन्धिः 4",
+                                              "path":  "books/hari-kathamruta-saara/sa/4-bhojana-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-5",
+                                              "title":  "सन्धिः 5",
+                                              "path":  "books/hari-kathamruta-saara/sa/5-vibhooti-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-6",
+                                              "title":  "सन्धिः 6",
+                                              "path":  "books/hari-kathamruta-saara/sa/6-panchamahayagna-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-7",
+                                              "title":  "सन्धिः 7",
+                                              "path":  "books/hari-kathamruta-saara/sa/7-durita-nivaraana-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-8",
+                                              "title":  "सन्धिः 8",
+                                              "path":  "books/hari-kathamruta-saara/sa/8-mathruka-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-9",
+                                              "title":  "सन्धिः 9",
+                                              "path":  "books/hari-kathamruta-saara/sa/9-udaattaanudaatta-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-10",
+                                              "title":  "सन्धिः 10",
+                                              "path":  "books/hari-kathamruta-saara/sa/10-sarva-pratheeka-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-11",
+                                              "title":  "सन्धिः 11",
+                                              "path":  "books/hari-kathamruta-saara/sa/11-dhyaana-prakriyasandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-12",
+                                              "title":  "सन्धिः 12",
+                                              "path":  "books/hari-kathamruta-saara/sa/12-nadeeprakarana-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-13",
+                                              "title":  "सन्धिः 13",
+                                              "path":  "books/hari-kathamruta-saara/sa/13-namasmarana-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-14",
+                                              "title":  "सन्धिः 14",
+                                              "path":  "books/hari-kathamruta-saara/sa/14-jeevanaprakriya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-15",
+                                              "title":  "सन्धिः 15",
+                                              "path":  "books/hari-kathamruta-saara/sa/15-shwaasa-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-16",
+                                              "title":  "सन्धिः 16",
+                                              "path":  "books/hari-kathamruta-saara/sa/16-swatantrnya-vibhajane-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-17",
+                                              "title":  "सन्धिः 17",
+                                              "path":  "books/hari-kathamruta-saara/sa/17-swagathaswantrya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-18",
+                                              "title":  "सन्धिः 18",
+                                              "path":  "books/hari-kathamruta-saara/sa/18-sarvaswatantrya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-19",
+                                              "title":  "सन्धिः 19",
+                                              "path":  "books/hari-kathamruta-saara/sa/19-bimba-pratibimba-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-20",
+                                              "title":  "सन्धिः 20",
+                                              "path":  "books/hari-kathamruta-saara/sa/20-guna-taratamya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-21",
+                                              "title":  "सन्धिः 21",
+                                              "path":  "books/hari-kathamruta-saara/sa/21-karma-vimochana-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-22",
+                                              "title":  "सन्धिः 22",
+                                              "path":  "books/hari-kathamruta-saara/sa/22-sakaladuritanivaarana-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-23",
+                                              "title":  "सन्धिः 23",
+                                              "path":  "books/hari-kathamruta-saara/sa/23-bruhat-taratamya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-24",
+                                              "title":  "सन्धिः 24",
+                                              "path":  "books/hari-kathamruta-saara/sa/24-aparoksha-taratamya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-25",
+                                              "title":  "सन्धिः 25",
+                                              "path":  "books/hari-kathamruta-saara/sa/25-aarohana-taratamya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-26",
+                                              "title":  "सन्धिः 26",
+                                              "path":  "books/hari-kathamruta-saara/sa/26-avarohana-taratamya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-27",
+                                              "title":  "सन्धिः 27",
+                                              "path":  "books/hari-kathamruta-saara/sa/27-anukramanika-tharatamya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-28",
+                                              "title":  "सन्धिः 28",
+                                              "path":  "books/hari-kathamruta-saara/sa/28-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-29",
+                                              "title":  "सन्धिः 29",
+                                              "path":  "books/hari-kathamruta-saara/sa/29-anu-taratamya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-30",
+                                              "title":  "सन्धिः 30",
+                                              "path":  "books/hari-kathamruta-saara/sa/30-dhaithya-taratamya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-31",
+                                              "title":  "सन्धिः 31",
+                                              "path":  "books/hari-kathamruta-saara/sa/31-neivedhya-prakarana-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-32",
+                                              "title":  "सन्धिः 32",
+                                              "path":  "books/hari-kathamruta-saara/sa/32-kaksha-taratamya-sandhi.md"
+                                          },
+                                          {
+                                              "id":  "sandhi-33",
+                                              "title":  "सन्धिः 33",
+                                              "path":  "books/hari-kathamruta-saara/sa/33-palashruthi-sandhi.md"
+                                          }
+                                      ],
+                         "tamil":  [
+                                       {
+                                           "id":  "sandhi-1",
+                                           "title":  "சந்தி 1",
+                                           "path":  "books/hari-kathamruta-saara/ta/1-mangala-charana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-2",
+                                           "title":  "சந்தி 2",
+                                           "path":  "books/hari-kathamruta-saara/ta/2-karuna-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-3",
+                                           "title":  "சந்தி 3",
+                                           "path":  "books/hari-kathamruta-saara/ta/3-vyapthi-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-4",
+                                           "title":  "சந்தி 4",
+                                           "path":  "books/hari-kathamruta-saara/ta/4-bhojana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-5",
+                                           "title":  "சந்தி 5",
+                                           "path":  "books/hari-kathamruta-saara/ta/5-vibhooti-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-6",
+                                           "title":  "சந்தி 6",
+                                           "path":  "books/hari-kathamruta-saara/ta/6-panchamahayagna-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-7",
+                                           "title":  "சந்தி 7",
+                                           "path":  "books/hari-kathamruta-saara/ta/7-durita-nivaraana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-8",
+                                           "title":  "சந்தி 8",
+                                           "path":  "books/hari-kathamruta-saara/ta/8-mathruka-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-9",
+                                           "title":  "சந்தி 9",
+                                           "path":  "books/hari-kathamruta-saara/ta/9-udaattaanudaatta-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-10",
+                                           "title":  "சந்தி 10",
+                                           "path":  "books/hari-kathamruta-saara/ta/10-sarva-pratheeka-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-11",
+                                           "title":  "சந்தி 11",
+                                           "path":  "books/hari-kathamruta-saara/ta/11-dhyaana-prakriyasandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-12",
+                                           "title":  "சந்தி 12",
+                                           "path":  "books/hari-kathamruta-saara/ta/12-nadeeprakarana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-13",
+                                           "title":  "சந்தி 13",
+                                           "path":  "books/hari-kathamruta-saara/ta/13-namasmarana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-14",
+                                           "title":  "சந்தி 14",
+                                           "path":  "books/hari-kathamruta-saara/ta/14-jeevanaprakriya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-15",
+                                           "title":  "சந்தி 15",
+                                           "path":  "books/hari-kathamruta-saara/ta/15-shwaasa-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-16",
+                                           "title":  "சந்தி 16",
+                                           "path":  "books/hari-kathamruta-saara/ta/16-swatantrnya-vibhajane-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-17",
+                                           "title":  "சந்தி 17",
+                                           "path":  "books/hari-kathamruta-saara/ta/17-swagathaswantrya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-18",
+                                           "title":  "சந்தி 18",
+                                           "path":  "books/hari-kathamruta-saara/ta/18-sarvaswatantrya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-19",
+                                           "title":  "சந்தி 19",
+                                           "path":  "books/hari-kathamruta-saara/ta/19-bimba-pratibimba-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-20",
+                                           "title":  "சந்தி 20",
+                                           "path":  "books/hari-kathamruta-saara/ta/20-guna-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-21",
+                                           "title":  "சந்தி 21",
+                                           "path":  "books/hari-kathamruta-saara/ta/21-karma-vimochana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-22",
+                                           "title":  "சந்தி 22",
+                                           "path":  "books/hari-kathamruta-saara/ta/22-sakaladuritanivaarana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-23",
+                                           "title":  "சந்தி 23",
+                                           "path":  "books/hari-kathamruta-saara/ta/23-bruhat-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-24",
+                                           "title":  "சந்தி 24",
+                                           "path":  "books/hari-kathamruta-saara/ta/24-aparoksha-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-25",
+                                           "title":  "சந்தி 25",
+                                           "path":  "books/hari-kathamruta-saara/ta/25-aarohana-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-26",
+                                           "title":  "சந்தி 26",
+                                           "path":  "books/hari-kathamruta-saara/ta/26-avarohana-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-27",
+                                           "title":  "சந்தி 27",
+                                           "path":  "books/hari-kathamruta-saara/ta/27-anukramanika-tharatamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-28",
+                                           "title":  "சந்தி 28",
+                                           "path":  "books/hari-kathamruta-saara/ta/28-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-29",
+                                           "title":  "சந்தி 29",
+                                           "path":  "books/hari-kathamruta-saara/ta/29-anu-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-30",
+                                           "title":  "சந்தி 30",
+                                           "path":  "books/hari-kathamruta-saara/ta/30-dhaithya-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-31",
+                                           "title":  "சந்தி 31",
+                                           "path":  "books/hari-kathamruta-saara/ta/31-neivedhya-prakarana-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-32",
+                                           "title":  "சந்தி 32",
+                                           "path":  "books/hari-kathamruta-saara/ta/32-kaksha-taratamya-sandhi.md"
+                                       },
+                                       {
+                                           "id":  "sandhi-33",
+                                           "title":  "சந்தி 33",
+                                           "path":  "books/hari-kathamruta-saara/ta/33-palashruthi-sandhi.md"
+                                       }
+                                   ],
+                         "telugu":  [
+                                        {
+                                            "id":  "sandhi-1",
+                                            "title":  "సంధి 1",
+                                            "path":  "books/hari-kathamruta-saara/te/1-mangala-charana-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-2",
+                                            "title":  "సంధి 2",
+                                            "path":  "books/hari-kathamruta-saara/te/2-karuna-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-3",
+                                            "title":  "సంధి 3",
+                                            "path":  "books/hari-kathamruta-saara/te/3-vyapthi-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-4",
+                                            "title":  "సంధి 4",
+                                            "path":  "books/hari-kathamruta-saara/te/4-bhojana-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-5",
+                                            "title":  "సంధి 5",
+                                            "path":  "books/hari-kathamruta-saara/te/5-vibhooti-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-6",
+                                            "title":  "సంధి 6",
+                                            "path":  "books/hari-kathamruta-saara/te/6-panchamahayagna-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-7",
+                                            "title":  "సంధి 7",
+                                            "path":  "books/hari-kathamruta-saara/te/7-durita-nivaraana-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-8",
+                                            "title":  "సంధి 8",
+                                            "path":  "books/hari-kathamruta-saara/te/8-mathruka-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-9",
+                                            "title":  "సంధి 9",
+                                            "path":  "books/hari-kathamruta-saara/te/9-udaattaanudaatta-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-10",
+                                            "title":  "సంధి 10",
+                                            "path":  "books/hari-kathamruta-saara/te/10-sarva-pratheeka-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-11",
+                                            "title":  "సంధి 11",
+                                            "path":  "books/hari-kathamruta-saara/te/11-dhyaana-prakriyasandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-12",
+                                            "title":  "సంధి 12",
+                                            "path":  "books/hari-kathamruta-saara/te/12-nadeeprakarana-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-13",
+                                            "title":  "సంధి 13",
+                                            "path":  "books/hari-kathamruta-saara/te/13-namasmarana-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-14",
+                                            "title":  "సంధి 14",
+                                            "path":  "books/hari-kathamruta-saara/te/14-jeevanaprakriya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-15",
+                                            "title":  "సంధి 15",
+                                            "path":  "books/hari-kathamruta-saara/te/15-shwaasa-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-16",
+                                            "title":  "సంధి 16",
+                                            "path":  "books/hari-kathamruta-saara/te/16-swatantrnya-vibhajane-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-17",
+                                            "title":  "సంధి 17",
+                                            "path":  "books/hari-kathamruta-saara/te/17-swagathaswantrya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-18",
+                                            "title":  "సంధి 18",
+                                            "path":  "books/hari-kathamruta-saara/te/18-sarvaswatantrya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-19",
+                                            "title":  "సంధి 19",
+                                            "path":  "books/hari-kathamruta-saara/te/19-bimba-pratibimba-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-20",
+                                            "title":  "సంధి 20",
+                                            "path":  "books/hari-kathamruta-saara/te/20-guna-taratamya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-21",
+                                            "title":  "సంధి 21",
+                                            "path":  "books/hari-kathamruta-saara/te/21-karma-vimochana-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-22",
+                                            "title":  "సంధి 22",
+                                            "path":  "books/hari-kathamruta-saara/te/22-sakaladuritanivaarana-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-23",
+                                            "title":  "సంధి 23",
+                                            "path":  "books/hari-kathamruta-saara/te/23-bruhat-taratamya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-24",
+                                            "title":  "సంధి 24",
+                                            "path":  "books/hari-kathamruta-saara/te/24-aparoksha-taratamya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-25",
+                                            "title":  "సంధి 25",
+                                            "path":  "books/hari-kathamruta-saara/te/25-aarohana-taratamya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-26",
+                                            "title":  "సంధి 26",
+                                            "path":  "books/hari-kathamruta-saara/te/26-avarohana-taratamya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-27",
+                                            "title":  "సంధి 27",
+                                            "path":  "books/hari-kathamruta-saara/te/27-anukramanika-tharatamya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-28",
+                                            "title":  "సంధి 28",
+                                            "path":  "books/hari-kathamruta-saara/te/28-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-29",
+                                            "title":  "సంధి 29",
+                                            "path":  "books/hari-kathamruta-saara/te/29-anu-taratamya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-30",
+                                            "title":  "సంధి 30",
+                                            "path":  "books/hari-kathamruta-saara/te/30-dhaithya-taratamya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-31",
+                                            "title":  "సంధి 31",
+                                            "path":  "books/hari-kathamruta-saara/te/31-neivedhya-prakarana-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-32",
+                                            "title":  "సంధి 32",
+                                            "path":  "books/hari-kathamruta-saara/te/32-kaksha-taratamya-sandhi.md"
+                                        },
+                                        {
+                                            "id":  "sandhi-33",
+                                            "title":  "సంధి 33",
+                                            "path":  "books/hari-kathamruta-saara/te/33-palashruthi-sandhi.md"
+                                        }
+                                    ]
+                     }
     },
-    "chapters": {
-      "english": [
-        {
-          "id": "sandhi-1",
-          "title": "Sandhi 1: Mangala Charana Sandhi",
-          "path": "books/hari-kathamruta-saara/en/1-mangala-charana-sandhi.md"
-        },
-        {
-          "id": "sandhi-2",
-          "title": "Sandhi 2: Karuna Sandhi",
-          "path": "books/hari-kathamruta-saara/en/2-karuna-sandhi.md"
-        },
-        {
-          "id": "sandhi-3",
-          "title": "Sandhi 3: Vyapthi Sandhi",
-          "path": "books/hari-kathamruta-saara/en/3-vyapthi-sandhi.md"
-        },
-        {
-          "id": "sandhi-4",
-          "title": "Sandhi 4: Bhojana Sandhi",
-          "path": "books/hari-kathamruta-saara/en/4-bhojana-sandhi.md"
-        },
-        {
-          "id": "sandhi-5",
-          "title": "Sandhi 5: Vibhooti Sandhi",
-          "path": "books/hari-kathamruta-saara/en/5-vibhooti-sandhi.md"
-        },
-        {
-          "id": "sandhi-6",
-          "title": "Sandhi 6: Panchamahayagna Sandhi",
-          "path": "books/hari-kathamruta-saara/en/6-panchamahayagna-sandhi.md"
-        },
-        {
-          "id": "sandhi-7",
-          "title": "Sandhi 7: Durita Nivaraana Sandhi",
-          "path": "books/hari-kathamruta-saara/en/7-durita-nivaraana-sandhi.md"
-        },
-        {
-          "id": "sandhi-8",
-          "title": "Sandhi 8: Mathruka Sandhi",
-          "path": "books/hari-kathamruta-saara/en/8-mathruka-sandhi.md"
-        },
-        {
-          "id": "sandhi-9",
-          "title": "Sandhi 9: Udaattaanudaatta Sandhi",
-          "path": "books/hari-kathamruta-saara/en/9-udaattaanudaatta-sandhi.md"
-        },
-        {
-          "id": "sandhi-10",
-          "title": "Sandhi 10: Sarva Pratheeka Sandhi",
-          "path": "books/hari-kathamruta-saara/en/10-sarva-pratheeka-sandhi.md"
-        },
-        {
-          "id": "sandhi-11",
-          "title": "Sandhi 11: Dhyaana Prakriyasandhi",
-          "path": "books/hari-kathamruta-saara/en/11-dhyaana-prakriyasandhi.md"
-        },
-        {
-          "id": "sandhi-12",
-          "title": "Sandhi 12: Nadeeprakarana Sandhi",
-          "path": "books/hari-kathamruta-saara/en/12-nadeeprakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-13",
-          "title": "Sandhi 13: Namasmarana Sandhi",
-          "path": "books/hari-kathamruta-saara/en/13-namasmarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-14",
-          "title": "Sandhi 14: Jeevanaprakriya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/14-jeevanaprakriya-sandhi.md"
-        },
-        {
-          "id": "sandhi-15",
-          "title": "Sandhi 15: Shwaasa Sandhi",
-          "path": "books/hari-kathamruta-saara/en/15-shwaasa-sandhi.md"
-        },
-        {
-          "id": "sandhi-16",
-          "title": "Sandhi 16: Swatantrnya Vibhajane Sandhi",
-          "path": "books/hari-kathamruta-saara/en/16-swatantrnya-vibhajane-sandhi.md"
-        },
-        {
-          "id": "sandhi-17",
-          "title": "Sandhi 17: Swagathaswantrya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/17-swagathaswantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-18",
-          "title": "Sandhi 18: Sarvaswatantrya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/18-sarvaswatantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-19",
-          "title": "Sandhi 19: Bimba Pratibimba Sandhi",
-          "path": "books/hari-kathamruta-saara/en/19-bimba-pratibimba-sandhi.md"
-        },
-        {
-          "id": "sandhi-20",
-          "title": "Sandhi 20: Guna Taratamya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/20-guna-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-21",
-          "title": "Sandhi 21: Karma Vimochana Sandhi",
-          "path": "books/hari-kathamruta-saara/en/21-karma-vimochana-sandhi.md"
-        },
-        {
-          "id": "sandhi-22",
-          "title": "Sandhi 22: Sakaladuritanivaarana Sandhi",
-          "path": "books/hari-kathamruta-saara/en/22-sakaladuritanivaarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-23",
-          "title": "Sandhi 23: Bruhat Taratamya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/23-bruhat-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-24",
-          "title": "Sandhi 24: Aparoksha Taratamya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/24-aparoksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-25",
-          "title": "Sandhi 25: Aarohana Taratamya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/25-aarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-26",
-          "title": "Sandhi 26: Avarohana Taratamya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/26-avarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-27",
-          "title": "Sandhi 27: Anukramanika Tharatamya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/27-anukramanika-tharatamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-28",
-          "title": "Sandhi 28: Sandhi",
-          "path": "books/hari-kathamruta-saara/en/28-sandhi.md"
-        },
-        {
-          "id": "sandhi-29",
-          "title": "Sandhi 29: Anu Taratamya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/29-anu-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-30",
-          "title": "Sandhi 30: Dhaithya Taratamya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/30-dhaithya-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-31",
-          "title": "Sandhi 31: Neivedhya Prakarana Sandhi",
-          "path": "books/hari-kathamruta-saara/en/31-neivedhya-prakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-32",
-          "title": "Sandhi 32: Kaksha Taratamya Sandhi",
-          "path": "books/hari-kathamruta-saara/en/32-kaksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-33",
-          "title": "Sandhi 33: Palashruthi Sandhi",
-          "path": "books/hari-kathamruta-saara/en/33-palashruthi-sandhi.md"
-        }
-      ],
-      "hindi": [
-        {
-          "id": "sandhi-1",
-          "title": "सन्धि 1",
-          "path": "books/hari-kathamruta-saara/hi/1-mangala-charana-sandhi.md"
-        },
-        {
-          "id": "sandhi-2",
-          "title": "सन्धि 2",
-          "path": "books/hari-kathamruta-saara/hi/2-karuna-sandhi.md"
-        },
-        {
-          "id": "sandhi-3",
-          "title": "सन्धि 3",
-          "path": "books/hari-kathamruta-saara/hi/3-vyapthi-sandhi.md"
-        },
-        {
-          "id": "sandhi-4",
-          "title": "सन्धि 4",
-          "path": "books/hari-kathamruta-saara/hi/4-bhojana-sandhi.md"
-        },
-        {
-          "id": "sandhi-5",
-          "title": "सन्धि 5",
-          "path": "books/hari-kathamruta-saara/hi/5-vibhooti-sandhi.md"
-        },
-        {
-          "id": "sandhi-6",
-          "title": "सन्धि 6",
-          "path": "books/hari-kathamruta-saara/hi/6-panchamahayagna-sandhi.md"
-        },
-        {
-          "id": "sandhi-7",
-          "title": "सन्धि 7",
-          "path": "books/hari-kathamruta-saara/hi/7-durita-nivaraana-sandhi.md"
-        },
-        {
-          "id": "sandhi-8",
-          "title": "सन्धि 8",
-          "path": "books/hari-kathamruta-saara/hi/8-mathruka-sandhi.md"
-        },
-        {
-          "id": "sandhi-9",
-          "title": "सन्धि 9",
-          "path": "books/hari-kathamruta-saara/hi/9-udaattaanudaatta-sandhi.md"
-        },
-        {
-          "id": "sandhi-10",
-          "title": "सन्धि 10",
-          "path": "books/hari-kathamruta-saara/hi/10-sarva-pratheeka-sandhi.md"
-        },
-        {
-          "id": "sandhi-11",
-          "title": "सन्धि 11",
-          "path": "books/hari-kathamruta-saara/hi/11-dhyaana-prakriyasandhi.md"
-        },
-        {
-          "id": "sandhi-12",
-          "title": "सन्धि 12",
-          "path": "books/hari-kathamruta-saara/hi/12-nadeeprakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-13",
-          "title": "सन्धि 13",
-          "path": "books/hari-kathamruta-saara/hi/13-namasmarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-14",
-          "title": "सन्धि 14",
-          "path": "books/hari-kathamruta-saara/hi/14-jeevanaprakriya-sandhi.md"
-        },
-        {
-          "id": "sandhi-15",
-          "title": "सन्धि 15",
-          "path": "books/hari-kathamruta-saara/hi/15-shwaasa-sandhi.md"
-        },
-        {
-          "id": "sandhi-16",
-          "title": "सन्धि 16",
-          "path": "books/hari-kathamruta-saara/hi/16-swatantrnya-vibhajane-sandhi.md"
-        },
-        {
-          "id": "sandhi-17",
-          "title": "सन्धि 17",
-          "path": "books/hari-kathamruta-saara/hi/17-swagathaswantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-18",
-          "title": "सन्धि 18",
-          "path": "books/hari-kathamruta-saara/hi/18-sarvaswatantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-19",
-          "title": "सन्धि 19",
-          "path": "books/hari-kathamruta-saara/hi/19-bimba-pratibimba-sandhi.md"
-        },
-        {
-          "id": "sandhi-20",
-          "title": "सन्धि 20",
-          "path": "books/hari-kathamruta-saara/hi/20-guna-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-21",
-          "title": "सन्धि 21",
-          "path": "books/hari-kathamruta-saara/hi/21-karma-vimochana-sandhi.md"
-        },
-        {
-          "id": "sandhi-22",
-          "title": "सन्धि 22",
-          "path": "books/hari-kathamruta-saara/hi/22-sakaladuritanivaarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-23",
-          "title": "सन्धि 23",
-          "path": "books/hari-kathamruta-saara/hi/23-bruhat-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-24",
-          "title": "सन्धि 24",
-          "path": "books/hari-kathamruta-saara/hi/24-aparoksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-25",
-          "title": "सन्धि 25",
-          "path": "books/hari-kathamruta-saara/hi/25-aarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-26",
-          "title": "सन्धि 26",
-          "path": "books/hari-kathamruta-saara/hi/26-avarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-27",
-          "title": "सन्धि 27",
-          "path": "books/hari-kathamruta-saara/hi/27-anukramanika-tharatamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-28",
-          "title": "सन्धि 28",
-          "path": "books/hari-kathamruta-saara/hi/28-sandhi.md"
-        },
-        {
-          "id": "sandhi-29",
-          "title": "सन्धि 29",
-          "path": "books/hari-kathamruta-saara/hi/29-anu-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-30",
-          "title": "सन्धि 30",
-          "path": "books/hari-kathamruta-saara/hi/30-dhaithya-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-31",
-          "title": "सन्धि 31",
-          "path": "books/hari-kathamruta-saara/hi/31-neivedhya-prakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-32",
-          "title": "सन्धि 32",
-          "path": "books/hari-kathamruta-saara/hi/32-kaksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-33",
-          "title": "सन्धि 33",
-          "path": "books/hari-kathamruta-saara/hi/33-palashruthi-sandhi.md"
-        }
-      ],
-      "kannada": [
-        {
-          "id": "sandhi-1",
-          "title": "ಸಂಧಿ 1",
-          "path": "books/hari-kathamruta-saara/kn/1-mangala-charana-sandhi.md"
-        },
-        {
-          "id": "sandhi-2",
-          "title": "ಸಂಧಿ 2",
-          "path": "books/hari-kathamruta-saara/kn/2-karuna-sandhi.md"
-        },
-        {
-          "id": "sandhi-3",
-          "title": "ಸಂಧಿ 3",
-          "path": "books/hari-kathamruta-saara/kn/3-vyapthi-sandhi.md"
-        },
-        {
-          "id": "sandhi-4",
-          "title": "ಸಂಧಿ 4",
-          "path": "books/hari-kathamruta-saara/kn/4-bhojana-sandhi.md"
-        },
-        {
-          "id": "sandhi-5",
-          "title": "ಸಂಧಿ 5",
-          "path": "books/hari-kathamruta-saara/kn/5-vibhooti-sandhi.md"
-        },
-        {
-          "id": "sandhi-6",
-          "title": "ಸಂಧಿ 6",
-          "path": "books/hari-kathamruta-saara/kn/6-panchamahayagna-sandhi.md"
-        },
-        {
-          "id": "sandhi-7",
-          "title": "ಸಂಧಿ 7",
-          "path": "books/hari-kathamruta-saara/kn/7-durita-nivaraana-sandhi.md"
-        },
-        {
-          "id": "sandhi-8",
-          "title": "ಸಂಧಿ 8",
-          "path": "books/hari-kathamruta-saara/kn/8-mathruka-sandhi.md"
-        },
-        {
-          "id": "sandhi-9",
-          "title": "ಸಂಧಿ 9",
-          "path": "books/hari-kathamruta-saara/kn/9-udaattaanudaatta-sandhi.md"
-        },
-        {
-          "id": "sandhi-10",
-          "title": "ಸಂಧಿ 10",
-          "path": "books/hari-kathamruta-saara/kn/10-sarva-pratheeka-sandhi.md"
-        },
-        {
-          "id": "sandhi-11",
-          "title": "ಸಂಧಿ 11",
-          "path": "books/hari-kathamruta-saara/kn/11-dhyaana-prakriyasandhi.md"
-        },
-        {
-          "id": "sandhi-12",
-          "title": "ಸಂಧಿ 12",
-          "path": "books/hari-kathamruta-saara/kn/12-nadeeprakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-13",
-          "title": "ಸಂಧಿ 13",
-          "path": "books/hari-kathamruta-saara/kn/13-namasmarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-14",
-          "title": "ಸಂಧಿ 14",
-          "path": "books/hari-kathamruta-saara/kn/14-jeevanaprakriya-sandhi.md"
-        },
-        {
-          "id": "sandhi-15",
-          "title": "ಸಂಧಿ 15",
-          "path": "books/hari-kathamruta-saara/kn/15-shwaasa-sandhi.md"
-        },
-        {
-          "id": "sandhi-16",
-          "title": "ಸಂಧಿ 16",
-          "path": "books/hari-kathamruta-saara/kn/16-swatantrnya-vibhajane-sandhi.md"
-        },
-        {
-          "id": "sandhi-17",
-          "title": "ಸಂಧಿ 17",
-          "path": "books/hari-kathamruta-saara/kn/17-swagathaswantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-18",
-          "title": "ಸಂಧಿ 18",
-          "path": "books/hari-kathamruta-saara/kn/18-sarvaswatantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-19",
-          "title": "ಸಂಧಿ 19",
-          "path": "books/hari-kathamruta-saara/kn/19-bimba-pratibimba-sandhi.md"
-        },
-        {
-          "id": "sandhi-20",
-          "title": "ಸಂಧಿ 20",
-          "path": "books/hari-kathamruta-saara/kn/20-guna-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-21",
-          "title": "ಸಂಧಿ 21",
-          "path": "books/hari-kathamruta-saara/kn/21-karma-vimochana-sandhi.md"
-        },
-        {
-          "id": "sandhi-22",
-          "title": "ಸಂಧಿ 22",
-          "path": "books/hari-kathamruta-saara/kn/22-sakaladuritanivaarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-23",
-          "title": "ಸಂಧಿ 23",
-          "path": "books/hari-kathamruta-saara/kn/23-bruhat-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-24",
-          "title": "ಸಂಧಿ 24",
-          "path": "books/hari-kathamruta-saara/kn/24-aparoksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-25",
-          "title": "ಸಂಧಿ 25",
-          "path": "books/hari-kathamruta-saara/kn/25-aarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-26",
-          "title": "ಸಂಧಿ 26",
-          "path": "books/hari-kathamruta-saara/kn/26-avarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-27",
-          "title": "ಸಂಧಿ 27",
-          "path": "books/hari-kathamruta-saara/kn/27-anukramanika-tharatamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-28",
-          "title": "ಸಂಧಿ 28",
-          "path": "books/hari-kathamruta-saara/kn/28-sandhi.md"
-        },
-        {
-          "id": "sandhi-29",
-          "title": "ಸಂಧಿ 29",
-          "path": "books/hari-kathamruta-saara/kn/29-anu-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-30",
-          "title": "ಸಂಧಿ 30",
-          "path": "books/hari-kathamruta-saara/kn/30-dhaithya-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-31",
-          "title": "ಸಂಧಿ 31",
-          "path": "books/hari-kathamruta-saara/kn/31-neivedhya-prakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-32",
-          "title": "ಸಂಧಿ 32",
-          "path": "books/hari-kathamruta-saara/kn/32-kaksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-33",
-          "title": "ಸಂಧಿ 33",
-          "path": "books/hari-kathamruta-saara/kn/33-palashruthi-sandhi.md"
-        }
-      ],
-      "sanskrit": [
-        {
-          "id": "sandhi-1",
-          "title": "सन्धिः 1",
-          "path": "books/hari-kathamruta-saara/sa/1-mangala-charana-sandhi.md"
-        },
-        {
-          "id": "sandhi-2",
-          "title": "सन्धिः 2",
-          "path": "books/hari-kathamruta-saara/sa/2-karuna-sandhi.md"
-        },
-        {
-          "id": "sandhi-3",
-          "title": "सन्धिः 3",
-          "path": "books/hari-kathamruta-saara/sa/3-vyapthi-sandhi.md"
-        },
-        {
-          "id": "sandhi-4",
-          "title": "सन्धिः 4",
-          "path": "books/hari-kathamruta-saara/sa/4-bhojana-sandhi.md"
-        },
-        {
-          "id": "sandhi-5",
-          "title": "सन्धिः 5",
-          "path": "books/hari-kathamruta-saara/sa/5-vibhooti-sandhi.md"
-        },
-        {
-          "id": "sandhi-6",
-          "title": "सन्धिः 6",
-          "path": "books/hari-kathamruta-saara/sa/6-panchamahayagna-sandhi.md"
-        },
-        {
-          "id": "sandhi-7",
-          "title": "सन्धिः 7",
-          "path": "books/hari-kathamruta-saara/sa/7-durita-nivaraana-sandhi.md"
-        },
-        {
-          "id": "sandhi-8",
-          "title": "सन्धिः 8",
-          "path": "books/hari-kathamruta-saara/sa/8-mathruka-sandhi.md"
-        },
-        {
-          "id": "sandhi-9",
-          "title": "सन्धिः 9",
-          "path": "books/hari-kathamruta-saara/sa/9-udaattaanudaatta-sandhi.md"
-        },
-        {
-          "id": "sandhi-10",
-          "title": "सन्धिः 10",
-          "path": "books/hari-kathamruta-saara/sa/10-sarva-pratheeka-sandhi.md"
-        },
-        {
-          "id": "sandhi-11",
-          "title": "सन्धिः 11",
-          "path": "books/hari-kathamruta-saara/sa/11-dhyaana-prakriyasandhi.md"
-        },
-        {
-          "id": "sandhi-12",
-          "title": "सन्धिः 12",
-          "path": "books/hari-kathamruta-saara/sa/12-nadeeprakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-13",
-          "title": "सन्धिः 13",
-          "path": "books/hari-kathamruta-saara/sa/13-namasmarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-14",
-          "title": "सन्धिः 14",
-          "path": "books/hari-kathamruta-saara/sa/14-jeevanaprakriya-sandhi.md"
-        },
-        {
-          "id": "sandhi-15",
-          "title": "सन्धिः 15",
-          "path": "books/hari-kathamruta-saara/sa/15-shwaasa-sandhi.md"
-        },
-        {
-          "id": "sandhi-16",
-          "title": "सन्धिः 16",
-          "path": "books/hari-kathamruta-saara/sa/16-swatantrnya-vibhajane-sandhi.md"
-        },
-        {
-          "id": "sandhi-17",
-          "title": "सन्धिः 17",
-          "path": "books/hari-kathamruta-saara/sa/17-swagathaswantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-18",
-          "title": "सन्धिः 18",
-          "path": "books/hari-kathamruta-saara/sa/18-sarvaswatantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-19",
-          "title": "सन्धिः 19",
-          "path": "books/hari-kathamruta-saara/sa/19-bimba-pratibimba-sandhi.md"
-        },
-        {
-          "id": "sandhi-20",
-          "title": "सन्धिः 20",
-          "path": "books/hari-kathamruta-saara/sa/20-guna-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-21",
-          "title": "सन्धिः 21",
-          "path": "books/hari-kathamruta-saara/sa/21-karma-vimochana-sandhi.md"
-        },
-        {
-          "id": "sandhi-22",
-          "title": "सन्धिः 22",
-          "path": "books/hari-kathamruta-saara/sa/22-sakaladuritanivaarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-23",
-          "title": "सन्धिः 23",
-          "path": "books/hari-kathamruta-saara/sa/23-bruhat-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-24",
-          "title": "सन्धिः 24",
-          "path": "books/hari-kathamruta-saara/sa/24-aparoksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-25",
-          "title": "सन्धिः 25",
-          "path": "books/hari-kathamruta-saara/sa/25-aarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-26",
-          "title": "सन्धिः 26",
-          "path": "books/hari-kathamruta-saara/sa/26-avarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-27",
-          "title": "सन्धिः 27",
-          "path": "books/hari-kathamruta-saara/sa/27-anukramanika-tharatamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-28",
-          "title": "सन्धिः 28",
-          "path": "books/hari-kathamruta-saara/sa/28-sandhi.md"
-        },
-        {
-          "id": "sandhi-29",
-          "title": "सन्धिः 29",
-          "path": "books/hari-kathamruta-saara/sa/29-anu-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-30",
-          "title": "सन्धिः 30",
-          "path": "books/hari-kathamruta-saara/sa/30-dhaithya-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-31",
-          "title": "सन्धिः 31",
-          "path": "books/hari-kathamruta-saara/sa/31-neivedhya-prakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-32",
-          "title": "सन्धिः 32",
-          "path": "books/hari-kathamruta-saara/sa/32-kaksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-33",
-          "title": "सन्धिः 33",
-          "path": "books/hari-kathamruta-saara/sa/33-palashruthi-sandhi.md"
-        }
-      ],
-      "tamil": [
-        {
-          "id": "sandhi-1",
-          "title": "சந்தி 1",
-          "path": "books/hari-kathamruta-saara/ta/1-mangala-charana-sandhi.md"
-        },
-        {
-          "id": "sandhi-2",
-          "title": "சந்தி 2",
-          "path": "books/hari-kathamruta-saara/ta/2-karuna-sandhi.md"
-        },
-        {
-          "id": "sandhi-3",
-          "title": "சந்தி 3",
-          "path": "books/hari-kathamruta-saara/ta/3-vyapthi-sandhi.md"
-        },
-        {
-          "id": "sandhi-4",
-          "title": "சந்தி 4",
-          "path": "books/hari-kathamruta-saara/ta/4-bhojana-sandhi.md"
-        },
-        {
-          "id": "sandhi-5",
-          "title": "சந்தி 5",
-          "path": "books/hari-kathamruta-saara/ta/5-vibhooti-sandhi.md"
-        },
-        {
-          "id": "sandhi-6",
-          "title": "சந்தி 6",
-          "path": "books/hari-kathamruta-saara/ta/6-panchamahayagna-sandhi.md"
-        },
-        {
-          "id": "sandhi-7",
-          "title": "சந்தி 7",
-          "path": "books/hari-kathamruta-saara/ta/7-durita-nivaraana-sandhi.md"
-        },
-        {
-          "id": "sandhi-8",
-          "title": "சந்தி 8",
-          "path": "books/hari-kathamruta-saara/ta/8-mathruka-sandhi.md"
-        },
-        {
-          "id": "sandhi-9",
-          "title": "சந்தி 9",
-          "path": "books/hari-kathamruta-saara/ta/9-udaattaanudaatta-sandhi.md"
-        },
-        {
-          "id": "sandhi-10",
-          "title": "சந்தி 10",
-          "path": "books/hari-kathamruta-saara/ta/10-sarva-pratheeka-sandhi.md"
-        },
-        {
-          "id": "sandhi-11",
-          "title": "சந்தி 11",
-          "path": "books/hari-kathamruta-saara/ta/11-dhyaana-prakriyasandhi.md"
-        },
-        {
-          "id": "sandhi-12",
-          "title": "சந்தி 12",
-          "path": "books/hari-kathamruta-saara/ta/12-nadeeprakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-13",
-          "title": "சந்தி 13",
-          "path": "books/hari-kathamruta-saara/ta/13-namasmarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-14",
-          "title": "சந்தி 14",
-          "path": "books/hari-kathamruta-saara/ta/14-jeevanaprakriya-sandhi.md"
-        },
-        {
-          "id": "sandhi-15",
-          "title": "சந்தி 15",
-          "path": "books/hari-kathamruta-saara/ta/15-shwaasa-sandhi.md"
-        },
-        {
-          "id": "sandhi-16",
-          "title": "சந்தி 16",
-          "path": "books/hari-kathamruta-saara/ta/16-swatantrnya-vibhajane-sandhi.md"
-        },
-        {
-          "id": "sandhi-17",
-          "title": "சந்தி 17",
-          "path": "books/hari-kathamruta-saara/ta/17-swagathaswantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-18",
-          "title": "சந்தி 18",
-          "path": "books/hari-kathamruta-saara/ta/18-sarvaswatantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-19",
-          "title": "சந்தி 19",
-          "path": "books/hari-kathamruta-saara/ta/19-bimba-pratibimba-sandhi.md"
-        },
-        {
-          "id": "sandhi-20",
-          "title": "சந்தி 20",
-          "path": "books/hari-kathamruta-saara/ta/20-guna-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-21",
-          "title": "சந்தி 21",
-          "path": "books/hari-kathamruta-saara/ta/21-karma-vimochana-sandhi.md"
-        },
-        {
-          "id": "sandhi-22",
-          "title": "சந்தி 22",
-          "path": "books/hari-kathamruta-saara/ta/22-sakaladuritanivaarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-23",
-          "title": "சந்தி 23",
-          "path": "books/hari-kathamruta-saara/ta/23-bruhat-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-24",
-          "title": "சந்தி 24",
-          "path": "books/hari-kathamruta-saara/ta/24-aparoksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-25",
-          "title": "சந்தி 25",
-          "path": "books/hari-kathamruta-saara/ta/25-aarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-26",
-          "title": "சந்தி 26",
-          "path": "books/hari-kathamruta-saara/ta/26-avarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-27",
-          "title": "சந்தி 27",
-          "path": "books/hari-kathamruta-saara/ta/27-anukramanika-tharatamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-28",
-          "title": "சந்தி 28",
-          "path": "books/hari-kathamruta-saara/ta/28-sandhi.md"
-        },
-        {
-          "id": "sandhi-29",
-          "title": "சந்தி 29",
-          "path": "books/hari-kathamruta-saara/ta/29-anu-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-30",
-          "title": "சந்தி 30",
-          "path": "books/hari-kathamruta-saara/ta/30-dhaithya-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-31",
-          "title": "சந்தி 31",
-          "path": "books/hari-kathamruta-saara/ta/31-neivedhya-prakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-32",
-          "title": "சந்தி 32",
-          "path": "books/hari-kathamruta-saara/ta/32-kaksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-33",
-          "title": "சந்தி 33",
-          "path": "books/hari-kathamruta-saara/ta/33-palashruthi-sandhi.md"
-        }
-      ],
-      "telugu": [
-        {
-          "id": "sandhi-1",
-          "title": "సంధి 1",
-          "path": "books/hari-kathamruta-saara/te/1-mangala-charana-sandhi.md"
-        },
-        {
-          "id": "sandhi-2",
-          "title": "సంధి 2",
-          "path": "books/hari-kathamruta-saara/te/2-karuna-sandhi.md"
-        },
-        {
-          "id": "sandhi-3",
-          "title": "సంధి 3",
-          "path": "books/hari-kathamruta-saara/te/3-vyapthi-sandhi.md"
-        },
-        {
-          "id": "sandhi-4",
-          "title": "సంధి 4",
-          "path": "books/hari-kathamruta-saara/te/4-bhojana-sandhi.md"
-        },
-        {
-          "id": "sandhi-5",
-          "title": "సంధి 5",
-          "path": "books/hari-kathamruta-saara/te/5-vibhooti-sandhi.md"
-        },
-        {
-          "id": "sandhi-6",
-          "title": "సంధి 6",
-          "path": "books/hari-kathamruta-saara/te/6-panchamahayagna-sandhi.md"
-        },
-        {
-          "id": "sandhi-7",
-          "title": "సంధి 7",
-          "path": "books/hari-kathamruta-saara/te/7-durita-nivaraana-sandhi.md"
-        },
-        {
-          "id": "sandhi-8",
-          "title": "సంధి 8",
-          "path": "books/hari-kathamruta-saara/te/8-mathruka-sandhi.md"
-        },
-        {
-          "id": "sandhi-9",
-          "title": "సంధి 9",
-          "path": "books/hari-kathamruta-saara/te/9-udaattaanudaatta-sandhi.md"
-        },
-        {
-          "id": "sandhi-10",
-          "title": "సంధి 10",
-          "path": "books/hari-kathamruta-saara/te/10-sarva-pratheeka-sandhi.md"
-        },
-        {
-          "id": "sandhi-11",
-          "title": "సంధి 11",
-          "path": "books/hari-kathamruta-saara/te/11-dhyaana-prakriyasandhi.md"
-        },
-        {
-          "id": "sandhi-12",
-          "title": "సంధి 12",
-          "path": "books/hari-kathamruta-saara/te/12-nadeeprakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-13",
-          "title": "సంధి 13",
-          "path": "books/hari-kathamruta-saara/te/13-namasmarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-14",
-          "title": "సంధి 14",
-          "path": "books/hari-kathamruta-saara/te/14-jeevanaprakriya-sandhi.md"
-        },
-        {
-          "id": "sandhi-15",
-          "title": "సంధి 15",
-          "path": "books/hari-kathamruta-saara/te/15-shwaasa-sandhi.md"
-        },
-        {
-          "id": "sandhi-16",
-          "title": "సంధి 16",
-          "path": "books/hari-kathamruta-saara/te/16-swatantrnya-vibhajane-sandhi.md"
-        },
-        {
-          "id": "sandhi-17",
-          "title": "సంధి 17",
-          "path": "books/hari-kathamruta-saara/te/17-swagathaswantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-18",
-          "title": "సంధి 18",
-          "path": "books/hari-kathamruta-saara/te/18-sarvaswatantrya-sandhi.md"
-        },
-        {
-          "id": "sandhi-19",
-          "title": "సంధి 19",
-          "path": "books/hari-kathamruta-saara/te/19-bimba-pratibimba-sandhi.md"
-        },
-        {
-          "id": "sandhi-20",
-          "title": "సంధి 20",
-          "path": "books/hari-kathamruta-saara/te/20-guna-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-21",
-          "title": "సంధి 21",
-          "path": "books/hari-kathamruta-saara/te/21-karma-vimochana-sandhi.md"
-        },
-        {
-          "id": "sandhi-22",
-          "title": "సంధి 22",
-          "path": "books/hari-kathamruta-saara/te/22-sakaladuritanivaarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-23",
-          "title": "సంధి 23",
-          "path": "books/hari-kathamruta-saara/te/23-bruhat-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-24",
-          "title": "సంధి 24",
-          "path": "books/hari-kathamruta-saara/te/24-aparoksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-25",
-          "title": "సంధి 25",
-          "path": "books/hari-kathamruta-saara/te/25-aarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-26",
-          "title": "సంధి 26",
-          "path": "books/hari-kathamruta-saara/te/26-avarohana-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-27",
-          "title": "సంధి 27",
-          "path": "books/hari-kathamruta-saara/te/27-anukramanika-tharatamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-28",
-          "title": "సంధి 28",
-          "path": "books/hari-kathamruta-saara/te/28-sandhi.md"
-        },
-        {
-          "id": "sandhi-29",
-          "title": "సంధి 29",
-          "path": "books/hari-kathamruta-saara/te/29-anu-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-30",
-          "title": "సంధి 30",
-          "path": "books/hari-kathamruta-saara/te/30-dhaithya-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-31",
-          "title": "సంధి 31",
-          "path": "books/hari-kathamruta-saara/te/31-neivedhya-prakarana-sandhi.md"
-        },
-        {
-          "id": "sandhi-32",
-          "title": "సంధి 32",
-          "path": "books/hari-kathamruta-saara/te/32-kaksha-taratamya-sandhi.md"
-        },
-        {
-          "id": "sandhi-33",
-          "title": "సంధి 33",
-          "path": "books/hari-kathamruta-saara/te/33-palashruthi-sandhi.md"
-        }
-      ]
+    {
+        "id":  "nyayamruta",
+        "title":  "Nyayamruta",
+        "author":  "Sri Vyasarajaru",
+        "year":  "15th Century CE",
+        "genre":  "Philosophy / Vedanta",
+        "description":  "Nyayamruta is a monumental work by Sri Vyasarajaru defending the Dvaita philosophy against Advaita.",
+        "coverUrl":  "books/nyayamruta/cover_nyayamruta.png",
+        "languages":  [
+                          "english",
+                          "sanskrit",
+                          "hindi",
+                          "kannada",
+                          "tamil",
+                          "telugu"
+                      ],
+        "localized":  {
+                          "sanskrit":  {
+                                           "title":  "न्यायामृतम्",
+                                           "description":  "न्यायामृतम् श्रीव्यासराजविरचितं अद्वैतमतखण्डनपूर्वकं द्वैतसिद्धान्तस्थापनपरं महाग्रन्थम्।"
+                                       },
+                          "hindi":  {
+                                        "title":  "न्यायामृत",
+                                        "description":  "न्यायामृत श्रीव्यासराज द्वारा रचित एक महान ग्रन्थ है जो अद्वैत मत का खण्डन कर द्वैत सिद्धान्त की स्थापना करता है।"
+                                    },
+                          "kannada":  {
+                                          "title":  "ನ್ಯಾಯಾಮೃತ",
+                                          "description":  "ನ್ಯಾಯಾಮೃತವು ಶ್ರೀ ವ್ಯಾಸರಾಜರಿಂದ ರಚಿತವಾದ ಒಂದು ಮಹಾನ್ ಗ್ರಂಥ. ಇದು ಅದ್ವೈತ ಸಿದ್ಧಾಂತವನ್ನು ಖಂಡಿಸಿ ದ್ವೈತ ಸಿದ್ಧಾಂತವನ್ನು ಪ್ರತಿಪಾದಿಸುತ್ತದೆ."
+                                      },
+                          "tamil":  {
+                                        "title":  "நியாயாம்ருதம்",
+                                        "description":  "நியாயாம்ருதம் என்பது ஸ்ரீ வியாசராஜரால் இயற்றப்பட்ட ஒரு சிறந்த நூலாகும். இது அத்வைதத்தை மறுத்து துவைத தத்துவத்தை நிலைநிறுத்துகிறது."
+                                    },
+                          "telugu":  {
+                                         "title":  "న్యాయామృతము",
+                                         "description":  "న్యాయామృతము శ్రీ వ్యాసరాజులు రచించిన ఒక మహత్తర గ్రంథము. ఇది అద్వైత మతమును ఖండించి ద్వైత సిద్ధాంతమును స్థాపించును."
+                                     }
+                      },
+        "chapters":  {
+                         "english":  [
+                                         {
+                                             "id":  "paricheda-1-prakarana-1",
+                                             "title":  "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+                                             "path":  "books/nyayamruta/en/paricheda1/prakarana1/index.md",
+                                             "topics":  [
+                                                            {
+                                                                "id":  "paricheda-1-prakarana-1-topic-1",
+                                                                "title":  "Mangalam",
+                                                                "path":  "books/nyayamruta/en/paricheda1/prakarana1/1.md"
+                                                            }
+                                                        ]
+                                         }
+                                     ],
+                         "sanskrit":  [
+                                          {
+                                              "id":  "paricheda-1-prakarana-1",
+                                              "title":  "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+                                              "path":  "books/nyayamruta/sa/paricheda1/prakarana1/index.md",
+                                              "topics":  [
+                                                             {
+                                                                 "id":  "paricheda-1-prakarana-1-topic-1",
+                                                                 "title":  "मङ्गलम्",
+                                                                 "path":  "books/nyayamruta/sa/paricheda1/prakarana1/1.md"
+                                                             }
+                                                         ]
+                                          }
+                                      ],
+                         "hindi":  [
+                                       {
+                                           "id":  "paricheda-1-prakarana-1",
+                                           "title":  "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+                                           "path":  "books/nyayamruta/hi/paricheda1/prakarana1/index.md",
+                                           "topics":  [
+                                                          {
+                                                              "id":  "paricheda-1-prakarana-1-topic-1",
+                                                              "title":  "मङ्गलम्",
+                                                              "path":  "books/nyayamruta/hi/paricheda1/prakarana1/1.md"
+                                                          }
+                                                      ]
+                                       }
+                                   ],
+                         "kannada":  [
+                                         {
+                                             "id":  "paricheda-1-prakarana-1",
+                                             "title":  "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+                                             "path":  "books/nyayamruta/kn/paricheda1/prakarana1/index.md",
+                                             "topics":  [
+                                                            {
+                                                                "id":  "paricheda-1-prakarana-1-topic-1",
+                                                                "title":  "ಮಂಗಲಂ",
+                                                                "path":  "books/nyayamruta/kn/paricheda1/prakarana1/1.md"
+                                                            }
+                                                        ]
+                                         }
+                                     ],
+                         "tamil":  [
+                                       {
+                                           "id":  "paricheda-1-prakarana-1",
+                                           "title":  "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+                                           "path":  "books/nyayamruta/ta/paricheda1/prakarana1/index.md",
+                                           "topics":  [
+                                                          {
+                                                              "id":  "paricheda-1-prakarana-1-topic-1",
+                                                              "title":  "மங்கலம்",
+                                                              "path":  "books/nyayamruta/ta/paricheda1/prakarana1/1.md"
+                                                          }
+                                                      ]
+                                       }
+                                   ],
+                         "telugu":  [
+                                        {
+                                            "id":  "paricheda-1-prakarana-1",
+                                            "title":  "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+                                            "path":  "books/nyayamruta/te/paricheda1/prakarana1/index.md",
+                                            "topics":  [
+                                                           {
+                                                               "id":  "paricheda-1-prakarana-1-topic-1",
+                                                               "title":  "మంగళం",
+                                                               "path":  "books/nyayamruta/te/paricheda1/prakarana1/1.md"
+                                                           }
+                                                       ]
+                                        }
+                                    ]
+                     }
     }
-  },
-  {
-    "id": "nyayamruta",
-    "title": "Nyayamruta",
-    "author": "Sri Vyasarajaru",
-    "year": "15th Century CE",
-    "genre": "Philosophy / Vedanta",
-    "description": "Nyayamruta is a monumental work by Sri Vyasarajaru defending the Dvaita philosophy against Advaita.",
-    "coverUrl": "books/nyayamruta/cover_nyayamruta.png",
-    "languages": [
-      "english",
-      "sanskrit",
-      "hindi",
-      "kannada",
-      "tamil",
-      "telugu"
-    ],
-    "localized": {
-      "sanskrit": {
-        "title": "न्यायामृतम्",
-        "description": "न्यायामृतम् श्रीव्यासराजविरचितं अद्वैतमतखण्डनपूर्वकं द्वैतसिद्धान्तस्थापनपरं महाग्रन्थम्।"
-      },
-      "hindi": {
-        "title": "न्यायामृत",
-        "description": "न्यायामृत श्रीव्यासराज द्वारा रचित एक महान ग्रन्थ है जो अद्वैत मत का खण्डन कर द्वैत सिद्धान्त की स्थापना करता है।"
-      },
-      "kannada": {
-        "title": "ನ್ಯಾಯಾಮೃತ",
-        "description": "ನ್ಯಾಯಾಮೃತವು ಶ್ರೀ ವ್ಯಾಸರಾಜರಿಂದ ರಚಿತವಾದ ಒಂದು ಮಹಾನ್ ಗ್ರಂಥ. ಇದು ಅದ್ವೈತ ಸಿದ್ಧಾಂತವನ್ನು ಖಂಡಿಸಿ ದ್ವೈತ ಸಿದ್ಧಾಂತವನ್ನು ಪ್ರತಿಪಾದಿಸುತ್ತದೆ."
-      },
-      "tamil": {
-        "title": "நியாயாம்ருதம்",
-        "description": "நியாயாம்ருதம் என்பது ஸ்ரீ வியாசராஜரால் இயற்றப்பட்ட ஒரு சிறந்த நூலாகும். இது அத்வைதத்தை மறுத்து துவைத தத்துவத்தை நிலைநிறுத்துகிறது."
-      },
-      "telugu": {
-        "title": "న్యాయామృతము",
-        "description": "న్యాయామృతము శ్రీ వ్యాసరాజులు రచించిన ఒక మహత్తర గ్రంథము. ఇది అద్వైత మతమును ఖండించి ద్వైత సిద్ధాంతమును స్థాపించును."
-      }
-    },
-    "chapters": {
-      "english": [
-        {
-          "id": "paricheda-1",
-          "title": "Paricheda 1",
-          "path": "books/nyayamruta/en/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "Paricheda 2",
-          "path": "books/nyayamruta/en/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "Paricheda 3",
-          "path": "books/nyayamruta/en/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "Paricheda 4",
-          "path": "books/nyayamruta/en/paricheda4.md"
-        }
-      ],
-      "sanskrit": [
-        {
-          "id": "paricheda-1",
-          "title": "प्रथमः परिच्छेदः",
-          "path": "books/nyayamruta/sa/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "द्वितीयः परिच्छेदः",
-          "path": "books/nyayamruta/sa/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "तृतीयः परिच्छेदः",
-          "path": "books/nyayamruta/sa/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "चतुर्थः परिच्छेदः",
-          "path": "books/nyayamruta/sa/paricheda4.md"
-        }
-      ],
-      "hindi": [
-        {
-          "id": "paricheda-1",
-          "title": "प्रथम परिच्छेद",
-          "path": "books/nyayamruta/hi/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "द्वितीय परिच्छेद",
-          "path": "books/nyayamruta/hi/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "तृतीय परिच्छेद",
-          "path": "books/nyayamruta/hi/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "चतुर्थ परिच्छेद",
-          "path": "books/nyayamruta/hi/paricheda4.md"
-        }
-      ],
-      "kannada": [
-        {
-          "id": "paricheda-1",
-          "title": "ಪ್ರಥಮ ಪರಿಚ್ಛೇದ",
-          "path": "books/nyayamruta/kn/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "ದ್ವಿತೀಯ ಪರಿಚ್ಛೇದ",
-          "path": "books/nyayamruta/kn/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "ತೃತೀಯ ಪರಿಚ್ಛೇದ",
-          "path": "books/nyayamruta/kn/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "ಚತುರ್ಥ ಪರಿಚ್ಛೇದ",
-          "path": "books/nyayamruta/kn/paricheda4.md"
-        }
-      ],
-      "tamil": [
-        {
-          "id": "paricheda-1",
-          "title": "முதல் பரிச்சேதம்",
-          "path": "books/nyayamruta/ta/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "இரண்டாம் பரிச்சேதம்",
-          "path": "books/nyayamruta/ta/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "மூன்றாம் பரிச்சேதம்",
-          "path": "books/nyayamruta/ta/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "நான்காம் பரிச்சேதம்",
-          "path": "books/nyayamruta/ta/paricheda4.md"
-        }
-      ],
-      "telugu": [
-        {
-          "id": "paricheda-1",
-          "title": "ప్రథమ పరిచ్ఛేదము",
-          "path": "books/nyayamruta/te/paricheda1.md"
-        },
-        {
-          "id": "paricheda-2",
-          "title": "ద్వితీయ పరిచ్ఛేదము",
-          "path": "books/nyayamruta/te/paricheda2.md"
-        },
-        {
-          "id": "paricheda-3",
-          "title": "తృతీయ పరిచ్ఛేదము",
-          "path": "books/nyayamruta/te/paricheda3.md"
-        },
-        {
-          "id": "paricheda-4",
-          "title": "చతుర్థ పరిచ్ఛేదము",
-          "path": "books/nyayamruta/te/paricheda4.md"
-        }
-      ]
-    }
-  }
 ]
