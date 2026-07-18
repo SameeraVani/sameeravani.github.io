@@ -1894,8 +1894,43 @@
                     "topics": [
                         {
                             "id": "paricheda-1-prakarana-1-topic-1",
-                            "title": "Mangalam",
+                            "title": "maṅgalācaraṇam",
                             "path": "books/nyayamruta/en/paricheda1/prakarana1/1.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-2",
+                            "title": "vipratipattivicāraḥ",
+                            "path": "books/nyayamruta/en/paricheda1/prakarana1/2.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-3",
+                            "title": "mithyātve paroktānumānāni - bhāga - 1",
+                            "path": "books/nyayamruta/en/paricheda1/prakarana1/3.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-4",
+                            "title": "mithyātve paroktānumānāni - bhāga - 2",
+                            "path": "books/nyayamruta/en/paricheda1/prakarana1/4.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-5",
+                            "title": "mithyātve paroktānumānāni - bhāga - 3",
+                            "path": "books/nyayamruta/en/paricheda1/prakarana1/5.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-6",
+                            "title": "mithyātvanirvacanam bhāga - 1",
+                            "path": "books/nyayamruta/en/paricheda1/prakarana1/6.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-7",
+                            "title": "mithyātvanirvacanam bhāga - 2",
+                            "path": "books/nyayamruta/en/paricheda1/prakarana1/7.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-8",
+                            "title": "mithyātvanirvacanam bhāga - 3",
+                            "path": "books/nyayamruta/en/paricheda1/prakarana1/8.md"
                         }
                     ]
                 }
@@ -1908,7 +1943,7 @@
                     "topics": [
                         {
                             "id": "paricheda-1-prakarana-1-topic-1",
-                            "title": "मङ्गलम्",
+                            "title": "मङ्गलाचरणम्",
                             "path": "books/nyayamruta/sa/paricheda1/prakarana1/1.md"
                         },
                         {
@@ -1957,8 +1992,43 @@
                     "topics": [
                         {
                             "id": "paricheda-1-prakarana-1-topic-1",
-                            "title": "मङ्गलम्",
+                            "title": "मङ्गलाचरणम्",
                             "path": "books/nyayamruta/hi/paricheda1/prakarana1/1.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-2",
+                            "title": "विप्रतिपत्तिविचारः",
+                            "path": "books/nyayamruta/hi/paricheda1/prakarana1/2.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-3",
+                            "title": "मिथ्यात्वे परोक्तानुमानानि - भाग - १",
+                            "path": "books/nyayamruta/hi/paricheda1/prakarana1/3.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-4",
+                            "title": "मिथ्यात्वे परोक्तानुमानानि - भाग - २",
+                            "path": "books/nyayamruta/hi/paricheda1/prakarana1/4.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-5",
+                            "title": "मिथ्यात्वे परोक्तानुमानानि - भाग - ३",
+                            "path": "books/nyayamruta/hi/paricheda1/prakarana1/5.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-6",
+                            "title": "मिथ्यात्वनिर्वचनम् भाग - १",
+                            "path": "books/nyayamruta/hi/paricheda1/prakarana1/6.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-7",
+                            "title": "मिथ्यात्वनिर्वचनम् भाग - २",
+                            "path": "books/nyayamruta/hi/paricheda1/prakarana1/7.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-8",
+                            "title": "मिथ्यात्वनिर्वचनम् भाग - ३",
+                            "path": "books/nyayamruta/hi/paricheda1/prakarana1/8.md"
                         }
                     ]
                 }
@@ -1971,8 +2041,43 @@
                     "topics": [
                         {
                             "id": "paricheda-1-prakarana-1-topic-1",
-                            "title": "ಮಂಗಲಂ",
+                            "title": "ಮಙ್ಗಲಾಚರಣಮ್",
                             "path": "books/nyayamruta/kn/paricheda1/prakarana1/1.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-2",
+                            "title": "ವಿಪ್ರತಿಪತ್ತಿವಿಚಾರಃ",
+                            "path": "books/nyayamruta/kn/paricheda1/prakarana1/2.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-3",
+                            "title": "ಮಿಥ್ಯಾತ್ವೇ ಪರೋಕ್ತಾನುಮಾನಾನಿ - ಭಾಗ - ೧",
+                            "path": "books/nyayamruta/kn/paricheda1/prakarana1/3.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-4",
+                            "title": "ಮಿಥ್ಯಾತ್ವೇ ಪರೋಕ್ತಾನುಮಾನಾನಿ - ಭಾಗ - ೨",
+                            "path": "books/nyayamruta/kn/paricheda1/prakarana1/4.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-5",
+                            "title": "ಮಿಥ್ಯಾತ್ವೇ ಪರೋಕ್ತಾನುಮಾನಾನಿ - ಭಾಗ - ೩",
+                            "path": "books/nyayamruta/kn/paricheda1/prakarana1/5.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-6",
+                            "title": "ಮಿಥ್ಯಾತ್ವನಿರ್ವಚನಮ್ ಭಾಗ - ೧",
+                            "path": "books/nyayamruta/kn/paricheda1/prakarana1/6.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-7",
+                            "title": "ಮಿಥ್ಯಾತ್ವನಿರ್ವಚನಮ್ ಭಾಗ - ೨",
+                            "path": "books/nyayamruta/kn/paricheda1/prakarana1/7.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-8",
+                            "title": "ಮಿಥ್ಯಾತ್ವನಿರ್ವಚನಮ್ ಭಾಗ - ೩",
+                            "path": "books/nyayamruta/kn/paricheda1/prakarana1/8.md"
                         }
                     ]
                 }
@@ -1985,8 +2090,43 @@
                     "topics": [
                         {
                             "id": "paricheda-1-prakarana-1-topic-1",
-                            "title": "மங்கலம்",
+                            "title": "மங்கலாசரணம்",
                             "path": "books/nyayamruta/ta/paricheda1/prakarana1/1.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-2",
+                            "title": "விப்ரதிபத்திவிசாரஃ",
+                            "path": "books/nyayamruta/ta/paricheda1/prakarana1/2.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-3",
+                            "title": "மித்யாத்வே பரோக்தாநுமாநாநி - பாக - ௧",
+                            "path": "books/nyayamruta/ta/paricheda1/prakarana1/3.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-4",
+                            "title": "மித்யாத்வே பரோக்தாநுமாநாநி - பாக - ௨",
+                            "path": "books/nyayamruta/ta/paricheda1/prakarana1/4.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-5",
+                            "title": "மித்யாத்வே பரோக்தாநுமாநாநி - பாக - ௩",
+                            "path": "books/nyayamruta/ta/paricheda1/prakarana1/5.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-6",
+                            "title": "மித்யாத்வநிர்வசநம் பாக - ௧",
+                            "path": "books/nyayamruta/ta/paricheda1/prakarana1/6.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-7",
+                            "title": "மித்யாத்வநிர்வசநம் பாக - ௨",
+                            "path": "books/nyayamruta/ta/paricheda1/prakarana1/7.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-8",
+                            "title": "மித்யாத்வநிர்வசநம் பாக - ௩",
+                            "path": "books/nyayamruta/ta/paricheda1/prakarana1/8.md"
                         }
                     ]
                 }
@@ -1999,8 +2139,43 @@
                     "topics": [
                         {
                             "id": "paricheda-1-prakarana-1-topic-1",
-                            "title": "మంగళం",
+                            "title": "మఙ్గలాచరణమ్",
                             "path": "books/nyayamruta/te/paricheda1/prakarana1/1.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-2",
+                            "title": "విప్రతిపత్తివిచారః",
+                            "path": "books/nyayamruta/te/paricheda1/prakarana1/2.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-3",
+                            "title": "మిథ్యాత్వే పరోక్తానుమానాని - భాగ - ౧",
+                            "path": "books/nyayamruta/te/paricheda1/prakarana1/3.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-4",
+                            "title": "మిథ్యాత్వే పరోక్తానుమానాని - భాగ - ౨",
+                            "path": "books/nyayamruta/te/paricheda1/prakarana1/4.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-5",
+                            "title": "మిథ్యాత్వే పరోక్తానుమానాని - భాగ - ౩",
+                            "path": "books/nyayamruta/te/paricheda1/prakarana1/5.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-6",
+                            "title": "మిథ్యాత్వనిర్వచనమ్ భాగ - ౧",
+                            "path": "books/nyayamruta/te/paricheda1/prakarana1/6.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-7",
+                            "title": "మిథ్యాత్వనిర్వచనమ్ భాగ - ౨",
+                            "path": "books/nyayamruta/te/paricheda1/prakarana1/7.md"
+                        },
+                        {
+                            "id": "paricheda-1-prakarana-1-topic-8",
+                            "title": "మిథ్యాత్వనిర్వచనమ్ భాగ - ౩",
+                            "path": "books/nyayamruta/te/paricheda1/prakarana1/8.md"
                         }
                     ]
                 }

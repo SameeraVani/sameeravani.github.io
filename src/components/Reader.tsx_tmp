@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import { parseRoute, getUrlForRoute } from '../utils/route';
-import type { Book, Chapter, ReaderSettings, Bookmark, BookReadingProgress } from '../types';
+import type { Book, ReaderSettings, Bookmark, BookReadingProgress } from '../types';
 import { 
   Settings, 
   Bookmark as BookmarkIcon, 
@@ -36,17 +36,6 @@ interface ReaderProps {
   appLanguage?: string;
   onChangeLanguage?: (lang: string) => void;
 }
-
-
-const flattenChapters = (chapters: Chapter[]): Chapter[] => {
-  return chapters.reduce((acc: Chapter[], chapter) => {
-    acc.push(chapter);
-    if (chapter.topics && chapter.topics.length > 0) {
-      acc = acc.concat(flattenChapters(chapter.topics));
-    }
-    return acc;
-  }, []);
-};
 
 export const Reader: React.FC<ReaderProps> = ({
   bookId,
@@ -96,18 +85,6 @@ export const Reader: React.FC<ReaderProps> = ({
     };
   });
 
-  const [expandedNodes, setExpandedNodes] = useState<Set<string>>(new Set());
-
-  const toggleNode = (id: string, e: React.MouseEvent) => {
-    e.stopPropagation();
-    setExpandedNodes(prev => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return next;
-    });
-  };
-
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [restoreScrollPercent, setRestoreScrollPercent] = useState<number | null>(null);
   const settingsRef = useRef<HTMLDivElement>(null);
@@ -151,7 +128,7 @@ export const Reader: React.FC<ReaderProps> = ({
         // 2. Resolve Chapter ID (only set if in URL and valid)
         if (initialLang) {
           const chapters = found.chapters?.[initialLang] || [];
-          const flatChapters = flattenChapters(chapters);
+          const flatChapters = chapters | flatten;
           if (urlChapter && flatChapters.some((c) => c.id === urlChapter)) {
             initialChapter = urlChapter;
             if (savedProgress && savedProgress.currentLanguage === initialLang && savedProgress.currentChapterId === urlChapter) {
@@ -185,7 +162,7 @@ export const Reader: React.FC<ReaderProps> = ({
           setActiveLanguage(route.lang);
         }
         const chapters = book.chapters?.[route.lang || ''] || [];
-        const flatChapters = flattenChapters(chapters);
+        const flatChapters = chapters | flatten;
         if (route.chapterId && flatChapters.some((c) => c.id === route.chapterId)) {
           setActiveChapterId(route.chapterId);
         } else {
@@ -216,7 +193,7 @@ export const Reader: React.FC<ReaderProps> = ({
       setSearchingAll(true);
       const contentsMap: Record<string, string> = {};
       const langChapters = book.chapters?.[activeLanguage] || [];
-    const flatLangChapters = flattenChapters(langChapters);
+    const flatLangChapters = langChapters | flatten;
       
       for (const chapter of flatLangChapters) {
         try {
@@ -250,7 +227,7 @@ export const Reader: React.FC<ReaderProps> = ({
     }
     
     const langChapters = book.chapters?.[activeLanguage] || [];
-    const flatLangChapters = flattenChapters(langChapters);
+    const flatLangChapters = langChapters | flatten;
     const activeChapter = flatLangChapters.find((c) => c.id === activeChapterId);
     if (!activeChapter) return;
 
@@ -311,7 +288,7 @@ export const Reader: React.FC<ReaderProps> = ({
       if (!book || !activeLanguage || settingsOpen || activeChapterId === '') return;
       
       const langChapters = book.chapters?.[activeLanguage] || [];
-    const flatLangChapters = flattenChapters(langChapters);
+    const flatLangChapters = langChapters | flatten;
       const currentIdx = flatLangChapters.findIndex((c) => c.id === activeChapterId);
       if (currentIdx === -1) return;
 
@@ -404,20 +381,18 @@ export const Reader: React.FC<ReaderProps> = ({
     if (!book) return;
 
     const currentLangChapters = book.chapters?.[activeLanguage] || [];
-    const flatCurrentChapters = flattenChapters(currentLangChapters);
-    const currentChapterIdx = flatCurrentChapters.findIndex((c) => c.id === activeChapterId);
+    const currentChapterIdx = currentLangChapters.findIndex((c) => c.id === activeChapterId);
     
     const targetLangChapters = book.chapters?.[newLang] || [];
-    const flatTargetChapters = flattenChapters(targetLangChapters);
     let targetChapterId = '';
     
     // Jump to the same chapter index in the new language
-    if (currentChapterIdx !== -1 && currentChapterIdx < flatTargetChapters.length) {
-      targetChapterId = flatTargetChapters[currentChapterIdx].id;
+    if (currentChapterIdx !== -1 && currentChapterIdx < targetLangChapters.length) {
+      targetChapterId = targetLangChapters[currentChapterIdx].id;
     } else if (activeChapterId === '') {
       targetChapterId = '';
-    } else if (flatTargetChapters.length > 0) {
-      targetChapterId = flatTargetChapters[0].id;
+    } else if (targetLangChapters.length > 0) {
+      targetChapterId = targetLangChapters[0].id;
     }
     
     // Compute current scroll percent to carry over
@@ -455,7 +430,7 @@ export const Reader: React.FC<ReaderProps> = ({
 
     const matches: typeof searchResults = [];
     const langChapters = book.chapters?.[activeLanguage] || [];
-    const flatLangChapters = flattenChapters(langChapters);
+    const flatLangChapters = langChapters | flatten;
     const chaptersToSearch = searchCurrentChapterOnly 
       ? flatLangChapters.filter(c => c.id === activeChapterId)
       : langChapters;
@@ -501,7 +476,7 @@ export const Reader: React.FC<ReaderProps> = ({
     if (!container) return;
 
     const langChapters = book.chapters?.[activeLanguage] || [];
-    const flatLangChapters = flattenChapters(langChapters);
+    const flatLangChapters = langChapters | flatten;
     const activeChapter = flatLangChapters.find((c) => c.id === activeChapterId);
     if (!activeChapter) return;
 
@@ -554,7 +529,7 @@ export const Reader: React.FC<ReaderProps> = ({
 
     if (book) {
       const langChapters = book.chapters?.[activeLanguage] || [];
-    const flatLangChapters = flattenChapters(langChapters);
+    const flatLangChapters = langChapters | flatten;
       const activeIdx = flatLangChapters.findIndex((c) => c.id === activeChapterId);
       const thisIdx = flatLangChapters.findIndex((c) => c.id === chapterId);
       if (activeIdx > thisIdx) return 100;
@@ -585,7 +560,7 @@ export const Reader: React.FC<ReaderProps> = ({
   }
 
   const langChapters = book.chapters?.[activeLanguage] || [];
-    const flatLangChapters = flattenChapters(langChapters);
+    const flatLangChapters = langChapters | flatten;
   const activeChapterIdx = flatLangChapters.findIndex((c) => c.id === activeChapterId);
   const activeChapter = flatLangChapters[activeChapterIdx];
   const hasPrevChapter = activeChapterIdx > 0;
@@ -1044,96 +1019,6 @@ export const Reader: React.FC<ReaderProps> = ({
     );
   };
 
-  const renderSidebarTOC = (chaptersList: Chapter[], level: number = 0) => {
-    return chaptersList.map(chapter => {
-      const isActive = chapter.id === activeChapterId;
-      const chapterReadPercent = getChapterProgressPercent(chapter.id);
-      const hasChildren = chapter.topics && chapter.topics.length > 0;
-      const isExpanded = expandedNodes.has(chapter.id);
-
-      return (
-        <React.Fragment key={chapter.id}>
-          <div style={{ display: 'flex', alignItems: 'center' }}>
-            <button
-              className={`toc-item ${isActive ? 'active' : ''}`}
-              onClick={() => handleNavigateToChapter(chapter.id)}
-              style={{ paddingLeft: `${16 + level * 16}px`, flex: 1 }}
-            >
-              <span className="toc-status-indicator"></span>
-              <div style={{ flex: 1, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <div>
-                  <div style={{ fontSize: level > 0 ? '0.9rem' : '1rem' }}>{chapter.title}</div>
-                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '2px' }}>
-                    {chapterReadPercent === 100 ? 'Completed' : chapterReadPercent > 0 ? `${chapterReadPercent}% read` : 'Unread'}
-                  </div>
-                </div>
-              </div>
-            </button>
-            {hasChildren && (
-              <button 
-                onClick={(e) => toggleNode(chapter.id, e)}
-                style={{ background: 'none', border: 'none', padding: '10px', cursor: 'pointer', color: 'var(--text-muted)' }}
-              >
-                {isExpanded ? <Minus size={14} /> : <Plus size={14} />}
-              </button>
-            )}
-          </div>
-          {hasChildren && isExpanded && renderSidebarTOC(chapter.topics!, level + 1)}
-        </React.Fragment>
-      );
-    });
-  };
-
-  const renderIntroTOC = (chaptersList: Chapter[], prefix: string = '', level: number = 0) => {
-    return chaptersList.map((chapter, index) => {
-      const progressPercent = getChapterProgressPercent(chapter.id);
-      const hasChildren = chapter.topics && chapter.topics.length > 0;
-      const isExpanded = expandedNodes.has(chapter.id);
-      const numStr = prefix ? `${prefix}.${index + 1}` : `${index + 1}`;
-
-      return (
-        <React.Fragment key={chapter.id}>
-          <div style={{ display: 'flex', gap: '8px', marginBottom: level > 0 ? '8px' : '0' }}>
-            <button
-              className={`intro-chapter-card ${level > 0 ? 'topic-card' : ''}`}
-              onClick={() => handleNavigateToChapter(chapter.id)}
-              style={{ 
-                flex: 1, 
-                marginLeft: `${level * 24}px`, 
-                padding: level > 0 ? '8px 12px' : '', 
-                background: level > 0 ? 'var(--bg-tertiary)' : '', 
-                border: level > 0 ? '1px solid var(--border)' : '', 
-                minHeight: level > 0 ? 'auto' : '' 
-              }}
-            >
-              <span className="intro-chapter-num" style={level > 0 ? { fontSize: '0.85rem', width: '24px', height: '24px' } : {}}>{numStr}</span>
-              <div className="intro-chapter-details">
-                <span className="intro-chapter-title" style={level > 0 ? { fontSize: '0.95rem' } : {}}>{chapter.title}</span>
-                <span className="intro-chapter-progress" style={level > 0 ? { fontSize: '0.75rem' } : {}}>
-                  {progressPercent === 100 ? 'Completed' : progressPercent > 0 ? `${progressPercent}% read` : 'Unread'}
-                </span>
-              </div>
-              <span className="intro-chapter-arrow">→</span>
-            </button>
-            {hasChildren && (
-              <button 
-                onClick={(e) => toggleNode(chapter.id, e)}
-                style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border)', borderRadius: '8px', padding: '0 12px', cursor: 'pointer', color: 'var(--text-muted)' }}
-              >
-                {isExpanded ? <Minus size={16} /> : <Plus size={16} />}
-              </button>
-            )}
-          </div>
-          {hasChildren && isExpanded && (
-            <div className="intro-topics-list" style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: level === 0 ? '16px' : '0', marginTop: level === 0 ? '8px' : '0' }}>
-              {renderIntroTOC(chapter.topics!, numStr, level + 1)}
-            </div>
-          )}
-        </React.Fragment>
-      );
-    });
-  };
-
   return (
     <div className="reader-layout" data-theme={settings.theme}>
       
@@ -1306,7 +1191,46 @@ export const Reader: React.FC<ReaderProps> = ({
                   <div style={{ fontWeight: 600 }}>{getAboutLabel(activeLanguage)}</div>
                 </div>
               </button>
-              {renderSidebarTOC(langChapters)}
+              {langChapters.map((chapter) => {
+                const isActive = chapter.id === activeChapterId;
+                const chapterReadPercent = getChapterProgressPercent(chapter.id);
+                return (
+                  <React.Fragment key={chapter.id}>
+                    <button
+                      className={`toc-item ${isActive ? 'active' : ''}`}
+                      onClick={() => handleNavigateToChapter(chapter.id)}
+                    >
+                      <span className="toc-status-indicator"></span>
+                      <div style={{ flex: 1 }}>
+                        <div>{chapter.title}</div>
+                        <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '2px' }}>
+                          {chapterReadPercent === 100 ? 'Completed' : chapterReadPercent > 0 ? `${chapterReadPercent}% read` : 'Unread'}
+                        </div>
+                      </div>
+                    </button>
+                    {chapter.topics && chapter.topics.length > 0 && chapter.topics.map(topic => {
+                      const isTopicActive = topic.id === activeChapterId;
+                      const topicReadPercent = getChapterProgressPercent(topic.id);
+                      return (
+                        <button
+                          key={topic.id}
+                          className={`toc-item ${isTopicActive ? 'active' : ''}`}
+                          onClick={() => handleNavigateToChapter(topic.id)}
+                          style={{ paddingLeft: '32px' }}
+                        >
+                          <span className="toc-status-indicator"></span>
+                          <div style={{ flex: 1 }}>
+                            <div style={{ fontSize: '0.9rem' }}>{topic.title}</div>
+                            <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '2px' }}>
+                              {topicReadPercent === 100 ? 'Completed' : topicReadPercent > 0 ? `${topicReadPercent}% read` : 'Unread'}
+                            </div>
+                          </div>
+                        </button>
+                      );
+                    })}
+                  </React.Fragment>
+                );
+              })}
             </div>
           )}
 
@@ -1611,7 +1535,50 @@ export const Reader: React.FC<ReaderProps> = ({
                 <div className="book-intro-chapters-section">
                   <h2 className="chapters-section-title">Table of Contents</h2>
                   <div className="intro-chapters-list">
-                    {renderIntroTOC(langChapters)}
+                    {langChapters.map((chapter, index) => {
+                      const progressPercent = getChapterProgressPercent(chapter.id);
+                      return (
+                        <React.Fragment key={chapter.id}>
+                          <button
+                            className="intro-chapter-card"
+                            onClick={() => handleNavigateToChapter(chapter.id)}
+                          >
+                            <span className="intro-chapter-num">{index + 1}</span>
+                            <div className="intro-chapter-details">
+                              <span className="intro-chapter-title">{chapter.title}</span>
+                              <span className="intro-chapter-progress">
+                                {progressPercent === 100 ? 'Completed' : progressPercent > 0 ? `${progressPercent}% read` : 'Unread'}
+                              </span>
+                            </div>
+                            <span className="intro-chapter-arrow">→</span>
+                          </button>
+                          {chapter.topics && chapter.topics.length > 0 && (
+                            <div className="intro-topics-list" style={{ paddingLeft: '24px', display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '16px' }}>
+                              {chapter.topics.map((topic, tIndex) => {
+                                const topicProgressPercent = getChapterProgressPercent(topic.id);
+                                return (
+                                  <button
+                                    key={topic.id}
+                                    className="intro-chapter-card topic-card"
+                                    onClick={() => handleNavigateToChapter(topic.id)}
+                                    style={{ padding: '8px 12px', background: 'var(--bg-tertiary)', border: '1px solid var(--border)', minHeight: 'auto' }}
+                                  >
+                                    <span className="intro-chapter-num" style={{ fontSize: '0.85rem', width: '24px', height: '24px' }}>{index + 1}.{tIndex + 1}</span>
+                                    <div className="intro-chapter-details">
+                                      <span className="intro-chapter-title" style={{ fontSize: '0.95rem' }}>{topic.title}</span>
+                                      <span className="intro-chapter-progress" style={{ fontSize: '0.75rem' }}>
+                                        {topicProgressPercent === 100 ? 'Completed' : topicProgressPercent > 0 ? `${topicProgressPercent}% read` : 'Unread'}
+                                      </span>
+                                    </div>
+                                    <span className="intro-chapter-arrow">→</span>
+                                  </button>
+                                );
+                              })}
+                            </div>
+                          )}
+                        </React.Fragment>
+                      );
+                    })}
                   </div>
                 </div>
               </div>
