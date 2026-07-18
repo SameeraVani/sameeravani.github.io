@@ -27,7 +27,7 @@ Here we present the declensions of important nouns and pronouns in Sanskrit alon
 | Case | Singular | Dual | Plural | Meaning (Singular) | Meaning (Dual) | Meaning (Plural) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Prathamā** | हरिः | हरी | हरयः | Hari [Subject] | two Haris | Haris |
-| **Dvitīyā** | हरिम | हरी | हरीन् | to Hari [Object] | to two Haris | to Haris |
+| **Dvitīyā** | हरिम् | हरी | हरीन् | to Hari [Object] | to two Haris | to Haris |
 | **Tṛtīyā** | हरिणा | हरिभ्याम् | हरिभिः | by Hari | by two Haris | by Haris |
 | **Caturthī** | हरये | हरिभ्याम् | हरिभ्यः | for Hari | for two Haris | for Haris |
 | **Pañcamī** | हरेः | हरिभ्याम् | हरिभ्यः | from Hari | from two Haris | from Haris |
