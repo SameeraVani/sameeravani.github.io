@@ -2,6 +2,7 @@ export interface Chapter {
   id: string;
   title: string;
   path: string;
+  shlokaLabel?: string;
   topics?: Chapter[];
 }
 
@@ -23,10 +24,12 @@ export interface Book {
   languages: string[]; // List of supported languages, e.g., ['english', 'sanskrit']
   title: string; // Default title
   description: string; // Default description
+  shlokaLabel?: string;
   localized?: {
     [lang: string]: {
       title: string;
       description: string;
+      shlokaLabel?: string;
     };
   };
   chapters?: {

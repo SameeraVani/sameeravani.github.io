@@ -4,14 +4,14 @@ import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import { parseRoute, getUrlForRoute } from '../utils/route';
 import type { Book, Chapter, ReaderSettings, Bookmark, BookReadingProgress } from '../types';
-import { 
-  Settings, 
-  Bookmark as BookmarkIcon, 
-  Search, 
-  Plus, 
-  Minus, 
-  Home, 
-  List, 
+import {
+  Settings,
+  Bookmark as BookmarkIcon,
+  Search,
+  Plus,
+  Minus,
+  Home,
+  List,
   Trash2,
   ExternalLink,
   Share2,
@@ -89,7 +89,7 @@ export const Reader: React.FC<ReaderProps> = ({
   const [settings, setSettings] = useState<ReaderSettings>(() => {
     const local = localStorage.getItem('reader-settings');
     if (local) {
-      try { return JSON.parse(local); } catch(e) {}
+      try { return JSON.parse(local); } catch (e) { }
     }
     return {
       theme: 'sepia',
@@ -127,7 +127,7 @@ export const Reader: React.FC<ReaderProps> = ({
         if (!found) throw new Error('Book not found in catalog.');
         setBook(found);
         setLoadingBook(false);
-        
+
         // Initialize language and chapter selection
         const route = parseRoute();
         const urlLang = route.lang;
@@ -214,13 +214,13 @@ export const Reader: React.FC<ReaderProps> = ({
   // Pre-load active language chapters content in the background for full-text search indexing
   useEffect(() => {
     if (!book || !activeLanguage) return;
-    
+
     const loadAllContent = async () => {
       setSearchingAll(true);
       const contentsMap: Record<string, string> = {};
       const langChapters = book.chapters?.[activeLanguage] || [];
-    const flatLangChapters = flattenChapters(langChapters);
-      
+      const flatLangChapters = flattenChapters(langChapters);
+
       for (const chapter of flatLangChapters) {
         try {
           const res = await fetch(`${import.meta.env.BASE_URL}${chapter.path}?t=${Date.now()}`);
@@ -242,7 +242,7 @@ export const Reader: React.FC<ReaderProps> = ({
   // Load active chapter markdown
   useEffect(() => {
     if (!book || !activeLanguage) return;
-    
+
     if (activeChapterId === '') {
       setChapterContent('');
       setShlokas([]);
@@ -252,7 +252,7 @@ export const Reader: React.FC<ReaderProps> = ({
       window.dispatchEvent(new Event('locationchange'));
       return;
     }
-    
+
     const langChapters = book.chapters?.[activeLanguage] || [];
     const flatLangChapters = flattenChapters(langChapters);
     const activeChapter = flatLangChapters.find((c) => c.id === activeChapterId);
@@ -306,15 +306,15 @@ export const Reader: React.FC<ReaderProps> = ({
   // Track scrolling and update progress in real time
   const handleScroll = () => {
     if (!book || !activeLanguage || !activeChapterId || loadingChapter || restoreScrollPercent !== null) return;
-    
+
     const container = scrollContainerRef.current;
     if (!container) return;
 
     const { scrollTop, scrollHeight, clientHeight } = container;
-    
+
     const maxScroll = scrollHeight - clientHeight;
     const scrollPercent = maxScroll > 0 ? (scrollTop / maxScroll) * 100 : 0;
-    
+
     onUpdateProgress(book.id, activeLanguage, activeChapterId, scrollPercent);
   };
 
@@ -322,9 +322,9 @@ export const Reader: React.FC<ReaderProps> = ({
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!book || !activeLanguage || settingsOpen || activeChapterId === '') return;
-      
+
       const langChapters = book.chapters?.[activeLanguage] || [];
-    const flatLangChapters = flattenChapters(langChapters);
+      const flatLangChapters = flattenChapters(langChapters);
       const currentIdx = flatLangChapters.findIndex((c) => c.id === activeChapterId);
       if (currentIdx === -1) return;
 
@@ -419,11 +419,11 @@ export const Reader: React.FC<ReaderProps> = ({
     const currentLangChapters = book.chapters?.[activeLanguage] || [];
     const flatCurrentChapters = flattenChapters(currentLangChapters);
     const currentChapterIdx = flatCurrentChapters.findIndex((c) => c.id === activeChapterId);
-    
+
     const targetLangChapters = book.chapters?.[newLang] || [];
     const flatTargetChapters = flattenChapters(targetLangChapters);
     let targetChapterId = '';
-    
+
     // Jump to the same chapter index in the new language
     if (currentChapterIdx !== -1 && currentChapterIdx < flatTargetChapters.length) {
       targetChapterId = flatTargetChapters[currentChapterIdx].id;
@@ -432,7 +432,7 @@ export const Reader: React.FC<ReaderProps> = ({
     } else if (flatTargetChapters.length > 0) {
       targetChapterId = flatTargetChapters[0].id;
     }
-    
+
     // Compute current scroll percent to carry over
     let scrollPercent = 0;
     const container = scrollContainerRef.current;
@@ -446,7 +446,7 @@ export const Reader: React.FC<ReaderProps> = ({
     onChangeLanguage?.(newLang);
     setActiveChapterId(targetChapterId);
     setRestoreScrollPercent(scrollPercent);
-    
+
     // Sync immediate storage update
     if (targetChapterId) {
       onUpdateProgress(book.id, newLang, targetChapterId, scrollPercent);
@@ -469,7 +469,7 @@ export const Reader: React.FC<ReaderProps> = ({
     const matches: typeof searchResults = [];
     const langChapters = book.chapters?.[activeLanguage] || [];
     const flatLangChapters = flattenChapters(langChapters);
-    const chaptersToSearch = searchCurrentChapterOnly 
+    const chaptersToSearch = searchCurrentChapterOnly
       ? flatLangChapters.filter(c => c.id === activeChapterId)
       : langChapters;
 
@@ -483,7 +483,7 @@ export const Reader: React.FC<ReaderProps> = ({
         const start = Math.max(0, pos - 40);
         const end = Math.min(content.length, pos + query.length + 40);
         let snippet = content.substring(start, end);
-        
+
         if (start > 0) snippet = '...' + snippet;
         if (end < content.length) snippet = snippet + '...';
 
@@ -560,14 +560,14 @@ export const Reader: React.FC<ReaderProps> = ({
       const maxScroll = scrollHeight - clientHeight;
       return maxScroll > 0 ? Math.round((scrollTop / maxScroll) * 100) : 0;
     }
-    
+
     if (savedProgress && savedProgress.currentLanguage === activeLanguage && savedProgress.currentChapterId === chapterId) {
       return Math.round(savedProgress.scrollPercent);
     }
 
     if (book) {
       const langChapters = book.chapters?.[activeLanguage] || [];
-    const flatLangChapters = flattenChapters(langChapters);
+      const flatLangChapters = flattenChapters(langChapters);
       const activeIdx = flatLangChapters.findIndex((c) => c.id === activeChapterId);
       const thisIdx = flatLangChapters.findIndex((c) => c.id === chapterId);
       if (activeIdx > thisIdx) return 100;
@@ -598,7 +598,7 @@ export const Reader: React.FC<ReaderProps> = ({
   }
 
   const langChapters = book.chapters?.[activeLanguage] || [];
-    const flatLangChapters = flattenChapters(langChapters);
+  const flatLangChapters = flattenChapters(langChapters);
   const activeChapterIdx = flatLangChapters.findIndex((c) => c.id === activeChapterId);
   const activeChapter = flatLangChapters[activeChapterIdx];
   const hasPrevChapter = activeChapterIdx > 0;
@@ -609,8 +609,8 @@ export const Reader: React.FC<ReaderProps> = ({
 
   // Compute total reading progress for top-bar bar
   const totalChapters = langChapters.length;
-  const currentProgressPercent = activeChapterIdx !== -1 
-    ? Math.round(((activeChapterIdx + (scrollContainerRef.current ? (scrollContainerRef.current.scrollTop / (scrollContainerRef.current.scrollHeight - scrollContainerRef.current.clientHeight || 1)) : 0)) / totalChapters) * 100) 
+  const currentProgressPercent = activeChapterIdx !== -1
+    ? Math.round(((activeChapterIdx + (scrollContainerRef.current ? (scrollContainerRef.current.scrollTop / (scrollContainerRef.current.scrollHeight - scrollContainerRef.current.clientHeight || 1)) : 0)) / totalChapters) * 100)
     : 0;
 
   // Localized title & description if available
@@ -691,7 +691,7 @@ export const Reader: React.FC<ReaderProps> = ({
     for (const el of candidates) {
       const text = el.textContent || '';
       const normalizedText = text.trim().toLowerCase();
-      
+
       const cleanText = normalizedText.replace(/[\*\_\`\#]/g, '').trim();
       const cleanPrefix = normalizedPrefix.replace(/[\*\_\`\#]/g, '').trim();
 
@@ -1083,7 +1083,7 @@ export const Reader: React.FC<ReaderProps> = ({
               </div>
             </button>
             {hasChildren && (
-              <button 
+              <button
                 onClick={(e) => toggleNode(chapter.id, e)}
                 style={{ background: 'none', border: 'none', padding: '10px', cursor: 'pointer', color: 'var(--text-muted)' }}
               >
@@ -1110,13 +1110,13 @@ export const Reader: React.FC<ReaderProps> = ({
             <button
               className={`intro-chapter-card ${level > 0 ? 'topic-card' : ''}`}
               onClick={() => handleNavigateToChapter(chapter.id)}
-              style={{ 
-                flex: 1, 
-                marginLeft: `${level * 24}px`, 
-                padding: level > 0 ? '8px 12px' : '', 
-                background: level > 0 ? 'var(--bg-tertiary)' : '', 
-                border: level > 0 ? '1px solid var(--border)' : '', 
-                minHeight: level > 0 ? 'auto' : '' 
+              style={{
+                flex: 1,
+                marginLeft: `${level * 24}px`,
+                padding: level > 0 ? '8px 12px' : '',
+                background: level > 0 ? 'var(--bg-tertiary)' : '',
+                border: level > 0 ? '1px solid var(--border)' : '',
+                minHeight: level > 0 ? 'auto' : ''
               }}
             >
               <span className="intro-chapter-num" style={level > 0 ? { fontSize: '0.85rem', width: '24px', height: '24px' } : {}}>{numStr}</span>
@@ -1129,7 +1129,7 @@ export const Reader: React.FC<ReaderProps> = ({
               <span className="intro-chapter-arrow">→</span>
             </button>
             {hasChildren && (
-              <button 
+              <button
                 onClick={(e) => toggleNode(chapter.id, e)}
                 style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border)', borderRadius: '8px', padding: '0 12px', cursor: 'pointer', color: 'var(--text-muted)' }}
               >
@@ -1149,15 +1149,15 @@ export const Reader: React.FC<ReaderProps> = ({
 
   return (
     <div className="reader-layout" data-theme={settings.theme}>
-      
+
       {/* Sidebar Backdrop Overlay on Mobile */}
       {sidebarOpen && (
-        <div 
-          className="sidebar-backdrop" 
+        <div
+          className="sidebar-backdrop"
           onClick={() => setSidebarOpen(false)}
         ></div>
       )}
-      
+
       {/* Top Navbar */}
       <nav className="reader-topbar" id="reader-navigation">
         <div className="topbar-left" style={{ display: 'flex', alignItems: 'center' }}>
@@ -1210,24 +1210,24 @@ export const Reader: React.FC<ReaderProps> = ({
         </div>
 
         <div className="topbar-right">
-          <button 
-            className={`icon-btn ${sidebarOpen ? 'active' : ''}`} 
+          <button
+            className={`icon-btn ${sidebarOpen ? 'active' : ''}`}
             onClick={() => setSidebarOpen(!sidebarOpen)}
             title="Toggle Sidebar"
           >
             <List size={18} />
           </button>
 
-          <button 
-            className="icon-btn" 
+          <button
+            className="icon-btn"
             onClick={handleAddBookmarkClick}
             title="Bookmark this page"
           >
             <BookmarkIcon size={18} />
           </button>
 
-          <button 
-            className="icon-btn" 
+          <button
+            className="icon-btn"
             onClick={handleShare}
             title="Share this page link"
             style={{ position: 'relative' }}
@@ -1260,12 +1260,12 @@ export const Reader: React.FC<ReaderProps> = ({
               title="Download chapter as PDF"
               disabled={isDownloadingPdf}
             >
-              {isDownloadingPdf ? <div className="spinner" style={{width: 14, height: 14, borderWidth: 2, margin: 2}}></div> : <Download size={18} />}
+              {isDownloadingPdf ? <div className="spinner" style={{ width: 14, height: 14, borderWidth: 2, margin: 2 }}></div> : <Download size={18} />}
             </button>
           )}
 
-          <button 
-            className={`icon-btn ${settingsOpen ? 'active' : ''}`} 
+          <button
+            className={`icon-btn ${settingsOpen ? 'active' : ''}`}
             onClick={() => setSettingsOpen(!settingsOpen)}
             title="Reading Preferences"
           >
@@ -1274,8 +1274,8 @@ export const Reader: React.FC<ReaderProps> = ({
         </div>
 
         {/* Global Book progress bar line at top */}
-        <div 
-          className="reading-progress-top" 
+        <div
+          className="reading-progress-top"
           style={{ width: `${Math.min(Math.max(currentProgressPercent, 0), 100)}%` }}
         ></div>
       </nav>
@@ -1283,21 +1283,21 @@ export const Reader: React.FC<ReaderProps> = ({
       {/* Collapsible Sidebar */}
       <aside className={`reader-sidebar ${sidebarOpen ? '' : 'collapsed'}`} id="reader-sidebar-panel">
         <div className="sidebar-tabs">
-          <button 
+          <button
             className={`sidebar-tab ${sidebarTab === 'toc' ? 'active' : ''}`}
             onClick={() => setSidebarTab('toc')}
           >
             <List size={16} />
             <span>Index</span>
           </button>
-          <button 
+          <button
             className={`sidebar-tab ${sidebarTab === 'search' ? 'active' : ''}`}
             onClick={() => setSidebarTab('search')}
           >
             <Search size={16} />
             <span>Search</span>
           </button>
-          <button 
+          <button
             className={`sidebar-tab ${sidebarTab === 'bookmarks' ? 'active' : ''}`}
             onClick={() => setSidebarTab('bookmarks')}
           >
@@ -1336,7 +1336,7 @@ export const Reader: React.FC<ReaderProps> = ({
                 />
                 <Search size={16} className="search-icon" style={{ left: '12px' }} />
               </div>
-              
+
               <label style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.8rem', color: 'var(--text-secondary)', marginBottom: '16px', cursor: 'pointer' }}>
                 <input
                   type="checkbox"
@@ -1368,11 +1368,11 @@ export const Reader: React.FC<ReaderProps> = ({
                         {(() => {
                           const queryIndex = result.snippet.toLowerCase().indexOf(searchQuery.toLowerCase());
                           if (queryIndex === -1) return result.snippet;
-                          
+
                           const startText = result.snippet.substring(0, queryIndex);
                           const matchText = result.snippet.substring(queryIndex, queryIndex + searchQuery.length);
                           const endText = result.snippet.substring(queryIndex + searchQuery.length);
-                          
+
                           return (
                             <>
                               {startText}
@@ -1404,14 +1404,14 @@ export const Reader: React.FC<ReaderProps> = ({
                     </div>
                     <p className="bookmark-snippet">"{bookmark.textSnippet}"</p>
                     <div className="bookmark-actions">
-                      <button 
+                      <button
                         className="bookmark-go-btn"
                         onClick={() => handleNavigateToBookmark(bookmark)}
                       >
                         <span>Jump to page</span>
                         <ExternalLink size={12} />
                       </button>
-                      <button 
+                      <button
                         className="bookmark-delete-btn"
                         onClick={() => onDeleteBookmark(bookmark.id)}
                         title="Delete Bookmark"
@@ -1452,16 +1452,16 @@ export const Reader: React.FC<ReaderProps> = ({
           <div>
             <h3 className="settings-section-title">Font Size</h3>
             <div className="size-control">
-              <button 
-                className="size-btn" 
+              <button
+                className="size-btn"
                 onClick={() => updateSettings({ fontSize: Math.max(14, settings.fontSize - 1) })}
                 disabled={settings.fontSize <= 14}
               >
                 <Minus size={14} />
               </button>
               <span className="size-display">{settings.fontSize}px</span>
-              <button 
-                className="size-btn" 
+              <button
+                className="size-btn"
                 onClick={() => updateSettings({ fontSize: Math.min(26, settings.fontSize + 1) })}
                 disabled={settings.fontSize >= 26}
               >
@@ -1520,186 +1520,193 @@ export const Reader: React.FC<ReaderProps> = ({
             </div>
           </div>
         ) : (
-          <div 
-            className="reader-content-scroll" 
+          <div
+            className="reader-content-scroll"
             ref={scrollContainerRef}
             onScroll={handleScroll}
             id="reader-text-container"
           >
             <div className="reader-content-width">
-            {loadingChapter ? (
-              <div className="loader-container">
-                <div className="spinner"></div>
-                <p>Opening chapter pages...</p>
-              </div>
-            ) : activeChapterId === '' ? (
-              <div className="book-intro-container">
-                <div className="book-intro-card">
-                  <div className="book-intro-cover-wrapper">
-                    <img 
-                      src={`${import.meta.env.BASE_URL}${book.coverUrl}`} 
-                      alt={displayTitle} 
-                      className="book-intro-cover" 
-                    />
-                  </div>
-                  <div className="book-intro-info">
-                    <h1 className="book-intro-title">{displayTitle}</h1>
-                    <div className="book-intro-author">By {book.author}</div>
-                    
-                    <div className="book-intro-meta">
-                      <span className="intro-meta-item">{book.genre}</span>
-                      <span className="intro-meta-divider">•</span>
-                      <span className="intro-meta-item">{book.year}</span>
+              {loadingChapter ? (
+                <div className="loader-container">
+                  <div className="spinner"></div>
+                  <p>Opening chapter pages...</p>
+                </div>
+              ) : activeChapterId === '' ? (
+                <div className="book-intro-container">
+                  <div className="book-intro-card">
+                    <div className="book-intro-cover-wrapper">
+                      <img
+                        src={`${import.meta.env.BASE_URL}${book.coverUrl}`}
+                        alt={displayTitle}
+                        className="book-intro-cover"
+                      />
                     </div>
-                    
-                    <p className="book-intro-desc">
-                      {book.localized?.[activeLanguage]?.description || book.description}
-                    </p>
-                    
-                    <div className="book-intro-actions">
-                      <button 
-                        className="intro-btn-primary" 
-                        onClick={() => {
-                          if (flatLangChapters.length > 0) {
-                            handleNavigateToChapter(flatLangChapters[0].id);
-                          }
-                        }}
-                      >
-                        Start Reading
-                      </button>
+                    <div className="book-intro-info">
+                      <h1 className="book-intro-title">{displayTitle}</h1>
+                      <div className="book-intro-author">By {book.author}</div>
 
-                      {bookId === 'sanskrit-learner' && (
+                      <div className="book-intro-meta">
+                        <span className="intro-meta-item">{book.genre}</span>
+                        <span className="intro-meta-divider">•</span>
+                        <span className="intro-meta-item">{book.year}</span>
+                      </div>
+
+                      <p className="book-intro-desc">
+                        {book.localized?.[activeLanguage]?.description || book.description}
+                      </p>
+
+                      <div className="book-intro-actions">
                         <button
                           className="intro-btn-primary"
-                          onClick={() => setPracticeMode(true)}
-                          style={{ background: '#4ade80' }}
-                        >
-                          <Gamepad size={18} style={{ marginRight: '6px', verticalAlign: 'middle' }} />
-                          Practice Mode
-                        </button>
-                      )}
-                      
-                      {savedProgress && savedProgress.currentLanguage === activeLanguage && (
-                        <button 
-                          className="intro-btn-secondary"
                           onClick={() => {
-                            handleNavigateToChapter(savedProgress.currentChapterId, savedProgress.scrollPercent);
+                            if (flatLangChapters.length > 0) {
+                              handleNavigateToChapter(flatLangChapters[0].id);
+                            }
                           }}
                         >
-                          Resume: {Math.round(savedProgress.scrollPercent)}% (Chapter {
-                            (() => {
-                              const chIdx = flatLangChapters.findIndex(c => c.id === savedProgress.currentChapterId);
-                              return chIdx !== -1 ? chIdx + 1 : 1;
-                            })()
-                          })
+                          Start Reading
                         </button>
-                      )}
-                      
-                      <button
-                        className="intro-btn-secondary"
-                        onClick={async () => {
-                          const filename = `${book.id}-${activeLanguage}.pdf`;
-                          // Acquire the file handle immediately while user gesture is fresh
-                          const fileHandle = await acquireSaveFileHandle(filename);
-                          setIsDownloadingPdf(true);
-                          try {
-                            await downloadFullBookAsPdf(book, activeLanguage, fileHandle);
-                          } finally {
-                            setIsDownloadingPdf(false);
-                          }
-                        }}
-                        title={`Download entire book as PDF in ${activeLanguage}`}
-                        disabled={isDownloadingPdf}
-                      >
-                        {isDownloadingPdf ? (
-                          <><div className="spinner" style={{width: 14, height: 14, borderWidth: 2, marginRight: '6px', display: 'inline-block', verticalAlign: 'middle'}}></div> Generating PDF...</>
-                        ) : (
-                          <><Download size={16} style={{ marginRight: '6px' }} /> Download PDF</>
+
+                        {bookId === 'sanskrit-learner' && (
+                          <button
+                            className="intro-btn-primary"
+                            onClick={() => setPracticeMode(true)}
+                            style={{ background: '#4ade80' }}
+                          >
+                            <Gamepad size={18} style={{ marginRight: '6px', verticalAlign: 'middle' }} />
+                            Practice Mode
+                          </button>
                         )}
-                      </button>
+
+                        {savedProgress && savedProgress.currentLanguage === activeLanguage && (
+                          <button
+                            className="intro-btn-secondary"
+                            onClick={() => {
+                              handleNavigateToChapter(savedProgress.currentChapterId, savedProgress.scrollPercent);
+                            }}
+                          >
+                            Resume: {Math.round(savedProgress.scrollPercent)}% (Chapter {
+                              (() => {
+                                const chIdx = flatLangChapters.findIndex(c => c.id === savedProgress.currentChapterId);
+                                return chIdx !== -1 ? chIdx + 1 : 1;
+                              })()
+                            })
+                          </button>
+                        )}
+
+                        <button
+                          className="intro-btn-secondary"
+                          onClick={async () => {
+                            const filename = `${book.id}-${activeLanguage}.pdf`;
+                            // Acquire the file handle immediately while user gesture is fresh
+                            const fileHandle = await acquireSaveFileHandle(filename);
+                            setIsDownloadingPdf(true);
+                            try {
+                              await downloadFullBookAsPdf(book, activeLanguage, fileHandle);
+                            } finally {
+                              setIsDownloadingPdf(false);
+                            }
+                          }}
+                          title={`Download entire book as PDF in ${activeLanguage}`}
+                          disabled={isDownloadingPdf}
+                        >
+                          {isDownloadingPdf ? (
+                            <><div className="spinner" style={{ width: 14, height: 14, borderWidth: 2, marginRight: '6px', display: 'inline-block', verticalAlign: 'middle' }}></div> Generating PDF...</>
+                          ) : (
+                            <><Download size={16} style={{ marginRight: '6px' }} /> Download PDF</>
+                          )}
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="book-intro-chapters-section">
+                    <h2 className="chapters-section-title">Table of Contents</h2>
+                    <div className="intro-chapters-list">
+                      {renderIntroTOC(langChapters)}
                     </div>
                   </div>
                 </div>
-
-                <div className="book-intro-chapters-section">
-                  <h2 className="chapters-section-title">Table of Contents</h2>
-                  <div className="intro-chapters-list">
-                    {renderIntroTOC(langChapters)}
-                  </div>
-                </div>
-              </div>
-            ) : (
-              <>
-                {renderGrammarDashboard()}
-                <ShlokaDashboard
-                  shlokas={shlokas}
-                  activeLanguage={activeLanguage}
-                  onSelectShloka={handleSelectShloka}
-                />
-                <article 
-                  className={`reader-markdown read-font-${settings.fontFamily} lh-${settings.lineHeight}`}
-                  style={{ fontSize: `${settings.fontSize}px` }}
-                >
-                  <ReactMarkdown 
-                    remarkPlugins={[remarkGfm]} 
-                    rehypePlugins={[rehypeRaw]}
-                    components={{
-                      img: ({ node, src, ...props }) => {
-                        let resolvedSrc = src;
-                        if (src && !src.startsWith('http://') && !src.startsWith('https://') && !src.startsWith('/')) {
-                          resolvedSrc = `${import.meta.env.BASE_URL}${src}`;
-                        }
-                        return <img src={resolvedSrc} {...props} style={{ maxWidth: '100%', height: 'auto' }} />;
-                      }
-                    }}
+              ) : (
+                <>
+                  {renderGrammarDashboard()}
+                  <ShlokaDashboard
+                    shlokas={shlokas}
+                    activeLanguage={activeLanguage}
+                    customLabel={
+                      (() => {
+                        const flatLangChapters = flattenChapters(book.chapters?.[activeLanguage] || []);
+                        const activeChapter = flatLangChapters.find((c) => c.id === activeChapterId);
+                        return activeChapter?.shlokaLabel || book.localized?.[activeLanguage]?.shlokaLabel || book.shlokaLabel;
+                      })()
+                    }
+                    onSelectShloka={handleSelectShloka}
+                  />
+                  <article
+                    className={`reader-markdown read-font-${settings.fontFamily} lh-${settings.lineHeight}`}
+                    style={{ fontSize: `${settings.fontSize}px` }}
                   >
-                    {chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, '')}
-                  </ReactMarkdown>
+                    <ReactMarkdown
+                      remarkPlugins={[remarkGfm]}
+                      rehypePlugins={[rehypeRaw]}
+                      components={{
+                        img: ({ node, src, ...props }) => {
+                          let resolvedSrc = src;
+                          if (src && !src.startsWith('http://') && !src.startsWith('https://') && !src.startsWith('/')) {
+                            resolvedSrc = `${import.meta.env.BASE_URL}${src}`;
+                          }
+                          return <img src={resolvedSrc} {...props} style={{ maxWidth: '100%', height: 'auto' }} />;
+                        }
+                      }}
+                    >
+                      {chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, '')}
+                    </ReactMarkdown>
 
-                  {/* Next / Prev Chapter buttons */}
-                  <div className="chapter-nav-buttons">
-                    {hasPrevChapter ? (
-                      <button 
-                        className="nav-btn prev"
-                        onClick={() => handleNavigateToChapter(flatLangChapters[activeChapterIdx - 1].id)}
-                      >
-                        <span className="nav-btn-label">Previous Chapter</span>
-                        <span className="nav-btn-title">{flatLangChapters[activeChapterIdx - 1].title}</span>
-                      </button>
-                    ) : (
-                      <button 
-                        className="nav-btn prev"
-                        onClick={handleNavigateToIntro}
-                      >
-                        <span className="nav-btn-label">Book Info</span>
-                        <span className="nav-btn-title">About this Book</span>
-                      </button>
-                    )}
+                    {/* Next / Prev Chapter buttons */}
+                    <div className="chapter-nav-buttons">
+                      {hasPrevChapter ? (
+                        <button
+                          className="nav-btn prev"
+                          onClick={() => handleNavigateToChapter(flatLangChapters[activeChapterIdx - 1].id)}
+                        >
+                          <span className="nav-btn-label">Previous Chapter</span>
+                          <span className="nav-btn-title">{flatLangChapters[activeChapterIdx - 1].title}</span>
+                        </button>
+                      ) : (
+                        <button
+                          className="nav-btn prev"
+                          onClick={handleNavigateToIntro}
+                        >
+                          <span className="nav-btn-label">Book Info</span>
+                          <span className="nav-btn-title">About this Book</span>
+                        </button>
+                      )}
 
-                    {hasNextChapter ? (
-                      <button 
-                        className="nav-btn next"
-                        onClick={() => handleNavigateToChapter(flatLangChapters[activeChapterIdx + 1].id)}
-                      >
-                        <span className="nav-btn-label">Next Chapter</span>
-                        <span className="nav-btn-title">{flatLangChapters[activeChapterIdx + 1].title}</span>
-                      </button>
-                    ) : (
-                      <button className="nav-btn next" onClick={onBack}>
-                        <span className="nav-btn-label">Finish Reading</span>
-                        <span className="nav-btn-title">Return to Bookshelf</span>
-                      </button>
-                    )}
-                  </div>
-                </article>
-              </>
-            )}
+                      {hasNextChapter ? (
+                        <button
+                          className="nav-btn next"
+                          onClick={() => handleNavigateToChapter(flatLangChapters[activeChapterIdx + 1].id)}
+                        >
+                          <span className="nav-btn-label">Next Chapter</span>
+                          <span className="nav-btn-title">{flatLangChapters[activeChapterIdx + 1].title}</span>
+                        </button>
+                      ) : (
+                        <button className="nav-btn next" onClick={onBack}>
+                          <span className="nav-btn-label">Finish Reading</span>
+                          <span className="nav-btn-title">Return to Bookshelf</span>
+                        </button>
+                      )}
+                    </div>
+                  </article>
+                </>
+              )}
+            </div>
           </div>
-        </div>
         )}
 
         {/* Go to Top floating button */}
-        <button 
+        <button
           className="go-to-top-btn"
           onClick={() => {
             if (scrollContainerRef.current) {

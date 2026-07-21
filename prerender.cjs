@@ -40,17 +40,21 @@ const catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
 
 function extractSnippet(markdownContent) {
   if (!markdownContent) return '';
+  // Strip YAML frontmatter
+  let text = markdownContent.replace(/^---[\s\S]*?---\r?\n/, '');
+  // Strip GitHub alerts like > [!NOTE], > [!TIP], etc.
+  text = text.replace(/>\s*\[\!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]/gi, ' ');
   // Strip HTML tags
-  let text = markdownContent.replace(/<[^>]*>/g, ' ');
-  // Strip Markdown headers, lists, symbols
-  text = text.replace(/^[#\-\*\d\.\s]+/gm, ' ');
-  text = text.replace(/[\*\#\`\-\_]+/g, ' ');
+  text = text.replace(/<[^>]*>/g, ' ');
+  // Strip Markdown headers, blockquotes, lists, symbols
+  text = text.replace(/^[#\-\*\d\.\>\s]+/gm, ' ');
+  text = text.replace(/[\*\#\`\-\_\>]+/g, ' ');
   text = text.replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1');
   text = text.replace(/\s+/g, ' ').trim();
   if (text.length > 155) {
-    return text.substring(0, 155) + '...';
+    text = text.substring(0, 155) + '...';
   }
-  return text;
+  return text.replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
 function writePage(subPath, title, description, coverImage) {
@@ -64,18 +68,21 @@ function writePage(subPath, title, description, coverImage) {
   const fullUrl = `${domainUrl}${cleanBaseUrl}${cleanSubPath}`;
   const absoluteCoverUrl = `${domainUrl}/${coverImage}`;
 
+  const safeTitle = (title || '').replace(/"/g, '&quot;');
+  const safeDescription = (description || '').replace(/"/g, '&quot;');
+
   // Replace metadata in template
   let html = template;
 
   // Title replacement
-  html = html.replace(/<title>[^<]*<\/title>/g, `<title>${title}</title>`);
-  html = html.replace(/<meta property="og:title" content="[^"]*" \/>/g, `<meta property="og:title" content="${title}" />`);
-  html = html.replace(/<meta name="twitter:title" content="[^"]*" \/>/g, `<meta name="twitter:title" content="${title}" />`);
+  html = html.replace(/<title>[^<]*<\/title>/g, `<title>${safeTitle}</title>`);
+  html = html.replace(/<meta property="og:title" content="[^"]*" \/>/g, `<meta property="og:title" content="${safeTitle}" />`);
+  html = html.replace(/<meta name="twitter:title" content="[^"]*" \/>/g, `<meta name="twitter:title" content="${safeTitle}" />`);
 
   // Description replacement
-  html = html.replace(/<meta name="description" content="[^"]*" \/>/g, `<meta name="description" content="${description}" />`);
-  html = html.replace(/<meta property="og:description" content="[^"]*" \/>/g, `<meta property="og:description" content="${description}" />`);
-  html = html.replace(/<meta name="twitter:description" content="[^"]*" \/>/g, `<meta name="twitter:description" content="${description}" />`);
+  html = html.replace(/<meta name="description" content="[^"]*" \/>/g, `<meta name="description" content="${safeDescription}" />`);
+  html = html.replace(/<meta property="og:description" content="[^"]*" \/>/g, `<meta property="og:description" content="${safeDescription}" />`);
+  html = html.replace(/<meta name="twitter:description" content="[^"]*" \/>/g, `<meta name="twitter:description" content="${safeDescription}" />`);
 
   // Image replacement
   html = html.replace(/<meta property="og:image" content="[^"]*" \/>/g, `<meta property="og:image" content="${absoluteCoverUrl}" />`);

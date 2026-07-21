@@ -80,17 +80,19 @@ const getShlokaHeaderTitle = (lang: string): string => {
 interface ShlokaDashboardProps {
   shlokas: ShlokaIndexItem[];
   activeLanguage: string;
+  customLabel?: string;
   onSelectShloka: (shloka: ShlokaIndexItem) => void;
 }
 
 export const ShlokaDashboard: React.FC<ShlokaDashboardProps> = ({
   shlokas,
   activeLanguage,
+  customLabel,
   onSelectShloka
 }) => {
   if (shlokas.length === 0) return null;
 
-  const headerTitle = getShlokaHeaderTitle(activeLanguage);
+  const headerTitle = customLabel || getShlokaHeaderTitle(activeLanguage);
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
 
   const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
