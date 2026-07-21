@@ -23,6 +23,8 @@ import {
 
 import { downloadChapterAsPdf, downloadFullBookAsPdf, acquireSaveFileHandle } from '../utils/download';
 import { PracticeDashboard } from './practice/PracticeDashboard';
+import { parseShlokas, ShlokaDashboard } from './ShlokaIndex';
+import type { ShlokaIndexItem } from './ShlokaIndex';
 
 
 interface ReaderProps {
@@ -63,6 +65,7 @@ export const Reader: React.FC<ReaderProps> = ({
   const [activeLanguage, setActiveLanguage] = useState<string>('');
   const [activeChapterId, setActiveChapterId] = useState<string>('');
   const [chapterContent, setChapterContent] = useState<string>('');
+  const [shlokas, setShlokas] = useState<ShlokaIndexItem[]>([]);
   const [loadingChapter, setLoadingChapter] = useState<boolean>(true);
   const [loadingBook, setLoadingBook] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -242,6 +245,7 @@ export const Reader: React.FC<ReaderProps> = ({
     
     if (activeChapterId === '') {
       setChapterContent('');
+      setShlokas([]);
       setLoadingChapter(false);
       const displayTitle = book.localized?.[activeLanguage]?.title || book.title;
       document.title = `${displayTitle} — About | SameeraVani`;
@@ -262,6 +266,8 @@ export const Reader: React.FC<ReaderProps> = ({
       })
       .then((text) => {
         setChapterContent(text);
+        const parsed = parseShlokas(text);
+        setShlokas(parsed);
         setLoadingChapter(false);
         // Dynamically update document title to reflect active chapter & book
         document.title = `${activeChapter.title} — ${book.title} | SameeraVani`;
@@ -269,9 +275,16 @@ export const Reader: React.FC<ReaderProps> = ({
       })
       .catch((err) => {
         setChapterContent(`# Error\nCould not load the chapter content: ${err.message}`);
+        setShlokas([]);
         setLoadingChapter(false);
       });
   }, [book, activeLanguage, activeChapterId]);
+
+  const handleSelectShloka = (shloka: ShlokaIndexItem) => {
+    const words = shloka.fullText.split(/\s+/).filter(Boolean);
+    const targetPrefix = words.slice(0, 3).join(' ');
+    scrollToHeading(targetPrefix || shloka.firstWords);
+  };
 
   // Restore Scroll Position once content loads
   useEffect(() => {
@@ -1618,6 +1631,11 @@ export const Reader: React.FC<ReaderProps> = ({
             ) : (
               <>
                 {renderGrammarDashboard()}
+                <ShlokaDashboard
+                  shlokas={shlokas}
+                  activeLanguage={activeLanguage}
+                  onSelectShloka={handleSelectShloka}
+                />
                 <article 
                   className={`reader-markdown read-font-${settings.fontFamily} lh-${settings.lineHeight}`}
                   style={{ fontSize: `${settings.fontSize}px` }}
