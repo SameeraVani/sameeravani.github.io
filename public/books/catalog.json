@@ -40,104 +40,44 @@
         "chapters": {
             "english": [
                 {
-                    "id": "karma-yoga",
-                    "title": "Chapter I: The Yoga of Action (Karma Yoga)",
+                    "id": "arjuna-vishada-yoga",
+                    "title": "Chapter I: Arjuna Vishada Yoga",
                     "path": "books/bhagavad-gita/en/ch1.md"
-                },
-                {
-                    "id": "jnana-yoga",
-                    "title": "Chapter II: The Yoga of Knowledge (Jnana Yoga)",
-                    "path": "books/bhagavad-gita/en/ch2.md"
-                },
-                {
-                    "id": "bhakti-yoga",
-                    "title": "Chapter III: The Yoga of Devotion (Bhakti Yoga)",
-                    "path": "books/bhagavad-gita/en/ch3.md"
                 }
             ],
             "sanskrit": [
                 {
-                    "id": "karma-yoga",
-                    "title": "प्रथमोऽध्यायः: कर्मयोगः",
+                    "id": "arjuna-vishada-yoga",
+                    "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः",
                     "path": "books/bhagavad-gita/sa/ch1.md"
-                },
-                {
-                    "id": "jnana-yoga",
-                    "title": "द्वितीयोऽध्यायः: सांख्ययोगः",
-                    "path": "books/bhagavad-gita/sa/ch2.md"
-                },
-                {
-                    "id": "bhakti-yoga",
-                    "title": "तृतीयोऽध्यायः: भक्तियोगः",
-                    "path": "books/bhagavad-gita/sa/ch3.md"
                 }
             ],
             "hindi": [
                 {
-                    "id": "karma-yoga",
-                    "title": "अध्याय १: कर्म योग",
+                    "id": "arjuna-vishada-yoga",
+                    "title": "अध्याय १: अर्जुन विषाद योग",
                     "path": "books/bhagavad-gita/hi/ch1.md"
-                },
-                {
-                    "id": "jnana-yoga",
-                    "title": "अध्याय २: ज्ञान योग",
-                    "path": "books/bhagavad-gita/hi/ch2.md"
-                },
-                {
-                    "id": "bhakti-yoga",
-                    "title": "अध्याय ३: भक्ति योग",
-                    "path": "books/bhagavad-gita/hi/ch3.md"
                 }
             ],
             "kannada": [
                 {
-                    "id": "karma-yoga",
-                    "title": "ಅಧ್ಯಾಯ ೧: ಕರ್ಮ ಯೋಗ",
+                    "id": "arjuna-vishada-yoga",
+                    "title": "ಅಧ್ಯಾಯ ೧: ಅರ್ಜುನವಿಷಾದಯೋಗ",
                     "path": "books/bhagavad-gita/kn/ch1.md"
-                },
-                {
-                    "id": "jnana-yoga",
-                    "title": "ಅಧ್ಯಾಯ ೨: ಜ್ಞಾನ ಯೋಗ (ಸಾಂಖ್ಯಯೋಗ)",
-                    "path": "books/bhagavad-gita/kn/ch2.md"
-                },
-                {
-                    "id": "bhakti-yoga",
-                    "title": "ಅಧ್ಯಾಯ ೩: ಭಕ್ತಿ ಯೋಗ",
-                    "path": "books/bhagavad-gita/kn/ch3.md"
                 }
             ],
             "tamil": [
                 {
-                    "id": "karma-yoga",
-                    "title": "அத்தியாயம் 1: கர்ம யோகம்",
+                    "id": "arjuna-vishada-yoga",
+                    "title": "அத்தியாயம் 1: அர்ஜுன விஷாத யோகம்",
                     "path": "books/bhagavad-gita/ta/ch1.md"
-                },
-                {
-                    "id": "jnana-yoga",
-                    "title": "அத்தியாயம் 2: ஞான யோகம் (சாங்கிய யோகம்)",
-                    "path": "books/bhagavad-gita/ta/ch2.md"
-                },
-                {
-                    "id": "bhakti-yoga",
-                    "title": "அத்தியாயம் 3: பக்தி யோகம்",
-                    "path": "books/bhagavad-gita/ta/ch3.md"
                 }
             ],
             "telugu": [
                 {
-                    "id": "karma-yoga",
-                    "title": "అధ్యాయము 1: కర్మ యోగము",
+                    "id": "arjuna-vishada-yoga",
+                    "title": "అధ్యాయము 1: అర్జునవిషాదయోగము",
                     "path": "books/bhagavad-gita/te/ch1.md"
-                },
-                {
-                    "id": "jnana-yoga",
-                    "title": "అధ్యాయము 2: జ్ఞాన యోగము (సాంఖ్యయోగము)",
-                    "path": "books/bhagavad-gita/te/ch2.md"
-                },
-                {
-                    "id": "bhakti-yoga",
-                    "title": "అధ్యాయము 3: భక్తి యోగము",
-                    "path": "books/bhagavad-gita/te/ch3.md"
                 }
             ]
         }
