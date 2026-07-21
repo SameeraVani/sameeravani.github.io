@@ -17,7 +17,7 @@ function App() {
   const [appLanguage, setAppLanguage] = useState<string>(() => {
     const route = parseRoute();
     if (route.lang) return route.lang;
-    return localStorage.getItem('app-language') || 'english';
+    return localStorage.getItem('app-language') || 'sanskrit';
   });
 
   const handleLanguageChange = (lang: string) => {
