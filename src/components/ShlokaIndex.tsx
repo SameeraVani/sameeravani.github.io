@@ -135,17 +135,17 @@ export const ShlokaDashboard: React.FC<ShlokaDashboardProps> = ({
         borderRadius: 'var(--radius-md)',
         boxShadow: 'var(--shadow-sm)',
         gap: '12px',
-        flexWrap: 'nowrap'
+        flexWrap: 'wrap'
       }}
     >
-      <div style={{ display: 'flex', alignItems: 'center', gap: '8px', minWidth: 'fit-content' }}>
+      <div className="shloka-label-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '8px', minWidth: 'fit-content' }}>
         <BookOpen size={16} style={{ color: 'var(--accent)' }} />
         <span style={{ fontWeight: 700, fontSize: '0.9rem', color: 'var(--text-primary)', whiteSpace: 'nowrap' }}>
           {headerTitle} ({shlokas.length})
         </span>
       </div>
 
-      <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flex: 1, maxWidth: '520px' }}>
+      <div className="shloka-controls-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '8px', flex: '1 1 260px', maxWidth: '520px' }}>
         <button
           onClick={handlePrev}
           disabled={selectedIndex === 0}
@@ -171,6 +171,7 @@ export const ShlokaDashboard: React.FC<ShlokaDashboardProps> = ({
           onChange={handleSelectChange}
           style={{
             flex: 1,
+            minWidth: 0,
             padding: '6px 12px',
             backgroundColor: 'var(--bg-primary)',
             border: '1px solid var(--border)',
@@ -213,3 +214,4 @@ export const ShlokaDashboard: React.FC<ShlokaDashboardProps> = ({
     </div>
   );
 };
+

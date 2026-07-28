@@ -1737,3 +1737,20 @@ a:hover {
   padding: 8px 16px;
 }
 
+/* Shloka Index Bar Mobile Responsiveness */
+.shloka-single-row-bar {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .shloka-single-row-bar {
+    gap: 10px;
+  }
+  .shloka-controls-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 1 1 100% !important;
+  }
+}
+
+
