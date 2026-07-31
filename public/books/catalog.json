@@ -56,6 +56,11 @@
                     "id": "arjuna-vishada-yoga",
                     "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः",
                     "path": "books/bhagavad-gita/sa/ch1.md"
+                },
+                {
+                    "id": "sankhya-yoga",
+                    "title": "द्वितीयोऽध्यायः: सांख्ययोगः",
+                    "path": "books/bhagavad-gita/sa/ch2.md"
                 }
             ],
             "hindi": [
