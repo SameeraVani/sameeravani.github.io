@@ -1937,5 +1937,151 @@
                 }
             ]
         }
+    },
+    {
+        "id": "mahabharata-tatparya-nirnaya",
+        "title": "Mahabharata Tatparya Nirnaya",
+        "author": "Sri Madhvacharya",
+        "year": "13th Century CE",
+        "genre": "Philosophy / Epic / Vedanta",
+        "description": "Mahabharata Tatparya Nirnaya is a monumental 32-chapter work composed by Sri Madhvacharya. It provides an authoritative interpretation of the Mahabharata, Ramayana, and Harivamsa, elucidating the supreme glory of Lord Vishnu and Dvaita Vedanta philosophy.",
+        "coverUrl": "books/mahabharata-tatparya-nirnaya/cover.png",
+        "languages": [
+            "english",
+            "sanskrit",
+            "kannada"
+        ],
+        "shlokaLabel": "Adhyaya",
+        "localized": {
+            "sanskrit": {
+                "title": "महाभारततात्पर्यनिर्णयः",
+                "description": "श्रीमदानन्दतीर्थभगवत्पादविरचितः द्वात्रिंशदध्यायनिबद्धः महाभारततात्पर्यनिर्णयः ग्रन्थः। अस्मिन् ग्रन्थे महाभारत-रामायण-हरिवंशादीनां तात्पर्यार्थः सुस्पष्टमुद्घाटितः।",
+                "shlokaLabel": "अध्यायः"
+            },
+            "kannada": {
+                "title": "ಮಹಾಭಾರತ ತಾತ್ಪರ್ಯ ನಿರ್ಣಯ",
+                "description": "ಶ್ರೀಮದಾನಂದತೀರ್ಥ ಭಗವತ್ಪಾದರು ರಚಿಸಿದ ೩೨ ಅಧ್ಯಾಯಗಳ ಮಹೋನ್ನತ ಗ್ರಂಥ. ಮಹಾಭಾರತ, ರಾಮಾಯಣ ಮತ್ತು ಹರಿವಂಶಗಳ ಗೂಢ ತಾತ್ಪರ್ಯವನ್ನು ಇದರಲ್ಲಿ ವಿವರವಾಗಿ ನಿರೂಪಿಸಲಾಗಿದೆ.",
+                "shlokaLabel": "ಅಧ್ಯಾಯ"
+            },
+            "english": {
+                "title": "Mahabharata Tatparya Nirnaya",
+                "description": "A 32-chapter magnum opus by Sri Madhvacharya revealing the inner purport of Mahabharata, Ramayana, and Harivamsa.",
+                "shlokaLabel": "Adhyaya"
+            }
+        },
+        "chapters": {
+            "sanskrit": [
+                {
+                    "id": "ch4",
+                    "title": "अध्यायः ४",
+                    "path": "books/mahabharata-tatparya-nirnaya/sa/ch4.md"
+                }
+            ],
+            "kannada": [
+                {
+                    "id": "ch4",
+                    "title": "ಅಧ್ಯಾಯ ೪",
+                    "path": "books/mahabharata-tatparya-nirnaya/sa/ch4.md"
+                }
+            ],
+            "english": [
+                {
+                    "id": "ch4",
+                    "title": "Chapter 4",
+                    "path": "books/mahabharata-tatparya-nirnaya/sa/ch4.md"
+                }
+            ]
+        }
+    },
+    {
+        "id": "srimad-bhagavatam",
+        "title": "Srimad Bhagavatam",
+        "author": "Maharsi Vedavyasa",
+        "year": "Ancient",
+        "genre": "Scripture / Mahapurana / Bhakti",
+        "description": "Srimad Bhagavatam (Bhagavata Purana) is a sacred 12-Skanda Mahapurana composed by Maharsi Vedavyasa, celebrating supreme devotion (bhakti) to Lord Vishnu and His divine avatars.",
+        "coverUrl": "books/srimad-bhagavatam/cover.png",
+        "languages": [
+            "english",
+            "sanskrit",
+            "kannada"
+        ],
+        "shlokaLabel": "Adhyaya",
+        "localized": {
+            "sanskrit": {
+                "title": "श्रीमद्भागवतपुराणम्",
+                "description": "महर्षिवेदव्यासप्रणीतं द्वादशस्कन्धात्मकं श्रीमद्भागवतपुराणम्। अस्मिन् महापुराणे भगवतो विष्णोः लीलावताराणां तथा शुद्धभक्तेः महिमा वर्णितः।",
+                "shlokaLabel": "अध्यायः"
+            },
+            "kannada": {
+                "title": "ಶ್ರೀಮದ್ಭಾಗವತಮ್",
+                "description": "ಮಹರ್ಷಿ ವೇದವ್ಯಾಸ ವಿರಚಿತ ೧೨ ಸ್ಕಂಧಗಳ ಮಹೋನ್ನತ ಮಹಾಪುರಾಣ. ಶ್ರೀಮನ್ನಾರಾಯಣನ ದಿವ್ಯ ಲೀಲೆಗಳು ಮತ್ತು ಭಕ್ತಿ ಮಾರ್ಗದ ಪವಿತ್ರ ಗ್ರಂಥ.",
+                "shlokaLabel": "ಅಧ್ಯಾಯ"
+            },
+            "english": {
+                "title": "Srimad Bhagavatam",
+                "description": "A 12-Skanda Mahapurana composed by Maharsi Vedavyasa glorifying Lord Vishnu and pure devotion.",
+                "shlokaLabel": "Adhyaya"
+            }
+        },
+        "chapters": {
+            "sanskrit": [
+                {
+                    "id": "skanda-3",
+                    "title": "तृतीयस्कन्धः",
+                    "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md",
+                    "topics": [
+                        {
+                            "id": "sk3-ch19",
+                            "title": "अध्यायः १९",
+                            "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md"
+                        },
+                        {
+                            "id": "sk3-ch20",
+                            "title": "अध्यायः २०",
+                            "path": "books/srimad-bhagavatam/sa/skanda3/ch20.md"
+                        }
+                    ]
+                }
+            ],
+            "kannada": [
+                {
+                    "id": "skanda-3",
+                    "title": "ತೃತೀಯಸ್ಕಂಧಃ",
+                    "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md",
+                    "topics": [
+                        {
+                            "id": "sk3-ch19",
+                            "title": "ಅಧ್ಯಾಯ ೧೯",
+                            "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md"
+                        },
+                        {
+                            "id": "sk3-ch20",
+                            "title": "ಅಧ್ಯಾಯ ೨೦",
+                            "path": "books/srimad-bhagavatam/sa/skanda3/ch20.md"
+                        }
+                    ]
+                }
+            ],
+            "english": [
+                {
+                    "id": "skanda-3",
+                    "title": "Skanda 3",
+                    "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md",
+                    "topics": [
+                        {
+                            "id": "sk3-ch19",
+                            "title": "Chapter 19",
+                            "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md"
+                        },
+                        {
+                            "id": "sk3-ch20",
+                            "title": "Chapter 20",
+                            "path": "books/srimad-bhagavatam/sa/skanda3/ch20.md"
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ]
