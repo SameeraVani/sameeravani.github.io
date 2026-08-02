@@ -18,3 +18,4 @@ This is the main chapter for Mithyatvaniruktibhanga.
 6. [मिथ्यात्वनिर्वचनम् भाग - १](../paricheda-1-prakarana-1-topic-6)
 7. [मिथ्यात्वनिर्वचनम् भाग - २](../paricheda-1-prakarana-1-topic-7)
 8. [मिथ्यात्वनिर्वचनम् भाग - ३](../paricheda-1-prakarana-1-topic-8)
+9. [दृश्यत्वस्वरूपविचारः](../paricheda-1-prakarana-1-topic-9)

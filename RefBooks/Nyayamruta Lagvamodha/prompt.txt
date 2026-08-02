@@ -15,3 +15,4 @@ please translate in other 5 languages and make sure google's OKF compatible. do 
 
 
 
+public\books\nyayamruta\sa\paricheda1\prakarana1\9.md - 
