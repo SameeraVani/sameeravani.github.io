@@ -13,8 +13,8 @@ export const parseShlokas = (content: string): ShlokaIndexItem[] => {
   const lines = content.split('\n');
   const items: ShlokaIndexItem[] = [];
 
-  // Match Devanagari or Arabic numerals in double dandas e.g. ॥ १ ॥ or ॥ 1 ॥
-  const shlokaRegex = /॥\s*([०-९\d]+)\s*॥/;
+  // Match Devanagari or Arabic numerals in double dandas e.g. ॥ १ ॥ or ॥ १.१ ॥ or ॥ 1 ॥
+  const shlokaRegex = /॥\s*([०-९\d]+(?:\.[०-९\d]+)?)\s*॥/;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -46,7 +46,7 @@ export const parseShlokas = (content: string): ShlokaIndexItem[] => {
       const cleanText = combinedText
         .replace(/[\*\_`#\[\]]/g, '')
         .replace(/\(.*?\)/g, '')
-        .replace(/॥\s*[०-९\d]+\s*॥/g, '')
+        .replace(/॥\s*[०-९\d]+(?:\.[०-९\d]+)?\s*॥/g, '')
         .replace(/#meaning-\S+/g, '')
         .replace(/\]\s*\(.*?\)/g, '')
         .trim();

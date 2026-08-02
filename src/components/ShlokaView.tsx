@@ -24,14 +24,14 @@ export interface ParsedShloka {
 export const parseChapterShlokas = (content: string): ParsedShloka[] => {
   if (!content) return [];
 
-  // Match blocks starting with **श्लोकः <num>** or **श्लोक <num>**
-  const shlokaBlockRegex = /(?=\*\*श्लोकः?\s*[०-९\d]+\*\*)/;
+  // Match blocks starting with **श्लोकः <num>** or **श्लोक <num>** (including 1.1, १.१ etc.)
+  const shlokaBlockRegex = /(?=\*\*श्लोकः?\s*[०-९\d]+(?:\.[०-९\d]+)?\*\*)/;
   const blocks = content.split(shlokaBlockRegex).filter(b => b.trim().length > 0);
 
   const parsedShlokas: ParsedShloka[] = [];
 
   blocks.forEach((block) => {
-    const match = block.match(/\*\*श्लोकः?\s*([०-९\d]+)\*\*/);
+    const match = block.match(/\*\*श्लोकः?\s*([०-९\d]+(?:\.[०-९\d]+)?)\*\*/);
     if (match) {
       const number = match[1];
 

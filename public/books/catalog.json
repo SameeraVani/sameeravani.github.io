@@ -2083,5 +2083,60 @@
                 }
             ]
         }
+    },
+    {
+        "id": "sumadhva-vijaya",
+        "title": "Sumadhva Vijaya",
+        "author": "Sri Narayana Panditacharya",
+        "year": "14th Century CE",
+        "genre": "Biography / Mahakavya / Vedanta",
+        "description": "Sumadhva Vijaya (Sri Madhva Vijaya) is a famous 16-Sarga Sanskrit epic biography of Sri Madhvacharya composed by Sri Narayana Panditacharya.",
+        "coverUrl": "books/sumadhva-vijaya/cover.png",
+        "languages": [
+            "english",
+            "sanskrit",
+            "kannada"
+        ],
+        "shlokaLabel": "Sarga",
+        "localized": {
+            "sanskrit": {
+                "title": "सुमध्वविजयः",
+                "description": "श्रीनारायणपण्डिताचार्यविरचितः पोडशसर्गात्मकः श्रीमदानन्दतीर्थभगवत्पादानां दिव्यजीवनचरित्रात्मकः महाकाव्यग्रन्थः।",
+                "shlokaLabel": "सर्गः"
+            },
+            "kannada": {
+                "title": "ಸುಮಧ್ವವಿಜಯ",
+                "description": "ಶ್ರೀ ನಾರಾಯಣ ಪಂಡಿತಾಚಾರ್ಯ ವಿರಚಿತ ೧೬ ಸರ್ಗಗಳ ಶ್ರೀಮದಾನಂದತೀರ್ಥ ಭಗವತ್ಪಾದರ ದಿವ್ಯ ಜೀವನ ಚರಿತ್ರೆಯ ಮಹಾಕಾವ್ಯ.",
+                "shlokaLabel": "ಸರ್ಗ"
+            },
+            "english": {
+                "title": "Sumadhva Vijaya",
+                "description": "A 16-Sarga epic biography of Sri Madhvacharya composed by Sri Narayana Panditacharya.",
+                "shlokaLabel": "Sarga"
+            }
+        },
+        "chapters": {
+            "sanskrit": [
+                {
+                    "id": "ch1",
+                    "title": "प्रथमः सर्गः",
+                    "path": "books/sumadhva-vijaya/sa/ch1.md"
+                }
+            ],
+            "kannada": [
+                {
+                    "id": "ch1",
+                    "title": "೧ನೇ ಸರ್ಗ",
+                    "path": "books/sumadhva-vijaya/sa/ch1.md"
+                }
+            ],
+            "english": [
+                {
+                    "id": "ch1",
+                    "title": "Sarga 1",
+                    "path": "books/sumadhva-vijaya/sa/ch1.md"
+                }
+            ]
+        }
     }
 ]
