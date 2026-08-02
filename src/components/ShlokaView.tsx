@@ -70,8 +70,8 @@ export const parseChapterShlokas = (content: string): ParsedShloka[] => {
             verseLines.push(cleanLine);
           }
 
-          // Double danda (॥) marks the exact end of the Mula Shloka verse!
-          if (cleanLine.includes('॥')) {
+          // Double danda (॥) or ASCII || marks the exact end of the Mula Shloka verse!
+          if (cleanLine.includes('॥') || cleanLine.includes('||')) {
             break;
           }
         }
