@@ -25,6 +25,8 @@ import { downloadChapterAsPdf, downloadFullBookAsPdf, acquireSaveFileHandle } fr
 import { PracticeDashboard } from './practice/PracticeDashboard';
 import { parseShlokas, ShlokaDashboard } from './ShlokaIndex';
 import type { ShlokaIndexItem } from './ShlokaIndex';
+import { parseChapterShlokas, ShlokaListView, SingleShlokaViewer } from './ShlokaView';
+import type { ParsedShloka } from './ShlokaView';
 
 
 interface ReaderProps {
@@ -66,6 +68,9 @@ export const Reader: React.FC<ReaderProps> = ({
   const [activeChapterId, setActiveChapterId] = useState<string>('');
   const [chapterContent, setChapterContent] = useState<string>('');
   const [shlokas, setShlokas] = useState<ShlokaIndexItem[]>([]);
+  const [parsedShlokas, setParsedShlokas] = useState<ParsedShloka[]>([]);
+  const [shlokaViewMode, setShlokaViewMode] = useState<'list' | 'single' | 'continuous'>('list');
+  const [selectedShlokaIdx, setSelectedShlokaIdx] = useState<number>(0);
   const [loadingChapter, setLoadingChapter] = useState<boolean>(true);
   const [loadingBook, setLoadingBook] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -259,15 +264,48 @@ export const Reader: React.FC<ReaderProps> = ({
     if (!activeChapter) return;
 
     setLoadingChapter(true);
-    fetch(`${import.meta.env.BASE_URL}${activeChapter.path}?t=${Date.now()}`)
-      .then((res) => {
-        if (!res.ok) throw new Error(`Failed to load chapter file: ${activeChapter.title}`);
-        return res.text();
-      })
-      .then((text) => {
+    const mainFetch = fetch(`${import.meta.env.BASE_URL}${activeChapter.path}?t=${Date.now()}`).then(r => {
+      if (!r.ok) throw new Error(`Failed to load chapter file: ${activeChapter.title}`);
+      return r.text();
+    });
+    const listPath = activeChapter.path.replace(/\.md$/, '_shloka_list.md');
+    const listFetch = fetch(`${import.meta.env.BASE_URL}${listPath}?t=${Date.now()}`)
+      .then(r => r.ok ? r.text() : '')
+      .catch(() => '');
+
+    Promise.all([mainFetch, listFetch])
+      .then(([text, listText]) => {
         setChapterContent(text);
-        const parsed = parseShlokas(text);
-        setShlokas(parsed);
+        const parsedIndex = parseShlokas(text);
+        setShlokas(parsedIndex);
+        
+        // 1. Parse full chapter shlokas from main file to get rawMarkdown details
+        const fullList = parseChapterShlokas(text);
+
+        // 2. If dedicated _shloka_list.md exists, merge verseLines & speaker for list view
+        if (listText && listText.trim().length > 0) {
+          const listOnly = parseChapterShlokas(listText);
+          listOnly.forEach(lShloka => {
+            const target = fullList.find(f => f.number === lShloka.number);
+            if (target) {
+              if (lShloka.verseLines && lShloka.verseLines.length > 0) {
+                target.verseLines = lShloka.verseLines;
+              }
+              if (lShloka.speaker) {
+                target.speaker = lShloka.speaker;
+              }
+            }
+          });
+        }
+
+        setParsedShlokas(fullList);
+        if (fullList.length > 0) {
+          setShlokaViewMode('list');
+          setSelectedShlokaIdx(0);
+        } else {
+          setShlokaViewMode('continuous');
+        }
+        
         setLoadingChapter(false);
         // Dynamically update document title to reflect active chapter & book
         document.title = `${activeChapter.title} — ${book.title} | SameeraVani`;
@@ -276,14 +314,24 @@ export const Reader: React.FC<ReaderProps> = ({
       .catch((err) => {
         setChapterContent(`# Error\nCould not load the chapter content: ${err.message}`);
         setShlokas([]);
+        setParsedShlokas([]);
         setLoadingChapter(false);
       });
   }, [book, activeLanguage, activeChapterId]);
 
   const handleSelectShloka = (shloka: ShlokaIndexItem) => {
-    const words = shloka.fullText.split(/\s+/).filter(Boolean);
-    const targetPrefix = words.slice(0, 3).join(' ');
-    scrollToHeading(targetPrefix || shloka.firstWords);
+    const idx = parsedShlokas.findIndex(s => s.number === shloka.number);
+    if (idx !== -1) {
+      setSelectedShlokaIdx(idx);
+      setShlokaViewMode('single');
+      if (scrollContainerRef.current) {
+        scrollContainerRef.current.scrollTop = 0;
+      }
+    } else {
+      const words = shloka.fullText.split(/\s+/).filter(Boolean);
+      const targetPrefix = words.slice(0, 3).join(' ');
+      scrollToHeading(targetPrefix || shloka.firstWords);
+    }
   };
 
   // Restore Scroll Position once content loads
@@ -1631,74 +1679,162 @@ export const Reader: React.FC<ReaderProps> = ({
               ) : (
                 <>
                   {renderGrammarDashboard()}
-                  <ShlokaDashboard
-                    shlokas={shlokas}
-                    activeLanguage={activeLanguage}
-                    customLabel={
-                      (() => {
-                        const flatLangChapters = flattenChapters(book.chapters?.[activeLanguage] || []);
-                        const activeChapter = flatLangChapters.find((c) => c.id === activeChapterId);
-                        return activeChapter?.shlokaLabel || book.localized?.[activeLanguage]?.shlokaLabel || book.shlokaLabel;
-                      })()
-                    }
-                    onSelectShloka={handleSelectShloka}
-                  />
-                  <article
-                    className={`reader-markdown read-font-${settings.fontFamily} lh-${settings.lineHeight}`}
-                    style={{ fontSize: `${settings.fontSize}px` }}
-                  >
-                    <ReactMarkdown
-                      remarkPlugins={[remarkGfm]}
-                      rehypePlugins={[rehypeRaw]}
-                      components={{
-                        img: ({ node, src, ...props }) => {
-                          let resolvedSrc = src;
-                          if (src && !src.startsWith('http://') && !src.startsWith('https://') && !src.startsWith('/')) {
-                            resolvedSrc = `${import.meta.env.BASE_URL}${src}`;
-                          }
-                          return <img src={resolvedSrc} {...props} style={{ maxWidth: '100%', height: 'auto' }} />;
+
+                  {parsedShlokas.length > 0 && shlokaViewMode === 'list' && (
+                    <ShlokaListView
+                      shlokas={parsedShlokas}
+                      chapterTitle={activeChapter ? activeChapter.title : ''}
+                      activeLanguage={activeLanguage}
+                      onSelectShloka={(index) => {
+                        setSelectedShlokaIdx(index);
+                        setShlokaViewMode('single');
+                        if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                      }}
+                      onSwitchToContinuous={() => setShlokaViewMode('continuous')}
+                    />
+                  )}
+
+                  {parsedShlokas.length > 0 && shlokaViewMode === 'single' && parsedShlokas[selectedShlokaIdx] && (
+                    <SingleShlokaViewer
+                      shloka={parsedShlokas[selectedShlokaIdx]}
+                      totalShlokas={parsedShlokas.length}
+                      allShlokas={parsedShlokas}
+                      activeLanguage={activeLanguage}
+                      fontFamily={settings.fontFamily}
+                      fontSize={settings.fontSize}
+                      lineHeight={settings.lineHeight}
+                      onPrev={() => {
+                        if (selectedShlokaIdx > 0) {
+                          setSelectedShlokaIdx(selectedShlokaIdx - 1);
+                          if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
                         }
                       }}
-                    >
-                      {chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, '')}
-                    </ReactMarkdown>
+                      onNext={() => {
+                        if (selectedShlokaIdx < parsedShlokas.length - 1) {
+                          setSelectedShlokaIdx(selectedShlokaIdx + 1);
+                          if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                        }
+                      }}
+                      onSelectShloka={(index) => {
+                        setSelectedShlokaIdx(index);
+                        if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                      }}
+                      onBackToList={() => {
+                        setShlokaViewMode('list');
+                        if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                      }}
+                      onSwitchToContinuous={() => setShlokaViewMode('continuous')}
+                    />
+                  )}
 
-                    {/* Next / Prev Chapter buttons */}
-                    <div className="chapter-nav-buttons">
-                      {hasPrevChapter ? (
-                        <button
-                          className="nav-btn prev"
-                          onClick={() => handleNavigateToChapter(flatLangChapters[activeChapterIdx - 1].id)}
+                  {(parsedShlokas.length === 0 || shlokaViewMode === 'continuous') && (
+                    <>
+                      {parsedShlokas.length > 0 && (
+                        <div
+                          style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            alignItems: 'center',
+                            marginBottom: '16px',
+                            padding: '10px 16px',
+                            backgroundColor: 'var(--bg-secondary)',
+                            borderRadius: 'var(--radius-sm)',
+                            border: '1px solid var(--border)',
+                            gap: '12px',
+                            flexWrap: 'wrap'
+                          }}
                         >
-                          <span className="nav-btn-label">Previous Chapter</span>
-                          <span className="nav-btn-title">{flatLangChapters[activeChapterIdx - 1].title}</span>
-                        </button>
-                      ) : (
-                        <button
-                          className="nav-btn prev"
-                          onClick={handleNavigateToIntro}
-                        >
-                          <span className="nav-btn-label">Book Info</span>
-                          <span className="nav-btn-title">About this Book</span>
-                        </button>
+                          <span style={{ fontSize: '0.88rem', fontWeight: 600, color: 'var(--text-secondary)' }}>
+                            Viewing Full Chapter (Continuous Scroll)
+                          </span>
+                          <button
+                            onClick={() => setShlokaViewMode('list')}
+                            style={{
+                              padding: '6px 12px',
+                              borderRadius: 'var(--radius-sm)',
+                              border: '1px solid var(--border)',
+                              backgroundColor: 'var(--bg-primary)',
+                              color: 'var(--accent)',
+                              fontWeight: 700,
+                              fontSize: '0.82rem',
+                              cursor: 'pointer'
+                            }}
+                          >
+                            ☰ Shloka Directory
+                          </button>
+                        </div>
                       )}
 
-                      {hasNextChapter ? (
-                        <button
-                          className="nav-btn next"
-                          onClick={() => handleNavigateToChapter(flatLangChapters[activeChapterIdx + 1].id)}
+                      <ShlokaDashboard
+                        shlokas={shlokas}
+                        activeLanguage={activeLanguage}
+                        customLabel={
+                          (() => {
+                            const flatLangChapters = flattenChapters(book.chapters?.[activeLanguage] || []);
+                            const activeChapter = flatLangChapters.find((c) => c.id === activeChapterId);
+                            return activeChapter?.shlokaLabel || book.localized?.[activeLanguage]?.shlokaLabel || book.shlokaLabel;
+                          })()
+                        }
+                        onSelectShloka={handleSelectShloka}
+                      />
+                      <article
+                        className={`reader-markdown read-font-${settings.fontFamily} lh-${settings.lineHeight}`}
+                        style={{ fontSize: `${settings.fontSize}px` }}
+                      >
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm]}
+                          rehypePlugins={[rehypeRaw]}
+                          components={{
+                            img: ({ node, src, ...props }) => {
+                              let resolvedSrc = src;
+                              if (src && !src.startsWith('http://') && !src.startsWith('https://') && !src.startsWith('/')) {
+                                resolvedSrc = `${import.meta.env.BASE_URL}${src}`;
+                              }
+                              return <img src={resolvedSrc} {...props} style={{ maxWidth: '100%', height: 'auto' }} />;
+                            }
+                          }}
                         >
-                          <span className="nav-btn-label">Next Chapter</span>
-                          <span className="nav-btn-title">{flatLangChapters[activeChapterIdx + 1].title}</span>
-                        </button>
-                      ) : (
-                        <button className="nav-btn next" onClick={onBack}>
-                          <span className="nav-btn-label">Finish Reading</span>
-                          <span className="nav-btn-title">Return to Bookshelf</span>
-                        </button>
-                      )}
-                    </div>
-                  </article>
+                          {chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, '')}
+                        </ReactMarkdown>
+
+                        {/* Next / Prev Chapter buttons */}
+                        <div className="chapter-nav-buttons">
+                          {hasPrevChapter ? (
+                            <button
+                              className="nav-btn prev"
+                              onClick={() => handleNavigateToChapter(flatLangChapters[activeChapterIdx - 1].id)}
+                            >
+                              <span className="nav-btn-label">Previous Chapter</span>
+                              <span className="nav-btn-title">{flatLangChapters[activeChapterIdx - 1].title}</span>
+                            </button>
+                          ) : (
+                            <button
+                              className="nav-btn prev"
+                              onClick={handleNavigateToIntro}
+                            >
+                              <span className="nav-btn-label">Book Info</span>
+                              <span className="nav-btn-title">About this Book</span>
+                            </button>
+                          )}
+
+                          {hasNextChapter ? (
+                            <button
+                              className="nav-btn next"
+                              onClick={() => handleNavigateToChapter(flatLangChapters[activeChapterIdx + 1].id)}
+                            >
+                              <span className="nav-btn-label">Next Chapter</span>
+                              <span className="nav-btn-title">{flatLangChapters[activeChapterIdx + 1].title}</span>
+                            </button>
+                          ) : (
+                            <button className="nav-btn next" onClick={onBack}>
+                              <span className="nav-btn-label">Finish Reading</span>
+                              <span className="nav-btn-title">Return to Bookshelf</span>
+                            </button>
+                          )}
+                        </div>
+                      </article>
+                    </>
+                  )}
                 </>
               )}
             </div>
