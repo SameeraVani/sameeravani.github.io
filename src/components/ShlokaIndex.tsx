@@ -10,10 +10,53 @@ export interface ShlokaIndexItem {
 export const parseShlokas = (content: string): ShlokaIndexItem[] => {
   if (!content) return [];
 
+  // First try parsing structured shloka blocks starting with **श्लोक...**
+  const shlokaBlockRegex = /(?=\*\*श्लोकः?\s*[०-९\d]+(?:\.[०-९\d]+)?\*\*)/;
+  const blocks = content.split(shlokaBlockRegex).filter(b => b.trim().length > 0);
+
+  if (blocks.length > 1 || (blocks.length === 1 && blocks[0].includes('श्लोक'))) {
+    const items: ShlokaIndexItem[] = [];
+    blocks.forEach((block) => {
+      const match = block.match(/\*\*श्लोकः?\s*([०-९\d]+(?:\.[०-९\d]+)?)\*\*/);
+      if (match) {
+        const num = match[1];
+        const lines = block.split('\n').map((l) => l.trim()).filter((l) => l.length > 0);
+        let firstFewWords = '';
+        for (let i = 1; i < lines.length; i++) {
+          const line = lines[i];
+          if (
+            line.includes('सन्धिः') ||
+            line.includes('पदपरिचयः') ||
+            line.includes('अन्वयः') ||
+            line.includes('भावार्थः') ||
+            line.includes('व्याकरणविश्लेषणम्') ||
+            line.startsWith('---') ||
+            line.startsWith('|') ||
+            line.startsWith('#')
+          ) {
+            break;
+          }
+          const clean = line.replace(/[\*\_`#\[\]]/g, '').trim();
+          if (clean && !clean.startsWith('श्लोक')) {
+            firstFewWords = clean;
+            break;
+          }
+        }
+        const words = firstFewWords.split(/\s+/).filter(Boolean);
+        const snippet = words.slice(0, 4).join(' ');
+        items.push({
+          number: num,
+          firstWords: snippet ? `${snippet}...` : `Shloka ${num}`,
+          fullText: firstFewWords
+        });
+      }
+    });
+    if (items.length > 0) return items;
+  }
+
+  // Fallback to danda matching e.g. ॥ १ ॥ or ॥ १.१ ॥ or ॥ 1 ॥
   const lines = content.split('\n');
   const items: ShlokaIndexItem[] = [];
-
-  // Match Devanagari or Arabic numerals in double dandas e.g. ॥ १ ॥ or ॥ १.१ ॥ or ॥ 1 ॥
   const shlokaRegex = /॥\s*([०-९\d]+(?:\.[०-९\d]+)?)\s*॥/;
 
   for (let i = 0; i < lines.length; i++) {

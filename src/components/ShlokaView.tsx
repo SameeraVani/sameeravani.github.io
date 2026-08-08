@@ -120,13 +120,13 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
     );
   });
 
-  const labels: Record<string, { listTitle: string; searchPlaceholder: string; continuous: string; totalShlokas: string }> = {
-    english: { listTitle: 'Shloka Directory', searchPlaceholder: 'Filter by shloka number or text...', continuous: 'Full Chapter Scroll', totalShlokas: 'Shlokas' },
-    sanskrit: { listTitle: 'श्लोकसूची', searchPlaceholder: 'श्लोकसङ्ख्यायाः पाठस्य वा अन्वेषणम्...', continuous: 'पूर्णमध्यायपठनम्', totalShlokas: 'श्लोकाः' },
-    hindi: { listTitle: 'श्लोक सूची', searchPlaceholder: 'श्लोक संख्या या पाठ खोजें...', continuous: 'पूरा अध्याय पढ़ें', totalShlokas: 'श्लोक' },
-    kannada: { listTitle: 'ಶ್ಲೋಕ ಸೂಚಿ', searchPlaceholder: 'ಶ್ಲೋಕ ಸಂಖ್ಯೆ ಅಥವಾ ಪಠ್ಯ ಹುಡುಕಿ...', continuous: 'ಪೂರ್ಣ ಅಧ್ಯಾಯ ಓದಿ', totalShlokas: 'ಶ್ಲೋಕಗಳು' },
-    tamil: { listTitle: 'ஸ்லோகப் பட்டியல்', searchPlaceholder: 'ஸ்லோக எண் அல்லது உரையைத் தேடுக...', continuous: 'முழு அத்தியாயம் படிக்க', totalShlokas: 'ஸ்லோகங்கள்' },
-    telugu: { listTitle: 'శ్లోక సూచిక', searchPlaceholder: 'శ్లోక సంఖ్య లేదా పాఠ్యం శోధించండి...', continuous: 'పూర్తి అధ్యాయం చదవండి', totalShlokas: 'శ్లోకాలు' }
+  const labels: Record<string, { listTitle: string; searchPlaceholder: string; continuous: string; totalShlokas: string; shlokaPrefix: string }> = {
+    english: { listTitle: 'Shloka Directory', searchPlaceholder: 'Filter by shloka number or text...', continuous: 'Full Chapter Scroll', totalShlokas: 'Shlokas', shlokaPrefix: 'Shloka' },
+    sanskrit: { listTitle: 'श्लोकसूची', searchPlaceholder: 'श्लोकसङ्ख्यायाः पाठस्य वा अन्वेषणम्...', continuous: 'पूर्णमध्यायपठनम्', totalShlokas: 'श्लोकाः', shlokaPrefix: 'श्लोकः' },
+    hindi: { listTitle: 'श्लोक सूची', searchPlaceholder: 'श्लोक संख्या या पाठ खोजें...', continuous: 'पूरा अध्याय पढ़ें', totalShlokas: 'श्लोक', shlokaPrefix: 'श्लोक' },
+    kannada: { listTitle: 'ಶ್ಲೋಕ ಸೂಚಿ', searchPlaceholder: 'ಶ್ಲೋಕ ಸಂಖ್ಯೆ ಅಥವಾ ಪಠ್ಯ ಹುಡುಕಿ...', continuous: 'ಪೂರ್ಣ ಅಧ್ಯಾಯ ಓದಿ', totalShlokas: 'ಶ್ಲೋಕಗಳು', shlokaPrefix: 'ಶ್ಲೋಕ' },
+    tamil: { listTitle: 'ஸ்லோகப் பட்டியல்', searchPlaceholder: 'ஸ்லோக எண் அல்லது உரையைத் தேடுக...', continuous: 'முழு அத்தியாயம் படிக்க', totalShlokas: 'ஸ்லோகங்கள்', shlokaPrefix: 'ஸ்லோகம்' },
+    telugu: { listTitle: 'శ్లోక సూచిక', searchPlaceholder: 'శ్లోక సంఖ్య లేదా పాఠ్యం శోధించండి...', continuous: 'పూర్తి అధ్యాయం చదవండి', totalShlokas: 'శ్లోకాలు', shlokaPrefix: 'శ్లోకం' }
   };
 
   const l = labels[activeLanguage] || labels.english;
@@ -245,11 +245,36 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
                 transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '6px',
+                gap: '8px',
                 position: 'relative'
               }}
             >
-              {/* Complete Shloka Verse lines displayed directly, no separate header row */}
+              {/* Shloka Number Badge */}
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between'
+                }}
+              >
+                <span
+                  style={{
+                    fontSize: '0.82rem',
+                    fontWeight: 700,
+                    color: 'var(--accent)',
+                    backgroundColor: 'var(--accent-light)',
+                    padding: '3px 10px',
+                    borderRadius: 'var(--radius-sm)',
+                    letterSpacing: '0.02em'
+                  }}
+                >
+                  {shloka.number.startsWith('श्लोक') || shloka.number.startsWith('Shloka')
+                    ? shloka.number
+                    : `${l.shlokaPrefix} ${shloka.number}`}
+                </span>
+              </div>
+
+              {/* Complete Shloka Verse lines */}
               {shloka.verseLines.map((line, lIdx) => (
                 <div
                   key={lIdx}
