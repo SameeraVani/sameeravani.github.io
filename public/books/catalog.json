@@ -1975,6 +1975,11 @@
                     "id": "ch4",
                     "title": "अध्यायः ४",
                     "path": "books/mahabharata-tatparya-nirnaya/sa/ch4.md"
+                },
+                {
+                    "id": "ch5",
+                    "title": "अध्यायः ५",
+                    "path": "books/mahabharata-tatparya-nirnaya/sa/ch5.md"
                 }
             ],
             "kannada": [
@@ -1982,6 +1987,11 @@
                     "id": "ch4",
                     "title": "ಅಧ್ಯಾಯ ೪",
                     "path": "books/mahabharata-tatparya-nirnaya/sa/ch4.md"
+                },
+                {
+                    "id": "ch5",
+                    "title": "ಅಧ್ಯಾಯ ೫",
+                    "path": "books/mahabharata-tatparya-nirnaya/sa/ch5.md"
                 }
             ],
             "english": [
@@ -1989,6 +1999,11 @@
                     "id": "ch4",
                     "title": "Chapter 4",
                     "path": "books/mahabharata-tatparya-nirnaya/sa/ch4.md"
+                },
+                {
+                    "id": "ch5",
+                    "title": "Chapter 5",
+                    "path": "books/mahabharata-tatparya-nirnaya/sa/ch5.md"
                 }
             ]
         }
@@ -2040,6 +2055,11 @@
                             "id": "sk3-ch20",
                             "title": "अध्यायः २०",
                             "path": "books/srimad-bhagavatam/sa/skanda3/ch20.md"
+                        },
+                        {
+                            "id": "sk3-ch21",
+                            "title": "अध्यायः २१",
+                            "path": "books/srimad-bhagavatam/sa/skanda3/ch21.md"
                         }
                     ]
                 }
@@ -2059,6 +2079,11 @@
                             "id": "sk3-ch20",
                             "title": "ಅಧ್ಯಾಯ ೨೦",
                             "path": "books/srimad-bhagavatam/sa/skanda3/ch20.md"
+                        },
+                        {
+                            "id": "sk3-ch21",
+                            "title": "ಅಧ್ಯಾಯ ೨೧",
+                            "path": "books/srimad-bhagavatam/sa/skanda3/ch21.md"
                         }
                     ]
                 }
@@ -2078,6 +2103,11 @@
                             "id": "sk3-ch20",
                             "title": "Chapter 20",
                             "path": "books/srimad-bhagavatam/sa/skanda3/ch20.md"
+                        },
+                        {
+                            "id": "sk3-ch21",
+                            "title": "Chapter 21",
+                            "path": "books/srimad-bhagavatam/sa/skanda3/ch21.md"
                         }
                     ]
                 }
