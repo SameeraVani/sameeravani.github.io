@@ -10,6 +10,7 @@ import {
   BookOpen,
   ArrowLeft
 } from 'lucide-react';
+import { toEnglishDigits, formatShlokaNumberWithEnglish } from '../utils/digitUtils';
 
 export interface ParsedShloka {
   index: number;
@@ -113,9 +114,12 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
 
   const filteredShlokas = shlokas.filter(s => {
     if (!searchFilter.trim()) return true;
-    const query = searchFilter.toLowerCase().trim();
+    const query = searchFilter.trim().toLowerCase();
+    const engQuery = toEnglishDigits(query);
+    const engShlokaNum = toEnglishDigits(s.number);
     return (
-      s.number.includes(query) ||
+      s.number.toLowerCase().includes(query) ||
+      engShlokaNum.includes(engQuery) ||
       s.fullVerse.toLowerCase().includes(query)
     );
   });
@@ -269,8 +273,8 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
                   }}
                 >
                   {shloka.number.startsWith('श्लोक') || shloka.number.startsWith('Shloka')
-                    ? shloka.number
-                    : `${l.shlokaPrefix} ${shloka.number}`}
+                    ? formatShlokaNumberWithEnglish(shloka.number)
+                    : `${l.shlokaPrefix} ${formatShlokaNumberWithEnglish(shloka.number)}`}
                 </span>
               </div>
 
@@ -441,7 +445,7 @@ export const SingleShlokaViewer: React.FC<SingleShlokaViewerProps> = ({
           >
             {allShlokas.map((s) => (
               <option key={s.index} value={s.index}>
-                श्लोकः {s.number} ({s.index + 1}/{totalShlokas}) - {s.firstWords}
+                श्लोकः {formatShlokaNumberWithEnglish(s.number)} ({s.index + 1}/{totalShlokas}) - {s.firstWords}
               </option>
             ))}
           </select>

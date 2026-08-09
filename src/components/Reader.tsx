@@ -27,6 +27,7 @@ import { parseShlokas, ShlokaDashboard } from './ShlokaIndex';
 import type { ShlokaIndexItem } from './ShlokaIndex';
 import { parseChapterShlokas, ShlokaListView, SingleShlokaViewer } from './ShlokaView';
 import type { ParsedShloka } from './ShlokaView';
+import { toEnglishDigits } from '../utils/digitUtils';
 
 
 interface ReaderProps {
@@ -286,7 +287,7 @@ export const Reader: React.FC<ReaderProps> = ({
         if (listText && listText.trim().length > 0) {
           const listOnly = parseChapterShlokas(listText);
           listOnly.forEach(lShloka => {
-            const target = fullList.find(f => f.number === lShloka.number);
+            const target = fullList.find(f => f.number === lShloka.number || toEnglishDigits(f.number) === toEnglishDigits(lShloka.number));
             if (target) {
               if (lShloka.verseLines && lShloka.verseLines.length > 0) {
                 target.verseLines = lShloka.verseLines;
@@ -320,7 +321,7 @@ export const Reader: React.FC<ReaderProps> = ({
   }, [book, activeLanguage, activeChapterId]);
 
   const handleSelectShloka = (shloka: ShlokaIndexItem) => {
-    const idx = parsedShlokas.findIndex(s => s.number === shloka.number);
+    const idx = parsedShlokas.findIndex(s => s.number === shloka.number || toEnglishDigits(s.number) === toEnglishDigits(shloka.number));
     if (idx !== -1) {
       setSelectedShlokaIdx(idx);
       setShlokaViewMode('single');

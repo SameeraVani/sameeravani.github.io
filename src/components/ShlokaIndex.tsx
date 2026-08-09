@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BookOpen } from 'lucide-react';
+import { formatShlokaNumberWithEnglish } from '../utils/digitUtils';
 
 export interface ShlokaIndexItem {
   number: string;
@@ -229,7 +230,7 @@ export const ShlokaDashboard: React.FC<ShlokaDashboardProps> = ({
         >
           {shlokas.map((shloka, index) => (
             <option key={index} value={index}>
-              {shloka.number}. {shloka.firstWords}
+              {formatShlokaNumberWithEnglish(shloka.number)}. {shloka.firstWords}
             </option>
           ))}
         </select>
