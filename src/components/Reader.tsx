@@ -300,11 +300,13 @@ export const Reader: React.FC<ReaderProps> = ({
         }
 
         setParsedShlokas(fullList);
-        if (fullList.length > 0) {
+        const hasRealShlokas = fullList.some(s => s.rawMarkdown.includes('श्लोक') || s.rawMarkdown.includes('||') || s.rawMarkdown.includes('॥'));
+        if (fullList.length > 0 && hasRealShlokas) {
           setShlokaViewMode('list');
           setSelectedShlokaIdx(0);
         } else {
           setShlokaViewMode('continuous');
+          setSelectedShlokaIdx(0);
         }
         
         setLoadingChapter(false);
@@ -741,10 +743,10 @@ export const Reader: React.FC<ReaderProps> = ({
       const text = el.textContent || '';
       const normalizedText = text.trim().toLowerCase();
 
-      const cleanText = normalizedText.replace(/[\*\_\`\#]/g, '').trim();
-      const cleanPrefix = normalizedPrefix.replace(/[\*\_\`\#]/g, '').trim();
+      const cleanText = normalizedText.replace(/[\*\_\`\#\\]/g, '').trim();
+      const cleanPrefix = normalizedPrefix.replace(/[\*\_\`\#\\]/g, '').trim();
 
-      if (cleanText.startsWith(cleanPrefix) || cleanText.includes(cleanPrefix)) {
+      if (cleanText.startsWith(cleanPrefix) || cleanText.includes(cleanPrefix) || cleanPrefix.includes(cleanText)) {
         foundElement = el as HTMLElement;
         break;
       }

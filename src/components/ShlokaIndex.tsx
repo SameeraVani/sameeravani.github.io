@@ -6,6 +6,7 @@ export interface ShlokaIndexItem {
   number: string;
   firstWords: string;
   fullText: string;
+  rawMarkdown?: string;
 }
 
 export const parseShlokas = (content: string): ShlokaIndexItem[] => {
@@ -106,10 +107,112 @@ export const parseShlokas = (content: string): ShlokaIndexItem[] => {
     }
   }
 
+  if (items.length > 0) return items;
+
+  // Fallback: Parse section / part / topic headings (### or ####)
+  return parseHeadingSections(content);
+};
+
+export const parseHeadingSections = (content: string): ShlokaIndexItem[] => {
+  if (!content) return [];
+
+  const lines = content.split('\n');
+  
+  // Find all line indices of heading boundaries (### or ####)
+  const headingIndices: number[] = [];
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (line.match(/^#{3,4}\s+/)) {
+      // Exclude document-level metadata headers and Adhikarana danda headers
+      if (
+        line.startsWith('# अध्याय') ||
+        line.startsWith('## पाद') ||
+        line.startsWith('### अधिकरणम्') ||
+        line.includes('॥') ||
+        line.startsWith('---') ||
+        line.startsWith('>')
+      ) {
+        continue;
+      }
+      headingIndices.push(i);
+    }
+  }
+
+  if (headingIndices.length === 0) return [];
+
+  const items: ShlokaIndexItem[] = [];
+  let partCounter = 1;
+
+  for (let idx = 0; idx < headingIndices.length; idx++) {
+    const startLineIdx = headingIndices[idx];
+    const endLineIdx = idx < headingIndices.length - 1 ? headingIndices[idx + 1] : lines.length;
+
+    const rawBlockLines = lines.slice(startLineIdx, endLineIdx);
+    const rawBlock = rawBlockLines.join('\n').trim();
+
+    const headingLine = lines[startLineIdx].trim();
+    const rawHeading = headingLine.replace(/^#{3,4}\s+/, '').trim();
+    const cleanHeading = rawHeading.replace(/\\-/g, '-').replace(/[\*\_`#]/g, '').trim();
+
+    if (!cleanHeading) continue;
+
+    // Determine Part / Section Number
+    let num = `Part ${partCounter}`;
+    const partMatch = cleanHeading.match(/(?:Part|भाग|विषय)\s*[-–—]?\s*([०-९\d]+)/i);
+    if (partMatch) {
+      const explicitNum = parseInt(partMatch[1], 10);
+      if (!isNaN(explicitNum)) {
+        num = `Part ${explicitNum}`;
+        partCounter = Math.max(partCounter, explicitNum + 1);
+      } else {
+        num = `Part ${partCounter}`;
+        partCounter++;
+      }
+    } else {
+      num = `Part ${partCounter}`;
+      partCounter++;
+    }
+
+    // Extract first non-empty body line for preview snippet
+    let snippet = '';
+    for (let j = 1; j < rawBlockLines.length; j++) {
+      const l = rawBlockLines[j].trim();
+      const cleaned = l.replace(/[\*\_`#\[\]>]/g, '').replace(/\\-/g, '-').trim();
+      if (cleaned && !cleaned.startsWith('---') && !cleaned.startsWith('|')) {
+        const words = cleaned.split(/\s+/).filter(Boolean);
+        snippet = words.slice(0, 8).join(' ');
+        if (snippet) break;
+      }
+    }
+
+    let labelText = cleanHeading;
+    if (snippet && !cleanHeading.toLowerCase().includes(snippet.toLowerCase().slice(0, 8))) {
+      labelText = `${cleanHeading} - ${snippet}...`;
+    }
+
+    items.push({
+      number: num,
+      firstWords: labelText,
+      fullText: rawBlock,
+      rawMarkdown: rawBlock
+    });
+  }
+
   return items;
 };
 
-const getShlokaHeaderTitle = (lang: string): string => {
+const getShlokaHeaderTitle = (lang: string, isPartMode = false): string => {
+  if (isPartMode) {
+    const partTitles: Record<string, string> = {
+      english: 'Jump to Part / Topic',
+      sanskrit: 'विषयः / भागः',
+      hindi: 'भाग / विषय पर जाएँ',
+      kannada: 'ಭಾಗ / ವಿಷಯಕ್ಕೆ ಹೋಗಿ',
+      tamil: 'பகுதி / தலைப்பிற்குச் செல்',
+      telugu: 'భాగం / అంశానికి వెళ్ళండి'
+    };
+    return partTitles[lang] || 'Jump to Part / Topic';
+  }
   const titles: Record<string, string> = {
     english: 'Jump to Shloka',
     sanskrit: 'श्लोक-गन्तव्यम्',
@@ -136,7 +239,8 @@ export const ShlokaDashboard: React.FC<ShlokaDashboardProps> = ({
 }) => {
   if (shlokas.length === 0) return null;
 
-  const headerTitle = customLabel || getShlokaHeaderTitle(activeLanguage);
+  const isPartMode = shlokas.some(s => s.number.toLowerCase().includes('part') || s.number.toLowerCase().includes('topic') || s.number.toLowerCase().includes('section'));
+  const headerTitle = customLabel || getShlokaHeaderTitle(activeLanguage, isPartMode);
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
 
   const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -228,11 +332,18 @@ export const ShlokaDashboard: React.FC<ShlokaDashboardProps> = ({
             textOverflow: 'ellipsis'
           }}
         >
-          {shlokas.map((shloka, index) => (
-            <option key={index} value={index}>
-              {formatShlokaNumberWithEnglish(shloka.number)}. {shloka.firstWords}
-            </option>
-          ))}
+          {shlokas.map((shloka, index) => {
+            const isPart = isPartMode || shloka.number.toLowerCase().includes('part') || shloka.number.toLowerCase().includes('topic');
+            const formattedNum = formatShlokaNumberWithEnglish(shloka.number);
+            const textLabel = isPart
+              ? (shloka.firstWords.toLowerCase().includes(shloka.number.toLowerCase()) ? shloka.firstWords : `${formattedNum}: ${shloka.firstWords}`)
+              : `${formattedNum}. ${shloka.firstWords}`;
+            return (
+              <option key={index} value={index}>
+                {textLabel}
+              </option>
+            );
+          })}
         </select>
 
         <button

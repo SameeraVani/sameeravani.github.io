@@ -11,6 +11,7 @@ import {
   ArrowLeft
 } from 'lucide-react';
 import { toEnglishDigits, formatShlokaNumberWithEnglish } from '../utils/digitUtils';
+import { parseHeadingSections } from './ShlokaIndex';
 
 export interface ParsedShloka {
   index: number;
@@ -93,6 +94,20 @@ export const parseChapterShlokas = (content: string): ParsedShloka[] => {
     }
   });
 
+  if (parsedShlokas.length === 0) {
+    const headingSections = parseHeadingSections(content);
+    headingSections.forEach((sec, idx) => {
+      parsedShlokas.push({
+        index: idx,
+        number: sec.number,
+        firstWords: sec.firstWords,
+        fullVerse: sec.fullText,
+        verseLines: [sec.firstWords],
+        rawMarkdown: sec.rawMarkdown || sec.fullText
+      });
+    });
+  }
+
   return parsedShlokas;
 };
 
@@ -124,7 +139,16 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
     );
   });
 
-  const labels: Record<string, { listTitle: string; searchPlaceholder: string; continuous: string; totalShlokas: string; shlokaPrefix: string }> = {
+  const isPartMode = shlokas.some(s => s.number.toLowerCase().includes('part') || s.number.toLowerCase().includes('topic') || s.number.toLowerCase().includes('section'));
+
+  const labels: Record<string, { listTitle: string; searchPlaceholder: string; continuous: string; totalShlokas: string; shlokaPrefix: string }> = isPartMode ? {
+    english: { listTitle: 'Parts & Topics Directory', searchPlaceholder: 'Filter by part number or text...', continuous: 'Full Chapter Scroll', totalShlokas: 'Parts', shlokaPrefix: 'Part' },
+    sanskrit: { listTitle: 'भागविषयसूची', searchPlaceholder: 'भागसङ्ख्यायाः पाठस्य वा अन्वेषणम्...', continuous: 'पूर्णमध्यायपठनम्', totalShlokas: 'भागाः', shlokaPrefix: 'भागः' },
+    hindi: { listTitle: 'भाग एवं विषय सूची', searchPlaceholder: 'भाग संख्या या पाठ खोजें...', continuous: 'पूरा अध्याय पढ़ें', totalShlokas: 'भाग', shlokaPrefix: 'भाग' },
+    kannada: { listTitle: 'ಭಾಗ ಮತ್ತು ವಿಷಯ ಸೂಚಿ', searchPlaceholder: 'ಭಾಗ ಸಂಖ್ಯೆ ಅಥವಾ ಪಠ್ಯ ಹುಡುಕಿ...', continuous: 'ಪೂರ್ಣ ಅಧ್ಯಾಯ ಓದಿ', totalShlokas: 'ಭಾಗಗಳು', shlokaPrefix: 'ಭಾಗ' },
+    tamil: { listTitle: 'பகுதி / தலைப்புப் பட்டியல்', searchPlaceholder: 'பகுதி எண் அல்லது உரையைத் தேடுக...', continuous: 'முழு அத்தியாயம் படிக்க', totalShlokas: 'பகுதிகள்', shlokaPrefix: 'பகுதி' },
+    telugu: { listTitle: 'భాగం & అంశం సూచిక', searchPlaceholder: 'భాగం సంఖ్య లేదా పాఠ్యం శోధించండి...', continuous: 'పూర్తి అధ్యాయం చదవండి', totalShlokas: 'భాగాలు', shlokaPrefix: 'భాగం' }
+  } : {
     english: { listTitle: 'Shloka Directory', searchPlaceholder: 'Filter by shloka number or text...', continuous: 'Full Chapter Scroll', totalShlokas: 'Shlokas', shlokaPrefix: 'Shloka' },
     sanskrit: { listTitle: 'श्लोकसूची', searchPlaceholder: 'श्लोकसङ्ख्यायाः पाठस्य वा अन्वेषणम्...', continuous: 'पूर्णमध्यायपठनम्', totalShlokas: 'श्लोकाः', shlokaPrefix: 'श्लोकः' },
     hindi: { listTitle: 'श्लोक सूची', searchPlaceholder: 'श्लोक संख्या या पाठ खोजें...', continuous: 'पूरा अध्याय पढ़ें', totalShlokas: 'श्लोक', shlokaPrefix: 'श्लोक' },
@@ -443,11 +467,18 @@ export const SingleShlokaViewer: React.FC<SingleShlokaViewerProps> = ({
               textOverflow: 'ellipsis'
             }}
           >
-            {allShlokas.map((s) => (
-              <option key={s.index} value={s.index}>
-                श्लोकः {formatShlokaNumberWithEnglish(s.number)} ({s.index + 1}/{totalShlokas}) - {s.firstWords}
-              </option>
-            ))}
+            {allShlokas.map((s) => {
+              const isPart = s.number.toLowerCase().includes('part') || s.number.toLowerCase().includes('topic') || s.number.toLowerCase().includes('section');
+              const formattedNum = formatShlokaNumberWithEnglish(s.number);
+              const textLabel = isPart
+                ? (s.firstWords.toLowerCase().includes(s.number.toLowerCase()) ? s.firstWords : `${formattedNum}: ${s.firstWords}`)
+                : `श्लोकः ${formattedNum} (${s.index + 1}/${totalShlokas}) - ${s.firstWords}`;
+              return (
+                <option key={s.index} value={s.index}>
+                  {textLabel}
+                </option>
+              );
+            })}
           </select>
 
           <button
