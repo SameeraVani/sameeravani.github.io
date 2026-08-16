@@ -136,4 +136,37 @@ catalog.forEach((book) => {
   });
 });
 
+// Prerender video routes
+const videoCatalogPath = path.join(__dirname, 'public/books/video-catalog.json');
+if (fs.existsSync(videoCatalogPath)) {
+  const videoCatalog = JSON.parse(fs.readFileSync(videoCatalogPath, 'utf8'));
+
+  writePage('/videos', 'Video Library | SameeraVani', 'Explore video lessons, recitations, and courses on SameeraVani.', 'books/default-cover.png');
+
+  videoCatalog.forEach((book) => {
+    const bookTitle = book.title;
+    const bookDesc = book.description || 'Video course & recitations.';
+    const cover = book.coverUrl || 'books/default-cover.png';
+
+    writePage(`/videos/${book.id}`, `${bookTitle} — Video Lessons | SameeraVani`, bookDesc, cover);
+
+    const playlists = book.playlists || {};
+    Object.values(playlists).flat().forEach((playlist) => {
+      if (playlist && playlist.id) {
+        // Use primary ID if comma-separated to avoid OS max path length errors
+        const primaryId = playlist.id.split(',')[0].trim();
+        if (primaryId) {
+          writePage(
+            `/videos/${book.id}/${encodeURIComponent(primaryId)}`,
+            `${playlist.title} — ${bookTitle} | SameeraVani`,
+            bookDesc,
+            cover
+          );
+        }
+      }
+    });
+  });
+}
+
 console.log(`Pre-rendering finished successfully! Generated metadata-optimized files.`);
+

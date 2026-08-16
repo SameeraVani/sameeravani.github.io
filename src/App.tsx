@@ -2,17 +2,20 @@ import { useState, useEffect } from 'react';
 import { Catalog } from './components/Catalog';
 import { Reader } from './components/Reader';
 import { VideoLibrary } from './components/video/VideoLibrary';
-import { parseRoute, getUrlForRoute } from './utils/route';
+import { parseRoute, getUrlForRoute, getVideoUrlForRoute } from './utils/route';
 import type { ReadingProgressMap, Bookmark } from './types';
 
 function App() {
-  const [selectedBookId, setSelectedBookId] = useState<string | null>(() => {
+  const [appMode, setAppMode] = useState<'reading' | 'video'>(() => {
     const route = parseRoute();
-    if (route.bookId) return route.bookId;
-    return localStorage.getItem('active-book-id');
+    return route.mode;
   });
 
-  const [appMode, setAppMode] = useState<'reading' | 'video'>('reading');
+  const [selectedBookId, setSelectedBookId] = useState<string | null>(() => {
+    const route = parseRoute();
+    if (route.mode === 'reading' && route.bookId) return route.bookId;
+    return route.mode === 'reading' ? localStorage.getItem('active-book-id') : null;
+  });
 
   const [appLanguage, setAppLanguage] = useState<string>(() => {
     const route = parseRoute();
@@ -24,7 +27,7 @@ function App() {
     setAppLanguage(lang);
     localStorage.setItem('app-language', lang);
     const route = parseRoute();
-    if (route.bookId) {
+    if (route.mode === 'reading' && route.bookId) {
       const newUrl = getUrlForRoute(route.bookId, lang, route.chapterId);
       window.history.replaceState(null, '', newUrl);
     }
@@ -33,9 +36,14 @@ function App() {
   useEffect(() => {
     const handlePopState = () => {
       const route = parseRoute();
-      setSelectedBookId(route.bookId);
-      if (route.lang) {
-        setAppLanguage(route.lang);
+      setAppMode(route.mode);
+      if (route.mode === 'reading') {
+        setSelectedBookId(route.bookId);
+        if (route.lang) {
+          setAppLanguage(route.lang);
+        }
+      } else {
+        setSelectedBookId(null);
       }
     };
 
@@ -171,7 +179,7 @@ function App() {
 
   return (
     <div className="app-container">
-      {selectedBookId ? (
+      {appMode === 'reading' && selectedBookId ? (
         <Reader
           bookId={selectedBookId}
           onBack={handleBackToCatalog}
@@ -187,13 +195,21 @@ function App() {
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
           <header style={{ display: 'flex', justifyContent: 'center', padding: '15px', background: 'var(--bg-primary)', borderBottom: '1px solid var(--border)', gap: '20px' }}>
             <button 
-              onClick={() => setAppMode('reading')}
+              onClick={() => {
+                setAppMode('reading');
+                const newUrl = getUrlForRoute(null, null, null);
+                window.history.pushState(null, '', newUrl);
+              }}
               style={{ padding: '10px 20px', borderRadius: '20px', border: 'none', background: appMode === 'reading' ? 'var(--accent)' : 'var(--bg-tertiary)', color: appMode === 'reading' ? 'white' : 'var(--text-primary)', fontWeight: 'bold', cursor: 'pointer' }}
             >
               Books Library
             </button>
             <button 
-              onClick={() => setAppMode('video')}
+              onClick={() => {
+                setAppMode('video');
+                const newUrl = getVideoUrlForRoute(null, null, null);
+                window.history.pushState(null, '', newUrl);
+              }}
               style={{ padding: '10px 20px', borderRadius: '20px', border: 'none', background: appMode === 'video' ? 'var(--accent)' : 'var(--bg-tertiary)', color: appMode === 'video' ? 'white' : 'var(--text-primary)', fontWeight: 'bold', cursor: 'pointer' }}
             >
               Video Library

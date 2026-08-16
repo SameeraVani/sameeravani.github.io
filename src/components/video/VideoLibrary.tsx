@@ -1,31 +1,106 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import type { Book, VideoPlaylist } from '../../types';
 import { Search, ArrowLeft, PlayCircle } from 'lucide-react';
 import { VideoDashboard } from './VideoDashboard';
+import { parseRoute, getVideoUrlForRoute } from '../../utils/route';
 
 export const VideoLibrary: React.FC = () => {
   const [books, setBooks] = useState<Book[]>([]);
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
   const [selectedPlaylist, setSelectedPlaylist] = useState<VideoPlaylist | null>(null);
+  const [initialVideoId, setInitialVideoId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+
+  const syncRouteWithState = useCallback((allBooks: Book[]) => {
+    const route = parseRoute();
+    if (route.mode !== 'video') return;
+
+    if (!route.bookId) {
+      setSelectedBook(null);
+      setSelectedPlaylist(null);
+      setInitialVideoId(null);
+      return;
+    }
+
+    const foundBook = allBooks.find(b => b.id === route.bookId);
+    if (foundBook) {
+      setSelectedBook(foundBook);
+
+      const allPlaylists: VideoPlaylist[] = Object.values(foundBook.playlists || {}).flat();
+
+      if (route.playlistId) {
+        const foundPlaylist = allPlaylists.find(
+          p => p.id === route.playlistId || encodeURIComponent(p.id) === route.playlistId || p.id.split(',').map(s=>s.trim()).includes(route.playlistId!)
+        );
+        if (foundPlaylist) {
+          setSelectedPlaylist(foundPlaylist);
+        } else if (allPlaylists.length > 0) {
+          setSelectedPlaylist(allPlaylists[0]);
+        }
+      } else if (route.videoId && allPlaylists.length > 0) {
+        setSelectedPlaylist(allPlaylists[0]);
+      } else {
+        setSelectedPlaylist(null);
+      }
+
+      setInitialVideoId(route.videoId || null);
+    }
+  }, []);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}books/video-catalog.json?t=${Date.now()}`)
       .then(res => res.json())
       .then((data: Book[]) => {
-        // Filter only books that have playlists in at least one language
         const booksWithVideos = data.filter(book => {
           return book.playlists && Object.values(book.playlists).some(lists => lists.length > 0);
         });
         setBooks(booksWithVideos);
+        syncRouteWithState(booksWithVideos);
       });
-  }, []);
+  }, [syncRouteWithState]);
+
+  useEffect(() => {
+    const handlePopState = () => {
+      syncRouteWithState(books);
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [books, syncRouteWithState]);
+
+  const handleBookClick = (book: Book) => {
+    setSelectedBook(book);
+    setSelectedPlaylist(null);
+    setInitialVideoId(null);
+    window.history.pushState(null, '', getVideoUrlForRoute(book.id));
+  };
+
+  const handleBackToBooks = () => {
+    setSelectedBook(null);
+    setSelectedPlaylist(null);
+    setInitialVideoId(null);
+    window.history.pushState(null, '', getVideoUrlForRoute(null));
+  };
+
+  const handlePlaylistClick = (playlist: VideoPlaylist) => {
+    setSelectedPlaylist(playlist);
+    setInitialVideoId(null);
+    window.history.pushState(null, '', getVideoUrlForRoute(selectedBook?.id, playlist.id));
+  };
+
+  const handleBackToPlaylists = () => {
+    setSelectedPlaylist(null);
+    setInitialVideoId(null);
+    window.history.pushState(null, '', getVideoUrlForRoute(selectedBook?.id));
+  };
 
   if (selectedPlaylist && selectedBook) {
     return (
       <VideoDashboard 
+        bookId={selectedBook.id}
         activePlaylist={selectedPlaylist} 
-        onBack={() => setSelectedPlaylist(null)} 
+        initialVideoId={initialVideoId}
+        onBack={handleBackToPlaylists} 
       />
     );
   }
@@ -37,7 +112,7 @@ export const VideoLibrary: React.FC = () => {
           <h1 className="catalog-title" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             {selectedBook ? (
               <>
-                <button onClick={() => setSelectedBook(null)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-primary)', display: 'flex', alignItems: 'center' }}>
+                <button onClick={handleBackToBooks} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-primary)', display: 'flex', alignItems: 'center' }}>
                   <ArrowLeft size={24} />
                 </button>
                 {selectedBook.title} - Video Playlists
@@ -68,7 +143,7 @@ export const VideoLibrary: React.FC = () => {
               <div 
                 key={book.id} 
                 className="book-card" 
-                onClick={() => setSelectedBook(book)}
+                onClick={() => handleBookClick(book)}
                 style={{ background: 'var(--bg-primary)', borderRadius: '12px', overflow: 'hidden', cursor: 'pointer', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', transition: 'transform 0.2s', display: 'flex', flexDirection: 'column' }}
               >
                 <div style={{ padding: '20px', flex: 1 }}>
@@ -95,7 +170,7 @@ export const VideoLibrary: React.FC = () => {
             ).filter(list => list.title.toLowerCase().includes(searchQuery.toLowerCase())).map((playlist, idx) => (
               <div 
                 key={`${playlist.id}-${idx}`} 
-                onClick={() => setSelectedPlaylist(playlist)}
+                onClick={() => handlePlaylistClick(playlist)}
                 style={{ background: 'var(--bg-primary)', borderRadius: '12px', padding: '20px', cursor: 'pointer', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', transition: 'transform 0.2s', border: '1px solid var(--border)' }}
               >
                 <div style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '15px' }}>
