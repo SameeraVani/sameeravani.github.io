@@ -168,5 +168,33 @@ if (fs.existsSync(videoCatalogPath)) {
   });
 }
 
+// Prerender quick lessons routes
+const lessonsCatalogPath = path.join(__dirname, 'public/lessons/lessons-catalog.json');
+if (fs.existsSync(lessonsCatalogPath)) {
+  const lessonsCatalog = JSON.parse(fs.readFileSync(lessonsCatalogPath, 'utf8'));
+
+  writePage('/quick-lessons', 'Quick Lessons & Micro-Learning | SameeraVani', 'Bite-sized daily lessons and 3-question quizzes designed for busy office-goers.', 'books/default-cover.png');
+
+  lessonsCatalog.forEach((topic) => {
+    const topicTitle = topic.title;
+    const topicDesc = topic.description || 'Micro-learning topic course.';
+    const cover = topic.coverUrl || 'books/default-cover.png';
+
+    writePage(`/quick-lessons/${topic.id}`, `${topicTitle} — Quick Lessons | SameeraVani`, topicDesc, cover);
+
+    (topic.lessons || []).forEach((lesson) => {
+      if (lesson && lesson.id) {
+        writePage(
+          `/quick-lessons/${topic.id}/${lesson.id}`,
+          `${lesson.title} — ${topicTitle} | SameeraVani`,
+          lesson.summary || topicDesc,
+          cover
+        );
+      }
+    });
+  });
+}
+
 console.log(`Pre-rendering finished successfully! Generated metadata-optimized files.`);
+
 

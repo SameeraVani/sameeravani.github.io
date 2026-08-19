@@ -72,3 +72,57 @@ export interface Bookmark {
   scrollPercent: number;
   createdAt: number;
 }
+
+export interface QuizQuestion {
+  id: string;
+  question: string;
+  options: string[];
+  correctIndex: number;
+  explanation: string;
+}
+
+export interface LocalizedLessonContent {
+  title: string;
+  summary: string;
+  content: string;
+  quiz: QuizQuestion[];
+}
+
+export interface MicroLesson {
+  id: string;
+  topicId: string;
+  title: string;
+  summary: string;
+  content: string;
+  quiz: QuizQuestion[];
+  localized?: {
+    [lang: string]: LocalizedLessonContent;
+  };
+}
+
+export interface LessonTopic {
+  id: string;
+  title: string;
+  description: string;
+  category?: string;
+  coverUrl?: string;
+  localized?: {
+    [lang: string]: {
+      title: string;
+      description: string;
+    };
+  };
+  lessons: MicroLesson[];
+}
+
+export interface LessonProgress {
+  completed: boolean;
+  score: number;
+  total: number;
+  lastAttemptTime: number;
+}
+
+export interface LessonProgressMap {
+  [lessonId: string]: LessonProgress;
+}
+

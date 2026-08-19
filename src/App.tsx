@@ -2,11 +2,12 @@ import { useState, useEffect } from 'react';
 import { Catalog } from './components/Catalog';
 import { Reader } from './components/Reader';
 import { VideoLibrary } from './components/video/VideoLibrary';
-import { parseRoute, getUrlForRoute, getVideoUrlForRoute } from './utils/route';
+import { QuickLessons } from './components/lessons/QuickLessons';
+import { parseRoute, getUrlForRoute, getVideoUrlForRoute, getQuickLessonUrlForRoute } from './utils/route';
 import type { ReadingProgressMap, Bookmark } from './types';
 
 function App() {
-  const [appMode, setAppMode] = useState<'reading' | 'video'>(() => {
+  const [appMode, setAppMode] = useState<'reading' | 'video' | 'lessons'>(() => {
     const route = parseRoute();
     return route.mode;
   });
@@ -193,7 +194,7 @@ function App() {
         />
       ) : (
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-          <header style={{ display: 'flex', justifyContent: 'center', padding: '15px', background: 'var(--bg-primary)', borderBottom: '1px solid var(--border)', gap: '20px' }}>
+          <header style={{ display: 'flex', justifyContent: 'center', padding: '15px', background: 'var(--bg-primary)', borderBottom: '1px solid var(--border)', gap: '15px', flexWrap: 'wrap' }}>
             <button 
               onClick={() => {
                 setAppMode('reading');
@@ -214,6 +215,16 @@ function App() {
             >
               Video Library
             </button>
+            <button 
+              onClick={() => {
+                setAppMode('lessons');
+                const newUrl = getQuickLessonUrlForRoute(null, null);
+                window.history.pushState(null, '', newUrl);
+              }}
+              style={{ padding: '10px 20px', borderRadius: '20px', border: 'none', background: appMode === 'lessons' ? 'var(--accent)' : 'var(--bg-tertiary)', color: appMode === 'lessons' ? 'white' : 'var(--text-primary)', fontWeight: 'bold', cursor: 'pointer' }}
+            >
+              ⚡ Quick Lessons
+            </button>
           </header>
           <div style={{ flex: 1 }}>
             {appMode === 'reading' ? (
@@ -223,8 +234,10 @@ function App() {
                 appLanguage={appLanguage}
                 onChangeLanguage={handleLanguageChange}
               />
-            ) : (
+            ) : appMode === 'video' ? (
               <VideoLibrary />
+            ) : (
+              <QuickLessons />
             )}
           </div>
         </div>
@@ -234,3 +247,4 @@ function App() {
 }
 
 export default App;
+
