@@ -25,7 +25,7 @@ import { downloadChapterAsPdf, downloadFullBookAsPdf, acquireSaveFileHandle } fr
 import { PracticeDashboard } from './practice/PracticeDashboard';
 import { parseShlokas, ShlokaDashboard } from './ShlokaIndex';
 import type { ShlokaIndexItem } from './ShlokaIndex';
-import { parseChapterShlokas, ShlokaListView, SingleShlokaViewer } from './ShlokaView';
+import { parseChapterShlokas, ShlokaListView, SingleShlokaViewer, ChapterQuizView } from './ShlokaView';
 import type { ParsedShloka } from './ShlokaView';
 import { toEnglishDigits } from '../utils/digitUtils';
 
@@ -70,8 +70,9 @@ export const Reader: React.FC<ReaderProps> = ({
   const [chapterContent, setChapterContent] = useState<string>('');
   const [shlokas, setShlokas] = useState<ShlokaIndexItem[]>([]);
   const [parsedShlokas, setParsedShlokas] = useState<ParsedShloka[]>([]);
-  const [shlokaViewMode, setShlokaViewMode] = useState<'list' | 'single' | 'continuous'>('list');
+  const [shlokaViewMode, setShlokaViewMode] = useState<'list' | 'single' | 'continuous' | 'quiz'>('list');
   const [selectedShlokaIdx, setSelectedShlokaIdx] = useState<number>(0);
+  const [selectedQuizPartIdx, setSelectedQuizPartIdx] = useState<number>(0);
   const [loadingChapter, setLoadingChapter] = useState<boolean>(true);
   const [loadingBook, setLoadingBook] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -1688,12 +1689,39 @@ export const Reader: React.FC<ReaderProps> = ({
                       shlokas={parsedShlokas}
                       chapterTitle={activeChapter ? activeChapter.title : ''}
                       activeLanguage={activeLanguage}
+                      bookId={bookId}
+                      chapterId={activeChapterId}
                       onSelectShloka={(index) => {
                         setSelectedShlokaIdx(index);
                         setShlokaViewMode('single');
                         if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
                       }}
+                      onOpenQuiz={(partIdx) => {
+                        setSelectedQuizPartIdx(partIdx ?? 0);
+                        setShlokaViewMode('quiz');
+                        if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                      }}
                       onSwitchToContinuous={() => setShlokaViewMode('continuous')}
+                    />
+                  )}
+
+                  {parsedShlokas.length > 0 && shlokaViewMode === 'quiz' && (
+                    <ChapterQuizView
+                      shlokas={parsedShlokas}
+                      chapterTitle={activeChapter ? activeChapter.title : ''}
+                      activeLanguage={activeLanguage}
+                      bookId={bookId}
+                      chapterId={activeChapterId}
+                      initialPartIdx={selectedQuizPartIdx}
+                      onBackToList={() => {
+                        setShlokaViewMode('list');
+                        if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                      }}
+                      onSelectShloka={(index) => {
+                        setSelectedShlokaIdx(index);
+                        setShlokaViewMode('single');
+                        if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                      }}
                     />
                   )}
 
@@ -1703,6 +1731,8 @@ export const Reader: React.FC<ReaderProps> = ({
                       totalShlokas={parsedShlokas.length}
                       allShlokas={parsedShlokas}
                       activeLanguage={activeLanguage}
+                      bookId={bookId}
+                      chapterId={activeChapterId}
                       fontFamily={settings.fontFamily}
                       fontSize={settings.fontSize}
                       lineHeight={settings.lineHeight}
@@ -1724,6 +1754,11 @@ export const Reader: React.FC<ReaderProps> = ({
                       }}
                       onBackToList={() => {
                         setShlokaViewMode('list');
+                        if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                      }}
+                      onOpenQuiz={(partIdx) => {
+                        setSelectedQuizPartIdx(partIdx ?? selectedShlokaIdx);
+                        setShlokaViewMode('quiz');
                         if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
                       }}
                       onSwitchToContinuous={() => setShlokaViewMode('continuous')}

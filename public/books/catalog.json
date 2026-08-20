@@ -148,6 +148,11 @@
                     "id": "ad2-pd1-adh1-top1",
                     "title": "Adhyaya 2, Pada 1, Adhikarana 1: ॥ स्मृत्यधिकरणम् ॥",
                     "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+                },
+                {
+                    "id": "ad2-pd1-adh2-top1",
+                    "title": "Adhyaya 2, Pada 1, Adhikarana 2: ॥ न विलक्षणत्वाधिकरणम् ॥",
+                    "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
                 }
             ],
             "sanskrit": [
@@ -160,6 +165,11 @@
                     "id": "ad2-pd1-adh1-top1",
                     "title": "अध्यायः २, पादः १, अधिकरणम् १: ॥ स्मृत्यधिकरणम् ॥",
                     "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+                },
+                {
+                    "id": "ad2-pd1-adh2-top1",
+                    "title": "अध्यायः २, पादः १, अधिकरणम् २: ॥ न विलक्षणत्वाधिकरणम् ॥",
+                    "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
                 }
             ],
             "hindi": [
@@ -172,6 +182,11 @@
                     "id": "ad2-pd1-adh1-top1",
                     "title": "अध्याय २, पाद १, अधिकरण १: ॥ स्मृत्यधिकरणम् ॥",
                     "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+                },
+                {
+                    "id": "ad2-pd1-adh2-top1",
+                    "title": "अध्याय २, पाद १, अधिकरण २: ॥ न विलक्षणत्वाधिकरणम् ॥",
+                    "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
                 }
             ],
             "kannada": [
@@ -184,6 +199,11 @@
                     "id": "ad2-pd1-adh1-top1",
                     "title": "ಅಧ್ಯಾಯ ೨, ಪಾದ ೧, ಅಧಿಕರಣ ೧: ॥ ಸ್ಮೃತ್ಯಧಿಕರಣಮ್ ॥",
                     "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+                },
+                {
+                    "id": "ad2-pd1-adh2-top1",
+                    "title": "ಅಧ್ಯಾಯ ೨, ಪಾದ ೧, ಅಧಿಕರಣ ೨: ॥ ನ ವಿಲಕ್ಷಣತ್ವಾದಧಿಕರಣಮ್ ॥",
+                    "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
                 }
             ],
             "tamil": [
@@ -196,6 +216,11 @@
                     "id": "ad2-pd1-adh1-top1",
                     "title": "அத்தியாயம் 2, பாதம் 1, அதிகரணம் 1: ॥ ஸ்மிருத்யதிகரணம் ॥",
                     "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+                },
+                {
+                    "id": "ad2-pd1-adh2-top1",
+                    "title": "அத்தியாயம் 2, பாதம் 1, அதிகரணம் 2: ॥ ந விலக்ஷணத்வாதிகரணம் ॥",
+                    "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
                 }
             ],
             "telugu": [
@@ -208,6 +233,11 @@
                     "id": "ad2-pd1-adh1-top1",
                     "title": "అధ్యాయము 2, పాదము 1, అధికరణము 1: ॥ స్మృత్యధికరణము ॥",
                     "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+                },
+                {
+                    "id": "ad2-pd1-adh2-top1",
+                    "title": "అధ్యాయము 2, పాదము 1, అధికరణము 2: ॥ న విలక్షణత్వాధికరణము ॥",
+                    "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
                 }
             ]
         }

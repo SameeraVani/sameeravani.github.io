@@ -28,4 +28,5 @@ dist-ssr
 
 # Agent Workspace artifacts
 public/chunks.json
+scratch/
 
