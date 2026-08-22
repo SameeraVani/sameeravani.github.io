@@ -11,6 +11,10 @@ language: "sa"
 > [!NOTE]
 > न्यायसुधा — अध्यायः २, पादः १, अधिकरणम् १, विषयः 1
 
+> [!TIP]
+> **न्यायसुधा-स्मृत्यधिकरण-प्रश्नोत्तरी (Smrityadhikarana Question Bank)**:
+> अस्मिन् स्मृत्यधिकरणे १८ भागानां कृते प्रौढसंस्कृतभाषायाम् ५४+ बहुविकल्पप्रश्नोत्तरी (MCQ Question Bank with Instant Scoring & Detailed Sanskrit Explanations) सज्जमस्ति। [⚡ प्रश्नोत्तरी-खण्डं प्रविश्य उत्तरं दीयताम् (Take Question Bank Quiz)](/quick-lessons/nyaya-sudha-smrityadhikarana-qb)
+
 
 ### ॥ स्मृत्यधिकरणम् ॥
 
