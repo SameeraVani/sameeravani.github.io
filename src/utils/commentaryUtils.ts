@@ -7,7 +7,12 @@ export const transformCommentaryToCollapsible = (markdown: string): string => {
   if (!markdown) return '';
 
   // Prevent accidental Markdown Setext headings (e.g. text followed immediately by --- on next line becomes <h2>)
-  const sanitizedMarkdown = markdown.replace(/([^\r\n])\r?\n(---+)/g, '$1\n\n$2');
+  let sanitizedMarkdown = markdown.replace(/([^\r\n])\r?\n(---+)/g, '$1\n\n$2');
+
+  // Fix unspaced bold tags where **tag** or **tag \-** is directly attached to non-whitespace letters/numbers
+  sanitizedMarkdown = sanitizedMarkdown.replace(/(\*\*[^*\n]+?\*\*)([\u0900-\u097Fa-zA-Z0-9])/g, '$1 $2');
+  // Also clean up backslash-escaped hyphens inside bold tags like **text \-** -> **text -**
+  sanitizedMarkdown = sanitizedMarkdown.replace(/(\*\*[^*\n]+?)\\\-([^*\n]*\*\*)/g, '$1-$2');
 
   const lines = sanitizedMarkdown.split(/\r?\n/);
   const outLines: string[] = [];
