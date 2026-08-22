@@ -882,13 +882,14 @@ a:hover {
   width: 100%;
   border-collapse: collapse;
   margin: 2em 0;
-  font-size: 0.95rem;
+  font-size: 1em;
 }
 
 .reader-markdown th, .reader-markdown td {
   border: 1px solid var(--border);
   padding: 12px;
   text-align: left;
+  font-size: 1em;
 }
 
 .reader-markdown th {
@@ -1779,5 +1780,128 @@ a:hover {
   }
 }
 
+/* =========================================================
+   Collapsible Commentary (Gita Bhashya / Vivruti) Accordion
+   ========================================================= */
 
+.reader-markdown details.commentary-collapsible {
+  margin: 24px 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-smooth);
+  overflow: hidden;
+}
 
+.reader-markdown details.commentary-collapsible:hover {
+  border-color: var(--border-hover);
+  box-shadow: var(--shadow-md);
+}
+
+.reader-markdown details.commentary-collapsible summary.commentary-summary {
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  cursor: pointer;
+  user-select: none;
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid transparent;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  font-family: var(--font-ui);
+  list-style: none;
+  position: static;
+  box-shadow: none;
+}
+
+/* Remove default summary marker */
+.reader-markdown details.commentary-collapsible summary.commentary-summary::-webkit-details-marker {
+  display: none;
+}
+
+.reader-markdown details.commentary-collapsible summary.commentary-summary::before {
+  content: "▶";
+  display: inline-block;
+  font-size: 0.82rem;
+  color: var(--accent);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 2px;
+}
+
+.reader-markdown details.commentary-collapsible[open] > summary.commentary-summary::before {
+  transform: rotate(90deg);
+}
+
+.reader-markdown details.commentary-collapsible[open] > summary.commentary-summary {
+  border-bottom: 1px solid var(--border);
+  background-color: var(--bg-tertiary);
+}.reader-markdown details.commentary-collapsible .commentary-icon {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.reader-markdown details.commentary-collapsible .commentary-title {
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.01em;
+}
+
+.reader-markdown details.commentary-collapsible .commentary-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  background-color: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  margin-left: 4px;
+}
+
+.reader-markdown details.commentary-collapsible .commentary-toggle-hint {
+  margin-left: auto;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.reader-markdown details.commentary-collapsible[open] .commentary-toggle-hint {
+  display: none;
+}
+
+.reader-markdown details.commentary-collapsible .commentary-content {
+  padding: 22px 26px !important;
+  background-color: var(--bg-primary);
+  font-size: 1em;
+  animation: fadeIn 0.2s ease-out;
+}
+
+/* Ensure completely uniform font size across all shloka sections (Anvaya, Sandhi, Padaparichaya, Vivruti, Bhashya, Bhavartha, Vyakarana) */
+.reader-markdown p,
+.reader-markdown table,
+.reader-markdown th,
+.reader-markdown td,
+.reader-markdown blockquote,
+.reader-markdown li,
+.reader-markdown details,
+.reader-markdown summary,
+.reader-markdown .commentary-content {
+  font-size: 1em;
+  line-height: inherit;
+}
+
+@media (max-width: 640px) {
+  .reader-markdown details.commentary-collapsible summary.commentary-summary {
+    padding: 12px 14px;
+    gap: 8px;
+  }
+  .reader-markdown details.commentary-collapsible .commentary-toggle-hint {
+    display: none;
+  }
+  .reader-markdown details.commentary-collapsible .commentary-content {
+    padding: 14px 16px !important;
+  }
+}

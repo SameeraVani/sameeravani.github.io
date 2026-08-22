@@ -1,4 +1,4 @@
-import type { Book } from '../types';
+import type { Book, Chapter } from '../types';
 import { marked } from 'marked';
 import DOMPurify from 'dompurify';
 import { jsPDF } from 'jspdf';
@@ -198,11 +198,24 @@ export async function downloadChapterAsPdf(markdownText: string, filename: strin
  * Utility to fetch and download all chapters of a book in a specific language as PDF.
  */
 export async function downloadFullBookAsPdf(book: Book, language: string, fileHandle?: FileSystemFileHandle | null): Promise<void> {
-  const chapters = book.chapters?.[language] || [];
-  if (chapters.length === 0) {
+  const rawChapters = book.chapters?.[language] || [];
+  if (rawChapters.length === 0) {
     console.warn('No chapters found for this language.');
     return;
   }
+
+  const flattenChapters = (chapList: Chapter[]): Chapter[] => {
+    return chapList.reduce((acc: Chapter[], ch) => {
+      if (ch.topics && ch.topics.length > 0) {
+        acc = acc.concat(flattenChapters(ch.topics));
+      } else {
+        acc.push(ch);
+      }
+      return acc;
+    }, []);
+  };
+
+  const chapters = flattenChapters(rawChapters);
 
   const bookTitle = book.localized?.[language]?.title || book.title;
   const author = book.author;

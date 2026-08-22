@@ -13,7 +13,8 @@ import {
   Zap,
   ArrowUp
 } from 'lucide-react';
-import { toEnglishDigits, formatShlokaNumberWithEnglish } from '../utils/digitUtils';
+import { toEnglishDigits, formatShlokaNumberWithEnglish, stripMarkdown, isSpeakerLine } from '../utils/digitUtils';
+import { transformCommentaryToCollapsible } from '../utils/commentaryUtils';
 import { parseHeadingSections } from './ShlokaIndex';
 import { QuizPlayer } from './lessons/QuizPlayer';
 import type { LessonTopic, LessonProgressMap } from '../types';
@@ -57,19 +58,20 @@ export interface ParsedShloka {
 export const parseChapterShlokas = (content: string): ParsedShloka[] => {
   if (!content) return [];
 
-  // Match blocks starting with **श्लोकः <num>** or **श्लोक <num>** (including 1.1, १.१ etc.)
-  const shlokaBlockRegex = /(?=\*\*श्लोकः?\s*[०-९\d]+(?:\.[०-९\d]+)?\*\*)/;
+  // Match blocks starting with **श्लोकः <num>** or **श्लोक <num>** (including 1.1, १.१, २१-२२, 21-22 etc.)
+  const shlokaBlockRegex = /(?=\*\*श्लोकः?\s*[०-९\d]+(?:[.\-–—][०-९\d]+)?\*\*)/;
   const blocks = content.split(shlokaBlockRegex).filter(b => b.trim().length > 0);
 
   const parsedShlokas: ParsedShloka[] = [];
 
   blocks.forEach((block) => {
-    const match = block.match(/\*\*श्लोकः?\s*([०-९\d]+(?:\.[०-९\d]+)?)\*\*/);
+    const match = block.match(/\*\*श्लोकः?\s*([०-९\d]+(?:[.\-–—][०-९\d]+)?)\*\*/);
     if (match) {
       const number = match[1];
 
       const lines = block.split('\n').map(l => l.trim()).filter(l => l.length > 0);
       const verseLines: string[] = [];
+      let speaker: string | undefined = undefined;
 
       for (let i = 1; i < lines.length; i++) {
         const line = lines[i];
@@ -78,6 +80,7 @@ export const parseChapterShlokas = (content: string): ParsedShloka[] => {
         if (
           line.includes('सन्धिः') ||
           line.includes('पदपरिचयः') ||
+          line.includes('पदविभागः') ||
           line.includes('अन्वयः') ||
           line.includes('गीताविवृतिः') ||
           line.includes('भावार्थः') ||
@@ -89,18 +92,25 @@ export const parseChapterShlokas = (content: string): ParsedShloka[] => {
           break;
         }
 
-        if (line.length > 0) {
-          verseLines.push(line);
+        const cleanLine = stripMarkdown(line);
+        if (cleanLine.length > 0) {
+          if (isSpeakerLine(cleanLine)) {
+            speaker = cleanLine;
+          } else {
+            verseLines.push(cleanLine);
+          }
         }
       }
 
       const fullVerse = verseLines.join(' ');
-      const words = fullVerse.split(/\s+/).filter(w => w.length > 0);
-      const firstWords = words.slice(0, 4).join(' ');
+      const cleanVerseWithoutDanda = fullVerse.replace(/॥\s*[०-९\d]+(?:\.[०-९\d]+)?\s*॥/g, '').trim();
+      const words = cleanVerseWithoutDanda.split(/\s+/).filter(w => w && w !== '।' && w !== '॥' && w !== '-');
+      const firstWords = words.length > 0 ? `${words.slice(0, 4).join(' ')}...` : `Shloka ${number}`;
 
       parsedShlokas.push({
         index: parsedShlokas.length,
         number,
+        speaker,
         firstWords,
         fullVerse,
         verseLines,
@@ -114,12 +124,13 @@ export const parseChapterShlokas = (content: string): ParsedShloka[] => {
     const headingSections = parseHeadingSections(content);
     if (headingSections.length > 0) {
       headingSections.forEach((sec, idx) => {
+        const cleanFirstWords = stripMarkdown(sec.firstWords);
         parsedShlokas.push({
           index: idx,
           number: sec.number,
-          firstWords: sec.firstWords,
-          fullVerse: sec.firstWords,
-          verseLines: [sec.firstWords],
+          firstWords: cleanFirstWords,
+          fullVerse: cleanFirstWords,
+          verseLines: [cleanFirstWords],
           rawMarkdown: sec.rawMarkdown || sec.fullText || ''
         });
       });
@@ -364,6 +375,15 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
               <div
                 key={shloka.index}
                 className="shloka-card-item"
+                role="button"
+                tabIndex={0}
+                onClick={() => onSelectShloka(shloka.index)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    onSelectShloka(shloka.index);
+                  }
+                }}
                 style={{
                   backgroundColor: 'var(--bg-secondary)',
                   border: '1px solid var(--border)',
@@ -373,7 +393,8 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
                   display: 'flex',
                   flexDirection: 'column',
                   gap: '10px',
-                  boxShadow: 'var(--shadow-sm)'
+                  boxShadow: 'var(--shadow-sm)',
+                  cursor: 'pointer'
                 }}
               >
                 {/* Part Header & Action Buttons */}
@@ -404,7 +425,24 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
                         : `${l.shlokaPrefix} ${formatShlokaNumberWithEnglish(shloka.number)}`}
                     </span>
 
-                    {shloka.firstWords && (
+                    {shloka.speaker && (
+                      <span
+                        style={{
+                          fontSize: '0.82rem',
+                          fontWeight: 700,
+                          color: 'var(--accent)',
+                          backgroundColor: 'var(--bg-tertiary)',
+                          border: '1px solid var(--border)',
+                          padding: '3px 9px',
+                          borderRadius: 'var(--radius-sm)',
+                          whiteSpace: 'nowrap'
+                        }}
+                      >
+                        {shloka.speaker}
+                      </span>
+                    )}
+
+                    {isPartMode && shloka.firstWords && (
                       <span style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--text-primary)' }}>
                         {shloka.firstWords}
                       </span>
@@ -434,7 +472,10 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
 
                     {lesson && lesson.quiz && lesson.quiz.length > 0 && onOpenQuiz && (
                       <button
-                        onClick={() => onOpenQuiz(shloka.index)}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          onOpenQuiz(shloka.index);
+                        }}
                         style={{
                           display: 'inline-flex',
                           alignItems: 'center',
@@ -456,27 +497,7 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
                       </button>
                     )}
 
-                    <button
-                      onClick={() => onSelectShloka(shloka.index)}
-                      style={{
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '5px',
-                        padding: '5px 12px',
-                        borderRadius: 'var(--radius-sm)',
-                        border: '1px solid var(--border)',
-                        backgroundColor: 'var(--bg-primary)',
-                        color: 'var(--text-primary)',
-                        fontSize: '0.82rem',
-                        fontWeight: 600,
-                        cursor: 'pointer',
-                        transition: 'all 0.15s ease'
-                      }}
-                      title="Read full commentary and text for this part"
-                    >
-                      <BookOpen size={13} />
-                      <span>{l.readCommentary}</span>
-                    </button>
+                    <ChevronRight size={18} style={{ color: 'var(--text-muted)', marginLeft: '4px' }} />
                   </div>
                 </div>
 
@@ -1189,7 +1210,7 @@ export const SingleShlokaViewer: React.FC<SingleShlokaViewerProps> = ({
             }
           }}
         >
-          {shloka.rawMarkdown}
+          {transformCommentaryToCollapsible(shloka.rawMarkdown)}
         </ReactMarkdown>
       </article>
 

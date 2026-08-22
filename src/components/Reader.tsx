@@ -28,6 +28,7 @@ import type { ShlokaIndexItem } from './ShlokaIndex';
 import { parseChapterShlokas, ShlokaListView, SingleShlokaViewer, ChapterQuizView } from './ShlokaView';
 import type { ParsedShloka } from './ShlokaView';
 import { toEnglishDigits } from '../utils/digitUtils';
+import { transformCommentaryToCollapsible } from '../utils/commentaryUtils';
 
 
 interface ReaderProps {
@@ -162,9 +163,10 @@ export const Reader: React.FC<ReaderProps> = ({
         if (initialLang) {
           const chapters = found.chapters?.[initialLang] || [];
           const flatChapters = flattenChapters(chapters);
-          if (urlChapter && flatChapters.some((c) => c.id === urlChapter)) {
-            initialChapter = urlChapter;
-            if (savedProgress && savedProgress.currentLanguage === initialLang && savedProgress.currentChapterId === urlChapter) {
+          const matchedChapter = flatChapters.find((c) => c.id === urlChapter) || flatChapters.find((c) => urlChapter && c.id.startsWith(urlChapter));
+          if (urlChapter && matchedChapter) {
+            initialChapter = matchedChapter.id;
+            if (savedProgress && savedProgress.currentLanguage === initialLang && savedProgress.currentChapterId === matchedChapter.id) {
               initialScroll = savedProgress.scrollPercent;
             }
           } else {
@@ -196,8 +198,9 @@ export const Reader: React.FC<ReaderProps> = ({
         }
         const chapters = book.chapters?.[route.lang || ''] || [];
         const flatChapters = flattenChapters(chapters);
-        if (route.chapterId && flatChapters.some((c) => c.id === route.chapterId)) {
-          setActiveChapterId(route.chapterId);
+        const matchedChapter = flatChapters.find((c) => c.id === route.chapterId) || flatChapters.find((c) => route.chapterId && c.id.startsWith(route.chapterId));
+        if (route.chapterId && matchedChapter) {
+          setActiveChapterId(matchedChapter.id);
         } else {
           setActiveChapterId('');
         }
@@ -266,39 +269,32 @@ export const Reader: React.FC<ReaderProps> = ({
     if (!activeChapter) return;
 
     setLoadingChapter(true);
-    const mainFetch = fetch(`${import.meta.env.BASE_URL}${activeChapter.path}?t=${Date.now()}`).then(r => {
-      if (!r.ok) throw new Error(`Failed to load chapter file: ${activeChapter.title}`);
-      return r.text();
-    });
-    const listPath = activeChapter.path.replace(/\.md$/, '_shloka_list.md');
-    const listFetch = fetch(`${import.meta.env.BASE_URL}${listPath}?t=${Date.now()}`)
-      .then(r => r.ok ? r.text() : '')
-      .catch(() => '');
 
-    Promise.all([mainFetch, listFetch])
-      .then(([text, listText]) => {
+    const fetchChapterText = async (): Promise<string> => {
+      if (activeChapter.topics && activeChapter.topics.length > 0) {
+        const topicPromises = activeChapter.topics.map(t =>
+          fetch(`${import.meta.env.BASE_URL}${t.path}?t=${Date.now()}`).then(r => {
+            if (!r.ok) throw new Error(`Failed to load topic file: ${t.title}`);
+            return r.text();
+          })
+        );
+        const topicTexts = await Promise.all(topicPromises);
+        return topicTexts.join('\n\n---\n\n');
+      } else {
+        const res = await fetch(`${import.meta.env.BASE_URL}${activeChapter.path}?t=${Date.now()}`);
+        if (!res.ok) throw new Error(`Failed to load chapter file: ${activeChapter.title}`);
+        return await res.text();
+      }
+    };
+
+    fetchChapterText()
+      .then((text) => {
         setChapterContent(text);
         const parsedIndex = parseShlokas(text);
         setShlokas(parsedIndex);
         
-        // 1. Parse full chapter shlokas from main file to get rawMarkdown details
+        // 1. Parse full chapter shlokas from combined or single text
         const fullList = parseChapterShlokas(text);
-
-        // 2. If dedicated _shloka_list.md exists, merge verseLines & speaker for list view
-        if (listText && listText.trim().length > 0) {
-          const listOnly = parseChapterShlokas(listText);
-          listOnly.forEach(lShloka => {
-            const target = fullList.find(f => f.number === lShloka.number || toEnglishDigits(f.number) === toEnglishDigits(lShloka.number));
-            if (target) {
-              if (lShloka.verseLines && lShloka.verseLines.length > 0) {
-                target.verseLines = lShloka.verseLines;
-              }
-              if (lShloka.speaker) {
-                target.speaker = lShloka.speaker;
-              }
-            }
-          });
-        }
 
         setParsedShlokas(fullList);
         const hasRealShlokas = fullList.some(s => s.rawMarkdown.includes('श्लोक') || s.rawMarkdown.includes('||') || s.rawMarkdown.includes('॥'));
@@ -1832,7 +1828,7 @@ export const Reader: React.FC<ReaderProps> = ({
                             }
                           }}
                         >
-                          {chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, '')}
+                          {transformCommentaryToCollapsible(chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, ''))}
                         </ReactMarkdown>
 
                         {/* Next / Prev Chapter buttons */}

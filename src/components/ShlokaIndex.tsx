@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BookOpen } from 'lucide-react';
-import { formatShlokaNumberWithEnglish } from '../utils/digitUtils';
+import { formatShlokaNumberWithEnglish, stripMarkdown, isSpeakerLine } from '../utils/digitUtils';
 
 export interface ShlokaIndexItem {
   number: string;
@@ -29,7 +29,9 @@ export const parseShlokas = (content: string): ShlokaIndexItem[] => {
           if (
             line.includes('सन्धिः') ||
             line.includes('पदपरिचयः') ||
+            line.includes('पदविभागः') ||
             line.includes('अन्वयः') ||
+            line.includes('गीताविवृतिः') ||
             line.includes('भावार्थः') ||
             line.includes('व्याकरणविश्लेषणम्') ||
             line.startsWith('---') ||
@@ -38,18 +40,22 @@ export const parseShlokas = (content: string): ShlokaIndexItem[] => {
           ) {
             break;
           }
-          const clean = line.replace(/[\*\_`#\[\]]/g, '').trim();
+          const clean = stripMarkdown(line);
           if (clean && !clean.startsWith('श्लोक')) {
+            if (isSpeakerLine(clean)) {
+              continue;
+            }
             firstFewWords = clean;
             break;
           }
         }
-        const words = firstFewWords.split(/\s+/).filter(Boolean);
+        const cleanWordsWithoutDanda = firstFewWords.replace(/॥\s*[०-९\d]+(?:\.[०-९\d]+)?\s*॥/g, '').trim();
+        const words = cleanWordsWithoutDanda.split(/\s+/).filter(w => w && w !== '।' && w !== '॥' && w !== '-');
         const snippet = words.slice(0, 4).join(' ');
         items.push({
           number: num,
           firstWords: snippet ? `${snippet}...` : `Shloka ${num}`,
-          fullText: firstFewWords
+          fullText: cleanWordsWithoutDanda || firstFewWords
         });
       }
     });
@@ -88,15 +94,14 @@ export const parseShlokas = (content: string): ShlokaIndexItem[] => {
       }
 
       const combinedText = shlokaLines.join(' ');
-      const cleanText = combinedText
-        .replace(/[\*\_`#\[\]]/g, '')
+      const cleanText = stripMarkdown(combinedText)
         .replace(/\(.*?\)/g, '')
         .replace(/॥\s*[०-९\d]+(?:\.[०-९\d]+)?\s*॥/g, '')
         .replace(/#meaning-\S+/g, '')
         .replace(/\]\s*\(.*?\)/g, '')
         .trim();
 
-      const words = cleanText.split(/\s+/).filter(Boolean);
+      const words = cleanText.split(/\s+/).filter(w => w && w !== '।' && w !== '॥' && w !== '-');
       const firstFewWords = words.slice(0, 4).join(' ');
 
       items.push({
@@ -152,7 +157,7 @@ export const parseHeadingSections = (content: string): ShlokaIndexItem[] => {
 
     const headingLine = lines[startLineIdx].trim();
     const rawHeading = headingLine.replace(/^#{3,4}\s+/, '').trim();
-    const cleanHeading = rawHeading.replace(/\\-/g, '-').replace(/[\*\_`#]/g, '').trim();
+    const cleanHeading = stripMarkdown(rawHeading);
 
     if (!cleanHeading) continue;
 
@@ -177,9 +182,9 @@ export const parseHeadingSections = (content: string): ShlokaIndexItem[] => {
     let snippet = '';
     for (let j = 1; j < rawBlockLines.length; j++) {
       const l = rawBlockLines[j].trim();
-      const cleaned = l.replace(/[\*\_`#\[\]>]/g, '').replace(/\\-/g, '-').trim();
+      const cleaned = stripMarkdown(l);
       if (cleaned && !cleaned.startsWith('---') && !cleaned.startsWith('|')) {
-        const words = cleaned.split(/\s+/).filter(Boolean);
+        const words = cleaned.split(/\s+/).filter(w => w && w !== '।' && w !== '॥' && w !== '-');
         snippet = words.slice(0, 8).join(' ');
         if (snippet) break;
       }
