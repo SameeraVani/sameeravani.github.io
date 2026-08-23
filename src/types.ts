@@ -81,48 +81,61 @@ export interface QuizQuestion {
   explanation: string;
 }
 
-export interface LocalizedLessonContent {
+export interface LocalizedArticleContent {
   title: string;
   summary: string;
-  content: string;
-  quiz: QuizQuestion[];
+  content?: string;
+  path?: string;
+  quiz?: QuizQuestion[];
 }
 
-export interface MicroLesson {
+export type LocalizedLessonContent = LocalizedArticleContent;
+
+export interface Article {
   id: string;
-  topicId: string;
-  title: string;
-  summary: string;
-  content: string;
-  quiz: QuizQuestion[];
+  topicId?: string;
+  title?: string;
+  summary?: string;
+  content?: string;
+  date?: string;
+  path?: string;
+  quiz?: QuizQuestion[];
   localized?: {
-    [lang: string]: LocalizedLessonContent;
+    [lang: string]: LocalizedArticleContent;
   };
 }
 
-export interface LessonTopic {
+export type MicroLesson = Article;
+
+export interface ArticleTopic {
   id: string;
   title: string;
-  description: string;
+  description?: string;
   category?: string;
   coverUrl?: string;
   localized?: {
     [lang: string]: {
       title: string;
-      description: string;
+      description?: string;
     };
   };
-  lessons: MicroLesson[];
+  lessons: Article[];
 }
 
-export interface LessonProgress {
+export type LessonTopic = ArticleTopic;
+
+export interface ArticleProgress {
   completed: boolean;
   score: number;
   total: number;
   lastAttemptTime: number;
 }
 
-export interface LessonProgressMap {
-  [lessonId: string]: LessonProgress;
+export type LessonProgress = ArticleProgress;
+
+export interface ArticleProgressMap {
+  [articleId: string]: ArticleProgress;
 }
+
+export type LessonProgressMap = ArticleProgressMap;
 

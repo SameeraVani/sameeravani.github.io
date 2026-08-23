@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 import { Catalog } from './components/Catalog';
 import { Reader } from './components/Reader';
 import { VideoLibrary } from './components/video/VideoLibrary';
-import { QuickLessons } from './components/lessons/QuickLessons';
-import { parseRoute, getUrlForRoute, getVideoUrlForRoute, getQuickLessonUrlForRoute } from './utils/route';
+import { Articles } from './components/articles/Articles';
+import { parseRoute, getUrlForRoute, getVideoUrlForRoute, getArticleUrlForRoute } from './utils/route';
 import type { ReadingProgressMap, Bookmark } from './types';
 
 function App() {
-  const [appMode, setAppMode] = useState<'reading' | 'video' | 'lessons'>(() => {
+  const [appMode, setAppMode] = useState<'reading' | 'video' | 'articles' | 'lessons'>(() => {
     const route = parseRoute();
     return route.mode;
   });
@@ -31,6 +31,9 @@ function App() {
     if (route.mode === 'reading' && route.bookId) {
       const newUrl = getUrlForRoute(route.bookId, lang, route.chapterId);
       window.history.replaceState(null, '', newUrl);
+    } else if (route.mode === 'articles' || route.mode === 'lessons') {
+      const newUrl = getArticleUrlForRoute(route.topicId, lang, route.lessonId);
+      window.history.replaceState(null, '', newUrl);
     }
   };
 
@@ -40,6 +43,11 @@ function App() {
       setAppMode(route.mode);
       if (route.mode === 'reading') {
         setSelectedBookId(route.bookId);
+        if (route.lang) {
+          setAppLanguage(route.lang);
+        }
+      } else if (route.mode === 'articles' || route.mode === 'lessons') {
+        setSelectedBookId(null);
         if (route.lang) {
           setAppLanguage(route.lang);
         }
@@ -217,13 +225,13 @@ function App() {
             </button>
             <button 
               onClick={() => {
-                setAppMode('lessons');
-                const newUrl = getQuickLessonUrlForRoute(null, null);
+                setAppMode('articles');
+                const newUrl = getArticleUrlForRoute(null, appLanguage);
                 window.history.pushState(null, '', newUrl);
               }}
-              style={{ padding: '10px 20px', borderRadius: '20px', border: 'none', background: appMode === 'lessons' ? 'var(--accent)' : 'var(--bg-tertiary)', color: appMode === 'lessons' ? 'white' : 'var(--text-primary)', fontWeight: 'bold', cursor: 'pointer' }}
+              style={{ padding: '10px 20px', borderRadius: '20px', border: 'none', background: (appMode === 'articles' || appMode === 'lessons') ? 'var(--accent)' : 'var(--bg-tertiary)', color: (appMode === 'articles' || appMode === 'lessons') ? 'white' : 'var(--text-primary)', fontWeight: 'bold', cursor: 'pointer' }}
             >
-              ⚡ Quick Lessons
+              Articles
             </button>
           </header>
           <div style={{ flex: 1 }}>
@@ -237,7 +245,10 @@ function App() {
             ) : appMode === 'video' ? (
               <VideoLibrary />
             ) : (
-              <QuickLessons />
+              <Articles 
+                appLanguage={appLanguage}
+                onChangeLanguage={handleLanguageChange}
+              />
             )}
           </div>
         </div>

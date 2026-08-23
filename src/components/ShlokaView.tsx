@@ -16,23 +16,26 @@ import {
 import { toEnglishDigits, formatShlokaNumberWithEnglish, stripMarkdown, isSpeakerLine } from '../utils/digitUtils';
 import { transformCommentaryToCollapsible } from '../utils/commentaryUtils';
 import { parseHeadingSections } from './ShlokaIndex';
-import { QuizPlayer } from './lessons/QuizPlayer';
-import type { LessonTopic, LessonProgressMap } from '../types';
+import { QuizPlayer } from './articles/QuizPlayer';
+import type { ArticleTopic, ArticleProgressMap } from '../types';
 
-let lessonsCatalogCache: LessonTopic[] | null = null;
-const fetchLessonsCatalog = async (): Promise<LessonTopic[]> => {
-  if (lessonsCatalogCache) return lessonsCatalogCache;
+let articlesCatalogCache: ArticleTopic[] | null = null;
+const fetchArticlesCatalog = async (): Promise<ArticleTopic[]> => {
+  if (articlesCatalogCache) return articlesCatalogCache;
   try {
-    const res = await fetch(`${import.meta.env.BASE_URL}lessons/lessons-catalog.json?t=${Date.now()}`);
-    lessonsCatalogCache = await res.json();
-    return lessonsCatalogCache || [];
+    let res = await fetch(`${import.meta.env.BASE_URL}articles/catalog.json?t=${Date.now()}`);
+    if (!res.ok) {
+      res = await fetch(`${import.meta.env.BASE_URL}lessons/catalog.json?t=${Date.now()}`);
+    }
+    articlesCatalogCache = await res.json();
+    return articlesCatalogCache || [];
   } catch (err) {
-    console.error('Failed to load lessons catalog in ShlokaView:', err);
+    console.error('Failed to load articles catalog in ShlokaView:', err);
     return [];
   }
 };
 
-const findTopicForChapter = (topics: LessonTopic[], bookId?: string, chapterId?: string): LessonTopic | null => {
+const findTopicForChapter = (topics: ArticleTopic[], bookId?: string, chapterId?: string): ArticleTopic | null => {
   if (!topics || !chapterId) return null;
   const targetId = `${bookId || ''}-${chapterId}`.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   return (
@@ -165,14 +168,14 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
   onOpenQuiz
 }) => {
   const [searchFilter, setSearchFilter] = useState('');
-  const [topic, setTopic] = useState<LessonTopic | null>(null);
-  const [progressMap, setProgressMap] = useState<LessonProgressMap>(() => {
-    const saved = localStorage.getItem('lesson-progress');
+  const [topic, setTopic] = useState<ArticleTopic | null>(null);
+  const [progressMap, setProgressMap] = useState<ArticleProgressMap>(() => {
+    const saved = localStorage.getItem('article-progress') || localStorage.getItem('lesson-progress');
     if (saved) {
       try {
         return JSON.parse(saved);
       } catch (e) {
-        console.error('Failed to parse lesson progress:', e);
+        console.error('Failed to parse article progress:', e);
       }
     }
     return {};
@@ -180,12 +183,12 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
 
   useEffect(() => {
     const handleStorage = () => {
-      const saved = localStorage.getItem('lesson-progress');
+      const saved = localStorage.getItem('article-progress') || localStorage.getItem('lesson-progress');
       if (saved) {
         try {
           setProgressMap(JSON.parse(saved));
         } catch (e) {
-          console.error('Failed to parse lesson progress:', e);
+          console.error('Failed to parse article progress:', e);
         }
       }
     };
@@ -198,7 +201,7 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
   }, []);
 
   useEffect(() => {
-    fetchLessonsCatalog().then((allTopics) => {
+    fetchArticlesCatalog().then((allTopics) => {
       const matched = findTopicForChapter(allTopics, bookId, chapterId);
       setTopic(matched);
     });
@@ -555,21 +558,21 @@ export const ChapterQuizView: React.FC<ChapterQuizViewProps> = ({
   onBackToList,
   onSelectShloka
 }) => {
-  const [topic, setTopic] = useState<LessonTopic | null>(null);
-  const [progressMap, setProgressMap] = useState<LessonProgressMap>(() => {
-    const saved = localStorage.getItem('lesson-progress');
+  const [topic, setTopic] = useState<ArticleTopic | null>(null);
+  const [progressMap, setProgressMap] = useState<ArticleProgressMap>(() => {
+    const saved = localStorage.getItem('article-progress') || localStorage.getItem('lesson-progress');
     if (saved) {
       try {
         return JSON.parse(saved);
       } catch (e) {
-        console.error('Failed to parse lesson progress:', e);
+        console.error('Failed to parse article progress:', e);
       }
     }
     return {};
   });
 
   useEffect(() => {
-    fetchLessonsCatalog().then((allTopics) => {
+    fetchArticlesCatalog().then((allTopics) => {
       const matched = findTopicForChapter(allTopics, bookId, chapterId);
       setTopic(matched);
     });

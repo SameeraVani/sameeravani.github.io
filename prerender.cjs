@@ -168,28 +168,94 @@ if (fs.existsSync(videoCatalogPath)) {
   });
 }
 
-// Prerender quick lessons routes
-const lessonsCatalogPath = path.join(__dirname, 'public/lessons/lessons-catalog.json');
-if (fs.existsSync(lessonsCatalogPath)) {
-  const lessonsCatalog = JSON.parse(fs.readFileSync(lessonsCatalogPath, 'utf8'));
+// Prerender articles routes
+let articlesCatalogPath = path.join(__dirname, 'public/articles/catalog.json');
+if (!fs.existsSync(articlesCatalogPath)) {
+  articlesCatalogPath = path.join(__dirname, 'public/lessons/catalog.json');
+}
+if (fs.existsSync(articlesCatalogPath)) {
+  const articlesCatalog = JSON.parse(fs.readFileSync(articlesCatalogPath, 'utf8'));
 
-  writePage('/quick-lessons', 'Quick Lessons & Micro-Learning | SameeraVani', 'Bite-sized daily lessons and 3-question quizzes designed for busy office-goers.', 'books/default-cover.png');
+  writePage('/articles', 'Articles & Questionnaire Archive | SameeraVani', 'Bite-sized daily articles, philosophical insights, and 3-question quizzes.', 'books/default-cover.png');
+  const articleLangs = ['tamil', 'english', 'sanskrit', 'hindi', 'kannada', 'telugu'];
+  
+  articleLangs.forEach(lang => {
+    writePage(`/articles/${lang}`, `Articles (${lang}) | SameeraVani`, 'Bite-sized daily articles, philosophical insights, and Vedantic reflections.', 'books/default-cover.png');
+  });
 
-  lessonsCatalog.forEach((topic) => {
+  articlesCatalog.forEach((topic) => {
     const topicTitle = topic.title;
-    const topicDesc = topic.description || 'Micro-learning topic course.';
+    const topicDesc = topic.description || 'Articles topic.';
     const cover = topic.coverUrl || 'books/default-cover.png';
 
-    writePage(`/quick-lessons/${topic.id}`, `${topicTitle} — Quick Lessons | SameeraVani`, topicDesc, cover);
+    writePage(`/articles/${topic.id}`, `${topicTitle} — Articles | SameeraVani`, topicDesc, cover);
+    writePage(`/quick-lessons/${topic.id}`, `${topicTitle} — Articles | SameeraVani`, topicDesc, cover);
 
-    (topic.lessons || []).forEach((lesson) => {
-      if (lesson && lesson.id) {
+    (topic.lessons || topic.articles || []).forEach((article) => {
+      if (article && article.id) {
+        let articleTitle = article.title;
+        let articleDesc = article.summary || topicDesc;
+        const mdPath = article.path ? path.join(__dirname, 'public', article.path) : null;
+        let mdContent = '';
+        if (mdPath && fs.existsSync(mdPath)) {
+          mdContent = fs.readFileSync(mdPath, 'utf8');
+          const titleMatch = mdContent.match(/^#\s+(.+)$/m);
+          if (titleMatch) {
+            articleTitle = titleMatch[1].trim();
+          }
+        }
+        if (!articleTitle) {
+          articleTitle = article.id.replace(/-/g, ' ');
+        }
+
         writePage(
-          `/quick-lessons/${topic.id}/${lesson.id}`,
-          `${lesson.title} — ${topicTitle} | SameeraVani`,
-          lesson.summary || topicDesc,
+          `/articles/${topic.id}/${article.id}`,
+          `${articleTitle} — ${topicTitle} | SameeraVani`,
+          articleDesc,
           cover
         );
+        writePage(
+          `/quick-lessons/${topic.id}/${article.id}`,
+          `${articleTitle} — ${topicTitle} | SameeraVani`,
+          articleDesc,
+          cover
+        );
+
+        articleLangs.forEach(lang => {
+          let langTitle = articleTitle;
+          let langDesc = articleDesc;
+
+          if (mdContent) {
+            // Check frontmatter title/summary
+            const titleMatch = mdContent.match(new RegExp(`${lang}\\s*:\\s*["']([^"']+)["']`, 'i'));
+            if (titleMatch) {
+              langTitle = titleMatch[1];
+            }
+
+            const langRegex = new RegExp(`<!--\\s*lang:\\s*${lang}\\s*-->([\\s\\S]*?)(?=<!--\\s*lang:|$)`, 'i');
+            const match = mdContent.match(langRegex);
+            if (match) {
+              const sectionText = match[1];
+              const h1 = sectionText.match(/^#\s+(.+)$/m);
+              if (h1 && !titleMatch) {
+                langTitle = h1[1].trim();
+              }
+
+              // Extract snippet if summary not explicitly matched
+              const snippet = extractSnippet(sectionText);
+              if (snippet) {
+                langDesc = snippet;
+              }
+            }
+          }
+
+          writePage(
+            `/articles/${topic.id}/${lang}/${article.id}`,
+            `${langTitle} | SameeraVani`,
+            langDesc,
+            cover
+          );
+        });
       }
     });
   });

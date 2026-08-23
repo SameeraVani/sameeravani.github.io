@@ -1,5 +1,5 @@
 export interface ParsedRoute {
-  mode: 'reading' | 'video' | 'lessons';
+  mode: 'reading' | 'video' | 'articles' | 'lessons';
   bookId: string | null;
   lang: string | null;
   chapterId: string | null;
@@ -9,6 +9,21 @@ export interface ParsedRoute {
   lessonId: string | null;
 }
 
+const KNOWN_LANGUAGES = ['tamil', 'english', 'sanskrit', 'hindi', 'kannada', 'telugu', 'ta', 'en', 'sa', 'hi', 'kn', 'te'];
+
+const normalizeLang = (l: string | null): string | null => {
+  if (!l) return null;
+  const map: { [k: string]: string } = {
+    ta: 'tamil',
+    en: 'english',
+    sa: 'sanskrit',
+    hi: 'hindi',
+    kn: 'kannada',
+    te: 'telugu',
+  };
+  return map[l.toLowerCase()] || l.toLowerCase();
+};
+
 export function parseRoute(): ParsedRoute {
   const pathname = window.location.pathname;
   const searchParams = new URLSearchParams(window.location.search);
@@ -16,12 +31,12 @@ export function parseRoute(): ParsedRoute {
   // Try query params
   const qMode = searchParams.get('mode');
   const qBook = searchParams.get('book');
-  const qLang = searchParams.get('lang');
+  const qLang = normalizeLang(searchParams.get('lang'));
   const qChapter = searchParams.get('chapter');
   const qPlaylist = searchParams.get('playlist');
   const qVideo = searchParams.get('video') || searchParams.get('v');
   const qTopic = searchParams.get('topic');
-  const qLesson = searchParams.get('lesson');
+  const qLesson = searchParams.get('lesson') || searchParams.get('article');
   
   const baseUrl = import.meta.env.BASE_URL; // e.g. "/" or "/repo/"
   let relativePath = pathname;
@@ -31,17 +46,53 @@ export function parseRoute(): ParsedRoute {
   
   const parts = relativePath.split('/').filter(Boolean);
 
-  // Quick Lessons path: /quick-lessons or /lessons
-  if (parts[0] === 'quick-lessons' || parts[0] === 'lessons') {
+  // Articles / Quick Lessons path: /articles, /quick-lessons or /lessons
+  if (parts[0] === 'articles' || parts[0] === 'quick-lessons' || parts[0] === 'lessons') {
+    let topicId: string | null = null;
+    let lang: string | null = qLang;
+    let lessonId: string | null = qLesson || null;
+
+    if (parts.length === 2) {
+      if (KNOWN_LANGUAGES.includes(parts[1].toLowerCase())) {
+        lang = normalizeLang(parts[1]);
+      } else {
+        topicId = parts[1];
+      }
+    } else if (parts.length === 3) {
+      if (KNOWN_LANGUAGES.includes(parts[1].toLowerCase())) {
+        lang = normalizeLang(parts[1]);
+        topicId = parts[2];
+      } else if (KNOWN_LANGUAGES.includes(parts[2].toLowerCase())) {
+        topicId = parts[1];
+        lang = normalizeLang(parts[2]);
+      } else {
+        topicId = parts[1];
+        lessonId = parts[2];
+      }
+    } else if (parts.length >= 4) {
+      if (KNOWN_LANGUAGES.includes(parts[1].toLowerCase())) {
+        lang = normalizeLang(parts[1]);
+        topicId = parts[2];
+        lessonId = parts[3];
+      } else if (KNOWN_LANGUAGES.includes(parts[2].toLowerCase())) {
+        topicId = parts[1];
+        lang = normalizeLang(parts[2]);
+        lessonId = parts[3];
+      } else {
+        topicId = parts[1];
+        lessonId = parts[2];
+      }
+    }
+
     return {
-      mode: 'lessons',
+      mode: 'articles',
       bookId: null,
-      lang: qLang,
+      lang: lang || qLang || null,
       chapterId: null,
       playlistId: null,
       videoId: null,
-      topicId: parts[1] || qTopic || null,
-      lessonId: parts[2] || qLesson || null,
+      topicId: topicId || qTopic || null,
+      lessonId: lessonId || qLesson || null,
     };
   }
 
@@ -78,7 +129,7 @@ export function parseRoute(): ParsedRoute {
     return {
       mode: 'reading',
       bookId: parts[1],
-      lang: parts[2] || qLang || null,
+      lang: normalizeLang(parts[2]) || qLang || null,
       chapterId: parts[3] || qChapter || null,
       playlistId: null,
       videoId: null,
@@ -88,9 +139,9 @@ export function parseRoute(): ParsedRoute {
   }
 
   // Fallback query parameters
-  if (qMode === 'lessons' || qTopic || qLesson) {
+  if (qMode === 'articles' || qMode === 'lessons' || qTopic || qLesson) {
     return {
-      mode: 'lessons',
+      mode: 'articles',
       bookId: null,
       lang: qLang,
       chapterId: null,
@@ -130,7 +181,7 @@ export function parseRoute(): ParsedRoute {
   return {
     mode: 'reading',
     bookId: null,
-    lang: null,
+    lang: qLang,
     chapterId: null,
     playlistId: null,
     videoId: null,
@@ -139,14 +190,18 @@ export function parseRoute(): ParsedRoute {
   };
 }
 
-export function getUrlForRoute(bookId: string | null, lang: string | null, chapterId: string | null): string {
-  const baseUrl = import.meta.env.BASE_URL; // e.g. "/" or "/repo/"
+export function getUrlForRoute(
+  bookId?: string | null,
+  lang?: string | null,
+  chapterId?: string | null
+): string {
+  const baseUrl = import.meta.env.BASE_URL;
   const basePrefix = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
-  
+
   if (!bookId) {
-    return baseUrl; // catalog root
+    return basePrefix;
   }
-  
+
   let path = `${basePrefix}books/${bookId}`;
   if (lang) {
     path += `/${lang}`;
@@ -154,7 +209,8 @@ export function getUrlForRoute(bookId: string | null, lang: string | null, chapt
       path += `/${chapterId}`;
     }
   }
-  return path + '/';
+
+  return path.endsWith('/') ? path : path + '/';
 }
 
 export function getVideoUrlForRoute(
@@ -171,35 +227,50 @@ export function getVideoUrlForRoute(
 
   let path = `${basePrefix}videos/${bookId}`;
   if (playlistId) {
-    const primaryId = playlistId.split(',')[0].trim();
-    path += `/${encodeURIComponent(primaryId)}`;
-    if (videoId) {
-      path += `/${videoId}`;
-    }
-  } else if (videoId) {
+    path += `/${encodeURIComponent(playlistId)}`;
+  }
+  if (videoId) {
     path += `?v=${videoId}`;
   }
 
   return path.includes('?') ? path : path + '/';
 }
 
-export function getQuickLessonUrlForRoute(
+export function getArticleUrlForRoute(
   topicId?: string | null,
-  lessonId?: string | null
+  langOrArticleId?: string | null,
+  articleId?: string | null
 ): string {
   const baseUrl = import.meta.env.BASE_URL;
   const basePrefix = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
 
-  if (!topicId) {
-    return `${basePrefix}quick-lessons/`;
+  let lang: string | null = null;
+  let artId: string | null = null;
+
+  if (KNOWN_LANGUAGES.includes((langOrArticleId || '').toLowerCase())) {
+    lang = langOrArticleId || null;
+    artId = articleId || null;
+  } else {
+    artId = langOrArticleId || null;
+    lang = articleId || null;
   }
 
-  let path = `${basePrefix}quick-lessons/${topicId}`;
-  if (lessonId) {
-    path += `/${lessonId}`;
+  if (!topicId) {
+    if (lang) {
+      return `${basePrefix}articles/${lang}/`;
+    }
+    return `${basePrefix}articles/`;
+  }
+
+  let path = `${basePrefix}articles/${topicId}`;
+  if (lang) {
+    path += `/${lang}`;
+  }
+  if (artId) {
+    path += `/${artId}`;
   }
 
   return path.endsWith('/') ? path : path + '/';
 }
 
-
+export const getQuickLessonUrlForRoute = getArticleUrlForRoute;
