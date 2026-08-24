@@ -139,9 +139,10 @@ export const Articles: React.FC<ArticlesProps> = ({
       <ArticleViewer
         topic={selectedTopic}
         article={selectedArticle}
+        topics={topics}
         currentLanguage={appLanguage}
         onChangeLanguage={onChangeLanguage}
-        onNavigateArticle={(next) => handleSelectArticle(selectedTopic, next)}
+        onNavigateArticle={(next, targetTopic) => handleSelectArticle(targetTopic || selectedTopic, next)}
         onBackToArchive={handleBackToArchive}
         onCompleteQuiz={handleCompleteQuiz}
       />

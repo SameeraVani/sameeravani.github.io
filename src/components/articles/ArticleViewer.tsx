@@ -24,9 +24,10 @@ import './articles.css';
 interface ArticleViewerProps {
   topic: ArticleTopic;
   article: Article;
+  topics?: ArticleTopic[];
   currentLanguage?: string;
   onChangeLanguage?: (lang: string) => void;
-  onNavigateArticle: (nextArticle: Article) => void;
+  onNavigateArticle: (nextArticle: Article, targetTopic?: ArticleTopic) => void;
   onBackToArchive: () => void;
   onCompleteQuiz: (score: number, total: number) => void;
 }
@@ -43,6 +44,7 @@ const SUPPORTED_LANGUAGES = [
 export const ArticleViewer: React.FC<ArticleViewerProps> = ({
   topic,
   article,
+  topics,
   currentLanguage: externalLang,
   onChangeLanguage,
   onNavigateArticle,
@@ -168,6 +170,61 @@ export const ArticleViewer: React.FC<ArticleViewerProps> = ({
     const appContainer = document.querySelector('.app-container');
     if (appContainer) {
       appContainer.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    }
+  };
+
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href?: string) => {
+    if (!href) return;
+
+    // In-page anchor link
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      const id = href.slice(1);
+      const targetEl = document.getElementById(id) || document.querySelector(`[name="${id}"]`);
+      if (targetEl) {
+        targetEl.scrollIntoView({ behavior: 'smooth' });
+      }
+      return;
+    }
+
+    // External link
+    if (href.startsWith('http://') || href.startsWith('https://') || href.startsWith('mailto:') || href.startsWith('tel:')) {
+      return;
+    }
+
+    // Internal article / markdown cross-reference
+    // Matches e.g., "articles/bhagavad-gita/atma-sakshi-faq.md", "atma-sakshi-faq.md", "/articles/bhagavad-gita/atma-sakshi-faq", "atma-sakshi-faq"
+    const cleanHref = href.replace(/\\/g, '/');
+    const filenameMatch = cleanHref.match(/([^/]+?)(?:\.md)?(?:[?#].*)?$/i);
+    const targetId = filenameMatch ? filenameMatch[1].trim() : '';
+
+    if (targetId) {
+      // 1. Search in current topic lessons
+      const foundInCurrentTopic = topic.lessons.find(
+        (l) => l.id === targetId || (l.path && l.path.includes(targetId))
+      );
+
+      if (foundInCurrentTopic) {
+        e.preventDefault();
+        onNavigateArticle(foundInCurrentTopic, topic);
+        scrollToTop();
+        return;
+      }
+
+      // 2. Search across all topics
+      if (topics) {
+        for (const t of topics) {
+          const found = t.lessons.find(
+            (l) => l.id === targetId || (l.path && l.path.includes(targetId))
+          );
+          if (found) {
+            e.preventDefault();
+            onNavigateArticle(found, t);
+            scrollToTop();
+            return;
+          }
+        }
+      }
     }
   };
 
@@ -430,7 +487,26 @@ export const ArticleViewer: React.FC<ArticleViewerProps> = ({
                 lineHeight: 1.85,
               }}
             >
-              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                rehypePlugins={[rehypeRaw]}
+                components={{
+                  a: ({ href, children, ...props }) => {
+                    const isExternal = href?.startsWith('http://') || href?.startsWith('https://');
+                    return (
+                      <a
+                        href={href}
+                        onClick={(e) => handleLinkClick(e, href)}
+                        target={isExternal ? '_blank' : undefined}
+                        rel={isExternal ? 'noopener noreferrer' : undefined}
+                        {...props}
+                      >
+                        {children}
+                      </a>
+                    );
+                  },
+                }}
+              >
                 {activeContent}
               </ReactMarkdown>
             </div>
