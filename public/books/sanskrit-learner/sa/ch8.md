@@ -23,14 +23,14 @@ language: "sa"
 3. **लङ् लकारः (Lang):** अनद्यतनभूतकाल-अर्थे (Imperfect Past Tense - past of yesterday/earlier)
 4. **लुङ् लकारः (Lung):** सामान्यभूतकाल-अर्थे (Aorist Past Tense - general past)
 5. **लिट् लकारः (Lit):** परोक्षभूतकाल-अर्थे (Perfect/Remote Past Tense - which the speaker did not witness)
-6. **विधिर्लिङ् लकारः (Vidhi-Ling):** विध्यर्थे (Potential / possibility / duty / request)
+6. **विधिलिङ् लकारः (Vidhi-Ling):** विध्यर्थे (Potential / possibility / duty / request)
 7. **आशीर्लिङ् लकारः (Aashi-Ling):** आशीर्वाद-अर्थे (Benedictive / blessings)
 8. **लोट् लकारः (Lot):** आज्ञा-प्रार्थना-आशीर्वाद-अर्थे (Imperative mood / command & request)
-9. **लूट् लकारः (Lut):** अनद्यतनभविष्यत्काल-अर्थे (First Future Tense / Periphrastic Future)
+9. **लुट् लकारः (Lut):** अनद्यतनभविष्यत्काल-अर्थे (First Future Tense / Periphrastic Future)
 10. **लृट् लकारः (Lrut):** सामान्यभविष्यत्काल-अर्थे (Second Future Tense / Simple Future)
 11. **लृङ् लकारः (Lrung):** सङ्केतकाल-अर्थे (Conditional Tense / Conditional Future)
 
-*अस्मिन् अभ्यासे वयं मुख्यान् षट् लकारान् (लट्, लङ्, लिट्, लृट्, लोट्, विधिर्लिङ्) पठिष्यामः।*
+*अस्मिन् अभ्यासे वयं मुख्यान् षट् लकारान् (लट्, लङ्, लिट्, लृट्, लोट्, विधिलिङ्) पठिष्यामः।*
 
 ### पुरुषः (Purusha / Person)
 संस्कृते त्रयः पुरुषाः भवन्ति। एकैकस्यापि लकारस्य त्रयः पुरुषाः सन्ति:
@@ -98,7 +98,7 @@ language: "sa"
 | **मध्यमपुरुषः** | पठ<br/>_त्वम् पठ। (You read!)_ | पठतम्<br/>_युवाम् पठतम्। (You two read!)_ | पठत<br/>_यूयम् पठत। (You all read!)_ |
 | **उत्तमपुरुषः** | पठानि<br/>_अहम् पठानि। (Should I read?)_ | पठाव<br/>_आवाम् पठाव। (Should we two read?)_ | पठाम<br/>_वयम् पठाम। (Should we all read?)_ |
 
-#### विधिर्लिङ् (Potential)
+#### विधिलिङ् (Potential)
 
 | पुरुषः | एकवचनम् | द्विवचनम् | बहुवचनम् |
 | :--- | :---: | :---: | :---: |
