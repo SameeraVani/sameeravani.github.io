@@ -1074,7 +1074,7 @@ export const Reader: React.FC<ReaderProps> = ({
   };
 
   const renderGrammarDashboard = () => {
-    if (!['ch6', 'ch8', 'ch9', 'ch10'].includes(activeChapterId)) return null;
+    if (bookId !== 'sanskrit-learner' || !['ch6', 'ch8', 'ch9', 'ch10'].includes(activeChapterId)) return null;
 
     const headerTitle = getGrammarHeaderTitle(activeChapterId, activeLanguage);
 
