@@ -1,19 +1,29 @@
 /**
+ * Sanitizes markdown spacing, escaped hyphens, and unspaced bold tags.
+ */
+export const sanitizeCommentaryMarkdown = (markdown: string): string => {
+  if (!markdown) return '';
+
+  // Prevent accidental Markdown Setext headings (e.g. text followed immediately by --- on next line becomes <h2>)
+  let sanitized = markdown.replace(/([^\r\n])\r?\n(---+)/g, '$1\n\n$2');
+
+  // Fix unspaced bold tags where **tag** or **tag \-** is directly attached to non-whitespace letters/numbers
+  sanitized = sanitized.replace(/(\*\*[^*\n]+?\*\*)([\u0900-\u097Fa-zA-Z0-9])/g, '$1 $2');
+  // Also clean up backslash-escaped hyphens inside bold tags like **text \-** -> **text -**
+  sanitized = sanitized.replace(/(\*\*[^*\n]+?)\\\-([^*\n]*\*\*)/g, '$1-$2');
+
+  return sanitized;
+};
+
+/**
  * Utility to transform commentary sections (like Gita Bhashya / Vivruti) into collapsible <details> HTML blocks.
  * Sections are collapsed by default to allow readers to view verses and grammar without excessive scrolling.
  * Includes Gita Bhashya Sanskrit sentences, SameeraVani explanation points, and Bhashya Bhavartha summaries all together.
  */
-export const transformCommentaryToCollapsible = (markdown: string): string => {
+export const transformCommentaryToCollapsible = (markdown: string, defaultOpen: boolean = false): string => {
   if (!markdown) return '';
 
-  // Prevent accidental Markdown Setext headings (e.g. text followed immediately by --- on next line becomes <h2>)
-  let sanitizedMarkdown = markdown.replace(/([^\r\n])\r?\n(---+)/g, '$1\n\n$2');
-
-  // Fix unspaced bold tags where **tag** or **tag \-** is directly attached to non-whitespace letters/numbers
-  sanitizedMarkdown = sanitizedMarkdown.replace(/(\*\*[^*\n]+?\*\*)([\u0900-\u097Fa-zA-Z0-9])/g, '$1 $2');
-  // Also clean up backslash-escaped hyphens inside bold tags like **text \-** -> **text -**
-  sanitizedMarkdown = sanitizedMarkdown.replace(/(\*\*[^*\n]+?)\\\-([^*\n]*\*\*)/g, '$1-$2');
-
+  const sanitizedMarkdown = sanitizeCommentaryMarkdown(markdown);
   const lines = sanitizedMarkdown.split(/\r?\n/);
   const outLines: string[] = [];
   let inCollapsible = false;
@@ -21,8 +31,8 @@ export const transformCommentaryToCollapsible = (markdown: string): string => {
 
   const isCommentaryHeader = (trimmed: string): string | null => {
     if (!trimmed) return null;
-    // Exclude sub-items like '**१. गीताभाष्यम् \-**' or '**समीरवाणी \-**'
-    if (/^\*\*[०-९\d]+\.\s*(?:गीताभाष्यम्|भागवततात्पर्य|भाष्यम्)/.test(trimmed)) return null;
+    // Exclude sub-items like '**१. गीताभाष्यम् \-**', '**१. उपनिषद्भाष्यम् \-**', '**१. खण्डार्थः \-**', or '**समीरवाणी \-**'
+    if (/^\*\*[०-९\d]+\.\s*[^\n*]+?\*\*/.test(trimmed)) return null;
     if (/^\*\*समीरवाणी/.test(trimmed)) return null;
     if (/^\*\*श्रीमदानन्दतीर्थ[^\n]*?भावार्थः/.test(trimmed)) return null;
 
@@ -73,12 +83,12 @@ export const transformCommentaryToCollapsible = (markdown: string): string => {
       }
       summaryTitle = headerTitle;
       outLines.push(
-        `\n<details class="commentary-collapsible" data-commentary="${summaryTitle}">\n` +
+        `\n<details class="commentary-collapsible"${defaultOpen ? ' open' : ''} data-commentary="${summaryTitle}">\n` +
         `  <summary class="commentary-summary">\n` +
         `    <span class="commentary-icon">📖</span>\n` +
         `    <span class="commentary-title">${summaryTitle}</span>\n` +
         `    <span class="commentary-badge">Commentary / भाष्यम्</span>\n` +
-        `    <span class="commentary-toggle-hint">Click to expand</span>\n` +
+        `    <span class="commentary-toggle-hint">Click to ${defaultOpen ? 'collapse' : 'expand'}</span>\n` +
         `  </summary>\n` +
         `  <div class="commentary-content">\n`
       );

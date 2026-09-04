@@ -7,6 +7,7 @@ export interface ShlokaIndexItem {
   firstWords: string;
   fullText: string;
   rawMarkdown?: string;
+  preamble?: string;
 }
 
 export const parseShlokas = (content: string): ShlokaIndexItem[] => {
@@ -123,16 +124,18 @@ export const parseHeadingSections = (content: string): ShlokaIndexItem[] => {
 
   const lines = content.split('\n');
   
-  // Find all line indices of heading boundaries (### or ####)
+  // Find all line indices of heading boundaries (### or #### or bold **Part N**)
   const headingIndices: number[] = [];
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
-    if (line.match(/^#{3,4}\s+/)) {
+    if (line.match(/^#{2,4}\s+/) || line.match(/^\*\*(?:Part|भाग|विषय)\s*[०-९\d]+/i)) {
       // Exclude document-level metadata headers and Adhikarana danda headers
       if (
         line.startsWith('# अध्याय') ||
         line.startsWith('## पाद') ||
         line.startsWith('### अधिकरणम्') ||
+        line.startsWith('## शान्ति') ||
+        line.startsWith('## उपनिषत्') ||
         line.includes('॥') ||
         line.startsWith('---') ||
         line.startsWith('>')
@@ -145,6 +148,11 @@ export const parseHeadingSections = (content: string): ShlokaIndexItem[] => {
 
   if (headingIndices.length === 0) return [];
 
+  // Extract preamble (content before the first part, e.g. Shanti Mantra or Mula Shloka)
+  const preamble = headingIndices[0] > 0
+    ? lines.slice(0, headingIndices[0]).join('\n').replace(/^---[\s\S]*?---\r?\n/, '').trim()
+    : '';
+
   const items: ShlokaIndexItem[] = [];
   let partCounter = 1;
 
@@ -156,14 +164,15 @@ export const parseHeadingSections = (content: string): ShlokaIndexItem[] => {
     const rawBlock = rawBlockLines.join('\n').trim();
 
     const headingLine = lines[startLineIdx].trim();
-    const rawHeading = headingLine.replace(/^#{3,4}\s+/, '').trim();
+    const rawHeading = headingLine.replace(/^#{2,4}\s+/, '').replace(/^\*\*|\*\*$/g, '').trim();
     const cleanHeading = stripMarkdown(rawHeading);
 
     if (!cleanHeading) continue;
 
-    // Determine Part / Section Number
+    // Determine Part / Section Number and Clean Title
     let num = `Part ${partCounter}`;
-    const partMatch = cleanHeading.match(/(?:Part|भाग|विषय)\s*[-–—]?\s*([०-९\d]+)/i);
+    let title = cleanHeading;
+    const partMatch = cleanHeading.match(/^(?:Part|भाग|विषय)\s*[-–—]?\s*([०-९\d]+)\s*[-–—:]*\s*(.*)$/i);
     if (partMatch) {
       const explicitNum = parseInt(partMatch[1], 10);
       if (!isNaN(explicitNum)) {
@@ -173,33 +182,32 @@ export const parseHeadingSections = (content: string): ShlokaIndexItem[] => {
         num = `Part ${partCounter}`;
         partCounter++;
       }
+      if (partMatch[2] && partMatch[2].trim()) {
+        title = partMatch[2].trim();
+      }
     } else {
       num = `Part ${partCounter}`;
       partCounter++;
     }
 
-    // Extract first non-empty body line for preview snippet
-    let snippet = '';
+    // Extract first few body words for preview snippet reference
+    const bodyWords: string[] = [];
     for (let j = 1; j < rawBlockLines.length; j++) {
-      const l = rawBlockLines[j].trim();
-      const cleaned = stripMarkdown(l);
-      if (cleaned && !cleaned.startsWith('---') && !cleaned.startsWith('|')) {
-        const words = cleaned.split(/\s+/).filter(w => w && w !== '।' && w !== '॥' && w !== '-');
-        snippet = words.slice(0, 8).join(' ');
-        if (snippet) break;
+      const l = stripMarkdown(rawBlockLines[j]);
+      if (l && !l.startsWith('---') && !l.startsWith('|')) {
+        const words = l.split(/\s+/).filter(w => w && w !== '।' && w !== '॥' && w !== '-');
+        bodyWords.push(...words);
+        if (bodyWords.length >= 25) break;
       }
     }
-
-    let labelText = cleanHeading;
-    if (snippet && !cleanHeading.toLowerCase().includes(snippet.toLowerCase().slice(0, 8))) {
-      labelText = `${cleanHeading} - ${snippet}...`;
-    }
+    const snippet = bodyWords.length > 0 ? (bodyWords.slice(0, 22).join(' ') + '...') : '';
 
     items.push({
       number: num,
-      firstWords: labelText,
-      fullText: rawBlock,
-      rawMarkdown: rawBlock
+      firstWords: title,
+      fullText: snippet || title,
+      rawMarkdown: rawBlock,
+      preamble: idx === 0 ? preamble : undefined
     });
   }
 

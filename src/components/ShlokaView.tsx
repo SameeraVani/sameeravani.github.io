@@ -14,7 +14,7 @@ import {
   ArrowUp
 } from 'lucide-react';
 import { toEnglishDigits, formatShlokaNumberWithEnglish, stripMarkdown, isSpeakerLine } from '../utils/digitUtils';
-import { transformCommentaryToCollapsible } from '../utils/commentaryUtils';
+import { transformCommentaryToCollapsible, sanitizeCommentaryMarkdown } from '../utils/commentaryUtils';
 import { parseHeadingSections } from './ShlokaIndex';
 import { QuizPlayer } from './articles/QuizPlayer';
 import type { ArticleTopic, ArticleProgressMap } from '../types';
@@ -56,6 +56,7 @@ export interface ParsedShloka {
   fullVerse: string;
   verseLines: string[];
   rawMarkdown: string;
+  preamble?: string;
 }
 
 export const parseChapterShlokas = (content: string): ParsedShloka[] => {
@@ -126,15 +127,18 @@ export const parseChapterShlokas = (content: string): ParsedShloka[] => {
   if (parsedShlokas.length === 0) {
     const headingSections = parseHeadingSections(content);
     if (headingSections.length > 0) {
+      const preamble = headingSections[0]?.preamble;
       headingSections.forEach((sec, idx) => {
-        const cleanFirstWords = stripMarkdown(sec.firstWords);
+        const cleanTitle = stripMarkdown(sec.firstWords);
+        const snippet = sec.fullText && sec.fullText !== sec.firstWords ? sec.fullText : '';
         parsedShlokas.push({
           index: idx,
           number: sec.number,
-          firstWords: cleanFirstWords,
-          fullVerse: cleanFirstWords,
-          verseLines: [cleanFirstWords],
-          rawMarkdown: sec.rawMarkdown || sec.fullText || ''
+          firstWords: cleanTitle,
+          fullVerse: cleanTitle,
+          verseLines: snippet ? [snippet] : [],
+          rawMarkdown: sec.rawMarkdown || sec.fullText || '',
+          preamble: idx === 0 ? preamble : undefined
         });
       });
     }
@@ -344,6 +348,44 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
         </div>
       </div>
 
+      {/* Chapter Preamble (e.g. Upanishad Shloka & Shanti Mantra) */}
+      {shlokas[0]?.preamble && !searchFilter.trim() && (
+        <div
+          className="chapter-preamble-card"
+          style={{
+            marginBottom: '24px',
+            padding: '20px 24px',
+            backgroundColor: 'var(--bg-secondary)',
+            border: '1px solid var(--border)',
+            borderLeft: '4px solid var(--accent)',
+            borderRadius: 'var(--radius-md)',
+            boxShadow: 'var(--shadow-sm)'
+          }}
+        >
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+              marginBottom: '10px',
+              fontWeight: 700,
+              fontSize: '0.88rem',
+              color: 'var(--accent)',
+              textTransform: 'uppercase',
+              letterSpacing: '0.04em'
+            }}
+          >
+            <BookOpen size={16} />
+            <span>{activeLanguage === 'sanskrit' ? 'मूलमन्त्रः' : activeLanguage === 'kannada' ? 'ಮೂಲ ಮಂತ್ರ' : 'Mula Mantra'}</span>
+          </div>
+          <article className="reader-markdown" style={{ fontSize: '1.05rem', lineHeight: 1.75 }}>
+            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+              {shlokas[0].preamble}
+            </ReactMarkdown>
+          </article>
+        </div>
+      )}
+
       {/* Shlokas List */}
       {filteredShlokas.length === 0 ? (
         <div
@@ -423,9 +465,21 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
                         whiteSpace: 'nowrap'
                       }}
                     >
-                      {shloka.number.startsWith('श्लोक') || shloka.number.startsWith('Shloka')
-                        ? formatShlokaNumberWithEnglish(shloka.number)
-                        : `${l.shlokaPrefix} ${formatShlokaNumberWithEnglish(shloka.number)}`}
+                      {(() => {
+                        if (isPartMode) {
+                          const partNumMatch = shloka.number.match(/\d+/);
+                          const digit = partNumMatch ? partNumMatch[0] : (shloka.index + 1).toString();
+                          const indicDigit = activeLanguage === 'sanskrit' || activeLanguage === 'hindi'
+                            ? digit.replace(/\d/g, d => '०१२३४५६७८९'[parseInt(d, 10)])
+                            : activeLanguage === 'kannada'
+                            ? digit.replace(/\d/g, d => '೦೧೨೩೪೫೬೭೮೯'[parseInt(d, 10)])
+                            : digit;
+                          return `${l.shlokaPrefix} ${indicDigit}`;
+                        }
+                        return shloka.number.startsWith('श्लोक') || shloka.number.startsWith('Shloka')
+                          ? formatShlokaNumberWithEnglish(shloka.number)
+                          : `${l.shlokaPrefix} ${formatShlokaNumberWithEnglish(shloka.number)}`;
+                      })()}
                     </span>
 
                     {shloka.speaker && (
@@ -504,16 +558,16 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
                   </div>
                 </div>
 
-                {/* Verse lines if shloka verse exists */}
-                {shloka.verseLines && shloka.verseLines.length > 0 && !isPartMode && (
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                {/* Verse lines or Initial Words preview snippet */}
+                {shloka.verseLines && shloka.verseLines.length > 0 && (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', marginTop: isPartMode ? '2px' : '0' }}>
                     {shloka.verseLines.map((line, lIdx) => (
                       <div
                         key={lIdx}
                         style={{
-                          fontSize: '1.04rem',
-                          fontWeight: 700,
-                          color: 'var(--text-primary)',
+                          fontSize: isPartMode ? '0.92rem' : '1.04rem',
+                          fontWeight: isPartMode ? 500 : 700,
+                          color: isPartMode ? 'var(--text-secondary)' : 'var(--text-primary)',
                           lineHeight: '1.6',
                           fontFamily: 'var(--font-lora)'
                         }}
@@ -997,17 +1051,26 @@ export interface SingleShlokaViewerProps {
   onSwitchToContinuous?: () => void;
 }
 
+export const navLabels: Record<string, { prev: string; next: string; backList: string; selectShloka: string; takeQuiz: string }> = {
+  english: { prev: 'Previous', next: 'Next', backList: 'Parts List', selectShloka: 'Select Part', takeQuiz: 'Quiz' },
+  sanskrit: { prev: 'पूर्वः', next: 'अग्रिमः', backList: 'भागसूची', selectShloka: 'भागचयनम्', takeQuiz: 'प्रश्नोत्तरी' },
+  hindi: { prev: 'पिछला', next: 'अगला', backList: 'भाग सूची', selectShloka: 'भाग चुनें', takeQuiz: 'प्रश्नोत्तरी' },
+  kannada: { prev: 'ಹಿಂದಿನ', next: 'ಮುಂದಿನ', backList: 'ಭಾಗ ಸೂಚಿ', selectShloka: 'ಭಾಗ ಆಯ್ಕೆ', takeQuiz: 'ರಸಪ್ರಶ್ನೆ' },
+  tamil: { prev: 'முந்தைய', next: 'அடுத்த', backList: 'பகுதிப் பட்டியல்', selectShloka: 'பகுதி தேர்வு', takeQuiz: 'வினாடி வினா' },
+  telugu: { prev: 'మునుపటి', next: 'తరువాతి', backList: 'భాగ సూచిక', selectShloka: 'భాగం ఎంచుకోండి', takeQuiz: 'క్విజ్' }
+};
+
 export const SingleShlokaViewer: React.FC<SingleShlokaViewerProps> = ({
   shloka,
   totalShlokas,
-  allShlokas,
+  allShlokas: _allShlokas,
   activeLanguage,
   fontFamily,
   fontSize,
   lineHeight,
   onPrev,
   onNext,
-  onSelectShloka,
+  onSelectShloka: _onSelectShloka,
   onBackToList,
   onOpenQuiz
 }) => {
@@ -1026,168 +1089,11 @@ export const SingleShlokaViewer: React.FC<SingleShlokaViewerProps> = ({
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [shloka.index, totalShlokas, onPrev, onNext, onBackToList]);
 
-  const navLabels: Record<string, { prev: string; next: string; backList: string; selectShloka: string; takeQuiz: string }> = {
-    english: { prev: 'Previous', next: 'Next', backList: 'Parts List', selectShloka: 'Select Part', takeQuiz: 'Quiz' },
-    sanskrit: { prev: 'पूर्वः', next: 'अग्रिमः', backList: 'भागसूची', selectShloka: 'भागचयनम्', takeQuiz: 'प्रश्नोत्तरी' },
-    hindi: { prev: 'पिछला', next: 'अगला', backList: 'भाग सूची', selectShloka: 'भाग चुनें', takeQuiz: 'प्रश्नोत्तरी' },
-    kannada: { prev: 'ಹಿಂದಿನ', next: 'ಮುಂದಿನ', backList: 'ಭಾಗ ಸೂಚಿ', selectShloka: 'ಭಾಗ ಆಯ್ಕೆ', takeQuiz: 'ರಸಪ್ರಶ್ನೆ' },
-    tamil: { prev: 'முந்தைய', next: 'அடுத்த', backList: 'பகுதிப் பட்டியல்', selectShloka: 'பகுதி தேர்வு', takeQuiz: 'வினாடி வினா' },
-    telugu: { prev: 'మునుపటి', next: 'తరువాతి', backList: 'భాగ సూచిక', selectShloka: 'భాగం ఎంచుకోండి', takeQuiz: 'క్విజ్' }
-  };
-
   const l = navLabels[activeLanguage] || navLabels.english;
+  const isPart = shloka.number.toLowerCase().includes('part') || shloka.number.toLowerCase().includes('topic') || shloka.number.toLowerCase().includes('section');
 
   return (
     <div className="single-shloka-container" style={{ width: '100%', paddingBottom: '60px' }}>
-      {/* Sticky Top Navigation Bar */}
-      <div
-        className="single-shloka-nav-bar top"
-        style={{
-          position: 'sticky',
-          top: '0',
-          zIndex: 10,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          gap: '10px',
-          padding: '10px 16px',
-          backgroundColor: 'var(--glass-bg)',
-          backdropFilter: 'blur(12px)',
-          border: '1px solid var(--border)',
-          borderRadius: 'var(--radius-md)',
-          boxShadow: 'var(--shadow-sm)',
-          marginBottom: '20px',
-          flexWrap: 'wrap'
-        }}
-      >
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <button
-            onClick={onBackToList}
-            className="shloka-nav-btn"
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px',
-              padding: '7px 14px',
-              borderRadius: 'var(--radius-sm)',
-              border: '1px solid var(--border)',
-              backgroundColor: 'var(--bg-secondary)',
-              color: 'var(--text-primary)',
-              fontSize: '0.85rem',
-              fontWeight: 700,
-              cursor: 'pointer'
-            }}
-          >
-            <ArrowLeft size={15} />
-            <span>{l.backList}</span>
-          </button>
-
-          {onOpenQuiz && (
-            <button
-              onClick={() => onOpenQuiz(shloka.index)}
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '5px',
-                padding: '7px 14px',
-                borderRadius: 'var(--radius-sm)',
-                border: '1px solid var(--accent)',
-                backgroundColor: 'var(--accent-light)',
-                color: 'var(--accent)',
-                fontSize: '0.85rem',
-                fontWeight: 700,
-                cursor: 'pointer'
-              }}
-              title="Open the chapter quiz for this part"
-            >
-              <Zap size={14} />
-              <span>{l.takeQuiz}</span>
-            </button>
-          )}
-        </div>
-
-        {/* Shloka Selector Dropdown & Prev/Next */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flex: '1 1 280px', maxWidth: '480px', justifyContent: 'center' }}>
-          <button
-            onClick={onPrev}
-            disabled={shloka.index === 0}
-            style={{
-              padding: '7px 12px',
-              borderRadius: 'var(--radius-sm)',
-              border: '1px solid var(--border)',
-              backgroundColor: 'var(--bg-secondary)',
-              color: 'var(--text-primary)',
-              cursor: shloka.index === 0 ? 'not-allowed' : 'pointer',
-              opacity: shloka.index === 0 ? 0.4 : 1,
-              fontWeight: 700,
-              fontSize: '0.85rem',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '4px'
-            }}
-            title="Previous Shloka (Left Arrow)"
-          >
-            <ChevronLeft size={16} />
-            <span style={{ display: 'inline' }}>{l.prev}</span>
-          </button>
-
-          <select
-            value={shloka.index}
-            onChange={(e) => onSelectShloka(parseInt(e.target.value, 10))}
-            style={{
-              flex: 1,
-              minWidth: 0,
-              padding: '7px 12px',
-              borderRadius: 'var(--radius-sm)',
-              border: '1px solid var(--border)',
-              backgroundColor: 'var(--bg-primary)',
-              color: 'var(--text-primary)',
-              fontSize: '0.88rem',
-              fontWeight: 600,
-              cursor: 'pointer',
-              outline: 'none',
-              textOverflow: 'ellipsis'
-            }}
-          >
-            {allShlokas.map((s) => {
-              const isPart = s.number.toLowerCase().includes('part') || s.number.toLowerCase().includes('topic') || s.number.toLowerCase().includes('section');
-              const formattedNum = formatShlokaNumberWithEnglish(s.number);
-              const textLabel = isPart
-                ? (s.firstWords.toLowerCase().includes(s.number.toLowerCase()) ? s.firstWords : `${formattedNum}: ${s.firstWords}`)
-                : `श्लोकः ${formattedNum} (${s.index + 1}/${totalShlokas}) - ${s.firstWords}`;
-              return (
-                <option key={s.index} value={s.index}>
-                  {textLabel}
-                </option>
-              );
-            })}
-          </select>
-
-          <button
-            onClick={onNext}
-            disabled={shloka.index === totalShlokas - 1}
-            style={{
-              padding: '7px 12px',
-              borderRadius: 'var(--radius-sm)',
-              border: '1px solid var(--border)',
-              backgroundColor: 'var(--bg-secondary)',
-              color: 'var(--text-primary)',
-              cursor: shloka.index === totalShlokas - 1 ? 'not-allowed' : 'pointer',
-              opacity: shloka.index === totalShlokas - 1 ? 0.4 : 1,
-              fontWeight: 700,
-              fontSize: '0.85rem',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '4px'
-            }}
-            title="Next Shloka (Right Arrow)"
-          >
-            <span style={{ display: 'inline' }}>{l.next}</span>
-            <ChevronRight size={16} />
-          </button>
-        </div>
-      </div>
-
       {/* Render Single Shloka Markdown Article */}
       <article
         className={`reader-markdown single-shloka-markdown read-font-${fontFamily} lh-${lineHeight}`}
@@ -1213,7 +1119,9 @@ export const SingleShlokaViewer: React.FC<SingleShlokaViewerProps> = ({
             }
           }}
         >
-          {transformCommentaryToCollapsible(shloka.rawMarkdown)}
+          {isPart
+            ? sanitizeCommentaryMarkdown(shloka.rawMarkdown)
+            : transformCommentaryToCollapsible(shloka.rawMarkdown)}
         </ReactMarkdown>
       </article>
 
@@ -1256,25 +1164,50 @@ export const SingleShlokaViewer: React.FC<SingleShlokaViewerProps> = ({
           <span>{l.prev}</span>
         </button>
 
-        <button
-          onClick={onBackToList}
-          style={{
-            padding: '8px 16px',
-            borderRadius: 'var(--radius-sm)',
-            border: '1px solid var(--border)',
-            backgroundColor: 'var(--bg-primary)',
-            color: 'var(--text-primary)',
-            fontSize: '0.88rem',
-            fontWeight: 700,
-            cursor: 'pointer',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '6px'
-          }}
-        >
-          <ListIcon size={15} />
-          <span>{l.backList} ({shloka.index + 1} / {totalShlokas})</span>
-        </button>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+          <button
+            onClick={onBackToList}
+            style={{
+              padding: '8px 16px',
+              borderRadius: 'var(--radius-sm)',
+              border: '1px solid var(--border)',
+              backgroundColor: 'var(--bg-primary)',
+              color: 'var(--text-primary)',
+              fontSize: '0.88rem',
+              fontWeight: 700,
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}
+          >
+            <ListIcon size={15} />
+            <span>{isPart ? l.backList : `${l.backList} (${shloka.index + 1} / ${totalShlokas})`}</span>
+          </button>
+
+          {onOpenQuiz && (
+            <button
+              onClick={() => onOpenQuiz(shloka.index)}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '5px',
+                padding: '8px 16px',
+                borderRadius: 'var(--radius-sm)',
+                border: '1px solid var(--accent)',
+                backgroundColor: 'var(--accent-light)',
+                color: 'var(--accent)',
+                fontSize: '0.88rem',
+                fontWeight: 700,
+                cursor: 'pointer'
+              }}
+              title="Open the chapter quiz"
+            >
+              <Zap size={15} />
+              <span>{l.takeQuiz}</span>
+            </button>
+          )}
+        </div>
 
         <button
           onClick={onNext}

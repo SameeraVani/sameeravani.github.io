@@ -16,6 +16,9 @@ import {
   ExternalLink,
   Share2,
   ArrowUp,
+  ArrowLeft,
+  ChevronLeft,
+  ChevronRight,
   BookOpen,
   Download,
   Gamepad
@@ -25,10 +28,11 @@ import { downloadChapterAsPdf, downloadFullBookAsPdf, acquireSaveFileHandle } fr
 import { PracticeDashboard } from './practice/PracticeDashboard';
 import { parseShlokas, ShlokaDashboard } from './ShlokaIndex';
 import type { ShlokaIndexItem } from './ShlokaIndex';
-import { parseChapterShlokas, ShlokaListView, SingleShlokaViewer, ChapterQuizView } from './ShlokaView';
+import { parseChapterShlokas, ShlokaListView, SingleShlokaViewer, ChapterQuizView, navLabels } from './ShlokaView';
 import type { ParsedShloka } from './ShlokaView';
-import { toEnglishDigits } from '../utils/digitUtils';
-import { transformCommentaryToCollapsible } from '../utils/commentaryUtils';
+import { toEnglishDigits, formatShlokaNumberWithEnglish } from '../utils/digitUtils';
+import { transformCommentaryToCollapsible, sanitizeCommentaryMarkdown } from '../utils/commentaryUtils';
+import { MangalaModal } from './MangalaModal';
 
 
 interface ReaderProps {
@@ -83,6 +87,7 @@ export const Reader: React.FC<ReaderProps> = ({
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(true);
   const [sidebarTab, setSidebarTab] = useState<'toc' | 'search' | 'bookmarks'>('toc');
   const [settingsOpen, setSettingsOpen] = useState<boolean>(false);
+  const [mangalaOpen, setMangalaOpen] = useState<boolean>(false);
   const [showShareTooltip, setShowShareTooltip] = useState<boolean>(false);
   const [practiceMode, setPracticeMode] = useState<boolean>(false);
 
@@ -1254,10 +1259,95 @@ export const Reader: React.FC<ReaderProps> = ({
         </div>
 
         <div className="topbar-center" id="reader-chapter-title">
-          {activeChapter ? activeChapter.title : (activeChapterId === '' ? getAboutLabel(activeLanguage) : 'Loading Chapter...')}
+          {parsedShlokas.length > 0 && shlokaViewMode === 'single' && parsedShlokas[selectedShlokaIdx] ? (
+            (() => {
+              const current = parsedShlokas[selectedShlokaIdx];
+              const isPart = current.number.toLowerCase().includes('part') || current.number.toLowerCase().includes('topic') || current.number.toLowerCase().includes('section');
+              const l = navLabels[activeLanguage] || navLabels.english;
+              const backLabel = isPart ? l.backList : (activeLanguage === 'sanskrit' ? 'श्लोकसूची' : activeLanguage === 'kannada' ? 'ಶ್ಲೋಕ ಸೂಚಿ' : 'List');
+
+              return (
+                <div className="topbar-nav-group">
+                  <button
+                    className="topbar-nav-btn back"
+                    onClick={() => {
+                      setShlokaViewMode('list');
+                      if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                    }}
+                    title={backLabel}
+                  >
+                    <ArrowLeft size={14} />
+                    <span className="topbar-nav-btn-text">{backLabel}</span>
+                  </button>
+
+                  <button
+                    className="topbar-nav-btn prev"
+                    onClick={() => {
+                      if (selectedShlokaIdx > 0) {
+                        setSelectedShlokaIdx(selectedShlokaIdx - 1);
+                        if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                      }
+                    }}
+                    disabled={selectedShlokaIdx === 0}
+                    title={l.prev}
+                  >
+                    <ChevronLeft size={16} />
+                  </button>
+
+                  <select
+                    className="topbar-nav-select"
+                    value={selectedShlokaIdx}
+                    onChange={(e) => {
+                      setSelectedShlokaIdx(parseInt(e.target.value, 10));
+                      if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                    }}
+                    aria-label={l.selectShloka}
+                  >
+                    {parsedShlokas.map((s) => {
+                      const itemIsPart = s.number.toLowerCase().includes('part') || s.number.toLowerCase().includes('topic') || s.number.toLowerCase().includes('section');
+                      const formattedNum = formatShlokaNumberWithEnglish(s.number);
+                      const textLabel = itemIsPart
+                        ? (s.firstWords.toLowerCase().includes(s.number.toLowerCase()) ? s.firstWords : `${formattedNum}: ${s.firstWords}`)
+                        : `श्लोकः ${formattedNum} (${s.index + 1}/${parsedShlokas.length}) - ${s.firstWords}`;
+                      return (
+                        <option key={s.index} value={s.index}>
+                          {textLabel}
+                        </option>
+                      );
+                    })}
+                  </select>
+
+                  <button
+                    className="topbar-nav-btn next"
+                    onClick={() => {
+                      if (selectedShlokaIdx < parsedShlokas.length - 1) {
+                        setSelectedShlokaIdx(selectedShlokaIdx + 1);
+                        if (scrollContainerRef.current) scrollContainerRef.current.scrollTop = 0;
+                      }
+                    }}
+                    disabled={selectedShlokaIdx === parsedShlokas.length - 1}
+                    title={l.next}
+                  >
+                    <ChevronRight size={16} />
+                  </button>
+                </div>
+              );
+            })()
+          ) : (
+            activeChapter ? activeChapter.title : (activeChapterId === '' ? getAboutLabel(activeLanguage) : 'Loading Chapter...')
+          )}
         </div>
 
         <div className="topbar-right">
+          <button
+            className={`icon-btn mangala-btn ${mangalaOpen ? 'active' : ''}`}
+            onClick={() => setMangalaOpen(true)}
+            title="मङ्गलश्लोकाः / Mangala Shloka (Chanting before class)"
+            aria-label="Mangala Shloka"
+          >
+            <span style={{ fontSize: '1.25rem', fontWeight: 800, fontFamily: 'serif', lineHeight: 1 }}>ॐ</span>
+          </button>
+
           <button
             className={`icon-btn ${sidebarOpen ? 'active' : ''}`}
             onClick={() => setSidebarOpen(!sidebarOpen)}
@@ -1828,7 +1918,9 @@ export const Reader: React.FC<ReaderProps> = ({
                             }
                           }}
                         >
-                          {transformCommentaryToCollapsible(chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, ''))}
+                          {parsedShlokas.some(s => s.number.toLowerCase().includes('part') || s.number.toLowerCase().includes('topic') || s.number.toLowerCase().includes('section'))
+                            ? sanitizeCommentaryMarkdown(chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, ''))
+                            : transformCommentaryToCollapsible(chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, ''))}
                         </ReactMarkdown>
 
                         {/* Next / Prev Chapter buttons */}
@@ -1887,6 +1979,18 @@ export const Reader: React.FC<ReaderProps> = ({
         >
           <ArrowUp size={20} />
         </button>
+
+        {/* Mangala Shloka Modal for Class Invocations */}
+        <MangalaModal
+          isOpen={mangalaOpen}
+          onClose={() => setMangalaOpen(false)}
+          bookId={bookId}
+          bookTitle={book ? book.title : ''}
+          activeLanguage={activeLanguage}
+          chapterPath={activeChapter ? activeChapter.path : undefined}
+          chapterId={activeChapterId}
+          fontFamily={settings.fontFamily}
+        />
       </div>
 
     </div>

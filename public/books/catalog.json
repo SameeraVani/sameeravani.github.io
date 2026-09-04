@@ -2327,5 +2327,81 @@
                 }
             ]
         }
+    },
+    {
+        "id": "upanishad",
+        "title": "Upanishad",
+        "author": "Veda Vyasa / Vedic Rishis",
+        "year": "Vedic / Ancient",
+        "genre": "Scripture / Vedanta / Upanishad",
+        "description": "The Upanishads (दशोपनिषदः) are the sacred crest-jewels of the Vedas, containing profound inquiry into the Supreme Reality (Parabrahman Sri Hari), the nature of the self, and eternal liberation.",
+        "coverUrl": "books/upanishad/cover.png",
+        "languages": [
+            "sanskrit",
+            "english",
+            "kannada"
+        ],
+        "shlokaLabel": "Mantra",
+        "localized": {
+            "sanskrit": {
+                "title": "उपनिषदः",
+                "description": "वेदान्तसारभूताः श्रुतिशिरोरत्नभूताः दशोपनिषदः। परब्रह्मणः श्रीनारायणस्य सर्वगुणपरिपूर्णत्वं निर्दोषत्वं च प्रतिपादयन्ति मन्त्राः।",
+                "shlokaLabel": "मन्त्रः"
+            },
+            "kannada": {
+                "title": "ಉಪನಿಷತ್",
+                "description": "ವೇದಾಂತದ ಪರಮೋಚ್ಛ ಜ್ಞಾನನಿಧಿಯಾದ ದಶೋಪನಿಷತ್ತುಗಳು. ಜೀವೇಶ್ವರ ತತ್ತ್ವ ಮತ್ತು ಪರಬ್ರಹ್ಮ ಶ್ರೀಹರಿಯ ಸರ್ವೋತ್ತಮತ್ವವನ್ನು ಪ್ರತಿಪಾದಿಸುವ ಪವಿತ್ರ ಶ್ರುತಿ ಗ್ರಂಥಗಳು.",
+                "shlokaLabel": "ಮಂತ್ರ"
+            },
+            "english": {
+                "title": "Upanishad",
+                "description": "The Upanishads (Vedanta), the philosophical crest-jewels of the Vedas, expounding the transcendental nature of Supreme Brahman and eternal truth.",
+                "shlokaLabel": "Mantra"
+            }
+        },
+        "chapters": {
+            "sanskrit": [
+                {
+                    "id": "ishavasya-upanishad",
+                    "title": "ईशावास्योपनिषत्",
+                    "path": "books/upanishad/sa/ishavasya/ch1.md",
+                    "topics": [
+                        {
+                            "id": "ishavasya-ch1",
+                            "title": "प्रथमोध्यायः (मन्त्राः १-१८)",
+                            "path": "books/upanishad/sa/ishavasya/ch1.md"
+                        }
+                    ]
+                }
+            ],
+            "english": [
+                {
+                    "id": "ishavasya-upanishad",
+                    "title": "Ishavasya Upanishad",
+                    "path": "books/upanishad/en/ishavasya/ch1.md",
+                    "topics": [
+                        {
+                            "id": "ishavasya-ch1",
+                            "title": "Chapter 1 (Mantras 1-18)",
+                            "path": "books/upanishad/en/ishavasya/ch1.md"
+                        }
+                    ]
+                }
+            ],
+            "kannada": [
+                {
+                    "id": "ishavasya-upanishad",
+                    "title": "ಈಶಾವಾಸ್ಯೋಪನಿಷತ್",
+                    "path": "books/upanishad/kn/ishavasya/ch1.md",
+                    "topics": [
+                        {
+                            "id": "ishavasya-ch1",
+                            "title": "ಅಧ್ಯಾಯ ೧ (ಮಂತ್ರಗಳು ೧-೧೮)",
+                            "path": "books/upanishad/kn/ishavasya/ch1.md"
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ]
