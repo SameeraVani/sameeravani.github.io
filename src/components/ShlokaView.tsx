@@ -62,14 +62,19 @@ export interface ParsedShloka {
 export const parseChapterShlokas = (content: string): ParsedShloka[] => {
   if (!content) return [];
 
-  // Match blocks starting with **श्लोकः <num>** or **श्लोक <num>** (including 1.1, १.१, २१-२२, 21-22 etc.)
-  const shlokaBlockRegex = /(?=\*\*श्लोकः?\s*[०-९\d]+(?:[.\-–—][०-९\d]+)?\*\*)/;
+  // Match blocks starting with **श्लोकः <num>**, **मन्त्रः <num>**, or ## [उपनिषत् - ]श्लोकः <num>
+  const shlokaBlockRegex = /(?=\*\*(?:श्लोकः?|मन्त्रः?)\s*[०-९\d]+|##\s*(?:उपनिषत्\s*(?:\\?[-–—:])*\s*)?(?:श्लोकः?|मन्त्रः?)\s*(?:\\?[-–—:])*\s*[०-९\d]+)/;
   const blocks = content.split(shlokaBlockRegex).filter(b => b.trim().length > 0);
 
   const parsedShlokas: ParsedShloka[] = [];
+  let preamble = '';
 
   blocks.forEach((block) => {
-    const match = block.match(/\*\*श्लोकः?\s*([०-९\d]+(?:[.\-–—][०-९\d]+)?)\*\*/);
+    const match = block.match(/(?:\*\*(?:श्लोकः?|मन्त्रः?)\s*|##\s*(?:उपनिषत्\s*(?:\\?[-–—:])*\s*)?(?:श्लोकः?|मन्त्रः?)\s*(?:\\?[-–—:])*\s*)([०-९\d]+(?:[.\-–—][०-९\d]+)?)/);
+    if (!match && parsedShlokas.length === 0) {
+      preamble = block.replace(/^---[\s\S]*?---\r?\n/, '').trim();
+      return;
+    }
     if (match) {
       const number = match[1];
 
@@ -89,6 +94,11 @@ export const parseChapterShlokas = (content: string): ParsedShloka[] => {
           line.includes('गीताविवृतिः') ||
           line.includes('भावार्थः') ||
           line.includes('व्याकरणविश्लेषणम्') ||
+          line.includes('खण्डार्थः') ||
+          line.includes('उपनिषद्भाष्यम्') ||
+          line.includes('भाष्यम्') ||
+          line.includes('अवतारिका') ||
+          line.includes('Part') ||
           line.startsWith('---') ||
           line.startsWith('|') ||
           line.startsWith('#')
@@ -118,7 +128,8 @@ export const parseChapterShlokas = (content: string): ParsedShloka[] => {
         firstWords,
         fullVerse,
         verseLines,
-        rawMarkdown: block
+        rawMarkdown: block,
+        preamble: parsedShlokas.length === 0 && preamble ? preamble : undefined
       });
     }
   });

@@ -13,14 +13,14 @@ export interface ShlokaIndexItem {
 export const parseShlokas = (content: string): ShlokaIndexItem[] => {
   if (!content) return [];
 
-  // First try parsing structured shloka blocks starting with **श्लोक...**
-  const shlokaBlockRegex = /(?=\*\*श्लोकः?\s*[०-९\d]+(?:\.[०-९\d]+)?\*\*)/;
+  // First try parsing structured shloka blocks starting with **श्लोक...**, **मन्त्र...**, or ## [उपनिषत् - ]श्लोक...
+  const shlokaBlockRegex = /(?=\*\*(?:श्लोकः?|मन्त्रः?)\s*[०-९\d]+|##\s*(?:उपनिषत्\s*(?:\\?[-–—:])*\s*)?(?:श्लोकः?|मन्त्रः?)\s*(?:\\?[-–—:])*\s*[०-९\d]+)/;
   const blocks = content.split(shlokaBlockRegex).filter(b => b.trim().length > 0);
 
-  if (blocks.length > 1 || (blocks.length === 1 && blocks[0].includes('श्लोक'))) {
+  if (blocks.length > 1 || (blocks.length === 1 && (blocks[0].includes('श्लोक') || blocks[0].includes('मन्त्र')))) {
     const items: ShlokaIndexItem[] = [];
     blocks.forEach((block) => {
-      const match = block.match(/\*\*श्लोकः?\s*([०-९\d]+(?:\.[०-९\d]+)?)\*\*/);
+      const match = block.match(/(?:\*\*(?:श्लोकः?|मन्त्रः?)\s*|##\s*(?:उपनिषत्\s*(?:\\?[-–—:])*\s*)?(?:श्लोकः?|मन्त्रः?)\s*(?:\\?[-–—:])*\s*)([०-९\d]+(?:[.\-–—][०-९\d]+)?)/);
       if (match) {
         const num = match[1];
         const lines = block.split('\n').map((l) => l.trim()).filter((l) => l.length > 0);
@@ -35,6 +35,11 @@ export const parseShlokas = (content: string): ShlokaIndexItem[] => {
             line.includes('गीताविवृतिः') ||
             line.includes('भावार्थः') ||
             line.includes('व्याकरणविश्लेषणम्') ||
+            line.includes('खण्डार्थः') ||
+            line.includes('उपनिषद्भाष्यम्') ||
+            line.includes('भाष्यम्') ||
+            line.includes('अवतारिका') ||
+            line.includes('Part') ||
             line.startsWith('---') ||
             line.startsWith('|') ||
             line.startsWith('#')
@@ -42,7 +47,7 @@ export const parseShlokas = (content: string): ShlokaIndexItem[] => {
             break;
           }
           const clean = stripMarkdown(line);
-          if (clean && !clean.startsWith('श्लोक')) {
+          if (clean && !clean.startsWith('श्लोक') && !clean.startsWith('मन्त्र')) {
             if (isSpeakerLine(clean)) {
               continue;
             }
