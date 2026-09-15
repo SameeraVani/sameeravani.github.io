@@ -1,17 +1,18 @@
 const fs = require('fs');
 const path = require('path');
 
-// Target book folder and languages
-const bookBaseDir = path.join(__dirname, 'public/books/nyaya-sudha');
-const allLanguages = ['en', 'sa', 'hi', 'kn', 'ta', 'te'];
-
-// Get command-line arguments
+// Target book folder and languages (defaults to nyaya-sudha, or pass as 3rd arg)
 const args = process.argv.slice(2);
 if (args.length < 2) {
-  console.log('\nUsage: node replicate.js <source-language> <relative-file-path>');
-  console.log('Example: node replicate.js sa adhyaya1/pada1/adhikarana1/part1.md\n');
+  console.log('\nUsage: node replicate.js <source-language> <relative-file-path> [book-folder-name]');
+  console.log('Example: node replicate.js sa adhyaya1/pada1/adhikarana1/part1.md');
+  console.log('Example for other books: node replicate.js sa adhyaya1/pada1/adhikarana1/part1.md brahmasutram\n');
   process.exit(1);
 }
+
+const targetBook = args[2] || 'nyaya-sudha';
+const bookBaseDir = path.join(__dirname, 'public/books', targetBook);
+const allLanguages = ['en', 'sa', 'hi', 'kn', 'ta', 'te'];
 
 const sourceLang = args[0].toLowerCase();
 const relativeFilePath = args[1];

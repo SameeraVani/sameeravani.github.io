@@ -372,6 +372,95 @@
         }
     },
     {
+        "id": "brahmasutram",
+        "title": "Brahmasutram",
+        "author": "Sri Veda Vyasa",
+        "year": "Ancient",
+        "genre": "Philosophy / Vedanta",
+        "description": "Brahmasutram (also known as Vedanta Sutras) composed by Bhagavan Sri Veda Vyasa (Badarayana) synthesizes the fundamental teachings of the Upanishads and establishes the supreme nature of Parabrahman Sri Narayana.",
+        "coverUrl": "books/brahmasutram/cover.png",
+        "languages": [
+            "english",
+            "sanskrit",
+            "hindi",
+            "kannada",
+            "tamil",
+            "telugu"
+        ],
+        "shlokaLabel": "Sutra",
+        "localized": {
+            "sanskrit": {
+                "title": "ब्रह्मसूत्रम्",
+                "description": "भगवान् श्रीवेदव्यासप्रणीतं ब्रह्मसूत्रं (वेदान्तसूत्रम्) समस्तोपनिषदां समन्वयकः परमप्रामाणिकः ग्रन्थः अस्ति। अत्र परब्रह्मणः श्रीविष्णोः सर्वगुणपरिपूर्णत्वं, निर्दोषत्वं, मोक्षप्रदत्वं च सूत्ररूपेण सुप्रतिष्ठितम्।",
+                "shlokaLabel": "सूत्रम्"
+            },
+            "hindi": {
+                "title": "ब्रह्मसूत्र",
+                "description": "भगवान श्री वेदव्यास (बादरायण) द्वारा विरचित ब्रह्मसूत्र वेदान्त दर्शन का मूल आधार ग्रन्थ है, जिसमें उपनिषदों के गंभीर गूढ़ तत्त्वों का व्यवस्थित समन्वय और प्रतिपादन किया गया है।",
+                "shlokaLabel": "सूत्र"
+            },
+            "kannada": {
+                "title": "ಬ್ರಹ್ಮಸೂತ್ರ",
+                "description": "ಭಗವಾನ್ ಶ್ರೀ ವೇದವ್ಯಾಸರು ರಚಿಸಿದ ಬ್ರಹ್ಮಸೂತ್ರವು ವೇದಾಂತ ದರ್ಶನದ ಪರಮ ಪ್ರಮುಖ ಮೂಲಗ್ರಂಥವಾಗಿದ್ದು, ಸಮಸ್ತ ಉಪನಿಷತ್ತುಗಳ ಸಮನ್ವಯವನ್ನು ಮತ್ತು ಪರಬ್ರಹ್ಮನ ಸಕಲ ಕಲ್ಯಾಣಗುಣಪೂರ್ಣತೆಯನ್ನು ಪ್ರತಿಪಾದಿಸುತ್ತದೆ.",
+                "shlokaLabel": "ಸೂತ್ರ"
+            },
+            "tamil": {
+                "title": "பிரம்மசூத்திரம்",
+                "description": "ஸ்ரீ பாதராயணர் (வேதவியாசர்) அருளிய பிரம்மசூத்திரம் வேதாந்த தத்துவத்தின் மூல நூலாகும். இது உபநிடதங்களின் தத்துவங்களை ஒருங்கிணைத்து பரப்பிரம்மத்தின் இயல்பை விளக்குகிறது.",
+                "shlokaLabel": "சூத்திரம்"
+            },
+            "telugu": {
+                "title": "బ్రహ్మసూత్రములు",
+                "description": "శ్రీ వేదవ్యాస (బాదరాయణ) ప్రణీతమైన బ్రహ్మసూత్రములు వేదాంత దర్శనానికి మూలస్తంభము. ఉపనిషత్తులలోని గూఢార్థములను సూత్రరూపంలో సమన్వయం చేసి పరబ్రహ్మ తత్త్వమును నిరూపిస్తుంది.",
+                "shlokaLabel": "సూత్రము"
+            }
+        },
+        "chapters": {
+            "english": [
+                {
+                    "id": "ad1-pd1-adh1-pt1",
+                    "title": "Adhyaya 1, Pada 1, Adhikarana 1: ॥ Jijnasadhikaranam ॥",
+                    "path": "books/brahmasutram/en/adhyaya1/pada1/adhikarana1/part1.md"
+                }
+            ],
+            "sanskrit": [
+                {
+                    "id": "ad1-pd1-adh1-pt1",
+                    "title": "अध्यायः १, पादः १, अधिकरणम् १: ॥ जिज्ञासाधिकरणम् ॥",
+                    "path": "books/brahmasutram/sa/adhyaya1/pada1/adhikarana1/part1.md"
+                }
+            ],
+            "hindi": [
+                {
+                    "id": "ad1-pd1-adh1-pt1",
+                    "title": "अध्याय १, पाद १, अधिकरण १: ॥ जिज्ञासाधिकरण ॥",
+                    "path": "books/brahmasutram/hi/adhyaya1/pada1/adhikarana1/part1.md"
+                }
+            ],
+            "kannada": [
+                {
+                    "id": "ad1-pd1-adh1-pt1",
+                    "title": "ಅಧ್ಯಾಯ ೧, ಪಾದ ೧, ಅಧಿಕರಣ ೧: ॥ ಜಿಜ್ಞಾಸಾಧಿಕರಣಮ್ ॥",
+                    "path": "books/brahmasutram/kn/adhyaya1/pada1/adhikarana1/part1.md"
+                }
+            ],
+            "tamil": [
+                {
+                    "id": "ad1-pd1-adh1-pt1",
+                    "title": "அத்தியாயம் 1, பாதம் 1, அதிகரணம் 1: ॥ ஜிஜ்ஞாஸாதிகரணம் ॥",
+                    "path": "books/brahmasutram/ta/adhyaya1/pada1/adhikarana1/part1.md"
+                }
+            ],
+            "telugu": [
+                {
+                    "id": "ad1-pd1-adh1-pt1",
+                    "title": "అధ్యాయము 1, పాదము 1, అధికరణము 1: ॥ జిజ్ఞాసాధికరణము ॥",
+                    "path": "books/brahmasutram/te/adhyaya1/pada1/adhikarana1/part1.md"
+                }
+            ]
+        }
+    },
+    {
         "id": "stotra-sangraha",
         "title": "Stotra Sangraha",
         "author": "Traditional",
