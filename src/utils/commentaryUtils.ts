@@ -4,13 +4,43 @@
 export const sanitizeCommentaryMarkdown = (markdown: string): string => {
   if (!markdown) return '';
 
-  // Prevent accidental Markdown Setext headings (e.g. text followed immediately by --- on next line becomes <h2>)
+  // 1. Prevent accidental Markdown Setext headings (e.g. text followed immediately by --- on next line becomes <h2>)
   let sanitized = markdown.replace(/([^\r\n])\r?\n(---+)/g, '$1\n\n$2');
 
-  // Fix unspaced bold tags where **tag** or **tag \-** is directly attached to non-whitespace letters/numbers
-  sanitized = sanitized.replace(/(\*\*[^*\n]+?\*\*)([\u0900-\u097Fa-zA-Z0-9])/g, '$1 $2');
-  // Also clean up backslash-escaped hyphens inside bold tags like **text \-** -> **text -**
-  sanitized = sanitized.replace(/(\*\*[^*\n]+?)\\\-([^*\n]*\*\*)/g, '$1-$2');
+  // 2. Clean up backslash-escaped hyphens inside bold tags e.g. **text \-** -> **text -**
+  sanitized = sanitized.replace(/\*\*([^*\n]+?)\\\-([^*\n]*?)\*\*/g, '**$1-$2**');
+
+  // Also clean up stray \- in headings and plain text (e.g. "Part 1 \- पदार्थः" -> "Part 1 - पदार्थः")
+  sanitized = sanitized.replace(/\\-/g, '-');
+
+  // 3. Fix bold tags with internal leading/trailing whitespace:
+  // e.g. "** text **" -> " **text** ", "** text**" -> " **text**", "**text **" -> "**text** "
+  // Matched strictly within a single bold tag so it CANNOT bridge across words.
+  sanitized = sanitized.replace(/\*\*([^*\n]+?)\*\*/g, (match, inner) => {
+    const text = inner.trim();
+    if (!text) return match;
+    const leading = /^\s*/.exec(inner)?.[0] || '';
+    const trailing = /\s*$/.exec(inner)?.[0] || '';
+    return `${leading}**${text}**${trailing}`;
+  });
+
+  // 4. Fix bold tag glued directly to next word/character without space:
+  // e.g. "**tag**word" -> "**tag** word"
+  sanitized = sanitized.replace(/(\*\*[^\s*](?:[^*\n]*?[^\s*])?\*\*)([\u0900-\u097Fa-zA-Z0-9])/g, '$1 $2');
+
+  // 5. Fix bold tag glued directly to preceding word without space:
+  // e.g. "word**tag**" -> "word **tag**"
+  sanitized = sanitized.replace(/([\u0900-\u097Fa-zA-Z0-9])(\*\*[^\s*](?:[^*\n]*?[^\s*])?\*\*)/g, '$1 $2');
+
+  // 6. Fix italic tags with internal leading/trailing whitespace:
+  // e.g. "* text *" -> " *text* ", "* text*" -> " *text*"
+  sanitized = sanitized.replace(/(?<!\*)\*([^*\n]+?)\*(?!\*)/g, (match, inner) => {
+    const text = inner.trim();
+    if (!text) return match;
+    const leading = /^\s*/.exec(inner)?.[0] || '';
+    const trailing = /\s*$/.exec(inner)?.[0] || '';
+    return `${leading}*${text}*${trailing}`;
+  });
 
   return sanitized;
 };

@@ -391,7 +391,7 @@ export const ShlokaListView: React.FC<ShlokaListViewProps> = ({
           </div>
           <article className="reader-markdown" style={{ fontSize: '1.05rem', lineHeight: 1.75 }}>
             <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
-              {shlokas[0].preamble}
+              {sanitizeCommentaryMarkdown(shlokas[0].preamble)}
             </ReactMarkdown>
           </article>
         </div>

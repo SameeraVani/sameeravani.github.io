@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import { X, ZoomIn, ZoomOut, RotateCcw } from 'lucide-react';
+import { sanitizeCommentaryMarkdown } from '../utils/commentaryUtils';
 
 export interface MangalaModalProps {
   isOpen: boolean;
@@ -238,7 +239,7 @@ export const MangalaModal: React.FC<MangalaModalProps> = ({
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeRaw]}
               >
-                {content}
+                {sanitizeCommentaryMarkdown(content)}
               </ReactMarkdown>
             </article>
           )}

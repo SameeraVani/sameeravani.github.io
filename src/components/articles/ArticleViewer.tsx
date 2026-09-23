@@ -19,6 +19,7 @@ import {
 import { QuizPlayer } from './QuizPlayer';
 import { getArticleUrlForRoute } from '../../utils/route';
 import { parseArticleMarkdown } from '../../utils/articleParser';
+import { sanitizeCommentaryMarkdown } from '../../utils/commentaryUtils';
 import './articles.css';
 
 interface ArticleViewerProps {
@@ -507,7 +508,7 @@ export const ArticleViewer: React.FC<ArticleViewerProps> = ({
                   },
                 }}
               >
-                {activeContent}
+                {sanitizeCommentaryMarkdown(activeContent)}
               </ReactMarkdown>
             </div>
           )}
