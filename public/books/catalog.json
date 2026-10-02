@@ -2203,6 +2203,11 @@
                     "id": "ch6",
                     "title": "अध्यायः ६",
                     "path": "books/mahabharata-tatparya-nirnaya/sa/ch6.md"
+                },
+                {
+                    "id": "ch7",
+                    "title": "अध्यायः ७",
+                    "path": "books/mahabharata-tatparya-nirnaya/sa/ch7.md"
                 }
             ],
             "kannada": [
@@ -2220,6 +2225,11 @@
                     "id": "ch6",
                     "title": "ಅಧ್ಯಾಯ ೬",
                     "path": "books/mahabharata-tatparya-nirnaya/sa/ch6.md"
+                },
+                {
+                    "id": "ch7",
+                    "title": "ಅಧ್ಯಾಯ ೭",
+                    "path": "books/mahabharata-tatparya-nirnaya/sa/ch7.md"
                 }
             ],
             "english": [
@@ -2237,6 +2247,11 @@
                     "id": "ch6",
                     "title": "Chapter 6",
                     "path": "books/mahabharata-tatparya-nirnaya/sa/ch6.md"
+                },
+                {
+                    "id": "ch7",
+                    "title": "Chapter 7",
+                    "path": "books/mahabharata-tatparya-nirnaya/sa/ch7.md"
                 }
             ]
         }
