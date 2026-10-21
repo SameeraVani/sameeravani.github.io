@@ -509,6 +509,11 @@
                     "id": "sripadaraja-pancharatna",
                     "title": "Sripadaraja Pancharatna Maalika",
                     "path": "books/stotra-sangraha/en/sripadaraja/pancharatna.md"
+                },
+                {
+                    "id": "stri-dharma",
+                    "title": "Sthri Dharma",
+                    "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
                 }
             ],
             "sanskrit": [
@@ -521,6 +526,11 @@
                     "id": "sripadaraja-pancharatna",
                     "title": "श्रीश्रीपादराजपञ्चरत्नमालिका",
                     "path": "books/stotra-sangraha/sa/sripadaraja/pancharatna.md"
+                },
+                {
+                    "id": "stri-dharma",
+                    "title": "स्त्रीधर्मः",
+                    "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
                 }
             ],
             "hindi": [
@@ -533,6 +543,11 @@
                     "id": "sripadaraja-pancharatna",
                     "title": "श्री श्रीपादराज पञ्चरत्नमालिका",
                     "path": "books/stotra-sangraha/hi/sripadaraja/pancharatna.md"
+                },
+                {
+                    "id": "stri-dharma",
+                    "title": "स्त्री धर्म",
+                    "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
                 }
             ],
             "kannada": [
@@ -545,6 +560,11 @@
                     "id": "sripadaraja-pancharatna",
                     "title": "ಶ್ರೀ ಶ್ರೀಪಾದರಾಜ ಪಂಚರತ್ನಮಾಲಿಕಾ",
                     "path": "books/stotra-sangraha/kn/sripadaraja/pancharatna.md"
+                },
+                {
+                    "id": "stri-dharma",
+                    "title": "ಸ್ತ್ರೀಧರ್ಮ",
+                    "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
                 }
             ],
             "tamil": [
@@ -557,6 +577,11 @@
                     "id": "sripadaraja-pancharatna",
                     "title": "ஸ்ரீ ஸ்ரீபாதராஜ பஞ்சரத்னமாலிகா",
                     "path": "books/stotra-sangraha/ta/sripadaraja/pancharatna.md"
+                },
+                {
+                    "id": "stri-dharma",
+                    "title": "ஸ்த்ரீ தர்மம்",
+                    "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
                 }
             ],
             "telugu": [
@@ -569,6 +594,11 @@
                     "id": "sripadaraja-pancharatna",
                     "title": "శ్రీ శ్రీపాదరాజ పంచరత్నమాలికా",
                     "path": "books/stotra-sangraha/te/sripadaraja/pancharatna.md"
+                },
+                {
+                    "id": "stri-dharma",
+                    "title": "స్త్రీధర్మము",
+                    "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
                 }
             ]
         }
