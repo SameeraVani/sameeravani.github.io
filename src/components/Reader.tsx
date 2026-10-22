@@ -130,14 +130,31 @@ export const Reader: React.FC<ReaderProps> = ({
 
   // Fetch the selected book structure
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}books/catalog.json?t=${Date.now()}`)
-      .then((res) => {
-        if (!res.ok) throw new Error('Failed to load books catalog.');
-        return res.json();
-      })
-      .then((catalog: Book[]) => {
-        const found = catalog.find((b) => b.id === bookId);
-        if (!found) throw new Error('Book not found in catalog.');
+    const fetchBook = async (): Promise<Book> => {
+      // 1. Try fetching dedicated book catalog first
+      try {
+        const bookRes = await fetch(`${import.meta.env.BASE_URL}books/${bookId}/catalog.json?t=${Date.now()}`);
+        if (bookRes.ok) {
+          const bookData: Book = await bookRes.json();
+          if (bookData && bookData.id === bookId) {
+            return bookData;
+          }
+        }
+      } catch (e) {
+        console.warn(`Could not load dedicated catalog for ${bookId}, falling back to master catalog:`, e);
+      }
+
+      // 2. Fallback to master catalog
+      const masterRes = await fetch(`${import.meta.env.BASE_URL}books/catalog.json?t=${Date.now()}`);
+      if (!masterRes.ok) throw new Error('Failed to load books catalog.');
+      const catalog: Book[] = await masterRes.json();
+      const found = catalog.find((b) => b.id === bookId);
+      if (!found) throw new Error('Book not found in catalog.');
+      return found;
+    };
+
+    fetchBook()
+      .then((found: Book) => {
         setBook(found);
         setLoadingBook(false);
 

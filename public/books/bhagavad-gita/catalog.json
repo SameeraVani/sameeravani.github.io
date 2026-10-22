@@ -1,0 +1,223 @@
+{
+  "id": "bhagavad-gita",
+  "title": "Bhagavad Gita",
+  "author": "Vyasa",
+  "year": "500 BCE",
+  "genre": "Scripture / Philosophy",
+  "description": "The Bhagavad Gita is a 700-verse Hindu scripture that is part of the epic Mahabharata, containing a sacred conversation between Arjuna and Krishna on duty, self-realization, and devotion.",
+  "coverUrl": "books/bhagavad-gita/cover.png",
+  "languages": [
+    "english",
+    "sanskrit",
+    "hindi",
+    "kannada",
+    "tamil",
+    "telugu"
+  ],
+  "shlokaLabel": "Jump to Shloka",
+  "localized": {
+    "sanskrit": {
+      "title": "भगवद्गीता",
+      "description": "भगवद्गीता महाभारत महाकाव्य का एक ७००-श्लोक वाला हिंदू ग्रंथ है, जिसमें अर्जुन और उनके सारथी श्री कृष्ण के बीच कर्तव्य, आत्म-साक्षात्कार और भक्ति पर चर्चा है।",
+      "shlokaLabel": "श्लोक-गन्तव्यम्"
+    },
+    "hindi": {
+      "title": "श्रीमद्भगवद्गीता",
+      "description": "भगवद्गीता महाभारत के भीष्म पर्व का एक हिस्सा है, जिसमें भगवान कृष्ण अर्जुन को निष्काम कर्मयोग, ज्ञानयोग और भक्तियोग का दिव्य उपदेश देते हैं।",
+      "shlokaLabel": "श्लोक पर जाएँ"
+    },
+    "kannada": {
+      "title": "ಭಗವದ್ಗೀತೆ",
+      "description": "ಭಗವದ್ಗೀತೆಯು ಮಹಾಭಾರತದ ಭೀಷ್ಮಪರ್ವದ ಭಾಗವಾಗಿದ್ದು, ಶ್ರೀ ಕೃಷ್ಣನು ಅರ್ಜುನನಿಗೆ ಕರ್ತವ್ಯ, ಜ್ಞಾನ ಮತ್ತು ಭಕ್ತಿ ಮಾರ್ಗಗಳ ಕುರಿತು ನೀಡಿದ ದಿವ್ಯ ಸಂದೇಶವಾಗಿದೆ.",
+      "shlokaLabel": "ಶ್ಲೋಕಕ್ಕೆ ಹೋಗಿ"
+    },
+    "tamil": {
+      "title": "பகவத் கீதை",
+      "description": "மகாபாரதத்தின் பீஷ்ம பர்வத்தில் இடம்பெற்றுள்ள பகவத் கீதை, அர்ஜுனனுக்கும் கிருஷ்ணருக்கும் இடையேயான கடமை, ஆத்ம ஞானம் மற்றும் பக்தி பற்றிய உரையாடலாகும்.",
+      "shlokaLabel": "ஸ்லோகத்திற்குச் செல்"
+    },
+    "telugu": {
+      "title": "భగవద్గీత",
+      "description": "భగవద్గీత మహాభారతంలోని భీష్మపర్వమున కలదు. యుద్ధరంగంలో శ్రీ కృష్ణుడు అర్జునునికి కర్తవ్యము, మోక్షము మరియు భక్తి గురించి చేసిన దివ్యబోధ.",
+      "shlokaLabel": "శ్లోకానికి వెళ్ళండి"
+    }
+  },
+  "chapters": {
+    "english": [
+      {
+        "id": "arjuna-vishada-yoga",
+        "title": "Chapter I: Arjuna Vishada Yoga",
+        "path": "books/bhagavad-gita/en/ch1.md"
+      }
+    ],
+    "sanskrit": [
+      {
+        "id": "arjuna-vishada-yoga",
+        "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः",
+        "path": "books/bhagavad-gita/sa/ch1/part1.md",
+        "topics": [
+          {
+            "id": "arjuna-vishada-yoga-part-1",
+            "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः (भागः १ - श्लोकाः १-५)",
+            "path": "books/bhagavad-gita/sa/ch1/part1.md"
+          },
+          {
+            "id": "arjuna-vishada-yoga-part-2",
+            "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः (भागः २ - श्लोकाः ६-१०)",
+            "path": "books/bhagavad-gita/sa/ch1/part2.md"
+          },
+          {
+            "id": "arjuna-vishada-yoga-part-3",
+            "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः (भागः ३ - श्लोकाः ११-१५)",
+            "path": "books/bhagavad-gita/sa/ch1/part3.md"
+          },
+          {
+            "id": "arjuna-vishada-yoga-part-4",
+            "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः (भागः ४ - श्लोकाः १६-२०)",
+            "path": "books/bhagavad-gita/sa/ch1/part4.md"
+          },
+          {
+            "id": "arjuna-vishada-yoga-part-5",
+            "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः (भागः ५ - श्लोकाः २१-२५)",
+            "path": "books/bhagavad-gita/sa/ch1/part5.md"
+          },
+          {
+            "id": "arjuna-vishada-yoga-part-6",
+            "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः (भागः ६ - श्लोकाः २६-३०)",
+            "path": "books/bhagavad-gita/sa/ch1/part6.md"
+          },
+          {
+            "id": "arjuna-vishada-yoga-part-7",
+            "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः (भागः ७ - श्लोकाः ३१-३५)",
+            "path": "books/bhagavad-gita/sa/ch1/part7.md"
+          },
+          {
+            "id": "arjuna-vishada-yoga-part-8",
+            "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः (भागः ८ - श्लोकाः ३६-४०)",
+            "path": "books/bhagavad-gita/sa/ch1/part8.md"
+          },
+          {
+            "id": "arjuna-vishada-yoga-part-9",
+            "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः (भागः ९ - श्लोकाः ४१-४५)",
+            "path": "books/bhagavad-gita/sa/ch1/part9.md"
+          },
+          {
+            "id": "arjuna-vishada-yoga-part-10",
+            "title": "प्रथमोऽध्यायः: अर्जुनविषादयोगः (भागः १० - श्लोकाः ४६-४७)",
+            "path": "books/bhagavad-gita/sa/ch1/part10.md"
+          }
+        ]
+      },
+      {
+        "id": "sankhya-yoga",
+        "title": "द्वितीयोऽध्यायः: सांख्ययोगः",
+        "path": "books/bhagavad-gita/sa/ch2/part1.md",
+        "topics": [
+          {
+            "id": "sankhya-yoga-part-1",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः १ - श्लोकाः १-५)",
+            "path": "books/bhagavad-gita/sa/ch2/part1.md"
+          },
+          {
+            "id": "sankhya-yoga-part-2",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः २ - श्लोकाः ६-१०)",
+            "path": "books/bhagavad-gita/sa/ch2/part2.md"
+          },
+          {
+            "id": "sankhya-yoga-part-3",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः ३ - श्लोकाः ११-१५)",
+            "path": "books/bhagavad-gita/sa/ch2/part3.md"
+          },
+          {
+            "id": "sankhya-yoga-part-4",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः ४ - श्लोकाः १६-२०)",
+            "path": "books/bhagavad-gita/sa/ch2/part4.md"
+          },
+          {
+            "id": "sankhya-yoga-part-5",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः ५ - श्लोकाः २१-२५)",
+            "path": "books/bhagavad-gita/sa/ch2/part5.md"
+          },
+          {
+            "id": "sankhya-yoga-part-6",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः ६ - श्लोकाः २६-३०)",
+            "path": "books/bhagavad-gita/sa/ch2/part6.md"
+          },
+          {
+            "id": "sankhya-yoga-part-7",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः ७ - श्लोकाः ३१-३५)",
+            "path": "books/bhagavad-gita/sa/ch2/part7.md"
+          },
+          {
+            "id": "sankhya-yoga-part-8",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः ८ - श्लोकाः ३६-४०)",
+            "path": "books/bhagavad-gita/sa/ch2/part8.md"
+          },
+          {
+            "id": "sankhya-yoga-part-9",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः ९ - श्लोकाः ४१-४५)",
+            "path": "books/bhagavad-gita/sa/ch2/part9.md"
+          },
+          {
+            "id": "sankhya-yoga-part-10",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः १० - श्लोकाः ४६-५०)",
+            "path": "books/bhagavad-gita/sa/ch2/part10.md"
+          },
+          {
+            "id": "sankhya-yoga-part-11",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः ११ - श्लोकाः ५१-५५)",
+            "path": "books/bhagavad-gita/sa/ch2/part11.md"
+          },
+          {
+            "id": "sankhya-yoga-part-12",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः १२ - श्लोकाः ५६-६०)",
+            "path": "books/bhagavad-gita/sa/ch2/part12.md"
+          },
+          {
+            "id": "sankhya-yoga-part-13",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः १३ - श्लोकाः ६१-६५)",
+            "path": "books/bhagavad-gita/sa/ch2/part13.md"
+          },
+          {
+            "id": "sankhya-yoga-part-14",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः १४ - श्लोकाः ६६-७०)",
+            "path": "books/bhagavad-gita/sa/ch2/part14.md"
+          },
+          {
+            "id": "sankhya-yoga-part-15",
+            "title": "द्वितीयोऽध्यायः: सांख्ययोगः (भागः १५ - श्लोकाः ७१-७२)",
+            "path": "books/bhagavad-gita/sa/ch2/part15.md"
+          }
+        ]
+      }
+    ],
+    "hindi": [
+      {
+        "id": "arjuna-vishada-yoga",
+        "title": "अध्याय १: अर्जुन विषाद योग",
+        "path": "books/bhagavad-gita/hi/ch1.md"
+      }
+    ],
+    "kannada": [
+      {
+        "id": "arjuna-vishada-yoga",
+        "title": "ಅಧ್ಯಾಯ ೧: ಅರ್ಜುನವಿಷಾದಯೋಗ",
+        "path": "books/bhagavad-gita/kn/ch1.md"
+      }
+    ],
+    "tamil": [
+      {
+        "id": "arjuna-vishada-yoga",
+        "title": "அத்தியாயம் 1: அர்ஜுன விஷாத யோகம்",
+        "path": "books/bhagavad-gita/ta/ch1.md"
+      }
+    ],
+    "telugu": [
+      {
+        "id": "arjuna-vishada-yoga",
+        "title": "అధ్యాయము 1: అర్జునవిషాదయోగము",
+        "path": "books/bhagavad-gita/te/ch1.md"
+      }
+    ]
+  }
+}

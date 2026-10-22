@@ -1,0 +1,143 @@
+{
+  "id": "stotra-sangraha",
+  "title": "Stotra Sangraha",
+  "author": "Traditional",
+  "year": "Ancient",
+  "genre": "Devotional / Stotras",
+  "description": "A collection containing Sri Raghavendra Stotram with word-by-word meanings and commentaries.",
+  "coverUrl": "books/stotra-sangraha/cover.png",
+  "languages": [
+    "english",
+    "sanskrit",
+    "hindi",
+    "kannada",
+    "tamil",
+    "telugu"
+  ],
+  "localized": {
+    "sanskrit": {
+      "title": "स्तोत्रसंग्रहः",
+      "description": "श्रीराघवेन्द्रस्तोत्रम् - पदशः अर्थः भावार्थश्च संस्कृते विवृतः।"
+    },
+    "hindi": {
+      "title": "स्तोत्र संग्रह",
+      "description": "श्री राघवेंद्र स्तोत्र का संग्रह, जिसमें प्रत्येक श्लोक का शब्दार्थ और भावार्थ सरल हिन्दी में दिया गया है।"
+    },
+    "kannada": {
+      "title": "ಸ್ತೋತ್ರ ಸಂಗ್ರಹ",
+      "description": "ಶ್ರೀ ರಾಘವೇಂದ್ರ ಸ್ತೋತ್ರದ ಸಂಗ್ರಹ. ಇಲ್ಲಿ ಪ್ರತಿ ಶ್ಲೋಕದ ಪದ ಪರಿಚಯ ಮತ್ತು ಕನ್ನಡ ಭಾವಾರ್ಥವನ್ನು ನೀಡಲಾಗಿದೆ."
+    },
+    "tamil": {
+      "title": "ஸ்தோத்திர சங்கிரகம்",
+      "description": "ஸ்ரீ ராகவேந்திர ஸ்தோத்திரம் - ஒவ்வொரு ஸ்லோகத்தின் சொற்பொருளும் எளிய தமிழும் வழங்கப்பட்டுள்ளது."
+    },
+    "telugu": {
+      "title": "స్తోత్ర సంగ్రహము",
+      "description": "శ్రీ రాఘవేంద్ర స్తోత్రము - ఇక్కడ ప్రతి శ్లోకము యొక్క పదపరిచయము మరియు తాత్పర్యము తెలుగులో కలదు."
+    }
+  },
+  "chapters": {
+    "english": [
+      {
+        "id": "raghavendra-stotram",
+        "title": "Sri Raghavendra Stotram",
+        "path": "books/stotra-sangraha/en/raghavendra/stotram.md"
+      },
+      {
+        "id": "sripadaraja-pancharatna",
+        "title": "Sripadaraja Pancharatna Maalika",
+        "path": "books/stotra-sangraha/en/sripadaraja/pancharatna.md"
+      },
+      {
+        "id": "stri-dharma",
+        "title": "Sthri Dharma",
+        "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
+      }
+    ],
+    "sanskrit": [
+      {
+        "id": "raghavendra-stotram",
+        "title": "श्रीराघवेन्द्रस्तोत्रम्",
+        "path": "books/stotra-sangraha/sa/raghavendra/stotram.md"
+      },
+      {
+        "id": "sripadaraja-pancharatna",
+        "title": "श्रीश्रीपादराजपञ्चरत्नमालिका",
+        "path": "books/stotra-sangraha/sa/sripadaraja/pancharatna.md"
+      },
+      {
+        "id": "stri-dharma",
+        "title": "स्त्रीधर्मः",
+        "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
+      }
+    ],
+    "hindi": [
+      {
+        "id": "raghavendra-stotram",
+        "title": "श्री राघवेंद्र स्तोत्र",
+        "path": "books/stotra-sangraha/hi/raghavendra/stotram.md"
+      },
+      {
+        "id": "sripadaraja-pancharatna",
+        "title": "श्री श्रीपादराज पञ्चरत्नमालिका",
+        "path": "books/stotra-sangraha/hi/sripadaraja/pancharatna.md"
+      },
+      {
+        "id": "stri-dharma",
+        "title": "स्त्री धर्म",
+        "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
+      }
+    ],
+    "kannada": [
+      {
+        "id": "raghavendra-stotram",
+        "title": "ಶ್ರೀ ರಾಘವೇಂದ್ರ ಸ್ತೋತ್ರ",
+        "path": "books/stotra-sangraha/kn/raghavendra/stotram.md"
+      },
+      {
+        "id": "sripadaraja-pancharatna",
+        "title": "ಶ್ರೀ ಶ್ರೀಪಾದರಾಜ ಪಂಚರತ್ನಮಾಲಿಕಾ",
+        "path": "books/stotra-sangraha/kn/sripadaraja/pancharatna.md"
+      },
+      {
+        "id": "stri-dharma",
+        "title": "ಸ್ತ್ರೀಧರ್ಮ",
+        "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
+      }
+    ],
+    "tamil": [
+      {
+        "id": "raghavendra-stotram",
+        "title": "ஸ்ரீ ராகவேந்திர ஸ்தோத்திரம்",
+        "path": "books/stotra-sangraha/ta/raghavendra/stotram.md"
+      },
+      {
+        "id": "sripadaraja-pancharatna",
+        "title": "ஸ்ரீ ஸ்ரீபாதராஜ பஞ்சரத்னமாலிகா",
+        "path": "books/stotra-sangraha/ta/sripadaraja/pancharatna.md"
+      },
+      {
+        "id": "stri-dharma",
+        "title": "ஸ்த்ரீ தர்மம்",
+        "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
+      }
+    ],
+    "telugu": [
+      {
+        "id": "raghavendra-stotram",
+        "title": "శ్రీ రాఘవేంద్ర స్తోత్రము",
+        "path": "books/stotra-sangraha/te/raghavendra/stotram.md"
+      },
+      {
+        "id": "sripadaraja-pancharatna",
+        "title": "శ్రీ శ్రీపాదరాజ పంచరత్నమాలికా",
+        "path": "books/stotra-sangraha/te/sripadaraja/pancharatna.md"
+      },
+      {
+        "id": "stri-dharma",
+        "title": "స్త్రీధర్మము",
+        "path": "books/stotra-sangraha/ta/stri-dharma/part1.md"
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": "nyaya-sudha",
+  "title": "Nyaya Sudha",
+  "author": "Sri Jayatirtha",
+  "year": "14th Century CE",
+  "genre": "Philosophy / Vedanta",
+  "description": "Nyaya Sudha is Jayatirtha's monumental Sanskrit commentary on Madhvacharya's Anuvyakhyana, providing a detailed critique of rival schools of Indian philosophy and establishing the core principles of Dvaita Vedanta.",
+  "coverUrl": "books/nyaya-sudha/cover.png",
+  "languages": [
+    "english",
+    "sanskrit",
+    "hindi",
+    "kannada",
+    "tamil",
+    "telugu"
+  ],
+  "shlokaLabel": "Anuvyakhyana Karika",
+  "localized": {
+    "sanskrit": {
+      "title": "न्यायसुधा",
+      "description": "न्यायसुधा श्रीजयतीर्थविरचिता श्रीमन्मध्वाचार्यकृत-अनुव्याख्यानस्य महाग्रन्थस्वरूपा टीका अस्ति। इयं द्वैतसिद्धान्तस्य प्रमुखस्तम्भः तथा परमतखण्डने स्वमतस्थापने च अग्रगण्यः ग्रन्थः वर्तते।",
+      "shlokaLabel": "अनुव्याख्यान-कारिकाः"
+    },
+    "hindi": {
+      "title": "न्यायसुधा",
+      "description": "न्यायसुधा श्री जयतीर्थ द्वारा रचित श्रीमन्मध्वाचार्य के अनुव्याख्यान पर एक महान टीका ग्रन्थ है। यह ग्रन्थ द्वैत वेदान्त दर्शन के सिद्धान्तों को सुदृढ़ता से स्थापित करता है।",
+      "shlokaLabel": "अनुव्याख्यान कारिका"
+    },
+    "kannada": {
+      "title": "ನ್ಯಾಯಸುಧಾ",
+      "description": "ನ್ಯಾಯಸುಧಾ ಶ್ರೀ ಜಯತೀರ್ಥರು ಶ್ರೀಮನ್ಮಧ್ವಾಚಾರ್ಯರ ಅನುವ್ಯಾಖ್ಯಾನಕ್ಕೆ ಬರೆದ ಮಹೋನ್ನತ ಟೀಕಾ ಗ್ರಂಥವಾಗಿದೆ. ಇದು ದ್ವೈತ ಸಿದ್ಧಾಂತದ ಪ್ರಮುಖ ಆಧಾರಸ್ತಂಭವಾಗಿದ್ದು, ತತ್ವಶಾಸ್ತ್ರ ಲೋಕದಲ್ಲಿ ಅತ್ಯಂತ ಪ್ರಸಿದ್ಧವಾಗಿದೆ.",
+      "shlokaLabel": "ಅನುವ್ಯಾಖ್ಯಾನ ಕಾರಿಕಾ"
+    },
+    "tamil": {
+      "title": "நியாயசுதா",
+      "description": "நியாயசுதா என்பது ஸ்ரீ ஜெயதீர்த்தர் ஸ்ரீ மత్வாச்சாரியாரின் அனுவியாக்யானத்திற்கு எழுதிய ஒரு புகழ்பெற்ற உரையாகும். இது துவைத வேதாந்த தத்துவத்தின் தூణாகக் கருதப்படுகிறது.",
+      "shlokaLabel": "அனுவியாக்யான காரிகை"
+    },
+    "telugu": {
+      "title": "న్యాయసుధా",
+      "description": "న్యాయసుధా శ్రీ జయతీర్థులు శ్రీమన్మధ్వాచార్యుల అనువ్యాఖ్యానమునకు రచించిన మహాభాష్యము. ఇది ద్వైత సిద్ధాంతము యొక్క అత్యున్నత ప్రామాణిక గ్రంథము.",
+      "shlokaLabel": "అనువ్యాఖ్యాన కారికలు"
+    }
+  },
+  "chapters": {
+    "english": [
+      {
+        "id": "ad1-pd1-adh1-pt1",
+        "title": "Adhyaya 1, Pada 1, Adhikarana 1, Part 1",
+        "path": "books/nyaya-sudha/en/adhyaya1/pada1/adhikarana1/part1.md"
+      },
+      {
+        "id": "ad2-pd1-adh1-top1",
+        "title": "Adhyaya 2, Pada 1, Adhikarana 1: ॥ स्मृत्यधिकरणम् ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+      },
+      {
+        "id": "ad2-pd1-adh2-top1",
+        "title": "Adhyaya 2, Pada 1, Adhikarana 2: ॥ न विलक्षणत्वाधिकरणम् ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
+      }
+    ],
+    "sanskrit": [
+      {
+        "id": "ad1-pd1-adh1-pt1",
+        "title": "अध्यायः १, पादः १, अधिकरणम् १, विषयः १",
+        "path": "books/nyaya-sudha/sa/adhyaya1/pada1/adhikarana1/part1.md"
+      },
+      {
+        "id": "ad2-pd1-adh1-top1",
+        "title": "अध्यायः २, पादः १, अधिकरणम् १: ॥ स्मृत्यधिकरणम् ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+      },
+      {
+        "id": "ad2-pd1-adh2-top1",
+        "title": "अध्यायः २, पादः १, अधिकरणम् २: ॥ न विलक्षणत्वाधिकरणम् ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
+      }
+    ],
+    "hindi": [
+      {
+        "id": "ad1-pd1-adh1-pt1",
+        "title": "अध्याय १, पाद १, अधिकरण १, भाग १",
+        "path": "books/nyaya-sudha/hi/adhyaya1/pada1/adhikarana1/part1.md"
+      },
+      {
+        "id": "ad2-pd1-adh1-top1",
+        "title": "अध्याय २, पाद १, अधिकरण १: ॥ स्मृत्यधिकरणम् ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+      },
+      {
+        "id": "ad2-pd1-adh2-top1",
+        "title": "अध्याय २, पाद १, अधिकरण २: ॥ न विलक्षणत्वाधिकरणम् ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
+      }
+    ],
+    "kannada": [
+      {
+        "id": "ad1-pd1-adh1-pt1",
+        "title": "ಅಧ್ಯಾಯ ೧, ಪಾದ ೧, ಅಧಿಕರಣ ೧, ಭಾಗ ೧",
+        "path": "books/nyaya-sudha/kn/adhyaya1/pada1/adhikarana1/part1.md"
+      },
+      {
+        "id": "ad2-pd1-adh1-top1",
+        "title": "ಅಧ್ಯಾಯ ೨, ಪಾದ ೧, ಅಧಿಕರಣ ೧: ॥ ಸ್ಮೃತ್ಯಧಿಕರಣಮ್ ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+      },
+      {
+        "id": "ad2-pd1-adh2-top1",
+        "title": "ಅಧ್ಯಾಯ ೨, ಪಾದ ೧, ಅಧಿಕರಣ ೨: ॥ ನ ವಿಲಕ್ಷಣತ್ವಾದಧಿಕರಣಮ್ ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
+      }
+    ],
+    "tamil": [
+      {
+        "id": "ad1-pd1-adh1-pt1",
+        "title": "அத்தியாயம் 1, பாதம் 1, அதிகரணம் 1, பகுதி 1",
+        "path": "books/nyaya-sudha/ta/adhyaya1/pada1/adhikarana1/part1.md"
+      },
+      {
+        "id": "ad2-pd1-adh1-top1",
+        "title": "அத்தியாயம் 2, பாதம் 1, அதிகரணம் 1: ॥ ஸ்மிருத்யதிகரணம் ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+      },
+      {
+        "id": "ad2-pd1-adh2-top1",
+        "title": "அத்தியாயம் 2, பாதம் 1, அதிகரணம் 2: ॥ ந விலக்ஷணத்வாதிகரணம் ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
+      }
+    ],
+    "telugu": [
+      {
+        "id": "ad1-pd1-adh1-pt1",
+        "title": "అధ్యాయము 1, పాదము 1, అధికరణము 1, భాగము 1",
+        "path": "books/nyaya-sudha/te/adhyaya1/pada1/adhikarana1/part1.md"
+      },
+      {
+        "id": "ad2-pd1-adh1-top1",
+        "title": "అధ్యాయము 2, పాదము 1, అధికరణము 1: ॥ స్మృత్యధికరణము ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana1/topic1.md"
+      },
+      {
+        "id": "ad2-pd1-adh2-top1",
+        "title": "అధ్యాయము 2, పాదము 1, అధికరణము 2: ॥ న విలక్షణత్వాధికరణము ॥",
+        "path": "books/nyaya-sudha/sa/adhyaya2/pada1/adhikarana2/topic1.md"
+      }
+    ]
+  }
+}

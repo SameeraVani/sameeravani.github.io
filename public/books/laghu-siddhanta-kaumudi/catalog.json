@@ -1,0 +1,47 @@
+{
+  "id": "laghu-siddhanta-kaumudi",
+  "title": "Laghu Siddhanta Kaumudi",
+  "author": "Sri Varadarajacharya",
+  "year": "17th Century CE",
+  "genre": "Grammar / Vyakarana",
+  "description": "Laghu Siddhanta Kaumudi is a foundational Sanskrit grammar treatise by Sri Varadarajacharya, introducing Paninian sutras in a clear, pedagogical order.",
+  "coverUrl": "books/laghu-siddhanta-kaumudi/cover.png",
+  "languages": [
+    "sanskrit"
+  ],
+  "localized": {
+    "sanskrit": {
+      "title": "लघुसिद्धान्तकौमुदी",
+      "description": "श्रीवरदराजाचार्यविरचिता पाणिनीयव्याकरणप्रवेशाय सुप्रसिद्धा लघुसिद्धान्तकौमुदी।"
+    },
+    "english": {
+      "title": "Laghu Siddhanta Kaumudi",
+      "description": "A primer of Paninian Sanskrit grammar authored by Sri Varadarajacharya."
+    },
+    "hindi": {
+      "title": "लघुसिद्धान्तकौमुदी",
+      "description": "श्रीवरदराजाचार्य द्वारा विरचित पाणिनीय संस्कृत व्याकरण का प्रामाणिक एवं सुगम प्रवेश ग्रन्थ।"
+    },
+    "kannada": {
+      "title": "ಲಘುಸಿದ್ಧಾಂತಕೌಮುದೀ",
+      "description": "ಶ್ರೀ ವರದರಾಜಾಚಾರ್ಯರಿಂದ ರಚಿತವಾದ ಪಾಣಿನೀಯ ಸಂಸ್ಕೃತ ವ್ಯಾಕರಣ ಪ್ರವೇಶ ಗ್ರಂಥ."
+    },
+    "tamil": {
+      "title": "லகுசித்தாந்தகௌமுதீ",
+      "description": "ஸ்ரீ வரதராஜரால் இயற்றப்பட்ட பாணினீய சமஸ்கிருத இலக்கண நூல்."
+    },
+    "telugu": {
+      "title": "లఘుసిద్ధాంతకౌముది",
+      "description": "శ్రీ వరదరాజాచార్యుల చేత రచింపబడిన పాణినీయ సంస్కృత వ్యాకరణ గ్రంథము."
+    }
+  },
+  "chapters": {
+    "sanskrit": [
+      {
+        "id": "1",
+        "title": "१. संज्ञाप्रकरणम्",
+        "path": "books/laghu-siddhanta-kaumudi/sa/1.md"
+      }
+    ]
+  }
+}

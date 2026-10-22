@@ -25,6 +25,7 @@ export interface Book {
   title: string; // Default title
   description: string; // Default description
   shlokaLabel?: string;
+  chapterCount?: number;
   localized?: {
     [lang: string]: {
       title: string;

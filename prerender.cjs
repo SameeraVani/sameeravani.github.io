@@ -95,26 +95,37 @@ function writePage(subPath, title, description, coverImage) {
 }
 
 catalog.forEach((book) => {
-  const bookTitle = book.title;
-  const bookDesc = book.description;
-  const cover = book.coverUrl;
+  let bookData = book;
+  const perBookCatalog = path.join(__dirname, 'public/books', book.id, 'catalog.json');
+  if (fs.existsSync(perBookCatalog)) {
+    try {
+      const parsed = JSON.parse(fs.readFileSync(perBookCatalog, 'utf8'));
+      bookData = { ...book, ...parsed };
+    } catch (e) {
+      console.warn('Could not read per-book catalog for', book.id, e);
+    }
+  }
+
+  const bookTitle = bookData.title;
+  const bookDesc = bookData.description;
+  const cover = bookData.coverUrl;
 
   // 1. Write book-level page
-  writePage(`/books/${book.id}`, `${bookTitle} | SameeraVani`, bookDesc, cover);
+  writePage(`/books/${bookData.id}`, `${bookTitle} | SameeraVani`, bookDesc, cover);
 
   // 2. Write language and chapter pages
-  const languages = book.languages || [];
+  const languages = bookData.languages || [];
   languages.forEach((lang) => {
     let langTitle = bookTitle;
     let langDesc = bookDesc;
-    if (book.localized && book.localized[lang]) {
-      langTitle = book.localized[lang].title;
-      langDesc = book.localized[lang].description;
+    if (bookData.localized && bookData.localized[lang]) {
+      langTitle = bookData.localized[lang].title;
+      langDesc = bookData.localized[lang].description;
     }
 
-    writePage(`/books/${book.id}/${lang}`, `${langTitle} (${lang}) | SameeraVani`, langDesc, cover);
+    writePage(`/books/${bookData.id}/${lang}`, `${langTitle} (${lang}) | SameeraVani`, langDesc, cover);
 
-    const chapters = book.chapters?.[lang] || [];
+    const chapters = bookData.chapters?.[lang] || [];
     chapters.forEach((chapter) => {
       let chapterDesc = langDesc;
       const mdPath = path.join(__dirname, 'public', chapter.path);

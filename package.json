@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node prerender.cjs",
+    "sync:catalog": "node sync-catalog.cjs",
+    "build": "node sync-catalog.cjs && tsc -b && vite build && node prerender.cjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "node deploy.js"

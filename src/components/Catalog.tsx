@@ -62,22 +62,20 @@ export const Catalog: React.FC<CatalogProps> = ({
     
     const activeLang = bookProgress.currentLanguage || book.languages[0];
     const langChapters = book.chapters?.[activeLang];
-    if (!langChapters || langChapters.length === 0) return 0;
+    if (langChapters && langChapters.length > 0) {
+      // Find index of the current chapter
+      const currentIdx = langChapters.findIndex((c) => c.id === bookProgress.currentChapterId);
+      if (currentIdx !== -1) {
+        // Calculate percentage based on chapter index and the scroll position of that chapter
+        const totalChapters = langChapters.length;
+        const baseProgress = (currentIdx / totalChapters) * 100;
+        const chapterWeight = 100 / totalChapters;
+        const scrollContribution = (bookProgress.scrollPercent / 100) * chapterWeight;
+        return Math.min(Math.round(baseProgress + scrollContribution), 100);
+      }
+    }
 
-    // Find index of the current chapter
-    const currentIdx = langChapters.findIndex((c) => c.id === bookProgress.currentChapterId);
-    if (currentIdx === -1) return 0;
-
-    // Calculate percentage based on chapter index and the scroll position of that chapter
-    const totalChapters = langChapters.length;
-    
-    // Each chapter represents an equal fraction of the book
-    const baseProgress = (currentIdx / totalChapters) * 100;
-    const chapterWeight = 100 / totalChapters;
-    const scrollContribution = (bookProgress.scrollPercent / 100) * chapterWeight;
-    
-    const overall = Math.min(Math.round(baseProgress + scrollContribution), 100);
-    return overall;
+    return bookProgress.scrollPercent ? Math.min(Math.round(bookProgress.scrollPercent), 100) : 0;
   };
 
   if (loading) {
@@ -176,7 +174,7 @@ export const Catalog: React.FC<CatalogProps> = ({
                   <div className="book-meta" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', alignItems: 'center' }}>
                     <span>{book.year}</span>
                     <span> &bull; </span>
-                    <span>{book.chapters?.[book.languages[0]]?.length || 0} Chapters</span>
+                    <span>{book.chapterCount ?? book.chapters?.[book.languages[0]]?.length ?? 0} Chapters</span>
                     <span style={{ marginLeft: 'auto', display: 'flex', gap: '4px' }}>
                       {book.languages.map((lang) => {
                         const labels: Record<string, string> = {

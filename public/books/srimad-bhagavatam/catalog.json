@@ -1,0 +1,151 @@
+{
+  "id": "srimad-bhagavatam",
+  "title": "Srimad Bhagavatam",
+  "author": "Maharsi Vedavyasa",
+  "year": "Ancient",
+  "genre": "Scripture / Mahapurana / Bhakti",
+  "description": "Srimad Bhagavatam (Bhagavata Purana) is a sacred 12-Skanda Mahapurana composed by Maharsi Vedavyasa, celebrating supreme devotion (bhakti) to Lord Vishnu and His divine avatars.",
+  "coverUrl": "books/srimad-bhagavatam/cover.png",
+  "languages": [
+    "english",
+    "sanskrit",
+    "kannada"
+  ],
+  "shlokaLabel": "Adhyaya",
+  "localized": {
+    "sanskrit": {
+      "title": "श्रीमद्भागवतपुराणम्",
+      "description": "महर्षिवेदव्यासप्रणीतं द्वादशस्कन्धात्मकं श्रीमद्भागवतपुराणम्। अस्मिन् महापुराणे भगवतो विष्णोः लीलावताराणां तथा शुद्धभक्तेः महिमा वर्णितः।",
+      "shlokaLabel": "अध्यायः"
+    },
+    "kannada": {
+      "title": "ಶ್ರೀಮದ್ಭಾಗವತಮ್",
+      "description": "ಮಹರ್ಷಿ ವೇದವ್ಯಾಸ ವಿರಚಿತ ೧೨ ಸ್ಕಂಧಗಳ ಮಹೋನ್ನತ ಮಹಾಪುರಾಣ. ಶ್ರೀಮನ್ನಾರಾಯಣನ ದಿವ್ಯ ಲೀಲೆಗಳು ಮತ್ತು ಭಕ್ತಿ ಮಾರ್ಗದ ಪವಿತ್ರ ಗ್ರಂಥ.",
+      "shlokaLabel": "ಅಧ್ಯಾಯ"
+    },
+    "english": {
+      "title": "Srimad Bhagavatam",
+      "description": "A 12-Skanda Mahapurana composed by Maharsi Vedavyasa glorifying Lord Vishnu and pure devotion.",
+      "shlokaLabel": "Adhyaya"
+    }
+  },
+  "chapters": {
+    "sanskrit": [
+      {
+        "id": "skanda-3",
+        "title": "तृतीयस्कन्धः",
+        "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md",
+        "topics": [
+          {
+            "id": "sk3-ch19",
+            "title": "अध्यायः १९",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md"
+          },
+          {
+            "id": "sk3-ch20",
+            "title": "अध्यायः २०",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch20.md"
+          },
+          {
+            "id": "sk3-ch21",
+            "title": "अध्यायः २१",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch21.md"
+          },
+          {
+            "id": "sk3-ch22",
+            "title": "अध्यायः २२",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch22.md"
+          },
+          {
+            "id": "sk3-ch23",
+            "title": "अध्यायः २३",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch23.md"
+          },
+          {
+            "id": "sk3-ch24",
+            "title": "अध्यायः २४",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch24.md"
+          }
+        ]
+      }
+    ],
+    "kannada": [
+      {
+        "id": "skanda-3",
+        "title": "ತೃತೀಯಸ್ಕಂಧಃ",
+        "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md",
+        "topics": [
+          {
+            "id": "sk3-ch19",
+            "title": "ಅಧ್ಯಾಯ ೧೯",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md"
+          },
+          {
+            "id": "sk3-ch20",
+            "title": "ಅಧ್ಯಾಯ ೨೦",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch20.md"
+          },
+          {
+            "id": "sk3-ch21",
+            "title": "ಅಧ್ಯಾಯ ೨೧",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch21.md"
+          },
+          {
+            "id": "sk3-ch22",
+            "title": "ಅಧ್ಯಾಯ ೨೨",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch22.md"
+          },
+          {
+            "id": "sk3-ch23",
+            "title": "ಅಧ್ಯಾಯ ೨೩",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch23.md"
+          },
+          {
+            "id": "sk3-ch24",
+            "title": "ಅಧ್ಯಾಯ ೨೪",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch24.md"
+          }
+        ]
+      }
+    ],
+    "english": [
+      {
+        "id": "skanda-3",
+        "title": "Skanda 3",
+        "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md",
+        "topics": [
+          {
+            "id": "sk3-ch19",
+            "title": "Chapter 19",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch19.md"
+          },
+          {
+            "id": "sk3-ch20",
+            "title": "Chapter 20",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch20.md"
+          },
+          {
+            "id": "sk3-ch21",
+            "title": "Chapter 21",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch21.md"
+          },
+          {
+            "id": "sk3-ch22",
+            "title": "Chapter 22",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch22.md"
+          },
+          {
+            "id": "sk3-ch23",
+            "title": "Chapter 23",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch23.md"
+          },
+          {
+            "id": "sk3-ch24",
+            "title": "Chapter 24",
+            "path": "books/srimad-bhagavatam/sa/skanda3/ch24.md"
+          }
+        ]
+      }
+    ]
+  }
+}

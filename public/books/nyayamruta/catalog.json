@@ -1,0 +1,74 @@
+{
+  "id": "nyayamruta",
+  "title": "Nyayamruta",
+  "author": "Sri Vyasarajaru",
+  "year": "15th Century CE",
+  "genre": "Philosophy / Vedanta",
+  "description": "Nyayamruta is a monumental work by Sri Vyasarajaru defending the Dvaita philosophy against Advaita.",
+  "coverUrl": "books/nyayamruta/cover_nyayamruta.png",
+  "languages": [
+    "sanskrit"
+  ],
+  "localized": {
+    "sanskrit": {
+      "title": "न्यायामृतम्",
+      "description": "न्यायामृतम् श्रीव्यासराजविरचितं अद्वैतमतखण्डनपूर्वकं द्वैतसिद्धान्तस्थापनपरं महाग्रन्थम्।"
+    }
+  },
+  "chapters": {
+    "sanskrit": [
+      {
+        "id": "paricheda-1-prakarana-1",
+        "title": "प्रथमपरिच्छेदः - 1. मिथ्यात्वनिरुक्तिभङ्गः",
+        "path": "books/nyayamruta/sa/paricheda1/prakarana1/index.md",
+        "topics": [
+          {
+            "id": "paricheda-1-prakarana-1-topic-1",
+            "title": "मङ्गलाचरणम्",
+            "path": "books/nyayamruta/sa/paricheda1/prakarana1/1.md"
+          },
+          {
+            "id": "paricheda-1-prakarana-1-topic-2",
+            "title": "विप्रतिपत्तिविचारः",
+            "path": "books/nyayamruta/sa/paricheda1/prakarana1/2.md"
+          },
+          {
+            "id": "paricheda-1-prakarana-1-topic-3",
+            "title": "मिथ्यात्वे परोक्तानुमानानि - भाग - १",
+            "path": "books/nyayamruta/sa/paricheda1/prakarana1/3.md"
+          },
+          {
+            "id": "paricheda-1-prakarana-1-topic-4",
+            "title": "मिथ्यात्वे परोक्तानुमानानि - भाग - २",
+            "path": "books/nyayamruta/sa/paricheda1/prakarana1/4.md"
+          },
+          {
+            "id": "paricheda-1-prakarana-1-topic-5",
+            "title": "मिथ्यात्वे परोक्तानुमानानि - भाग - ३",
+            "path": "books/nyayamruta/sa/paricheda1/prakarana1/5.md"
+          },
+          {
+            "id": "paricheda-1-prakarana-1-topic-6",
+            "title": "मिथ्यात्वनिर्वचनम् भाग - १",
+            "path": "books/nyayamruta/sa/paricheda1/prakarana1/6.md"
+          },
+          {
+            "id": "paricheda-1-prakarana-1-topic-7",
+            "title": "मिथ्यात्वनिर्वचनम् भाग - २",
+            "path": "books/nyayamruta/sa/paricheda1/prakarana1/7.md"
+          },
+          {
+            "id": "paricheda-1-prakarana-1-topic-8",
+            "title": "मिथ्यात्वनिर्वचनम् भाग - ३",
+            "path": "books/nyayamruta/sa/paricheda1/prakarana1/8.md"
+          },
+          {
+            "id": "paricheda-1-prakarana-1-topic-9",
+            "title": "दृश्यत्वस्वरूपविचारः",
+            "path": "books/nyayamruta/sa/paricheda1/prakarana1/9.md"
+          }
+        ]
+      }
+    ]
+  }
+}
