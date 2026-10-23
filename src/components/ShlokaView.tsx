@@ -134,7 +134,7 @@ export const parseChapterShlokas = (content: string): ParsedShloka[] => {
     }
   });
 
-  // Fallback: If no **श्लोकः** blocks were found, parse headings (#### Part 1, ### Adhikarana, etc.)
+  // Fallback: If no **श्लोकः** blocks were found, parse headings (### Part 1, etc.)
   if (parsedShlokas.length === 0) {
     const headingSections = parseHeadingSections(content);
     if (headingSections.length > 0) {

@@ -120,7 +120,7 @@ export const parseShlokas = (content: string): ShlokaIndexItem[] => {
 
   if (items.length > 0) return items;
 
-  // Fallback: Parse section / part / topic headings (### or ####)
+  // Fallback: Parse section / part / topic headings (### only)
   return parseHeadingSections(content);
 };
 
@@ -129,11 +129,11 @@ export const parseHeadingSections = (content: string): ShlokaIndexItem[] => {
 
   const lines = content.split('\n');
   
-  // Find all line indices of heading boundaries (### or #### or bold **Part N**)
+  // Find all line indices of heading boundaries (### only or bold **Part N**)
   const headingIndices: number[] = [];
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
-    if (line.match(/^#{2,4}\s+/) || line.match(/^\*\*(?:Part|भाग|विषय)\s*[०-९\d]+/i)) {
+    if (line.match(/^###\s+/) || line.match(/^\*\*(?:Part|भाग|विषय)\s*[०-९\d]+/i)) {
       // Exclude document-level metadata headers and Adhikarana danda headers
       if (
         line.startsWith('# अध्याय') ||
@@ -169,7 +169,7 @@ export const parseHeadingSections = (content: string): ShlokaIndexItem[] => {
     const rawBlock = rawBlockLines.join('\n').trim();
 
     const headingLine = lines[startLineIdx].trim();
-    const rawHeading = headingLine.replace(/^#{2,4}\s+/, '').replace(/^\*\*|\*\*$/g, '').trim();
+    const rawHeading = headingLine.replace(/^###\s+/, '').replace(/^\*\*|\*\*$/g, '').trim();
     const cleanHeading = stripMarkdown(rawHeading);
 
     if (!cleanHeading) continue;
