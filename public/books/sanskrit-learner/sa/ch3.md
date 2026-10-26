@@ -40,7 +40,7 @@ language: "sa"
   <div>6. <b>क् + ष् + अ = क्ष</b><br/><span style="color: var(--text-secondary); font-size: 0.9em; padding-left: 1.2rem; display: inline-block;">(क्षणम्)</span></div>
   <div>7. <b>क् + स् + अ = क्स</b><br/><span style="color: var(--text-secondary); font-size: 0.9em; padding-left: 1.2rem; display: inline-block;">(वाक्समूहः)</span></div>
   <div>8. <b>ख् + य् + अ = ख्य</b><br/><span style="color: var(--text-secondary); font-size: 0.9em; padding-left: 1.2rem; display: inline-block;">(मुख्यः)</span></div>
-  <div>9. <b>ग् + ग् + अ = ग्ग</b><br/><span style="color: var(--text-secondary); font-size: 0.9em; padding-left: 1.2rem; display: inline-block;">(दग्गजः)</span></div>
+  <div>9. <b>ग् + ग् + अ = ग्ग</b><br/><span style="color: var(--text-secondary); font-size: 0.9em; padding-left: 1.2rem; display: inline-block;">(दिग्गजः)</span></div>
   <div>10. <b>ग् + म् + अ = ग्म</b><br/><span style="color: var(--text-secondary); font-size: 0.9em; padding-left: 1.2rem; display: inline-block;">(युग्मम्)</span></div>
   <div>11. <b>ग् + य् + अ = ग्य</b><br/><span style="color: var(--text-secondary); font-size: 0.9em; padding-left: 1.2rem; display: inline-block;">(भाग्यम्)</span></div>
   <div>12. <b>घ् + य् + अ = घ्य</b><br/><span style="color: var(--text-secondary); font-size: 0.9em; padding-left: 1.2rem; display: inline-block;">(अर्घ्यम्)</span></div>
