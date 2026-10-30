@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { LetterPractice } from './LetterPractice';
 import { WordPractice } from './WordPractice';
 import { SentencePractice } from './SentencePractice';
-import { ArrowLeft, Type, AlignLeft, MessageSquare } from 'lucide-react';
+import { GrammarGame } from './GrammarGame';
+import { ArrowLeft, Type, AlignLeft, MessageSquare, Award } from 'lucide-react';
 
 interface PracticeDashboardProps {
   onBack: () => void;
@@ -10,7 +11,7 @@ interface PracticeDashboardProps {
 }
 
 export const PracticeDashboard: React.FC<PracticeDashboardProps> = ({ onBack, activeLanguage }) => {
-  const [activeModule, setActiveModule] = useState<'menu' | 'letters' | 'words' | 'sentences'>('menu');
+  const [activeModule, setActiveModule] = useState<'menu' | 'letters' | 'words' | 'sentences' | 'grammar'>('menu');
   const [sessionScore, setSessionScore] = useState(0);
 
   const handleComplete = (scoreEarned: number) => {
@@ -25,7 +26,8 @@ export const PracticeDashboard: React.FC<PracticeDashboardProps> = ({ onBack, ac
       back: 'పఠనానికి తిరిగి వెళ్ళు',
       alphabet: 'అక్షరమాల',
       vocab: 'పదజాలం',
-      sentences: 'వాక్యాలు'
+      sentences: 'వాక్యాలు',
+      grammar: 'వ్యాకరణ క్రీడ'
     },
     ta: {
       title: 'சமஸ்கிருத பயிற்சி அறை',
@@ -34,7 +36,8 @@ export const PracticeDashboard: React.FC<PracticeDashboardProps> = ({ onBack, ac
       back: 'வாசிப்புக்குத் திரும்பு',
       alphabet: 'எழுத்துக்கள்',
       vocab: 'சொற்களஞ்சியம்',
-      sentences: 'வாக்கியங்கள்'
+      sentences: 'வாக்கியங்கள்',
+      grammar: 'இலக்கண விளையாட்டு'
     },
     kn: {
       title: 'ಸಂಸ್ಕೃತ ಅಭ್ಯಾಸ ಕೊಠಡಿ',
@@ -43,7 +46,8 @@ export const PracticeDashboard: React.FC<PracticeDashboardProps> = ({ onBack, ac
       back: 'ಓದುವಿಕೆಗೆ ಹಿಂತಿರುಗಿ',
       alphabet: 'ವರ್ಣಮಾಲೆ',
       vocab: 'ಶಬ್ದಕೋಶ',
-      sentences: 'ವಾಕ್ಯಗಳು'
+      sentences: 'ವಾಕ್ಯಗಳು',
+      grammar: 'ವ್ಯಾಕರಣ ಆಟ'
     },
     sa: {
       title: 'अभ्यास कक्षः',
@@ -52,7 +56,8 @@ export const PracticeDashboard: React.FC<PracticeDashboardProps> = ({ onBack, ac
       back: 'प्रतिगच्छ',
       alphabet: 'अक्षरम्',
       vocab: 'शब्दः',
-      sentences: 'वाक्यम्'
+      sentences: 'वाक्यम्',
+      grammar: 'व्याकरण-क्रीडा'
     }
   };
 
@@ -61,6 +66,7 @@ export const PracticeDashboard: React.FC<PracticeDashboardProps> = ({ onBack, ac
   if (activeModule === 'letters') return <LetterPractice onBack={() => setActiveModule('menu')} onComplete={handleComplete} activeLanguage={activeLanguage} />;
   if (activeModule === 'words') return <WordPractice onBack={() => setActiveModule('menu')} onComplete={handleComplete} activeLanguage={activeLanguage} />;
   if (activeModule === 'sentences') return <SentencePractice onBack={() => setActiveModule('menu')} onComplete={handleComplete} activeLanguage={activeLanguage} />;
+  if (activeModule === 'grammar') return <GrammarGame onBack={() => setActiveModule('menu')} onComplete={handleComplete} />;
 
   return (
     <div className="practice-dashboard" style={{ padding: '40px', maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
@@ -102,6 +108,16 @@ export const PracticeDashboard: React.FC<PracticeDashboardProps> = ({ onBack, ac
           <MessageSquare size={48} color="#60a5fa" />
           <h2 style={{ fontSize: '1.5rem', margin: 0 }}>{l.sentences}</h2>
           <span style={{ color: 'var(--text-muted)' }}>वाक्यम्</span>
+        </button>
+
+        <button 
+          onClick={() => setActiveModule('grammar')}
+          className="practice-card-btn"
+          style={{ padding: '30px', borderRadius: '16px', background: 'var(--bg-secondary)', border: '2px solid var(--border)', cursor: 'pointer', transition: 'all 0.2s', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '15px' }}
+        >
+          <Award size={48} color="#f59e0b" />
+          <h2 style={{ fontSize: '1.5rem', margin: 0 }}>{l.grammar || 'व्याकरण-क्रीडा'}</h2>
+          <span style={{ color: 'var(--text-muted)' }}>शब्द-धातु-सन्धि-वृत्तयः</span>
         </button>
       </div>
     </div>

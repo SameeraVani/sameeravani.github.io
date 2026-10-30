@@ -1,0 +1,12 @@
+{
+  "title": "व्याकरण-ज्ञानपरीक्षा (Sanskrit Grammar Quiz)",
+  "categories": [
+    { "id": "all", "label": "सर्वम्", "count": 48 },
+    { "id": "shabda", "label": "शब्दरूपाणि", "count": 12 },
+    { "id": "dhatu", "label": "धातुरूपाणि", "count": 12 },
+    { "id": "sandhi", "label": "सन्धिप्रकरणम्", "count": 12 },
+    { "id": "vrutti", "label": "वृत्तयः समासाश्च", "count": 12 }
+  ],
+  "totalQuestions": 48
+}
+

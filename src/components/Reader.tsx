@@ -26,6 +26,7 @@ import {
 
 import { downloadChapterAsPdf, downloadFullBookAsPdf, acquireSaveFileHandle } from '../utils/download';
 import { PracticeDashboard } from './practice/PracticeDashboard';
+import { GrammarGame } from './practice/GrammarGame';
 import { parseShlokas, ShlokaDashboard } from './ShlokaIndex';
 import type { ShlokaIndexItem } from './ShlokaIndex';
 import { parseChapterShlokas, ShlokaListView, SingleShlokaViewer, ChapterQuizView, navLabels } from './ShlokaView';
@@ -392,6 +393,9 @@ export const Reader: React.FC<ReaderProps> = ({
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!book || !activeLanguage || settingsOpen || activeChapterId === '') return;
+      const activeTag = (document.activeElement?.tagName || '').toLowerCase();
+      if (['input', 'select', 'textarea'].includes(activeTag)) return;
+      if (activeChapterId === 'ch13') return;
 
       const langChapters = book.chapters?.[activeLanguage] || [];
       const flatLangChapters = flattenChapters(langChapters);
@@ -1922,23 +1926,28 @@ export const Reader: React.FC<ReaderProps> = ({
                         className={`reader-markdown read-font-${settings.fontFamily} lh-${settings.lineHeight}`}
                         style={{ fontSize: `${settings.fontSize}px` }}
                       >
-                        <ReactMarkdown
-                          remarkPlugins={[remarkGfm]}
-                          rehypePlugins={[rehypeRaw]}
-                          components={{
-                            img: ({ node, src, ...props }) => {
-                              let resolvedSrc = src;
-                              if (src && !src.startsWith('http://') && !src.startsWith('https://') && !src.startsWith('/')) {
-                                resolvedSrc = `${import.meta.env.BASE_URL}${src}`;
+                        {activeChapterId === 'ch13' ? (
+                          <GrammarGame embedded={true} />
+                        ) : (
+                          <ReactMarkdown
+                            remarkPlugins={[remarkGfm]}
+                            rehypePlugins={[rehypeRaw]}
+                            components={{
+                              img: ({ node, src, ...props }) => {
+                                let resolvedSrc = src;
+                                if (src && !src.startsWith('http://') && !src.startsWith('https://') && !src.startsWith('/')) {
+                                  resolvedSrc = `${import.meta.env.BASE_URL}${src}`;
+                                }
+                                return <img src={resolvedSrc} {...props} style={{ maxWidth: '100%', height: 'auto' }} />;
                               }
-                              return <img src={resolvedSrc} {...props} style={{ maxWidth: '100%', height: 'auto' }} />;
-                            }
-                          }}
-                        >
-                          {parsedShlokas.some(s => s.number.toLowerCase().includes('part') || s.number.toLowerCase().includes('topic') || s.number.toLowerCase().includes('section'))
-                            ? sanitizeCommentaryMarkdown(chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, ''))
-                            : transformCommentaryToCollapsible(chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, ''))}
-                        </ReactMarkdown>
+                            }}
+                          >
+                            {parsedShlokas.some(s => s.number.toLowerCase().includes('part') || s.number.toLowerCase().includes('topic') || s.number.toLowerCase().includes('section'))
+                              ? sanitizeCommentaryMarkdown(chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, ''))
+                              : transformCommentaryToCollapsible(chapterContent.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, ''))}
+                          </ReactMarkdown>
+                        )}
+
 
                         {/* Next / Prev Chapter buttons */}
                         <div className="chapter-nav-buttons">

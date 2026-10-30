@@ -139,6 +139,21 @@
         "id": "ch10",
         "title": "दशमः पाठः: समासाः वृत्तयश्च",
         "path": "books/sanskrit-learner/sa/ch10.md"
+      },
+      {
+        "id": "ch11",
+        "title": "एकादशः पाठः: सम्भाषणाभ्यासः",
+        "path": "books/sanskrit-learner/sa/ch11.md"
+      },
+      {
+        "id": "ch12",
+        "title": "द्वादशः पाठः: कालपरिचयः (वाराः, मासाः, ऋतवः)",
+        "path": "books/sanskrit-learner/sa/ch12.md"
+      },
+      {
+        "id": "ch13",
+        "title": "त्रयोदशः पाठः: व्याकरण-क्रीडा तथा ज्ञानपरीक्षा (शब्द-धातु-सन्धि-वृत्तयः)",
+        "path": "books/sanskrit-learner/sa/ch13.md"
       }
     ],
     "hindi": [
