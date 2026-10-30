@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "sameeravani-books",
     "public": "dist",
     "ignore": [
       "firebase.json",
