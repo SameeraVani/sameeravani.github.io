@@ -40,7 +40,7 @@ try {
 run('git push origin main', '4. Pushing commits to remote (GitHub)');
 
 // 5. Firebase deploy
-run('npx firebase deploy --only hosting', '5. Deploying to Firebase Hosting');
+run('npx firebase-tools deploy --only hosting', '5. Deploying to Firebase Hosting');
 
 console.log(`\n✨ ========================================`);
 console.log(`🎉 All done successfully!`);

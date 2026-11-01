@@ -45,7 +45,7 @@ if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 Write-Host "`n========================================" -ForegroundColor DarkGray
 Write-Host "[5/5] Deploying to Firebase Hosting..." -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor DarkGray
-npx firebase deploy --only hosting
+npx firebase-tools deploy --only hosting
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
 Write-Host "`n========================================" -ForegroundColor Green
