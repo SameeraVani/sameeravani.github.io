@@ -59,6 +59,22 @@ const flattenChapters = (chapters: Chapter[]): Chapter[] => {
   }, []);
 };
 
+const combineChapterFiles = (texts: string[]): string => {
+  if (texts.length === 0) return '';
+  if (texts.length === 1) return texts[0];
+
+  const cleanSubsequent = (text: string): string => {
+    let clean = text.replace(/^---[\s\S]*?---\r?\n/, '').trim();
+    const firstPartIndex = clean.search(/(?:^|\n)###\s+Part/i);
+    if (firstPartIndex !== -1) {
+      clean = clean.substring(firstPartIndex).trim();
+    }
+    return clean;
+  };
+
+  return [texts[0], ...texts.slice(1).map(cleanSubsequent)].join('\n\n---\n\n');
+};
+
 export const Reader: React.FC<ReaderProps> = ({
   bookId,
   onBack,
@@ -186,7 +202,7 @@ export const Reader: React.FC<ReaderProps> = ({
         if (initialLang) {
           const chapters = found.chapters?.[initialLang] || [];
           const flatChapters = flattenChapters(chapters);
-          const matchedChapter = flatChapters.find((c) => c.id === urlChapter) || flatChapters.find((c) => urlChapter && c.id.startsWith(urlChapter));
+          const matchedChapter = flatChapters.find((c) => c.id === urlChapter) || flatChapters.find((c) => urlChapter && (c.id.startsWith(urlChapter) || urlChapter.startsWith(c.id)));
           if (urlChapter && matchedChapter) {
             initialChapter = matchedChapter.id;
             if (savedProgress && savedProgress.currentLanguage === initialLang && savedProgress.currentChapterId === matchedChapter.id) {
@@ -221,7 +237,7 @@ export const Reader: React.FC<ReaderProps> = ({
         }
         const chapters = book.chapters?.[route.lang || ''] || [];
         const flatChapters = flattenChapters(chapters);
-        const matchedChapter = flatChapters.find((c) => c.id === route.chapterId) || flatChapters.find((c) => route.chapterId && c.id.startsWith(route.chapterId));
+        const matchedChapter = flatChapters.find((c) => c.id === route.chapterId) || flatChapters.find((c) => route.chapterId && (c.id.startsWith(route.chapterId) || route.chapterId.startsWith(c.id)));
         if (route.chapterId && matchedChapter) {
           setActiveChapterId(matchedChapter.id);
         } else {
@@ -256,9 +272,20 @@ export const Reader: React.FC<ReaderProps> = ({
 
       for (const chapter of flatLangChapters) {
         try {
-          const res = await fetch(`${import.meta.env.BASE_URL}${chapter.path}?t=${Date.now()}`);
-          if (res.ok) {
-            const text = await res.text();
+          let text = '';
+          if (chapter.paths && chapter.paths.length > 0) {
+            const promises = chapter.paths.map(p =>
+              fetch(`${import.meta.env.BASE_URL}${p}?t=${Date.now()}`).then(r => r.ok ? r.text() : '')
+            );
+            const texts = await Promise.all(promises);
+            text = combineChapterFiles(texts);
+          } else {
+            const res = await fetch(`${import.meta.env.BASE_URL}${chapter.path}?t=${Date.now()}`);
+            if (res.ok) {
+              text = await res.text();
+            }
+          }
+          if (text) {
             contentsMap[chapter.id] = text;
           }
         } catch (e) {
@@ -294,7 +321,16 @@ export const Reader: React.FC<ReaderProps> = ({
     setLoadingChapter(true);
 
     const fetchChapterText = async (): Promise<string> => {
-      if (activeChapter.topics && activeChapter.topics.length > 0) {
+      if (activeChapter.paths && activeChapter.paths.length > 0) {
+        const promises = activeChapter.paths.map(p =>
+          fetch(`${import.meta.env.BASE_URL}${p}?t=${Date.now()}`).then(r => {
+            if (!r.ok) throw new Error(`Failed to load chapter file: ${p}`);
+            return r.text();
+          })
+        );
+        const texts = await Promise.all(promises);
+        return combineChapterFiles(texts);
+      } else if (activeChapter.topics && activeChapter.topics.length > 0) {
         const topicPromises = activeChapter.topics.map(t =>
           fetch(`${import.meta.env.BASE_URL}${t.path}?t=${Date.now()}`).then(r => {
             if (!r.ok) throw new Error(`Failed to load topic file: ${t.title}`);
@@ -302,7 +338,7 @@ export const Reader: React.FC<ReaderProps> = ({
           })
         );
         const topicTexts = await Promise.all(topicPromises);
-        return topicTexts.join('\n\n---\n\n');
+        return combineChapterFiles(topicTexts);
       } else {
         const res = await fetch(`${import.meta.env.BASE_URL}${activeChapter.path}?t=${Date.now()}`);
         if (!res.ok) throw new Error(`Failed to load chapter file: ${activeChapter.title}`);

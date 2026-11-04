@@ -2,6 +2,7 @@ export interface Chapter {
   id: string;
   title: string;
   path: string;
+  paths?: string[];
   shlokaLabel?: string;
   topics?: Chapter[];
 }

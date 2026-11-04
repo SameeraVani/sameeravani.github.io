@@ -235,9 +235,20 @@ export async function downloadFullBookAsPdf(book: Book, language: string, fileHa
 
   for (const chapter of chapters) {
     try {
-      const res = await fetch(`${import.meta.env.BASE_URL}${chapter.path}?t=${Date.now()}`);
-      if (res.ok) {
-        let text = await res.text();
+      let text = '';
+      if (chapter.paths && chapter.paths.length > 0) {
+        const promises = chapter.paths.map(p =>
+          fetch(`${import.meta.env.BASE_URL}${p}?t=${Date.now()}`).then(r => r.ok ? r.text() : '')
+        );
+        const texts = await Promise.all(promises);
+        text = texts.filter(Boolean).join('\n\n---\n\n');
+      } else {
+        const res = await fetch(`${import.meta.env.BASE_URL}${chapter.path}?t=${Date.now()}`);
+        if (res.ok) {
+          text = await res.text();
+        }
+      }
+      if (text) {
         text = text.replace(/!\[([^\]]*)\]\((?!http|\/)([^)]+)\)/g, `![$1](${window.location.origin}${import.meta.env.BASE_URL}$2)`);
         const rawHtml = await marked(text);
         const cleanHtml = DOMPurify.sanitize(rawHtml);
