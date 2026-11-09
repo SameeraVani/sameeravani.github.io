@@ -2,24 +2,16 @@ const fs = require('fs');
 const path = require('path');
 
 // Determine repo base url & domain url
-const githubRepo = process.env.GITHUB_REPOSITORY || '';
-let owner = 'sameeravani';
-let repo = 'svbooks';
-let isRootDomain = false;
-
-if (githubRepo) {
-  const parts = githubRepo.split('/');
-  owner = parts[0];
-  repo = parts[1];
-  isRootDomain = repo.toLowerCase() === `${owner.toLowerCase()}.github.io`;
-}
-
-const baseUrl = githubRepo ? (isRootDomain ? '/' : `/${repo}/`) : '/';
-const domainUrl = `https://${owner.toLowerCase()}.github.io${isRootDomain ? '' : `/${repo}`}`;
+const domainUrl = (process.env.SITE_URL || 'https://sameeravani-books.web.app').replace(/\/+$/, '');
+const baseUrl = '/';
 
 console.log(`Prerendering configurations:`);
 console.log(`- Domain URL: ${domainUrl}`);
 console.log(`- Base Path: ${baseUrl}`);
+
+// Sitemaps tracking
+const sitemapUrls = new Map();
+sitemapUrls.set('/', { loc: `${domainUrl}/`, priority: '1.0', changefreq: 'daily' });
 
 const distDir = path.join(__dirname, 'dist');
 const catalogPath = path.join(__dirname, 'public/books/catalog.json');
@@ -88,8 +80,24 @@ function writePage(subPath, title, description, coverImage) {
   html = html.replace(/<meta property="og:image" content="[^"]*" \/>/g, `<meta property="og:image" content="${absoluteCoverUrl}" />`);
   html = html.replace(/<meta name="twitter:image" content="[^"]*" \/>/g, `<meta name="twitter:image" content="${absoluteCoverUrl}" />`);
 
+  // Canonical link replacement
+  html = html.replace(/<link rel="canonical" href="[^"]*" \/>/g, `<link rel="canonical" href="${fullUrl}" />`);
+
   // URL replacement
   html = html.replace(/<meta property="og:url" content="[^"]*" \/>/g, `<meta property="og:url" content="${fullUrl}" />`);
+
+  // Record for sitemap
+  const pathParts = cleanSubPath.split('/').filter(Boolean);
+  let priority = '0.7';
+  let changefreq = 'weekly';
+  if (pathParts.length <= 1) {
+    priority = '0.9';
+    changefreq = 'daily';
+  } else if (pathParts.length === 2) {
+    priority = '0.8';
+    changefreq = 'weekly';
+  }
+  sitemapUrls.set(cleanSubPath, { loc: fullUrl, priority, changefreq });
 
   fs.writeFileSync(path.join(targetDir, 'index.html'), html, 'utf8');
 }
@@ -270,6 +278,34 @@ if (fs.existsSync(articlesCatalogPath)) {
       }
     });
   });
+}
+
+// Generate sitemap.xml
+const today = new Date().toISOString().split('T')[0];
+const urlEntries = Array.from(sitemapUrls.values()).map(
+  (u) => `  <url>
+    <loc>${u.loc}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>${u.changefreq}</changefreq>
+    <priority>${u.priority}</priority>
+  </url>`
+);
+
+const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urlEntries.join('\n')}
+</urlset>
+`;
+
+fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemapXml, 'utf8');
+fs.writeFileSync(path.join(__dirname, 'public/sitemap.xml'), sitemapXml, 'utf8');
+console.log(`Generated sitemap.xml with ${sitemapUrls.size} URLs.`);
+
+// Ensure robots.txt in dist/
+const robotsSrc = path.join(__dirname, 'public/robots.txt');
+if (fs.existsSync(robotsSrc)) {
+  fs.copyFileSync(robotsSrc, path.join(distDir, 'robots.txt'));
+  console.log(`Verified robots.txt in dist/`);
 }
 
 console.log(`Pre-rendering finished successfully! Generated metadata-optimized files.`);
