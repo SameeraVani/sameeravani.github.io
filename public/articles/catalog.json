@@ -18,5 +18,48 @@
         "path": "articles/bhagavad-gita/atma-sakshi-faq2.md"
       }
     ]
+  },
+  {
+    "id": "sthree-dharma",
+    "title": "Sthree Dharma",
+    "category": "Dharma Shastra",
+    "description": "Authentic guidelines, spiritual significance, and practices of Sthree Dharma according to Shastras.",
+    "coverUrl": "books/default-cover.png",
+    "localized": {
+      "english": {
+        "title": "Sthree Dharma",
+        "description": "Authentic guidelines, spiritual significance, and practices of Sthree Dharma according to Shastras."
+      },
+      "sanskrit": {
+        "title": "स्त्रीधर्मः",
+        "description": "प्रामाणिकशास्त्रोक्तः स्त्रीधर्मविचारः, तस्य आध्यात्मिकं महत्त्वं च।"
+      },
+      "kannada": {
+        "title": "ಸ್ತ್ರೀ ಧರ್ಮ",
+        "description": "ಪ್ರಾಮಾಣಿಕ ಶಾಸ್ತ್ರೋಕ್ತ ಸ್ತ್ರೀ ಧರ್ಮದ ಪರಿಚಯ, ನಿಯಮಗಳು ಮತ್ತು ಮಹತ್ವ."
+      },
+      "tamil": {
+        "title": "ஸ்த்ரீ தர்மம்",
+        "description": "சாஸ்திரங்கள் கூறும் ஸ்த்ரீ தர்மத்தின் நியமங்கள் மற்றும் அதன் ஆன்மீக முக்கியத்துவம்."
+      },
+      "telugu": {
+        "title": "స్త్రీ ధర్మము",
+        "description": "ప్రామాణిక శాస్త్రోక్త స్త్రీ ధర్మ పరిచయము, నియమములు మరియు ప్రాముఖ్యత."
+      },
+      "hindi": {
+        "title": "स्त्री धर्म",
+        "description": "प्रामाणिक शास्त्रों के अनुसार स्त्री धर्म का परिचय, नियम और आध्यात्मिक महत्त्व।"
+      }
+    },
+    "lessons": [
+      {
+        "id": "tattvavada-navaprameya",
+        "path": "articles/sthree-dharma/tattvavada-navaprameya.md"
+      },
+      {
+        "id": "satkarma-anushtana",
+        "path": "articles/sthree-dharma/satkarma-anushtana.md"
+      }
+    ]
   }
 ]
